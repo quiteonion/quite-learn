@@ -13,7 +13,10 @@ public class Revolver {
     }
 
     public void setAmmo(){
-        this.ammo = new int[];
+        for (int i : this.ammo) {
+            
+        }
+
     }
     public int getAmmo(){
         return ammo[6];

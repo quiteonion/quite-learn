@@ -58,5 +58,5 @@ public class Main {
         System.out.println("很好，赌徒，祝你好运！");
         return c;
     }
-    public static int
+
 }
