@@ -9,7 +9,12 @@ public class GuessNumber {
         Scanner sc = new Scanner(System.in);
 
         int GuessNumber0 = r.nextInt(100) + 1;
-        /*int a = 5;
+
+
+
+
+        /*
+        int a = 5;
         while (true) {
             System.out.print("请输入你认为正确的答案：");
             int number = sc.nextInt();
@@ -29,7 +34,12 @@ public class GuessNumber {
             }else {
 
             }
-        }*/
+        }
+        */
+
+
+
+
         for (int a = 5; a >= 1; a--) {
             System.out.print("请输入你认为正确的答案：");
             int number = sc.nextInt();
