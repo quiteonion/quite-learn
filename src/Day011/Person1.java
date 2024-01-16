@@ -13,13 +13,11 @@ public class Person1 {
     }
 
     public static String number(int[] arr) {
-        String[] arrr = new String[arr.length];
         for (int i = 0; i < arr.length; i++) {
-            arrr[i] = String.valueOf(arr[i]);
+            int a = arr[i];
+            (String)a += a;
         }
-        return arrr[arr.length];
-    }
-    public static String num(String[] arr){
+        System.out.println((String)a );
 
+        }
     }
-}
