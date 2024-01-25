@@ -6,18 +6,3 @@ package Day011;
         数组为int]arr ={1,2,3);
         执行方法后的输出结果为:[1,2,3]
 */
-public class Person1 {
-    public static void main(String[] args) {
-        int[] arr = {1,2,3};
-        number(arr);
-    }
-
-    public static String number(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            int a = arr[i];
-            (String)a += a;
-        }
-        System.out.println((String)a );
-
-        }
-    }
