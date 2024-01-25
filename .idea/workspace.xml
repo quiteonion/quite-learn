@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="add month">
-      <change afterPath="$PROJECT_DIR$/src/A20240125/ForIf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="add ForIf" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +90,7 @@
       <workItem from="1705720610839" duration="7000" />
       <workItem from="1706162846478" duration="1484000" />
       <workItem from="1706164620554" duration="126000" />
-      <workItem from="1706164939081" duration="2799000" />
+      <workItem from="1706164939081" duration="3193000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -271,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706168883683</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add ForIf">
+      <option name="closed" value="true" />
+      <created>1706171622208</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1706171622208</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +299,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="Interchange" />
     <MESSAGE value="add month" />
-    <option name="LAST_COMMIT_MESSAGE" value="add month" />
+    <MESSAGE value="add ForIf" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ForIf" />
   </component>
 </project>
