@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Interchange">
-      <change afterPath="$PROJECT_DIR$/src/A20240125/MUN.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="add month">
+      <change afterPath="$PROJECT_DIR$/src/A20240125/ForIf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +93,7 @@
       <workItem from="1705720610839" duration="7000" />
       <workItem from="1706162846478" duration="1484000" />
       <workItem from="1706164620554" duration="126000" />
-      <workItem from="1706164939081" duration="1990000" />
+      <workItem from="1706164939081" duration="2799000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -263,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706165312076</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add month">
+      <option name="closed" value="true" />
+      <created>1706168883683</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1706168883683</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,8 +289,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="init" />
     <MESSAGE value="Interchange" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interchange" />
+    <MESSAGE value="add month" />
+    <option name="LAST_COMMIT_MESSAGE" value="add month" />
   </component>
 </project>
