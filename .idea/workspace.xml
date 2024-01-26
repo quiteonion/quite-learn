@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="add NewDay">
-      <change afterPath="$PROJECT_DIR$/src/A20240126/Digit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240125/Month.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240125/Month.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240126/Readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240126/Readme.md" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="将三位数的数字拆分">
+      <change afterPath="$PROJECT_DIR$/src/A20240126/Multiplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +93,7 @@
       <workItem from="1706162846478" duration="1484000" />
       <workItem from="1706164620554" duration="126000" />
       <workItem from="1706164939081" duration="4856000" />
-      <workItem from="1706231900776" duration="3579000" />
+      <workItem from="1706231900776" duration="4779000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -313,7 +311,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706233993981</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="修正">
+      <option name="closed" value="true" />
+      <created>1706237584385</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1706237584385</updated>
+    </task>
+    <task id="LOCAL-00029" summary="将三位数的数字拆分">
+      <option name="closed" value="true" />
+      <created>1706237620494</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1706237620494</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +353,8 @@
     <MESSAGE value="add ForIf" />
     <MESSAGE value="add StudengSystem" />
     <MESSAGE value="add NewDay" />
-    <option name="LAST_COMMIT_MESSAGE" value="add NewDay" />
+    <MESSAGE value="修正" />
+    <MESSAGE value="将三位数的数字拆分" />
+    <option name="LAST_COMMIT_MESSAGE" value="将三位数的数字拆分" />
   </component>
 </project>
