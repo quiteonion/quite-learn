@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="将三位数的数字拆分">
-      <change afterPath="$PROJECT_DIR$/src/A20240126/Multiplication.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="九九乘法表">
+      <change afterPath="$PROJECT_DIR$/src/A20240126/Day.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240126/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240126/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +95,7 @@
       <workItem from="1706162846478" duration="1484000" />
       <workItem from="1706164620554" duration="126000" />
       <workItem from="1706164939081" duration="4856000" />
-      <workItem from="1706231900776" duration="4779000" />
+      <workItem from="1706231900776" duration="8487000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -327,7 +329,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706237620494</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="九九乘法表">
+      <option name="closed" value="true" />
+      <created>1706239030690</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1706239030690</updated>
+    </task>
+    <task id="LOCAL-00031" summary="九九乘法表">
+      <option name="closed" value="true" />
+      <created>1706239887627</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1706239887627</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,6 +373,7 @@
     <MESSAGE value="add NewDay" />
     <MESSAGE value="修正" />
     <MESSAGE value="将三位数的数字拆分" />
-    <option name="LAST_COMMIT_MESSAGE" value="将三位数的数字拆分" />
+    <MESSAGE value="九九乘法表" />
+    <option name="LAST_COMMIT_MESSAGE" value="九九乘法表" />
   </component>
 </project>
