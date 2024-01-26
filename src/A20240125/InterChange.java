@@ -1,6 +1,6 @@
 package A20240125;
 
-public class Interchange {
+public class InterChange {
     public static void main(String[] args) {
         int x = 1;
         int y = 2;
