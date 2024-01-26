@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="add ForIf" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="add ForIf">
+      <change afterPath="$PROJECT_DIR$/src/A20240125/StudentSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240126/Readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +94,8 @@
       <workItem from="1705720610839" duration="7000" />
       <workItem from="1706162846478" duration="1484000" />
       <workItem from="1706164620554" duration="126000" />
-      <workItem from="1706164939081" duration="3193000" />
+      <workItem from="1706164939081" duration="4856000" />
+      <workItem from="1706231900776" duration="1253000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -276,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706171622208</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add ForIf">
+      <option name="closed" value="true" />
+      <created>1706191386422</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1706191386422</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
