@@ -9,9 +9,9 @@ public class Month {
         int m = sc.nextInt();
         switch (m){
             case 1 , 3, 5 , 7, 8 ,10 , 12:
-                System.out.println("该月份有31天");
                 break;
             case 2:
+                System.out.println("该月份有31天");
                 TWO();
                 break;
             case 4 , 6 , 9 ,11:
