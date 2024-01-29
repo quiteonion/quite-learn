@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="九九乘法表">
-      <change afterPath="$PROJECT_DIR$/src/A20240126/Day.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="电话号码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240126/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240126/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240126/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240126/Multiplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -95,7 +94,9 @@
       <workItem from="1706162846478" duration="1484000" />
       <workItem from="1706164620554" duration="126000" />
       <workItem from="1706164939081" duration="4856000" />
-      <workItem from="1706231900776" duration="8487000" />
+      <workItem from="1706231900776" duration="9439000" />
+      <workItem from="1706491457510" duration="4339000" />
+      <workItem from="1706495899632" duration="1754000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -345,7 +346,47 @@
       <option name="project" value="LOCAL" />
       <updated>1706239887627</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="今天星期几">
+      <option name="closed" value="true" />
+      <created>1706259767605</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1706259767605</updated>
+    </task>
+    <task id="LOCAL-00033" summary="逻辑或与逻辑与">
+      <option name="closed" value="true" />
+      <created>1706259824432</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1706259824432</updated>
+    </task>
+    <task id="LOCAL-00034" summary="抽人">
+      <option name="closed" value="true" />
+      <created>1706259844025</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1706259844025</updated>
+    </task>
+    <task id="LOCAL-00035" summary="容器 i 仍然是整型，所以输出结果是 0">
+      <option name="closed" value="true" />
+      <created>1706259909400</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1706259909400</updated>
+    </task>
+    <task id="LOCAL-00036" summary="电话号码">
+      <option name="closed" value="true" />
+      <created>1706494125410</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1706494125410</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,6 +415,11 @@
     <MESSAGE value="修正" />
     <MESSAGE value="将三位数的数字拆分" />
     <MESSAGE value="九九乘法表" />
-    <option name="LAST_COMMIT_MESSAGE" value="九九乘法表" />
+    <MESSAGE value="今天星期几" />
+    <MESSAGE value="逻辑或与逻辑与" />
+    <MESSAGE value="抽人" />
+    <MESSAGE value="容器 i 仍然是整型，所以输出结果是 0" />
+    <MESSAGE value="电话号码" />
+    <option name="LAST_COMMIT_MESSAGE" value="电话号码" />
   </component>
 </project>
