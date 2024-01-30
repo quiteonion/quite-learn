@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="查找数组元素">
-      <change afterPath="$PROJECT_DIR$/src/A20240130/A20240130Text.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="查找数组元素(两端朝中)">
+      <change afterPath="$PROJECT_DIR$/src/A20240130/TwoFenFa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240130/A20240130.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240130/A20240130.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +124,7 @@
       <workItem from="1706578103990" duration="387000" />
       <workItem from="1706578644093" duration="107000" />
       <workItem from="1706578780948" duration="210000" />
-      <workItem from="1706579000004" duration="3094000" />
+      <workItem from="1706579000004" duration="7445000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -471,7 +470,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706579081478</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="查找数组元素">
+      <option name="closed" value="true" />
+      <created>1706586073398</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1706586073398</updated>
+    </task>
+    <task id="LOCAL-00045" summary="查找数组元素(两端朝中)">
+      <option name="closed" value="true" />
+      <created>1706586095152</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1706586095152</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,6 +526,7 @@
     <MESSAGE value="声明" />
     <MESSAGE value="|| and &amp;&amp;" />
     <MESSAGE value="查找数组元素" />
-    <option name="LAST_COMMIT_MESSAGE" value="查找数组元素" />
+    <MESSAGE value="查找数组元素(两端朝中)" />
+    <option name="LAST_COMMIT_MESSAGE" value="查找数组元素(两端朝中)" />
   </component>
 </project>
