@@ -2,15 +2,18 @@ package A20240130;
 
 public class A20240130 {
     public static void main(String[] args) {
-        int[] arr = new int[]{10,50,30,70,80,20,40,90,60};
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int found = 3;
+        boolean fo = true;
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < args.length; j++) {
-                if (args[j].equals(arr[i])){
-                    System.out.println("在arr中找到了"+20);
-                    break;
-                }
+            if (arr[i] == found) {
+                System.out.println("这个数字为" + found);
+                fo = false;
+                break;
             }
         }
-        System.out.println("10不存在");
+        if (fo) {
+            System.out.println("找不到这个数字");
+        }
     }
 }
