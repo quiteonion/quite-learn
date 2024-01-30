@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="电话号码">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="|| and &amp;&amp;">
+      <change afterPath="$PROJECT_DIR$/src/A20040129/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20040129/TwoDimensionalArrayBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240130.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240126/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240126/Multiplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +98,11 @@
       <workItem from="1706164939081" duration="4856000" />
       <workItem from="1706231900776" duration="9439000" />
       <workItem from="1706491457510" duration="4339000" />
-      <workItem from="1706495899632" duration="1754000" />
+      <workItem from="1706495899632" duration="3829000" />
+      <workItem from="1706508549790" duration="3802000" />
+      <workItem from="1706578007512" duration="23000" />
+      <workItem from="1706578040189" duration="56000" />
+      <workItem from="1706578103990" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -386,7 +392,47 @@
       <option name="project" value="LOCAL" />
       <updated>1706494125410</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="学习工具">
+      <option name="closed" value="true" />
+      <created>1706499422060</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1706499422060</updated>
+    </task>
+    <task id="LOCAL-00038" summary="选择循环">
+      <option name="closed" value="true" />
+      <created>1706500095315</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1706500095315</updated>
+    </task>
+    <task id="LOCAL-00039" summary="变量的声明">
+      <option name="closed" value="true" />
+      <created>1706500264139</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1706500264139</updated>
+    </task>
+    <task id="LOCAL-00040" summary="声明">
+      <option name="closed" value="true" />
+      <created>1706500396029</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1706500396029</updated>
+    </task>
+    <task id="LOCAL-00041" summary="|| and &amp;&amp;">
+      <option name="closed" value="true" />
+      <created>1706500590355</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1706500590355</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,6 +466,11 @@
     <MESSAGE value="抽人" />
     <MESSAGE value="容器 i 仍然是整型，所以输出结果是 0" />
     <MESSAGE value="电话号码" />
-    <option name="LAST_COMMIT_MESSAGE" value="电话号码" />
+    <MESSAGE value="学习工具" />
+    <MESSAGE value="选择循环" />
+    <MESSAGE value="变量的声明" />
+    <MESSAGE value="声明" />
+    <MESSAGE value="|| and &amp;&amp;" />
+    <option name="LAST_COMMIT_MESSAGE" value="|| and &amp;&amp;" />
   </component>
 </project>
