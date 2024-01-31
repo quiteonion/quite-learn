@@ -6,13 +6,13 @@ public class TwoFenFa {
         //存在一个数组
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         //要查找一个数字
-        int found = 1;
+        int found =6;
         //要进行二分法查找就先引入一半的那个数值
-        int zhongjian = arr[arr.length / 2];
+        int i = arr.length / 2;
         //在这个顺序结构中进行判断，如果要查找的数字大于则在其之后，若小于则在其之前
         //不知道循环的次数，但是知道循环的结果用while循环
         //循环的条件是在找到数字或者已经明白数字不存在之后，在此之前先定义一个数组的下表
-        int i = arr.length / 2;
+        int zhongjian = arr[i];
         //当前的数组最小数
         int a = 0;
         //当前数组最大数
@@ -26,10 +26,12 @@ public class TwoFenFa {
                     //如果大于中间值,那么就取当前值与最大值的和的中间值再进行对比
                     a = i + 1;
                     i = (i + b) / 2;
+                    zhongjian = arr[i];
                 } else if (found < zhongjian) {
                     //如果小于中间值
                     b = i - 1;
                     i = (i + a) / 2;
+                    zhongjian = arr[i];
                 }
             } else {
                 //如果等于中间值
