@@ -17,11 +17,19 @@ public class Telephone {
 
         //所以大胆尝试 将一个数组内的数值作为另一个数组的下标
         //先循环出数组的元素
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+        /*for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i]);
         }
+        System.out.println();
         for (int i = 0; i < arr1.length; i++) {
-            System.out.println(arr1[i]);
+            System.out.print(arr1[i]);
+        }*/
+
+        //然后将一个数组的元素设为另一个数组的下标
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.print(arr[arr1[i]]);
         }
+
+        //得到结果
     }
 }
