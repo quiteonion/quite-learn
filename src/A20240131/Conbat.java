@@ -11,55 +11,35 @@ public class Conbat {
     private String weapons;
 
     String[] FaceText = {
-            "自惭形秽" +
-                    "一表非凡的" +
-                    "一表人才的" +
-                    "以貌取人的" +
-                    "鹰嘴鹞目的" +
-                    "有眼无珠的" +
-                    "玉质金相的" +
-                    "心广体胖的" +
-                    "虚有其表的" +
-                    "心宽体胖的" +
-                    "外宽内深的" +
-                    "外巧内嫉的" +
-                    "内峻外和的" +
-                    "绵里藏针的" +
-                    "貌如其心的" +
-                    "口蜜腹剑的" +
-                    "厚貌深情的" +
-                    "才貌双全的" +
-                    "鸡皮鹤发的" +
-                    "眉清目秀的"
-    };
-
-    String[] WeaponText = {
-                    "枪" +
-                    "剑" +
-                    "戟" +
-                    "斧" +
-                    "钺" +
-                    "钩" +
-                    "叉" +
-                    "鞭" +
-                    "锏" +
-                    "锤" +
-                    "挝" +
-                    "镋" +
-                    "棍" +
-                    "槊" +
-                    "棒" +
-                    "拐" +
-                    "流星锤"
+            "自惭形秽的",
+            "一表非凡的",
+            "一表人才的",
+            "以貌取人的",
+            "鹰嘴鹞目的",
+            "有眼无珠的",
+            "玉质金相的",
+            "心广体胖的",
+            "虚有其表的",
+            "心宽体胖的",
+            "外宽内深的",
+            "外巧内嫉的",
+            "内峻外和的",
+            "绵里藏针的",
+            "貌如其心的",
+            "口蜜腹剑的",
+            "厚貌深情的",
+            "才貌双全的",
+            "鸡皮鹤发的",
+            "眉清目秀的"
     };
 
     String[] kongfu = {
-            "%s%s挥舞长枪，正中%s面门",
+            "%s%s挥舞长枪，使出一招龙王破直击%s面门",
             "%s%s一记右鞭腿，直冲%s天灵盖",
             "%s%s上去就张开了自己八二年的老黄牙，狠狠咬在%s的屁股上面",
             "%s%s用出一招【混元功法】，打得%s连退数步",
             "%s%s甩出几枚手里剑，直奔%s命脉而去",
-            "%s%s一招i大威天龙，将%s拍在地上",
+            "%s%s一招大威天龙，将%s拍在地上",
             "%s%s使出蛤蟆神功，头追顶向%s",
             "%s%s飞向空中，使出一招从天而降的掌法，拍了%s一下",
             "%s%s口中念念有词，口吐烈焰点燃%s"};
@@ -74,7 +54,9 @@ public class Conbat {
             "，只听轰隆的一声，%s口吐鲜血",
             "，%s哈哈哈大笑三声，竟也还是摇摇晃晃的站起身",
             "，%s捂头痛苦，快速起身",
-            "，%s一声惨叫，如同软泥一般倒了下去",};
+            "，%s一声惨叫，如同软泥一般倒了下去"
+    };
+
     public Conbat() {
     }
 
@@ -106,7 +88,10 @@ public class Conbat {
     }
 
     public void setBool(int bool) {
-        this.bool = bool;
+        if (bool > 0)
+            this.bool = bool;
+        else
+            this.bool = 0;
     }
 
     public int getbool() {
@@ -122,8 +107,19 @@ public class Conbat {
     }
 
 
-    public void attr(Conbat conbat){
-
+    public void attr(Conbat conbat) {
+        //攻击形参
+        int kill = r.nextInt(10) + 1;
+        int number = r.nextInt(kongfu.length);
+        int number2 = r.nextInt(status.length);
+        String gongfu = kongfu[number];
+        String jieguo = status[number2];
+        int sbool = conbat.getbool() - kill;
+        System.out.printf(gongfu, this.getFace(), this.getName(), conbat.getName());
+        conbat.setBool(sbool);
+        System.out.print("造成了" + kill + "点伤害" + "剩余" + conbat.getbool() + "点血量");
+        System.out.printf(jieguo, conbat.getName());
+        System.out.println();
     }
 
 }
