@@ -21,19 +21,29 @@ public class BinarySearch {
 
         //那么就需要循环，直到找到要的部分为止
         //循环两类for 和 while 我们不清楚什么时候会找到他，但是我们先出发，使用while（true）{我们不知道结束条件是什么}
-        while(true){
+
+        boolean flag = true;
+
+        //条件也需要更改
+        while(zuo != you){
             //在循环中就是循环我们要的“切蛋糕”环节了
             //先判断我们要的，比如说草莓蛋糕上的草莓，在那一边
             if (number == (zuo+you)/2){
                 System.out.println("这个数字存在");
+                flag = false;
                 break;
             } else if (number > (zuo+you)/2){
-                zuo = (zuo+you)/2;
+                zuo = (zuo+you)/2+1;
+                //加一的原因是这个地方已经被切掉了，不存在了
+                //同样，也因为如果不加一，就会引发左永远不会等于右，相当于一直切同一个地方
             }else {
-                you = (zuo+you)/2;
+                you = (zuo+you)/2+1;
             }
         }
 
-
+        //同样，如果这个数字不存在
+        if (flag){
+            System.out.println("该数字不存在");
+        }
     }
 }
