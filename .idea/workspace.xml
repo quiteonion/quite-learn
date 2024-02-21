@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="面向对象（手机）">
-      <change afterPath="$PROJECT_DIR$/src/A20240131/Conbat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240131/ConbatText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240131/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240131/StudentText.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="冒泡排序法排列数字">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20040129/Number.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20040129/Number.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240131/Conbat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240131/Conbat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240131/ConbatText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240131/ConbatText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Job/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Job20240216Over/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Job/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Job20240216Over/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Job/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Job20240216Over/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Job/Table99.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Job20240216Over/Table99.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Job/Telephone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Job20240216Over/Telephone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +58,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
@@ -124,111 +128,13 @@
       <workItem from="1706578780948" duration="210000" />
       <workItem from="1706579000004" duration="11537000" />
       <workItem from="1706663872447" duration="11232000" />
-      <workItem from="1706686586017" duration="3091000" />
-    </task>
-    <task id="LOCAL-00002" summary="init">
-      <option name="closed" value="true" />
-      <created>1704974440400</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1704974440400</updated>
-    </task>
-    <task id="LOCAL-00003" summary="init">
-      <option name="closed" value="true" />
-      <created>1704974503691</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1704974503691</updated>
-    </task>
-    <task id="LOCAL-00004" summary="init">
-      <option name="closed" value="true" />
-      <created>1704974552854</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1704974552854</updated>
-    </task>
-    <task id="LOCAL-00005" summary="init">
-      <option name="closed" value="true" />
-      <created>1704975627218</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1704975627218</updated>
-    </task>
-    <task id="LOCAL-00006" summary="init">
-      <option name="closed" value="true" />
-      <created>1704977296367</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1704977296367</updated>
-    </task>
-    <task id="LOCAL-00007" summary="init">
-      <option name="closed" value="true" />
-      <created>1704978390281</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1704978390281</updated>
-    </task>
-    <task id="LOCAL-00008" summary="init">
-      <option name="closed" value="true" />
-      <created>1704978894795</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1704978894795</updated>
-    </task>
-    <task id="LOCAL-00009" summary="init">
-      <option name="closed" value="true" />
-      <created>1704979818504</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1704979818504</updated>
-    </task>
-    <task id="LOCAL-00010" summary="init">
-      <option name="closed" value="true" />
-      <created>1704979997563</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1704979997563</updated>
-    </task>
-    <task id="LOCAL-00011" summary="init">
-      <option name="closed" value="true" />
-      <created>1705061883549</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1705061883549</updated>
-    </task>
-    <task id="LOCAL-00012" summary="init">
-      <option name="closed" value="true" />
-      <created>1705065190942</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1705065190942</updated>
-    </task>
-    <task id="LOCAL-00013" summary="init">
-      <option name="closed" value="true" />
-      <created>1705223592535</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1705223592535</updated>
-    </task>
-    <task id="LOCAL-00014" summary="init">
-      <option name="closed" value="true" />
-      <created>1705225662149</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1705225662149</updated>
+      <workItem from="1706686586017" duration="3402000" />
+      <workItem from="1706845017873" duration="382000" />
+      <workItem from="1706846511959" duration="1385000" />
+      <workItem from="1707315930875" duration="1061000" />
+      <workItem from="1707394731392" duration="1330000" />
+      <workItem from="1708066783482" duration="2627000" />
+      <workItem from="1708478162113" duration="5502000" />
     </task>
     <task id="LOCAL-00015" summary="init">
       <option name="closed" value="true" />
@@ -518,7 +424,111 @@
       <option name="project" value="LOCAL" />
       <updated>1706690778830</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="面向对象（阿珍爱上了阿强）">
+      <option name="closed" value="true" />
+      <created>1706691695060</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1706691695060</updated>
+    </task>
+    <task id="LOCAL-00052" summary="面向对象（文字格斗游戏）">
+      <option name="closed" value="true" />
+      <created>1706691705885</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1706691705885</updated>
+    </task>
+    <task id="LOCAL-00053" summary="老师给的，要看">
+      <option name="closed" value="true" />
+      <created>1706691865414</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1706691865414</updated>
+    </task>
+    <task id="LOCAL-00054" summary="补充的 Readme 文档">
+      <option name="closed" value="true" />
+      <created>1707316990860</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1707316990861</updated>
+    </task>
+    <task id="LOCAL-00055" summary="补充的 Readme 文档">
+      <option name="closed" value="true" />
+      <created>1707395015901</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1707395015901</updated>
+    </task>
+    <task id="LOCAL-00056" summary="补充的 Readme 文档">
+      <option name="closed" value="true" />
+      <created>1707395377812</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1707395377812</updated>
+    </task>
+    <task id="LOCAL-00057" summary="补充的 Readme 文档">
+      <option name="closed" value="true" />
+      <created>1707395774769</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1707395774769</updated>
+    </task>
+    <task id="LOCAL-00058" summary="补充的 Readme 文档">
+      <option name="closed" value="true" />
+      <created>1707395806337</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1707395806337</updated>
+    </task>
+    <task id="LOCAL-00059" summary="九九乘法表">
+      <option name="closed" value="true" />
+      <created>1707396006079</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1707396006079</updated>
+    </task>
+    <task id="LOCAL-00060" summary="数组中隐藏的电话号码">
+      <option name="closed" value="true" />
+      <created>1708067079705</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1708067079705</updated>
+    </task>
+    <task id="LOCAL-00061" summary="顺序法查找数字">
+      <option name="closed" value="true" />
+      <created>1708067380575</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1708067380575</updated>
+    </task>
+    <task id="LOCAL-00062" summary="二分法查找数字">
+      <option name="closed" value="true" />
+      <created>1708082454808</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1708082454808</updated>
+    </task>
+    <task id="LOCAL-00063" summary="冒泡排序法排列数字">
+      <option name="closed" value="true" />
+      <created>1708082964533</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1708082964533</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,15 +548,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="init" />
-    <MESSAGE value="Interchange" />
-    <MESSAGE value="add month" />
-    <MESSAGE value="add ForIf" />
-    <MESSAGE value="add StudengSystem" />
-    <MESSAGE value="add NewDay" />
-    <MESSAGE value="修正" />
-    <MESSAGE value="将三位数的数字拆分" />
-    <MESSAGE value="九九乘法表" />
     <MESSAGE value="今天星期几" />
     <MESSAGE value="逻辑或与逻辑与" />
     <MESSAGE value="抽人" />
@@ -563,6 +564,15 @@
     <MESSAGE value="村里有个姑娘叫小芳" />
     <MESSAGE value="冒泡排序" />
     <MESSAGE value="面向对象（手机）" />
-    <option name="LAST_COMMIT_MESSAGE" value="面向对象（手机）" />
+    <MESSAGE value="面向对象（阿珍爱上了阿强）" />
+    <MESSAGE value="面向对象（文字格斗游戏）" />
+    <MESSAGE value="老师给的，要看" />
+    <MESSAGE value="补充的 Readme 文档" />
+    <MESSAGE value="九九乘法表" />
+    <MESSAGE value="数组中隐藏的电话号码" />
+    <MESSAGE value="顺序法查找数字" />
+    <MESSAGE value="二分法查找数字" />
+    <MESSAGE value="冒泡排序法排列数字" />
+    <option name="LAST_COMMIT_MESSAGE" value="冒泡排序法排列数字" />
   </component>
 </project>
