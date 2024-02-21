@@ -8,6 +8,11 @@ public class BinarySearch {
         //二分法查找数组中的数字
         //必须是在顺序数组中才能使用
 
+        //键盘录入必不可少
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("请输入你要查找的数字");
+        int number= scanner.nextInt();
+
         //所谓二分法就是 “切一半” 、 把数字应该存在的部分切下来，然后对比寻找
         //那么就会有三把刀
         int zuo = 0;
@@ -19,6 +24,8 @@ public class BinarySearch {
         //循环两类for 和 while 我们不清楚什么时候会找到他，但是我们先出发，使用while（true）{我们不知道结束条件是什么}
         while(true){
             //在循环中就是循环我们要的“切蛋糕”环节了
+            //先判断我们要的，比如说草莓蛋糕上的草莓，在那一边
+            if ()
         }
     }
 }
