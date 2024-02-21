@@ -14,5 +14,14 @@ public class Telephone {
 
         //两个数组之间的关系：数组内元素都是数字，一个数组在使用时包括 arr[i] arr -- 数组名 ， i -- 数组下标
         //两个数组的关系就是下标，一个数组内的元素恰恰好可以作为另一个数组的下标，而恰好arr1有11个数字
+
+        //所以大胆尝试 将一个数组内的数值作为另一个数组的下标
+        //先循环出数组的元素
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.println(arr1[i]);
+        }
     }
 }
