@@ -11,5 +11,10 @@ public class LinearSearch {
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入您要查找的元素");
         int Number = scanner.nextInt();
+
+        //接下来是要遍历整个数组，对其进行对比
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
     }
 }
