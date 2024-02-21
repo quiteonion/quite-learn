@@ -13,8 +13,15 @@ public class LinearSearch {
         int Number = scanner.nextInt();
 
         //接下来是要遍历整个数组，对其进行对比
-        for (int i = 0; i < arr.length; i++) {
+        /*for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
+        }*/
+
+        //在遍历情况下进行对比  只有相同才会输出
+        for (int i = 0; i < arr.length; i++) {
+            if (Number == arr[i]){
+                System.out.println(arr[i]);
+            }
         }
     }
 }
