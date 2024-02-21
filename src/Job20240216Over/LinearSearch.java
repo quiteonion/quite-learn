@@ -18,10 +18,20 @@ public class LinearSearch {
         }*/
 
         //在遍历情况下进行对比  只有相同才会输出
+
+        boolean flag = false;
+
         for (int i = 0; i < arr.length; i++) {
             if (Number == arr[i]){
                 System.out.println(arr[i]);
+                flag = true;
             }
         }
+
+        //如果不存在？则需要先查找后判断他是否存在
+        if (!flag){
+            System.out.println("这个数字不存在于该数组中");
+        }
+
     }
 }
