@@ -64,6 +64,13 @@ public class Table99 {
             System.out.println();
         }*/
 
-
+        //在这个代码中发现，只需要正对角线的一半的部分，所以需要改进条件，让他只显示下部分或者上部分
+        for (int i = 1; i <= 9; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(i + "*" + j + "=" + i * j + "   ");
+            }
+            System.out.println();
+        }
+        //最终可以得到
     }
 }
