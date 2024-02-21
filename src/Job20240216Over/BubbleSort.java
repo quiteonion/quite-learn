@@ -20,5 +20,11 @@ public class BubbleSort {
             arr[1] = o;
         }
         //以此类推，直至结束
+        if (arr[1]>arr[2]){
+            int o = arr[1];
+            arr[1] = arr[2];
+            arr[2] = o;
+        }
+        //.........
     }
 }
