@@ -56,6 +56,14 @@ public class Table99 {
             System.out.println();
         }*/
 
+        //在这个代码中我们发现，我们所需要的 9 没有表示，而不需要的 0 却存在 ， 于是改进
+        /*for (int i = 1; i <= 9; i++) {
+            for (int j = 1; j <= 9; j++) {
+                System.out.print(i + "*" + j + "=" + i * j + "   ");
+            }
+            System.out.println();
+        }*/
+
 
     }
 }
