@@ -12,9 +12,10 @@ public class BubbleSort {
          * 由前到后逐一对比逐一排序
          */
         //先让  arr[0] 与arr[1] 对比
-        int i = arr[0] > arr[1] ? 1 : 0;
+        /*int i = arr[0] > arr[1] ? 1 : 0;*/
+
         //如果arr[0] 比arr[1]大就交换位置
-        if (arr[0]>arr[1]){
+        /*if (arr[0]>arr[1]){
             int o = arr[0];
             arr[0] = arr[1];
             arr[1] = o;
@@ -24,7 +25,25 @@ public class BubbleSort {
             int o = arr[1];
             arr[1] = arr[2];
             arr[2] = o;
-        }
+        }*/
         //.........
+
+        //以上一次只能排列好一个元素，我们要多次循环来排列元素
+        //使用嵌套循环
+        //外层是循环次数，内层是挑选一个最大的数字移动到最后
+        for (int j = 0; j < arr.length; j++) {
+            for (int i = 0; i < arr.length-j-1; i++) {
+                if (arr[i]>arr[i+1]){
+                    int o = arr[i];
+                    arr[i] = arr[i+1];
+                    arr[i+1] = o;
+                }
+            }
+        }
+
+        //结束后观察是否正确
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i]);
+        }
     }
 }
