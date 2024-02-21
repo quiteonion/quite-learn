@@ -40,12 +40,22 @@ public class Table99 {
 
         //然后就是两个循环所需要的结束条件，通过观察九九乘法表的外观简略得到大概需要循环九次
 
-        for (int i = 0; i < 9; i++) {
+       /* for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
                 System.out.print(i);
             }
             System.out.println();
-        }
+        }*/
         //稍加改进让他展现出二维
+
+        //接下来打印乘法
+        /*for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                System.out.print(i + "*" + j + "=" + i * j + "   ");
+            }
+            System.out.println();
+        }*/
+
+
     }
 }
