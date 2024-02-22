@@ -1,6 +1,7 @@
 package Job20240216Over;
 
 
+import java.util.Arrays;
 
 public class BubbleSort {
     public static void main(String[] args) {
@@ -32,18 +33,20 @@ public class BubbleSort {
         //使用嵌套循环
         //外层是循环次数，内层是挑选一个最大的数字移动到最后
         for (int j = 0; j < arr.length; j++) {
+            boolean flag = true;
             for (int i = 0; i < arr.length-j-1; i++) {
                 if (arr[i]>arr[i+1]){
                     int o = arr[i];
                     arr[i] = arr[i+1];
                     arr[i+1] = o;
+                    flag = false;
                 }
+
             }
         }
 
         //结束后观察是否正确
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i]);
-        }
+
+        System.out.println(Arrays.toString(arr));
     }
 }
