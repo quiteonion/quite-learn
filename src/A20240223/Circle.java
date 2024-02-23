@@ -10,6 +10,10 @@ public class Circle {
         this.radius = radius;
     }
 
+    public double getRadius() {
+        return radius;
+    }
+
     public void Area() {
         double area = this.radius*this.radius*PI;
         System.out.println("面积为"+ area);

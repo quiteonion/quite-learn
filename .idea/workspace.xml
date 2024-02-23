@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="狗哥终极形态&#10;&#10;&#10;get 的影响----狗哥与 get 的关系">
-      <change afterPath="$PROJECT_DIR$/src/A20240222/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240222/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240222/StudentMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240223/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240223/CircleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="圆神第一步-step-2&#10;&#10;拥有安全性后不能直接对其内容进行修改，需要使用 色图语句" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,47 +134,7 @@
       <workItem from="1708502621264" duration="5212000" />
       <workItem from="1708564895289" duration="12580000" />
       <workItem from="1708651543924" duration="2449000" />
-      <workItem from="1708669161533" duration="1153000" />
-    </task>
-    <task id="LOCAL-00056" summary="补充的 Readme 文档">
-      <option name="closed" value="true" />
-      <created>1707395377812</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1707395377812</updated>
-    </task>
-    <task id="LOCAL-00057" summary="补充的 Readme 文档">
-      <option name="closed" value="true" />
-      <created>1707395774769</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1707395774769</updated>
-    </task>
-    <task id="LOCAL-00058" summary="补充的 Readme 文档">
-      <option name="closed" value="true" />
-      <created>1707395806337</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1707395806337</updated>
-    </task>
-    <task id="LOCAL-00059" summary="九九乘法表">
-      <option name="closed" value="true" />
-      <created>1707396006079</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1707396006079</updated>
-    </task>
-    <task id="LOCAL-00060" summary="数组中隐藏的电话号码">
-      <option name="closed" value="true" />
-      <created>1708067079705</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1708067079705</updated>
+      <workItem from="1708669161533" duration="2536000" />
     </task>
     <task id="LOCAL-00061" summary="顺序法查找数字">
       <option name="closed" value="true" />
@@ -535,7 +488,47 @@
       <option name="project" value="LOCAL" />
       <updated>1708661404765</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="圆神，启动&#10;&#10;&#10;以半径之力，会写出圆神之身">
+      <option name="closed" value="true" />
+      <created>1708670501717</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1708670501718</updated>
+    </task>
+    <task id="LOCAL-00106" summary="未完成的学生系统">
+      <option name="closed" value="true" />
+      <created>1708674386062</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1708674386062</updated>
+    </task>
+    <task id="LOCAL-00107" summary="圆神第一步-step-0&#10;&#10;最简单的面向对象办法，创建一个通过半径就能达到圆的面向对象语句">
+      <option name="closed" value="true" />
+      <created>1708674781905</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1708674781905</updated>
+    </task>
+    <task id="LOCAL-00108" summary="圆神第一步-step-1&#10;&#10;给这个面向对象增加安全性">
+      <option name="closed" value="true" />
+      <created>1708674821465</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1708674821465</updated>
+    </task>
+    <task id="LOCAL-00109" summary="圆神第一步-step-2&#10;&#10;拥有安全性后不能直接对其内容进行修改，需要使用 色图语句">
+      <option name="closed" value="true" />
+      <created>1708674889510</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1708674889510</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,11 +548,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="LinearSearch-step-0" />
-    <MESSAGE value="LinearSearch-step-1" />
-    <MESSAGE value="LinearSearch-step-2" />
-    <MESSAGE value="LinearSearch-step-3" />
-    <MESSAGE value="LinearSearch-step-4" />
     <MESSAGE value="BubbleSort-step-0" />
     <MESSAGE value="BubbleSort-step-1" />
     <MESSAGE value="BubbleSort-step-2" />
@@ -580,6 +568,11 @@
     <MESSAGE value="狗哥初始化" />
     <MESSAGE value="狗哥进化  &#10;&#10;&#10;set 的影响----狗哥与 set 的关系" />
     <MESSAGE value="狗哥终极形态&#10;&#10;&#10;get 的影响----狗哥与 get 的关系" />
-    <option name="LAST_COMMIT_MESSAGE" value="狗哥终极形态&#10;&#10;&#10;get 的影响----狗哥与 get 的关系" />
+    <MESSAGE value="圆神，启动&#10;&#10;&#10;以半径之力，会写出圆神之身" />
+    <MESSAGE value="未完成的学生系统" />
+    <MESSAGE value="圆神第一步-step-0&#10;&#10;最简单的面向对象办法，创建一个通过半径就能达到圆的面向对象语句" />
+    <MESSAGE value="圆神第一步-step-1&#10;&#10;给这个面向对象增加安全性" />
+    <MESSAGE value="圆神第一步-step-2&#10;&#10;拥有安全性后不能直接对其内容进行修改，需要使用 色图语句" />
+    <option name="LAST_COMMIT_MESSAGE" value="圆神第一步-step-2&#10;&#10;拥有安全性后不能直接对其内容进行修改，需要使用 色图语句" />
   </component>
 </project>
