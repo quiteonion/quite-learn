@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="圆神第一步-step-2&#10;&#10;拥有安全性后不能直接对其内容进行修改，需要使用 色图语句" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="圆神第一步-step-4&#10;&#10;但是如果存在全参构造，idea就不会帮助我们创建一个空参构造了,这样子如果在创建类项的时候不传入参数就会报错。所以我们要创建一个空参构造">
+      <change beforePath="$PROJECT_DIR$/src/A20240223/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240223/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240223/CircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240223/CircleTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,39 +137,7 @@
       <workItem from="1708502621264" duration="5212000" />
       <workItem from="1708564895289" duration="12580000" />
       <workItem from="1708651543924" duration="2449000" />
-      <workItem from="1708669161533" duration="2536000" />
-    </task>
-    <task id="LOCAL-00061" summary="顺序法查找数字">
-      <option name="closed" value="true" />
-      <created>1708067380575</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1708067380575</updated>
-    </task>
-    <task id="LOCAL-00062" summary="二分法查找数字">
-      <option name="closed" value="true" />
-      <created>1708082454808</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1708082454808</updated>
-    </task>
-    <task id="LOCAL-00063" summary="冒泡排序法排列数字">
-      <option name="closed" value="true" />
-      <created>1708082964533</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1708082964533</updated>
-    </task>
-    <task id="LOCAL-00064" summary="文字格斗游戏">
-      <option name="closed" value="true" />
-      <created>1708484827576</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1708484827576</updated>
+      <workItem from="1708669161533" duration="3036000" />
     </task>
     <task id="LOCAL-00065" summary="寒假作业">
       <option name="closed" value="true" />
@@ -528,7 +499,39 @@
       <option name="project" value="LOCAL" />
       <updated>1708674889510</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="圆神第一步-step-2&#10;&#10;返回半经值查看是否正确 , 使用 get 语句">
+      <option name="closed" value="true" />
+      <created>1708675036019</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1708675036019</updated>
+    </task>
+    <task id="LOCAL-00111" summary="圆神第一步-step-3&#10;&#10;返回值正确，如果我们要在这个圆刚被创建出来的时候就直接导入半径需要采用全参构造">
+      <option name="closed" value="true" />
+      <created>1708675146272</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1708675146272</updated>
+    </task>
+    <task id="LOCAL-00112" summary="圆神第一步-step-3&#10;&#10;但是如果存在全参构造，idea就不会帮助我们创建一个空参构造了,这样子如果在创建类项的时候不传入参数就会报错。所以我们要创建一个空参构造">
+      <option name="closed" value="true" />
+      <created>1708675289713</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1708675289713</updated>
+    </task>
+    <task id="LOCAL-00113" summary="圆神第一步-step-4&#10;&#10;但是如果存在全参构造，idea就不会帮助我们创建一个空参构造了,这样子如果在创建类项的时候不传入参数就会报错。所以我们要创建一个空参构造">
+      <option name="closed" value="true" />
+      <created>1708675329052</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1708675329052</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,10 +551,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="BubbleSort-step-0" />
-    <MESSAGE value="BubbleSort-step-1" />
-    <MESSAGE value="BubbleSort-step-2" />
-    <MESSAGE value="BubbleSort-step-3" />
     <MESSAGE value="BinarySearch-step-0" />
     <MESSAGE value="BinarySearch-step-1" />
     <MESSAGE value="BinarySearch-step-2" />
@@ -573,6 +572,10 @@
     <MESSAGE value="圆神第一步-step-0&#10;&#10;最简单的面向对象办法，创建一个通过半径就能达到圆的面向对象语句" />
     <MESSAGE value="圆神第一步-step-1&#10;&#10;给这个面向对象增加安全性" />
     <MESSAGE value="圆神第一步-step-2&#10;&#10;拥有安全性后不能直接对其内容进行修改，需要使用 色图语句" />
-    <option name="LAST_COMMIT_MESSAGE" value="圆神第一步-step-2&#10;&#10;拥有安全性后不能直接对其内容进行修改，需要使用 色图语句" />
+    <MESSAGE value="圆神第一步-step-2&#10;&#10;返回半经值查看是否正确 , 使用 get 语句" />
+    <MESSAGE value="圆神第一步-step-3&#10;&#10;返回值正确，如果我们要在这个圆刚被创建出来的时候就直接导入半径需要采用全参构造" />
+    <MESSAGE value="圆神第一步-step-3&#10;&#10;但是如果存在全参构造，idea就不会帮助我们创建一个空参构造了,这样子如果在创建类项的时候不传入参数就会报错。所以我们要创建一个空参构造" />
+    <MESSAGE value="圆神第一步-step-4&#10;&#10;但是如果存在全参构造，idea就不会帮助我们创建一个空参构造了,这样子如果在创建类项的时候不传入参数就会报错。所以我们要创建一个空参构造" />
+    <option name="LAST_COMMIT_MESSAGE" value="圆神第一步-step-4&#10;&#10;但是如果存在全参构造，idea就不会帮助我们创建一个空参构造了,这样子如果在创建类项的时候不传入参数就会报错。所以我们要创建一个空参构造" />
   </component>
 </project>

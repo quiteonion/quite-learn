@@ -7,10 +7,10 @@ public class CircleTest {
         Scanner scanner = new Scanner(System.in);
         Circle circle = new Circle();
         System.out.println("请输入半径");
-        int radius = scanner.nextInt();
-        System.out.println("您输入的半径为"+circle.getRadius());
+        double radius = scanner.nextDouble();
         circle.setRadius(radius);
-        circle.Area();
-        circle.Circumference();
+        System.out.println("您输入的半径为"+circle.getRadius());
+        System.out.println("面积为"+ circle.Area()+'\n'+"周长为"+circle.Circumference());
+
     }
 }
