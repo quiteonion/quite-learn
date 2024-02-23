@@ -3,8 +3,8 @@ package A20240223;
 import java.util.Scanner;
 
 public class Circle {
-    double radius;
-   double PI = 3.1415;
+   private double radius;
+   static double  PI = 3.1415;
 
 
     public void Area() {
