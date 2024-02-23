@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Circle {
    private double radius;
    static double  PI = 3.1415;
+   public Circle(double radius){
+       this.radius = radius;
+   }
 
     public void setRadius(double radius) {
         this.radius = radius;
