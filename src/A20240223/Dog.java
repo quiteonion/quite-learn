@@ -8,17 +8,13 @@ public class Dog {
     public void Eat(){
         System.out.println("狗哥在吃东西");
     }
-/*
-    */
-/**
+    /**
      * 获取
      * @return name
-     *//*
-
+     */
     public String getName() {
         return name;
     }
-*/
 
     /**
      * 设置
@@ -32,11 +28,11 @@ public class Dog {
      * 获取
      * @return id
      */
-/*    public int getId() {
+    public int getId() {
         return id;
     }
 
-    *//**
+    /**
      * 设置
      * @param id
      */
@@ -48,11 +44,11 @@ public class Dog {
      * 获取
      * @return color
      */
-/*    public String getColor() {
+    public String getColor() {
         return color;
     }
 
-    *//**
+    /**
      * 设置
      * @param color
      */

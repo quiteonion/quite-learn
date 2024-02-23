@@ -10,5 +10,6 @@ public class DogTest {
         dog.setName("黑子");
         dog.setId(1);
         dog.setColor("bule");
+        System.out.println(dog.getName()+"的编号是"+dog.getId()+"毛发颜色是"+dog.getColor());dog.Eat();
     }
 }
