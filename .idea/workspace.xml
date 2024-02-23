@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="圆神第一步-step-4&#10;&#10;但是如果存在全参构造，idea就不会帮助我们创建一个空参构造了,这样子如果在创建类项的时候不传入参数就会报错。所以我们要创建一个空参构造">
-      <change beforePath="$PROJECT_DIR$/src/A20240223/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240223/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240223/CircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240223/CircleTest.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="圆神第一步-step-5&#10;&#10;已经可以完美运行了，我们改进一下">
+      <change afterPath="$PROJECT_DIR$/src/A20240223/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240223/StudentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,15 +137,7 @@
       <workItem from="1708502621264" duration="5212000" />
       <workItem from="1708564895289" duration="12580000" />
       <workItem from="1708651543924" duration="2449000" />
-      <workItem from="1708669161533" duration="3036000" />
-    </task>
-    <task id="LOCAL-00065" summary="寒假作业">
-      <option name="closed" value="true" />
-      <created>1708484842918</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1708484842918</updated>
+      <workItem from="1708669161533" duration="4227000" />
     </task>
     <task id="LOCAL-00066" summary="Table99-step-0">
       <option name="closed" value="true" />
@@ -531,7 +523,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708675329052</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="圆神第一步-step-5&#10;&#10;已经可以完美运行了，我们改进一下">
+      <option name="closed" value="true" />
+      <created>1708675636929</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1708675636929</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +551,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="BinarySearch-step-0" />
     <MESSAGE value="BinarySearch-step-1" />
     <MESSAGE value="BinarySearch-step-2" />
     <MESSAGE value="BinarySearch-step-3" />
@@ -576,6 +575,7 @@
     <MESSAGE value="圆神第一步-step-3&#10;&#10;返回值正确，如果我们要在这个圆刚被创建出来的时候就直接导入半径需要采用全参构造" />
     <MESSAGE value="圆神第一步-step-3&#10;&#10;但是如果存在全参构造，idea就不会帮助我们创建一个空参构造了,这样子如果在创建类项的时候不传入参数就会报错。所以我们要创建一个空参构造" />
     <MESSAGE value="圆神第一步-step-4&#10;&#10;但是如果存在全参构造，idea就不会帮助我们创建一个空参构造了,这样子如果在创建类项的时候不传入参数就会报错。所以我们要创建一个空参构造" />
-    <option name="LAST_COMMIT_MESSAGE" value="圆神第一步-step-4&#10;&#10;但是如果存在全参构造，idea就不会帮助我们创建一个空参构造了,这样子如果在创建类项的时候不传入参数就会报错。所以我们要创建一个空参构造" />
+    <MESSAGE value="圆神第一步-step-5&#10;&#10;已经可以完美运行了，我们改进一下" />
+    <option name="LAST_COMMIT_MESSAGE" value="圆神第一步-step-5&#10;&#10;已经可以完美运行了，我们改进一下" />
   </component>
 </project>
