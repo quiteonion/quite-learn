@@ -8,7 +8,7 @@ public class CircleTest {
         Circle circle = new Circle();
         System.out.println("请输入半径");
         int radius = scanner.nextInt();
-        circle.radius = radius;
+        circle.setRadius(radius);
         circle.Area();
         circle.Circumference();
     }

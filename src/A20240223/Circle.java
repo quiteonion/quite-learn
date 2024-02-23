@@ -6,6 +6,9 @@ public class Circle {
    private double radius;
    static double  PI = 3.1415;
 
+    public void setRadius(double radius) {
+        this.radius = radius;
+    }
 
     public void Area() {
         double area = this.radius*this.radius*PI;
