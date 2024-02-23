@@ -8,7 +8,8 @@ public class CircleTest {
         Circle circle = new Circle();
         System.out.println("请输入半径");
         int radius = scanner.nextInt();
-        circle.setRadius(radius);
-        System.out.println("面积为："+circle.Area()+"周长为："+circle.Circumference());
+        circle.radius = radius;
+        circle.Area();
+        circle.Circumference();
     }
 }
