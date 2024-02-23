@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="圆神第一步-step-5&#10;&#10;已经可以完美运行了，我们改进一下">
-      <change afterPath="$PROJECT_DIR$/src/A20240223/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240223/StudentTest.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="学生两位！">
+      <change afterPath="$PROJECT_DIR$/src/A20240223/StudentAndDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240223/StudentAndDogTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,31 +137,7 @@
       <workItem from="1708502621264" duration="5212000" />
       <workItem from="1708564895289" duration="12580000" />
       <workItem from="1708651543924" duration="2449000" />
-      <workItem from="1708669161533" duration="4227000" />
-    </task>
-    <task id="LOCAL-00066" summary="Table99-step-0">
-      <option name="closed" value="true" />
-      <created>1708496871378</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1708496871379</updated>
-    </task>
-    <task id="LOCAL-00067" summary="Table99-step-1">
-      <option name="closed" value="true" />
-      <created>1708497089423</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1708497089423</updated>
-    </task>
-    <task id="LOCAL-00068" summary="Table99-step-2">
-      <option name="closed" value="true" />
-      <created>1708497336326</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1708497336326</updated>
+      <workItem from="1708669161533" duration="4982000" />
     </task>
     <task id="LOCAL-00069" summary="Table99-step-3">
       <option name="closed" value="true" />
@@ -531,7 +507,31 @@
       <option name="project" value="LOCAL" />
       <updated>1708675636929</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="学生两位！">
+      <option name="closed" value="true" />
+      <created>1708679743356</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1708679743356</updated>
+    </task>
+    <task id="LOCAL-00116" summary="学生两位！">
+      <option name="closed" value="true" />
+      <created>1708679745280</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1708679745280</updated>
+    </task>
+    <task id="LOCAL-00117" summary="学生两位！">
+      <option name="closed" value="true" />
+      <created>1708679747083</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1708679747083</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +551,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="BinarySearch-step-1" />
     <MESSAGE value="BinarySearch-step-2" />
     <MESSAGE value="BinarySearch-step-3" />
     <MESSAGE value="BinarySearch-step-4" />
@@ -576,6 +575,7 @@
     <MESSAGE value="圆神第一步-step-3&#10;&#10;但是如果存在全参构造，idea就不会帮助我们创建一个空参构造了,这样子如果在创建类项的时候不传入参数就会报错。所以我们要创建一个空参构造" />
     <MESSAGE value="圆神第一步-step-4&#10;&#10;但是如果存在全参构造，idea就不会帮助我们创建一个空参构造了,这样子如果在创建类项的时候不传入参数就会报错。所以我们要创建一个空参构造" />
     <MESSAGE value="圆神第一步-step-5&#10;&#10;已经可以完美运行了，我们改进一下" />
-    <option name="LAST_COMMIT_MESSAGE" value="圆神第一步-step-5&#10;&#10;已经可以完美运行了，我们改进一下" />
+    <MESSAGE value="学生两位！" />
+    <option name="LAST_COMMIT_MESSAGE" value="学生两位！" />
   </component>
 </project>
