@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="学生两位！">
-      <change afterPath="$PROJECT_DIR$/src/A20240223/StudentAndDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240223/StudentAndDogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240227/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240227/PhoneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20040129/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240129/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20040129/Number.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240129/Number.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20040129/TelephoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240129/TelephoneNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20040129/TwoDimensionalArrayBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240129/TwoDimensionalArrayBasic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +90,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.A20240130" />
-      </list>
-    </recent_temporary>
+    <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
+      <module name="quite" />
+      <option name="PROGRAM_PARAMETERS" value="20 30" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A20240130.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -138,6 +152,12 @@
       <workItem from="1708564895289" duration="12580000" />
       <workItem from="1708651543924" duration="2449000" />
       <workItem from="1708669161533" duration="4982000" />
+      <workItem from="1708681040166" duration="29000" />
+      <workItem from="1708681077177" duration="21000" />
+      <workItem from="1708681105704" duration="65000" />
+      <workItem from="1708681191253" duration="9000" />
+      <workItem from="1709024050733" duration="3162000" />
+      <workItem from="1709096365265" duration="341000" />
     </task>
     <task id="LOCAL-00069" summary="Table99-step-3">
       <option name="closed" value="true" />
@@ -551,7 +571,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="BinarySearch-step-2" />
     <MESSAGE value="BinarySearch-step-3" />
     <MESSAGE value="BinarySearch-step-4" />
     <MESSAGE value="BinarySearch-step-5" />
@@ -576,6 +595,7 @@
     <MESSAGE value="圆神第一步-step-4&#10;&#10;但是如果存在全参构造，idea就不会帮助我们创建一个空参构造了,这样子如果在创建类项的时候不传入参数就会报错。所以我们要创建一个空参构造" />
     <MESSAGE value="圆神第一步-step-5&#10;&#10;已经可以完美运行了，我们改进一下" />
     <MESSAGE value="学生两位！" />
-    <option name="LAST_COMMIT_MESSAGE" value="学生两位！" />
+    <MESSAGE value="111" />
+    <option name="LAST_COMMIT_MESSAGE" value="111" />
   </component>
 </project>
