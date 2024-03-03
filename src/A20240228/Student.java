@@ -7,7 +7,6 @@ public class Student {
     private int id;
     private String gender;
 
-
     public Student() {
     }
 
