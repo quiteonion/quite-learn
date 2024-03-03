@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="添加成数组">
-      <change afterPath="$PROJECT_DIR$/src/A20240303/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240303/DogTest.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="杂项">
       <change afterPath="$PROJECT_DIR$/src/A20240303/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240303/StudentAA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240303/Student1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240303/StudentTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240228/Class.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240228/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240228/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240303/StudentAA.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,23 +157,8 @@
       <workItem from="1709024050733" duration="3162000" />
       <workItem from="1709096365265" duration="1787000" />
       <workItem from="1709116014286" duration="6620000" />
-      <workItem from="1709427999548" duration="17946000" />
-    </task>
-    <task id="LOCAL-00080" summary="LinearSearch-step-1">
-      <option name="closed" value="true" />
-      <created>1708500047282</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1708500047282</updated>
-    </task>
-    <task id="LOCAL-00081" summary="LinearSearch-step-1">
-      <option name="closed" value="true" />
-      <created>1708500094181</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1708500094181</updated>
+      <workItem from="1709427999548" duration="19284000" />
+      <workItem from="1709452780854" duration="1536000" />
     </task>
     <task id="LOCAL-00082" summary="LinearSearch-step-2">
       <option name="closed" value="true" />
@@ -553,7 +536,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709433484077</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="学生管理系统">
+      <option name="closed" value="true" />
+      <created>1709451243237</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1709451243237</updated>
+    </task>
+    <task id="LOCAL-00130" summary="杂项">
+      <option name="closed" value="true" />
+      <created>1709451386061</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1709451386061</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +572,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="狗哥进化  &#10;&#10;&#10;set 的影响----狗哥与 set 的关系" />
     <MESSAGE value="狗哥终极形态&#10;&#10;&#10;get 的影响----狗哥与 get 的关系" />
     <MESSAGE value="圆神，启动&#10;&#10;&#10;以半径之力，会写出圆神之身" />
     <MESSAGE value="未完成的学生系统" />
@@ -596,9 +594,10 @@
     <MESSAGE value="Student-step-4&#10;&#10;导入的对象要将他提取出来，使用到 get" />
     <MESSAGE value="Student-step-4&#10;&#10;如果要单独更改一个元素，就要使用到空参构造和set方法" />
     <MESSAGE value="Student-step-6&#10;&#10;学生对象就以这种形式成就,但是纵使是可以使用两种方法创建学生对象，也不能够混用" />
-    <MESSAGE value="杂项" />
     <MESSAGE value="添加成数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加成数组" />
+    <MESSAGE value="学生管理系统" />
+    <MESSAGE value="杂项" />
+    <option name="LAST_COMMIT_MESSAGE" value="杂项" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
