@@ -16,6 +16,7 @@ public class Main {
 
     /**
      * 获取
+     *
      * @return name
      */
     public String getName() {
@@ -24,6 +25,7 @@ public class Main {
 
     /**
      * 设置
+     *
      * @param name
      */
     public void setName(String name) {
@@ -32,6 +34,7 @@ public class Main {
 
     /**
      * 获取
+     *
      * @return age
      */
     public int getAge() {
@@ -40,6 +43,7 @@ public class Main {
 
     /**
      * 设置
+     *
      * @param age
      */
     public void setAge(int age) {
@@ -48,6 +52,7 @@ public class Main {
 
     /**
      * 获取
+     *
      * @return id
      */
     public int getId() {
@@ -56,6 +61,7 @@ public class Main {
 
     /**
      * 设置
+     *
      * @param id
      */
     public void setId(int id) {

@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Student-step-6&#10;&#10;学生对象就以这种形式成就,但是纵使是可以使用两种方法创建学生对象，也不能够混用">
-      <change afterPath="$PROJECT_DIR$/src/A20240228/Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240228/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240228/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240302/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240302/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[更改]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase___.xml" beforeDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="杂项">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240302/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240302/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240302/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240302/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,15 +155,7 @@
       <workItem from="1709024050733" duration="3162000" />
       <workItem from="1709096365265" duration="1787000" />
       <workItem from="1709116014286" duration="6620000" />
-      <workItem from="1709427999548" duration="2393000" />
-    </task>
-    <task id="LOCAL-00078" summary="Telephone-step-3">
-      <option name="closed" value="true" />
-      <created>1708499901349</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1708499901349</updated>
+      <workItem from="1709427999548" duration="4613000" />
     </task>
     <task id="LOCAL-00079" summary="LinearSearch-step-0">
       <option name="closed" value="true" />
@@ -554,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709430950540</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="杂项">
+      <option name="closed" value="true" />
+      <created>1709431330386</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1709431330386</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +569,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="改名" />
     <MESSAGE value="狗哥初始化" />
     <MESSAGE value="狗哥进化  &#10;&#10;&#10;set 的影响----狗哥与 set 的关系" />
     <MESSAGE value="狗哥终极形态&#10;&#10;&#10;get 的影响----狗哥与 get 的关系" />
@@ -599,6 +593,7 @@
     <MESSAGE value="Student-step-4&#10;&#10;导入的对象要将他提取出来，使用到 get" />
     <MESSAGE value="Student-step-4&#10;&#10;如果要单独更改一个元素，就要使用到空参构造和set方法" />
     <MESSAGE value="Student-step-6&#10;&#10;学生对象就以这种形式成就,但是纵使是可以使用两种方法创建学生对象，也不能够混用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Student-step-6&#10;&#10;学生对象就以这种形式成就,但是纵使是可以使用两种方法创建学生对象，也不能够混用" />
+    <MESSAGE value="杂项" />
+    <option name="LAST_COMMIT_MESSAGE" value="杂项" />
   </component>
 </project>
