@@ -1,37 +1,25 @@
-package A20240303;
+package A20240302;
 
-public class Student {
+public class Main {
     private String name;
     private int age;
-    private char gender;
     private int id;
 
-    public Student(String name, int age, char gender, int id) {
+    public Main() {
+    }
+
+    public Main(String name, int age, int id) {
         this.name = name;
         this.age = age;
-        this.gender = gender;
         this.id = id;
     }
 
-    public Student() {
-    }
-
-
+    /**
+     * 获取
+     * @return name
+     */
     public String getName() {
         return name;
-    }
-
-
-    public int getAge() {
-        return age;
-    }
-
-    public char getGender() {
-        return gender;
-    }
-
-    public int getId() {
-        return id;
     }
 
     /**
@@ -43,6 +31,14 @@ public class Student {
     }
 
     /**
+     * 获取
+     * @return age
+     */
+    public int getAge() {
+        return age;
+    }
+
+    /**
      * 设置
      * @param age
      */
@@ -51,11 +47,11 @@ public class Student {
     }
 
     /**
-     * 设置
-     * @param gender
+     * 获取
+     * @return id
      */
-    public void setGender(char gender) {
-        this.gender = gender;
+    public int getId() {
+        return id;
     }
 
     /**
@@ -66,5 +62,4 @@ public class Student {
         this.id = id;
     }
 
-    
 }

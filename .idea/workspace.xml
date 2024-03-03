@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="学生两位！">
-      <change afterPath="$PROJECT_DIR$/src/A20240227/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240227/PhoneTest.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Student-step-6&#10;&#10;学生对象就以这种形式成就,但是纵使是可以使用两种方法创建学生对象，也不能够混用">
+      <change afterPath="$PROJECT_DIR$/src/A20240228/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240228/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240228/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240302/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240302/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[更改]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase___.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20040129/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240129/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20040129/Number.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240129/Number.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20040129/TelephoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240129/TelephoneNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20040129/TwoDimensionalArrayBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240129/TwoDimensionalArrayBasic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,79 +158,9 @@
       <workItem from="1708681105704" duration="65000" />
       <workItem from="1708681191253" duration="9000" />
       <workItem from="1709024050733" duration="3162000" />
-      <workItem from="1709096365265" duration="341000" />
-    </task>
-    <task id="LOCAL-00069" summary="Table99-step-3">
-      <option name="closed" value="true" />
-      <created>1708497454116</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1708497454116</updated>
-    </task>
-    <task id="LOCAL-00070" summary="Table99-step-4">
-      <option name="closed" value="true" />
-      <created>1708497629627</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1708497629627</updated>
-    </task>
-    <task id="LOCAL-00071" summary="Table99-step-5">
-      <option name="closed" value="true" />
-      <created>1708497821763</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1708497821763</updated>
-    </task>
-    <task id="LOCAL-00072" summary="Table99-step-6">
-      <option name="closed" value="true" />
-      <created>1708497902816</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1708497902816</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Table99-step-7">
-      <option name="closed" value="true" />
-      <created>1708498090028</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1708498090028</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Telephone-step-0">
-      <option name="closed" value="true" />
-      <created>1708498173819</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1708498173819</updated>
-    </task>
-    <task id="LOCAL-00075" summary="Telephone-step-1">
-      <option name="closed" value="true" />
-      <created>1708498281480</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1708498281480</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Telephone-step-1">
-      <option name="closed" value="true" />
-      <created>1708498505544</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1708498505544</updated>
-    </task>
-    <task id="LOCAL-00077" summary="Telephone-step-2">
-      <option name="closed" value="true" />
-      <created>1708499761452</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1708499761452</updated>
+      <workItem from="1709096365265" duration="1787000" />
+      <workItem from="1709116014286" duration="6620000" />
+      <workItem from="1709427999548" duration="2393000" />
     </task>
     <task id="LOCAL-00078" summary="Telephone-step-3">
       <option name="closed" value="true" />
@@ -551,7 +482,79 @@
       <option name="project" value="LOCAL" />
       <updated>1708679747083</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="手机数组  面向对象">
+      <option name="closed" value="true" />
+      <created>1709096758243</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1709096758243</updated>
+    </task>
+    <task id="LOCAL-00119" summary="更新">
+      <option name="closed" value="true" />
+      <created>1709096785823</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1709096785823</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Student-step-0&#10;&#10;创建学生的对象">
+      <option name="closed" value="true" />
+      <created>1709429380347</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1709429380348</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Student-step-1&#10;&#10;创建学生的参数&#10;姓名、年龄、性别、号数">
+      <option name="closed" value="true" />
+      <created>1709429514286</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1709429514286</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Student-step-2&#10;&#10;创建使用这个方法的测试项">
+      <option name="closed" value="true" />
+      <created>1709429579766</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1709429579766</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Student-step-3&#10;&#10;创建一个学生对象">
+      <option name="closed" value="true" />
+      <created>1709430050378</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1709430050379</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Student-step-4&#10;&#10;导入的对象要将他提取出来，使用到 get">
+      <option name="closed" value="true" />
+      <created>1709430525186</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1709430525186</updated>
+    </task>
+    <task id="LOCAL-00125" summary="Student-step-4&#10;&#10;如果要单独更改一个元素，就要使用到空参构造和set方法">
+      <option name="closed" value="true" />
+      <created>1709430681116</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1709430681116</updated>
+    </task>
+    <task id="LOCAL-00126" summary="Student-step-6&#10;&#10;学生对象就以这种形式成就,但是纵使是可以使用两种方法创建学生对象，也不能够混用">
+      <option name="closed" value="true" />
+      <created>1709430950540</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1709430950540</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,15 +574,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="BinarySearch-step-3" />
-    <MESSAGE value="BinarySearch-step-4" />
-    <MESSAGE value="BinarySearch-step-5" />
-    <MESSAGE value="更改" />
-    <MESSAGE value="简便循环" />
-    <MESSAGE value="更改为&#10;&#10; System.out.println(Arrays.toString(arr));" />
-    <MESSAGE value="狗哥" />
-    <MESSAGE value="圆神的制作~" />
-    <MESSAGE value="削减" />
     <MESSAGE value="改名" />
     <MESSAGE value="狗哥初始化" />
     <MESSAGE value="狗哥进化  &#10;&#10;&#10;set 的影响----狗哥与 set 的关系" />
@@ -596,6 +590,15 @@
     <MESSAGE value="圆神第一步-step-5&#10;&#10;已经可以完美运行了，我们改进一下" />
     <MESSAGE value="学生两位！" />
     <MESSAGE value="111" />
-    <option name="LAST_COMMIT_MESSAGE" value="111" />
+    <MESSAGE value="手机数组  面向对象" />
+    <MESSAGE value="更新" />
+    <MESSAGE value="Student-step-0&#10;&#10;创建学生的对象" />
+    <MESSAGE value="Student-step-1&#10;&#10;创建学生的参数&#10;姓名、年龄、性别、号数" />
+    <MESSAGE value="Student-step-2&#10;&#10;创建使用这个方法的测试项" />
+    <MESSAGE value="Student-step-3&#10;&#10;创建一个学生对象" />
+    <MESSAGE value="Student-step-4&#10;&#10;导入的对象要将他提取出来，使用到 get" />
+    <MESSAGE value="Student-step-4&#10;&#10;如果要单独更改一个元素，就要使用到空参构造和set方法" />
+    <MESSAGE value="Student-step-6&#10;&#10;学生对象就以这种形式成就,但是纵使是可以使用两种方法创建学生对象，也不能够混用" />
+    <option name="LAST_COMMIT_MESSAGE" value="Student-step-6&#10;&#10;学生对象就以这种形式成就,但是纵使是可以使用两种方法创建学生对象，也不能够混用" />
   </component>
 </project>
