@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="杂项">
-      <change afterPath="$PROJECT_DIR$/src/A20240303/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240303/Student1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240303/StudentTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240303/StudentAA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240303/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240303/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,23 +155,9 @@
       <workItem from="1709096365265" duration="1787000" />
       <workItem from="1709116014286" duration="6620000" />
       <workItem from="1709427999548" duration="19284000" />
-      <workItem from="1709452780854" duration="1536000" />
-    </task>
-    <task id="LOCAL-00082" summary="LinearSearch-step-2">
-      <option name="closed" value="true" />
-      <created>1708500129631</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1708500129631</updated>
-    </task>
-    <task id="LOCAL-00083" summary="LinearSearch-step-3">
-      <option name="closed" value="true" />
-      <created>1708500209723</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1708500209723</updated>
+      <workItem from="1709452780854" duration="2964000" />
+      <workItem from="1709460566918" duration="86000" />
+      <workItem from="1709557584350" duration="364000" />
     </task>
     <task id="LOCAL-00084" summary="LinearSearch-step-4">
       <option name="closed" value="true" />
@@ -552,7 +535,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709451386061</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="学生随机">
+      <option name="closed" value="true" />
+      <created>1709456451513</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1709456451513</updated>
+    </task>
+    <task id="LOCAL-00132" summary="杂项">
+      <option name="closed" value="true" />
+      <created>1709456464213</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1709456464213</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +571,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="狗哥终极形态&#10;&#10;&#10;get 的影响----狗哥与 get 的关系" />
     <MESSAGE value="圆神，启动&#10;&#10;&#10;以半径之力，会写出圆神之身" />
     <MESSAGE value="未完成的学生系统" />
     <MESSAGE value="圆神第一步-step-0&#10;&#10;最简单的面向对象办法，创建一个通过半径就能达到圆的面向对象语句" />
@@ -596,6 +594,7 @@
     <MESSAGE value="Student-step-6&#10;&#10;学生对象就以这种形式成就,但是纵使是可以使用两种方法创建学生对象，也不能够混用" />
     <MESSAGE value="添加成数组" />
     <MESSAGE value="学生管理系统" />
+    <MESSAGE value="学生随机" />
     <MESSAGE value="杂项" />
     <option name="LAST_COMMIT_MESSAGE" value="杂项" />
   </component>
