@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="char 的数组">
-      <change afterPath="$PROJECT_DIR$/src/A20240305/inspect.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="查看字符串的内容">
+      <change afterPath="$PROJECT_DIR$/src/A20240305/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240305/reversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,15 +159,7 @@
       <workItem from="1709452780854" duration="2964000" />
       <workItem from="1709460566918" duration="86000" />
       <workItem from="1709557584350" duration="1196000" />
-      <workItem from="1709632698690" duration="561000" />
-    </task>
-    <task id="LOCAL-00085" summary="BubbleSort-step-0">
-      <option name="closed" value="true" />
-      <created>1708506083754</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1708506083754</updated>
+      <workItem from="1709632698690" duration="2003000" />
     </task>
     <task id="LOCAL-00086" summary="BubbleSort-step-1">
       <option name="closed" value="true" />
@@ -552,7 +545,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709559878119</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="查看字符串的内容">
+      <option name="closed" value="true" />
+      <created>1709633454587</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1709633454587</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +573,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="未完成的学生系统" />
     <MESSAGE value="圆神第一步-step-0&#10;&#10;最简单的面向对象办法，创建一个通过半径就能达到圆的面向对象语句" />
     <MESSAGE value="圆神第一步-step-1&#10;&#10;给这个面向对象增加安全性" />
     <MESSAGE value="圆神第一步-step-2&#10;&#10;拥有安全性后不能直接对其内容进行修改，需要使用 色图语句" />
@@ -597,7 +597,8 @@
     <MESSAGE value="学生随机" />
     <MESSAGE value="杂项" />
     <MESSAGE value="char 的数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="char 的数组" />
+    <MESSAGE value="查看字符串的内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="查看字符串的内容" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
