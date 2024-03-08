@@ -4,63 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="重载">
-      <change afterPath="$PROJECT_DIR$/src/A20240104/Readmd3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240104/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240104/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240104/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240104/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240104/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240104/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240104/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240104/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240104/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240104/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240104/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240104/img_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240125/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240125/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240125/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240125/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240125/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240126/Readmd1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240126/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240126/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240126/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240126/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240126/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240126/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240126/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240126/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240129/Readmd.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240129/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240129/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240129/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240308/PhoneNumberShield.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240308/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240308/Student1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240308/StudentTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240308/{26fbd5b6-e97d-45a5-8038-08543e925052}.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Readmd的修改和部分代码的书写">
+      <change afterPath="$PROJECT_DIR$/src/A20240308/CirculateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240308/CirculateArrayText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240308/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240125/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240125/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240222/DogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240222/DogTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240222/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240222/StudentMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240227/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240227/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240227/PhoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240227/PhoneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240302/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240302/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240302/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240302/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240305/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240305/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240305/inspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240305/inspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240305/reversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240305/reversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240307/StringConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240307/StringConcat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day001/HellowWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20231128/HellowWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day001/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20231128/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day002/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240104/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day002/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240104/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day002/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240104/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day002/Readme2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240104/Readme2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day002/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240104/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day002/图片1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240104/图片1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240308/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240308/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,15 +169,7 @@
       <workItem from="1709722814752" duration="8336000" />
       <workItem from="1709788661040" duration="1434000" />
       <workItem from="1709879421255" duration="4152000" />
-      <workItem from="1709896302340" duration="5165000" />
-    </task>
-    <task id="LOCAL-00096" summary="简便循环">
-      <option name="closed" value="true" />
-      <created>1708569104739</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1708569104739</updated>
+      <workItem from="1709896302340" duration="6503000" />
     </task>
     <task id="LOCAL-00097" summary="更改为&#10;&#10; System.out.println(Arrays.toString(arr));">
       <option name="closed" value="true" />
@@ -614,7 +555,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709883516571</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="Readmd的修改和部分代码的书写">
+      <option name="closed" value="true" />
+      <created>1709901698388</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1709901698388</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +583,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="111" />
     <MESSAGE value="手机数组  面向对象" />
     <MESSAGE value="更新" />
     <MESSAGE value="Student-step-0&#10;&#10;创建学生的对象" />
@@ -659,7 +607,8 @@
     <MESSAGE value="字符串拼接-3&#10;&#10;构建一个方法，拼接字符串并输出" />
     <MESSAGE value="字符串拼接-4&#10;&#10;设置一个数组存储单位，然后隔代传入即可" />
     <MESSAGE value="重载" />
-    <option name="LAST_COMMIT_MESSAGE" value="重载" />
+    <MESSAGE value="Readmd的修改和部分代码的书写" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readmd的修改和部分代码的书写" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
