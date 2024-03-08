@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="查看字符串的内容">
-      <change afterPath="$PROJECT_DIR$/src/A20240305/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240305/reversal.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="字符串拼接-3&#10;&#10;构建一个方法，拼接字符串并输出">
+      <change afterPath="$PROJECT_DIR$/src/A20240306/AmountConversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240306/ObjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240306/ObjectTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,71 +159,11 @@
       <workItem from="1709452780854" duration="2964000" />
       <workItem from="1709460566918" duration="86000" />
       <workItem from="1709557584350" duration="1196000" />
-      <workItem from="1709632698690" duration="2003000" />
-    </task>
-    <task id="LOCAL-00086" summary="BubbleSort-step-1">
-      <option name="closed" value="true" />
-      <created>1708506755255</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1708506755255</updated>
-    </task>
-    <task id="LOCAL-00087" summary="BubbleSort-step-2">
-      <option name="closed" value="true" />
-      <created>1708508536403</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1708508536403</updated>
-    </task>
-    <task id="LOCAL-00088" summary="BubbleSort-step-3">
-      <option name="closed" value="true" />
-      <created>1708509066149</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1708509066149</updated>
-    </task>
-    <task id="LOCAL-00089" summary="BinarySearch-step-0">
-      <option name="closed" value="true" />
-      <created>1708509163046</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1708509163046</updated>
-    </task>
-    <task id="LOCAL-00090" summary="BinarySearch-step-1">
-      <option name="closed" value="true" />
-      <created>1708509339359</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1708509339359</updated>
-    </task>
-    <task id="LOCAL-00091" summary="BinarySearch-step-2">
-      <option name="closed" value="true" />
-      <created>1708509557699</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1708509557699</updated>
-    </task>
-    <task id="LOCAL-00092" summary="BinarySearch-step-3">
-      <option name="closed" value="true" />
-      <created>1708509669398</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1708509669398</updated>
-    </task>
-    <task id="LOCAL-00093" summary="BinarySearch-step-4">
-      <option name="closed" value="true" />
-      <created>1708509860947</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1708509860947</updated>
+      <workItem from="1709632698690" duration="2746000" />
+      <workItem from="1709700309670" duration="2785000" />
+      <workItem from="1709722814752" duration="8336000" />
+      <workItem from="1709788661040" duration="1434000" />
+      <workItem from="1709879421255" duration="3338000" />
     </task>
     <task id="LOCAL-00094" summary="BinarySearch-step-5">
       <option name="closed" value="true" />
@@ -553,7 +493,71 @@
       <option name="project" value="LOCAL" />
       <updated>1709633454587</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="查看字符串的反转">
+      <option name="closed" value="true" />
+      <created>1709635151792</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1709635151792</updated>
+    </task>
+    <task id="LOCAL-00136" summary="方法的重载&#10;&#10;编译系统只看方法名称和参数类型">
+      <option name="closed" value="true" />
+      <created>1709729384092</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1709729384092</updated>
+    </task>
+    <task id="LOCAL-00137" summary="杂项">
+      <option name="closed" value="true" />
+      <created>1709729395846</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1709729395847</updated>
+    </task>
+    <task id="LOCAL-00138" summary="构造器&#10;&#10;构造器也存在重载现象">
+      <option name="closed" value="true" />
+      <created>1709730793960</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1709730793960</updated>
+    </task>
+    <task id="LOCAL-00139" summary="字符串拼接-0&#10;&#10;输入要用作拼接的字符">
+      <option name="closed" value="true" />
+      <created>1709789096025</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1709789096025</updated>
+    </task>
+    <task id="LOCAL-00140" summary="字符串拼接-1&#10;&#10;进行一个判断，内容为：如果用户输入的不是一个字符就进行重新输入">
+      <option name="closed" value="true" />
+      <created>1709789153497</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1709789153497</updated>
+    </task>
+    <task id="LOCAL-00141" summary="字符串拼接-2&#10;&#10;让用户输入一个字符串">
+      <option name="closed" value="true" />
+      <created>1709789297889</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1709789297889</updated>
+    </task>
+    <task id="LOCAL-00142" summary="字符串拼接-3&#10;&#10;构建一个方法，拼接字符串并输出">
+      <option name="closed" value="true" />
+      <created>1709790040421</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1709790040421</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,13 +577,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="圆神第一步-step-0&#10;&#10;最简单的面向对象办法，创建一个通过半径就能达到圆的面向对象语句" />
-    <MESSAGE value="圆神第一步-step-1&#10;&#10;给这个面向对象增加安全性" />
-    <MESSAGE value="圆神第一步-step-2&#10;&#10;拥有安全性后不能直接对其内容进行修改，需要使用 色图语句" />
-    <MESSAGE value="圆神第一步-step-2&#10;&#10;返回半经值查看是否正确 , 使用 get 语句" />
-    <MESSAGE value="圆神第一步-step-3&#10;&#10;返回值正确，如果我们要在这个圆刚被创建出来的时候就直接导入半径需要采用全参构造" />
-    <MESSAGE value="圆神第一步-step-3&#10;&#10;但是如果存在全参构造，idea就不会帮助我们创建一个空参构造了,这样子如果在创建类项的时候不传入参数就会报错。所以我们要创建一个空参构造" />
-    <MESSAGE value="圆神第一步-step-4&#10;&#10;但是如果存在全参构造，idea就不会帮助我们创建一个空参构造了,这样子如果在创建类项的时候不传入参数就会报错。所以我们要创建一个空参构造" />
     <MESSAGE value="圆神第一步-step-5&#10;&#10;已经可以完美运行了，我们改进一下" />
     <MESSAGE value="学生两位！" />
     <MESSAGE value="111" />
@@ -595,10 +592,17 @@
     <MESSAGE value="添加成数组" />
     <MESSAGE value="学生管理系统" />
     <MESSAGE value="学生随机" />
-    <MESSAGE value="杂项" />
     <MESSAGE value="char 的数组" />
     <MESSAGE value="查看字符串的内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="查看字符串的内容" />
+    <MESSAGE value="查看字符串的反转" />
+    <MESSAGE value="方法的重载&#10;&#10;编译系统只看方法名称和参数类型" />
+    <MESSAGE value="杂项" />
+    <MESSAGE value="构造器&#10;&#10;构造器也存在重载现象" />
+    <MESSAGE value="字符串拼接-0&#10;&#10;输入要用作拼接的字符" />
+    <MESSAGE value="字符串拼接-1&#10;&#10;进行一个判断，内容为：如果用户输入的不是一个字符就进行重新输入" />
+    <MESSAGE value="字符串拼接-2&#10;&#10;让用户输入一个字符串" />
+    <MESSAGE value="字符串拼接-3&#10;&#10;构建一个方法，拼接字符串并输出" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串拼接-3&#10;&#10;构建一个方法，拼接字符串并输出" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
