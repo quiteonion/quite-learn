@@ -1,7 +1,5 @@
 package A20240222;
 
-import java.util.Scanner;
-
 public class DogTest {
     public static void main(String[] args) {
         Dog dog = new Dog("小七", 001 , "黑白相间的灰");

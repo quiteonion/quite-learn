@@ -4,10 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="字符串拼接-3&#10;&#10;构建一个方法，拼接字符串并输出">
-      <change afterPath="$PROJECT_DIR$/src/A20240306/AmountConversion.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="重载">
+      <change afterPath="$PROJECT_DIR$/src/A20240104/Readmd3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240104/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240104/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240104/img_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240104/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240104/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240104/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240104/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240104/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240104/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240104/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240104/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240104/img_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240125/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240125/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240125/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240125/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240125/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240126/Readmd1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240126/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240126/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240126/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240126/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240126/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240126/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240126/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240126/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240129/Readmd.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240129/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240129/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240129/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240308/PhoneNumberShield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240308/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240308/Student1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240308/StudentTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240308/{26fbd5b6-e97d-45a5-8038-08543e925052}.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240306/ObjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240306/ObjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240125/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240125/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240222/DogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240222/DogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240222/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240222/StudentMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240227/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240227/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240227/PhoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240227/PhoneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240302/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240302/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240302/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240302/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240305/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240305/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240305/inspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240305/inspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240305/reversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240305/reversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240307/StringConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240307/StringConcat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day001/HellowWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20231128/HellowWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day001/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20231128/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day002/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240104/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day002/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240104/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day002/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240104/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day002/Readme2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240104/Readme2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day002/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240104/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day002/图片1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240104/图片1.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,34 +91,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/HellowWord&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/src/A20240308",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\A20240308" />
+      <recent name="D:\idea\idea 存储\quite\src\Day005" />
       <recent name="D:\idea\idea 存储\quite\src\Day007" />
       <recent name="D:\idea\idea 存储\quite\src\Day004" />
       <recent name="D:\idea\idea 存储\quite\src\Day003" />
-      <recent name="D:\idea\idea 存储\quite\src\Day002" />
-      <recent name="D:\idea\idea 存储\quite\src\Day001" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\A20240308" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Day006" />
@@ -163,23 +219,8 @@
       <workItem from="1709700309670" duration="2785000" />
       <workItem from="1709722814752" duration="8336000" />
       <workItem from="1709788661040" duration="1434000" />
-      <workItem from="1709879421255" duration="3338000" />
-    </task>
-    <task id="LOCAL-00094" summary="BinarySearch-step-5">
-      <option name="closed" value="true" />
-      <created>1708510051826</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1708510051826</updated>
-    </task>
-    <task id="LOCAL-00095" summary="更改">
-      <option name="closed" value="true" />
-      <created>1708566031079</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1708566031080</updated>
+      <workItem from="1709879421255" duration="4152000" />
+      <workItem from="1709896302340" duration="5165000" />
     </task>
     <task id="LOCAL-00096" summary="简便循环">
       <option name="closed" value="true" />
@@ -557,7 +598,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709790040421</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="字符串拼接-4&#10;&#10;设置一个数组存储单位，然后隔代传入即可">
+      <option name="closed" value="true" />
+      <created>1709883486111</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1709883486112</updated>
+    </task>
+    <task id="LOCAL-00144" summary="重载">
+      <option name="closed" value="true" />
+      <created>1709883516571</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1709883516571</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,8 +634,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="圆神第一步-step-5&#10;&#10;已经可以完美运行了，我们改进一下" />
-    <MESSAGE value="学生两位！" />
     <MESSAGE value="111" />
     <MESSAGE value="手机数组  面向对象" />
     <MESSAGE value="更新" />
@@ -602,7 +657,9 @@
     <MESSAGE value="字符串拼接-1&#10;&#10;进行一个判断，内容为：如果用户输入的不是一个字符就进行重新输入" />
     <MESSAGE value="字符串拼接-2&#10;&#10;让用户输入一个字符串" />
     <MESSAGE value="字符串拼接-3&#10;&#10;构建一个方法，拼接字符串并输出" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符串拼接-3&#10;&#10;构建一个方法，拼接字符串并输出" />
+    <MESSAGE value="字符串拼接-4&#10;&#10;设置一个数组存储单位，然后隔代传入即可" />
+    <MESSAGE value="重载" />
+    <option name="LAST_COMMIT_MESSAGE" value="重载" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
