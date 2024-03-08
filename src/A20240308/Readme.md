@@ -27,3 +27,20 @@
 ![img_2.png](img_2.png)
 
 在两行代码中 ， 由此可得 this 和 Circle 是同一个地址值的同一个东西
+
+![img_3.png](img_3.png)
+
+构造器多重可改进
+
+## 不同包下的方法使用
+
+![img_4.png](img_4.png)
+
+或者
+
+![img_5.png](img_5.png)
+
+
+# 课后作业：单例实例运算
+
+![img_6.png](img_6.png)

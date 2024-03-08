@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Readmd的修改和部分代码的书写">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="this 究竟是什么？？&#10;&#10;&#10;双重 new 代码版">
       <change afterPath="$PROJECT_DIR$/src/A20240308/CirculateArray.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/A20240308/CirculateArrayText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240308/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240308/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240308/StudentText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240308/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240308/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240308/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240308/img_6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A20240308/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240308/Readme.md" afterDir="false" />
     </list>
@@ -169,31 +174,7 @@
       <workItem from="1709722814752" duration="8336000" />
       <workItem from="1709788661040" duration="1434000" />
       <workItem from="1709879421255" duration="4152000" />
-      <workItem from="1709896302340" duration="6503000" />
-    </task>
-    <task id="LOCAL-00097" summary="更改为&#10;&#10; System.out.println(Arrays.toString(arr));">
-      <option name="closed" value="true" />
-      <created>1708585733059</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1708585733059</updated>
-    </task>
-    <task id="LOCAL-00098" summary="狗哥">
-      <option name="closed" value="true" />
-      <created>1708590151233</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1708590151233</updated>
-    </task>
-    <task id="LOCAL-00099" summary="圆神的制作~">
-      <option name="closed" value="true" />
-      <created>1708590876399</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1708590876399</updated>
+      <workItem from="1709896302340" duration="8987000" />
     </task>
     <task id="LOCAL-00100" summary="削减">
       <option name="closed" value="true" />
@@ -563,7 +544,31 @@
       <option name="project" value="LOCAL" />
       <updated>1709901698388</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="this 究竟是什么">
+      <option name="closed" value="true" />
+      <created>1709903246866</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1709903246866</updated>
+    </task>
+    <task id="LOCAL-00147" summary="Readmd 的补充">
+      <option name="closed" value="true" />
+      <created>1709903259837</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1709903259837</updated>
+    </task>
+    <task id="LOCAL-00148" summary="this 究竟是什么？？&#10;&#10;&#10;双重 new 代码版">
+      <option name="closed" value="true" />
+      <created>1709903511260</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1709903511260</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,9 +588,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="手机数组  面向对象" />
-    <MESSAGE value="更新" />
-    <MESSAGE value="Student-step-0&#10;&#10;创建学生的对象" />
     <MESSAGE value="Student-step-1&#10;&#10;创建学生的参数&#10;姓名、年龄、性别、号数" />
     <MESSAGE value="Student-step-2&#10;&#10;创建使用这个方法的测试项" />
     <MESSAGE value="Student-step-3&#10;&#10;创建一个学生对象" />
@@ -608,7 +610,10 @@
     <MESSAGE value="字符串拼接-4&#10;&#10;设置一个数组存储单位，然后隔代传入即可" />
     <MESSAGE value="重载" />
     <MESSAGE value="Readmd的修改和部分代码的书写" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readmd的修改和部分代码的书写" />
+    <MESSAGE value="this 究竟是什么" />
+    <MESSAGE value="Readmd 的补充" />
+    <MESSAGE value="this 究竟是什么？？&#10;&#10;&#10;双重 new 代码版" />
+    <option name="LAST_COMMIT_MESSAGE" value="this 究竟是什么？？&#10;&#10;&#10;双重 new 代码版" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
