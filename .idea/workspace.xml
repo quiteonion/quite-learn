@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="this 究竟是什么？？&#10;&#10;&#10;双重 new 代码版">
-      <change afterPath="$PROJECT_DIR$/src/A20240308/CirculateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240308/CirculateArrayText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240308/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240308/StudentText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240308/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240308/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240308/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240308/img_6.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="杂项">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240308/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240308/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240308/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240308/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240308/StudentText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240308/StudentText.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,27 +38,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/idea/idea 存储/quite/src/A20240308",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/A20240308&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\A20240308" />
@@ -174,23 +167,8 @@
       <workItem from="1709722814752" duration="8336000" />
       <workItem from="1709788661040" duration="1434000" />
       <workItem from="1709879421255" duration="4152000" />
-      <workItem from="1709896302340" duration="8987000" />
-    </task>
-    <task id="LOCAL-00100" summary="削减">
-      <option name="closed" value="true" />
-      <created>1708592943449</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1708592943449</updated>
-    </task>
-    <task id="LOCAL-00101" summary="改名">
-      <option name="closed" value="true" />
-      <created>1708592951184</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1708592951184</updated>
+      <workItem from="1709896302340" duration="9119000" />
+      <workItem from="1709955037257" duration="1506000" />
     </task>
     <task id="LOCAL-00102" summary="狗哥初始化">
       <option name="closed" value="true" />
@@ -568,7 +546,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709903511260</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="Readmd 补充">
+      <option name="closed" value="true" />
+      <created>1709905534422</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1709905534422</updated>
+    </task>
+    <task id="LOCAL-00150" summary="杂项">
+      <option name="closed" value="true" />
+      <created>1709905553823</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1709905553824</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,7 +582,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Student-step-1&#10;&#10;创建学生的参数&#10;姓名、年龄、性别、号数" />
     <MESSAGE value="Student-step-2&#10;&#10;创建使用这个方法的测试项" />
     <MESSAGE value="Student-step-3&#10;&#10;创建一个学生对象" />
     <MESSAGE value="Student-step-4&#10;&#10;导入的对象要将他提取出来，使用到 get" />
@@ -601,7 +594,6 @@
     <MESSAGE value="查看字符串的内容" />
     <MESSAGE value="查看字符串的反转" />
     <MESSAGE value="方法的重载&#10;&#10;编译系统只看方法名称和参数类型" />
-    <MESSAGE value="杂项" />
     <MESSAGE value="构造器&#10;&#10;构造器也存在重载现象" />
     <MESSAGE value="字符串拼接-0&#10;&#10;输入要用作拼接的字符" />
     <MESSAGE value="字符串拼接-1&#10;&#10;进行一个判断，内容为：如果用户输入的不是一个字符就进行重新输入" />
@@ -613,7 +605,9 @@
     <MESSAGE value="this 究竟是什么" />
     <MESSAGE value="Readmd 的补充" />
     <MESSAGE value="this 究竟是什么？？&#10;&#10;&#10;双重 new 代码版" />
-    <option name="LAST_COMMIT_MESSAGE" value="this 究竟是什么？？&#10;&#10;&#10;双重 new 代码版" />
+    <MESSAGE value="Readmd 补充" />
+    <MESSAGE value="杂项" />
+    <option name="LAST_COMMIT_MESSAGE" value="杂项" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
