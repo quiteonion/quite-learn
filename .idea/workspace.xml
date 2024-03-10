@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="单一实例&#10;&#10;添加 get 和 set 使其可以被调用">
-      <change afterPath="$PROJECT_DIR$/src/B20240309/StringBuilderMain.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="单一实例（练习）-3&#10;&#10;接下来就要想办法让 Test 调用到，而外界调用内部要使用方法">
+      <change afterPath="$PROJECT_DIR$/src/A20240310/Image/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240310/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240310/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240310/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240310/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240310/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240310/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240310/Readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240310/Readmd.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +72,11 @@
       <recent name="D:\idea\idea 存储\quite\src\A20240126" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\A20240310\Image" />
+      <recent name="D:\idea\idea 存储\quite\src\A20240308\Image" />
       <recent name="D:\idea\idea 存储\quite\src\B20240309\Image" />
       <recent name="D:\idea\idea 存储\quite\src\A20231128\Image" />
       <recent name="D:\idea\idea 存储\quite\src\A20240104\Image" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240125\Image" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240126\Image" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Day006" />
@@ -172,71 +178,7 @@
       <workItem from="1709896302340" duration="9119000" />
       <workItem from="1709955037257" duration="5791000" />
       <workItem from="1709971750236" duration="2381000" />
-      <workItem from="1710033439566" duration="6996000" />
-    </task>
-    <task id="LOCAL-00120" summary="Student-step-0&#10;&#10;创建学生的对象">
-      <option name="closed" value="true" />
-      <created>1709429380347</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1709429380348</updated>
-    </task>
-    <task id="LOCAL-00121" summary="Student-step-1&#10;&#10;创建学生的参数&#10;姓名、年龄、性别、号数">
-      <option name="closed" value="true" />
-      <created>1709429514286</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1709429514286</updated>
-    </task>
-    <task id="LOCAL-00122" summary="Student-step-2&#10;&#10;创建使用这个方法的测试项">
-      <option name="closed" value="true" />
-      <created>1709429579766</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1709429579766</updated>
-    </task>
-    <task id="LOCAL-00123" summary="Student-step-3&#10;&#10;创建一个学生对象">
-      <option name="closed" value="true" />
-      <created>1709430050378</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1709430050379</updated>
-    </task>
-    <task id="LOCAL-00124" summary="Student-step-4&#10;&#10;导入的对象要将他提取出来，使用到 get">
-      <option name="closed" value="true" />
-      <created>1709430525186</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1709430525186</updated>
-    </task>
-    <task id="LOCAL-00125" summary="Student-step-4&#10;&#10;如果要单独更改一个元素，就要使用到空参构造和set方法">
-      <option name="closed" value="true" />
-      <created>1709430681116</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1709430681116</updated>
-    </task>
-    <task id="LOCAL-00126" summary="Student-step-6&#10;&#10;学生对象就以这种形式成就,但是纵使是可以使用两种方法创建学生对象，也不能够混用">
-      <option name="closed" value="true" />
-      <created>1709430950540</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1709430950540</updated>
-    </task>
-    <task id="LOCAL-00127" summary="杂项">
-      <option name="closed" value="true" />
-      <created>1709431330386</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1709431330386</updated>
+      <workItem from="1710033439566" duration="14294000" />
     </task>
     <task id="LOCAL-00128" summary="添加成数组">
       <option name="closed" value="true" />
@@ -566,7 +508,71 @@
       <option name="project" value="LOCAL" />
       <updated>1710040961173</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="单一实例&#10;&#10;引入 final 不能被改变">
+      <option name="closed" value="true" />
+      <created>1710041073002</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1710041073002</updated>
+    </task>
+    <task id="LOCAL-00170" summary="单一实例&#10;&#10;引入 final 不能被改变">
+      <option name="closed" value="true" />
+      <created>1710041127895</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1710041127895</updated>
+    </task>
+    <task id="LOCAL-00171" summary="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
+      <option name="closed" value="true" />
+      <created>1710041263555</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1710041263555</updated>
+    </task>
+    <task id="LOCAL-00172" summary="单一实例&#10;&#10;使得 new 在 behavior 内部">
+      <option name="closed" value="true" />
+      <created>1710051842368</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1710051842368</updated>
+    </task>
+    <task id="LOCAL-00173" summary="单一实例（练习）-0">
+      <option name="closed" value="true" />
+      <created>1710051991441</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1710051991441</updated>
+    </task>
+    <task id="LOCAL-00174" summary="单一实例（练习）-1&#10;&#10;要让用户不能直接 new 构造器就可以维持单一变量的首要条件">
+      <option name="closed" value="true" />
+      <created>1710052250210</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1710052250210</updated>
+    </task>
+    <task id="LOCAL-00175" summary="单一实例（练习）-2&#10;&#10;其次需要在对象中 先new出来，再提供使用，这样子就可以实现单一实例">
+      <option name="closed" value="true" />
+      <created>1710052378797</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1710052378797</updated>
+    </task>
+    <task id="LOCAL-00176" summary="单一实例（练习）-3&#10;&#10;接下来就要想办法让 Test 调用到，而外界调用内部要使用方法">
+      <option name="closed" value="true" />
+      <created>1710052497683</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1710052497683</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,12 +592,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="方法的重载&#10;&#10;编译系统只看方法名称和参数类型" />
-    <MESSAGE value="构造器&#10;&#10;构造器也存在重载现象" />
-    <MESSAGE value="字符串拼接-0&#10;&#10;输入要用作拼接的字符" />
-    <MESSAGE value="字符串拼接-1&#10;&#10;进行一个判断，内容为：如果用户输入的不是一个字符就进行重新输入" />
-    <MESSAGE value="字符串拼接-2&#10;&#10;让用户输入一个字符串" />
-    <MESSAGE value="字符串拼接-3&#10;&#10;构建一个方法，拼接字符串并输出" />
     <MESSAGE value="字符串拼接-4&#10;&#10;设置一个数组存储单位，然后隔代传入即可" />
     <MESSAGE value="重载" />
     <MESSAGE value="Readmd的修改和部分代码的书写" />
@@ -608,10 +608,16 @@
     <MESSAGE value="Readmd 补充" />
     <MESSAGE value="单项错误区块&#10;&#10;在创建单一实例的时候，如果使用behavior就会导致错误，因为出栈入栈引发的地址值不同" />
     <MESSAGE value="Readmd 补充&#10;&#10;将代码位置补充进入Readmd" />
-    <MESSAGE value="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片" />
     <MESSAGE value="单一实例&#10;&#10;保护 instance 使用 private" />
     <MESSAGE value="单一实例&#10;&#10;添加 get 和 set 使其可以被调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="单一实例&#10;&#10;添加 get 和 set 使其可以被调用" />
+    <MESSAGE value="单一实例&#10;&#10;引入 final 不能被改变" />
+    <MESSAGE value="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片" />
+    <MESSAGE value="单一实例&#10;&#10;使得 new 在 behavior 内部" />
+    <MESSAGE value="单一实例（练习）-0" />
+    <MESSAGE value="单一实例（练习）-1&#10;&#10;要让用户不能直接 new 构造器就可以维持单一变量的首要条件" />
+    <MESSAGE value="单一实例（练习）-2&#10;&#10;其次需要在对象中 先new出来，再提供使用，这样子就可以实现单一实例" />
+    <MESSAGE value="单一实例（练习）-3&#10;&#10;接下来就要想办法让 Test 调用到，而外界调用内部要使用方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="单一实例（练习）-3&#10;&#10;接下来就要想办法让 Test 调用到，而外界调用内部要使用方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

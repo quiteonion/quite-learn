@@ -24,3 +24,25 @@ static 属于方法的一部分，不需要 new 就可以访问，相当于创�
 
 引入 final 这个值 ， 代表不能被改变
 
+初始化一次之后就不能被改变
+
+## 单一实例不止可以使用 state 还可以运用 behavior
+
+![img.png](Image/1.png)
+
+# 访问权限修饰符
+
+![img.png](img.png)
+
+由图可得
+
+# 文档带读
+
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
+
+![img_3.png](img_3.png)
+
+
+
