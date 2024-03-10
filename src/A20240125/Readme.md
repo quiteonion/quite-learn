@@ -30,10 +30,10 @@
 
 ## 寒假上课安排
 寒假课第一天，同步说明时间安排和节奏安排。
-![img.png](img.png)
+![img.png](Image/img.png)
 
 ## 回顾 + FQA
-![img_3.png](img_3.png)
+![img_3.png](Image/img_3.png)
 
 ## 本节内容
-![img_4.png](img_4.png)
+![img_4.png](Image/img_4.png)

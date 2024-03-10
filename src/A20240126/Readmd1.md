@@ -14,15 +14,15 @@
 ## IDEA
 - 配置
   避免每次打开 IDEA 都默认打开上次打开过的项目
-  ![img.png](img.png)
+  ![img.png](Image/img.png)
 
 - IntelliJ IDEA CE（Community Edition）
 
 ## 课前热身
-![img_7.png](img_7.png)
+![img_7.png](Image/img_7.png)
 
 ## 运算 Operator（part 2）
-![img_5.png](img_5.png)
+![img_5.png](Image/img_5.png)
 
 ## 数组
-![img_6.png](img_6.png)
+![img_6.png](Image/img_6.png)

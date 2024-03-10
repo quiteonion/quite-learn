@@ -1,5 +1,5 @@
 ## 程序员招合租，隐藏在代码中的电话号码
-![img.png](img.png)
+![img.png](Image/img.png)
 
 ## 细节中见「能力」
 从今天的 `DisplayPhoneNumberTest.java` 到前一天的 `Table99.java`
@@ -29,11 +29,11 @@
 - Multi-dimensional arrays are really just arrays which contain components of array type.
 
 ## 一维数组的内存解析
-![img_2.png](img_2.png)
+![img_2.png](Image/img_2.png)
 
 ## 二维数组的内存解析
 赋值理解：数组中的元素又是数组（重读官方文档的数组介绍）
-![img_3.png](img_3.png)
+![img_3.png](Image/img_3.png)
 
 ## 数组中元素的默认值
 基础数据的默认值

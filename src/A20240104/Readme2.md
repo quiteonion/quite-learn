@@ -5,7 +5,7 @@ getee 、 浏览器插件 、 Typora
 下载getee后，建立远程仓库与idea上进行链接
 
 ### 远程仓库的上传
-![img_7.png](img_7.png)
+![img_7.png](Image/img_7.png)
 
 ### getee的作用
 可以防止代码丢失 、 上传代码从而知道自己的学习历程
