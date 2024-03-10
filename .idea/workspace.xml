@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="手机号输入隐私输出">
-      <change afterPath="$PROJECT_DIR$/src/B20240309/IDCade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240309/Main.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Readmd 补充&#10;&#10;将代码位置补充进入Readmd">
+      <change afterPath="$PROJECT_DIR$/src/B20240309/StringBuilderMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240310/Readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240310/Readmd.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,79 +169,8 @@
       <workItem from="1709879421255" duration="4152000" />
       <workItem from="1709896302340" duration="9119000" />
       <workItem from="1709955037257" duration="5791000" />
-      <workItem from="1709971750236" duration="852000" />
-    </task>
-    <task id="LOCAL-00107" summary="圆神第一步-step-0&#10;&#10;最简单的面向对象办法，创建一个通过半径就能达到圆的面向对象语句">
-      <option name="closed" value="true" />
-      <created>1708674781905</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1708674781905</updated>
-    </task>
-    <task id="LOCAL-00108" summary="圆神第一步-step-1&#10;&#10;给这个面向对象增加安全性">
-      <option name="closed" value="true" />
-      <created>1708674821465</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1708674821465</updated>
-    </task>
-    <task id="LOCAL-00109" summary="圆神第一步-step-2&#10;&#10;拥有安全性后不能直接对其内容进行修改，需要使用 色图语句">
-      <option name="closed" value="true" />
-      <created>1708674889510</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1708674889510</updated>
-    </task>
-    <task id="LOCAL-00110" summary="圆神第一步-step-2&#10;&#10;返回半经值查看是否正确 , 使用 get 语句">
-      <option name="closed" value="true" />
-      <created>1708675036019</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1708675036019</updated>
-    </task>
-    <task id="LOCAL-00111" summary="圆神第一步-step-3&#10;&#10;返回值正确，如果我们要在这个圆刚被创建出来的时候就直接导入半径需要采用全参构造">
-      <option name="closed" value="true" />
-      <created>1708675146272</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1708675146272</updated>
-    </task>
-    <task id="LOCAL-00112" summary="圆神第一步-step-3&#10;&#10;但是如果存在全参构造，idea就不会帮助我们创建一个空参构造了,这样子如果在创建类项的时候不传入参数就会报错。所以我们要创建一个空参构造">
-      <option name="closed" value="true" />
-      <created>1708675289713</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1708675289713</updated>
-    </task>
-    <task id="LOCAL-00113" summary="圆神第一步-step-4&#10;&#10;但是如果存在全参构造，idea就不会帮助我们创建一个空参构造了,这样子如果在创建类项的时候不传入参数就会报错。所以我们要创建一个空参构造">
-      <option name="closed" value="true" />
-      <created>1708675329052</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1708675329052</updated>
-    </task>
-    <task id="LOCAL-00114" summary="圆神第一步-step-5&#10;&#10;已经可以完美运行了，我们改进一下">
-      <option name="closed" value="true" />
-      <created>1708675636929</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1708675636929</updated>
-    </task>
-    <task id="LOCAL-00115" summary="学生两位！">
-      <option name="closed" value="true" />
-      <created>1708679743356</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1708679743356</updated>
+      <workItem from="1709971750236" duration="2381000" />
+      <workItem from="1710033439566" duration="5124000" />
     </task>
     <task id="LOCAL-00116" summary="学生两位！">
       <option name="closed" value="true" />
@@ -563,7 +492,79 @@
       <option name="project" value="LOCAL" />
       <updated>1709961651340</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="通过身份证输出生日和性别">
+      <option name="closed" value="true" />
+      <created>1709972714857</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1709972714858</updated>
+    </task>
+    <task id="LOCAL-00157" summary="Readmd 补充">
+      <option name="closed" value="true" />
+      <created>1709972729307</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1709972729307</updated>
+    </task>
+    <task id="LOCAL-00158" summary="Readmd 补充">
+      <option name="closed" value="true" />
+      <created>1710034390797</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1710034390798</updated>
+    </task>
+    <task id="LOCAL-00159" summary="Readmd 补充">
+      <option name="closed" value="true" />
+      <created>1710034504807</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1710034504807</updated>
+    </task>
+    <task id="LOCAL-00160" summary="Readmd 补充">
+      <option name="closed" value="true" />
+      <created>1710036988714</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1710036988714</updated>
+    </task>
+    <task id="LOCAL-00161" summary="Readmd 补充">
+      <option name="closed" value="true" />
+      <created>1710037090020</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1710037090020</updated>
+    </task>
+    <task id="LOCAL-00162" summary="Readmd 补充">
+      <option name="closed" value="true" />
+      <created>1710038678938</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1710038678938</updated>
+    </task>
+    <task id="LOCAL-00163" summary="单项错误区块&#10;&#10;在创建单一实例的时候，如果使用behavior就会导致错误，因为出栈入栈引发的地址值不同">
+      <option name="closed" value="true" />
+      <created>1710038789388</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1710038789388</updated>
+    </task>
+    <task id="LOCAL-00164" summary="Readmd 补充&#10;&#10;将代码位置补充进入Readmd">
+      <option name="closed" value="true" />
+      <created>1710038874696</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1710038874696</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,9 +584,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="添加成数组" />
-    <MESSAGE value="学生管理系统" />
-    <MESSAGE value="学生随机" />
     <MESSAGE value="char 的数组" />
     <MESSAGE value="查看字符串的内容" />
     <MESSAGE value="查看字符串的反转" />
@@ -601,14 +599,17 @@
     <MESSAGE value="this 究竟是什么" />
     <MESSAGE value="Readmd 的补充" />
     <MESSAGE value="this 究竟是什么？？&#10;&#10;&#10;双重 new 代码版" />
-    <MESSAGE value="Readmd 补充" />
     <MESSAGE value="杂项" />
     <MESSAGE value="20240308作业的完成（存有问题未解答）" />
     <MESSAGE value="更改名字为 Overload（重载）" />
     <MESSAGE value="更改 class 文件位置" />
     <MESSAGE value="Readmd补充" />
     <MESSAGE value="手机号输入隐私输出" />
-    <option name="LAST_COMMIT_MESSAGE" value="手机号输入隐私输出" />
+    <MESSAGE value="通过身份证输出生日和性别" />
+    <MESSAGE value="Readmd 补充" />
+    <MESSAGE value="单项错误区块&#10;&#10;在创建单一实例的时候，如果使用behavior就会导致错误，因为出栈入栈引发的地址值不同" />
+    <MESSAGE value="Readmd 补充&#10;&#10;将代码位置补充进入Readmd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readmd 补充&#10;&#10;将代码位置补充进入Readmd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

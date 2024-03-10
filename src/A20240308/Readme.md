@@ -1,8 +1,8 @@
 # 前言
 ## 昨日的题目
-![Snipaste_2024-03-08_19-43-32.png](Snipaste_2024-03-08_19-43-32.png)
+![Snipaste_2024-03-08_19-43-32.png](Image/Snipaste_2024-03-08_19-43-32.png)
 ## 添加知识点
-![Snipaste_2024-03-08_19-47-10.png](Snipaste_2024-03-08_19-47-10.png)
+![Snipaste_2024-03-08_19-47-10.png](Image/Snipaste_2024-03-08_19-47-10.png)
 要从不同方式去考虑，有权衡
 
 可变参数不能放置在首项
@@ -14,31 +14,31 @@
 ## 方法名的书写要精确得当，以动词开头，驼峰命名
 
 ## 循环等价
-![img.png](img.png)
+![img.png](Image/img.png)
 
 该循环等价于循环 Student 方法下的 students 数组
 
 ## 面向对象细则
 
-![img_1.png](img_1.png)
+![img_1.png](Image/img_1.png)
 
 在一个方法中，他的this就代表将他 new 出来的这个内容的名字
 
-![img_2.png](img_2.png)
+![img_2.png](Image/img_2.png)
 
 在两行代码中 ， 由此可得 this 和 Circle 是同一个地址值的同一个东西
 
-![img_3.png](img_3.png)
+![img_3.png](Image/img_3.png)
 
 构造器多重可改进
 
 ## 不同包下的方法使用
 
-![img_4.png](img_4.png)
+![img_4.png](Image/img_4.png)
 
 或者
 
-![img_5.png](img_5.png)
+![img_5.png](Image/img_5.png)
 
 
 # 课后作业：单例实例运算
@@ -49,7 +49,7 @@
 
 [StudentText.java](StudentText.java)
 
-![img_6.png](img_6.png)
+![img_6.png](Image/img_6.png)
 
 解题思路：
 我的解读解题思路是因为这一个类中，一个构造器已经被封锁起来了
@@ -77,7 +77,7 @@
 
 # 方法二
 
-![img_7.png](img_7.png)
+![img_7.png](Image/img_7.png)
 
 ## 存在问题
 
