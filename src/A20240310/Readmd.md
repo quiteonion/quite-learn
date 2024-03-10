@@ -20,5 +20,7 @@ static 属于方法的一部分，不需要 new 就可以访问，相当于创�
 
 使用 behavior get 和 set 方法来使用
 
+![img_1.png](img_1.png)
 
+引入 final 这个值 ， 代表不能被改变
 
