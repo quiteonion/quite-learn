@@ -1,8 +1,7 @@
 package A20240308;
 
 public class Student {
-
-    private static final Student s = new Student();
+    private static Student instance;
     private String name;
     private int age;
 
@@ -15,8 +14,10 @@ public class Student {
      * 获取
      * @return s
      */
-    public static Student getS() {
-        return s;
+    public static final Student instanceAA() {
+        if (instance == null)
+        instance = new Student();
+        return instance;
     }
 
     /**
@@ -66,7 +67,5 @@ public class Student {
         this.age = age;
     }
 
-    public String toString() {
-        return "Student{s = " + s + ", name = " + name + ", age = " + age + "}";
-    }
+
 }
