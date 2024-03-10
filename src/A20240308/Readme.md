@@ -81,12 +81,12 @@
 
 ## 存在问题
 
-![img.png](img.png)
+![img.png](Image/img123123.png)
 
 ### 解决问题
 
 使用 behavior 
 
-![img_1.png](img_1.png)
+![img_1.png](Image/13213img_1.png)
 
 引入final 代表不能被改变
