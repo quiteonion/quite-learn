@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
-      <change afterPath="$PROJECT_DIR$/src/A20240310/img.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="单一实例&#10;&#10;添加 get 和 set 使其可以被调用">
       <change afterPath="$PROJECT_DIR$/src/B20240309/StringBuilderMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240308/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240308/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240308/StudentText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240308/StudentText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240310/Readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240310/Readmd.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,23 +172,7 @@
       <workItem from="1709896302340" duration="9119000" />
       <workItem from="1709955037257" duration="5791000" />
       <workItem from="1709971750236" duration="2381000" />
-      <workItem from="1710033439566" duration="6344000" />
-    </task>
-    <task id="LOCAL-00118" summary="手机数组  面向对象">
-      <option name="closed" value="true" />
-      <created>1709096758243</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1709096758243</updated>
-    </task>
-    <task id="LOCAL-00119" summary="更新">
-      <option name="closed" value="true" />
-      <created>1709096785823</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1709096785823</updated>
+      <workItem from="1710033439566" duration="6996000" />
     </task>
     <task id="LOCAL-00120" summary="Student-step-0&#10;&#10;创建学生的对象">
       <option name="closed" value="true" />
@@ -571,7 +550,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710039404400</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="单一实例&#10;&#10;保护 instance 使用 private">
+      <option name="closed" value="true" />
+      <created>1710040554428</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1710040554428</updated>
+    </task>
+    <task id="LOCAL-00168" summary="单一实例&#10;&#10;添加 get 和 set 使其可以被调用">
+      <option name="closed" value="true" />
+      <created>1710040961173</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1710040961173</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,8 +586,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="查看字符串的内容" />
-    <MESSAGE value="查看字符串的反转" />
     <MESSAGE value="方法的重载&#10;&#10;编译系统只看方法名称和参数类型" />
     <MESSAGE value="构造器&#10;&#10;构造器也存在重载现象" />
     <MESSAGE value="字符串拼接-0&#10;&#10;输入要用作拼接的字符" />
@@ -616,7 +609,9 @@
     <MESSAGE value="单项错误区块&#10;&#10;在创建单一实例的时候，如果使用behavior就会导致错误，因为出栈入栈引发的地址值不同" />
     <MESSAGE value="Readmd 补充&#10;&#10;将代码位置补充进入Readmd" />
     <MESSAGE value="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片" />
+    <MESSAGE value="单一实例&#10;&#10;保护 instance 使用 private" />
+    <MESSAGE value="单一实例&#10;&#10;添加 get 和 set 使其可以被调用" />
+    <option name="LAST_COMMIT_MESSAGE" value="单一实例&#10;&#10;添加 get 和 set 使其可以被调用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

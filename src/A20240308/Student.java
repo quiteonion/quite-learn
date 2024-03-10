@@ -2,7 +2,7 @@ package A20240308;
 
 public class Student {
 
-    private static Student s = new Student();
+    private static final Student s = new Student();
     private String name;
     private int age;
 
@@ -10,11 +10,6 @@ public class Student {
 
     }
 
-    public Student(Student s, String name, int age) {
-        this.s = s;
-        this.name = name;
-        this.age = age;
-    }
 
     /**
      * 获取
@@ -28,9 +23,7 @@ public class Student {
      * 设置
      * @param s
      */
-    public static void setS(Student s) {
-        Student.s = s;
-    }
+
    /* public static Student getS() {
        Student s = new Student();
         return s;
