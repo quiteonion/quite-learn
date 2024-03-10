@@ -2,7 +2,7 @@ package A20240308;
 
 public class Student {
 
-
+/*    static Student s = new Student();*/
     private String name;
     private int age;
 
@@ -13,7 +13,6 @@ public class Student {
        Student s = new Student();
         return s;
     }
-
 
 
     /**
