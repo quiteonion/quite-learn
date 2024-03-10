@@ -2,18 +2,18 @@ package A20240308;
 
 public class Student {
 
-/*    static Student s = new Student();*/
+    private static Student s = new Student();
     private String name;
     private int age;
 
     private Student() {
 
     }
-    public static Student getS() {
+   /* public static Student getS() {
        Student s = new Student();
         return s;
     }
-
+*/
 
     /**
      * 获取
