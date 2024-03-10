@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Readmd 补充&#10;&#10;将代码位置补充进入Readmd">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
+      <change afterPath="$PROJECT_DIR$/src/A20240310/img.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/B20240309/StringBuilderMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240308/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240308/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240308/StudentText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240308/StudentText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A20240310/Readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240310/Readmd.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,37 +41,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/A20240308&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/src/B20240309",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\idea\idea 存储\quite\src\A20240308" />
-      <recent name="D:\idea\idea 存储\quite\src\Day005" />
-      <recent name="D:\idea\idea 存储\quite\src\Day007" />
-      <recent name="D:\idea\idea 存储\quite\src\Day004" />
-      <recent name="D:\idea\idea 存储\quite\src\Day003" />
+      <recent name="D:\idea\idea 存储\quite\src\B20240309" />
+      <recent name="D:\idea\idea 存储\quite\src\A20231128" />
+      <recent name="D:\idea\idea 存储\quite\src\A20240104" />
+      <recent name="D:\idea\idea 存储\quite\src\A20240125" />
+      <recent name="D:\idea\idea 存储\quite\src\A20240126" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\idea\idea 存储\quite\src\A20240308" />
+      <recent name="D:\idea\idea 存储\quite\src\B20240309\Image" />
+      <recent name="D:\idea\idea 存储\quite\src\A20231128\Image" />
+      <recent name="D:\idea\idea 存储\quite\src\A20240104\Image" />
+      <recent name="D:\idea\idea 存储\quite\src\A20240125\Image" />
+      <recent name="D:\idea\idea 存储\quite\src\A20240126\Image" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Day006" />
@@ -170,23 +177,7 @@
       <workItem from="1709896302340" duration="9119000" />
       <workItem from="1709955037257" duration="5791000" />
       <workItem from="1709971750236" duration="2381000" />
-      <workItem from="1710033439566" duration="5124000" />
-    </task>
-    <task id="LOCAL-00116" summary="学生两位！">
-      <option name="closed" value="true" />
-      <created>1708679745280</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1708679745280</updated>
-    </task>
-    <task id="LOCAL-00117" summary="学生两位！">
-      <option name="closed" value="true" />
-      <created>1708679747083</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1708679747083</updated>
+      <workItem from="1710033439566" duration="6344000" />
     </task>
     <task id="LOCAL-00118" summary="手机数组  面向对象">
       <option name="closed" value="true" />
@@ -564,7 +555,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710038874696</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
+      <option name="closed" value="true" />
+      <created>1710039259709</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1710039259709</updated>
+    </task>
+    <task id="LOCAL-00166" summary="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
+      <option name="closed" value="true" />
+      <created>1710039404400</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1710039404400</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,7 +591,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="char 的数组" />
     <MESSAGE value="查看字符串的内容" />
     <MESSAGE value="查看字符串的反转" />
     <MESSAGE value="方法的重载&#10;&#10;编译系统只看方法名称和参数类型" />
@@ -609,7 +615,8 @@
     <MESSAGE value="Readmd 补充" />
     <MESSAGE value="单项错误区块&#10;&#10;在创建单一实例的时候，如果使用behavior就会导致错误，因为出栈入栈引发的地址值不同" />
     <MESSAGE value="Readmd 补充&#10;&#10;将代码位置补充进入Readmd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readmd 补充&#10;&#10;将代码位置补充进入Readmd" />
+    <MESSAGE value="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
