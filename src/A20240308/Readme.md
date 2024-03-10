@@ -45,6 +45,10 @@
 
 # 方法一 （错误❌！！！！）
 
+[Student.java](Student.java)
+
+[StudentText.java](StudentText.java)
+
 ![img_6.png](img_6.png)
 
 解题思路：
