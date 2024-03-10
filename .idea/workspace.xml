@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="单一实例（练习）-3&#10;&#10;接下来就要想办法让 Test 调用到，而外界调用内部要使用方法">
-      <change afterPath="$PROJECT_DIR$/src/A20240310/Image/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240310/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240310/img_1.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="单一实例（练习）-4&#10;&#10;在调用之后就要考虑到，外界如果直接改动 instance 是不能让他们改动">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A20240310/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240310/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A20240310/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240310/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240310/Readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240310/Readmd.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,23 +174,7 @@
       <workItem from="1709896302340" duration="9119000" />
       <workItem from="1709955037257" duration="5791000" />
       <workItem from="1709971750236" duration="2381000" />
-      <workItem from="1710033439566" duration="14294000" />
-    </task>
-    <task id="LOCAL-00128" summary="添加成数组">
-      <option name="closed" value="true" />
-      <created>1709433484076</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1709433484077</updated>
-    </task>
-    <task id="LOCAL-00129" summary="学生管理系统">
-      <option name="closed" value="true" />
-      <created>1709451243237</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1709451243237</updated>
+      <workItem from="1710033439566" duration="15831000" />
     </task>
     <task id="LOCAL-00130" summary="杂项">
       <option name="closed" value="true" />
@@ -572,7 +552,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710052497683</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
+      <option name="closed" value="true" />
+      <created>1710056801532</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1710056801532</updated>
+    </task>
+    <task id="LOCAL-00178" summary="单一实例（练习）-4&#10;&#10;在调用之后就要考虑到，外界如果直接改动 instance 是不能让他们改动">
+      <option name="closed" value="true" />
+      <created>1710057024273</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1710057024273</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +588,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="字符串拼接-4&#10;&#10;设置一个数组存储单位，然后隔代传入即可" />
     <MESSAGE value="重载" />
     <MESSAGE value="Readmd的修改和部分代码的书写" />
     <MESSAGE value="this 究竟是什么" />
@@ -611,13 +606,14 @@
     <MESSAGE value="单一实例&#10;&#10;保护 instance 使用 private" />
     <MESSAGE value="单一实例&#10;&#10;添加 get 和 set 使其可以被调用" />
     <MESSAGE value="单一实例&#10;&#10;引入 final 不能被改变" />
-    <MESSAGE value="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片" />
     <MESSAGE value="单一实例&#10;&#10;使得 new 在 behavior 内部" />
     <MESSAGE value="单一实例（练习）-0" />
     <MESSAGE value="单一实例（练习）-1&#10;&#10;要让用户不能直接 new 构造器就可以维持单一变量的首要条件" />
     <MESSAGE value="单一实例（练习）-2&#10;&#10;其次需要在对象中 先new出来，再提供使用，这样子就可以实现单一实例" />
     <MESSAGE value="单一实例（练习）-3&#10;&#10;接下来就要想办法让 Test 调用到，而外界调用内部要使用方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="单一实例（练习）-3&#10;&#10;接下来就要想办法让 Test 调用到，而外界调用内部要使用方法" />
+    <MESSAGE value="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片" />
+    <MESSAGE value="单一实例（练习）-4&#10;&#10;在调用之后就要考虑到，外界如果直接改动 instance 是不能让他们改动" />
+    <option name="LAST_COMMIT_MESSAGE" value="单一实例（练习）-4&#10;&#10;在调用之后就要考虑到，外界如果直接改动 instance 是不能让他们改动" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
