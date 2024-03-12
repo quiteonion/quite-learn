@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="单一实例（练习）-5&#10;&#10;使用get 和 set 方法来调用 类返回 instance">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="StringBuilder  的功能">
+      <change afterPath="$PROJECT_DIR$/src/B20240312/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240312/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,55 +175,10 @@
       <workItem from="1709955037257" duration="5791000" />
       <workItem from="1709971750236" duration="2381000" />
       <workItem from="1710033439566" duration="16076000" />
-      <workItem from="1710079573889" duration="552000" />
-    </task>
-    <task id="LOCAL-00131" summary="学生随机">
-      <option name="closed" value="true" />
-      <created>1709456451513</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1709456451513</updated>
-    </task>
-    <task id="LOCAL-00132" summary="杂项">
-      <option name="closed" value="true" />
-      <created>1709456464213</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1709456464213</updated>
-    </task>
-    <task id="LOCAL-00133" summary="char 的数组">
-      <option name="closed" value="true" />
-      <created>1709559878119</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1709559878119</updated>
-    </task>
-    <task id="LOCAL-00134" summary="查看字符串的内容">
-      <option name="closed" value="true" />
-      <created>1709633454587</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1709633454587</updated>
-    </task>
-    <task id="LOCAL-00135" summary="查看字符串的反转">
-      <option name="closed" value="true" />
-      <created>1709635151792</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1709635151792</updated>
-    </task>
-    <task id="LOCAL-00136" summary="方法的重载&#10;&#10;编译系统只看方法名称和参数类型">
-      <option name="closed" value="true" />
-      <created>1709729384092</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1709729384092</updated>
+      <workItem from="1710079573889" duration="1058000" />
+      <workItem from="1710081809687" duration="649000" />
+      <workItem from="1710082641639" duration="126000" />
+      <workItem from="1710244196846" duration="2631000" />
     </task>
     <task id="LOCAL-00137" summary="杂项">
       <option name="closed" value="true" />
@@ -567,7 +524,55 @@
       <option name="project" value="LOCAL" />
       <updated>1710061776846</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="单一实例（练习）-6&#10;&#10;检验发现完成单一实例">
+      <option name="closed" value="true" />
+      <created>1710080175602</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1710080175602</updated>
+    </task>
+    <task id="LOCAL-00181" summary="单一实例（练习）-7&#10;&#10;使用 behavior 来构建单一实例">
+      <option name="closed" value="true" />
+      <created>1710080304397</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1710080304397</updated>
+    </task>
+    <task id="LOCAL-00182" summary="单一实例（练习）-7&#10;&#10;使用 behavior 来构建单一实例">
+      <option name="closed" value="true" />
+      <created>1710080341119</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1710080341119</updated>
+    </task>
+    <task id="LOCAL-00183" summary="Arrays.toString 的使用">
+      <option name="closed" value="true" />
+      <created>1710246820874</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1710246820874</updated>
+    </task>
+    <task id="LOCAL-00184" summary="StringJoiner  的功能">
+      <option name="closed" value="true" />
+      <created>1710246866748</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1710246866748</updated>
+    </task>
+    <task id="LOCAL-00185" summary="StringBuilder  的功能">
+      <option name="closed" value="true" />
+      <created>1710247445892</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1710247445892</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,11 +592,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Readmd的修改和部分代码的书写" />
-    <MESSAGE value="this 究竟是什么" />
-    <MESSAGE value="Readmd 的补充" />
-    <MESSAGE value="this 究竟是什么？？&#10;&#10;&#10;双重 new 代码版" />
-    <MESSAGE value="杂项" />
     <MESSAGE value="20240308作业的完成（存有问题未解答）" />
     <MESSAGE value="更改名字为 Overload（重载）" />
     <MESSAGE value="更改 class 文件位置" />
@@ -612,7 +612,12 @@
     <MESSAGE value="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片" />
     <MESSAGE value="单一实例（练习）-4&#10;&#10;在调用之后就要考虑到，外界如果直接改动 instance 是不能让他们改动" />
     <MESSAGE value="单一实例（练习）-5&#10;&#10;使用get 和 set 方法来调用 类返回 instance" />
-    <option name="LAST_COMMIT_MESSAGE" value="单一实例（练习）-5&#10;&#10;使用get 和 set 方法来调用 类返回 instance" />
+    <MESSAGE value="单一实例（练习）-6&#10;&#10;检验发现完成单一实例" />
+    <MESSAGE value="单一实例（练习）-7&#10;&#10;使用 behavior 来构建单一实例" />
+    <MESSAGE value="Arrays.toString 的使用" />
+    <MESSAGE value="StringJoiner  的功能" />
+    <MESSAGE value="StringBuilder  的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringBuilder  的功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
