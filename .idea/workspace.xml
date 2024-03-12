@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Readmd 补充&#10;&#10;StringBuilder 和 StringJoiner 两个类的使用">
-      <change afterPath="$PROJECT_DIR$/src/B20240312/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240312/MainTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="单一实例回顾" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,15 +174,7 @@
       <workItem from="1710079573889" duration="1058000" />
       <workItem from="1710081809687" duration="649000" />
       <workItem from="1710082641639" duration="126000" />
-      <workItem from="1710244196846" duration="3082000" />
-    </task>
-    <task id="LOCAL-00138" summary="构造器&#10;&#10;构造器也存在重载现象">
-      <option name="closed" value="true" />
-      <created>1709730793960</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1709730793960</updated>
+      <workItem from="1710244196846" duration="3230000" />
     </task>
     <task id="LOCAL-00139" summary="字符串拼接-0&#10;&#10;输入要用作拼接的字符">
       <option name="closed" value="true" />
@@ -571,7 +560,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710247703309</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="单一实例回顾">
+      <option name="closed" value="true" />
+      <created>1710248260982</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1710248260982</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +588,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="更改名字为 Overload（重载）" />
     <MESSAGE value="更改 class 文件位置" />
     <MESSAGE value="Readmd补充" />
     <MESSAGE value="手机号输入隐私输出" />
@@ -616,7 +612,8 @@
     <MESSAGE value="StringJoiner  的功能" />
     <MESSAGE value="StringBuilder  的功能" />
     <MESSAGE value="Readmd 补充&#10;&#10;StringBuilder 和 StringJoiner 两个类的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readmd 补充&#10;&#10;StringBuilder 和 StringJoiner 两个类的使用" />
+    <MESSAGE value="单一实例回顾" />
+    <option name="LAST_COMMIT_MESSAGE" value="单一实例回顾" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
