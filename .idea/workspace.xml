@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Readmd 补充&#10;&#10;关于 StringBuilder 的分析">
-      <change afterPath="$PROJECT_DIR$/src/A20240313/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240313/FibonacciTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240313/FibonacciTest.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="关于斐波那契额数组的代码书写">
+      <change afterPath="$PROJECT_DIR$/src/A20240315/FOR5050.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240315/Recursion5050.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240315/Recursion5050Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,15 +183,8 @@
       <workItem from="1710248283420" duration="236000" />
       <workItem from="1710248705737" duration="48000" />
       <workItem from="1710324543158" duration="10049000" />
-      <workItem from="1710484609470" duration="1899000" />
-    </task>
-    <task id="LOCAL-00145" summary="Readmd的修改和部分代码的书写">
-      <option name="closed" value="true" />
-      <created>1709901698388</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1709901698388</updated>
+      <workItem from="1710484609470" duration="2560000" />
+      <workItem from="1710501413270" duration="1361000" />
     </task>
     <task id="LOCAL-00146" summary="this 究竟是什么">
       <option name="closed" value="true" />
@@ -575,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710487333947</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <task id="LOCAL-00194" summary="关于斐波那契额数组的代码书写">
+      <option name="closed" value="true" />
+      <created>1710487628980</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1710487628980</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +598,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Readmd 补充&#10;&#10;将代码位置补充进入Readmd" />
     <MESSAGE value="单一实例&#10;&#10;保护 instance 使用 private" />
     <MESSAGE value="单一实例&#10;&#10;添加 get 和 set 使其可以被调用" />
     <MESSAGE value="单一实例&#10;&#10;引入 final 不能被改变" />
@@ -620,7 +622,8 @@
     <MESSAGE value="Readmd 补充&#10;&#10;关于文档的读写和static 的说明" />
     <MESSAGE value="Readmd 补充&#10;&#10;图片加载" />
     <MESSAGE value="Readmd 补充&#10;&#10;关于 StringBuilder 的分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readmd 补充&#10;&#10;关于 StringBuilder 的分析" />
+    <MESSAGE value="关于斐波那契额数组的代码书写" />
+    <option name="LAST_COMMIT_MESSAGE" value="关于斐波那契额数组的代码书写" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
