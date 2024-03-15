@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="R 的练习题 无限循环的月读">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Readmd 补充&#10;&#10;关于文档的读写和static 的说明">
       <change afterPath="$PROJECT_DIR$/src/A20240313/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240313/FibonacciTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240313/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240313/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240313/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,15 +180,7 @@
       <workItem from="1710244196846" duration="3230000" />
       <workItem from="1710248283420" duration="236000" />
       <workItem from="1710248705737" duration="48000" />
-      <workItem from="1710324543158" duration="9092000" />
-    </task>
-    <task id="LOCAL-00142" summary="字符串拼接-3&#10;&#10;构建一个方法，拼接字符串并输出">
-      <option name="closed" value="true" />
-      <created>1709790040421</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1709790040421</updated>
+      <workItem from="1710324543158" duration="10049000" />
     </task>
     <task id="LOCAL-00143" summary="字符串拼接-4&#10;&#10;设置一个数组存储单位，然后隔代传入即可">
       <option name="closed" value="true" />
@@ -578,7 +566,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710334351874</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <task id="LOCAL-00191" summary="Readmd 补充&#10;&#10;关于文档的读写和static 的说明">
+      <option name="closed" value="true" />
+      <created>1710336825233</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1710336825233</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +594,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="通过身份证输出生日和性别" />
     <MESSAGE value="Readmd 补充" />
     <MESSAGE value="单项错误区块&#10;&#10;在创建单一实例的时候，如果使用behavior就会导致错误，因为出栈入栈引发的地址值不同" />
     <MESSAGE value="Readmd 补充&#10;&#10;将代码位置补充进入Readmd" />
@@ -623,7 +618,8 @@
     <MESSAGE value="Replace 方法 -- 更改字符串的内容" />
     <MESSAGE value="Substring 方法 -- 截取字符串内容" />
     <MESSAGE value="R 的练习题 无限循环的月读" />
-    <option name="LAST_COMMIT_MESSAGE" value="R 的练习题 无限循环的月读" />
+    <MESSAGE value="Readmd 补充&#10;&#10;关于文档的读写和static 的说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readmd 补充&#10;&#10;关于文档的读写和static 的说明" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
