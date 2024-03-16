@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="关于斐波那契额数组的代码书写">
-      <change afterPath="$PROJECT_DIR$/src/A20240315/FOR5050.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240315/Recursion5050.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240315/Recursion5050Test.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="递归计算1到100">
+      <change afterPath="$PROJECT_DIR$/src/A20240315/RockPaperScissors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240315/Recursion5050.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240315/Recursion5050.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240315/Recursion5050Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240315/Recursion5050Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,23 +184,9 @@
       <workItem from="1710248705737" duration="48000" />
       <workItem from="1710324543158" duration="10049000" />
       <workItem from="1710484609470" duration="2560000" />
-      <workItem from="1710501413270" duration="1361000" />
-    </task>
-    <task id="LOCAL-00146" summary="this 究竟是什么">
-      <option name="closed" value="true" />
-      <created>1709903246866</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1709903246866</updated>
-    </task>
-    <task id="LOCAL-00147" summary="Readmd 的补充">
-      <option name="closed" value="true" />
-      <created>1709903259837</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1709903259837</updated>
+      <workItem from="1710501413270" duration="2547000" />
+      <workItem from="1710504310496" duration="1717000" />
+      <workItem from="1710564314571" duration="321000" />
     </task>
     <task id="LOCAL-00148" summary="this 究竟是什么？？&#10;&#10;&#10;双重 new 代码版">
       <option name="closed" value="true" />
@@ -578,7 +564,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710487628980</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="循环计算1到100">
+      <option name="closed" value="true" />
+      <created>1710503259310</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1710503259310</updated>
+    </task>
+    <task id="LOCAL-00196" summary="递归计算1到100">
+      <option name="closed" value="true" />
+      <created>1710503269141</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1710503269141</updated>
+    </task>
+    <option name="localTasksCounter" value="197" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,8 +600,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="单一实例&#10;&#10;保护 instance 使用 private" />
-    <MESSAGE value="单一实例&#10;&#10;添加 get 和 set 使其可以被调用" />
     <MESSAGE value="单一实例&#10;&#10;引入 final 不能被改变" />
     <MESSAGE value="单一实例&#10;&#10;使得 new 在 behavior 内部" />
     <MESSAGE value="单一实例（练习）-0" />
@@ -623,7 +623,9 @@
     <MESSAGE value="Readmd 补充&#10;&#10;图片加载" />
     <MESSAGE value="Readmd 补充&#10;&#10;关于 StringBuilder 的分析" />
     <MESSAGE value="关于斐波那契额数组的代码书写" />
-    <option name="LAST_COMMIT_MESSAGE" value="关于斐波那契额数组的代码书写" />
+    <MESSAGE value="循环计算1到100" />
+    <MESSAGE value="递归计算1到100" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归计算1到100" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
