@@ -116,18 +116,7 @@ public class Card1 {
 
     }
 
-    public static String[] shuffle() {
 
-        Random r = new Random();
-        for (int i = 0; i < arrCard.length; i++) {
-            int number = r.nextInt(arrCard.length);
-            String mun;
-            mun = arrCard[i];
-            arrCard[i] = arrCard[number];
-            arrCard[number] = mun;
-        }
-        return arrCard;
-    }
 
     /**
      * 改变
@@ -135,7 +124,7 @@ public class Card1 {
      */
 
     public String[] getCard() {
-        return shuffle();
+        return arrCard;
     }
 
 }
