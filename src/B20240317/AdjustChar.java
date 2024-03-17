@@ -4,7 +4,7 @@ import java.util.StringJoiner;
 
 public class AdjustChar {
     public static void main(String[] args) {
-        StringBuilder SB = new StringBuilder();
+
 
         String A = "abcde";
         String B = "cdeab";
@@ -19,16 +19,18 @@ public class AdjustChar {
         /**
          * 如果两者直接相同也无需判断
          */
-
+        StringBuilder SB = new StringBuilder();
         for (int i = 1; i < A.length(); i++) {
 
+            String sp = SB.append(A.substring(1)).append(A.charAt(0)).toString();
+            A = sp;
             if (A.equals(B)){
                 System.out.println("true");
                 System.exit(-1);
             }
-            String sp = SB.append(A.substring(1)).append(A.charAt(0)).toString();
-            A = sp;
+            SB.delete(0,A.length());
         }
+        System.out.println("false");
 
     }
 }
