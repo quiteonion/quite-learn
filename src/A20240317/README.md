@@ -18,3 +18,15 @@ A blueprint for a software object is called a class
 
 调试到红点位置
 
+# 对象
+
+![img_2.png](img_2.png)
+
+不建议再继续使用
+
+# 111
+
+![img_3.png](img_3.png)
+
+
+

@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="README 的补充">
-      <change afterPath="$PROJECT_DIR$/src/A20240317/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240317/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240317/img_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240317/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240317/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240317/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240317/CardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240317/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240317/img_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240317/Card1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240317/Card1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A20240317/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240317/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,7 +48,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/86177",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/src/A20240317/Teacher",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,11 +63,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\A20240317\Teacher" />
+      <recent name="D:\idea\idea 存储\quite\src\A20240317" />
       <recent name="D:\idea\idea 存储\quite\src\A20240313" />
       <recent name="D:\idea\idea 存储\quite\src\B20240309" />
       <recent name="D:\idea\idea 存储\quite\src\A20231128" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240104" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240125" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\A20240310\Image" />
@@ -210,39 +208,7 @@
       <workItem from="1710564314571" duration="757000" />
       <workItem from="1710573409410" duration="1820000" />
       <workItem from="1710637143765" duration="10242000" />
-      <workItem from="1710655416063" duration="5586000" />
-    </task>
-    <task id="LOCAL-00153" summary="更改 class 文件位置">
-      <option name="closed" value="true" />
-      <created>1709958555665</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1709958555665</updated>
-    </task>
-    <task id="LOCAL-00154" summary="Readmd补充">
-      <option name="closed" value="true" />
-      <created>1709961629115</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1709961629115</updated>
-    </task>
-    <task id="LOCAL-00155" summary="手机号输入隐私输出">
-      <option name="closed" value="true" />
-      <created>1709961651340</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1709961651340</updated>
-    </task>
-    <task id="LOCAL-00156" summary="通过身份证输出生日和性别">
-      <option name="closed" value="true" />
-      <created>1709972714857</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1709972714858</updated>
+      <workItem from="1710655416063" duration="7878000" />
     </task>
     <task id="LOCAL-00157" summary="Readmd 补充">
       <option name="closed" value="true" />
@@ -604,7 +570,39 @@
       <option name="project" value="LOCAL" />
       <updated>1710646142922</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="OOP扑克牌勒">
+      <option name="closed" value="true" />
+      <created>1710663260820</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1710663260820</updated>
+    </task>
+    <task id="LOCAL-00203" summary="OOP扑克牌勒">
+      <option name="closed" value="true" />
+      <created>1710663266545</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1710663266545</updated>
+    </task>
+    <task id="LOCAL-00204" summary="OOP扑克牌勒">
+      <option name="closed" value="true" />
+      <created>1710663316871</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1710663316871</updated>
+    </task>
+    <task id="LOCAL-00205" summary="README 的补充">
+      <option name="closed" value="true" />
+      <created>1710663322065</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1710663322065</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -770,11 +768,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A20240317/Card.java</url>
-          <line>132</line>
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
