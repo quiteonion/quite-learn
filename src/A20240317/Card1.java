@@ -135,7 +135,7 @@ public class Card1 {
      */
 
     public String[] getCard() {
-        return arrCard;
+        return shuffle();
     }
 
 }
