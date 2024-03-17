@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="递归计算1到100">
-      <change afterPath="$PROJECT_DIR$/src/A20240315/RockPaperScissors.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="补充">
+      <change afterPath="$PROJECT_DIR$/src/B20240317/AdjustChar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240315/Recursion5050.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240315/Recursion5050.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240315/Recursion5050Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240315/Recursion5050Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,22 +185,7 @@
       <workItem from="1710501413270" duration="2547000" />
       <workItem from="1710504310496" duration="1717000" />
       <workItem from="1710564314571" duration="321000" />
-    </task>
-    <task id="LOCAL-00148" summary="this 究竟是什么？？&#10;&#10;&#10;双重 new 代码版">
-      <option name="closed" value="true" />
-      <created>1709903511260</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1709903511260</updated>
-    </task>
-    <task id="LOCAL-00149" summary="Readmd 补充">
-      <option name="closed" value="true" />
-      <created>1709905534422</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1709905534422</updated>
+      <workItem from="1710688265308" duration="384000" />
     </task>
     <task id="LOCAL-00150" summary="杂项">
       <option name="closed" value="true" />
@@ -580,7 +563,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710503269141</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="Readmd 补充">
+      <option name="closed" value="true" />
+      <created>1710688180338</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1710688180338</updated>
+    </task>
+    <task id="LOCAL-00198" summary="补充">
+      <option name="closed" value="true" />
+      <created>1710688228833</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1710688228833</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,8 +599,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="单一实例&#10;&#10;引入 final 不能被改变" />
-    <MESSAGE value="单一实例&#10;&#10;使得 new 在 behavior 内部" />
     <MESSAGE value="单一实例（练习）-0" />
     <MESSAGE value="单一实例（练习）-1&#10;&#10;要让用户不能直接 new 构造器就可以维持单一变量的首要条件" />
     <MESSAGE value="单一实例（练习）-2&#10;&#10;其次需要在对象中 先new出来，再提供使用，这样子就可以实现单一实例" />
@@ -625,7 +622,9 @@
     <MESSAGE value="关于斐波那契额数组的代码书写" />
     <MESSAGE value="循环计算1到100" />
     <MESSAGE value="递归计算1到100" />
-    <option name="LAST_COMMIT_MESSAGE" value="递归计算1到100" />
+    <MESSAGE value="Readmd 补充" />
+    <MESSAGE value="补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
