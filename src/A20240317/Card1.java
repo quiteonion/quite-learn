@@ -89,7 +89,7 @@ public class Card1 {
      * @return
      */
     static {
-        arrCard = new String[52];
+        arrCard = new String[54];
         int k = 0;
 
         for (int i = 1; i <= 13; i++) {
@@ -100,11 +100,25 @@ public class Card1 {
             }
         }
 
+        arrCard[arrCard.length-2] = "Red-joker";
+        arrCard[arrCard.length-1] = "Brack-joker";
+
+/*
+        Random r = new Random();
+        for (int i = 0; i < arrCard.length; i++) {
+            int number = r.nextInt(arrCard.length);
+            String mun;
+            mun = arrCard[i];
+            arrCard[i] = arrCard[number];
+            arrCard[number] = mun;
+        }*/
+
+
     }
 
-    public String[] shuffle() {
-        Random r = new Random();
+    public static String[] shuffle() {
 
+        Random r = new Random();
         for (int i = 0; i < arrCard.length; i++) {
             int number = r.nextInt(arrCard.length);
             String mun;
@@ -121,7 +135,7 @@ public class Card1 {
      */
 
     public String[] getCard() {
-        return shuffle();
+        return arrCard;
     }
 
 }
