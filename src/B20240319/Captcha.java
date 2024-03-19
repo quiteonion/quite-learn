@@ -18,14 +18,14 @@ public class Captcha {
             arrChar[i] = (char) ('A'+i-26);
         }
 
-        for (int i = 0; i < arrChar.length; i++) {
+       /* for (int i = 0; i < arrChar.length; i++) {
             System.out.print(arrChar[i]+" ");
-        }
+        }*/
         int[] arrNumber = {1,2,3,4,5,6,7,8,9,0};
 
         //至此，创建数组完毕
 
-        Random r = new Random();
+        /*Random r = new Random();
         StringBuilder SB = new StringBuilder();
         Boolean flag = true;
         //由于是4个字母 ， 字母就只使用4次循环
@@ -48,10 +48,42 @@ public class Captcha {
 
         }
 
+        System.out.println(SB);*/
+
+        Random r = new Random();
+        StringBuilder SB = new StringBuilder();
+
+        for (int i = 0; i < 4; i++) {
+            int rd = r.nextInt(arrChar.length);
+            int mun = r.nextInt(arrNumber.length);
+
+
+            //随机放入数字
+            //与随机索引进行交换
+            //或者在这里放入随机字符就能够进行添加
+            SB.append(arrChar[rd]);
+
+        }
+        int nnn = r.nextInt(2);
+        SB.append(arrNumber[nnn]);
+
+        String sb = SB.toString();
+
+        char[] arr = new char[5];
+
+        for (int i = 0; i < sb.length(); i++) {
+            arr[i] = sb.charAt(i);
+        }
+
+            int mi = r.nextInt(arr.length-1);
+            char m  = arr[arr.length-1];
+            arr[arr.length-1] = arr[mi];
+            arr[mi] = m;
+
+        for (int i = 0; i < arr.length; i++) {
+            SB.append(arr[i]);
+        }
+
         System.out.println(SB);
-
-
-
-
     }
 }
