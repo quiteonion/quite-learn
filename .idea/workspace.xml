@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="生成验证码-2&#10;&#10;使用 ASCLL 便利创建">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="生成验证码-3&#10;&#10;随机数组内的元素，并放入StringBuilder的容器内输出">
+      <change afterPath="$PROJECT_DIR$/src/B20240319/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240319/Captcha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240319/Captcha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240319/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240319/README.md" afterDir="false" />
     </list>
@@ -188,15 +188,7 @@
       <workItem from="1710564314571" duration="321000" />
       <workItem from="1710688265308" duration="2284000" />
       <workItem from="1710753097900" duration="1280000" />
-      <workItem from="1710830921556" duration="4330000" />
-    </task>
-    <task id="LOCAL-00158" summary="Readmd 补充">
-      <option name="closed" value="true" />
-      <created>1710034390797</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1710034390798</updated>
+      <workItem from="1710830921556" duration="4828000" />
     </task>
     <task id="LOCAL-00159" summary="Readmd 补充">
       <option name="closed" value="true" />
@@ -582,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710836879711</updated>
     </task>
-    <option name="localTasksCounter" value="207" />
+    <task id="LOCAL-00207" summary="生成验证码-3&#10;&#10;随机数组内的元素，并放入StringBuilder的容器内输出">
+      <option name="closed" value="true" />
+      <created>1710837592150</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1710837592150</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,7 +602,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="单一实例（练习）-6&#10;&#10;检验发现完成单一实例" />
     <MESSAGE value="单一实例（练习）-7&#10;&#10;使用 behavior 来构建单一实例" />
     <MESSAGE value="Arrays.toString 的使用" />
     <MESSAGE value="StringJoiner  的功能" />
@@ -627,7 +626,8 @@
     <MESSAGE value="生成验证码-0" />
     <MESSAGE value="生成验证码-1&#10;&#10;如何创建一个字母的字符数组" />
     <MESSAGE value="生成验证码-2&#10;&#10;使用 ASCLL 便利创建" />
-    <option name="LAST_COMMIT_MESSAGE" value="生成验证码-2&#10;&#10;使用 ASCLL 便利创建" />
+    <MESSAGE value="生成验证码-3&#10;&#10;随机数组内的元素，并放入StringBuilder的容器内输出" />
+    <option name="LAST_COMMIT_MESSAGE" value="生成验证码-3&#10;&#10;随机数组内的元素，并放入StringBuilder的容器内输出" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

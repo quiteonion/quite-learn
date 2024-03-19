@@ -18,9 +18,9 @@ public class Captcha {
             arrChar[i] = (char) ('A'+i-26);
         }
 
-       /* for (int i = 0; i < arrChar.length; i++) {
+        for (int i = 0; i < arrChar.length; i++) {
             System.out.print(arrChar[i]+" ");
-        }*/
+        }
         int[] arrNumber = {1,2,3,4,5,6,7,8,9,0};
 
         //至此，创建数组完毕
@@ -49,6 +49,8 @@ public class Captcha {
         }
 
         System.out.println(SB);
+
+
 
 
     }
