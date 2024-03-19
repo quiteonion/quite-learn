@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="生成验证码-5&#10;&#10;完">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="字符数相乘-0&#10;&#10;给定两个字符串形式的非负整数">
+      <change beforePath="$PROJECT_DIR$/src/B20240319/CharArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240319/CharArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240319/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240319/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,15 +187,7 @@
       <workItem from="1710564314571" duration="321000" />
       <workItem from="1710688265308" duration="2284000" />
       <workItem from="1710753097900" duration="1280000" />
-      <workItem from="1710830921556" duration="5950000" />
-    </task>
-    <task id="LOCAL-00162" summary="Readmd 补充">
-      <option name="closed" value="true" />
-      <created>1710038678938</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1710038678938</updated>
+      <workItem from="1710830921556" duration="6303000" />
     </task>
     <task id="LOCAL-00163" summary="单项错误区块&#10;&#10;在创建单一实例的时候，如果使用behavior就会导致错误，因为出栈入栈引发的地址值不同">
       <option name="closed" value="true" />
@@ -580,7 +573,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710839042863</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="字符数相乘-0&#10;&#10;给定两个字符串形式的非负整数">
+      <option name="closed" value="true" />
+      <created>1710839453979</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1710839453979</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +601,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="StringBuilder  的功能" />
     <MESSAGE value="Readmd 补充&#10;&#10;StringBuilder 和 StringJoiner 两个类的使用" />
     <MESSAGE value="单一实例回顾" />
     <MESSAGE value="Replace 方法 -- 更改字符串的内容" />
@@ -625,7 +625,8 @@
     <MESSAGE value="生成验证码-4&#10;&#10;另一种更复杂~~~~~~~~" />
     <MESSAGE value="生成验证码-4&#10;&#10;改正便捷方法" />
     <MESSAGE value="生成验证码-5&#10;&#10;完" />
-    <option name="LAST_COMMIT_MESSAGE" value="生成验证码-5&#10;&#10;完" />
+    <MESSAGE value="字符数相乘-0&#10;&#10;给定两个字符串形式的非负整数" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符数相乘-0&#10;&#10;给定两个字符串形式的非负整数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
