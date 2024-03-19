@@ -79,6 +79,8 @@ public class Captcha {
             char m  = arr[arr.length-1];
             arr[arr.length-1] = arr[mi];
             arr[mi] = m;
+            //此处可以加入循环，来多次更改5个字符之间的值
+            //虽然可能不能很必要
 
         for (int i = 0; i < arr.length; i++) {
             SB.append(arr[i]);
