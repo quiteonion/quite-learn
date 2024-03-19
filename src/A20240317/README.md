@@ -28,5 +28,9 @@ A blueprint for a software object is called a class
 
 ![img_3.png](img_3.png)
 
+# 洗牌为什么会错误？
 
+![img_4.png](img_4.png)
+
+因为此处调用对象属于每循环一次就调用一次，所以会错误
 

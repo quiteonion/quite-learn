@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="补充">
-      <change afterPath="$PROJECT_DIR$/src/B20240317/AdjustChar.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="堆爆满----改进&#10;&#10;添加一个StringBuilder的方法 -- SB.delete(begin , end)，来释放这段内存">
+      <change afterPath="$PROJECT_DIR$/src/B20240317/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,31 +185,9 @@
       <workItem from="1710501413270" duration="2547000" />
       <workItem from="1710504310496" duration="1717000" />
       <workItem from="1710564314571" duration="321000" />
-      <workItem from="1710688265308" duration="384000" />
-    </task>
-    <task id="LOCAL-00150" summary="杂项">
-      <option name="closed" value="true" />
-      <created>1709905553823</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1709905553824</updated>
-    </task>
-    <task id="LOCAL-00151" summary="20240308作业的完成（存有问题未解答）">
-      <option name="closed" value="true" />
-      <created>1709958193651</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1709958193651</updated>
-    </task>
-    <task id="LOCAL-00152" summary="更改名字为 Overload（重载）">
-      <option name="closed" value="true" />
-      <created>1709958500194</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1709958500194</updated>
+      <workItem from="1710688265308" duration="2284000" />
+      <workItem from="1710753097900" duration="1280000" />
+      <workItem from="1710830921556" duration="675000" />
     </task>
     <task id="LOCAL-00153" summary="更改 class 文件位置">
       <option name="closed" value="true" />
@@ -579,7 +557,31 @@
       <option name="project" value="LOCAL" />
       <updated>1710688228833</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="补充">
+      <option name="closed" value="true" />
+      <created>1710688726737</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1710688726737</updated>
+    </task>
+    <task id="LOCAL-00200" summary="堆爆满">
+      <option name="closed" value="true" />
+      <created>1710690232761</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1710690232761</updated>
+    </task>
+    <task id="LOCAL-00201" summary="堆爆满----改进&#10;&#10;添加一个StringBuilder的方法 -- SB.delete(begin , end)，来释放这段内存">
+      <option name="closed" value="true" />
+      <created>1710690562031</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1710690562031</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,8 +601,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="单一实例（练习）-0" />
-    <MESSAGE value="单一实例（练习）-1&#10;&#10;要让用户不能直接 new 构造器就可以维持单一变量的首要条件" />
     <MESSAGE value="单一实例（练习）-2&#10;&#10;其次需要在对象中 先new出来，再提供使用，这样子就可以实现单一实例" />
     <MESSAGE value="单一实例（练习）-3&#10;&#10;接下来就要想办法让 Test 调用到，而外界调用内部要使用方法" />
     <MESSAGE value="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片" />
@@ -624,7 +624,9 @@
     <MESSAGE value="递归计算1到100" />
     <MESSAGE value="Readmd 补充" />
     <MESSAGE value="补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="补充" />
+    <MESSAGE value="堆爆满" />
+    <MESSAGE value="堆爆满----改进&#10;&#10;添加一个StringBuilder的方法 -- SB.delete(begin , end)，来释放这段内存" />
+    <option name="LAST_COMMIT_MESSAGE" value="堆爆满----改进&#10;&#10;添加一个StringBuilder的方法 -- SB.delete(begin , end)，来释放这段内存" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
