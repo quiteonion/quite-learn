@@ -30,8 +30,6 @@
 
 无法完成 ， String 无法强转为 int
 
-## 方法二：使用String方法
+## 方法二：使用Inteder.parseInt方法
 
-
-
-## 方法二
+![img_3.png](img_3.png)
