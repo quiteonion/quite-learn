@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="字符数相乘-3&#10;&#10;方法二：使用String方法">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="字符数相乘-3&#10;&#10;方法二：使用Inteder.parseInt方法">
+      <change afterPath="$PROJECT_DIR$/src/B20240319/ReturnWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240319/img_4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240319/CharArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240319/CharArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240319/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240319/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,23 +190,7 @@
       <workItem from="1710688265308" duration="2284000" />
       <workItem from="1710753097900" duration="1280000" />
       <workItem from="1710830921556" duration="6693000" />
-      <workItem from="1710855091945" duration="2391000" />
-    </task>
-    <task id="LOCAL-00165" summary="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
-      <option name="closed" value="true" />
-      <created>1710039259709</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1710039259709</updated>
-    </task>
-    <task id="LOCAL-00166" summary="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
-      <option name="closed" value="true" />
-      <created>1710039404400</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1710039404400</updated>
+      <workItem from="1710855091945" duration="3334000" />
     </task>
     <task id="LOCAL-00167" summary="单一实例&#10;&#10;保护 instance 使用 private">
       <option name="closed" value="true" />
@@ -583,7 +568,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710839644191</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <task id="LOCAL-00214" summary="字符数相乘-3&#10;&#10;方法二：使用Inteder.parseInt方法">
+      <option name="closed" value="true" />
+      <created>1710858937248</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1710858937248</updated>
+    </task>
+    <task id="LOCAL-00215" summary="字符数相乘-3&#10;&#10;方法二：使用Inteder.parseInt方法">
+      <option name="closed" value="true" />
+      <created>1710858976771</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1710858976771</updated>
+    </task>
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,7 +604,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Replace 方法 -- 更改字符串的内容" />
     <MESSAGE value="Substring 方法 -- 截取字符串内容" />
     <MESSAGE value="R 的练习题 无限循环的月读" />
     <MESSAGE value="Readmd 补充&#10;&#10;关于文档的读写和static 的说明" />
@@ -628,7 +628,8 @@
     <MESSAGE value="字符数相乘-0&#10;&#10;给定两个字符串形式的非负整数" />
     <MESSAGE value="字符数相乘-1&#10;&#10;强制转换相乘" />
     <MESSAGE value="字符数相乘-2&#10;&#10;无法完成 ， String 无法强转为 int" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符数相乘-2&#10;&#10;无法完成 ， String 无法强转为 int" />
+    <MESSAGE value="字符数相乘-3&#10;&#10;方法二：使用Inteder.parseInt方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符数相乘-3&#10;&#10;方法二：使用Inteder.parseInt方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
