@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="堆爆满----改进&#10;&#10;添加一个StringBuilder的方法 -- SB.delete(begin , end)，来释放这段内存">
-      <change afterPath="$PROJECT_DIR$/src/B20240317/README.md" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="杂项">
+      <change afterPath="$PROJECT_DIR$/src/B20240319/Captcha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240319/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240319/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,23 +189,7 @@
       <workItem from="1710564314571" duration="321000" />
       <workItem from="1710688265308" duration="2284000" />
       <workItem from="1710753097900" duration="1280000" />
-      <workItem from="1710830921556" duration="675000" />
-    </task>
-    <task id="LOCAL-00153" summary="更改 class 文件位置">
-      <option name="closed" value="true" />
-      <created>1709958555665</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1709958555665</updated>
-    </task>
-    <task id="LOCAL-00154" summary="Readmd补充">
-      <option name="closed" value="true" />
-      <created>1709961629115</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1709961629115</updated>
+      <workItem from="1710830921556" duration="2430000" />
     </task>
     <task id="LOCAL-00155" summary="手机号输入隐私输出">
       <option name="closed" value="true" />
@@ -581,7 +567,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710690562031</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="洗牌步骤的修改更正 &#10;&#10;出错的原因：循环中使用 对象名.方法名，导致每一次编译到此处都会调用一次对象，引发的错误">
+      <option name="closed" value="true" />
+      <created>1710832240662</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1710832240662</updated>
+    </task>
+    <task id="LOCAL-00203" summary="杂项">
+      <option name="closed" value="true" />
+      <created>1710835489313</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1710835489313</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,8 +603,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="单一实例（练习）-2&#10;&#10;其次需要在对象中 先new出来，再提供使用，这样子就可以实现单一实例" />
-    <MESSAGE value="单一实例（练习）-3&#10;&#10;接下来就要想办法让 Test 调用到，而外界调用内部要使用方法" />
     <MESSAGE value="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片" />
     <MESSAGE value="单一实例（练习）-4&#10;&#10;在调用之后就要考虑到，外界如果直接改动 instance 是不能让他们改动" />
     <MESSAGE value="单一实例（练习）-5&#10;&#10;使用get 和 set 方法来调用 类返回 instance" />
@@ -626,7 +626,9 @@
     <MESSAGE value="补充" />
     <MESSAGE value="堆爆满" />
     <MESSAGE value="堆爆满----改进&#10;&#10;添加一个StringBuilder的方法 -- SB.delete(begin , end)，来释放这段内存" />
-    <option name="LAST_COMMIT_MESSAGE" value="堆爆满----改进&#10;&#10;添加一个StringBuilder的方法 -- SB.delete(begin , end)，来释放这段内存" />
+    <MESSAGE value="洗牌步骤的修改更正 &#10;&#10;出错的原因：循环中使用 对象名.方法名，导致每一次编译到此处都会调用一次对象，引发的错误" />
+    <MESSAGE value="杂项" />
+    <option name="LAST_COMMIT_MESSAGE" value="杂项" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
