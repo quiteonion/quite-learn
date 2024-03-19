@@ -8,5 +8,9 @@ public class CharArray {
         /*int mun = (int)(num1)*(int)(num2);
 
         System.out.println(mun);*/
+
+        int num11 = Integer.parseInt(num1);
+        int num22 = Integer.parseInt(num2);
+        System.out.println(num11*num22);
     }
 }
