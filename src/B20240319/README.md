@@ -22,4 +22,7 @@
 
 ![img_1.png](img_1.png)
 
+# 字符数相乘
+
+![img_2.png](img_2.png)
 

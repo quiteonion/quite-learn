@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="生成验证码-4&#10;&#10;另一种更复杂~~~~~~~~">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240319/Captcha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240319/Captcha.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="生成验证码-5&#10;&#10;完">
+      <change beforePath="$PROJECT_DIR$/src/B20240319/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240319/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,23 +186,7 @@
       <workItem from="1710564314571" duration="321000" />
       <workItem from="1710688265308" duration="2284000" />
       <workItem from="1710753097900" duration="1280000" />
-      <workItem from="1710830921556" duration="5640000" />
-    </task>
-    <task id="LOCAL-00160" summary="Readmd 补充">
-      <option name="closed" value="true" />
-      <created>1710036988714</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1710036988714</updated>
-    </task>
-    <task id="LOCAL-00161" summary="Readmd 补充">
-      <option name="closed" value="true" />
-      <created>1710037090020</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1710037090020</updated>
+      <workItem from="1710830921556" duration="5950000" />
     </task>
     <task id="LOCAL-00162" summary="Readmd 补充">
       <option name="closed" value="true" />
@@ -581,7 +564,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710838248254</updated>
     </task>
-    <option name="localTasksCounter" value="209" />
+    <task id="LOCAL-00209" summary="生成验证码-4&#10;&#10;改正便捷方法">
+      <option name="closed" value="true" />
+      <created>1710838948833</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1710838948833</updated>
+    </task>
+    <task id="LOCAL-00210" summary="生成验证码-5&#10;&#10;完">
+      <option name="closed" value="true" />
+      <created>1710839042863</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1710839042863</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,8 +600,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Arrays.toString 的使用" />
-    <MESSAGE value="StringJoiner  的功能" />
     <MESSAGE value="StringBuilder  的功能" />
     <MESSAGE value="Readmd 补充&#10;&#10;StringBuilder 和 StringJoiner 两个类的使用" />
     <MESSAGE value="单一实例回顾" />
@@ -626,7 +623,9 @@
     <MESSAGE value="生成验证码-2&#10;&#10;使用 ASCLL 便利创建" />
     <MESSAGE value="生成验证码-3&#10;&#10;随机数组内的元素，并放入StringBuilder的容器内输出" />
     <MESSAGE value="生成验证码-4&#10;&#10;另一种更复杂~~~~~~~~" />
-    <option name="LAST_COMMIT_MESSAGE" value="生成验证码-4&#10;&#10;另一种更复杂~~~~~~~~" />
+    <MESSAGE value="生成验证码-4&#10;&#10;改正便捷方法" />
+    <MESSAGE value="生成验证码-5&#10;&#10;完" />
+    <option name="LAST_COMMIT_MESSAGE" value="生成验证码-5&#10;&#10;完" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
