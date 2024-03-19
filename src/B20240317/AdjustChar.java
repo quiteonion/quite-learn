@@ -16,6 +16,7 @@ public class AdjustChar {
             System.exit(-1);
         }
 
+
         /**
          * 如果两者直接相同也无需判断
          */
