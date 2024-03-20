@@ -68,6 +68,15 @@ public class Bank {
         this.id = id;
     }
 
+    private double getMoney() {
+        return this.money;
+    }
+
+    private void setMoney() {
+        this.money = money;
+    }
+
+
     public int getPassword(){
         return this.password;
     }
@@ -106,7 +115,11 @@ public class Bank {
                     continue;
                 case 3:
                     getMoney();
+                    continue;
                 case 4:
+                    lookMoney();
+                    continue;
+                case 5:
                     more();
                     continue;
                 default:
@@ -117,20 +130,33 @@ public class Bank {
         }
     }
 
+    private void lookMoney() {
+       boolean flag =  idAndPassword();
+       if (flag){
+           System.out.println("账户名称："+getName());
+           System.out.println("账户id："+getId());
+           System.out.println("当前金额："+getMoney());
+       }
+
+    }
+
     private void more() {
-    }
 
-    private void getMoney() {
-    }
 
-    private void setMoney() {
+
         if (money < 0) {
             System.out.println("您输入的钱可能有问题,怀疑您在进行非法操作 ， 将会 删除您的所有资金");
             this.money = 0;
             return;
         }
-        this.money = money;
+
+
+
+
+
     }
+
+
 
 
     //创建账户并返回地址值
@@ -179,7 +205,13 @@ public class Bank {
 
 
 
-    public boolean idAndPassword(int id , int password){
+    public boolean idAndPassword(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("请输入您的id：");
+        int id = sc.nextInt();
+        System.out.println("请输入您的密码：");
+        int password = sc.nextInt();
+
         if (id == this.id && password == this.password){
             return true;
         }

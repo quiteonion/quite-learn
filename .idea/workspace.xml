@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行模型 - 7&#10;&#10;整理思绪">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240320/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240320/Bank.java" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行模型 - 9&#10;&#10;账户密码id判断" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,23 +186,7 @@
       <workItem from="1710753097900" duration="1280000" />
       <workItem from="1710830921556" duration="6693000" />
       <workItem from="1710855091945" duration="3542000" />
-      <workItem from="1710934441416" duration="4520000" />
-    </task>
-    <task id="LOCAL-00176" summary="单一实例（练习）-3&#10;&#10;接下来就要想办法让 Test 调用到，而外界调用内部要使用方法">
-      <option name="closed" value="true" />
-      <created>1710052497683</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1710052497683</updated>
-    </task>
-    <task id="LOCAL-00177" summary="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
-      <option name="closed" value="true" />
-      <created>1710056801532</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1710056801532</updated>
+      <workItem from="1710934441416" duration="5257000" />
     </task>
     <task id="LOCAL-00178" summary="单一实例（练习）-4&#10;&#10;在调用之后就要考虑到，外界如果直接改动 instance 是不能让他们改动">
       <option name="closed" value="true" />
@@ -583,7 +564,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710938778538</updated>
     </task>
-    <option name="localTasksCounter" value="225" />
+    <task id="LOCAL-00225" summary="银行模型 - 8&#10;&#10;从创建账户开始">
+      <option name="closed" value="true" />
+      <created>1710939755761</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1710939755761</updated>
+    </task>
+    <task id="LOCAL-00226" summary="银行模型 - 9&#10;&#10;账户密码id判断">
+      <option name="closed" value="true" />
+      <created>1710939931632</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1710939931632</updated>
+    </task>
+    <option name="localTasksCounter" value="227" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,8 +600,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="补充" />
-    <MESSAGE value="堆爆满" />
     <MESSAGE value="堆爆满----改进&#10;&#10;添加一个StringBuilder的方法 -- SB.delete(begin , end)，来释放这段内存" />
     <MESSAGE value="洗牌步骤的修改更正 &#10;&#10;出错的原因：循环中使用 对象名.方法名，导致每一次编译到此处都会调用一次对象，引发的错误" />
     <MESSAGE value="杂项" />
@@ -628,7 +623,9 @@
     <MESSAGE value="银行模型 - 5&#10;&#10;用户输入的姓名存储&#10;如果想要获取就必须输入管理员的密码" />
     <MESSAGE value="银行模型 - 6&#10;&#10;书写菜单方法" />
     <MESSAGE value="银行模型 - 7&#10;&#10;整理思绪" />
-    <option name="LAST_COMMIT_MESSAGE" value="银行模型 - 7&#10;&#10;整理思绪" />
+    <MESSAGE value="银行模型 - 8&#10;&#10;从创建账户开始" />
+    <MESSAGE value="银行模型 - 9&#10;&#10;账户密码id判断" />
+    <option name="LAST_COMMIT_MESSAGE" value="银行模型 - 9&#10;&#10;账户密码id判断" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
