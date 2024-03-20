@@ -15,14 +15,7 @@ public class Bank {
     public Bank() {
     }
 
-    public Bank(String name, int age, int id, double money) {
-        this.name = name;
-        this.age = age;
-        this.id = id;
-        this.money = money;
-    }
-
-    public Bank(String name, int age, int id, int password, double money) {
+    private Bank(String name, int age, int id, int password, double money) {
         this.name = name;
         this.age = age;
         this.id = id;
@@ -63,8 +56,13 @@ public class Bank {
      * @param age
      */
     public void setAge(int age) {
+        if (age<0||age>200){
+            System.out.println("您输入的年龄有问题，请重新输入：");
+            soutAge();
+        }
         this.age = age;
     }
+
 
     /**
      * 获取
@@ -114,6 +112,11 @@ public class Bank {
         return 0;
     }
 
+
+    private void soutAge() {
+    }
+
+
     public void fetchMoney() {
         if (money < 0) {
             System.out.println("您输入的钱可能有问题,怀疑您在进行非法操作 ， 将会 删除您的所有资金");
@@ -129,5 +132,6 @@ public class Bank {
 
     }
 
+    public void
 }
 
