@@ -84,6 +84,7 @@ public class Bank {
         System.out.println("1、创建账户");
         System.out.println("2、存钱");
         System.out.println("3、取钱");
+        System.out.println("4、查看当前金额");
         System.out.println("4、更多");
     }
 
@@ -177,6 +178,13 @@ public class Bank {
     }
 
 
+
+    public boolean idAndPassword(int id , int password){
+        if (id == this.id && password == this.password){
+            return true;
+        }
+        return false;
+    }
 
 }
 
