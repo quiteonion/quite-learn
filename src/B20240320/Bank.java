@@ -4,6 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Bank {
+    Bank b = new Bank();
     private String name;
     private int age;
     private int id;
@@ -54,8 +55,6 @@ public class Bank {
     }
 
 
-
-
     /**
      * 获取
      *
@@ -65,22 +64,18 @@ public class Bank {
         return id;
     }
 
-    private void setId(int id){
+    private void setId(int id) {
         this.id = id;
     }
 
+    public int getPassword(){
+        return this.password;
+    }
 
 
     private void setPassword(int password) {
         this.password = password;
     }
-
-
-    private void setMoney(double money) {
-        this.money = money;
-    }
-
-
 
 
 
@@ -137,29 +132,50 @@ public class Bank {
     }
 
 
-
-    private Bank[] newAccount() {
+    //创建账户并返回地址值
+    private Bank newAccount() {
         Scanner sc = new Scanner(System.in);
         System.out.print("请输入您的姓名:" + "  ");
         String name = sc.next();
-        setName();
+        setName(name);
 
 
-        if (age < 0 || age > 200) {
-            System.out.println("您输入的年龄有问题，请重新输入：");
-
+        while (true) {
+            System.out.println("请输入您的年龄");
+            int age = sc.nextInt();
+            if (age < 0 || age > 200) {
+                System.out.println("您输入的年龄有问题，请重新输入：");
+            } else {
+                setAge(age);
+                break;
+            }
         }
-    }
 
-    private void setPassword() {
+
         Random r = new Random();
+        int id;
         StringBuilder SB = new StringBuilder();
         for (int i = 0; i < 5; i++) {
-            int id = r.nextInt(10);
+            id = r.nextInt(10);
             SB.append(id);
         }
-        this.id = Integer.parseInt(SB.toString());
+        setId(Integer.parseInt(SB.toString()));
+
+
+        while (true){
+            System.out.println("请输入您的密码（6位数密码）");
+            int password = sc.nextInt();
+            if (password<0||password>999999){
+                System.out.println("您的密码输入有误");
+            }else {
+                setPassword(password);
+                break;
+            }
+        }
+
+        return b;
     }
+
 
 
 }

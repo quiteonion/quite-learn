@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行模型 - 5&#10;&#10;用户输入的姓名存储&#10;如果想要获取就必须输入管理员的密码">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行模型 - 7&#10;&#10;整理思绪">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240320/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240320/Bank.java" afterDir="false" />
     </list>
@@ -189,23 +189,7 @@
       <workItem from="1710753097900" duration="1280000" />
       <workItem from="1710830921556" duration="6693000" />
       <workItem from="1710855091945" duration="3542000" />
-      <workItem from="1710934441416" duration="3650000" />
-    </task>
-    <task id="LOCAL-00174" summary="单一实例（练习）-1&#10;&#10;要让用户不能直接 new 构造器就可以维持单一变量的首要条件">
-      <option name="closed" value="true" />
-      <created>1710052250210</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
-      <option name="project" value="LOCAL" />
-      <updated>1710052250210</updated>
-    </task>
-    <task id="LOCAL-00175" summary="单一实例（练习）-2&#10;&#10;其次需要在对象中 先new出来，再提供使用，这样子就可以实现单一实例">
-      <option name="closed" value="true" />
-      <created>1710052378797</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1710052378797</updated>
+      <workItem from="1710934441416" duration="4520000" />
     </task>
     <task id="LOCAL-00176" summary="单一实例（练习）-3&#10;&#10;接下来就要想办法让 Test 调用到，而外界调用内部要使用方法">
       <option name="closed" value="true" />
@@ -583,7 +567,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710937161538</updated>
     </task>
-    <option name="localTasksCounter" value="223" />
+    <task id="LOCAL-00223" summary="银行模型 - 6&#10;&#10;书写菜单方法">
+      <option name="closed" value="true" />
+      <created>1710938372439</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1710938372439</updated>
+    </task>
+    <task id="LOCAL-00224" summary="银行模型 - 7&#10;&#10;整理思绪">
+      <option name="closed" value="true" />
+      <created>1710938778538</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1710938778538</updated>
+    </task>
+    <option name="localTasksCounter" value="225" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,8 +603,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="递归计算1到100" />
-    <MESSAGE value="Readmd 补充" />
     <MESSAGE value="补充" />
     <MESSAGE value="堆爆满" />
     <MESSAGE value="堆爆满----改进&#10;&#10;添加一个StringBuilder的方法 -- SB.delete(begin , end)，来释放这段内存" />
@@ -628,7 +626,9 @@
     <MESSAGE value="银行模型 - 3&#10;&#10;年龄也是，默认最大年龄不超过200岁" />
     <MESSAGE value="银行模型 - 4&#10;&#10;让所有的改变都在对象中运行，把所有的set方法都改变为 private 修饰" />
     <MESSAGE value="银行模型 - 5&#10;&#10;用户输入的姓名存储&#10;如果想要获取就必须输入管理员的密码" />
-    <option name="LAST_COMMIT_MESSAGE" value="银行模型 - 5&#10;&#10;用户输入的姓名存储&#10;如果想要获取就必须输入管理员的密码" />
+    <MESSAGE value="银行模型 - 6&#10;&#10;书写菜单方法" />
+    <MESSAGE value="银行模型 - 7&#10;&#10;整理思绪" />
+    <option name="LAST_COMMIT_MESSAGE" value="银行模型 - 7&#10;&#10;整理思绪" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
