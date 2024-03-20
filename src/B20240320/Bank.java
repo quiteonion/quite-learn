@@ -26,19 +26,12 @@ public class Bank {
 
     //用户姓名输入
     //用户姓名的获取
-    private String getName(int pPassword) {
-        if (pPassword != this.password) {
-            System.out.println("您的管理员密码错误！");
-
-        }
+    private String getName() {
         return name;
     }
 
 
-    private void setName() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("请输入您的姓名:" + "  ");
-        String name = sc.next();
+    private void setName(String name) {
         this.name = name;
     }
 
@@ -57,15 +50,10 @@ public class Bank {
      * @param age
      */
     private void setAge(int age) {
-        if (age < 0 || age > 200) {
-            System.out.println("您输入的年龄有问题，请重新输入：");
-            soutAge();
-        }
         this.age = age;
     }
 
-    private void soutAge() {
-    }
+
 
 
     /**
@@ -77,10 +65,11 @@ public class Bank {
         return id;
     }
 
-
-    private String getPassword() {
-        return "抱歉，您没有查看密码的权限";
+    private void setId(int id){
+        this.id = id;
     }
+
+
 
     private void setPassword(int password) {
         this.password = password;
@@ -92,13 +81,7 @@ public class Bank {
     }
 
 
-    private int getPassword(int number) {
-        if (this.password == number) {
-            return this.password;
-        }
-        System.out.println("您输入的管理员密码错误！");
-        return 0;
-    }
+
 
 
 
@@ -156,7 +139,16 @@ public class Bank {
 
 
     private Bank[] newAccount() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("请输入您的姓名:" + "  ");
+        String name = sc.next();
         setName();
+
+
+        if (age < 0 || age > 200) {
+            System.out.println("您输入的年龄有问题，请重新输入：");
+
+        }
     }
 
     private void setPassword() {
@@ -168,5 +160,7 @@ public class Bank {
         }
         this.id = Integer.parseInt(SB.toString());
     }
+
+
 }
 
