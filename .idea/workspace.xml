@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行模型 - 1&#10;&#10;在对用户的数据进行编写时，我想到，密码如果直接获取是不可以的，因为若是非用户要获取密码就会显得不安全，则我加入管理员，让管理员输入密码来获取用户的密码，加大安全性！其次，用户如果存储金钱时输入的金额为负数，则要返回用户输入错误的提示">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行模型 - 4&#10;&#10;让所有的改变都在对象中运行，把所有的set方法都改变为 private 修饰">
       <change beforePath="$PROJECT_DIR$/src/B20240320/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240320/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240320/BankDepositMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240320/BankDepositMoney.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240320/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240320/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,31 +188,7 @@
       <workItem from="1710753097900" duration="1280000" />
       <workItem from="1710830921556" duration="6693000" />
       <workItem from="1710855091945" duration="3542000" />
-      <workItem from="1710934441416" duration="1769000" />
-    </task>
-    <task id="LOCAL-00170" summary="单一实例&#10;&#10;引入 final 不能被改变">
-      <option name="closed" value="true" />
-      <created>1710041127895</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1710041127895</updated>
-    </task>
-    <task id="LOCAL-00171" summary="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
-      <option name="closed" value="true" />
-      <created>1710041263555</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1710041263555</updated>
-    </task>
-    <task id="LOCAL-00172" summary="单一实例&#10;&#10;使得 new 在 behavior 内部">
-      <option name="closed" value="true" />
-      <created>1710051842368</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1710051842368</updated>
+      <workItem from="1710934441416" duration="2238000" />
     </task>
     <task id="LOCAL-00173" summary="单一实例（练习）-0">
       <option name="closed" value="true" />
@@ -584,7 +558,31 @@
       <option name="project" value="LOCAL" />
       <updated>1710935887103</updated>
     </task>
-    <option name="localTasksCounter" value="219" />
+    <task id="LOCAL-00219" summary="银行模型 - 2&#10;&#10;接下来就是用户的id并不需要他们自行输入，由系统自行输出即可,id默认为5位数的数字">
+      <option name="closed" value="true" />
+      <created>1710936291405</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1710936291405</updated>
+    </task>
+    <task id="LOCAL-00220" summary="银行模型 - 3&#10;&#10;年龄也是，默认最大年龄不超过200岁">
+      <option name="closed" value="true" />
+      <created>1710936537711</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1710936537711</updated>
+    </task>
+    <task id="LOCAL-00221" summary="银行模型 - 4&#10;&#10;让所有的改变都在对象中运行，把所有的set方法都改变为 private 修饰">
+      <option name="closed" value="true" />
+      <created>1710936657669</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1710936657669</updated>
+    </task>
+    <option name="localTasksCounter" value="222" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,9 +602,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Readmd 补充&#10;&#10;图片加载" />
-    <MESSAGE value="Readmd 补充&#10;&#10;关于 StringBuilder 的分析" />
-    <MESSAGE value="关于斐波那契额数组的代码书写" />
     <MESSAGE value="循环计算1到100" />
     <MESSAGE value="递归计算1到100" />
     <MESSAGE value="Readmd 补充" />
@@ -629,7 +624,10 @@
     <MESSAGE value="返回最后单词" />
     <MESSAGE value="银行模型 - 0&#10;&#10;创建对象存储银行，内容为持卡人姓名，年龄，id，和密码" />
     <MESSAGE value="银行模型 - 1&#10;&#10;在对用户的数据进行编写时，我想到，密码如果直接获取是不可以的，因为若是非用户要获取密码就会显得不安全，则我加入管理员，让管理员输入密码来获取用户的密码，加大安全性！其次，用户如果存储金钱时输入的金额为负数，则要返回用户输入错误的提示" />
-    <option name="LAST_COMMIT_MESSAGE" value="银行模型 - 1&#10;&#10;在对用户的数据进行编写时，我想到，密码如果直接获取是不可以的，因为若是非用户要获取密码就会显得不安全，则我加入管理员，让管理员输入密码来获取用户的密码，加大安全性！其次，用户如果存储金钱时输入的金额为负数，则要返回用户输入错误的提示" />
+    <MESSAGE value="银行模型 - 2&#10;&#10;接下来就是用户的id并不需要他们自行输入，由系统自行输出即可,id默认为5位数的数字" />
+    <MESSAGE value="银行模型 - 3&#10;&#10;年龄也是，默认最大年龄不超过200岁" />
+    <MESSAGE value="银行模型 - 4&#10;&#10;让所有的改变都在对象中运行，把所有的set方法都改变为 private 修饰" />
+    <option name="LAST_COMMIT_MESSAGE" value="银行模型 - 4&#10;&#10;让所有的改变都在对象中运行，把所有的set方法都改变为 private 修饰" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

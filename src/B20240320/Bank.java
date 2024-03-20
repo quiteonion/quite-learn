@@ -23,21 +23,22 @@ public class Bank {
         this.money = money;
     }
 
-    /**
-     * 获取
-     *
-     * @return name
-     */
-    public String getName() {
+
+    //用户姓名输入
+    //用户姓名的获取
+    public String getName(int pPassword) {
+        if (pPassword != this.password){
+            System.out.println("您的管理员密码错误！");
+
+        }
         return name;
     }
 
-    /**
-     * 设置
-     *
-     * @param name
-     */
-    private void setName(String name) {
+
+    private void setName() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("请输入您的姓名:"+"  ");
+        String name = sc.next();
         this.name = name;
     }
 
@@ -61,6 +62,9 @@ public class Bank {
             soutAge();
         }
         this.age = age;
+    }
+
+    private void soutAge() {
     }
 
 
@@ -112,10 +116,6 @@ public class Bank {
         return 0;
     }
 
-    //用户
-
-
-
 
     public void fetchMoney() {
         if (money < 0) {
@@ -126,15 +126,10 @@ public class Bank {
         this.money = money;
     }
 
-
-    public void load(){
-        Scanner sc = new Scanner(System.in);
-
+    public void menu(){
+        System.out.println("请选择您要办理的业务：");
     }
 
-    private void soutAge() {
-    }
 
-    public void
 }
 
