@@ -88,8 +88,8 @@ public class Bank {
 
     public void menu() {
         System.out.println("1、创建账户");
-        System.out.println("2、存钱");
-        System.out.println("3、取钱");
+        System.out.println("2、取钱");
+        System.out.println("3、存钱");
         System.out.println("4、查看当前金额");
         System.out.println("5、忘记密码");
     }
@@ -128,13 +128,18 @@ public class Bank {
     }
 
     private void fetchMoney() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("请输入您要存入的钱数:" + "  ");
-        double money = sc.nextDouble();
-        if (money < 0) {
-            System.out.println("您输入的钱可能有问题");
-        } else {
-            setMoney(money);
+        boolean flag = idAndPassword();
+        if (flag){
+            Scanner sc = new Scanner(System.in);
+            System.out.print("请输入您要存入的钱数:" + "  ");
+            double money = sc.nextDouble();
+            if (money < 0) {
+                System.out.println("您输入的钱可能有问题");
+            } else {
+                setMoney(money);
+            }
+        }else {
+            System.out.println("账号密码错误");
         }
     }
 
@@ -239,8 +244,6 @@ public class Bank {
         int id = sc.nextInt();
         System.out.println("请输入您的密码：");
         int password = sc.nextInt();
-
-
             if (id == this.id && password == this.password) {
                 return true;
             }
