@@ -4,7 +4,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Bank {
-    Bank b = new Bank();
     private String name;
     private int age;
     private int id;
@@ -77,7 +76,7 @@ public class Bank {
     }
 
 
-    public int getPassword(){
+    public int getPassword() {
         return this.password;
     }
 
@@ -85,8 +84,6 @@ public class Bank {
     private void setPassword(int password) {
         this.password = password;
     }
-
-
 
 
     public void menu() {
@@ -136,39 +133,39 @@ public class Bank {
         double money = sc.nextDouble();
         if (money < 0) {
             System.out.println("您输入的钱可能有问题");
-        }else {
+        } else {
             setMoney(money);
         }
     }
 
     private void intoMoney() {
         Scanner sc = new Scanner(System.in);
-        boolean flag =  idAndPassword();
-        if (flag){
+        boolean flag = idAndPassword();
+        if (flag) {
             System.out.println("请问您要取多少钱出来？");
             double money = sc.nextDouble();
-            if (this.money<money){
+            if (this.money < money) {
                 System.out.println("您没有那么多钱");
-            }else {
-                this.money = this.money-money;
+            } else {
+                this.money = this.money - money;
                 System.out.println("已为您取出");
             }
-        }else {
+        } else {
             System.out.println("账号密码错误");
         }
     }
 
 
     private void lookMoney() {
-       boolean flag =  idAndPassword();
-       if (flag){
-           System.out.println("账户名称："+getName());
-           System.out.println("用户年龄："+getAge());
-           System.out.println("账户id："+getId());
-           System.out.println("当前金额："+getMoney());
-       }else {
-           System.out.println("账号密码错误");
-       }
+        boolean flag = idAndPassword();
+        if (flag) {
+            System.out.println("账户名称：" + getName());
+            System.out.println("用户年龄：" + getAge());
+            System.out.println("账户id：" + getId());
+            System.out.println("当前金额：" + getMoney());
+        } else {
+            System.out.println("账号密码错误");
+        }
 
     }
 
@@ -176,22 +173,21 @@ public class Bank {
         System.out.println("请输入管理员密码");
         Scanner sc = new Scanner(System.in);
         int pPassword = sc.nextInt();
-        if (this.pPassword == pPassword){
-            System.out.println("账户名称："+getName());
-            System.out.println("用户年龄："+getAge());
-            System.out.println("账户id："+getId());
-            System.out.println("账户密码："+getPassword());
-        }else {
+        if (this.pPassword == pPassword) {
+            System.out.println("账户名称：" + getName());
+            System.out.println("用户年龄：" + getAge());
+            System.out.println("账户id：" + getId());
+            System.out.println("账户密码：" + getPassword());
+        } else {
             System.out.println("管理员密码错误");
         }
 
     }
 
 
-
-
     //创建账户并返回地址值
-    private Bank newAccount() {
+    private void newAccount() {
+        Bank b = new Bank();
         Scanner sc = new Scanner(System.in);
         System.out.print("请输入您的姓名:" + "  ");
         String name = sc.next();
@@ -220,34 +216,37 @@ public class Bank {
         setId(Integer.parseInt(SB.toString()));
 
 
-        while (true){
+        while (true) {
             System.out.println("请输入您的密码（6位数密码）");
             int password = sc.nextInt();
-            if (password<0||password>999999){
+            if (password < 0 || password > 999999) {
                 System.out.println("您的密码输入有误");
-            }else {
+            } else {
                 setPassword(password);
                 break;
             }
         }
 
-        return b;
+        System.out.println("您的id是" + getId());
+
+
     }
 
 
-
-    public boolean idAndPassword(){
+    public boolean idAndPassword() {
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入您的id：");
         int id = sc.nextInt();
         System.out.println("请输入您的密码：");
         int password = sc.nextInt();
 
-        if (id == this.id && password == this.password){
-            return true;
-        }
-        return false;
-    }
 
+            if (id == this.id && password == this.password) {
+                return true;
+            }
+
+        return false;
+
+    }
 }
 
