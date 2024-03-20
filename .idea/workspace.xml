@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="返回最后单词">
-      <change afterPath="$PROJECT_DIR$/src/B20240320/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240320/BankDepositMoney.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行模型 - 1&#10;&#10;在对用户的数据进行编写时，我想到，密码如果直接获取是不可以的，因为若是非用户要获取密码就会显得不安全，则我加入管理员，让管理员输入密码来获取用户的密码，加大安全性！其次，用户如果存储金钱时输入的金额为负数，则要返回用户输入错误的提示">
+      <change beforePath="$PROJECT_DIR$/src/B20240320/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240320/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240320/BankDepositMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240320/BankDepositMoney.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240320/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240320/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,23 +190,7 @@
       <workItem from="1710753097900" duration="1280000" />
       <workItem from="1710830921556" duration="6693000" />
       <workItem from="1710855091945" duration="3542000" />
-      <workItem from="1710934441416" duration="1117000" />
-    </task>
-    <task id="LOCAL-00168" summary="单一实例&#10;&#10;添加 get 和 set 使其可以被调用">
-      <option name="closed" value="true" />
-      <created>1710040961173</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1710040961173</updated>
-    </task>
-    <task id="LOCAL-00169" summary="单一实例&#10;&#10;引入 final 不能被改变">
-      <option name="closed" value="true" />
-      <created>1710041073002</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1710041073002</updated>
+      <workItem from="1710934441416" duration="1769000" />
     </task>
     <task id="LOCAL-00170" summary="单一实例&#10;&#10;引入 final 不能被改变">
       <option name="closed" value="true" />
@@ -584,7 +568,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710859950853</updated>
     </task>
-    <option name="localTasksCounter" value="217" />
+    <task id="LOCAL-00217" summary="银行模型 - 0&#10;&#10;创建对象存储银行，内容为持卡人姓名，年龄，id，和密码">
+      <option name="closed" value="true" />
+      <created>1710935744690</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1710935744690</updated>
+    </task>
+    <task id="LOCAL-00218" summary="银行模型 - 1&#10;&#10;在对用户的数据进行编写时，我想到，密码如果直接获取是不可以的，因为若是非用户要获取密码就会显得不安全，则我加入管理员，让管理员输入密码来获取用户的密码，加大安全性！其次，用户如果存储金钱时输入的金额为负数，则要返回用户输入错误的提示">
+      <option name="closed" value="true" />
+      <created>1710935887103</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1710935887103</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,8 +604,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="R 的练习题 无限循环的月读" />
-    <MESSAGE value="Readmd 补充&#10;&#10;关于文档的读写和static 的说明" />
     <MESSAGE value="Readmd 补充&#10;&#10;图片加载" />
     <MESSAGE value="Readmd 补充&#10;&#10;关于 StringBuilder 的分析" />
     <MESSAGE value="关于斐波那契额数组的代码书写" />
@@ -629,7 +627,9 @@
     <MESSAGE value="字符数相乘-2&#10;&#10;无法完成 ， String 无法强转为 int" />
     <MESSAGE value="字符数相乘-3&#10;&#10;方法二：使用Inteder.parseInt方法" />
     <MESSAGE value="返回最后单词" />
-    <option name="LAST_COMMIT_MESSAGE" value="返回最后单词" />
+    <MESSAGE value="银行模型 - 0&#10;&#10;创建对象存储银行，内容为持卡人姓名，年龄，id，和密码" />
+    <MESSAGE value="银行模型 - 1&#10;&#10;在对用户的数据进行编写时，我想到，密码如果直接获取是不可以的，因为若是非用户要获取密码就会显得不安全，则我加入管理员，让管理员输入密码来获取用户的密码，加大安全性！其次，用户如果存储金钱时输入的金额为负数，则要返回用户输入错误的提示" />
+    <option name="LAST_COMMIT_MESSAGE" value="银行模型 - 1&#10;&#10;在对用户的数据进行编写时，我想到，密码如果直接获取是不可以的，因为若是非用户要获取密码就会显得不安全，则我加入管理员，让管理员输入密码来获取用户的密码，加大安全性！其次，用户如果存储金钱时输入的金额为负数，则要返回用户输入错误的提示" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

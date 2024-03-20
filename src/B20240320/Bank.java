@@ -75,51 +75,32 @@ public class Bank {
         return id;
     }
 
-    /**
-     * 设置
-     *
-     * @param id
-     */
-    public void setId(int id) {
-        this.id = id;
+
+    private void setId() {
+        Random r = new Random();
+        StringBuilder SB = new StringBuilder();
+        for (int i = 0; i < 5; i++) {
+            int id = r.nextInt(10);
+            SB.append(id);
+        }
+        this.id = Integer.parseInt(SB.toString());
     }
 
-    /**
-     * 获取
-     *
-     * @return money
-     */
+
     public double getMoney() {
         return money;
     }
 
-    /**
-     * 设置
-     *
-     * @param money
-     */
 
-
-    /**
-     * 获取
-     * @return password
-     */
     public String getPassword() {
         return "抱歉，您没有查看密码的权限";
     }
 
-    /**
-     * 设置
-     * @param password
-     */
     public void setPassword(int password) {
         this.password = password;
     }
 
-    /**
-     * 设置
-     * @param money
-     */
+
     public void setMoney(double money) {
         this.money = money;
     }
