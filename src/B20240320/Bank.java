@@ -37,7 +37,7 @@ public class Bank {
      *
      * @param name
      */
-    public void setName(String name) {
+    private void setName(String name) {
         this.name = name;
     }
 
@@ -55,7 +55,7 @@ public class Bank {
      *
      * @param age
      */
-    public void setAge(int age) {
+    private void setAge(int age) {
         if (age<0||age>200){
             System.out.println("您输入的年龄有问题，请重新输入：");
             soutAge();
@@ -90,7 +90,7 @@ public class Bank {
     }
 
 
-    public String getPassword() {
+    private String getPassword() {
         return "抱歉，您没有查看密码的权限";
     }
 
@@ -99,7 +99,7 @@ public class Bank {
     }
 
 
-    public void setMoney(double money) {
+    private void setMoney(double money) {
         this.money = money;
     }
 
@@ -112,9 +112,9 @@ public class Bank {
         return 0;
     }
 
+    //用户
 
-    private void soutAge() {
-    }
+
 
 
     public void fetchMoney() {
@@ -130,6 +130,9 @@ public class Bank {
     public void load(){
         Scanner sc = new Scanner(System.in);
 
+    }
+
+    private void soutAge() {
     }
 
     public void
