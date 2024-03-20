@@ -72,7 +72,7 @@ public class Bank {
         return this.money;
     }
 
-    private void setMoney() {
+    private void setMoney(double money) {
         this.money = money;
     }
 
@@ -94,7 +94,7 @@ public class Bank {
         System.out.println("2、存钱");
         System.out.println("3、取钱");
         System.out.println("4、查看当前金额");
-        System.out.println("4、更多");
+        System.out.println("5、忘记密码");
     }
 
     public void synthesis() {
@@ -111,10 +111,10 @@ public class Bank {
                     newAccount();
                     continue;
                 case 2:
-                    setMoney();
+                    intoMoney();
                     continue;
                 case 3:
-                    getMoney();
+                    fetchMoney();
                     continue;
                 case 4:
                     lookMoney();
@@ -130,29 +130,60 @@ public class Bank {
         }
     }
 
+    private void fetchMoney() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("请输入您要存入的钱数:" + "  ");
+        double money = sc.nextDouble();
+        if (money < 0) {
+            System.out.println("您输入的钱可能有问题");
+        }else {
+            setMoney(money);
+        }
+    }
+
+    private void intoMoney() {
+        Scanner sc = new Scanner(System.in);
+        boolean flag =  idAndPassword();
+        if (flag){
+            System.out.println("请问您要取多少钱出来？");
+            double money = sc.nextDouble();
+            if (this.money<money){
+                System.out.println("您没有那么多钱");
+            }else {
+                this.money = this.money-money;
+                System.out.println("已为您取出");
+            }
+        }else {
+            System.out.println("账号密码错误");
+        }
+    }
+
+
     private void lookMoney() {
        boolean flag =  idAndPassword();
        if (flag){
            System.out.println("账户名称："+getName());
+           System.out.println("用户年龄："+getAge());
            System.out.println("账户id："+getId());
            System.out.println("当前金额："+getMoney());
+       }else {
+           System.out.println("账号密码错误");
        }
 
     }
 
     private void more() {
-
-
-
-        if (money < 0) {
-            System.out.println("您输入的钱可能有问题,怀疑您在进行非法操作 ， 将会 删除您的所有资金");
-            this.money = 0;
-            return;
+        System.out.println("请输入管理员密码");
+        Scanner sc = new Scanner(System.in);
+        int pPassword = sc.nextInt();
+        if (this.pPassword == pPassword){
+            System.out.println("账户名称："+getName());
+            System.out.println("用户年龄："+getAge());
+            System.out.println("账户id："+getId());
+            System.out.println("账户密码："+getPassword());
+        }else {
+            System.out.println("管理员密码错误");
         }
-
-
-
-
 
     }
 

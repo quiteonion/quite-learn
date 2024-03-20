@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行模型 - 9&#10;&#10;账户密码id判断" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行模型 - 9&#10;&#10;账户密码id判断">
+      <change beforePath="$PROJECT_DIR$/src/B20240320/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240320/Bank.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,15 +188,7 @@
       <workItem from="1710753097900" duration="1280000" />
       <workItem from="1710830921556" duration="6693000" />
       <workItem from="1710855091945" duration="3542000" />
-      <workItem from="1710934441416" duration="5257000" />
-    </task>
-    <task id="LOCAL-00178" summary="单一实例（练习）-4&#10;&#10;在调用之后就要考虑到，外界如果直接改动 instance 是不能让他们改动">
-      <option name="closed" value="true" />
-      <created>1710057024273</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1710057024273</updated>
+      <workItem from="1710934441416" duration="5819000" />
     </task>
     <task id="LOCAL-00179" summary="单一实例（练习）-5&#10;&#10;使用get 和 set 方法来调用 类返回 instance">
       <option name="closed" value="true" />
@@ -580,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710939931632</updated>
     </task>
-    <option name="localTasksCounter" value="227" />
+    <task id="LOCAL-00227" summary="银行模型 - 9&#10;&#10;账户密码id判断">
+      <option name="closed" value="true" />
+      <created>1710940321572</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1710940321572</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
