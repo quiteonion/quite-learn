@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="OOP扑克牌勒">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="OOP石头剪刀布">
+      <change afterPath="$PROJECT_DIR$/src/A20240317/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240317/CardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240317/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240317/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240317/Card1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240317/Card1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +27,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,34 +40,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/idea/idea 存储/quite/src/A20240317/Teacher",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/A20240313&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\idea\idea 存储\quite\src\A20240317\Teacher" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240317" />
       <recent name="D:\idea\idea 存储\quite\src\A20240313" />
       <recent name="D:\idea\idea 存储\quite\src\B20240309" />
       <recent name="D:\idea\idea 存储\quite\src\A20231128" />
+      <recent name="D:\idea\idea 存储\quite\src\A20240104" />
+      <recent name="D:\idea\idea 存储\quite\src\A20240125" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\A20240310\Image" />
@@ -78,7 +80,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CardTest">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -205,8 +207,71 @@
       <workItem from="1710504310496" duration="1717000" />
       <workItem from="1710564314571" duration="757000" />
       <workItem from="1710573409410" duration="1820000" />
-      <workItem from="1710637143765" duration="10242000" />
-      <workItem from="1710655416063" duration="8537000" />
+      <workItem from="1710637143765" duration="6679000" />
+    </task>
+    <task id="LOCAL-00151" summary="20240308作业的完成（存有问题未解答）">
+      <option name="closed" value="true" />
+      <created>1709958193651</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1709958193651</updated>
+    </task>
+    <task id="LOCAL-00152" summary="更改名字为 Overload（重载）">
+      <option name="closed" value="true" />
+      <created>1709958500194</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1709958500194</updated>
+    </task>
+    <task id="LOCAL-00153" summary="更改 class 文件位置">
+      <option name="closed" value="true" />
+      <created>1709958555665</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1709958555665</updated>
+    </task>
+    <task id="LOCAL-00154" summary="Readmd补充">
+      <option name="closed" value="true" />
+      <created>1709961629115</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1709961629115</updated>
+    </task>
+    <task id="LOCAL-00155" summary="手机号输入隐私输出">
+      <option name="closed" value="true" />
+      <created>1709961651340</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1709961651340</updated>
+    </task>
+    <task id="LOCAL-00156" summary="通过身份证输出生日和性别">
+      <option name="closed" value="true" />
+      <created>1709972714857</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1709972714858</updated>
+    </task>
+    <task id="LOCAL-00157" summary="Readmd 补充">
+      <option name="closed" value="true" />
+      <created>1709972729307</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1709972729307</updated>
+    </task>
+    <task id="LOCAL-00158" summary="Readmd 补充">
+      <option name="closed" value="true" />
+      <created>1710034390797</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1710034390798</updated>
     </task>
     <task id="LOCAL-00159" summary="Readmd 补充">
       <option name="closed" value="true" />
@@ -536,71 +601,7 @@
       <option name="project" value="LOCAL" />
       <updated>1710565044549</updated>
     </task>
-    <task id="LOCAL-00200" summary="OOP扑克牌勒">
-      <option name="closed" value="true" />
-      <created>1710646128355</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1710646128355</updated>
-    </task>
-    <task id="LOCAL-00201" summary="README 的补充">
-      <option name="closed" value="true" />
-      <created>1710646142922</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1710646142922</updated>
-    </task>
-    <task id="LOCAL-00202" summary="OOP扑克牌勒">
-      <option name="closed" value="true" />
-      <created>1710663260820</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1710663260820</updated>
-    </task>
-    <task id="LOCAL-00203" summary="OOP扑克牌勒">
-      <option name="closed" value="true" />
-      <created>1710663266545</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1710663266545</updated>
-    </task>
-    <task id="LOCAL-00204" summary="OOP扑克牌勒">
-      <option name="closed" value="true" />
-      <created>1710663316871</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
-      <option name="project" value="LOCAL" />
-      <updated>1710663316871</updated>
-    </task>
-    <task id="LOCAL-00205" summary="README 的补充">
-      <option name="closed" value="true" />
-      <created>1710663322065</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1710663322065</updated>
-    </task>
-    <task id="LOCAL-00206" summary="README 的补充">
-      <option name="closed" value="true" />
-      <created>1710664972026</created>
-      <option name="number" value="00206" />
-      <option name="presentableId" value="LOCAL-00206" />
-      <option name="project" value="LOCAL" />
-      <updated>1710664972026</updated>
-    </task>
-    <task id="LOCAL-00207" summary="OOP扑克牌勒">
-      <option name="closed" value="true" />
-      <created>1710664977059</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
-      <option name="project" value="LOCAL" />
-      <updated>1710664977059</updated>
-    </task>
-    <option name="localTasksCounter" value="208" />
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,6 +621,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="单一实例（练习）-0" />
+    <MESSAGE value="单一实例（练习）-1&#10;&#10;要让用户不能直接 new 构造器就可以维持单一变量的首要条件" />
     <MESSAGE value="单一实例（练习）-2&#10;&#10;其次需要在对象中 先new出来，再提供使用，这样子就可以实现单一实例" />
     <MESSAGE value="单一实例（练习）-3&#10;&#10;接下来就要想办法让 Test 调用到，而外界调用内部要使用方法" />
     <MESSAGE value="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片" />
@@ -643,9 +646,7 @@
     <MESSAGE value="递归计算1到100" />
     <MESSAGE value="石头剪刀布练习" />
     <MESSAGE value="OOP石头剪刀布" />
-    <MESSAGE value="README 的补充" />
-    <MESSAGE value="OOP扑克牌勒" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP扑克牌勒" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP石头剪刀布" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -766,15 +767,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/A20240317/Card1.java</url>
-          <line>118</line>
-          <properties class="A20240317.Card1" method="shuffle">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
