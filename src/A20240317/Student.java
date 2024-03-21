@@ -6,4 +6,7 @@ public class Student extends Person{
     public void eat(int i){
         System.out.println("吃饭吃饭");
     }
+    public void qq(){
+        System.out.println("000");
+    }
 }

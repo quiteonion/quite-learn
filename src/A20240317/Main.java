@@ -5,5 +5,6 @@ public class Main {
         Student s = new Student();
         s.eat(1);
         s.eat();
+        s.qq();
     }
 }

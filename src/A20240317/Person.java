@@ -6,4 +6,7 @@ public class Person {
     public void eat(){
         System.out.println("吃饭吃饭");
     }
+    public void qq(){
+        System.out.println("000000");
+    }
 }
