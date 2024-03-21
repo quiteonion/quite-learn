@@ -1,5 +1,7 @@
 package A20240321;
 
+import java.util.Scanner;
+
 public class Cylinder extends Circle{
     public Cylinder(){
 
@@ -21,7 +23,7 @@ public class Cylinder extends Circle{
     }
 
     public double findVolume(){
-        return 1;
+        return findArea()*length;
     }
 
 }
