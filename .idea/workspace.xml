@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="修改冲突" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="继承&#10;&#10;重写是引用最近的方法">
+      <change afterPath="$PROJECT_DIR$/src/A20240321/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240321/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control/package1/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control/package1/OrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control/package2/OrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control_v2/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control_v2/package1/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control_v2/package1/OrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control_v2/package1/SubOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control_v2/package2/OrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control_v2/package2/SubOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control_v2/package2/SubOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240321/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,34 +50,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/A20240313&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/src/A20240321",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\A20240321" />
       <recent name="D:\idea\idea 存储\quite\src\A20240313" />
       <recent name="D:\idea\idea 存储\quite\src\B20240309" />
       <recent name="D:\idea\idea 存储\quite\src\A20231128" />
       <recent name="D:\idea\idea 存储\quite\src\A20240104" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240125" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\A20240310\Image" />
@@ -74,7 +90,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CardTest">
+  <component name="RunManager">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -103,24 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CardTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A20240317.CardTest" />
-      <module name="quite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A20240317.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.CardTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -202,30 +200,6 @@
       <workItem from="1710564314571" duration="757000" />
       <workItem from="1710573409410" duration="1820000" />
       <workItem from="1710637143765" duration="6679000" />
-    </task>
-    <task id="LOCAL-00152" summary="更改名字为 Overload（重载）">
-      <option name="closed" value="true" />
-      <created>1709958500194</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1709958500194</updated>
-    </task>
-    <task id="LOCAL-00153" summary="更改 class 文件位置">
-      <option name="closed" value="true" />
-      <created>1709958555665</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1709958555665</updated>
-    </task>
-    <task id="LOCAL-00154" summary="Readmd补充">
-      <option name="closed" value="true" />
-      <created>1709961629115</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1709961629115</updated>
     </task>
     <task id="LOCAL-00155" summary="手机号输入隐私输出">
       <option name="closed" value="true" />
@@ -595,7 +569,31 @@
       <option name="project" value="LOCAL" />
       <updated>1711018795074</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="修改冲突">
+      <option name="closed" value="true" />
+      <created>1711019803247</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1711019803247</updated>
+    </task>
+    <task id="LOCAL-00202" summary="继承&#10;&#10;子类可以继承父类的方法">
+      <option name="closed" value="true" />
+      <created>1711020460494</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1711020460494</updated>
+    </task>
+    <task id="LOCAL-00203" summary="继承&#10;&#10;重写是引用最近的方法">
+      <option name="closed" value="true" />
+      <created>1711020513383</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1711020513383</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,8 +613,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="单一实例（练习）-2&#10;&#10;其次需要在对象中 先new出来，再提供使用，这样子就可以实现单一实例" />
-    <MESSAGE value="单一实例（练习）-3&#10;&#10;接下来就要想办法让 Test 调用到，而外界调用内部要使用方法" />
     <MESSAGE value="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片" />
     <MESSAGE value="单一实例（练习）-4&#10;&#10;在调用之后就要考虑到，外界如果直接改动 instance 是不能让他们改动" />
     <MESSAGE value="单一实例（练习）-5&#10;&#10;使用get 和 set 方法来调用 类返回 instance" />
@@ -638,9 +634,11 @@
     <MESSAGE value="递归计算1到100" />
     <MESSAGE value="石头剪刀布练习" />
     <MESSAGE value="OOP石头剪刀布" />
-    <MESSAGE value="修改冲突" />
     <MESSAGE value="作业" />
-    <option name="LAST_COMMIT_MESSAGE" value="作业" />
+    <MESSAGE value="修改冲突" />
+    <MESSAGE value="继承&#10;&#10;子类可以继承父类的方法" />
+    <MESSAGE value="继承&#10;&#10;重写是引用最近的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="继承&#10;&#10;重写是引用最近的方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
