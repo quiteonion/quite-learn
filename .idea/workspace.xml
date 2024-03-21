@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行模型 - 11&#10;&#10;完成简单的代码">
-      <change beforePath="$PROJECT_DIR$/src/B20240320/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240320/Bank.java" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="修改冲突" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +74,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CardTest">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -105,6 +103,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CardTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A20240317.CardTest" />
+      <module name="quite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A20240317.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CardTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -183,12 +199,241 @@
       <workItem from="1710484609470" duration="2560000" />
       <workItem from="1710501413270" duration="2547000" />
       <workItem from="1710504310496" duration="1717000" />
-      <workItem from="1710564314571" duration="321000" />
-      <workItem from="1710688265308" duration="2284000" />
-      <workItem from="1710753097900" duration="1280000" />
-      <workItem from="1710830921556" duration="6693000" />
-      <workItem from="1710855091945" duration="3542000" />
-      <workItem from="1710934441416" duration="8109000" />
+      <workItem from="1710564314571" duration="757000" />
+      <workItem from="1710573409410" duration="1820000" />
+      <workItem from="1710637143765" duration="6679000" />
+    </task>
+    <task id="LOCAL-00152" summary="更改名字为 Overload（重载）">
+      <option name="closed" value="true" />
+      <created>1709958500194</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1709958500194</updated>
+    </task>
+    <task id="LOCAL-00153" summary="更改 class 文件位置">
+      <option name="closed" value="true" />
+      <created>1709958555665</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1709958555665</updated>
+    </task>
+    <task id="LOCAL-00154" summary="Readmd补充">
+      <option name="closed" value="true" />
+      <created>1709961629115</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1709961629115</updated>
+    </task>
+    <task id="LOCAL-00155" summary="手机号输入隐私输出">
+      <option name="closed" value="true" />
+      <created>1709961651340</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1709961651340</updated>
+    </task>
+    <task id="LOCAL-00156" summary="通过身份证输出生日和性别">
+      <option name="closed" value="true" />
+      <created>1709972714857</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1709972714858</updated>
+    </task>
+    <task id="LOCAL-00157" summary="Readmd 补充">
+      <option name="closed" value="true" />
+      <created>1709972729307</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1709972729307</updated>
+    </task>
+    <task id="LOCAL-00158" summary="Readmd 补充">
+      <option name="closed" value="true" />
+      <created>1710034390797</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1710034390798</updated>
+    </task>
+    <task id="LOCAL-00159" summary="Readmd 补充">
+      <option name="closed" value="true" />
+      <created>1710034504807</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1710034504807</updated>
+    </task>
+    <task id="LOCAL-00160" summary="Readmd 补充">
+      <option name="closed" value="true" />
+      <created>1710036988714</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1710036988714</updated>
+    </task>
+    <task id="LOCAL-00161" summary="Readmd 补充">
+      <option name="closed" value="true" />
+      <created>1710037090020</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1710037090020</updated>
+    </task>
+    <task id="LOCAL-00162" summary="Readmd 补充">
+      <option name="closed" value="true" />
+      <created>1710038678938</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1710038678938</updated>
+    </task>
+    <task id="LOCAL-00163" summary="单项错误区块&#10;&#10;在创建单一实例的时候，如果使用behavior就会导致错误，因为出栈入栈引发的地址值不同">
+      <option name="closed" value="true" />
+      <created>1710038789388</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1710038789388</updated>
+    </task>
+    <task id="LOCAL-00164" summary="Readmd 补充&#10;&#10;将代码位置补充进入Readmd">
+      <option name="closed" value="true" />
+      <created>1710038874696</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1710038874696</updated>
+    </task>
+    <task id="LOCAL-00165" summary="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
+      <option name="closed" value="true" />
+      <created>1710039259709</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1710039259709</updated>
+    </task>
+    <task id="LOCAL-00166" summary="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
+      <option name="closed" value="true" />
+      <created>1710039404400</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1710039404400</updated>
+    </task>
+    <task id="LOCAL-00167" summary="单一实例&#10;&#10;保护 instance 使用 private">
+      <option name="closed" value="true" />
+      <created>1710040554428</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1710040554428</updated>
+    </task>
+    <task id="LOCAL-00168" summary="单一实例&#10;&#10;添加 get 和 set 使其可以被调用">
+      <option name="closed" value="true" />
+      <created>1710040961173</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1710040961173</updated>
+    </task>
+    <task id="LOCAL-00169" summary="单一实例&#10;&#10;引入 final 不能被改变">
+      <option name="closed" value="true" />
+      <created>1710041073002</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1710041073002</updated>
+    </task>
+    <task id="LOCAL-00170" summary="单一实例&#10;&#10;引入 final 不能被改变">
+      <option name="closed" value="true" />
+      <created>1710041127895</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1710041127895</updated>
+    </task>
+    <task id="LOCAL-00171" summary="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
+      <option name="closed" value="true" />
+      <created>1710041263555</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1710041263555</updated>
+    </task>
+    <task id="LOCAL-00172" summary="单一实例&#10;&#10;使得 new 在 behavior 内部">
+      <option name="closed" value="true" />
+      <created>1710051842368</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1710051842368</updated>
+    </task>
+    <task id="LOCAL-00173" summary="单一实例（练习）-0">
+      <option name="closed" value="true" />
+      <created>1710051991441</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1710051991441</updated>
+    </task>
+    <task id="LOCAL-00174" summary="单一实例（练习）-1&#10;&#10;要让用户不能直接 new 构造器就可以维持单一变量的首要条件">
+      <option name="closed" value="true" />
+      <created>1710052250210</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1710052250210</updated>
+    </task>
+    <task id="LOCAL-00175" summary="单一实例（练习）-2&#10;&#10;其次需要在对象中 先new出来，再提供使用，这样子就可以实现单一实例">
+      <option name="closed" value="true" />
+      <created>1710052378797</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1710052378797</updated>
+    </task>
+    <task id="LOCAL-00176" summary="单一实例（练习）-3&#10;&#10;接下来就要想办法让 Test 调用到，而外界调用内部要使用方法">
+      <option name="closed" value="true" />
+      <created>1710052497683</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1710052497683</updated>
+    </task>
+    <task id="LOCAL-00177" summary="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
+      <option name="closed" value="true" />
+      <created>1710056801532</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1710056801532</updated>
+    </task>
+    <task id="LOCAL-00178" summary="单一实例（练习）-4&#10;&#10;在调用之后就要考虑到，外界如果直接改动 instance 是不能让他们改动">
+      <option name="closed" value="true" />
+      <created>1710057024273</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1710057024273</updated>
+    </task>
+    <task id="LOCAL-00179" summary="单一实例（练习）-5&#10;&#10;使用get 和 set 方法来调用 类返回 instance">
+      <option name="closed" value="true" />
+      <created>1710061776846</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1710061776846</updated>
+    </task>
+    <task id="LOCAL-00180" summary="单一实例（练习）-6&#10;&#10;检验发现完成单一实例">
+      <option name="closed" value="true" />
+      <created>1710080175602</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1710080175602</updated>
     </task>
     <task id="LOCAL-00181" summary="单一实例（练习）-7&#10;&#10;使用 behavior 来构建单一实例">
       <option name="closed" value="true" />
@@ -318,271 +563,39 @@
       <option name="project" value="LOCAL" />
       <updated>1710503269141</updated>
     </task>
-    <task id="LOCAL-00197" summary="Readmd 补充">
+    <task id="LOCAL-00197" summary="递归计算1到100">
       <option name="closed" value="true" />
-      <created>1710688180338</created>
+      <created>1710564682164</created>
       <option name="number" value="00197" />
       <option name="presentableId" value="LOCAL-00197" />
       <option name="project" value="LOCAL" />
-      <updated>1710688180338</updated>
+      <updated>1710564682164</updated>
     </task>
-    <task id="LOCAL-00198" summary="补充">
+    <task id="LOCAL-00198" summary="石头剪刀布练习">
       <option name="closed" value="true" />
-      <created>1710688228833</created>
+      <created>1710564690855</created>
       <option name="number" value="00198" />
       <option name="presentableId" value="LOCAL-00198" />
       <option name="project" value="LOCAL" />
-      <updated>1710688228833</updated>
+      <updated>1710564690856</updated>
     </task>
-    <task id="LOCAL-00199" summary="补充">
+    <task id="LOCAL-00199" summary="OOP石头剪刀布">
       <option name="closed" value="true" />
-      <created>1710688726737</created>
+      <created>1710565044549</created>
       <option name="number" value="00199" />
       <option name="presentableId" value="LOCAL-00199" />
       <option name="project" value="LOCAL" />
-      <updated>1710688726737</updated>
+      <updated>1710565044549</updated>
     </task>
-    <task id="LOCAL-00200" summary="堆爆满">
+    <task id="LOCAL-00200" summary="修改冲突">
       <option name="closed" value="true" />
-      <created>1710690232761</created>
+      <created>1711018795074</created>
       <option name="number" value="00200" />
       <option name="presentableId" value="LOCAL-00200" />
       <option name="project" value="LOCAL" />
-      <updated>1710690232761</updated>
+      <updated>1711018795074</updated>
     </task>
-    <task id="LOCAL-00201" summary="堆爆满----改进&#10;&#10;添加一个StringBuilder的方法 -- SB.delete(begin , end)，来释放这段内存">
-      <option name="closed" value="true" />
-      <created>1710690562031</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1710690562031</updated>
-    </task>
-    <task id="LOCAL-00202" summary="洗牌步骤的修改更正 &#10;&#10;出错的原因：循环中使用 对象名.方法名，导致每一次编译到此处都会调用一次对象，引发的错误">
-      <option name="closed" value="true" />
-      <created>1710832240662</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1710832240662</updated>
-    </task>
-    <task id="LOCAL-00203" summary="杂项">
-      <option name="closed" value="true" />
-      <created>1710835489313</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1710835489313</updated>
-    </task>
-    <task id="LOCAL-00204" summary="生成验证码-0">
-      <option name="closed" value="true" />
-      <created>1710836007438</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
-      <option name="project" value="LOCAL" />
-      <updated>1710836007438</updated>
-    </task>
-    <task id="LOCAL-00205" summary="生成验证码-1&#10;&#10;如何创建一个字母的字符数组">
-      <option name="closed" value="true" />
-      <created>1710836356285</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1710836356285</updated>
-    </task>
-    <task id="LOCAL-00206" summary="生成验证码-2&#10;&#10;使用 ASCLL 便利创建">
-      <option name="closed" value="true" />
-      <created>1710836879711</created>
-      <option name="number" value="00206" />
-      <option name="presentableId" value="LOCAL-00206" />
-      <option name="project" value="LOCAL" />
-      <updated>1710836879711</updated>
-    </task>
-    <task id="LOCAL-00207" summary="生成验证码-3&#10;&#10;随机数组内的元素，并放入StringBuilder的容器内输出">
-      <option name="closed" value="true" />
-      <created>1710837592150</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
-      <option name="project" value="LOCAL" />
-      <updated>1710837592150</updated>
-    </task>
-    <task id="LOCAL-00208" summary="生成验证码-4&#10;&#10;另一种更复杂~~~~~~~~">
-      <option name="closed" value="true" />
-      <created>1710838248254</created>
-      <option name="number" value="00208" />
-      <option name="presentableId" value="LOCAL-00208" />
-      <option name="project" value="LOCAL" />
-      <updated>1710838248254</updated>
-    </task>
-    <task id="LOCAL-00209" summary="生成验证码-4&#10;&#10;改正便捷方法">
-      <option name="closed" value="true" />
-      <created>1710838948833</created>
-      <option name="number" value="00209" />
-      <option name="presentableId" value="LOCAL-00209" />
-      <option name="project" value="LOCAL" />
-      <updated>1710838948833</updated>
-    </task>
-    <task id="LOCAL-00210" summary="生成验证码-5&#10;&#10;完">
-      <option name="closed" value="true" />
-      <created>1710839042863</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1710839042863</updated>
-    </task>
-    <task id="LOCAL-00211" summary="字符数相乘-0&#10;&#10;给定两个字符串形式的非负整数">
-      <option name="closed" value="true" />
-      <created>1710839453979</created>
-      <option name="number" value="00211" />
-      <option name="presentableId" value="LOCAL-00211" />
-      <option name="project" value="LOCAL" />
-      <updated>1710839453979</updated>
-    </task>
-    <task id="LOCAL-00212" summary="字符数相乘-1&#10;&#10;强制转换相乘">
-      <option name="closed" value="true" />
-      <created>1710839618931</created>
-      <option name="number" value="00212" />
-      <option name="presentableId" value="LOCAL-00212" />
-      <option name="project" value="LOCAL" />
-      <updated>1710839618931</updated>
-    </task>
-    <task id="LOCAL-00213" summary="字符数相乘-2&#10;&#10;无法完成 ， String 无法强转为 int">
-      <option name="closed" value="true" />
-      <created>1710839644191</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1710839644191</updated>
-    </task>
-    <task id="LOCAL-00214" summary="字符数相乘-3&#10;&#10;方法二：使用Inteder.parseInt方法">
-      <option name="closed" value="true" />
-      <created>1710858937248</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1710858937248</updated>
-    </task>
-    <task id="LOCAL-00215" summary="字符数相乘-3&#10;&#10;方法二：使用Inteder.parseInt方法">
-      <option name="closed" value="true" />
-      <created>1710858976771</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1710858976771</updated>
-    </task>
-    <task id="LOCAL-00216" summary="返回最后单词">
-      <option name="closed" value="true" />
-      <created>1710859950853</created>
-      <option name="number" value="00216" />
-      <option name="presentableId" value="LOCAL-00216" />
-      <option name="project" value="LOCAL" />
-      <updated>1710859950853</updated>
-    </task>
-    <task id="LOCAL-00217" summary="银行模型 - 0&#10;&#10;创建对象存储银行，内容为持卡人姓名，年龄，id，和密码">
-      <option name="closed" value="true" />
-      <created>1710935744690</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1710935744690</updated>
-    </task>
-    <task id="LOCAL-00218" summary="银行模型 - 1&#10;&#10;在对用户的数据进行编写时，我想到，密码如果直接获取是不可以的，因为若是非用户要获取密码就会显得不安全，则我加入管理员，让管理员输入密码来获取用户的密码，加大安全性！其次，用户如果存储金钱时输入的金额为负数，则要返回用户输入错误的提示">
-      <option name="closed" value="true" />
-      <created>1710935887103</created>
-      <option name="number" value="00218" />
-      <option name="presentableId" value="LOCAL-00218" />
-      <option name="project" value="LOCAL" />
-      <updated>1710935887103</updated>
-    </task>
-    <task id="LOCAL-00219" summary="银行模型 - 2&#10;&#10;接下来就是用户的id并不需要他们自行输入，由系统自行输出即可,id默认为5位数的数字">
-      <option name="closed" value="true" />
-      <created>1710936291405</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
-      <option name="project" value="LOCAL" />
-      <updated>1710936291405</updated>
-    </task>
-    <task id="LOCAL-00220" summary="银行模型 - 3&#10;&#10;年龄也是，默认最大年龄不超过200岁">
-      <option name="closed" value="true" />
-      <created>1710936537711</created>
-      <option name="number" value="00220" />
-      <option name="presentableId" value="LOCAL-00220" />
-      <option name="project" value="LOCAL" />
-      <updated>1710936537711</updated>
-    </task>
-    <task id="LOCAL-00221" summary="银行模型 - 4&#10;&#10;让所有的改变都在对象中运行，把所有的set方法都改变为 private 修饰">
-      <option name="closed" value="true" />
-      <created>1710936657669</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1710936657669</updated>
-    </task>
-    <task id="LOCAL-00222" summary="银行模型 - 5&#10;&#10;用户输入的姓名存储&#10;如果想要获取就必须输入管理员的密码">
-      <option name="closed" value="true" />
-      <created>1710937161538</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1710937161538</updated>
-    </task>
-    <task id="LOCAL-00223" summary="银行模型 - 6&#10;&#10;书写菜单方法">
-      <option name="closed" value="true" />
-      <created>1710938372439</created>
-      <option name="number" value="00223" />
-      <option name="presentableId" value="LOCAL-00223" />
-      <option name="project" value="LOCAL" />
-      <updated>1710938372439</updated>
-    </task>
-    <task id="LOCAL-00224" summary="银行模型 - 7&#10;&#10;整理思绪">
-      <option name="closed" value="true" />
-      <created>1710938778538</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
-      <option name="project" value="LOCAL" />
-      <updated>1710938778538</updated>
-    </task>
-    <task id="LOCAL-00225" summary="银行模型 - 8&#10;&#10;从创建账户开始">
-      <option name="closed" value="true" />
-      <created>1710939755761</created>
-      <option name="number" value="00225" />
-      <option name="presentableId" value="LOCAL-00225" />
-      <option name="project" value="LOCAL" />
-      <updated>1710939755761</updated>
-    </task>
-    <task id="LOCAL-00226" summary="银行模型 - 9&#10;&#10;账户密码id判断">
-      <option name="closed" value="true" />
-      <created>1710939931632</created>
-      <option name="number" value="00226" />
-      <option name="presentableId" value="LOCAL-00226" />
-      <option name="project" value="LOCAL" />
-      <updated>1710939931632</updated>
-    </task>
-    <task id="LOCAL-00227" summary="银行模型 - 9&#10;&#10;账户密码id判断">
-      <option name="closed" value="true" />
-      <created>1710940321572</created>
-      <option name="number" value="00227" />
-      <option name="presentableId" value="LOCAL-00227" />
-      <option name="project" value="LOCAL" />
-      <updated>1710940321572</updated>
-    </task>
-    <task id="LOCAL-00228" summary="银行模型 - 11&#10;&#10;完成简单的代码">
-      <option name="closed" value="true" />
-      <created>1710941041018</created>
-      <option name="number" value="00228" />
-      <option name="presentableId" value="LOCAL-00228" />
-      <option name="project" value="LOCAL" />
-      <updated>1710941041018</updated>
-    </task>
-    <task id="LOCAL-00229" summary="银行模型 - 11&#10;&#10;完成简单的代码">
-      <option name="closed" value="true" />
-      <created>1710942553143</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
-      <option name="project" value="LOCAL" />
-      <updated>1710942553143</updated>
-    </task>
-    <option name="localTasksCounter" value="230" />
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,32 +615,32 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="洗牌步骤的修改更正 &#10;&#10;出错的原因：循环中使用 对象名.方法名，导致每一次编译到此处都会调用一次对象，引发的错误" />
-    <MESSAGE value="杂项" />
-    <MESSAGE value="生成验证码-0" />
-    <MESSAGE value="生成验证码-1&#10;&#10;如何创建一个字母的字符数组" />
-    <MESSAGE value="生成验证码-2&#10;&#10;使用 ASCLL 便利创建" />
-    <MESSAGE value="生成验证码-3&#10;&#10;随机数组内的元素，并放入StringBuilder的容器内输出" />
-    <MESSAGE value="生成验证码-4&#10;&#10;另一种更复杂~~~~~~~~" />
-    <MESSAGE value="生成验证码-4&#10;&#10;改正便捷方法" />
-    <MESSAGE value="生成验证码-5&#10;&#10;完" />
-    <MESSAGE value="字符数相乘-0&#10;&#10;给定两个字符串形式的非负整数" />
-    <MESSAGE value="字符数相乘-1&#10;&#10;强制转换相乘" />
-    <MESSAGE value="字符数相乘-2&#10;&#10;无法完成 ， String 无法强转为 int" />
-    <MESSAGE value="字符数相乘-3&#10;&#10;方法二：使用Inteder.parseInt方法" />
-    <MESSAGE value="返回最后单词" />
-    <MESSAGE value="银行模型 - 0&#10;&#10;创建对象存储银行，内容为持卡人姓名，年龄，id，和密码" />
-    <MESSAGE value="银行模型 - 1&#10;&#10;在对用户的数据进行编写时，我想到，密码如果直接获取是不可以的，因为若是非用户要获取密码就会显得不安全，则我加入管理员，让管理员输入密码来获取用户的密码，加大安全性！其次，用户如果存储金钱时输入的金额为负数，则要返回用户输入错误的提示" />
-    <MESSAGE value="银行模型 - 2&#10;&#10;接下来就是用户的id并不需要他们自行输入，由系统自行输出即可,id默认为5位数的数字" />
-    <MESSAGE value="银行模型 - 3&#10;&#10;年龄也是，默认最大年龄不超过200岁" />
-    <MESSAGE value="银行模型 - 4&#10;&#10;让所有的改变都在对象中运行，把所有的set方法都改变为 private 修饰" />
-    <MESSAGE value="银行模型 - 5&#10;&#10;用户输入的姓名存储&#10;如果想要获取就必须输入管理员的密码" />
-    <MESSAGE value="银行模型 - 6&#10;&#10;书写菜单方法" />
-    <MESSAGE value="银行模型 - 7&#10;&#10;整理思绪" />
-    <MESSAGE value="银行模型 - 8&#10;&#10;从创建账户开始" />
-    <MESSAGE value="银行模型 - 9&#10;&#10;账户密码id判断" />
-    <MESSAGE value="银行模型 - 11&#10;&#10;完成简单的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="银行模型 - 11&#10;&#10;完成简单的代码" />
+    <MESSAGE value="单一实例（练习）-1&#10;&#10;要让用户不能直接 new 构造器就可以维持单一变量的首要条件" />
+    <MESSAGE value="单一实例（练习）-2&#10;&#10;其次需要在对象中 先new出来，再提供使用，这样子就可以实现单一实例" />
+    <MESSAGE value="单一实例（练习）-3&#10;&#10;接下来就要想办法让 Test 调用到，而外界调用内部要使用方法" />
+    <MESSAGE value="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片" />
+    <MESSAGE value="单一实例（练习）-4&#10;&#10;在调用之后就要考虑到，外界如果直接改动 instance 是不能让他们改动" />
+    <MESSAGE value="单一实例（练习）-5&#10;&#10;使用get 和 set 方法来调用 类返回 instance" />
+    <MESSAGE value="单一实例（练习）-6&#10;&#10;检验发现完成单一实例" />
+    <MESSAGE value="单一实例（练习）-7&#10;&#10;使用 behavior 来构建单一实例" />
+    <MESSAGE value="Arrays.toString 的使用" />
+    <MESSAGE value="StringJoiner  的功能" />
+    <MESSAGE value="StringBuilder  的功能" />
+    <MESSAGE value="Readmd 补充&#10;&#10;StringBuilder 和 StringJoiner 两个类的使用" />
+    <MESSAGE value="单一实例回顾" />
+    <MESSAGE value="Replace 方法 -- 更改字符串的内容" />
+    <MESSAGE value="Substring 方法 -- 截取字符串内容" />
+    <MESSAGE value="R 的练习题 无限循环的月读" />
+    <MESSAGE value="Readmd 补充&#10;&#10;关于文档的读写和static 的说明" />
+    <MESSAGE value="Readmd 补充&#10;&#10;图片加载" />
+    <MESSAGE value="Readmd 补充&#10;&#10;关于 StringBuilder 的分析" />
+    <MESSAGE value="关于斐波那契额数组的代码书写" />
+    <MESSAGE value="循环计算1到100" />
+    <MESSAGE value="递归计算1到100" />
+    <MESSAGE value="石头剪刀布练习" />
+    <MESSAGE value="OOP石头剪刀布" />
+    <MESSAGE value="修改冲突" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改冲突" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
