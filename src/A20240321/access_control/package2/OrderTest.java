@@ -1,6 +1,6 @@
 package A20240321.access_control.package2;
 
-import day240308.encapsulation.access_control.package1.Order;
+import A20240321.access_control.package1.Order;
 
 public class OrderTest {
     public static void main(String[] args) {
