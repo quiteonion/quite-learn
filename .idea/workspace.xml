@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="OOP石头剪刀布">
-      <change afterPath="$PROJECT_DIR$/src/A20240317/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240317/CardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240317/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240317/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="修改冲突" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,14 +202,6 @@
       <workItem from="1710564314571" duration="757000" />
       <workItem from="1710573409410" duration="1820000" />
       <workItem from="1710637143765" duration="6679000" />
-    </task>
-    <task id="LOCAL-00151" summary="20240308作业的完成（存有问题未解答）">
-      <option name="closed" value="true" />
-      <created>1709958193651</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1709958193651</updated>
     </task>
     <task id="LOCAL-00152" summary="更改名字为 Overload（重载）">
       <option name="closed" value="true" />
@@ -601,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710565044549</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="修改冲突">
+      <option name="closed" value="true" />
+      <created>1711018795074</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1711018795074</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,7 +615,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="单一实例（练习）-0" />
     <MESSAGE value="单一实例（练习）-1&#10;&#10;要让用户不能直接 new 构造器就可以维持单一变量的首要条件" />
     <MESSAGE value="单一实例（练习）-2&#10;&#10;其次需要在对象中 先new出来，再提供使用，这样子就可以实现单一实例" />
     <MESSAGE value="单一实例（练习）-3&#10;&#10;接下来就要想办法让 Test 调用到，而外界调用内部要使用方法" />
@@ -646,7 +639,8 @@
     <MESSAGE value="递归计算1到100" />
     <MESSAGE value="石头剪刀布练习" />
     <MESSAGE value="OOP石头剪刀布" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP石头剪刀布" />
+    <MESSAGE value="修改冲突" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改冲突" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
