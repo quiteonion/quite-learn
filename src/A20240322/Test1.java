@@ -22,6 +22,8 @@ public class Test1 {
         }
 
         System.out.println(Arrays.toString(AL.toArray()));
+        System.out.println(AL.toString());
+        System.out.println(AL);
 
     }
 }
