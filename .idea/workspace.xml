@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="“建房子”">
-      <change afterPath="$PROJECT_DIR$/src/A20240322/ArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240322/Elfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240322/Skill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="我要当宠物训练师！！！">
+      <change beforePath="$PROJECT_DIR$/src/A20240322/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240322/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,23 +187,7 @@
       <workItem from="1710573409410" duration="1820000" />
       <workItem from="1710637143765" duration="6679000" />
       <workItem from="1711083903337" duration="489000" />
-      <workItem from="1711092141173" duration="2205000" />
-    </task>
-    <task id="LOCAL-00159" summary="Readmd 补充">
-      <option name="closed" value="true" />
-      <created>1710034504807</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1710034504807</updated>
-    </task>
-    <task id="LOCAL-00160" summary="Readmd 补充">
-      <option name="closed" value="true" />
-      <created>1710036988714</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1710036988714</updated>
+      <workItem from="1711092141173" duration="2506000" />
     </task>
     <task id="LOCAL-00161" summary="Readmd 补充">
       <option name="closed" value="true" />
@@ -584,7 +565,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711027714545</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="什么是集合">
+      <option name="closed" value="true" />
+      <created>1711094678414</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1711094678414</updated>
+    </task>
+    <task id="LOCAL-00209" summary="我要当宠物训练师！！！">
+      <option name="closed" value="true" />
+      <created>1711094699153</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1711094699153</updated>
+    </task>
+    <option name="localTasksCounter" value="210" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,8 +601,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="单一实例（练习）-6&#10;&#10;检验发现完成单一实例" />
-    <MESSAGE value="单一实例（练习）-7&#10;&#10;使用 behavior 来构建单一实例" />
     <MESSAGE value="Arrays.toString 的使用" />
     <MESSAGE value="StringJoiner  的功能" />
     <MESSAGE value="StringBuilder  的功能" />
@@ -629,7 +624,9 @@
     <MESSAGE value="关于 protected" />
     <MESSAGE value="修改文件位置" />
     <MESSAGE value="“建房子”" />
-    <option name="LAST_COMMIT_MESSAGE" value="“建房子”" />
+    <MESSAGE value="什么是集合" />
+    <MESSAGE value="我要当宠物训练师！！！" />
+    <option name="LAST_COMMIT_MESSAGE" value="我要当宠物训练师！！！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
