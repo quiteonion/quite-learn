@@ -6,15 +6,7 @@ public class ModifierTest1 {
     char genger;
     public String class1;
 
-    public ModifierTest1() {
-    }
 
-    public ModifierTest1(String name, int age, char genger, String class1) {
-        this.name = name;
-        this.age = age;
-        this.genger = genger;
-        this.class1 = class1;
-    }
 
     private String eat(){
         return "eating...";
