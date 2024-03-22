@@ -85,12 +85,3 @@
 
 ### 解决问题
 
-使用 behavior 
-
-![img_1.png](Image/13213img_1.png)
-
-引入final 代表不能被改变
-
-# 方法的重写规则
-
-![img.png](img.png)
