@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="我要当宠物训练师！！！">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="什么是集合">
       <change beforePath="$PROJECT_DIR$/src/A20240322/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240322/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240322/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240322/Test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,15 +188,7 @@
       <workItem from="1710573409410" duration="1820000" />
       <workItem from="1710637143765" duration="6679000" />
       <workItem from="1711083903337" duration="489000" />
-      <workItem from="1711092141173" duration="2506000" />
-    </task>
-    <task id="LOCAL-00161" summary="Readmd 补充">
-      <option name="closed" value="true" />
-      <created>1710037090020</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1710037090020</updated>
+      <workItem from="1711092141173" duration="2952000" />
     </task>
     <task id="LOCAL-00162" summary="Readmd 补充">
       <option name="closed" value="true" />
@@ -581,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711094699153</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="什么是集合">
+      <option name="closed" value="true" />
+      <created>1711094845877</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1711094845877</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,9 +625,9 @@
     <MESSAGE value="关于 protected" />
     <MESSAGE value="修改文件位置" />
     <MESSAGE value="“建房子”" />
-    <MESSAGE value="什么是集合" />
     <MESSAGE value="我要当宠物训练师！！！" />
-    <option name="LAST_COMMIT_MESSAGE" value="我要当宠物训练师！！！" />
+    <MESSAGE value="什么是集合" />
+    <option name="LAST_COMMIT_MESSAGE" value="什么是集合" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
