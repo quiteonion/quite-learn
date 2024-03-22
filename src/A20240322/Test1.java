@@ -1,6 +1,7 @@
 package A20240322;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 
@@ -20,9 +21,7 @@ public class Test1 {
             }
         }
 
-        for (int i = 0; i < AL.size(); i++) {
-            System.out.println(AL.get(i));
-        }
+        System.out.println(Arrays.toString(AL.toArray()));
 
     }
 }
