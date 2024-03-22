@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="集合练习一 -- 简单运用&#10;&#10;集合本身输出就会直接打印这种格式" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="集合练习二 -- 基本数据类型对应的包装类">
+      <change afterPath="$PROJECT_DIR$/src/A20240322/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240322/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240322/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,23 +189,7 @@
       <workItem from="1710573409410" duration="1820000" />
       <workItem from="1710637143765" duration="6679000" />
       <workItem from="1711083903337" duration="489000" />
-      <workItem from="1711092141173" duration="3646000" />
-    </task>
-    <task id="LOCAL-00165" summary="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
-      <option name="closed" value="true" />
-      <created>1710039259709</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1710039259709</updated>
-    </task>
-    <task id="LOCAL-00166" summary="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
-      <option name="closed" value="true" />
-      <created>1710039404400</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1710039404400</updated>
+      <workItem from="1711092141173" duration="4730000" />
     </task>
     <task id="LOCAL-00167" summary="单一实例&#10;&#10;保护 instance 使用 private">
       <option name="closed" value="true" />
@@ -579,7 +567,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711095880399</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <task id="LOCAL-00214" summary="集合练习一 -- 简单运用&#10;&#10;集合本身输出就会直接打印这种格式">
+      <option name="closed" value="true" />
+      <created>1711095916309</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1711095916309</updated>
+    </task>
+    <task id="LOCAL-00215" summary="集合练习二 -- 基本数据类型对应的包装类">
+      <option name="closed" value="true" />
+      <created>1711096149864</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1711096149864</updated>
+    </task>
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +603,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Readmd 补充&#10;&#10;StringBuilder 和 StringJoiner 两个类的使用" />
     <MESSAGE value="单一实例回顾" />
     <MESSAGE value="Replace 方法 -- 更改字符串的内容" />
     <MESSAGE value="Substring 方法 -- 截取字符串内容" />
@@ -624,7 +627,8 @@
     <MESSAGE value="集合练习一 -- 简单运用" />
     <MESSAGE value="集合练习一 -- 简单运用&#10;&#10;要想要像图那样输出，可以选择先将集合转为数组，然后再用Aaaay.toString方法转为字符串输出" />
     <MESSAGE value="集合练习一 -- 简单运用&#10;&#10;集合本身输出就会直接打印这种格式" />
-    <option name="LAST_COMMIT_MESSAGE" value="集合练习一 -- 简单运用&#10;&#10;集合本身输出就会直接打印这种格式" />
+    <MESSAGE value="集合练习二 -- 基本数据类型对应的包装类" />
+    <option name="LAST_COMMIT_MESSAGE" value="集合练习二 -- 基本数据类型对应的包装类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
