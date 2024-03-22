@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="集合练习一 -- 简单运用">
-      <change beforePath="$PROJECT_DIR$/src/A20240322/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240322/Test1.java" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="集合练习一 -- 简单运用&#10;&#10;集合本身输出就会直接打印这种格式" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,23 +185,7 @@
       <workItem from="1710573409410" duration="1820000" />
       <workItem from="1710637143765" duration="6679000" />
       <workItem from="1711083903337" duration="489000" />
-      <workItem from="1711092141173" duration="3288000" />
-    </task>
-    <task id="LOCAL-00163" summary="单项错误区块&#10;&#10;在创建单一实例的时候，如果使用behavior就会导致错误，因为出栈入栈引发的地址值不同">
-      <option name="closed" value="true" />
-      <created>1710038789388</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1710038789388</updated>
-    </task>
-    <task id="LOCAL-00164" summary="Readmd 补充&#10;&#10;将代码位置补充进入Readmd">
-      <option name="closed" value="true" />
-      <created>1710038874696</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1710038874696</updated>
+      <workItem from="1711092141173" duration="3646000" />
     </task>
     <task id="LOCAL-00165" summary="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
       <option name="closed" value="true" />
@@ -581,7 +563,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711095254248</updated>
     </task>
-    <option name="localTasksCounter" value="212" />
+    <task id="LOCAL-00212" summary="集合练习一 -- 简单运用&#10;&#10;要想要像图那样输出，可以选择先将集合转为数组，然后再用Aaaay.toString方法转为字符串输出">
+      <option name="closed" value="true" />
+      <created>1711095730241</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1711095730241</updated>
+    </task>
+    <task id="LOCAL-00213" summary="集合练习一 -- 简单运用&#10;&#10;集合本身输出就会直接打印这种格式">
+      <option name="closed" value="true" />
+      <created>1711095880399</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1711095880399</updated>
+    </task>
+    <option name="localTasksCounter" value="214" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,8 +599,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="StringJoiner  的功能" />
-    <MESSAGE value="StringBuilder  的功能" />
     <MESSAGE value="Readmd 补充&#10;&#10;StringBuilder 和 StringJoiner 两个类的使用" />
     <MESSAGE value="单一实例回顾" />
     <MESSAGE value="Replace 方法 -- 更改字符串的内容" />
@@ -626,7 +622,9 @@
     <MESSAGE value="我要当宠物训练师！！！" />
     <MESSAGE value="什么是集合" />
     <MESSAGE value="集合练习一 -- 简单运用" />
-    <option name="LAST_COMMIT_MESSAGE" value="集合练习一 -- 简单运用" />
+    <MESSAGE value="集合练习一 -- 简单运用&#10;&#10;要想要像图那样输出，可以选择先将集合转为数组，然后再用Aaaay.toString方法转为字符串输出" />
+    <MESSAGE value="集合练习一 -- 简单运用&#10;&#10;集合本身输出就会直接打印这种格式" />
+    <option name="LAST_COMMIT_MESSAGE" value="集合练习一 -- 简单运用&#10;&#10;集合本身输出就会直接打印这种格式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

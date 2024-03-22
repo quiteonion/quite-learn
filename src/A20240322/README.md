@@ -19,3 +19,6 @@
 ![img_2.png](img_2.png)
 
 toArray() 方法是用于转化为数组
+
+![img_3.png](img_3.png)
+
