@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="继承&#10;&#10;重写是引用最近的方法">
-      <change afterPath="$PROJECT_DIR$/src/A20240321/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240321/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control/package1/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control/package1/OrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control/package2/OrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control_v2/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control_v2/package1/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control_v2/package1/OrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control_v2/package1/SubOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control_v2/package2/OrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control_v2/package2/SubOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240321/access_control_v2/package2/SubOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240321/img.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="“建房子”">
+      <change afterPath="$PROJECT_DIR$/src/A20240322/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240322/Elfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240322/Skill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,27 +39,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/idea/idea 存储/quite/src/A20240321",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/A20240321&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\A20240321" />
@@ -200,38 +189,8 @@
       <workItem from="1710564314571" duration="757000" />
       <workItem from="1710573409410" duration="1820000" />
       <workItem from="1710637143765" duration="6679000" />
-    </task>
-    <task id="LOCAL-00155" summary="手机号输入隐私输出">
-      <option name="closed" value="true" />
-      <created>1709961651340</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1709961651340</updated>
-    </task>
-    <task id="LOCAL-00156" summary="通过身份证输出生日和性别">
-      <option name="closed" value="true" />
-      <created>1709972714857</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1709972714858</updated>
-    </task>
-    <task id="LOCAL-00157" summary="Readmd 补充">
-      <option name="closed" value="true" />
-      <created>1709972729307</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1709972729307</updated>
-    </task>
-    <task id="LOCAL-00158" summary="Readmd 补充">
-      <option name="closed" value="true" />
-      <created>1710034390797</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1710034390798</updated>
+      <workItem from="1711083903337" duration="489000" />
+      <workItem from="1711092141173" duration="2205000" />
     </task>
     <task id="LOCAL-00159" summary="Readmd 补充">
       <option name="closed" value="true" />
@@ -593,7 +552,39 @@
       <option name="project" value="LOCAL" />
       <updated>1711020513383</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="关于 protected">
+      <option name="closed" value="true" />
+      <created>1711025060986</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1711025060986</updated>
+    </task>
+    <task id="LOCAL-00205" summary="修改文件位置">
+      <option name="closed" value="true" />
+      <created>1711026674420</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1711026674420</updated>
+    </task>
+    <task id="LOCAL-00206" summary="“建房子”">
+      <option name="closed" value="true" />
+      <created>1711026683836</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1711026683836</updated>
+    </task>
+    <task id="LOCAL-00207" summary="“建房子”">
+      <option name="closed" value="true" />
+      <created>1711027714545</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1711027714545</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,9 +604,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片" />
-    <MESSAGE value="单一实例（练习）-4&#10;&#10;在调用之后就要考虑到，外界如果直接改动 instance 是不能让他们改动" />
-    <MESSAGE value="单一实例（练习）-5&#10;&#10;使用get 和 set 方法来调用 类返回 instance" />
     <MESSAGE value="单一实例（练习）-6&#10;&#10;检验发现完成单一实例" />
     <MESSAGE value="单一实例（练习）-7&#10;&#10;使用 behavior 来构建单一实例" />
     <MESSAGE value="Arrays.toString 的使用" />
@@ -638,7 +626,10 @@
     <MESSAGE value="修改冲突" />
     <MESSAGE value="继承&#10;&#10;子类可以继承父类的方法" />
     <MESSAGE value="继承&#10;&#10;重写是引用最近的方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="继承&#10;&#10;重写是引用最近的方法" />
+    <MESSAGE value="关于 protected" />
+    <MESSAGE value="修改文件位置" />
+    <MESSAGE value="“建房子”" />
+    <option name="LAST_COMMIT_MESSAGE" value="“建房子”" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
