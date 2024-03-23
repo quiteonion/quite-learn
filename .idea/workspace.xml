@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="对象类型的强制转换 - 隐式转换">
-      <change afterPath="$PROJECT_DIR$/src/B20240323/Test2.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="关于重写 -- 返回值 为引用数据类型且不同时">
+      <change afterPath="$PROJECT_DIR$/src/B20240323/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240323/img_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240323/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240323/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240323/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240323/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240323/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240323/Test2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,55 +199,7 @@
       <workItem from="1711083903337" duration="489000" />
       <workItem from="1711092141173" duration="5545000" />
       <workItem from="1711103906587" duration="6423000" />
-      <workItem from="1711182603319" duration="2707000" />
-    </task>
-    <task id="LOCAL-00179" summary="单一实例（练习）-5&#10;&#10;使用get 和 set 方法来调用 类返回 instance">
-      <option name="closed" value="true" />
-      <created>1710061776846</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1710061776846</updated>
-    </task>
-    <task id="LOCAL-00180" summary="单一实例（练习）-6&#10;&#10;检验发现完成单一实例">
-      <option name="closed" value="true" />
-      <created>1710080175602</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1710080175602</updated>
-    </task>
-    <task id="LOCAL-00181" summary="单一实例（练习）-7&#10;&#10;使用 behavior 来构建单一实例">
-      <option name="closed" value="true" />
-      <created>1710080304397</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1710080304397</updated>
-    </task>
-    <task id="LOCAL-00182" summary="单一实例（练习）-7&#10;&#10;使用 behavior 来构建单一实例">
-      <option name="closed" value="true" />
-      <created>1710080341119</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1710080341119</updated>
-    </task>
-    <task id="LOCAL-00183" summary="Arrays.toString 的使用">
-      <option name="closed" value="true" />
-      <created>1710246820874</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1710246820874</updated>
-    </task>
-    <task id="LOCAL-00184" summary="StringJoiner  的功能">
-      <option name="closed" value="true" />
-      <created>1710246866748</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1710246866748</updated>
+      <workItem from="1711182603319" duration="5318000" />
     </task>
     <task id="LOCAL-00185" summary="StringBuilder  的功能">
       <option name="closed" value="true" />
@@ -589,7 +545,55 @@
       <option name="project" value="LOCAL" />
       <updated>1711188629379</updated>
     </task>
-    <option name="localTasksCounter" value="228" />
+    <task id="LOCAL-00228" summary="对象类型的强制转换 - 隐式转换">
+      <option name="closed" value="true" />
+      <created>1711189928634</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1711189928634</updated>
+    </task>
+    <task id="LOCAL-00229" summary="对象类型的强制转换 - 强制转换">
+      <option name="closed" value="true" />
+      <created>1711190163339</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1711190163339</updated>
+    </task>
+    <task id="LOCAL-00230" summary="对象类型的强制转换 - 强制转换">
+      <option name="closed" value="true" />
+      <created>1711190193019</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1711190193019</updated>
+    </task>
+    <task id="LOCAL-00231" summary="关于重写 -- 返回值 的有无">
+      <option name="closed" value="true" />
+      <created>1711190986025</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1711190986025</updated>
+    </task>
+    <task id="LOCAL-00232" summary="关于重写 -- 返回值 为基本数据类型且不同时">
+      <option name="closed" value="true" />
+      <created>1711191198671</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1711191198671</updated>
+    </task>
+    <task id="LOCAL-00233" summary="关于重写 -- 返回值 为引用数据类型且不同时">
+      <option name="closed" value="true" />
+      <created>1711191372123</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1711191372123</updated>
+    </task>
+    <option name="localTasksCounter" value="234" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,10 +613,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="石头剪刀布练习" />
-    <MESSAGE value="OOP石头剪刀布" />
-    <MESSAGE value="作业" />
-    <MESSAGE value="修改冲突" />
     <MESSAGE value="继承&#10;&#10;子类可以继承父类的方法" />
     <MESSAGE value="继承&#10;&#10;重写是引用最近的方法" />
     <MESSAGE value="关于 protected" />
@@ -634,7 +634,11 @@
     <MESSAGE value="重写规则代码实现" />
     <MESSAGE value="super" />
     <MESSAGE value="对象类型的强制转换 - 隐式转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="对象类型的强制转换 - 隐式转换" />
+    <MESSAGE value="对象类型的强制转换 - 强制转换" />
+    <MESSAGE value="关于重写 -- 返回值 的有无" />
+    <MESSAGE value="关于重写 -- 返回值 为基本数据类型且不同时" />
+    <MESSAGE value="关于重写 -- 返回值 为引用数据类型且不同时" />
+    <option name="LAST_COMMIT_MESSAGE" value="关于重写 -- 返回值 为引用数据类型且不同时" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

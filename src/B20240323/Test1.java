@@ -16,7 +16,7 @@ public class Test1 {
     public static void main(String[] args) {
         Parent p = new Child(); // 隐式类型转换（向上转型）
         Child p0 = new Child();
-        Parent pp = (Parent)p0;
+        Parent pp =p0;
         p.parentMethod(); // 输出 "Parent method"
 // p.childMethod(); // 这行会编译错误，因为p被视为Parent类型，没有childMethod方法
     }

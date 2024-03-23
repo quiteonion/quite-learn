@@ -17,11 +17,11 @@ public class Test2 {
         //Cat sss = (Cat) p;
         //Student ccc = (Student) a;
 
-        if (a instanceof Cat){
+       /* if (a instanceof Cat){
             System.out.println("true");
         }else if (c instanceof Animo){
             System.out.println("true -- 1");
-        } /*else if (c instanceof a) {
+        }*/ /*else if (c instanceof a) {
             System.out.println();
         }*/
 
