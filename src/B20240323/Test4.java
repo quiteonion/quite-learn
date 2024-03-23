@@ -3,7 +3,7 @@ package B20240323;
 public class Test4 {
     public static void main(String[] args) {
         qw qw = new qw();
-        qw.a();
+        //qw.a();
     }
 }
 class QWE{
