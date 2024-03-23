@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="重写规则代码实现&#10;&#10;对第一个eat 方法进行比较 , 发现&#10;当父类拥有 private 修饰符 ， 且有返回值时 ，子类使用 public 修饰符没有报错">
-      <change afterPath="$PROJECT_DIR$/src/A20240322/img_7.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="super">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240308/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240308/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240322/ModifierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240322/ModifierTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240322/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240322/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -192,31 +193,7 @@
       <workItem from="1710637143765" duration="6679000" />
       <workItem from="1711083903337" duration="489000" />
       <workItem from="1711092141173" duration="5545000" />
-      <workItem from="1711103906587" duration="4499000" />
-    </task>
-    <task id="LOCAL-00175" summary="单一实例（练习）-2&#10;&#10;其次需要在对象中 先new出来，再提供使用，这样子就可以实现单一实例">
-      <option name="closed" value="true" />
-      <created>1710052378797</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1710052378797</updated>
-    </task>
-    <task id="LOCAL-00176" summary="单一实例（练习）-3&#10;&#10;接下来就要想办法让 Test 调用到，而外界调用内部要使用方法">
-      <option name="closed" value="true" />
-      <created>1710052497683</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1710052497683</updated>
-    </task>
-    <task id="LOCAL-00177" summary="Readmd 补充&#10;&#10;创建一个 Image 文件夹存储图片">
-      <option name="closed" value="true" />
-      <created>1710056801532</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1710056801532</updated>
+      <workItem from="1711103906587" duration="6423000" />
     </task>
     <task id="LOCAL-00178" summary="单一实例（练习）-4&#10;&#10;在调用之后就要考虑到，外界如果直接改动 instance 是不能让他们改动">
       <option name="closed" value="true" />
@@ -586,7 +563,31 @@
       <option name="project" value="LOCAL" />
       <updated>1711108829479</updated>
     </task>
-    <option name="localTasksCounter" value="224" />
+    <task id="LOCAL-00224" summary="重写规则代码实现">
+      <option name="closed" value="true" />
+      <created>1711109707133</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1711109707133</updated>
+    </task>
+    <task id="LOCAL-00225" summary="重写规则代码实现">
+      <option name="closed" value="true" />
+      <created>1711110166618</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1711110166618</updated>
+    </task>
+    <task id="LOCAL-00226" summary="super">
+      <option name="closed" value="true" />
+      <created>1711114041959</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1711114041959</updated>
+    </task>
+    <option name="localTasksCounter" value="227" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,8 +607,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="关于斐波那契额数组的代码书写" />
-    <MESSAGE value="循环计算1到100" />
     <MESSAGE value="递归计算1到100" />
     <MESSAGE value="石头剪刀布练习" />
     <MESSAGE value="OOP石头剪刀布" />
@@ -631,7 +630,9 @@
     <MESSAGE value="重写规则代码实现&#10;&#10;这是一个子类，作用就是在子类中去重写父类的方法，来查看是否能够生效" />
     <MESSAGE value="重写规则代码实现&#10;&#10;创建了一个用来调用来个方法的对象" />
     <MESSAGE value="重写规则代码实现&#10;&#10;对第一个eat 方法进行比较 , 发现&#10;当父类拥有 private 修饰符 ， 且有返回值时 ，子类使用 public 修饰符没有报错" />
-    <option name="LAST_COMMIT_MESSAGE" value="重写规则代码实现&#10;&#10;对第一个eat 方法进行比较 , 发现&#10;当父类拥有 private 修饰符 ， 且有返回值时 ，子类使用 public 修饰符没有报错" />
+    <MESSAGE value="重写规则代码实现" />
+    <MESSAGE value="super" />
+    <option name="LAST_COMMIT_MESSAGE" value="super" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
