@@ -8,6 +8,6 @@ public class Person {
     }
 
     public void lonely(String lonelyu){
-        System.out.println();
+
     }
 }
