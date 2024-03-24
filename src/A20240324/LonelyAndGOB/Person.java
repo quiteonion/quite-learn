@@ -7,7 +7,7 @@ public class Person {
         this.name = name;
     }
 
-    public void lonely(String lonelyu){
+    public abstract void lonely(String lonelyu){
 
     }
 }
