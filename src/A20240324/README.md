@@ -34,7 +34,7 @@
 
 [README.md](..%2FB20240323%2FREADME.md)
 
-# 抽象类
+# abstract 抽象类
 
 ![img_4.png](img_4.png)
 
