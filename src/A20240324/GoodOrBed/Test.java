@@ -9,6 +9,13 @@ public class Test {
         System.out.println("您能评价一下我的哥哥吗？你觉得他是好还是不好啊？");
         String h = sc.next();
         l.setGB(h);
-        l.PJ(l);
+        while (true){
+            System.out.println("你最好再说一遍！");
+            String d = sc.next();
+            if (d.equals("好")){
+                l.PJ(l);
+                break;
+            }
+        }
     }
 }
