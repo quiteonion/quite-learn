@@ -5,5 +5,6 @@ public class Test {
         Student s = new Student("小明");
         s.lonely("苦酒折柳今相离，无风无月也无你");
 
+        s.PingJia("我觉得不行");
     }
 }
