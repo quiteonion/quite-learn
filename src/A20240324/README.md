@@ -18,4 +18,12 @@
 
 # 多态
 
+## 多态的前提
+
+![img_1.png](img_1.png)
+
+
+
 [README.md](..%2FB20240323%2FREADME.md)
+
+
