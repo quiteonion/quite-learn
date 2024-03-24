@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="讽刺评价 -- ji">
-      <change afterPath="$PROJECT_DIR$/src/A20240324/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240324/img_5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240324/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/README.md" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="e2 --- 说不出口的话 - 3&#10;&#10;于是便是说不出口的话">
+      <change beforePath="$PROJECT_DIR$/src/A20240324/LonelyAndGOB/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/LonelyAndGOB/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,95 +196,7 @@
       <workItem from="1711103906587" duration="6423000" />
       <workItem from="1711182603319" duration="6475000" />
       <workItem from="1711210047814" duration="525000" />
-      <workItem from="1711240561529" duration="14881000" />
-    </task>
-    <task id="LOCAL-00207" summary="“建房子”">
-      <option name="closed" value="true" />
-      <created>1711027714545</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
-      <option name="project" value="LOCAL" />
-      <updated>1711027714545</updated>
-    </task>
-    <task id="LOCAL-00208" summary="什么是集合">
-      <option name="closed" value="true" />
-      <created>1711094678414</created>
-      <option name="number" value="00208" />
-      <option name="presentableId" value="LOCAL-00208" />
-      <option name="project" value="LOCAL" />
-      <updated>1711094678414</updated>
-    </task>
-    <task id="LOCAL-00209" summary="我要当宠物训练师！！！">
-      <option name="closed" value="true" />
-      <created>1711094699153</created>
-      <option name="number" value="00209" />
-      <option name="presentableId" value="LOCAL-00209" />
-      <option name="project" value="LOCAL" />
-      <updated>1711094699153</updated>
-    </task>
-    <task id="LOCAL-00210" summary="什么是集合">
-      <option name="closed" value="true" />
-      <created>1711094845877</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1711094845877</updated>
-    </task>
-    <task id="LOCAL-00211" summary="集合练习一 -- 简单运用">
-      <option name="closed" value="true" />
-      <created>1711095254248</created>
-      <option name="number" value="00211" />
-      <option name="presentableId" value="LOCAL-00211" />
-      <option name="project" value="LOCAL" />
-      <updated>1711095254248</updated>
-    </task>
-    <task id="LOCAL-00212" summary="集合练习一 -- 简单运用&#10;&#10;要想要像图那样输出，可以选择先将集合转为数组，然后再用Aaaay.toString方法转为字符串输出">
-      <option name="closed" value="true" />
-      <created>1711095730241</created>
-      <option name="number" value="00212" />
-      <option name="presentableId" value="LOCAL-00212" />
-      <option name="project" value="LOCAL" />
-      <updated>1711095730241</updated>
-    </task>
-    <task id="LOCAL-00213" summary="集合练习一 -- 简单运用&#10;&#10;集合本身输出就会直接打印这种格式">
-      <option name="closed" value="true" />
-      <created>1711095880399</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1711095880399</updated>
-    </task>
-    <task id="LOCAL-00214" summary="集合练习一 -- 简单运用&#10;&#10;集合本身输出就会直接打印这种格式">
-      <option name="closed" value="true" />
-      <created>1711095916309</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1711095916309</updated>
-    </task>
-    <task id="LOCAL-00215" summary="集合练习二 -- 基本数据类型对应的包装类">
-      <option name="closed" value="true" />
-      <created>1711096149864</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1711096149864</updated>
-    </task>
-    <task id="LOCAL-00216" summary="集合练习二 -- 基本数据类型对应的包装类">
-      <option name="closed" value="true" />
-      <created>1711097204883</created>
-      <option name="number" value="00216" />
-      <option name="presentableId" value="LOCAL-00216" />
-      <option name="project" value="LOCAL" />
-      <updated>1711097204883</updated>
-    </task>
-    <task id="LOCAL-00217" summary="方法签名">
-      <option name="closed" value="true" />
-      <created>1711106934651</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1711106934651</updated>
+      <workItem from="1711240561529" duration="15816000" />
     </task>
     <task id="LOCAL-00218" summary="前情提要">
       <option name="closed" value="true" />
@@ -593,7 +502,95 @@
       <option name="project" value="LOCAL" />
       <updated>1711264612663</updated>
     </task>
-    <option name="localTasksCounter" value="256" />
+    <task id="LOCAL-00256" summary="README补充">
+      <option name="closed" value="true" />
+      <created>1711266848167</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1711266848169</updated>
+    </task>
+    <task id="LOCAL-00257" summary="e1 -- 书写孤独">
+      <option name="closed" value="true" />
+      <created>1711267133891</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1711267133891</updated>
+    </task>
+    <task id="LOCAL-00258" summary="e1 -- 书写孤独 -1 &#10;&#10;每个人都快可以说出什么是孤独">
+      <option name="closed" value="true" />
+      <created>1711267194542</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1711267194542</updated>
+    </task>
+    <task id="LOCAL-00259" summary="e1 -- 书写孤独 -2&#10;&#10;每个人都可以去书写">
+      <option name="closed" value="true" />
+      <created>1711267343565</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1711267343565</updated>
+    </task>
+    <task id="LOCAL-00260" summary="e1 -- 书写孤独 -3&#10;&#10;这倒显得父类被重写的事物有点多余了">
+      <option name="closed" value="true" />
+      <created>1711267355163</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1711267355163</updated>
+    </task>
+    <task id="LOCAL-00261" summary="e1 -- 书写孤独 -4&#10;&#10;无论如何父类都会被书写，所以引入抽象概念，令他抽象存在">
+      <option name="closed" value="true" />
+      <created>1711267398536</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1711267398536</updated>
+    </task>
+    <task id="LOCAL-00262" summary="e1 -- 书写孤独 -5&#10;&#10;但是抽象方法只能出现在抽象的类中，所以要把类改为抽象类">
+      <option name="closed" value="true" />
+      <created>1711267474091</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1711267474091</updated>
+    </task>
+    <task id="LOCAL-00263" summary="e2 --- 说不出口的话 &#10;&#10;对于一个人，每个人都有对其进行客观评价的权力">
+      <option name="closed" value="true" />
+      <created>1711267590085</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1711267590085</updated>
+    </task>
+    <task id="LOCAL-00264" summary="e2 --- 说不出口的话 - 1&#10;&#10;但是在某些人的身上，却会被限制">
+      <option name="closed" value="true" />
+      <created>1711267642272</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1711267642272</updated>
+    </task>
+    <task id="LOCAL-00265" summary="e2 --- 说不出口的话 - 2&#10;&#10;他们不允许别人作出不同的评价，于是就不给人们评价的能力">
+      <option name="closed" value="true" />
+      <created>1711267686183</created>
+      <option name="number" value="00265" />
+      <option name="presentableId" value="LOCAL-00265" />
+      <option name="project" value="LOCAL" />
+      <updated>1711267686183</updated>
+    </task>
+    <task id="LOCAL-00266" summary="e2 --- 说不出口的话 - 3&#10;&#10;于是便是说不出口的话">
+      <option name="closed" value="true" />
+      <created>1711267719502</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1711267719502</updated>
+    </task>
+    <option name="localTasksCounter" value="267" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,17 +610,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="重写规则代码实现" />
-    <MESSAGE value="super" />
-    <MESSAGE value="对象类型的强制转换 - 隐式转换" />
-    <MESSAGE value="对象类型的强制转换 - 强制转换" />
-    <MESSAGE value="关于重写 -- 返回值 的有无" />
-    <MESSAGE value="关于重写 -- 返回值 为基本数据类型且不同时" />
-    <MESSAGE value="关于重写 -- 返回值 为引用数据类型且不同时" />
-    <MESSAGE value="权限修饰符" />
-    <MESSAGE value="养殖动物" />
-    <MESSAGE value="Java线上课堂作业" />
-    <MESSAGE value="小~猫~" />
     <MESSAGE value="小~猫~ -- 使用继承的好处&#10;&#10;可以保留小猫原有的特性，如果要调用小猫内部方法仍旧可以使用" />
     <MESSAGE value="小猫 - 使用继承与隐式转换&#10;&#10;改变了代码，但是不改变person&#10;让一个总类可以调用他子类的名字" />
     <MESSAGE value=" 小猫 - 使用继承与隐式转换&#10;  &#10;  让一个总类可以调用他子类的名字" />
@@ -638,7 +624,18 @@
     <MESSAGE value="讽刺评价" />
     <MESSAGE value="什么是孤独" />
     <MESSAGE value="讽刺评价 -- ji" />
-    <option name="LAST_COMMIT_MESSAGE" value="讽刺评价 -- ji" />
+    <MESSAGE value="README补充" />
+    <MESSAGE value="e1 -- 书写孤独" />
+    <MESSAGE value="e1 -- 书写孤独 -1 &#10;&#10;每个人都快可以说出什么是孤独" />
+    <MESSAGE value="e1 -- 书写孤独 -2&#10;&#10;每个人都可以去书写" />
+    <MESSAGE value="e1 -- 书写孤独 -3&#10;&#10;这倒显得父类被重写的事物有点多余了" />
+    <MESSAGE value="e1 -- 书写孤独 -4&#10;&#10;无论如何父类都会被书写，所以引入抽象概念，令他抽象存在" />
+    <MESSAGE value="e1 -- 书写孤独 -5&#10;&#10;但是抽象方法只能出现在抽象的类中，所以要把类改为抽象类" />
+    <MESSAGE value="e2 --- 说不出口的话 &#10;&#10;对于一个人，每个人都有对其进行客观评价的权力" />
+    <MESSAGE value="e2 --- 说不出口的话 - 1&#10;&#10;但是在某些人的身上，却会被限制" />
+    <MESSAGE value="e2 --- 说不出口的话 - 2&#10;&#10;他们不允许别人作出不同的评价，于是就不给人们评价的能力" />
+    <MESSAGE value="e2 --- 说不出口的话 - 3&#10;&#10;于是便是说不出口的话" />
+    <option name="LAST_COMMIT_MESSAGE" value="e2 --- 说不出口的话 - 3&#10;&#10;于是便是说不出口的话" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
