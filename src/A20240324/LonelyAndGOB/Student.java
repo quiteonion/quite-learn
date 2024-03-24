@@ -8,8 +8,8 @@ public class Student extends Person{
         System.out.println(this.name+"觉得孤独是"+lonelyu);
     }
 
-    @Override
+   /* @Override
     public void PingJia(String Test) {
         super.PingJia(Test);
-    }
+    }*/
 }
