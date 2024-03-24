@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="多态 -- 多态的前提" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="讽刺评价 -- ji">
+      <change afterPath="$PROJECT_DIR$/src/A20240324/Lonely/Chen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240324/Lonely/Huang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240324/Lonely/LI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240324/Lonely/Lin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240324/Lonely/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240324/Lonely/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240324/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,47 +203,7 @@
       <workItem from="1711103906587" duration="6423000" />
       <workItem from="1711182603319" duration="6475000" />
       <workItem from="1711210047814" duration="525000" />
-      <workItem from="1711240561529" duration="9371000" />
-    </task>
-    <task id="LOCAL-00200" summary="修改冲突">
-      <option name="closed" value="true" />
-      <created>1711018795074</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1711018795074</updated>
-    </task>
-    <task id="LOCAL-00201" summary="修改冲突">
-      <option name="closed" value="true" />
-      <created>1711019803247</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1711019803247</updated>
-    </task>
-    <task id="LOCAL-00202" summary="继承&#10;&#10;子类可以继承父类的方法">
-      <option name="closed" value="true" />
-      <created>1711020460494</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1711020460494</updated>
-    </task>
-    <task id="LOCAL-00203" summary="继承&#10;&#10;重写是引用最近的方法">
-      <option name="closed" value="true" />
-      <created>1711020513383</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1711020513383</updated>
-    </task>
-    <task id="LOCAL-00204" summary="关于 protected">
-      <option name="closed" value="true" />
-      <created>1711025060986</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
-      <option name="project" value="LOCAL" />
-      <updated>1711025060986</updated>
+      <workItem from="1711240561529" duration="12640000" />
     </task>
     <task id="LOCAL-00205" summary="修改文件位置">
       <option name="closed" value="true" />
@@ -588,7 +557,47 @@
       <option name="project" value="LOCAL" />
       <updated>1711260938967</updated>
     </task>
-    <option name="localTasksCounter" value="249" />
+    <task id="LOCAL-00249" summary="instanceof &#10;&#10;判断这个对象是否属于这个类">
+      <option name="closed" value="true" />
+      <created>1711261099441</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1711261099441</updated>
+    </task>
+    <task id="LOCAL-00250" summary="多态 -- 多态的适用性">
+      <option name="closed" value="true" />
+      <created>1711261304246</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1711261304246</updated>
+    </task>
+    <task id="LOCAL-00251" summary="多态 -- 多态的利弊">
+      <option name="closed" value="true" />
+      <created>1711261316725</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1711261316725</updated>
+    </task>
+    <task id="LOCAL-00252" summary="讽刺评价">
+      <option name="closed" value="true" />
+      <created>1711263313046</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1711263313046</updated>
+    </task>
+    <task id="LOCAL-00253" summary="讽刺评价 -- ji">
+      <option name="closed" value="true" />
+      <created>1711263336625</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1711263336625</updated>
+    </task>
+    <option name="localTasksCounter" value="254" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,11 +617,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="前情提要" />
-    <MESSAGE value="方法签名&#10;&#10;更多的方法签名" />
-    <MESSAGE value="重写规则代码实现&#10;&#10;在这里创建了一个父类，里面拥有不同的修饰符，和是否有返回值，以便于我们在子类中对他进行观察重写情况。" />
-    <MESSAGE value="重写规则代码实现&#10;&#10;这是一个子类，作用就是在子类中去重写父类的方法，来查看是否能够生效" />
-    <MESSAGE value="重写规则代码实现&#10;&#10;创建了一个用来调用来个方法的对象" />
     <MESSAGE value="重写规则代码实现&#10;&#10;对第一个eat 方法进行比较 , 发现&#10;当父类拥有 private 修饰符 ， 且有返回值时 ，子类使用 public 修饰符没有报错" />
     <MESSAGE value="重写规则代码实现" />
     <MESSAGE value="super" />
@@ -633,7 +637,12 @@
     <MESSAGE value="注解 - 小猫就是OOAD练习" />
     <MESSAGE value="多态 -- 类型转换产生多态" />
     <MESSAGE value="多态 -- 多态的前提" />
-    <option name="LAST_COMMIT_MESSAGE" value="多态 -- 多态的前提" />
+    <MESSAGE value="instanceof &#10;&#10;判断这个对象是否属于这个类" />
+    <MESSAGE value="多态 -- 多态的适用性" />
+    <MESSAGE value="多态 -- 多态的利弊" />
+    <MESSAGE value="讽刺评价" />
+    <MESSAGE value="讽刺评价 -- ji" />
+    <option name="LAST_COMMIT_MESSAGE" value="讽刺评价 -- ji" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
