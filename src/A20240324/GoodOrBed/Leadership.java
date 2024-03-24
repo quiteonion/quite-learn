@@ -31,6 +31,8 @@ public class Leadership {
     public void PJ(Leadership leadership) {
         if (leadership.getGB().equals("好")) {
             System.out.println("谢谢你支持我家哥哥！ji");
+        }else {
+            System.out.println("不可能不好的");
         }
     }
 
