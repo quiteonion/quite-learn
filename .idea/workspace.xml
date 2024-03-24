@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="改变了代码，但是不改变person">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240324/Teacher/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/Teacher/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240324/Teacher/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/Teacher/Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="小猫 - 构造器与更改名字的方法&#10;&#10;构造器中已经更改了名字 ， 再使用这个方法会显得多余" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,31 +194,7 @@
       <workItem from="1711103906587" duration="6423000" />
       <workItem from="1711182603319" duration="6475000" />
       <workItem from="1711210047814" duration="525000" />
-      <workItem from="1711240561529" duration="4866000" />
-    </task>
-    <task id="LOCAL-00194" summary="关于斐波那契额数组的代码书写">
-      <option name="closed" value="true" />
-      <created>1710487628980</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1710487628980</updated>
-    </task>
-    <task id="LOCAL-00195" summary="循环计算1到100">
-      <option name="closed" value="true" />
-      <created>1710503259310</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1710503259310</updated>
-    </task>
-    <task id="LOCAL-00196" summary="递归计算1到100">
-      <option name="closed" value="true" />
-      <created>1710503269141</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
-      <option name="project" value="LOCAL" />
-      <updated>1710503269141</updated>
+      <workItem from="1711240561529" duration="5253000" />
     </task>
     <task id="LOCAL-00197" summary="递归计算1到100">
       <option name="closed" value="true" />
@@ -592,7 +564,31 @@
       <option name="project" value="LOCAL" />
       <updated>1711247107013</updated>
     </task>
-    <option name="localTasksCounter" value="243" />
+    <task id="LOCAL-00243" summary=" 小猫 - 使用继承与隐式转换&#10;  &#10;  让一个总类可以调用他子类的名字">
+      <option name="closed" value="true" />
+      <created>1711247554445</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1711247554446</updated>
+    </task>
+    <task id="LOCAL-00244" summary=" 小猫 - 错别字的重写">
+      <option name="closed" value="true" />
+      <created>1711247602048</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1711247602048</updated>
+    </task>
+    <task id="LOCAL-00245" summary="小猫 - 构造器与更改名字的方法&#10;&#10;构造器中已经更改了名字 ， 再使用这个方法会显得多余">
+      <option name="closed" value="true" />
+      <created>1711247863249</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1711247863249</updated>
+    </task>
+    <option name="localTasksCounter" value="246" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,9 +608,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="什么是集合" />
-    <MESSAGE value="集合练习一 -- 简单运用" />
-    <MESSAGE value="集合练习一 -- 简单运用&#10;&#10;要想要像图那样输出，可以选择先将集合转为数组，然后再用Aaaay.toString方法转为字符串输出" />
     <MESSAGE value="集合练习一 -- 简单运用&#10;&#10;集合本身输出就会直接打印这种格式" />
     <MESSAGE value="集合练习二 -- 基本数据类型对应的包装类" />
     <MESSAGE value="方法签名" />
@@ -635,9 +628,12 @@
     <MESSAGE value="养殖动物" />
     <MESSAGE value="Java线上课堂作业" />
     <MESSAGE value="小~猫~" />
-    <MESSAGE value="小~猫~ -- 可以保留小猫原有的特性" />
-    <MESSAGE value="改变了代码，但是不改变person" />
-    <option name="LAST_COMMIT_MESSAGE" value="改变了代码，但是不改变person" />
+    <MESSAGE value="小~猫~ -- 使用继承的好处&#10;&#10;可以保留小猫原有的特性，如果要调用小猫内部方法仍旧可以使用" />
+    <MESSAGE value="小猫 - 使用继承与隐式转换&#10;&#10;改变了代码，但是不改变person&#10;让一个总类可以调用他子类的名字" />
+    <MESSAGE value=" 小猫 - 使用继承与隐式转换&#10;  &#10;  让一个总类可以调用他子类的名字" />
+    <MESSAGE value=" 小猫 - 错别字的重写" />
+    <MESSAGE value="小猫 - 构造器与更改名字的方法&#10;&#10;构造器中已经更改了名字 ， 再使用这个方法会显得多余" />
+    <option name="LAST_COMMIT_MESSAGE" value="小猫 - 构造器与更改名字的方法&#10;&#10;构造器中已经更改了名字 ， 再使用这个方法会显得多余" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
