@@ -4,7 +4,7 @@ public class Test2 {
     public static void main(String[] args) {
         Student s = new Student();
         Cat c = new Cat();
-        Person p = new Person();
+        Person1 p = new Person1();
         Animo a = new Animo();
 
 //        Student ss = (Student) p;
@@ -34,7 +34,7 @@ class Person {
     }
 }
 
-class Student extends Person {
+class Student extends Person1 {
     public void b (){
         System.out.println("222");
     }
