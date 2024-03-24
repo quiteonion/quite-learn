@@ -10,6 +10,6 @@ public abstract class Person {
     public abstract void lonely(String lonelyu);
 
     public void PingJia(String Test){
-
+        System.out.println("强强强！！！");
     }
 }
