@@ -22,8 +22,9 @@
 
 ![img_1.png](img_1.png)
 
+## 多态的适用性
 
+![img_2.png](img_2.png)
 
-[README.md](..%2FB20240323%2FREADME.md)
 
 
