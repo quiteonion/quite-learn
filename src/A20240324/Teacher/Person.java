@@ -6,7 +6,7 @@ public class Person {
         this.name = name;
     }
 
-    public void aodpored(Animal animal){
+    public void feeding(Animal animal){
         System.out.println(this.name +"养了"+animal.name);
     }
 }

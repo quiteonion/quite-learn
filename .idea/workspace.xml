@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Java线上课堂作业">
-      <change afterPath="$PROJECT_DIR$/src/A20240324/Teacher/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240324/Teacher/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240324/Teacher/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240324/Teacher/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240324/Teacher/Pig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240324/Teacher/Test.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="改变了代码，但是不改变person">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240324/Teacher/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/Teacher/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240324/Teacher/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/Teacher/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,39 +198,7 @@
       <workItem from="1711103906587" duration="6423000" />
       <workItem from="1711182603319" duration="6475000" />
       <workItem from="1711210047814" duration="525000" />
-      <workItem from="1711240561529" duration="3786000" />
-    </task>
-    <task id="LOCAL-00190" summary="R 的练习题 无限循环的月读">
-      <option name="closed" value="true" />
-      <created>1710334351874</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1710334351874</updated>
-    </task>
-    <task id="LOCAL-00191" summary="Readmd 补充&#10;&#10;关于文档的读写和static 的说明">
-      <option name="closed" value="true" />
-      <created>1710336825233</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1710336825233</updated>
-    </task>
-    <task id="LOCAL-00192" summary="Readmd 补充&#10;&#10;图片加载">
-      <option name="closed" value="true" />
-      <created>1710484824518</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1710484824518</updated>
-    </task>
-    <task id="LOCAL-00193" summary="Readmd 补充&#10;&#10;关于 StringBuilder 的分析">
-      <option name="closed" value="true" />
-      <created>1710487333947</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1710487333947</updated>
+      <workItem from="1711240561529" duration="4866000" />
     </task>
     <task id="LOCAL-00194" summary="关于斐波那契额数组的代码书写">
       <option name="closed" value="true" />
@@ -596,7 +560,39 @@
       <option name="project" value="LOCAL" />
       <updated>1711244612421</updated>
     </task>
-    <option name="localTasksCounter" value="239" />
+    <task id="LOCAL-00239" summary="小~猫~">
+      <option name="closed" value="true" />
+      <created>1711246490825</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1711246490825</updated>
+    </task>
+    <task id="LOCAL-00240" summary="小~猫~">
+      <option name="closed" value="true" />
+      <created>1711246496923</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1711246496923</updated>
+    </task>
+    <task id="LOCAL-00241" summary="小~猫~ -- 可以保留小猫原有的特性">
+      <option name="closed" value="true" />
+      <created>1711246654331</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1711246654331</updated>
+    </task>
+    <task id="LOCAL-00242" summary="改变了代码，但是不改变person">
+      <option name="closed" value="true" />
+      <created>1711247107013</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1711247107013</updated>
+    </task>
+    <option name="localTasksCounter" value="243" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,19 +603,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="text">
-                    <value>
-                      <list>
-                        <option value="OOP" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -628,9 +612,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="修改文件位置" />
-    <MESSAGE value="“建房子”" />
-    <MESSAGE value="我要当宠物训练师！！！" />
     <MESSAGE value="什么是集合" />
     <MESSAGE value="集合练习一 -- 简单运用" />
     <MESSAGE value="集合练习一 -- 简单运用&#10;&#10;要想要像图那样输出，可以选择先将集合转为数组，然后再用Aaaay.toString方法转为字符串输出" />
@@ -653,7 +634,10 @@
     <MESSAGE value="权限修饰符" />
     <MESSAGE value="养殖动物" />
     <MESSAGE value="Java线上课堂作业" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java线上课堂作业" />
+    <MESSAGE value="小~猫~" />
+    <MESSAGE value="小~猫~ -- 可以保留小猫原有的特性" />
+    <MESSAGE value="改变了代码，但是不改变person" />
+    <option name="LAST_COMMIT_MESSAGE" value="改变了代码，但是不改变person" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
