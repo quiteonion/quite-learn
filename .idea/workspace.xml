@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="多态 -- 类型转换产生多态" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="多态 -- 多态的前提" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,15 +194,7 @@
       <workItem from="1711103906587" duration="6423000" />
       <workItem from="1711182603319" duration="6475000" />
       <workItem from="1711210047814" duration="525000" />
-      <workItem from="1711240561529" duration="8599000" />
-    </task>
-    <task id="LOCAL-00199" summary="OOP石头剪刀布">
-      <option name="closed" value="true" />
-      <created>1710565044549</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1710565044549</updated>
+      <workItem from="1711240561529" duration="9371000" />
     </task>
     <task id="LOCAL-00200" summary="修改冲突">
       <option name="closed" value="true" />
@@ -588,7 +580,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711252928357</updated>
     </task>
-    <option name="localTasksCounter" value="248" />
+    <task id="LOCAL-00248" summary="多态 -- 多态的前提">
+      <option name="closed" value="true" />
+      <created>1711260938967</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1711260938967</updated>
+    </task>
+    <option name="localTasksCounter" value="249" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,7 +608,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="方法签名" />
     <MESSAGE value="前情提要" />
     <MESSAGE value="方法签名&#10;&#10;更多的方法签名" />
     <MESSAGE value="重写规则代码实现&#10;&#10;在这里创建了一个父类，里面拥有不同的修饰符，和是否有返回值，以便于我们在子类中对他进行观察重写情况。" />
@@ -633,7 +632,8 @@
     <MESSAGE value="小猫 - 构造器与更改名字的方法&#10;&#10;构造器中已经更改了名字 ， 再使用这个方法会显得多余" />
     <MESSAGE value="注解 - 小猫就是OOAD练习" />
     <MESSAGE value="多态 -- 类型转换产生多态" />
-    <option name="LAST_COMMIT_MESSAGE" value="多态 -- 类型转换产生多态" />
+    <MESSAGE value="多态 -- 多态的前提" />
+    <option name="LAST_COMMIT_MESSAGE" value="多态 -- 多态的前提" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
