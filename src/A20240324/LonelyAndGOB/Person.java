@@ -1,13 +1,11 @@
 package A20240324.LonelyAndGOB;
 
-public class Person {
+public abstract class Person {
     String name;
 
     public Person(String name) {
         this.name = name;
     }
 
-    public abstract void lonely(String lonelyu){
-
-    }
+    public abstract void lonely(String lonelyu);
 }
