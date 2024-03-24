@@ -5,5 +5,6 @@ public class Test {
         Person p = new Person("Coke");
         Cat c = new Cat("小猫");
         p.aodpored(c);
+        c.play();
     }
 }
