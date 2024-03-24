@@ -7,5 +7,7 @@ public class Person {
         this.name = name;
     }
 
-
+    public void lonely(String lonelyu){
+        System.out.println();
+    }
 }
