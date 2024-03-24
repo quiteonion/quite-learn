@@ -34,4 +34,14 @@
 
 [README.md](..%2FB20240323%2FREADME.md)
 
-# 描绘“孤独”
+# 抽象类
+
+![img_4.png](img_4.png)
+
+abstract 抽象类抽象方法
+
+# final
+
+![img_5.png](img_5.png)
+
+

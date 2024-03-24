@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="讽刺评价 -- ji">
-      <change afterPath="$PROJECT_DIR$/src/A20240324/Lonely/Chen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240324/Lonely/Huang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240324/Lonely/LI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240324/Lonely/Lin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240324/Lonely/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240324/Lonely/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240324/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240324/img_5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A20240324/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/README.md" afterDir="false" />
     </list>
@@ -203,23 +199,7 @@
       <workItem from="1711103906587" duration="6423000" />
       <workItem from="1711182603319" duration="6475000" />
       <workItem from="1711210047814" duration="525000" />
-      <workItem from="1711240561529" duration="12640000" />
-    </task>
-    <task id="LOCAL-00205" summary="修改文件位置">
-      <option name="closed" value="true" />
-      <created>1711026674420</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1711026674420</updated>
-    </task>
-    <task id="LOCAL-00206" summary="“建房子”">
-      <option name="closed" value="true" />
-      <created>1711026683836</created>
-      <option name="number" value="00206" />
-      <option name="presentableId" value="LOCAL-00206" />
-      <option name="project" value="LOCAL" />
-      <updated>1711026683836</updated>
+      <workItem from="1711240561529" duration="14881000" />
     </task>
     <task id="LOCAL-00207" summary="“建房子”">
       <option name="closed" value="true" />
@@ -597,7 +577,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711263336625</updated>
     </task>
-    <option name="localTasksCounter" value="254" />
+    <task id="LOCAL-00254" summary="什么是孤独">
+      <option name="closed" value="true" />
+      <created>1711264471300</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1711264471300</updated>
+    </task>
+    <task id="LOCAL-00255" summary="讽刺评价 -- ji">
+      <option name="closed" value="true" />
+      <created>1711264612663</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1711264612663</updated>
+    </task>
+    <option name="localTasksCounter" value="256" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,7 +613,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="重写规则代码实现&#10;&#10;对第一个eat 方法进行比较 , 发现&#10;当父类拥有 private 修饰符 ， 且有返回值时 ，子类使用 public 修饰符没有报错" />
     <MESSAGE value="重写规则代码实现" />
     <MESSAGE value="super" />
     <MESSAGE value="对象类型的强制转换 - 隐式转换" />
@@ -641,6 +636,7 @@
     <MESSAGE value="多态 -- 多态的适用性" />
     <MESSAGE value="多态 -- 多态的利弊" />
     <MESSAGE value="讽刺评价" />
+    <MESSAGE value="什么是孤独" />
     <MESSAGE value="讽刺评价 -- ji" />
     <option name="LAST_COMMIT_MESSAGE" value="讽刺评价 -- ji" />
   </component>
