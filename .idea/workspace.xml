@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="小猫 - 构造器与更改名字的方法&#10;&#10;构造器中已经更改了名字 ， 再使用这个方法会显得多余" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="注解 - 小猫就是OOAD练习">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240324/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240323/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240323/Test2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,15 +198,7 @@
       <workItem from="1711103906587" duration="6423000" />
       <workItem from="1711182603319" duration="6475000" />
       <workItem from="1711210047814" duration="525000" />
-      <workItem from="1711240561529" duration="5253000" />
-    </task>
-    <task id="LOCAL-00197" summary="递归计算1到100">
-      <option name="closed" value="true" />
-      <created>1710564682164</created>
-      <option name="number" value="00197" />
-      <option name="presentableId" value="LOCAL-00197" />
-      <option name="project" value="LOCAL" />
-      <updated>1710564682164</updated>
+      <workItem from="1711240561529" duration="7927000" />
     </task>
     <task id="LOCAL-00198" summary="石头剪刀布练习">
       <option name="closed" value="true" />
@@ -588,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711247863249</updated>
     </task>
-    <option name="localTasksCounter" value="246" />
+    <task id="LOCAL-00246" summary="注解 - 小猫就是OOAD练习">
+      <option name="closed" value="true" />
+      <created>1711248080372</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1711248080372</updated>
+    </task>
+    <option name="localTasksCounter" value="247" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,7 +612,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="集合练习一 -- 简单运用&#10;&#10;集合本身输出就会直接打印这种格式" />
     <MESSAGE value="集合练习二 -- 基本数据类型对应的包装类" />
     <MESSAGE value="方法签名" />
     <MESSAGE value="前情提要" />
@@ -633,7 +636,8 @@
     <MESSAGE value=" 小猫 - 使用继承与隐式转换&#10;  &#10;  让一个总类可以调用他子类的名字" />
     <MESSAGE value=" 小猫 - 错别字的重写" />
     <MESSAGE value="小猫 - 构造器与更改名字的方法&#10;&#10;构造器中已经更改了名字 ， 再使用这个方法会显得多余" />
-    <option name="LAST_COMMIT_MESSAGE" value="小猫 - 构造器与更改名字的方法&#10;&#10;构造器中已经更改了名字 ， 再使用这个方法会显得多余" />
+    <MESSAGE value="注解 - 小猫就是OOAD练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="注解 - 小猫就是OOAD练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

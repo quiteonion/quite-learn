@@ -17,6 +17,7 @@ public class Test2 {
         //Cat sss = (Cat) p;
         //Student ccc = (Student) a;
 
+
        /* if (a instanceof Cat){
             System.out.println("true");
         }else if (c instanceof Animo){
