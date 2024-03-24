@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="权限修饰符">
-      <change beforePath="$PROJECT_DIR$/src/A20240324/CultivationPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/CultivationPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240324/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/README.md" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Java线上课堂作业">
+      <change afterPath="$PROJECT_DIR$/src/A20240324/Teacher/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240324/Teacher/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240324/Teacher/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240324/Teacher/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240324/Teacher/Pig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240324/Teacher/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,23 +202,7 @@
       <workItem from="1711103906587" duration="6423000" />
       <workItem from="1711182603319" duration="6475000" />
       <workItem from="1711210047814" duration="525000" />
-      <workItem from="1711240561529" duration="1621000" />
-    </task>
-    <task id="LOCAL-00188" summary="Replace 方法 -- 更改字符串的内容">
-      <option name="closed" value="true" />
-      <created>1710248415164</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1710248415165</updated>
-    </task>
-    <task id="LOCAL-00189" summary="Substring 方法 -- 截取字符串内容">
-      <option name="closed" value="true" />
-      <created>1710248519380</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1710248519380</updated>
+      <workItem from="1711240561529" duration="3786000" />
     </task>
     <task id="LOCAL-00190" summary="R 的练习题 无限循环的月读">
       <option name="closed" value="true" />
@@ -591,7 +580,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711243391794</updated>
     </task>
-    <option name="localTasksCounter" value="237" />
+    <task id="LOCAL-00237" summary="养殖动物">
+      <option name="closed" value="true" />
+      <created>1711243854481</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1711243854481</updated>
+    </task>
+    <task id="LOCAL-00238" summary="Java线上课堂作业">
+      <option name="closed" value="true" />
+      <created>1711244612421</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1711244612421</updated>
+    </task>
+    <option name="localTasksCounter" value="239" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,7 +607,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="OOP" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -611,8 +628,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="继承&#10;&#10;重写是引用最近的方法" />
-    <MESSAGE value="关于 protected" />
     <MESSAGE value="修改文件位置" />
     <MESSAGE value="“建房子”" />
     <MESSAGE value="我要当宠物训练师！！！" />
@@ -636,7 +651,9 @@
     <MESSAGE value="关于重写 -- 返回值 为基本数据类型且不同时" />
     <MESSAGE value="关于重写 -- 返回值 为引用数据类型且不同时" />
     <MESSAGE value="权限修饰符" />
-    <option name="LAST_COMMIT_MESSAGE" value="权限修饰符" />
+    <MESSAGE value="养殖动物" />
+    <MESSAGE value="Java线上课堂作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java线上课堂作业" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
