@@ -2,24 +2,24 @@ package B20240402;
 
 public class Movie {
     public static void main(String[] args) {
-        Main m1 = new Main("十面埋伏",10,"菜加生");
-        Main m2 = new Main("八面埋伏",10,"苏要疯");
-        Main m3 = new Main("六面埋伏",10,"玉军熊");
+        NumberMain m1 = new NumberMain("十面埋伏",10,"菜加生");
+        NumberMain m2 = new NumberMain("八面埋伏",10,"苏要疯");
+        NumberMain m3 = new NumberMain("六面埋伏",10,"玉军熊");
         m1.speed();
         m2.speed();
         m3.speed();
     }
 }
-class Main{
+class NumberMain{
     private String movieName;
     private int score;
     private String starringName;
 
 
-    public Main() {
+    public NumberMain() {
     }
 
-    public Main(String movieName, int score, String starringName) {
+    public NumberMain(String movieName, int score, String starringName) {
         this.movieName = movieName;
         this.score = score;
         this.starringName = starringName;
