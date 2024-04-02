@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="e2 --- 说不出口的话 - 3&#10;&#10;于是便是说不出口的话">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="">
       <change afterPath="$PROJECT_DIR$/src/B20240328/Student.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/B20240328/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240402/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240402/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240402/buyBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -206,23 +204,7 @@
       <workItem from="1711877214253" duration="130000" />
       <workItem from="1711877362246" duration="45000" />
       <workItem from="1711961890484" duration="871000" />
-      <workItem from="1712041662918" duration="2788000" />
-    </task>
-    <task id="LOCAL-00218" summary="前情提要">
-      <option name="closed" value="true" />
-      <created>1711106949701</created>
-      <option name="number" value="00218" />
-      <option name="presentableId" value="LOCAL-00218" />
-      <option name="project" value="LOCAL" />
-      <updated>1711106949701</updated>
-    </task>
-    <task id="LOCAL-00219" summary="方法签名&#10;&#10;更多的方法签名">
-      <option name="closed" value="true" />
-      <created>1711107224482</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
-      <option name="project" value="LOCAL" />
-      <updated>1711107224482</updated>
+      <workItem from="1712041662918" duration="3635000" />
     </task>
     <task id="LOCAL-00220" summary="重写规则代码实现&#10;&#10;在这里创建了一个父类，里面拥有不同的修饰符，和是否有返回值，以便于我们在子类中对他进行观察重写情况。">
       <option name="closed" value="true" />
@@ -600,7 +582,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711267719502</updated>
     </task>
-    <option name="localTasksCounter" value="267" />
+    <task id="LOCAL-00267" summary="登录，注册 -- 简单的案例练习">
+      <option name="closed" value="true" />
+      <created>1712063641139</created>
+      <option name="number" value="00267" />
+      <option name="presentableId" value="LOCAL-00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1712063641139</updated>
+    </task>
+    <task id="LOCAL-00268" summary="让我们抽选一个幸运观众吧！！！">
+      <option name="closed" value="true" />
+      <created>1712064004118</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1712064004118</updated>
+    </task>
+    <option name="localTasksCounter" value="269" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,8 +630,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="小~猫~ -- 使用继承的好处&#10;&#10;可以保留小猫原有的特性，如果要调用小猫内部方法仍旧可以使用" />
-    <MESSAGE value="小猫 - 使用继承与隐式转换&#10;&#10;改变了代码，但是不改变person&#10;让一个总类可以调用他子类的名字" />
     <MESSAGE value=" 小猫 - 使用继承与隐式转换&#10;  &#10;  让一个总类可以调用他子类的名字" />
     <MESSAGE value=" 小猫 - 错别字的重写" />
     <MESSAGE value="小猫 - 构造器与更改名字的方法&#10;&#10;构造器中已经更改了名字 ， 再使用这个方法会显得多余" />
@@ -657,7 +653,9 @@
     <MESSAGE value="e2 --- 说不出口的话 - 1&#10;&#10;但是在某些人的身上，却会被限制" />
     <MESSAGE value="e2 --- 说不出口的话 - 2&#10;&#10;他们不允许别人作出不同的评价，于是就不给人们评价的能力" />
     <MESSAGE value="e2 --- 说不出口的话 - 3&#10;&#10;于是便是说不出口的话" />
-    <option name="LAST_COMMIT_MESSAGE" value="e2 --- 说不出口的话 - 3&#10;&#10;于是便是说不出口的话" />
+    <MESSAGE value="登录，注册 -- 简单的案例练习" />
+    <MESSAGE value="让我们抽选一个幸运观众吧！！！" />
+    <option name="LAST_COMMIT_MESSAGE" value="让我们抽选一个幸运观众吧！！！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -778,16 +776,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/B20240402/AccountTest.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/B20240402/AccountTest.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
