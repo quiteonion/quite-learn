@@ -44,4 +44,6 @@ abstract 抽象类抽象方法
 
 ![img_5.png](img_5.png)
 
+# instanceof
 
+## 用于查看一个 new 出来的对象是否属于这个类
