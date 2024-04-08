@@ -1,101 +1,50 @@
 package B20240328;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
 public class Student {
-
     private String name;
-    private int age;
-    private int id;
-    private String gender;
-
-
-    private double mathGrades;
-    private double chineseGrades;
-    private double englishGrades;
-    private static int i;
-
-    static {
-        i = 0;
-    }
+    private String password;
+    private long idCard;
+    private long phoneNumber;
 
     public Student() {
-        i++;
     }
 
+    public Student(String name, String password, long idCard, long phoneNumber) {
+        this.name = name;
+        this.password = password;
+        this.idCard = idCard;
+        this.phoneNumber = phoneNumber;
+    }
 
     public String getName() {
         return name;
     }
 
-
     public void setName(String name) {
         this.name = name;
     }
 
-
-    public int getAge() {
-        return age;
+    public String getPassword() {
+        return password;
     }
 
-
-    public void setAge(int age) {
-        this.age = age;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
-
-    public int getId() {
-        return i;
+    public long getIdCard() {
+        return idCard;
     }
 
-
-    public double getMathGrades() {
-        return mathGrades;
+    public void setIdCard(long idCard) {
+        this.idCard = idCard;
     }
 
-
-    public void setMathGrades(double mathGrades) {
-        this.mathGrades = mathGrades;
+    public long getPhoneNumber() {
+        return phoneNumber;
     }
 
-
-    public double getChineseGrades() {
-        return chineseGrades;
+    public void setPhoneNumber(long phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
-
-
-    public void setChineseGrades(double chineseGrades) {
-        this.chineseGrades = chineseGrades;
-    }
-
-
-    public double getEnglishGrades() {
-        return englishGrades;
-    }
-
-
-    public void setEnglishGrades(double englishGrades) {
-        this.englishGrades = englishGrades;
-    }
-
-
-    /**
-     * 获取
-     *
-     * @return gender
-     */
-    public String getGender() {
-        return gender;
-    }
-
-    /**
-     * 设置
-     *
-     * @param gender
-     */
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
 }

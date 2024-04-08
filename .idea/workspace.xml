@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Thousands of miles gallop through Pingchuan, often at different speeds&#10;&#10;千里路驰骋平川，往往速度不一样">
       <change afterPath="$PROJECT_DIR$/src/B20240328/Student.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/B20240328/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240402/buyBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240404/SamePackage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2ao8ZOoCg56scyt8pqtTYZx9AIx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,7 +54,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/A20240321&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -113,6 +115,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.A20240130" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -205,78 +212,11 @@
       <workItem from="1711877362246" duration="45000" />
       <workItem from="1711961890484" duration="871000" />
       <workItem from="1712041662918" duration="3635000" />
-    </task>
-    <task id="LOCAL-00220" summary="重写规则代码实现&#10;&#10;在这里创建了一个父类，里面拥有不同的修饰符，和是否有返回值，以便于我们在子类中对他进行观察重写情况。">
-      <option name="closed" value="true" />
-      <created>1711108079898</created>
-      <option name="number" value="00220" />
-      <option name="presentableId" value="LOCAL-00220" />
-      <option name="project" value="LOCAL" />
-      <updated>1711108079898</updated>
-    </task>
-    <task id="LOCAL-00221" summary="重写规则代码实现&#10;&#10;这是一个子类，作用就是在子类中去重写父类的方法，来查看是否能够生效">
-      <option name="closed" value="true" />
-      <created>1711108115857</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1711108115857</updated>
-    </task>
-    <task id="LOCAL-00222" summary="重写规则代码实现&#10;&#10;创建了一个用来调用来个方法的对象">
-      <option name="closed" value="true" />
-      <created>1711108636990</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1711108636990</updated>
-    </task>
-    <task id="LOCAL-00223" summary="重写规则代码实现&#10;&#10;对第一个eat 方法进行比较 , 发现&#10;当父类拥有 private 修饰符 ， 且有返回值时 ，子类使用 public 修饰符没有报错">
-      <option name="closed" value="true" />
-      <created>1711108829479</created>
-      <option name="number" value="00223" />
-      <option name="presentableId" value="LOCAL-00223" />
-      <option name="project" value="LOCAL" />
-      <updated>1711108829479</updated>
-    </task>
-    <task id="LOCAL-00224" summary="重写规则代码实现">
-      <option name="closed" value="true" />
-      <created>1711109707133</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
-      <option name="project" value="LOCAL" />
-      <updated>1711109707133</updated>
-    </task>
-    <task id="LOCAL-00225" summary="重写规则代码实现">
-      <option name="closed" value="true" />
-      <created>1711110166618</created>
-      <option name="number" value="00225" />
-      <option name="presentableId" value="LOCAL-00225" />
-      <option name="project" value="LOCAL" />
-      <updated>1711110166618</updated>
-    </task>
-    <task id="LOCAL-00226" summary="super">
-      <option name="closed" value="true" />
-      <created>1711114041959</created>
-      <option name="number" value="00226" />
-      <option name="presentableId" value="LOCAL-00226" />
-      <option name="project" value="LOCAL" />
-      <updated>1711114041959</updated>
-    </task>
-    <task id="LOCAL-00227" summary="对象类型的强制转换 - 隐式转换">
-      <option name="closed" value="true" />
-      <created>1711188629379</created>
-      <option name="number" value="00227" />
-      <option name="presentableId" value="LOCAL-00227" />
-      <option name="project" value="LOCAL" />
-      <updated>1711188629379</updated>
-    </task>
-    <task id="LOCAL-00228" summary="对象类型的强制转换 - 隐式转换">
-      <option name="closed" value="true" />
-      <created>1711189928634</created>
-      <option name="number" value="00228" />
-      <option name="presentableId" value="LOCAL-00228" />
-      <option name="project" value="LOCAL" />
-      <updated>1711189928634</updated>
+      <workItem from="1712064257645" duration="2422000" />
+      <workItem from="1712121614486" duration="4653000" />
+      <workItem from="1712204876954" duration="661000" />
+      <workItem from="1712206389536" duration="6444000" />
+      <workItem from="1712493372443" duration="251000" />
     </task>
     <task id="LOCAL-00229" summary="对象类型的强制转换 - 强制转换">
       <option name="closed" value="true" />
@@ -598,7 +538,79 @@
       <option name="project" value="LOCAL" />
       <updated>1712064004118</updated>
     </task>
-    <option name="localTasksCounter" value="269" />
+    <task id="LOCAL-00269" summary="电影面向对象简单制作">
+      <option name="closed" value="true" />
+      <created>1712064310361</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1712064310361</updated>
+    </task>
+    <task id="LOCAL-00270" summary="我有好多好多的书！">
+      <option name="closed" value="true" />
+      <created>1712064427841</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1712064427841</updated>
+    </task>
+    <task id="LOCAL-00271" summary="我知道你想要说什么，但是，这是我的时间！">
+      <option name="closed" value="true" />
+      <created>1712064488928</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1712064488928</updated>
+    </task>
+    <task id="LOCAL-00272" summary="That year I bought my own BMW and drove it around the world!&#10;&#10;&#10;那一年我买下了一辆属于自己的宝马，开着它畅游世界吧！">
+      <option name="closed" value="true" />
+      <created>1712064582817</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1712064582817</updated>
+    </task>
+    <task id="LOCAL-00273" summary="It's not the number you think it is&#10;&#10;&#10;这不是你认为的数字">
+      <option name="closed" value="true" />
+      <created>1712064939510</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1712064939510</updated>
+    </task>
+    <task id="LOCAL-00274" summary="The book is free, and the flowers are fragrant&#10;&#10;书上自由，群花芬芳">
+      <option name="closed" value="true" />
+      <created>1712148959831</created>
+      <option name="number" value="00274" />
+      <option name="presentableId" value="LOCAL-00274" />
+      <option name="project" value="LOCAL" />
+      <updated>1712148959831</updated>
+    </task>
+    <task id="LOCAL-00275" summary="简陋的投票">
+      <option name="closed" value="true" />
+      <created>1712207609607</created>
+      <option name="number" value="00275" />
+      <option name="presentableId" value="LOCAL-00275" />
+      <option name="project" value="LOCAL" />
+      <updated>1712207609607</updated>
+    </task>
+    <task id="LOCAL-00276" summary="Flowers are born from buds&#10;&#10;花由芽起">
+      <option name="closed" value="true" />
+      <created>1712208105347</created>
+      <option name="number" value="00276" />
+      <option name="presentableId" value="LOCAL-00276" />
+      <option name="project" value="LOCAL" />
+      <updated>1712208105347</updated>
+    </task>
+    <task id="LOCAL-00277" summary="Thousands of miles gallop through Pingchuan, often at different speeds&#10;&#10;千里路驰骋平川，往往速度不一样">
+      <option name="closed" value="true" />
+      <created>1712208700403</created>
+      <option name="number" value="00277" />
+      <option name="presentableId" value="LOCAL-00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1712208700403</updated>
+    </task>
+    <option name="localTasksCounter" value="278" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,15 +642,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value=" 小猫 - 使用继承与隐式转换&#10;  &#10;  让一个总类可以调用他子类的名字" />
-    <MESSAGE value=" 小猫 - 错别字的重写" />
-    <MESSAGE value="小猫 - 构造器与更改名字的方法&#10;&#10;构造器中已经更改了名字 ， 再使用这个方法会显得多余" />
-    <MESSAGE value="注解 - 小猫就是OOAD练习" />
-    <MESSAGE value="多态 -- 类型转换产生多态" />
-    <MESSAGE value="多态 -- 多态的前提" />
-    <MESSAGE value="instanceof &#10;&#10;判断这个对象是否属于这个类" />
-    <MESSAGE value="多态 -- 多态的适用性" />
-    <MESSAGE value="多态 -- 多态的利弊" />
     <MESSAGE value="讽刺评价" />
     <MESSAGE value="什么是孤独" />
     <MESSAGE value="讽刺评价 -- ji" />
@@ -655,7 +658,16 @@
     <MESSAGE value="e2 --- 说不出口的话 - 3&#10;&#10;于是便是说不出口的话" />
     <MESSAGE value="登录，注册 -- 简单的案例练习" />
     <MESSAGE value="让我们抽选一个幸运观众吧！！！" />
-    <option name="LAST_COMMIT_MESSAGE" value="让我们抽选一个幸运观众吧！！！" />
+    <MESSAGE value="电影面向对象简单制作" />
+    <MESSAGE value="我有好多好多的书！" />
+    <MESSAGE value="我知道你想要说什么，但是，这是我的时间！" />
+    <MESSAGE value="That year I bought my own BMW and drove it around the world!&#10;&#10;&#10;那一年我买下了一辆属于自己的宝马，开着它畅游世界吧！" />
+    <MESSAGE value="It's not the number you think it is&#10;&#10;&#10;这不是你认为的数字" />
+    <MESSAGE value="The book is free, and the flowers are fragrant&#10;&#10;书上自由，群花芬芳" />
+    <MESSAGE value="简陋的投票" />
+    <MESSAGE value="Flowers are born from buds&#10;&#10;花由芽起" />
+    <MESSAGE value="Thousands of miles gallop through Pingchuan, often at different speeds&#10;&#10;千里路驰骋平川，往往速度不一样" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thousands of miles gallop through Pingchuan, often at different speeds&#10;&#10;千里路驰骋平川，往往速度不一样" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
