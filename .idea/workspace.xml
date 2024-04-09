@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Thousands of miles gallop through Pingchuan, often at different speeds&#10;&#10;千里路驰骋平川，往往速度不一样">
-      <change afterPath="$PROJECT_DIR$/src/B20240328/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240328/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240404/SamePackage.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="instanceof">
+      <change afterPath="$PROJECT_DIR$/src/B20240409/ArrayUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240409/ArrayUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240409/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240409/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +33,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/B20240403/B20240408/b9499b1fd49b0d35d755b366b6d46ef0_b15fa4c98c0574d4dd9125adb1014c47_8.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/B20240403/B20240408/f6811a0cdacff522de78622c384d62f8_81a9eca1f9ba758cde9611dc4ebe8e8c_8.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -54,7 +59,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/B20240408&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -69,11 +74,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\B20240408" />
       <recent name="D:\idea\idea 存储\quite\src\A20240321" />
       <recent name="D:\idea\idea 存储\quite\src\A20240313" />
       <recent name="D:\idea\idea 存储\quite\src\B20240309" />
       <recent name="D:\idea\idea 存储\quite\src\A20231128" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240104" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\A20240310\Image" />
@@ -217,30 +222,8 @@
       <workItem from="1712204876954" duration="661000" />
       <workItem from="1712206389536" duration="6444000" />
       <workItem from="1712493372443" duration="251000" />
-    </task>
-    <task id="LOCAL-00229" summary="对象类型的强制转换 - 强制转换">
-      <option name="closed" value="true" />
-      <created>1711190163339</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
-      <option name="project" value="LOCAL" />
-      <updated>1711190163339</updated>
-    </task>
-    <task id="LOCAL-00230" summary="对象类型的强制转换 - 强制转换">
-      <option name="closed" value="true" />
-      <created>1711190193019</created>
-      <option name="number" value="00230" />
-      <option name="presentableId" value="LOCAL-00230" />
-      <option name="project" value="LOCAL" />
-      <updated>1711190193019</updated>
-    </task>
-    <task id="LOCAL-00231" summary="关于重写 -- 返回值 的有无">
-      <option name="closed" value="true" />
-      <created>1711190986025</created>
-      <option name="number" value="00231" />
-      <option name="presentableId" value="LOCAL-00231" />
-      <option name="project" value="LOCAL" />
-      <updated>1711190986025</updated>
+      <workItem from="1712575606140" duration="448000" />
+      <workItem from="1712631357093" duration="1659000" />
     </task>
     <task id="LOCAL-00232" summary="关于重写 -- 返回值 为基本数据类型且不同时">
       <option name="closed" value="true" />
@@ -610,7 +593,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712208700403</updated>
     </task>
-    <option name="localTasksCounter" value="278" />
+    <task id="LOCAL-00278" summary="学生登录系统">
+      <option name="closed" value="true" />
+      <created>1712575685415</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1712575685415</updated>
+    </task>
+    <task id="LOCAL-00279" summary="学生登录系统">
+      <option name="closed" value="true" />
+      <created>1712575899630</created>
+      <option name="number" value="00279" />
+      <option name="presentableId" value="LOCAL-00279" />
+      <option name="project" value="LOCAL" />
+      <updated>1712575899630</updated>
+    </task>
+    <task id="LOCAL-00280" summary="instanceof">
+      <option name="closed" value="true" />
+      <created>1712576055804</created>
+      <option name="number" value="00280" />
+      <option name="presentableId" value="LOCAL-00280" />
+      <option name="project" value="LOCAL" />
+      <updated>1712576055804</updated>
+    </task>
+    <option name="localTasksCounter" value="281" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -642,8 +649,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="讽刺评价" />
-    <MESSAGE value="什么是孤独" />
     <MESSAGE value="讽刺评价 -- ji" />
     <MESSAGE value="README补充" />
     <MESSAGE value="e1 -- 书写孤独" />
@@ -667,7 +672,9 @@
     <MESSAGE value="简陋的投票" />
     <MESSAGE value="Flowers are born from buds&#10;&#10;花由芽起" />
     <MESSAGE value="Thousands of miles gallop through Pingchuan, often at different speeds&#10;&#10;千里路驰骋平川，往往速度不一样" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thousands of miles gallop through Pingchuan, often at different speeds&#10;&#10;千里路驰骋平川，往往速度不一样" />
+    <MESSAGE value="学生登录系统" />
+    <MESSAGE value="instanceof" />
+    <option name="LAST_COMMIT_MESSAGE" value="instanceof" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
