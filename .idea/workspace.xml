@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="一个类中不仅仅都会拥有 state---工具类&#10;&#10;有名有姓不是常态，拥有作用才是末态">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240328/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240328/StudentTest.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="调整位置">
+      <change afterPath="$PROJECT_DIR$/src/B20240409/Student/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240409/Student/StudentUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240409/Student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240409/Student/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +79,11 @@
       <recent name="D:\idea\idea 存储\quite\src\A20231128" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\B20240409\ArrayUtil" />
       <recent name="D:\idea\idea 存储\quite\src\A20240310\Image" />
       <recent name="D:\idea\idea 存储\quite\src\A20240308\Image" />
       <recent name="D:\idea\idea 存储\quite\src\B20240309\Image" />
       <recent name="D:\idea\idea 存储\quite\src\A20231128\Image" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240104\Image" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Day006" />
@@ -220,15 +221,7 @@
       <workItem from="1712206389536" duration="6444000" />
       <workItem from="1712493372443" duration="251000" />
       <workItem from="1712575606140" duration="448000" />
-      <workItem from="1712631357093" duration="2446000" />
-    </task>
-    <task id="LOCAL-00233" summary="关于重写 -- 返回值 为引用数据类型且不同时">
-      <option name="closed" value="true" />
-      <created>1711191372123</created>
-      <option name="number" value="00233" />
-      <option name="presentableId" value="LOCAL-00233" />
-      <option name="project" value="LOCAL" />
-      <updated>1711191372123</updated>
+      <workItem from="1712631357093" duration="3046000" />
     </task>
     <task id="LOCAL-00234" summary="权限修饰符">
       <option name="closed" value="true" />
@@ -614,7 +607,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712647129087</updated>
     </task>
-    <option name="localTasksCounter" value="282" />
+    <task id="LOCAL-00282" summary="调整位置">
+      <option name="closed" value="true" />
+      <created>1712647955332</created>
+      <option name="number" value="00282" />
+      <option name="presentableId" value="LOCAL-00282" />
+      <option name="project" value="LOCAL" />
+      <updated>1712647955332</updated>
+    </task>
+    <option name="localTasksCounter" value="283" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -646,7 +647,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="README补充" />
     <MESSAGE value="e1 -- 书写孤独" />
     <MESSAGE value="e1 -- 书写孤独 -1 &#10;&#10;每个人都快可以说出什么是孤独" />
     <MESSAGE value="e1 -- 书写孤独 -2&#10;&#10;每个人都可以去书写" />
@@ -671,7 +671,8 @@
     <MESSAGE value="学生登录系统" />
     <MESSAGE value="instanceof" />
     <MESSAGE value="一个类中不仅仅都会拥有 state---工具类&#10;&#10;有名有姓不是常态，拥有作用才是末态" />
-    <option name="LAST_COMMIT_MESSAGE" value="一个类中不仅仅都会拥有 state---工具类&#10;&#10;有名有姓不是常态，拥有作用才是末态" />
+    <MESSAGE value="调整位置" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整位置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
