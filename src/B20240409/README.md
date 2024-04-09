@@ -19,3 +19,8 @@
 [StudentTest.java](Student%2FStudentTest.java)
 
 [StudentUtil.java](Student%2FStudentUtil.java)
+
+# static 静态方法
+
+![img_1.png](img_1.png)
+
