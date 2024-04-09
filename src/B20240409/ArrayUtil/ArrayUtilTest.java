@@ -1,4 +1,4 @@
-package B20240409;
+package B20240409.ArrayUtil;
 
 public class ArrayUtilTest {
     public static void main(String[] args) {

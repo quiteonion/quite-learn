@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="instanceof">
-      <change afterPath="$PROJECT_DIR$/src/B20240409/ArrayUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240409/ArrayUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240409/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240409/img.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="一个类中不仅仅都会拥有 state---工具类&#10;&#10;有名有姓不是常态，拥有作用才是末态">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240328/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240328/StudentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,15 +220,7 @@
       <workItem from="1712206389536" duration="6444000" />
       <workItem from="1712493372443" duration="251000" />
       <workItem from="1712575606140" duration="448000" />
-      <workItem from="1712631357093" duration="1659000" />
-    </task>
-    <task id="LOCAL-00232" summary="关于重写 -- 返回值 为基本数据类型且不同时">
-      <option name="closed" value="true" />
-      <created>1711191198671</created>
-      <option name="number" value="00232" />
-      <option name="presentableId" value="LOCAL-00232" />
-      <option name="project" value="LOCAL" />
-      <updated>1711191198671</updated>
+      <workItem from="1712631357093" duration="2446000" />
     </task>
     <task id="LOCAL-00233" summary="关于重写 -- 返回值 为引用数据类型且不同时">
       <option name="closed" value="true" />
@@ -617,7 +606,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712576055804</updated>
     </task>
-    <option name="localTasksCounter" value="281" />
+    <task id="LOCAL-00281" summary="一个类中不仅仅都会拥有 state---工具类&#10;&#10;有名有姓不是常态，拥有作用才是末态">
+      <option name="closed" value="true" />
+      <created>1712647129087</created>
+      <option name="number" value="00281" />
+      <option name="presentableId" value="LOCAL-00281" />
+      <option name="project" value="LOCAL" />
+      <updated>1712647129087</updated>
+    </task>
+    <option name="localTasksCounter" value="282" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +646,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="讽刺评价 -- ji" />
     <MESSAGE value="README补充" />
     <MESSAGE value="e1 -- 书写孤独" />
     <MESSAGE value="e1 -- 书写孤独 -1 &#10;&#10;每个人都快可以说出什么是孤独" />
@@ -674,7 +670,8 @@
     <MESSAGE value="Thousands of miles gallop through Pingchuan, often at different speeds&#10;&#10;千里路驰骋平川，往往速度不一样" />
     <MESSAGE value="学生登录系统" />
     <MESSAGE value="instanceof" />
-    <option name="LAST_COMMIT_MESSAGE" value="instanceof" />
+    <MESSAGE value="一个类中不仅仅都会拥有 state---工具类&#10;&#10;有名有姓不是常态，拥有作用才是末态" />
+    <option name="LAST_COMMIT_MESSAGE" value="一个类中不仅仅都会拥有 state---工具类&#10;&#10;有名有姓不是常态，拥有作用才是末态" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

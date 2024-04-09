@@ -104,6 +104,7 @@ public class StudentTest {
                 String numer = sc.next();
                 if (arr.get(i).getPassword().equals(numer)){
                     System.out.println("登录成功");
+
                 }
             }
         }
