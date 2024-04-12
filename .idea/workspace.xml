@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="static 静态方法">
-      <change afterPath="$PROJECT_DIR$/src/B20240409/img_2.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="README 补充">
+      <change afterPath="$PROJECT_DIR$/src/B20240410/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240410/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240410/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,14 +224,8 @@
       <workItem from="1712575606140" duration="448000" />
       <workItem from="1712631357093" duration="4631000" />
       <workItem from="1712671007630" duration="595000" />
-    </task>
-    <task id="LOCAL-00237" summary="养殖动物">
-      <option name="closed" value="true" />
-      <created>1711243854481</created>
-      <option name="number" value="00237" />
-      <option name="presentableId" value="LOCAL-00237" />
-      <option name="project" value="LOCAL" />
-      <updated>1711243854481</updated>
+      <workItem from="1712724271021" duration="2452000" />
+      <workItem from="1712740917173" duration="595000" />
     </task>
     <task id="LOCAL-00238" summary="Java线上课堂作业">
       <option name="closed" value="true" />
@@ -615,7 +611,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712648745018</updated>
     </task>
-    <option name="localTasksCounter" value="286" />
+    <task id="LOCAL-00286" summary="README 补充">
+      <option name="closed" value="true" />
+      <created>1712725527787</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1712725527787</updated>
+    </task>
+    <option name="localTasksCounter" value="287" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -647,7 +651,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="e1 -- 书写孤独 -2&#10;&#10;每个人都可以去书写" />
     <MESSAGE value="e1 -- 书写孤独 -3&#10;&#10;这倒显得父类被重写的事物有点多余了" />
     <MESSAGE value="e1 -- 书写孤独 -4&#10;&#10;无论如何父类都会被书写，所以引入抽象概念，令他抽象存在" />
     <MESSAGE value="e1 -- 书写孤独 -5&#10;&#10;但是抽象方法只能出现在抽象的类中，所以要把类改为抽象类" />
@@ -672,7 +675,8 @@
     <MESSAGE value="调整位置" />
     <MESSAGE value="有关于工具类的简单的练习" />
     <MESSAGE value="static 静态方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="static 静态方法" />
+    <MESSAGE value="README 补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="README 补充" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
