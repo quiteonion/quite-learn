@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="README 补充">
-      <change afterPath="$PROJECT_DIR$/src/B20240413/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240413/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="传递子类对象赋值给父类成员不会导致子类中的方法或属性消失&#10;&#10;当一个子类的对象赋值给父类的变量时，子类拥有的并不会消失，而会继续粗存，等到转化回子类后，仍旧可以使用。&#10;&#10;&#10;在面向对象的编程中，将子类对象赋值给父类成员（例如，将子类对象赋值给父类类型的变量）并不会导致子类中的方法或属性消失。相反，这样做是完全允许的，因为子类继承了父类的所有方法和属性，因此可以被视为父类的一个实例">
+      <change afterPath="$PROJECT_DIR$/src/B20240413/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240413/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240413/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240413/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,15 +226,7 @@
       <workItem from="1712724271021" duration="2452000" />
       <workItem from="1712740917173" duration="595000" />
       <workItem from="1712909280662" duration="2875000" />
-      <workItem from="1712991101810" duration="1303000" />
-    </task>
-    <task id="LOCAL-00241" summary="小~猫~ -- 可以保留小猫原有的特性">
-      <option name="closed" value="true" />
-      <created>1711246654331</created>
-      <option name="number" value="00241" />
-      <option name="presentableId" value="LOCAL-00241" />
-      <option name="project" value="LOCAL" />
-      <updated>1711246654331</updated>
+      <workItem from="1712991101810" duration="2168000" />
     </task>
     <task id="LOCAL-00242" summary="改变了代码，但是不改变person">
       <option name="closed" value="true" />
@@ -620,7 +612,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712996421572</updated>
     </task>
-    <option name="localTasksCounter" value="290" />
+    <task id="LOCAL-00290" summary="传递子类对象赋值给父类成员不会导致子类中的方法或属性消失&#10;&#10;当一个子类的对象赋值给父类的变量时，子类拥有的并不会消失，而会继续粗存，等到转化回子类后，仍旧可以使用。&#10;&#10;&#10;在面向对象的编程中，将子类对象赋值给父类成员（例如，将子类对象赋值给父类类型的变量）并不会导致子类中的方法或属性消失。相反，这样做是完全允许的，因为子类继承了父类的所有方法和属性，因此可以被视为父类的一个实例">
+      <option name="closed" value="true" />
+      <created>1712997262978</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1712997262978</updated>
+    </task>
+    <option name="localTasksCounter" value="291" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,7 +652,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="e1 -- 书写孤独 -4&#10;&#10;无论如何父类都会被书写，所以引入抽象概念，令他抽象存在" />
     <MESSAGE value="e1 -- 书写孤独 -5&#10;&#10;但是抽象方法只能出现在抽象的类中，所以要把类改为抽象类" />
     <MESSAGE value="e2 --- 说不出口的话 &#10;&#10;对于一个人，每个人都有对其进行客观评价的权力" />
     <MESSAGE value="e2 --- 说不出口的话 - 1&#10;&#10;但是在某些人的身上，却会被限制" />
@@ -677,7 +676,8 @@
     <MESSAGE value="static 静态方法" />
     <MESSAGE value="涨工资啦--案例4-7" />
     <MESSAGE value="README 补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="README 补充" />
+    <MESSAGE value="传递子类对象赋值给父类成员不会导致子类中的方法或属性消失&#10;&#10;当一个子类的对象赋值给父类的变量时，子类拥有的并不会消失，而会继续粗存，等到转化回子类后，仍旧可以使用。&#10;&#10;&#10;在面向对象的编程中，将子类对象赋值给父类成员（例如，将子类对象赋值给父类类型的变量）并不会导致子类中的方法或属性消失。相反，这样做是完全允许的，因为子类继承了父类的所有方法和属性，因此可以被视为父类的一个实例" />
+    <option name="LAST_COMMIT_MESSAGE" value="传递子类对象赋值给父类成员不会导致子类中的方法或属性消失&#10;&#10;当一个子类的对象赋值给父类的变量时，子类拥有的并不会消失，而会继续粗存，等到转化回子类后，仍旧可以使用。&#10;&#10;&#10;在面向对象的编程中，将子类对象赋值给父类成员（例如，将子类对象赋值给父类类型的变量）并不会导致子类中的方法或属性消失。相反，这样做是完全允许的，因为子类继承了父类的所有方法和属性，因此可以被视为父类的一个实例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
