@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="README 补充">
-      <change afterPath="$PROJECT_DIR$/src/B20240410/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240410/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240410/img_1.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="涨工资啦--案例4-7">
+      <change afterPath="$PROJECT_DIR$/src/B20240412/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,22 +224,7 @@
       <workItem from="1712671007630" duration="595000" />
       <workItem from="1712724271021" duration="2452000" />
       <workItem from="1712740917173" duration="595000" />
-    </task>
-    <task id="LOCAL-00238" summary="Java线上课堂作业">
-      <option name="closed" value="true" />
-      <created>1711244612421</created>
-      <option name="number" value="00238" />
-      <option name="presentableId" value="LOCAL-00238" />
-      <option name="project" value="LOCAL" />
-      <updated>1711244612421</updated>
-    </task>
-    <task id="LOCAL-00239" summary="小~猫~">
-      <option name="closed" value="true" />
-      <created>1711246490825</created>
-      <option name="number" value="00239" />
-      <option name="presentableId" value="LOCAL-00239" />
-      <option name="project" value="LOCAL" />
-      <updated>1711246490825</updated>
+      <workItem from="1712909280662" duration="2875000" />
     </task>
     <task id="LOCAL-00240" summary="小~猫~">
       <option name="closed" value="true" />
@@ -619,7 +602,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712725527787</updated>
     </task>
-    <option name="localTasksCounter" value="287" />
+    <task id="LOCAL-00287" summary="README 补充">
+      <option name="closed" value="true" />
+      <created>1712909287208</created>
+      <option name="number" value="00287" />
+      <option name="presentableId" value="LOCAL-00287" />
+      <option name="project" value="LOCAL" />
+      <updated>1712909287208</updated>
+    </task>
+    <task id="LOCAL-00288" summary="涨工资啦--案例4-7">
+      <option name="closed" value="true" />
+      <created>1712911261528</created>
+      <option name="number" value="00288" />
+      <option name="presentableId" value="LOCAL-00288" />
+      <option name="project" value="LOCAL" />
+      <updated>1712911261528</updated>
+    </task>
+    <option name="localTasksCounter" value="289" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,7 +650,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="e1 -- 书写孤独 -3&#10;&#10;这倒显得父类被重写的事物有点多余了" />
     <MESSAGE value="e1 -- 书写孤独 -4&#10;&#10;无论如何父类都会被书写，所以引入抽象概念，令他抽象存在" />
     <MESSAGE value="e1 -- 书写孤独 -5&#10;&#10;但是抽象方法只能出现在抽象的类中，所以要把类改为抽象类" />
     <MESSAGE value="e2 --- 说不出口的话 &#10;&#10;对于一个人，每个人都有对其进行客观评价的权力" />
@@ -676,7 +674,8 @@
     <MESSAGE value="有关于工具类的简单的练习" />
     <MESSAGE value="static 静态方法" />
     <MESSAGE value="README 补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="README 补充" />
+    <MESSAGE value="涨工资啦--案例4-7" />
+    <option name="LAST_COMMIT_MESSAGE" value="涨工资啦--案例4-7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
