@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="涨工资啦--案例4-7">
-      <change afterPath="$PROJECT_DIR$/src/B20240412/README.md" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="README 补充">
+      <change afterPath="$PROJECT_DIR$/src/B20240413/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240413/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -225,14 +226,7 @@
       <workItem from="1712724271021" duration="2452000" />
       <workItem from="1712740917173" duration="595000" />
       <workItem from="1712909280662" duration="2875000" />
-    </task>
-    <task id="LOCAL-00240" summary="小~猫~">
-      <option name="closed" value="true" />
-      <created>1711246496923</created>
-      <option name="number" value="00240" />
-      <option name="presentableId" value="LOCAL-00240" />
-      <option name="project" value="LOCAL" />
-      <updated>1711246496923</updated>
+      <workItem from="1712991101810" duration="1303000" />
     </task>
     <task id="LOCAL-00241" summary="小~猫~ -- 可以保留小猫原有的特性">
       <option name="closed" value="true" />
@@ -618,7 +612,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712911261528</updated>
     </task>
-    <option name="localTasksCounter" value="289" />
+    <task id="LOCAL-00289" summary="README 补充">
+      <option name="closed" value="true" />
+      <created>1712996421572</created>
+      <option name="number" value="00289" />
+      <option name="presentableId" value="LOCAL-00289" />
+      <option name="project" value="LOCAL" />
+      <updated>1712996421572</updated>
+    </task>
+    <option name="localTasksCounter" value="290" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -673,9 +675,9 @@
     <MESSAGE value="调整位置" />
     <MESSAGE value="有关于工具类的简单的练习" />
     <MESSAGE value="static 静态方法" />
-    <MESSAGE value="README 补充" />
     <MESSAGE value="涨工资啦--案例4-7" />
-    <option name="LAST_COMMIT_MESSAGE" value="涨工资啦--案例4-7" />
+    <MESSAGE value="README 补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="README 补充" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
