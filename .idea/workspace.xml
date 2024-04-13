@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="About  duotai">
-      <change afterPath="$PROJECT_DIR$/src/B20240413/Test.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="多态调用成员的特点">
+      <change afterPath="$PROJECT_DIR$/src/B20240413/Test0/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240413/Test0/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240413/Test0/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240413/Test0/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240413/Test0/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240413/Test0/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,23 +230,7 @@
       <workItem from="1712724271021" duration="2452000" />
       <workItem from="1712740917173" duration="595000" />
       <workItem from="1712909280662" duration="2875000" />
-      <workItem from="1712991101810" duration="2904000" />
-    </task>
-    <task id="LOCAL-00243" summary=" 小猫 - 使用继承与隐式转换&#10;  &#10;  让一个总类可以调用他子类的名字">
-      <option name="closed" value="true" />
-      <created>1711247554445</created>
-      <option name="number" value="00243" />
-      <option name="presentableId" value="LOCAL-00243" />
-      <option name="project" value="LOCAL" />
-      <updated>1711247554446</updated>
-    </task>
-    <task id="LOCAL-00244" summary=" 小猫 - 错别字的重写">
-      <option name="closed" value="true" />
-      <created>1711247602048</created>
-      <option name="number" value="00244" />
-      <option name="presentableId" value="LOCAL-00244" />
-      <option name="project" value="LOCAL" />
-      <updated>1711247602048</updated>
+      <workItem from="1712991101810" duration="6168000" />
     </task>
     <task id="LOCAL-00245" summary="小猫 - 构造器与更改名字的方法&#10;&#10;构造器中已经更改了名字 ， 再使用这个方法会显得多余">
       <option name="closed" value="true" />
@@ -618,7 +608,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712998624080</updated>
     </task>
-    <option name="localTasksCounter" value="292" />
+    <task id="LOCAL-00292" summary="多态调用成员的特点">
+      <option name="closed" value="true" />
+      <created>1712998942928</created>
+      <option name="number" value="00292" />
+      <option name="presentableId" value="LOCAL-00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1712998942928</updated>
+    </task>
+    <task id="LOCAL-00293" summary="多态调用成员的特点">
+      <option name="closed" value="true" />
+      <created>1712999019249</created>
+      <option name="number" value="00293" />
+      <option name="presentableId" value="LOCAL-00293" />
+      <option name="project" value="LOCAL" />
+      <updated>1712999019249</updated>
+    </task>
+    <option name="localTasksCounter" value="294" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,6 +645,13 @@
                       </list>
                     </value>
                   </entry>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="StringBuilder" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
@@ -650,7 +663,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="e2 --- 说不出口的话 &#10;&#10;对于一个人，每个人都有对其进行客观评价的权力" />
     <MESSAGE value="e2 --- 说不出口的话 - 1&#10;&#10;但是在某些人的身上，却会被限制" />
     <MESSAGE value="e2 --- 说不出口的话 - 2&#10;&#10;他们不允许别人作出不同的评价，于是就不给人们评价的能力" />
     <MESSAGE value="e2 --- 说不出口的话 - 3&#10;&#10;于是便是说不出口的话" />
@@ -675,7 +687,8 @@
     <MESSAGE value="README 补充" />
     <MESSAGE value="传递子类对象赋值给父类成员不会导致子类中的方法或属性消失&#10;&#10;当一个子类的对象赋值给父类的变量时，子类拥有的并不会消失，而会继续粗存，等到转化回子类后，仍旧可以使用。&#10;&#10;&#10;在面向对象的编程中，将子类对象赋值给父类成员（例如，将子类对象赋值给父类类型的变量）并不会导致子类中的方法或属性消失。相反，这样做是完全允许的，因为子类继承了父类的所有方法和属性，因此可以被视为父类的一个实例" />
     <MESSAGE value="About  duotai" />
-    <option name="LAST_COMMIT_MESSAGE" value="About  duotai" />
+    <MESSAGE value="多态调用成员的特点" />
+    <option name="LAST_COMMIT_MESSAGE" value="多态调用成员的特点" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
