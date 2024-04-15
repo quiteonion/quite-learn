@@ -42,5 +42,7 @@
 
 [StaticKuai](StaticKuai)
 
+### 想要进行数据初始化就使用 static 静态代码块
+
 
 
