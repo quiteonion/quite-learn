@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="补充独有的行为">
-      <change beforePath="$PROJECT_DIR$/src/B20240413/Test0/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240413/Test0/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240413/Test0/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240413/Test0/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240413/Test0/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240413/Test0/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240413/Test0/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240413/Test0/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240413/Test0/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240413/Test0/Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="顶级优化！！！&#10;&#10;在本次优化中，融合了两大特点，原本的代码中辨别的部分由 Pet 执行，并且缺少了重写部分，非常不合理，但是在新代码中，辨别部分由 person 来辨别，更加的合理" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -230,23 +224,7 @@
       <workItem from="1712909280662" duration="2875000" />
       <workItem from="1712991101810" duration="6471000" />
       <workItem from="1713064195587" duration="189000" />
-      <workItem from="1713170318912" duration="2438000" />
-    </task>
-    <task id="LOCAL-00249" summary="instanceof &#10;&#10;判断这个对象是否属于这个类">
-      <option name="closed" value="true" />
-      <created>1711261099441</created>
-      <option name="number" value="00249" />
-      <option name="presentableId" value="LOCAL-00249" />
-      <option name="project" value="LOCAL" />
-      <updated>1711261099441</updated>
-    </task>
-    <task id="LOCAL-00250" summary="多态 -- 多态的适用性">
-      <option name="closed" value="true" />
-      <created>1711261304246</created>
-      <option name="number" value="00250" />
-      <option name="presentableId" value="LOCAL-00250" />
-      <option name="project" value="LOCAL" />
-      <updated>1711261304246</updated>
+      <workItem from="1713170318912" duration="3050000" />
     </task>
     <task id="LOCAL-00251" summary="多态 -- 多态的利弊">
       <option name="closed" value="true" />
@@ -624,7 +602,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713182048756</updated>
     </task>
-    <option name="localTasksCounter" value="298" />
+    <task id="LOCAL-00298" summary="使用重载的方法进行调用&#10;&#10;好处： 能够使用到重载的方式。。&#10;坏处： 在原本的代码中，进入饲养方法的形参中的，是 pet 而是猫还是狗由系统进行辨别，而新代码中却做不到">
+      <option name="closed" value="true" />
+      <created>1713182674835</created>
+      <option name="number" value="00298" />
+      <option name="presentableId" value="LOCAL-00298" />
+      <option name="project" value="LOCAL" />
+      <updated>1713182674835</updated>
+    </task>
+    <task id="LOCAL-00299" summary="顶级优化！！！&#10;&#10;在本次优化中，融合了两大特点，原本的代码中辨别的部分由 Pet 执行，并且缺少了重写部分，非常不合理，但是在新代码中，辨别部分由 person 来辨别，更加的合理">
+      <option name="closed" value="true" />
+      <created>1713182855785</created>
+      <option name="number" value="00299" />
+      <option name="presentableId" value="LOCAL-00299" />
+      <option name="project" value="LOCAL" />
+      <updated>1713182855785</updated>
+    </task>
+    <option name="localTasksCounter" value="300" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,13 +639,6 @@
                       </list>
                     </value>
                   </entry>
-                  <entry key="text">
-                    <value>
-                      <list>
-                        <option value="StringBuilder" />
-                      </list>
-                    </value>
-                  </entry>
                 </map>
               </option>
             </State>
@@ -663,8 +650,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="登录，注册 -- 简单的案例练习" />
-    <MESSAGE value="让我们抽选一个幸运观众吧！！！" />
     <MESSAGE value="电影面向对象简单制作" />
     <MESSAGE value="我有好多好多的书！" />
     <MESSAGE value="我知道你想要说什么，但是，这是我的时间！" />
@@ -688,7 +673,9 @@
     <MESSAGE value="养了一只狗" />
     <MESSAGE value="重写显得有点呆" />
     <MESSAGE value="补充独有的行为" />
-    <option name="LAST_COMMIT_MESSAGE" value="补充独有的行为" />
+    <MESSAGE value="使用重载的方法进行调用&#10;&#10;好处： 能够使用到重载的方式。。&#10;坏处： 在原本的代码中，进入饲养方法的形参中的，是 pet 而是猫还是狗由系统进行辨别，而新代码中却做不到" />
+    <MESSAGE value="顶级优化！！！&#10;&#10;在本次优化中，融合了两大特点，原本的代码中辨别的部分由 Pet 执行，并且缺少了重写部分，非常不合理，但是在新代码中，辨别部分由 person 来辨别，更加的合理" />
+    <option name="LAST_COMMIT_MESSAGE" value="顶级优化！！！&#10;&#10;在本次优化中，融合了两大特点，原本的代码中辨别的部分由 Pet 执行，并且缺少了重写部分，非常不合理，但是在新代码中，辨别部分由 person 来辨别，更加的合理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

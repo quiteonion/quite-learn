@@ -28,9 +28,9 @@ public class Person extends Animal{
         c.eat(something);
     }*/
   public void keepPet(Pet p ,String something) {
-      if (p instanceof Dog) {
+      if (p instanceof Dog d) {
           System.out.println(p.getAge() + "的" + p.getColor() + "狗正在吃" + something);
-      } else if (p instanceof Cat) {
+      } else if (p instanceof Cat c) {
           System.out.println(p.getAge() + "的" + p.getColor() + "猫正在吃" + something);
       }
   }
