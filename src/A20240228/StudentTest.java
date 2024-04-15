@@ -135,7 +135,7 @@ public class StudentTest {
     public static void deleteStudent(Student[] array, int number) {
         if (number == 0) {
             System.out.println("还没有添加学生哦！");
-            System.exit(-1);
+            return;
         }
         Scanner sc = new Scanner(System.in);
         displayStudent_id(array, number);
