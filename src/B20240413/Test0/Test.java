@@ -5,5 +5,7 @@ public class Test {
         Person p = new Person("老王", 18);
         Pet d = new Dog(2,"red");
         p.keepPet(d , "aa");
+        Dog e = (Dog)d;
+        e.lookHome();
     }
 }

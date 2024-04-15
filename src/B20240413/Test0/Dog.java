@@ -5,4 +5,7 @@ public class Dog extends Pet{
         super( color , age);
     }
 
+    public void lookHome(){
+        System.out.println("狗子在看家");
+    }
 }
