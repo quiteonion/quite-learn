@@ -16,7 +16,15 @@ public class Person extends Animal{
     public void setName(String name) {
         this.name = name;
     }
-    public void keepPet(Pet p , String something){
+  /*  public void keepPet(Pet p , String something){
         p.eat(p , something);
+    }*/
+    public void keepPet(Dog d, String something){
+        System.out.println(getAge()+"的"+this.name);
+        d.eat(something);
+    }
+    public void keepPet(Cat c, String something){
+        System.out.println(getAge()+"的"+this.name);
+        c.eat(something);
     }
 }

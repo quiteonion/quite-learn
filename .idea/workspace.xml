@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="重写显得有点呆">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="补充独有的行为">
       <change beforePath="$PROJECT_DIR$/src/B20240413/Test0/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240413/Test0/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240413/Test0/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240413/Test0/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240413/Test0/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240413/Test0/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240413/Test0/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240413/Test0/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240413/Test0/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240413/Test0/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,23 +230,7 @@
       <workItem from="1712909280662" duration="2875000" />
       <workItem from="1712991101810" duration="6471000" />
       <workItem from="1713064195587" duration="189000" />
-      <workItem from="1713170318912" duration="1892000" />
-    </task>
-    <task id="LOCAL-00247" summary="多态 -- 类型转换产生多态">
-      <option name="closed" value="true" />
-      <created>1711252928357</created>
-      <option name="number" value="00247" />
-      <option name="presentableId" value="LOCAL-00247" />
-      <option name="project" value="LOCAL" />
-      <updated>1711252928357</updated>
-    </task>
-    <task id="LOCAL-00248" summary="多态 -- 多态的前提">
-      <option name="closed" value="true" />
-      <created>1711260938967</created>
-      <option name="number" value="00248" />
-      <option name="presentableId" value="LOCAL-00248" />
-      <option name="project" value="LOCAL" />
-      <updated>1711260938967</updated>
+      <workItem from="1713170318912" duration="2438000" />
     </task>
     <task id="LOCAL-00249" summary="instanceof &#10;&#10;判断这个对象是否属于这个类">
       <option name="closed" value="true" />
@@ -621,7 +608,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713181742957</updated>
     </task>
-    <option name="localTasksCounter" value="296" />
+    <task id="LOCAL-00296" summary="补充独有的行为">
+      <option name="closed" value="true" />
+      <created>1713182003762</created>
+      <option name="number" value="00296" />
+      <option name="presentableId" value="LOCAL-00296" />
+      <option name="project" value="LOCAL" />
+      <updated>1713182003762</updated>
+    </task>
+    <task id="LOCAL-00297" summary="补充独有的行为">
+      <option name="closed" value="true" />
+      <created>1713182048756</created>
+      <option name="number" value="00297" />
+      <option name="presentableId" value="LOCAL-00297" />
+      <option name="project" value="LOCAL" />
+      <updated>1713182048756</updated>
+    </task>
+    <option name="localTasksCounter" value="298" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -660,7 +663,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="e2 --- 说不出口的话 - 3&#10;&#10;于是便是说不出口的话" />
     <MESSAGE value="登录，注册 -- 简单的案例练习" />
     <MESSAGE value="让我们抽选一个幸运观众吧！！！" />
     <MESSAGE value="电影面向对象简单制作" />
@@ -685,7 +687,8 @@
     <MESSAGE value="多态调用成员的特点" />
     <MESSAGE value="养了一只狗" />
     <MESSAGE value="重写显得有点呆" />
-    <option name="LAST_COMMIT_MESSAGE" value="重写显得有点呆" />
+    <MESSAGE value="补充独有的行为" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充独有的行为" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -16,11 +16,14 @@ public class Pet extends Animal{
     public void setColor( String color) {
         this.color = color;
     }
-    public void eat(Pet p ,String something){
+/*    public void eat(Pet p ,String something){
         if (p instanceof Dog){
             System.out.println(p.getAge()+"的"+p.getColor()+"狗正在吃"+something);
         }else if (p instanceof Cat){
             System.out.println(p.getAge()+"的"+p.getColor()+"猫正在吃"+something);
         }
+    }*/
+public void eat(String something){
+        System.out.println("动物正在吃");
     }
 }
