@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="多态调用成员的特点">
-      <change afterPath="$PROJECT_DIR$/src/B20240413/Test0/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240413/Test0/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240413/Test0/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240413/Test0/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240413/Test0/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240413/Test0/Test.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="养了一只狗">
+      <change afterPath="$PROJECT_DIR$/src/B20240415/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -230,15 +225,9 @@
       <workItem from="1712724271021" duration="2452000" />
       <workItem from="1712740917173" duration="595000" />
       <workItem from="1712909280662" duration="2875000" />
-      <workItem from="1712991101810" duration="6168000" />
-    </task>
-    <task id="LOCAL-00245" summary="小猫 - 构造器与更改名字的方法&#10;&#10;构造器中已经更改了名字 ， 再使用这个方法会显得多余">
-      <option name="closed" value="true" />
-      <created>1711247863249</created>
-      <option name="number" value="00245" />
-      <option name="presentableId" value="LOCAL-00245" />
-      <option name="project" value="LOCAL" />
-      <updated>1711247863249</updated>
+      <workItem from="1712991101810" duration="6471000" />
+      <workItem from="1713064195587" duration="189000" />
+      <workItem from="1713170318912" duration="1555000" />
     </task>
     <task id="LOCAL-00246" summary="注解 - 小猫就是OOAD练习">
       <option name="closed" value="true" />
@@ -624,7 +613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712999019249</updated>
     </task>
-    <option name="localTasksCounter" value="294" />
+    <task id="LOCAL-00294" summary="养了一只狗">
+      <option name="closed" value="true" />
+      <created>1713019485903</created>
+      <option name="number" value="00294" />
+      <option name="presentableId" value="LOCAL-00294" />
+      <option name="project" value="LOCAL" />
+      <updated>1713019485903</updated>
+    </task>
+    <option name="localTasksCounter" value="295" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,7 +660,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="e2 --- 说不出口的话 - 1&#10;&#10;但是在某些人的身上，却会被限制" />
     <MESSAGE value="e2 --- 说不出口的话 - 2&#10;&#10;他们不允许别人作出不同的评价，于是就不给人们评价的能力" />
     <MESSAGE value="e2 --- 说不出口的话 - 3&#10;&#10;于是便是说不出口的话" />
     <MESSAGE value="登录，注册 -- 简单的案例练习" />
@@ -688,7 +684,8 @@
     <MESSAGE value="传递子类对象赋值给父类成员不会导致子类中的方法或属性消失&#10;&#10;当一个子类的对象赋值给父类的变量时，子类拥有的并不会消失，而会继续粗存，等到转化回子类后，仍旧可以使用。&#10;&#10;&#10;在面向对象的编程中，将子类对象赋值给父类成员（例如，将子类对象赋值给父类类型的变量）并不会导致子类中的方法或属性消失。相反，这样做是完全允许的，因为子类继承了父类的所有方法和属性，因此可以被视为父类的一个实例" />
     <MESSAGE value="About  duotai" />
     <MESSAGE value="多态调用成员的特点" />
-    <option name="LAST_COMMIT_MESSAGE" value="多态调用成员的特点" />
+    <MESSAGE value="养了一只狗" />
+    <option name="LAST_COMMIT_MESSAGE" value="养了一只狗" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
