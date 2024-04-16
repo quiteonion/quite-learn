@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="静态代码块">
-      <change afterPath="$PROJECT_DIR$/src/B20240416/AboutStringBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240416/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240416/img.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="有关于 StringBuffer">
+      <change afterPath="$PROJECT_DIR$/src/B20240416/Phone/IPlay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240416/Phone/NewPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240416/Phone/OldPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240416/Phone/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240416/Phone/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +27,7 @@
       <list>
         <option value="HTTP Request" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -230,15 +233,9 @@
       <workItem from="1712991101810" duration="6471000" />
       <workItem from="1713064195587" duration="189000" />
       <workItem from="1713170318912" duration="7159000" />
-      <workItem from="1713251154486" duration="1364000" />
-    </task>
-    <task id="LOCAL-00255" summary="讽刺评价 -- ji">
-      <option name="closed" value="true" />
-      <created>1711264612663</created>
-      <option name="number" value="00255" />
-      <option name="presentableId" value="LOCAL-00255" />
-      <option name="project" value="LOCAL" />
-      <updated>1711264612663</updated>
+      <workItem from="1713251154486" duration="1694000" />
+      <workItem from="1713267438024" duration="5000" />
+      <workItem from="1713276615522" duration="687000" />
     </task>
     <task id="LOCAL-00256" summary="README补充">
       <option name="closed" value="true" />
@@ -624,7 +621,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713188296060</updated>
     </task>
-    <option name="localTasksCounter" value="304" />
+    <task id="LOCAL-00304" summary="有关于 StringBuffer">
+      <option name="closed" value="true" />
+      <created>1713252820872</created>
+      <option name="number" value="00304" />
+      <option name="presentableId" value="LOCAL-00304" />
+      <option name="project" value="LOCAL" />
+      <updated>1713252820872</updated>
+    </task>
+    <option name="localTasksCounter" value="305" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,13 +650,6 @@
                       </list>
                     </value>
                   </entry>
-                  <entry key="text">
-                    <value>
-                      <list>
-                        <option value="StringBuilder" />
-                      </list>
-                    </value>
-                  </entry>
                 </map>
               </option>
             </State>
@@ -663,7 +661,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="It's not the number you think it is&#10;&#10;&#10;这不是你认为的数字" />
     <MESSAGE value="The book is free, and the flowers are fragrant&#10;&#10;书上自由，群花芬芳" />
     <MESSAGE value="简陋的投票" />
     <MESSAGE value="Flowers are born from buds&#10;&#10;花由芽起" />
@@ -688,7 +685,8 @@
     <MESSAGE value="README" />
     <MESSAGE value="静态代码块只会在第一个 new 出来的对象时被执行一次，随后就不会再被执行了" />
     <MESSAGE value="静态代码块" />
-    <option name="LAST_COMMIT_MESSAGE" value="静态代码块" />
+    <MESSAGE value="有关于 StringBuffer" />
+    <option name="LAST_COMMIT_MESSAGE" value="有关于 StringBuffer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
