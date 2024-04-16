@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="面向对象综合简单练">
-      <change afterPath="$PROJECT_DIR$/src/B20240416/Lptop/KeyBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240416/Lptop/Lptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240416/Lptop/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240416/Lptop/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240416/Lptop/USB.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="面向对象综合简单练 &#10;&#10;电脑，键盘，鼠标">
+      <change afterPath="$PROJECT_DIR$/src/B20240416/Car/BabyCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240416/Car/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240416/Car/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240416/Car/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -236,15 +235,7 @@
       <workItem from="1713251154486" duration="1694000" />
       <workItem from="1713267438024" duration="5000" />
       <workItem from="1713276615522" duration="731000" />
-      <workItem from="1713277415096" duration="921000" />
-    </task>
-    <task id="LOCAL-00257" summary="e1 -- 书写孤独">
-      <option name="closed" value="true" />
-      <created>1711267133891</created>
-      <option name="number" value="00257" />
-      <option name="presentableId" value="LOCAL-00257" />
-      <option name="project" value="LOCAL" />
-      <updated>1711267133891</updated>
+      <workItem from="1713277415096" duration="1904000" />
     </task>
     <task id="LOCAL-00258" summary="e1 -- 书写孤独 -1 &#10;&#10;每个人都快可以说出什么是孤独">
       <option name="closed" value="true" />
@@ -630,7 +621,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713277329748</updated>
     </task>
-    <option name="localTasksCounter" value="306" />
+    <task id="LOCAL-00306" summary="面向对象综合简单练 &#10;&#10;电脑，键盘，鼠标">
+      <option name="closed" value="true" />
+      <created>1713278439864</created>
+      <option name="number" value="00306" />
+      <option name="presentableId" value="LOCAL-00306" />
+      <option name="project" value="LOCAL" />
+      <updated>1713278439864</updated>
+    </task>
+    <option name="localTasksCounter" value="307" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,7 +661,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="简陋的投票" />
     <MESSAGE value="Flowers are born from buds&#10;&#10;花由芽起" />
     <MESSAGE value="Thousands of miles gallop through Pingchuan, often at different speeds&#10;&#10;千里路驰骋平川，往往速度不一样" />
     <MESSAGE value="学生登录系统" />
@@ -687,7 +685,8 @@
     <MESSAGE value="静态代码块" />
     <MESSAGE value="有关于 StringBuffer" />
     <MESSAGE value="面向对象综合简单练" />
-    <option name="LAST_COMMIT_MESSAGE" value="面向对象综合简单练" />
+    <MESSAGE value="面向对象综合简单练 &#10;&#10;电脑，键盘，鼠标" />
+    <option name="LAST_COMMIT_MESSAGE" value="面向对象综合简单练 &#10;&#10;电脑，键盘，鼠标" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
