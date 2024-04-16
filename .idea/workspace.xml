@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="有关于 StringBuffer">
-      <change afterPath="$PROJECT_DIR$/src/B20240416/Phone/IPlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240416/Phone/NewPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240416/Phone/OldPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240416/Phone/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240416/Phone/Test.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="面向对象综合简单练">
+      <change afterPath="$PROJECT_DIR$/src/B20240416/Lptop/KeyBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240416/Lptop/Lptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240416/Lptop/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240416/Lptop/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240416/Lptop/USB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -235,15 +235,8 @@
       <workItem from="1713170318912" duration="7159000" />
       <workItem from="1713251154486" duration="1694000" />
       <workItem from="1713267438024" duration="5000" />
-      <workItem from="1713276615522" duration="687000" />
-    </task>
-    <task id="LOCAL-00256" summary="README补充">
-      <option name="closed" value="true" />
-      <created>1711266848167</created>
-      <option name="number" value="00256" />
-      <option name="presentableId" value="LOCAL-00256" />
-      <option name="project" value="LOCAL" />
-      <updated>1711266848169</updated>
+      <workItem from="1713276615522" duration="731000" />
+      <workItem from="1713277415096" duration="921000" />
     </task>
     <task id="LOCAL-00257" summary="e1 -- 书写孤独">
       <option name="closed" value="true" />
@@ -629,7 +622,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713252820872</updated>
     </task>
-    <option name="localTasksCounter" value="305" />
+    <task id="LOCAL-00305" summary="面向对象综合简单练">
+      <option name="closed" value="true" />
+      <created>1713277329748</created>
+      <option name="number" value="00305" />
+      <option name="presentableId" value="LOCAL-00305" />
+      <option name="project" value="LOCAL" />
+      <updated>1713277329748</updated>
+    </task>
+    <option name="localTasksCounter" value="306" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -661,7 +662,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="The book is free, and the flowers are fragrant&#10;&#10;书上自由，群花芬芳" />
     <MESSAGE value="简陋的投票" />
     <MESSAGE value="Flowers are born from buds&#10;&#10;花由芽起" />
     <MESSAGE value="Thousands of miles gallop through Pingchuan, often at different speeds&#10;&#10;千里路驰骋平川，往往速度不一样" />
@@ -686,7 +686,8 @@
     <MESSAGE value="静态代码块只会在第一个 new 出来的对象时被执行一次，随后就不会再被执行了" />
     <MESSAGE value="静态代码块" />
     <MESSAGE value="有关于 StringBuffer" />
-    <option name="LAST_COMMIT_MESSAGE" value="有关于 StringBuffer" />
+    <MESSAGE value="面向对象综合简单练" />
+    <option name="LAST_COMMIT_MESSAGE" value="面向对象综合简单练" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
