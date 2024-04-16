@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="静态代码块只会在第一个 new 出来的对象时被执行一次，随后就不会再被执行了">
-      <change beforePath="$PROJECT_DIR$/src/B20240415/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240415/README.md" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="静态代码块">
+      <change afterPath="$PROJECT_DIR$/src/B20240416/AboutStringBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240416/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240416/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,15 +229,8 @@
       <workItem from="1712909280662" duration="2875000" />
       <workItem from="1712991101810" duration="6471000" />
       <workItem from="1713064195587" duration="189000" />
-      <workItem from="1713170318912" duration="7051000" />
-    </task>
-    <task id="LOCAL-00254" summary="什么是孤独">
-      <option name="closed" value="true" />
-      <created>1711264471300</created>
-      <option name="number" value="00254" />
-      <option name="presentableId" value="LOCAL-00254" />
-      <option name="project" value="LOCAL" />
-      <updated>1711264471300</updated>
+      <workItem from="1713170318912" duration="7159000" />
+      <workItem from="1713251154486" duration="1364000" />
     </task>
     <task id="LOCAL-00255" summary="讽刺评价 -- ji">
       <option name="closed" value="true" />
@@ -620,7 +616,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713188000890</updated>
     </task>
-    <option name="localTasksCounter" value="303" />
+    <task id="LOCAL-00303" summary="静态代码块">
+      <option name="closed" value="true" />
+      <created>1713188296060</created>
+      <option name="number" value="00303" />
+      <option name="presentableId" value="LOCAL-00303" />
+      <option name="project" value="LOCAL" />
+      <updated>1713188296060</updated>
+    </task>
+    <option name="localTasksCounter" value="304" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,7 +648,7 @@
                   <entry key="text">
                     <value>
                       <list>
-                        <option value="学生" />
+                        <option value="StringBuilder" />
                       </list>
                     </value>
                   </entry>
@@ -659,7 +663,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="That year I bought my own BMW and drove it around the world!&#10;&#10;&#10;那一年我买下了一辆属于自己的宝马，开着它畅游世界吧！" />
     <MESSAGE value="It's not the number you think it is&#10;&#10;&#10;这不是你认为的数字" />
     <MESSAGE value="The book is free, and the flowers are fragrant&#10;&#10;书上自由，群花芬芳" />
     <MESSAGE value="简陋的投票" />
@@ -684,7 +687,8 @@
     <MESSAGE value="加入强转&#10;&#10;在 Person 类中，如果只使用了判断传入的 Pet 的属于是不够的，如果有额外的，不同的方法要使用就不行了，所以，强转方法" />
     <MESSAGE value="README" />
     <MESSAGE value="静态代码块只会在第一个 new 出来的对象时被执行一次，随后就不会再被执行了" />
-    <option name="LAST_COMMIT_MESSAGE" value="静态代码块只会在第一个 new 出来的对象时被执行一次，随后就不会再被执行了" />
+    <MESSAGE value="静态代码块" />
+    <option name="LAST_COMMIT_MESSAGE" value="静态代码块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
