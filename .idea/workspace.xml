@@ -4,9 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="面向对象综合简单练 &#10;&#10;开车">
-      <change afterPath="$PROJECT_DIR$/src/A20240417/README.md" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="怎么在网站里查找自己想要的东西">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/angus-activation-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/angus-mail-2.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jakarta.activation-api-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jakarta.mail-api-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsoup-1.17.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240417/River/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240417/River/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240417/River/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240417/River/Wolf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240424/JsoupDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240424/MyEmailUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240424/MyEmailUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240417/River/Grass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240417/River/Grass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240424/JsoupDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240424/Jsoup1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,43 +64,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/B20240408&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\lib" />
+      <recent name="D:\idea\idea 存储\quite\src\A20240424" />
       <recent name="D:\idea\idea 存储\quite\src\B20240408" />
       <recent name="D:\idea\idea 存储\quite\src\A20240321" />
       <recent name="D:\idea\idea 存储\quite\src\A20240313" />
-      <recent name="D:\idea\idea 存储\quite\src\B20240309" />
-      <recent name="D:\idea\idea 存储\quite\src\A20231128" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\lib" />
+      <recent name="D:\idea\idea 存储\quite\src\A20240417" />
       <recent name="D:\idea\idea 存储\quite\src\B20240409" />
       <recent name="D:\idea\idea 存储\quite\src\B20240409\ArrayUtil" />
       <recent name="D:\idea\idea 存储\quite\src\A20240310\Image" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240308\Image" />
-      <recent name="D:\idea\idea 存储\quite\src\B20240309\Image" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="A20240424" />
       <recent name="Day006" />
     </key>
   </component>
@@ -236,86 +253,12 @@
       <workItem from="1713328464322" duration="1348000" />
       <workItem from="1713351808338" duration="1204000" />
       <workItem from="1713524847872" duration="595000" />
-    </task>
-    <task id="LOCAL-00259" summary="e1 -- 书写孤独 -2&#10;&#10;每个人都可以去书写">
-      <option name="closed" value="true" />
-      <created>1711267343565</created>
-      <option name="number" value="00259" />
-      <option name="presentableId" value="LOCAL-00259" />
-      <option name="project" value="LOCAL" />
-      <updated>1711267343565</updated>
-    </task>
-    <task id="LOCAL-00260" summary="e1 -- 书写孤独 -3&#10;&#10;这倒显得父类被重写的事物有点多余了">
-      <option name="closed" value="true" />
-      <created>1711267355163</created>
-      <option name="number" value="00260" />
-      <option name="presentableId" value="LOCAL-00260" />
-      <option name="project" value="LOCAL" />
-      <updated>1711267355163</updated>
-    </task>
-    <task id="LOCAL-00261" summary="e1 -- 书写孤独 -4&#10;&#10;无论如何父类都会被书写，所以引入抽象概念，令他抽象存在">
-      <option name="closed" value="true" />
-      <created>1711267398536</created>
-      <option name="number" value="00261" />
-      <option name="presentableId" value="LOCAL-00261" />
-      <option name="project" value="LOCAL" />
-      <updated>1711267398536</updated>
-    </task>
-    <task id="LOCAL-00262" summary="e1 -- 书写孤独 -5&#10;&#10;但是抽象方法只能出现在抽象的类中，所以要把类改为抽象类">
-      <option name="closed" value="true" />
-      <created>1711267474091</created>
-      <option name="number" value="00262" />
-      <option name="presentableId" value="LOCAL-00262" />
-      <option name="project" value="LOCAL" />
-      <updated>1711267474091</updated>
-    </task>
-    <task id="LOCAL-00263" summary="e2 --- 说不出口的话 &#10;&#10;对于一个人，每个人都有对其进行客观评价的权力">
-      <option name="closed" value="true" />
-      <created>1711267590085</created>
-      <option name="number" value="00263" />
-      <option name="presentableId" value="LOCAL-00263" />
-      <option name="project" value="LOCAL" />
-      <updated>1711267590085</updated>
-    </task>
-    <task id="LOCAL-00264" summary="e2 --- 说不出口的话 - 1&#10;&#10;但是在某些人的身上，却会被限制">
-      <option name="closed" value="true" />
-      <created>1711267642272</created>
-      <option name="number" value="00264" />
-      <option name="presentableId" value="LOCAL-00264" />
-      <option name="project" value="LOCAL" />
-      <updated>1711267642272</updated>
-    </task>
-    <task id="LOCAL-00265" summary="e2 --- 说不出口的话 - 2&#10;&#10;他们不允许别人作出不同的评价，于是就不给人们评价的能力">
-      <option name="closed" value="true" />
-      <created>1711267686183</created>
-      <option name="number" value="00265" />
-      <option name="presentableId" value="LOCAL-00265" />
-      <option name="project" value="LOCAL" />
-      <updated>1711267686183</updated>
-    </task>
-    <task id="LOCAL-00266" summary="e2 --- 说不出口的话 - 3&#10;&#10;于是便是说不出口的话">
-      <option name="closed" value="true" />
-      <created>1711267719502</created>
-      <option name="number" value="00266" />
-      <option name="presentableId" value="LOCAL-00266" />
-      <option name="project" value="LOCAL" />
-      <updated>1711267719502</updated>
-    </task>
-    <task id="LOCAL-00267" summary="登录，注册 -- 简单的案例练习">
-      <option name="closed" value="true" />
-      <created>1712063641139</created>
-      <option name="number" value="00267" />
-      <option name="presentableId" value="LOCAL-00267" />
-      <option name="project" value="LOCAL" />
-      <updated>1712063641139</updated>
-    </task>
-    <task id="LOCAL-00268" summary="让我们抽选一个幸运观众吧！！！">
-      <option name="closed" value="true" />
-      <created>1712064004118</created>
-      <option name="number" value="00268" />
-      <option name="presentableId" value="LOCAL-00268" />
-      <option name="project" value="LOCAL" />
-      <updated>1712064004118</updated>
+      <workItem from="1713580216538" duration="8908000" />
+      <workItem from="1713602416719" duration="798000" />
+      <workItem from="1713693297530" duration="1584000" />
+      <workItem from="1713878893908" duration="3430000" />
+      <workItem from="1713935990717" duration="1254000" />
+      <workItem from="1713956833354" duration="7867000" />
     </task>
     <task id="LOCAL-00269" summary="电影面向对象简单制作">
       <option name="closed" value="true" />
@@ -629,7 +572,87 @@
       <option name="project" value="LOCAL" />
       <updated>1713279390981</updated>
     </task>
-    <option name="localTasksCounter" value="308" />
+    <task id="LOCAL-00308" summary="复习，进步&#10;&#10;对于前面所学习的面向对象进行了一个总结，并且让 html 能在 idea 中运行">
+      <option name="closed" value="true" />
+      <created>1713600950331</created>
+      <option name="number" value="00308" />
+      <option name="presentableId" value="LOCAL-00308" />
+      <option name="project" value="LOCAL" />
+      <updated>1713600950331</updated>
+    </task>
+    <task id="LOCAL-00309" summary="模拟订单号生成">
+      <option name="closed" value="true" />
+      <created>1713881101710</created>
+      <option name="number" value="00309" />
+      <option name="presentableId" value="LOCAL-00309" />
+      <option name="project" value="LOCAL" />
+      <updated>1713881101710</updated>
+    </task>
+    <task id="LOCAL-00310" summary="模拟密码自动生成">
+      <option name="closed" value="true" />
+      <created>1713881235021</created>
+      <option name="number" value="00310" />
+      <option name="presentableId" value="LOCAL-00310" />
+      <option name="project" value="LOCAL" />
+      <updated>1713881235021</updated>
+    </task>
+    <task id="LOCAL-00311" summary="关于·JS">
+      <option name="closed" value="true" />
+      <created>1713881275154</created>
+      <option name="number" value="00311" />
+      <option name="presentableId" value="LOCAL-00311" />
+      <option name="project" value="LOCAL" />
+      <updated>1713881275154</updated>
+    </task>
+    <task id="LOCAL-00312" summary="模拟登录系统">
+      <option name="closed" value="true" />
+      <created>1713881619439</created>
+      <option name="number" value="00312" />
+      <option name="presentableId" value="LOCAL-00312" />
+      <option name="project" value="LOCAL" />
+      <updated>1713881619439</updated>
+    </task>
+    <task id="LOCAL-00313" summary="字符转二进制&#10;&#10;主要为  Integer.toBinaryString() 的运用">
+      <option name="closed" value="true" />
+      <created>1713882381365</created>
+      <option name="number" value="00313" />
+      <option name="presentableId" value="LOCAL-00313" />
+      <option name="project" value="LOCAL" />
+      <updated>1713882381365</updated>
+    </task>
+    <task id="LOCAL-00314" summary="不被需要的">
+      <option name="closed" value="true" />
+      <created>1713936917186</created>
+      <option name="number" value="00314" />
+      <option name="presentableId" value="LOCAL-00314" />
+      <option name="project" value="LOCAL" />
+      <updated>1713936917186</updated>
+    </task>
+    <task id="LOCAL-00315" summary="不被需要的 -- 删除错误了">
+      <option name="closed" value="true" />
+      <created>1713936959935</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1713936959935</updated>
+    </task>
+    <task id="LOCAL-00316" summary="往期回顾">
+      <option name="closed" value="true" />
+      <created>1713957883515</created>
+      <option name="number" value="00316" />
+      <option name="presentableId" value="LOCAL-00316" />
+      <option name="project" value="LOCAL" />
+      <updated>1713957883515</updated>
+    </task>
+    <task id="LOCAL-00317" summary="怎么在网站里查找自己想要的东西">
+      <option name="closed" value="true" />
+      <created>1713960703882</created>
+      <option name="number" value="00317" />
+      <option name="presentableId" value="LOCAL-00317" />
+      <option name="project" value="LOCAL" />
+      <updated>1713960703882</updated>
+    </task>
+    <option name="localTasksCounter" value="318" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -661,16 +684,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Thousands of miles gallop through Pingchuan, often at different speeds&#10;&#10;千里路驰骋平川，往往速度不一样" />
-    <MESSAGE value="学生登录系统" />
-    <MESSAGE value="instanceof" />
-    <MESSAGE value="一个类中不仅仅都会拥有 state---工具类&#10;&#10;有名有姓不是常态，拥有作用才是末态" />
-    <MESSAGE value="调整位置" />
-    <MESSAGE value="有关于工具类的简单的练习" />
-    <MESSAGE value="static 静态方法" />
-    <MESSAGE value="涨工资啦--案例4-7" />
-    <MESSAGE value="README 补充" />
-    <MESSAGE value="传递子类对象赋值给父类成员不会导致子类中的方法或属性消失&#10;&#10;当一个子类的对象赋值给父类的变量时，子类拥有的并不会消失，而会继续粗存，等到转化回子类后，仍旧可以使用。&#10;&#10;&#10;在面向对象的编程中，将子类对象赋值给父类成员（例如，将子类对象赋值给父类类型的变量）并不会导致子类中的方法或属性消失。相反，这样做是完全允许的，因为子类继承了父类的所有方法和属性，因此可以被视为父类的一个实例" />
     <MESSAGE value="About  duotai" />
     <MESSAGE value="多态调用成员的特点" />
     <MESSAGE value="养了一只狗" />
@@ -686,7 +699,17 @@
     <MESSAGE value="面向对象综合简单练" />
     <MESSAGE value="面向对象综合简单练 &#10;&#10;电脑，键盘，鼠标" />
     <MESSAGE value="面向对象综合简单练 &#10;&#10;开车" />
-    <option name="LAST_COMMIT_MESSAGE" value="面向对象综合简单练 &#10;&#10;开车" />
+    <MESSAGE value="复习，进步&#10;&#10;对于前面所学习的面向对象进行了一个总结，并且让 html 能在 idea 中运行" />
+    <MESSAGE value="模拟订单号生成" />
+    <MESSAGE value="模拟密码自动生成" />
+    <MESSAGE value="关于·JS" />
+    <MESSAGE value="模拟登录系统" />
+    <MESSAGE value="字符转二进制&#10;&#10;主要为  Integer.toBinaryString() 的运用" />
+    <MESSAGE value="不被需要的" />
+    <MESSAGE value="不被需要的 -- 删除错误了" />
+    <MESSAGE value="往期回顾" />
+    <MESSAGE value="怎么在网站里查找自己想要的东西" />
+    <option name="LAST_COMMIT_MESSAGE" value="怎么在网站里查找自己想要的东西" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
