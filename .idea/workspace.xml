@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="怎么在网站里查找自己想要的东西">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/angus-activation-2.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/angus-mail-2.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jakarta.activation-api-2.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jakarta.mail-api-2.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jsoup-1.17.2.jar" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="关于接口">
       <change afterPath="$PROJECT_DIR$/src/A20240417/River/Animal.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/A20240417/River/Sheep.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/A20240417/River/Test.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/A20240417/River/Wolf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240424/JsoupDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240424/MyEmailUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240424/MyEmailUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A20240417/River/Grass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240417/River/Grass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240424/JsoupDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240424/Jsoup1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,35 +53,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/idea/idea 存储/quite/lib",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/B20240435/JieKou&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\B20240435\JieKou" />
       <recent name="D:\idea\idea 存储\quite\lib" />
       <recent name="D:\idea\idea 存储\quite\src\A20240424" />
       <recent name="D:\idea\idea 存储\quite\src\B20240408" />
       <recent name="D:\idea\idea 存储\quite\src\A20240321" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240313" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\lib" />
@@ -258,31 +246,10 @@
       <workItem from="1713693297530" duration="1584000" />
       <workItem from="1713878893908" duration="3430000" />
       <workItem from="1713935990717" duration="1254000" />
-      <workItem from="1713956833354" duration="7867000" />
-    </task>
-    <task id="LOCAL-00269" summary="电影面向对象简单制作">
-      <option name="closed" value="true" />
-      <created>1712064310361</created>
-      <option name="number" value="00269" />
-      <option name="presentableId" value="LOCAL-00269" />
-      <option name="project" value="LOCAL" />
-      <updated>1712064310361</updated>
-    </task>
-    <task id="LOCAL-00270" summary="我有好多好多的书！">
-      <option name="closed" value="true" />
-      <created>1712064427841</created>
-      <option name="number" value="00270" />
-      <option name="presentableId" value="LOCAL-00270" />
-      <option name="project" value="LOCAL" />
-      <updated>1712064427841</updated>
-    </task>
-    <task id="LOCAL-00271" summary="我知道你想要说什么，但是，这是我的时间！">
-      <option name="closed" value="true" />
-      <created>1712064488928</created>
-      <option name="number" value="00271" />
-      <option name="presentableId" value="LOCAL-00271" />
-      <option name="project" value="LOCAL" />
-      <updated>1712064488928</updated>
+      <workItem from="1713956833354" duration="8409000" />
+      <workItem from="1714047909173" duration="246000" />
+      <workItem from="1714116878908" duration="2020000" />
+      <workItem from="1714128001277" duration="2191000" />
     </task>
     <task id="LOCAL-00272" summary="That year I bought my own BMW and drove it around the world!&#10;&#10;&#10;那一年我买下了一辆属于自己的宝马，开着它畅游世界吧！">
       <option name="closed" value="true" />
@@ -652,7 +619,31 @@
       <option name="project" value="LOCAL" />
       <updated>1713960703882</updated>
     </task>
-    <option name="localTasksCounter" value="318" />
+    <task id="LOCAL-00318" summary="建立连接，连接邮箱">
+      <option name="closed" value="true" />
+      <created>1713965071086</created>
+      <option name="number" value="00318" />
+      <option name="presentableId" value="LOCAL-00318" />
+      <option name="project" value="LOCAL" />
+      <updated>1713965071086</updated>
+    </task>
+    <task id="LOCAL-00319" summary="建立连接，连接邮箱">
+      <option name="closed" value="true" />
+      <created>1713965222719</created>
+      <option name="number" value="00319" />
+      <option name="presentableId" value="LOCAL-00319" />
+      <option name="project" value="LOCAL" />
+      <updated>1713965222719</updated>
+    </task>
+    <task id="LOCAL-00320" summary="关于接口">
+      <option name="closed" value="true" />
+      <created>1714048124610</created>
+      <option name="number" value="00320" />
+      <option name="presentableId" value="LOCAL-00320" />
+      <option name="project" value="LOCAL" />
+      <updated>1714048124610</updated>
+    </task>
+    <option name="localTasksCounter" value="321" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,8 +675,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="About  duotai" />
-    <MESSAGE value="多态调用成员的特点" />
     <MESSAGE value="养了一只狗" />
     <MESSAGE value="重写显得有点呆" />
     <MESSAGE value="补充独有的行为" />
@@ -709,7 +698,9 @@
     <MESSAGE value="不被需要的 -- 删除错误了" />
     <MESSAGE value="往期回顾" />
     <MESSAGE value="怎么在网站里查找自己想要的东西" />
-    <option name="LAST_COMMIT_MESSAGE" value="怎么在网站里查找自己想要的东西" />
+    <MESSAGE value="建立连接，连接邮箱" />
+    <MESSAGE value="关于接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="关于接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
