@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="关于接口">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment=".">
       <change afterPath="$PROJECT_DIR$/src/A20240417/River/Animal.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/A20240417/River/Sheep.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/A20240417/River/Test.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/A20240417/River/Wolf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A20240417/River/Grass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240417/River/Grass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -249,15 +248,7 @@
       <workItem from="1713956833354" duration="8409000" />
       <workItem from="1714047909173" duration="246000" />
       <workItem from="1714116878908" duration="2020000" />
-      <workItem from="1714128001277" duration="2191000" />
-    </task>
-    <task id="LOCAL-00272" summary="That year I bought my own BMW and drove it around the world!&#10;&#10;&#10;那一年我买下了一辆属于自己的宝马，开着它畅游世界吧！">
-      <option name="closed" value="true" />
-      <created>1712064582817</created>
-      <option name="number" value="00272" />
-      <option name="presentableId" value="LOCAL-00272" />
-      <option name="project" value="LOCAL" />
-      <updated>1712064582817</updated>
+      <workItem from="1714128001277" duration="2815000" />
     </task>
     <task id="LOCAL-00273" summary="It's not the number you think it is&#10;&#10;&#10;这不是你认为的数字">
       <option name="closed" value="true" />
@@ -643,7 +634,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714048124610</updated>
     </task>
-    <option name="localTasksCounter" value="321" />
+    <task id="LOCAL-00321" summary=".">
+      <option name="closed" value="true" />
+      <created>1714136339341</created>
+      <option name="number" value="00321" />
+      <option name="presentableId" value="LOCAL-00321" />
+      <option name="project" value="LOCAL" />
+      <updated>1714136339341</updated>
+    </task>
+    <option name="localTasksCounter" value="322" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +674,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="养了一只狗" />
     <MESSAGE value="重写显得有点呆" />
     <MESSAGE value="补充独有的行为" />
     <MESSAGE value="使用重载的方法进行调用&#10;&#10;好处： 能够使用到重载的方式。。&#10;坏处： 在原本的代码中，进入饲养方法的形参中的，是 pet 而是猫还是狗由系统进行辨别，而新代码中却做不到" />
@@ -700,7 +698,8 @@
     <MESSAGE value="怎么在网站里查找自己想要的东西" />
     <MESSAGE value="建立连接，连接邮箱" />
     <MESSAGE value="关于接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="关于接口" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
