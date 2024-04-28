@@ -1,4 +1,4 @@
-package B20240435.JieKou;
+package B20240425.JieKou;
 
 public class TableTennisPlayer extends Player implements LearnEnglish {
     public TableTennisPlayer(String name, int age) {

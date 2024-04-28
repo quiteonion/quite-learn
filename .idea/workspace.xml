@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="农夫狼羊草过河-模型的完成&#10;&#10;我使用了较为简单的做法，思路是：&#10;1、由于船只能由农夫开，所以只需要上去一个生物就够了&#10;2、判断两岸的生物的互相吃的状态&#10;3、胜利状态的判断">
-      <change afterPath="$PROJECT_DIR$/src/B20240428/AAA/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240428/AAA/ATest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240428/AAA/ATest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240428/AAA/TestA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240428/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240428/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240428/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240428/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240428/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240428/img_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="有关于接口" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -256,15 +244,7 @@
       <workItem from="1714116878908" duration="2020000" />
       <workItem from="1714128001277" duration="3101000" />
       <workItem from="1714278256463" duration="7409000" />
-      <workItem from="1714294750675" duration="1716000" />
-    </task>
-    <task id="LOCAL-00276" summary="Flowers are born from buds&#10;&#10;花由芽起">
-      <option name="closed" value="true" />
-      <created>1712208105347</created>
-      <option name="number" value="00276" />
-      <option name="presentableId" value="LOCAL-00276" />
-      <option name="project" value="LOCAL" />
-      <updated>1712208105347</updated>
+      <workItem from="1714294750675" duration="1914000" />
     </task>
     <task id="LOCAL-00277" summary="Thousands of miles gallop through Pingchuan, often at different speeds&#10;&#10;千里路驰骋平川，往往速度不一样">
       <option name="closed" value="true" />
@@ -650,7 +630,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714294144315</updated>
     </task>
-    <option name="localTasksCounter" value="325" />
+    <task id="LOCAL-00325" summary="有关于接口">
+      <option name="closed" value="true" />
+      <created>1714296595034</created>
+      <option name="number" value="00325" />
+      <option name="presentableId" value="LOCAL-00325" />
+      <option name="project" value="LOCAL" />
+      <updated>1714296595034</updated>
+    </task>
+    <option name="localTasksCounter" value="326" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -702,7 +690,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="使用重载的方法进行调用&#10;&#10;好处： 能够使用到重载的方式。。&#10;坏处： 在原本的代码中，进入饲养方法的形参中的，是 pet 而是猫还是狗由系统进行辨别，而新代码中却做不到" />
     <MESSAGE value="顶级优化！！！&#10;&#10;在本次优化中，融合了两大特点，原本的代码中辨别的部分由 Pet 执行，并且缺少了重写部分，非常不合理，但是在新代码中，辨别部分由 person 来辨别，更加的合理" />
     <MESSAGE value="加入强转&#10;&#10;在 Person 类中，如果只使用了判断传入的 Pet 的属于是不够的，如果有额外的，不同的方法要使用就不行了，所以，强转方法" />
     <MESSAGE value="README" />
@@ -727,7 +714,8 @@
     <MESSAGE value="." />
     <MESSAGE value="中间状态，思索对策" />
     <MESSAGE value="农夫狼羊草过河-模型的完成&#10;&#10;我使用了较为简单的做法，思路是：&#10;1、由于船只能由农夫开，所以只需要上去一个生物就够了&#10;2、判断两岸的生物的互相吃的状态&#10;3、胜利状态的判断" />
-    <option name="LAST_COMMIT_MESSAGE" value="农夫狼羊草过河-模型的完成&#10;&#10;我使用了较为简单的做法，思路是：&#10;1、由于船只能由农夫开，所以只需要上去一个生物就够了&#10;2、判断两岸的生物的互相吃的状态&#10;3、胜利状态的判断" />
+    <MESSAGE value="有关于接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="有关于接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
