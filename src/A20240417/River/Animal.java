@@ -2,7 +2,7 @@ package A20240417.River;
 
 public class Animal {
     private String name;
-    protected int location = -1;
+    protected int location = 0;
 
     public Animal() {
     }
@@ -19,9 +19,13 @@ public class Animal {
         this.name = name;
     }
 
-
-    public boolean surrounding(Animal[] animal){
-
-        return false;
+    public void addLocation() {
+        this.location += 1;
+    }
+    public void deleteLocation() {
+        this.location -= 1;
+    }
+    public int getLocation(){
+        return this.location;
     }
 }

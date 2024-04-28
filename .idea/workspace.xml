@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/A20240417/River/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240417/River/Sheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240417/River/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240417/River/Wolf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240417/River/Grass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240417/River/Grass.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="中间状态，思索对策">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240417/River/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240417/River/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240417/River/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240417/River/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240417/River/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240417/River/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,23 +247,8 @@
       <workItem from="1713956833354" duration="8409000" />
       <workItem from="1714047909173" duration="246000" />
       <workItem from="1714116878908" duration="2020000" />
-      <workItem from="1714128001277" duration="2815000" />
-    </task>
-    <task id="LOCAL-00273" summary="It's not the number you think it is&#10;&#10;&#10;这不是你认为的数字">
-      <option name="closed" value="true" />
-      <created>1712064939510</created>
-      <option name="number" value="00273" />
-      <option name="presentableId" value="LOCAL-00273" />
-      <option name="project" value="LOCAL" />
-      <updated>1712064939510</updated>
-    </task>
-    <task id="LOCAL-00274" summary="The book is free, and the flowers are fragrant&#10;&#10;书上自由，群花芬芳">
-      <option name="closed" value="true" />
-      <created>1712148959831</created>
-      <option name="number" value="00274" />
-      <option name="presentableId" value="LOCAL-00274" />
-      <option name="project" value="LOCAL" />
-      <updated>1712148959831</updated>
+      <workItem from="1714128001277" duration="3101000" />
+      <workItem from="1714278256463" duration="6627000" />
     </task>
     <task id="LOCAL-00275" summary="简陋的投票">
       <option name="closed" value="true" />
@@ -642,13 +626,49 @@
       <option name="project" value="LOCAL" />
       <updated>1714136339341</updated>
     </task>
-    <option name="localTasksCounter" value="322" />
+    <task id="LOCAL-00322" summary=".">
+      <option name="closed" value="true" />
+      <created>1714136443769</created>
+      <option name="number" value="00322" />
+      <option name="presentableId" value="LOCAL-00322" />
+      <option name="project" value="LOCAL" />
+      <updated>1714136443769</updated>
+    </task>
+    <task id="LOCAL-00323" summary="中间状态，思索对策">
+      <option name="closed" value="true" />
+      <created>1714136485094</created>
+      <option name="number" value="00323" />
+      <option name="presentableId" value="LOCAL-00323" />
+      <option name="project" value="LOCAL" />
+      <updated>1714136485094</updated>
+    </task>
+    <option name="localTasksCounter" value="324" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -674,7 +694,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="重写显得有点呆" />
     <MESSAGE value="补充独有的行为" />
     <MESSAGE value="使用重载的方法进行调用&#10;&#10;好处： 能够使用到重载的方式。。&#10;坏处： 在原本的代码中，进入饲养方法的形参中的，是 pet 而是猫还是狗由系统进行辨别，而新代码中却做不到" />
     <MESSAGE value="顶级优化！！！&#10;&#10;在本次优化中，融合了两大特点，原本的代码中辨别的部分由 Pet 执行，并且缺少了重写部分，非常不合理，但是在新代码中，辨别部分由 person 来辨别，更加的合理" />
@@ -699,7 +718,8 @@
     <MESSAGE value="建立连接，连接邮箱" />
     <MESSAGE value="关于接口" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="中间状态，思索对策" />
+    <option name="LAST_COMMIT_MESSAGE" value="中间状态，思索对策" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -820,6 +840,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A20240417/River/Test.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
