@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="更改文件夹名称">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="拼图游戏 -- 主界面的创建">
+      <change afterPath="$PROJECT_DIR$/src/B20240430/Outer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/B20240430/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PinTuGame/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PinTuGame/com/onion/ui/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PinTuGame/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PinTuGame/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240430/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240430/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240430/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -253,15 +253,8 @@
       <workItem from="1714278256463" duration="7409000" />
       <workItem from="1714294750675" duration="1914000" />
       <workItem from="1714296880132" duration="43000" />
-      <workItem from="1714460466969" duration="2690000" />
-    </task>
-    <task id="LOCAL-00278" summary="学生登录系统">
-      <option name="closed" value="true" />
-      <created>1712575685415</created>
-      <option name="number" value="00278" />
-      <option name="presentableId" value="LOCAL-00278" />
-      <option name="project" value="LOCAL" />
-      <updated>1712575685415</updated>
+      <workItem from="1714460466969" duration="3124000" />
+      <workItem from="1714540691297" duration="1391000" />
     </task>
     <task id="LOCAL-00279" summary="学生登录系统">
       <option name="closed" value="true" />
@@ -647,7 +640,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714296903265</updated>
     </task>
-    <option name="localTasksCounter" value="327" />
+    <task id="LOCAL-00327" summary="拼图游戏 -- 主界面的创建">
+      <option name="closed" value="true" />
+      <created>1714467199487</created>
+      <option name="number" value="00327" />
+      <option name="presentableId" value="LOCAL-00327" />
+      <option name="project" value="LOCAL" />
+      <updated>1714467199487</updated>
+    </task>
+    <option name="localTasksCounter" value="328" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -699,7 +700,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="加入强转&#10;&#10;在 Person 类中，如果只使用了判断传入的 Pet 的属于是不够的，如果有额外的，不同的方法要使用就不行了，所以，强转方法" />
     <MESSAGE value="README" />
     <MESSAGE value="静态代码块只会在第一个 new 出来的对象时被执行一次，随后就不会再被执行了" />
     <MESSAGE value="静态代码块" />
@@ -724,7 +724,8 @@
     <MESSAGE value="农夫狼羊草过河-模型的完成&#10;&#10;我使用了较为简单的做法，思路是：&#10;1、由于船只能由农夫开，所以只需要上去一个生物就够了&#10;2、判断两岸的生物的互相吃的状态&#10;3、胜利状态的判断" />
     <MESSAGE value="有关于接口" />
     <MESSAGE value="更改文件夹名称" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改文件夹名称" />
+    <MESSAGE value="拼图游戏 -- 主界面的创建" />
+    <option name="LAST_COMMIT_MESSAGE" value="拼图游戏 -- 主界面的创建" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
