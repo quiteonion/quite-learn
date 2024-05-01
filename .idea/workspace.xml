@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="静态内部类">
-      <change afterPath="$PROJECT_DIR$/src/B20240430/img_6.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="局部内部类">
+      <change afterPath="$PROJECT_DIR$/src/B20240430/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240430/img_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240430/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240430/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -250,23 +252,7 @@
       <workItem from="1714294750675" duration="1914000" />
       <workItem from="1714296880132" duration="43000" />
       <workItem from="1714460466969" duration="3124000" />
-      <workItem from="1714540691297" duration="2431000" />
-    </task>
-    <task id="LOCAL-00281" summary="一个类中不仅仅都会拥有 state---工具类&#10;&#10;有名有姓不是常态，拥有作用才是末态">
-      <option name="closed" value="true" />
-      <created>1712647129087</created>
-      <option name="number" value="00281" />
-      <option name="presentableId" value="LOCAL-00281" />
-      <option name="project" value="LOCAL" />
-      <updated>1712647129087</updated>
-    </task>
-    <task id="LOCAL-00282" summary="调整位置">
-      <option name="closed" value="true" />
-      <created>1712647955332</created>
-      <option name="number" value="00282" />
-      <option name="presentableId" value="LOCAL-00282" />
-      <option name="project" value="LOCAL" />
-      <updated>1712647955332</updated>
+      <workItem from="1714540691297" duration="3146000" />
     </task>
     <task id="LOCAL-00283" summary="有关于工具类的简单的练习">
       <option name="closed" value="true" />
@@ -644,7 +630,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714545546895</updated>
     </task>
-    <option name="localTasksCounter" value="330" />
+    <task id="LOCAL-00330" summary="局部内部类">
+      <option name="closed" value="true" />
+      <created>1714545746883</created>
+      <option name="number" value="00330" />
+      <option name="presentableId" value="LOCAL-00330" />
+      <option name="project" value="LOCAL" />
+      <updated>1714545746883</updated>
+    </task>
+    <task id="LOCAL-00331" summary="局部内部类">
+      <option name="closed" value="true" />
+      <created>1714545862712</created>
+      <option name="number" value="00331" />
+      <option name="presentableId" value="LOCAL-00331" />
+      <option name="project" value="LOCAL" />
+      <updated>1714545862712</updated>
+    </task>
+    <option name="localTasksCounter" value="332" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -696,7 +698,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="静态代码块" />
     <MESSAGE value="有关于 StringBuffer" />
     <MESSAGE value="面向对象综合简单练" />
     <MESSAGE value="面向对象综合简单练 &#10;&#10;电脑，键盘，鼠标" />
@@ -721,7 +722,8 @@
     <MESSAGE value="拼图游戏 -- 主界面的创建" />
     <MESSAGE value="成员内部类" />
     <MESSAGE value="静态内部类" />
-    <option name="LAST_COMMIT_MESSAGE" value="静态内部类" />
+    <MESSAGE value="局部内部类" />
+    <option name="LAST_COMMIT_MESSAGE" value="局部内部类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

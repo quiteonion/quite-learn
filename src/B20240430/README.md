@@ -36,4 +36,10 @@
 
 ![img_7.png](img_7.png)
 
-#
+# 匿名内部类
+
+![img_8.png](img_8.png)
+
+![img_9.png](img_9.png)
+
+实现关系或者继承关系
