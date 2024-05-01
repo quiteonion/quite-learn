@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="局部内部类">
-      <change afterPath="$PROJECT_DIR$/src/B20240430/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240430/img_9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240430/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240430/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="匿名内部类" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -252,15 +247,7 @@
       <workItem from="1714294750675" duration="1914000" />
       <workItem from="1714296880132" duration="43000" />
       <workItem from="1714460466969" duration="3124000" />
-      <workItem from="1714540691297" duration="3146000" />
-    </task>
-    <task id="LOCAL-00283" summary="有关于工具类的简单的练习">
-      <option name="closed" value="true" />
-      <created>1712648488574</created>
-      <option name="number" value="00283" />
-      <option name="presentableId" value="LOCAL-00283" />
-      <option name="project" value="LOCAL" />
-      <updated>1712648488574</updated>
+      <workItem from="1714540691297" duration="3296000" />
     </task>
     <task id="LOCAL-00284" summary="有关于工具类的简单的练习">
       <option name="closed" value="true" />
@@ -646,7 +633,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714545862712</updated>
     </task>
-    <option name="localTasksCounter" value="332" />
+    <task id="LOCAL-00332" summary="匿名内部类">
+      <option name="closed" value="true" />
+      <created>1714546495118</created>
+      <option name="number" value="00332" />
+      <option name="presentableId" value="LOCAL-00332" />
+      <option name="project" value="LOCAL" />
+      <updated>1714546495118</updated>
+    </task>
+    <option name="localTasksCounter" value="333" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -698,7 +693,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="有关于 StringBuffer" />
     <MESSAGE value="面向对象综合简单练" />
     <MESSAGE value="面向对象综合简单练 &#10;&#10;电脑，键盘，鼠标" />
     <MESSAGE value="面向对象综合简单练 &#10;&#10;开车" />
@@ -723,7 +717,8 @@
     <MESSAGE value="成员内部类" />
     <MESSAGE value="静态内部类" />
     <MESSAGE value="局部内部类" />
-    <option name="LAST_COMMIT_MESSAGE" value="局部内部类" />
+    <MESSAGE value="匿名内部类" />
+    <option name="LAST_COMMIT_MESSAGE" value="匿名内部类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
