@@ -31,3 +31,9 @@
 ## 注意
 
 局部变量和局部内部类一样，不能使用 public 和 protected 修饰
+
+## 总结
+
+![img_7.png](img_7.png)
+
+#
