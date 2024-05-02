@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="练习3 --- 匿名内部类的使用">
-      <change afterPath="$PROJECT_DIR$/src/B20240502/Test5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240502/Test5/OuterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240502/Test5/img_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240502/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240502/README.md" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="练习五 --- 访问外部类的成员">
+      <change afterPath="$PROJECT_DIR$/src/PinTuGame/APP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PinTuGame/com/onion/ui/GameJFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PinTuGame/com/onion/ui/LoginJFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PinTuGame/com/onion/ui/RegisterJFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PinTuGame/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PinTuGame/img_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PinTuGame/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/PinTuGame/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PinTuGame/com/onion/ui/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,15 +259,7 @@
       <workItem from="1714460466969" duration="3124000" />
       <workItem from="1714540691297" duration="3296000" />
       <workItem from="1714558832997" duration="688000" />
-      <workItem from="1714630198901" duration="4213000" />
-    </task>
-    <task id="LOCAL-00291" summary="About  duotai">
-      <option name="closed" value="true" />
-      <created>1712998624080</created>
-      <option name="number" value="00291" />
-      <option name="presentableId" value="LOCAL-00291" />
-      <option name="project" value="LOCAL" />
-      <updated>1712998624080</updated>
+      <workItem from="1714630198901" duration="6853000" />
     </task>
     <task id="LOCAL-00292" summary="多态调用成员的特点">
       <option name="closed" value="true" />
@@ -648,7 +645,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714633361004</updated>
     </task>
-    <option name="localTasksCounter" value="340" />
+    <task id="LOCAL-00340" summary="练习五 --- 访问外部类的成员">
+      <option name="closed" value="true" />
+      <created>1714634858958</created>
+      <option name="number" value="00340" />
+      <option name="presentableId" value="LOCAL-00340" />
+      <option name="project" value="LOCAL" />
+      <updated>1714634858958</updated>
+    </task>
+    <option name="localTasksCounter" value="341" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -700,7 +705,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="模拟密码自动生成" />
     <MESSAGE value="关于·JS" />
     <MESSAGE value="模拟登录系统" />
     <MESSAGE value="字符转二进制&#10;&#10;主要为  Integer.toBinaryString() 的运用" />
@@ -725,7 +729,8 @@
     <MESSAGE value="练习2 --- 非静态内部类的使用" />
     <MESSAGE value="练习3 --- 局部内部类的使用" />
     <MESSAGE value="练习3 --- 匿名内部类的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="练习3 --- 匿名内部类的使用" />
+    <MESSAGE value="练习五 --- 访问外部类的成员" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习五 --- 访问外部类的成员" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
