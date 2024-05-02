@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="图片的整合&#10;&#10;一个包图片太多了，将他们整合成一个文件夹">
-      <change afterPath="$PROJECT_DIR$/src/B20240502/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240502/Test1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240502/Test1/OuterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240502/Test1/img.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="练习1 --- 静态内部类的使用">
+      <change afterPath="$PROJECT_DIR$/src/B20240502/Test2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240502/Test2/OuterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240502/Test2/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240502/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240502/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,34 +51,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/B20240435/JieKou&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/src/B20240502/Test2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\B20240502\Test2" />
       <recent name="D:\idea\idea 存储\quite\src\B20240435\JieKou" />
       <recent name="D:\idea\idea 存储\quite\lib" />
       <recent name="D:\idea\idea 存储\quite\src\A20240424" />
       <recent name="D:\idea\idea 存储\quite\src\B20240408" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240321" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\B20240502\Test1" />
@@ -254,15 +254,7 @@
       <workItem from="1714460466969" duration="3124000" />
       <workItem from="1714540691297" duration="3296000" />
       <workItem from="1714558832997" duration="688000" />
-      <workItem from="1714630198901" duration="1090000" />
-    </task>
-    <task id="LOCAL-00286" summary="README 补充">
-      <option name="closed" value="true" />
-      <created>1712725527787</created>
-      <option name="number" value="00286" />
-      <option name="presentableId" value="LOCAL-00286" />
-      <option name="project" value="LOCAL" />
-      <updated>1712725527787</updated>
+      <workItem from="1714630198901" duration="1600000" />
     </task>
     <task id="LOCAL-00287" summary="README 补充">
       <option name="closed" value="true" />
@@ -648,7 +640,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714630652320</updated>
     </task>
-    <option name="localTasksCounter" value="335" />
+    <task id="LOCAL-00335" summary="练习1 --- 静态内部类的使用">
+      <option name="closed" value="true" />
+      <created>1714631426453</created>
+      <option name="number" value="00335" />
+      <option name="presentableId" value="LOCAL-00335" />
+      <option name="project" value="LOCAL" />
+      <updated>1714631426453</updated>
+    </task>
+    <option name="localTasksCounter" value="336" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -700,7 +700,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="面向对象综合简单练 &#10;&#10;电脑，键盘，鼠标" />
     <MESSAGE value="面向对象综合简单练 &#10;&#10;开车" />
     <MESSAGE value="复习，进步&#10;&#10;对于前面所学习的面向对象进行了一个总结，并且让 html 能在 idea 中运行" />
     <MESSAGE value="模拟订单号生成" />
@@ -725,7 +724,8 @@
     <MESSAGE value="局部内部类" />
     <MESSAGE value="匿名内部类" />
     <MESSAGE value="图片的整合&#10;&#10;一个包图片太多了，将他们整合成一个文件夹" />
-    <option name="LAST_COMMIT_MESSAGE" value="图片的整合&#10;&#10;一个包图片太多了，将他们整合成一个文件夹" />
+    <MESSAGE value="练习1 --- 静态内部类的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习1 --- 静态内部类的使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
