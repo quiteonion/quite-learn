@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="匿名内部类">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="图片的整合&#10;&#10;一个包图片太多了，将他们整合成一个文件夹">
+      <change afterPath="$PROJECT_DIR$/src/B20240502/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240502/Test1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240502/Test1/OuterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240502/Test1/img.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +81,11 @@
       <recent name="D:\idea\idea 存储\quite\src\A20240321" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\idea\idea 存储\quite\lib" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240417" />
-      <recent name="D:\idea\idea 存储\quite\src\B20240409" />
-      <recent name="D:\idea\idea 存储\quite\src\B20240409\ArrayUtil" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240310\Image" />
+      <recent name="D:\idea\idea 存储\quite\src\B20240502\Test1" />
+      <recent name="D:\idea\idea 存储\quite\src\B20240413\pic" />
+      <recent name="D:\idea\idea 存储\quite\src\B20240415\pic" />
+      <recent name="D:\idea\idea 存储\quite\src\B20240416\pic" />
+      <recent name="D:\idea\idea 存储\quite\src\B20240428\pic" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="A20240424" />
@@ -251,14 +254,7 @@
       <workItem from="1714460466969" duration="3124000" />
       <workItem from="1714540691297" duration="3296000" />
       <workItem from="1714558832997" duration="688000" />
-    </task>
-    <task id="LOCAL-00285" summary="static 静态方法">
-      <option name="closed" value="true" />
-      <created>1712648745018</created>
-      <option name="number" value="00285" />
-      <option name="presentableId" value="LOCAL-00285" />
-      <option name="project" value="LOCAL" />
-      <updated>1712648745018</updated>
+      <workItem from="1714630198901" duration="1090000" />
     </task>
     <task id="LOCAL-00286" summary="README 补充">
       <option name="closed" value="true" />
@@ -644,7 +640,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714566601684</updated>
     </task>
-    <option name="localTasksCounter" value="334" />
+    <task id="LOCAL-00334" summary="图片的整合&#10;&#10;一个包图片太多了，将他们整合成一个文件夹">
+      <option name="closed" value="true" />
+      <created>1714630652320</created>
+      <option name="number" value="00334" />
+      <option name="presentableId" value="LOCAL-00334" />
+      <option name="project" value="LOCAL" />
+      <updated>1714630652320</updated>
+    </task>
+    <option name="localTasksCounter" value="335" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -696,7 +700,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="面向对象综合简单练" />
     <MESSAGE value="面向对象综合简单练 &#10;&#10;电脑，键盘，鼠标" />
     <MESSAGE value="面向对象综合简单练 &#10;&#10;开车" />
     <MESSAGE value="复习，进步&#10;&#10;对于前面所学习的面向对象进行了一个总结，并且让 html 能在 idea 中运行" />
@@ -721,7 +724,8 @@
     <MESSAGE value="静态内部类" />
     <MESSAGE value="局部内部类" />
     <MESSAGE value="匿名内部类" />
-    <option name="LAST_COMMIT_MESSAGE" value="匿名内部类" />
+    <MESSAGE value="图片的整合&#10;&#10;一个包图片太多了，将他们整合成一个文件夹" />
+    <option name="LAST_COMMIT_MESSAGE" value="图片的整合&#10;&#10;一个包图片太多了，将他们整合成一个文件夹" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
