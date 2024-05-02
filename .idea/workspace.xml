@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="练习1 --- 静态内部类的使用">
-      <change afterPath="$PROJECT_DIR$/src/B20240502/Test2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240502/Test2/OuterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240502/Test2/img.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="练习2 --- 非静态内部类的使用">
+      <change afterPath="$PROJECT_DIR$/src/B20240502/Test3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240502/Test3/OuterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240502/Test3/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240502/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240502/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/idea/idea 存储/quite/src/B20240502/Test2",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/src/B20240502/Test3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,18 +74,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\B20240502\Test3" />
       <recent name="D:\idea\idea 存储\quite\src\B20240502\Test2" />
       <recent name="D:\idea\idea 存储\quite\src\B20240435\JieKou" />
       <recent name="D:\idea\idea 存储\quite\lib" />
       <recent name="D:\idea\idea 存储\quite\src\A20240424" />
-      <recent name="D:\idea\idea 存储\quite\src\B20240408" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\B20240502\Test3" />
       <recent name="D:\idea\idea 存储\quite\src\B20240502\Test1" />
       <recent name="D:\idea\idea 存储\quite\src\B20240413\pic" />
       <recent name="D:\idea\idea 存储\quite\src\B20240415\pic" />
       <recent name="D:\idea\idea 存储\quite\src\B20240416\pic" />
-      <recent name="D:\idea\idea 存储\quite\src\B20240428\pic" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="A20240424" />
@@ -254,15 +254,7 @@
       <workItem from="1714460466969" duration="3124000" />
       <workItem from="1714540691297" duration="3296000" />
       <workItem from="1714558832997" duration="688000" />
-      <workItem from="1714630198901" duration="1600000" />
-    </task>
-    <task id="LOCAL-00287" summary="README 补充">
-      <option name="closed" value="true" />
-      <created>1712909287208</created>
-      <option name="number" value="00287" />
-      <option name="presentableId" value="LOCAL-00287" />
-      <option name="project" value="LOCAL" />
-      <updated>1712909287208</updated>
+      <workItem from="1714630198901" duration="1908000" />
     </task>
     <task id="LOCAL-00288" summary="涨工资啦--案例4-7">
       <option name="closed" value="true" />
@@ -648,7 +640,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714631426453</updated>
     </task>
-    <option name="localTasksCounter" value="336" />
+    <task id="LOCAL-00336" summary="练习2 --- 非静态内部类的使用">
+      <option name="closed" value="true" />
+      <created>1714631849466</created>
+      <option name="number" value="00336" />
+      <option name="presentableId" value="LOCAL-00336" />
+      <option name="project" value="LOCAL" />
+      <updated>1714631849466</updated>
+    </task>
+    <option name="localTasksCounter" value="337" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -700,7 +700,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="面向对象综合简单练 &#10;&#10;开车" />
     <MESSAGE value="复习，进步&#10;&#10;对于前面所学习的面向对象进行了一个总结，并且让 html 能在 idea 中运行" />
     <MESSAGE value="模拟订单号生成" />
     <MESSAGE value="模拟密码自动生成" />
@@ -725,7 +724,8 @@
     <MESSAGE value="匿名内部类" />
     <MESSAGE value="图片的整合&#10;&#10;一个包图片太多了，将他们整合成一个文件夹" />
     <MESSAGE value="练习1 --- 静态内部类的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="练习1 --- 静态内部类的使用" />
+    <MESSAGE value="练习2 --- 非静态内部类的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习2 --- 非静态内部类的使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
