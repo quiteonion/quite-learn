@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="练习2 --- 非静态内部类的使用">
-      <change afterPath="$PROJECT_DIR$/src/B20240502/Test3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240502/Test3/OuterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240502/Test3/img.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="练习3 --- 局部内部类的使用">
+      <change afterPath="$PROJECT_DIR$/src/B20240502/Test4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240502/Test4/OuterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240502/Test4/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240502/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240502/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,11 +82,11 @@
       <recent name="D:\idea\idea 存储\quite\src\A20240424" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\B20240502\Test4" />
       <recent name="D:\idea\idea 存储\quite\src\B20240502\Test3" />
       <recent name="D:\idea\idea 存储\quite\src\B20240502\Test1" />
       <recent name="D:\idea\idea 存储\quite\src\B20240413\pic" />
       <recent name="D:\idea\idea 存储\quite\src\B20240415\pic" />
-      <recent name="D:\idea\idea 存储\quite\src\B20240416\pic" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="A20240424" />
@@ -254,23 +255,7 @@
       <workItem from="1714460466969" duration="3124000" />
       <workItem from="1714540691297" duration="3296000" />
       <workItem from="1714558832997" duration="688000" />
-      <workItem from="1714630198901" duration="1908000" />
-    </task>
-    <task id="LOCAL-00288" summary="涨工资啦--案例4-7">
-      <option name="closed" value="true" />
-      <created>1712911261528</created>
-      <option name="number" value="00288" />
-      <option name="presentableId" value="LOCAL-00288" />
-      <option name="project" value="LOCAL" />
-      <updated>1712911261528</updated>
-    </task>
-    <task id="LOCAL-00289" summary="README 补充">
-      <option name="closed" value="true" />
-      <created>1712996421572</created>
-      <option name="number" value="00289" />
-      <option name="presentableId" value="LOCAL-00289" />
-      <option name="project" value="LOCAL" />
-      <updated>1712996421572</updated>
+      <workItem from="1714630198901" duration="3102000" />
     </task>
     <task id="LOCAL-00290" summary="传递子类对象赋值给父类成员不会导致子类中的方法或属性消失&#10;&#10;当一个子类的对象赋值给父类的变量时，子类拥有的并不会消失，而会继续粗存，等到转化回子类后，仍旧可以使用。&#10;&#10;&#10;在面向对象的编程中，将子类对象赋值给父类成员（例如，将子类对象赋值给父类类型的变量）并不会导致子类中的方法或属性消失。相反，这样做是完全允许的，因为子类继承了父类的所有方法和属性，因此可以被视为父类的一个实例">
       <option name="closed" value="true" />
@@ -648,7 +633,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714631849466</updated>
     </task>
-    <option name="localTasksCounter" value="337" />
+    <task id="LOCAL-00337" summary="练习3 --- 局部内部类的使用">
+      <option name="closed" value="true" />
+      <created>1714632135391</created>
+      <option name="number" value="00337" />
+      <option name="presentableId" value="LOCAL-00337" />
+      <option name="project" value="LOCAL" />
+      <updated>1714632135391</updated>
+    </task>
+    <task id="LOCAL-00338" summary="练习3 --- 局部内部类的使用">
+      <option name="closed" value="true" />
+      <created>1714632193414</created>
+      <option name="number" value="00338" />
+      <option name="presentableId" value="LOCAL-00338" />
+      <option name="project" value="LOCAL" />
+      <updated>1714632193414</updated>
+    </task>
+    <option name="localTasksCounter" value="339" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -700,7 +701,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="复习，进步&#10;&#10;对于前面所学习的面向对象进行了一个总结，并且让 html 能在 idea 中运行" />
     <MESSAGE value="模拟订单号生成" />
     <MESSAGE value="模拟密码自动生成" />
     <MESSAGE value="关于·JS" />
@@ -725,7 +725,8 @@
     <MESSAGE value="图片的整合&#10;&#10;一个包图片太多了，将他们整合成一个文件夹" />
     <MESSAGE value="练习1 --- 静态内部类的使用" />
     <MESSAGE value="练习2 --- 非静态内部类的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="练习2 --- 非静态内部类的使用" />
+    <MESSAGE value="练习3 --- 局部内部类的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习3 --- 局部内部类的使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
