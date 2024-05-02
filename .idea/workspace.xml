@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="匿名内部类" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="匿名内部类">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -248,14 +250,7 @@
       <workItem from="1714296880132" duration="43000" />
       <workItem from="1714460466969" duration="3124000" />
       <workItem from="1714540691297" duration="3296000" />
-    </task>
-    <task id="LOCAL-00284" summary="有关于工具类的简单的练习">
-      <option name="closed" value="true" />
-      <created>1712648507756</created>
-      <option name="number" value="00284" />
-      <option name="presentableId" value="LOCAL-00284" />
-      <option name="project" value="LOCAL" />
-      <updated>1712648507756</updated>
+      <workItem from="1714558832997" duration="688000" />
     </task>
     <task id="LOCAL-00285" summary="static 静态方法">
       <option name="closed" value="true" />
@@ -641,7 +636,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714546495118</updated>
     </task>
-    <option name="localTasksCounter" value="333" />
+    <task id="LOCAL-00333" summary="匿名内部类">
+      <option name="closed" value="true" />
+      <created>1714566601684</created>
+      <option name="number" value="00333" />
+      <option name="presentableId" value="LOCAL-00333" />
+      <option name="project" value="LOCAL" />
+      <updated>1714566601684</updated>
+    </task>
+    <option name="localTasksCounter" value="334" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

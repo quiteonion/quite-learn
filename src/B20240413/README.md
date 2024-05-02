@@ -6,18 +6,18 @@
 
 ## 会保留子类的方法，调用也会使用子类的方法
 
-![img.png](img.png)
+![img.png](pic/img.png)
 
 ## 多态的前提
 
-![img_1.png](img_1.png)
+![img_1.png](pic/img_1.png)
 
 ## 多态调用成员的特点
 
-![img_2.png](img_2.png)
+![img_2.png](pic/img_2.png)
 
 [Test.java](Test.java)
 
-![img_3.png](img_3.png)
+![img_3.png](pic/img_3.png)
 
 

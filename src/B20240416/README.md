@@ -8,34 +8,34 @@
 
 #### 添加
 
-![img.png](img.png)
+![img.png](pic/img.png)
 
 #### 反转
 
-![img_1.png](img_1.png)
+![img_1.png](pic/img_1.png)
 
 #### 替换
 
-![img_2.png](img_2.png)
+![img_2.png](pic/img_2.png)
 
 
 #### 删减
 
-![img_3.png](img_3.png)
+![img_3.png](pic/img_3.png)
 
 #### 插入
 
-![img_4.png](img_4.png)
+![img_4.png](pic/img_4.png)
 
 #### 长度，大小
 
-![img_5.png](img_5.png)
+![img_5.png](pic/img_5.png)
 
 #### 获取内容
 
-![img_6.png](img_6.png)
+![img_6.png](pic/img_6.png)
 
 #### 输入索引，返回对应值
 
-![img_7.png](img_7.png)
+![img_7.png](pic/img_7.png)
 
