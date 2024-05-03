@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="图片添加">
+      <change afterPath="$PROJECT_DIR$/src/PinTuGame/PinTuImg/NaChuanALL_420x420/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PinTuGame/PinTuImg/WenFengALL_420x420/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PinTuGame/PinTuImg/YaoFengALL_420x420/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PinTuGame/PinTuImg/YiHaoALL_420x420/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PinTuGame/com/onion/ui/GameJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PinTuGame/com/onion/ui/GameJFrame.java" afterDir="false" />
     </list>
@@ -79,11 +83,11 @@
       <recent name="D:\idea\idea 存储\quite\src\B20240435\JieKou" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\PinTuGame" />
+      <recent name="D:\idea\idea 存储\quite\src\PINTU" />
       <recent name="D:\idea\idea 存储\quite\src\B20240502\Test5" />
       <recent name="D:\idea\idea 存储\quite\src\B20240502\Test4" />
       <recent name="D:\idea\idea 存储\quite\src\B20240502\Test3" />
-      <recent name="D:\idea\idea 存储\quite\src\B20240502\Test1" />
-      <recent name="D:\idea\idea 存储\quite\src\B20240413\pic" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="A20240424" />
@@ -254,15 +258,7 @@
       <workItem from="1714558832997" duration="688000" />
       <workItem from="1714630198901" duration="7280000" />
       <workItem from="1714662697864" duration="3508000" />
-      <workItem from="1714718707612" duration="2423000" />
-    </task>
-    <task id="LOCAL-00294" summary="养了一只狗">
-      <option name="closed" value="true" />
-      <created>1713019485903</created>
-      <option name="number" value="00294" />
-      <option name="presentableId" value="LOCAL-00294" />
-      <option name="project" value="LOCAL" />
-      <updated>1713019485903</updated>
+      <workItem from="1714718707612" duration="5198000" />
     </task>
     <task id="LOCAL-00295" summary="重写显得有点呆">
       <option name="closed" value="true" />
@@ -648,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714722269372</updated>
     </task>
-    <option name="localTasksCounter" value="343" />
+    <task id="LOCAL-00343" summary="图片添加">
+      <option name="closed" value="true" />
+      <created>1714723290078</created>
+      <option name="number" value="00343" />
+      <option name="presentableId" value="LOCAL-00343" />
+      <option name="project" value="LOCAL" />
+      <updated>1714723290078</updated>
+    </task>
+    <option name="localTasksCounter" value="344" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -851,6 +855,11 @@
           <url>file://$PROJECT_DIR$/src/A20240417/River/Test.java</url>
           <line>46</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PinTuGame/com/onion/ui/GameJFrame.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
