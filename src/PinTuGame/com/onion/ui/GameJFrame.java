@@ -6,9 +6,22 @@ public class GameJFrame extends JFrame {
     public GameJFrame(){
         initJFrame();
         initJMenuBar();
+        //加载图片的方法
+        initImg();
         //使界面显示
         this.setVisible(true);
     }
+
+    private void initImg() {
+        //创立一个 ImageIcon 的对象
+        ImageIcon icon = new ImageIcon("D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\Img\\WenFengALL\\1.png");
+        //创建 JLabel 的对象  ）管理容器（
+        // 吧 ImageIcon 加入 JLabel 中
+        JLabel jLabel = new JLabel(icon);
+        //加入界面中
+        this.add(jLabel);
+    }
+
     private void initJMenuBar() {
         //创建菜单对象 JMenuBar
         JMenuBar jMenuBar = new JMenuBar();

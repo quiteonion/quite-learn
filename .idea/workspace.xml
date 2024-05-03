@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="练习五 --- 访问外部类的成员">
-      <change afterPath="$PROJECT_DIR$/src/PinTuGame/APP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PinTuGame/com/onion/ui/GameJFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PinTuGame/com/onion/ui/LoginJFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PinTuGame/com/onion/ui/RegisterJFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PinTuGame/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PinTuGame/img_3.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="图片添加">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PinTuGame/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/PinTuGame/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PinTuGame/com/onion/ui/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PinTuGame/com/onion/ui/GameJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PinTuGame/com/onion/ui/GameJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +57,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/idea/idea 存储/quite/src/B20240502/Test5",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/src/PinTuGame",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,11 +72,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\PinTuGame" />
       <recent name="D:\idea\idea 存储\quite\src\B20240502\Test5" />
       <recent name="D:\idea\idea 存储\quite\src\B20240502\Test3" />
       <recent name="D:\idea\idea 存储\quite\src\B20240502\Test2" />
       <recent name="D:\idea\idea 存储\quite\src\B20240435\JieKou" />
-      <recent name="D:\idea\idea 存储\quite\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\B20240502\Test5" />
@@ -259,23 +252,9 @@
       <workItem from="1714460466969" duration="3124000" />
       <workItem from="1714540691297" duration="3296000" />
       <workItem from="1714558832997" duration="688000" />
-      <workItem from="1714630198901" duration="6853000" />
-    </task>
-    <task id="LOCAL-00292" summary="多态调用成员的特点">
-      <option name="closed" value="true" />
-      <created>1712998942928</created>
-      <option name="number" value="00292" />
-      <option name="presentableId" value="LOCAL-00292" />
-      <option name="project" value="LOCAL" />
-      <updated>1712998942928</updated>
-    </task>
-    <task id="LOCAL-00293" summary="多态调用成员的特点">
-      <option name="closed" value="true" />
-      <created>1712999019249</created>
-      <option name="number" value="00293" />
-      <option name="presentableId" value="LOCAL-00293" />
-      <option name="project" value="LOCAL" />
-      <updated>1712999019249</updated>
+      <workItem from="1714630198901" duration="7280000" />
+      <workItem from="1714662697864" duration="3508000" />
+      <workItem from="1714718707612" duration="2423000" />
     </task>
     <task id="LOCAL-00294" summary="养了一只狗">
       <option name="closed" value="true" />
@@ -653,7 +632,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714634858958</updated>
     </task>
-    <option name="localTasksCounter" value="341" />
+    <task id="LOCAL-00341" summary="拼图游戏菜单的制作">
+      <option name="closed" value="true" />
+      <created>1714637802420</created>
+      <option name="number" value="00341" />
+      <option name="presentableId" value="LOCAL-00341" />
+      <option name="project" value="LOCAL" />
+      <updated>1714637802420</updated>
+    </task>
+    <task id="LOCAL-00342" summary="图片添加">
+      <option name="closed" value="true" />
+      <created>1714722269372</created>
+      <option name="number" value="00342" />
+      <option name="presentableId" value="LOCAL-00342" />
+      <option name="project" value="LOCAL" />
+      <updated>1714722269372</updated>
+    </task>
+    <option name="localTasksCounter" value="343" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -705,8 +700,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="关于·JS" />
-    <MESSAGE value="模拟登录系统" />
     <MESSAGE value="字符转二进制&#10;&#10;主要为  Integer.toBinaryString() 的运用" />
     <MESSAGE value="不被需要的" />
     <MESSAGE value="不被需要的 -- 删除错误了" />
@@ -730,7 +723,9 @@
     <MESSAGE value="练习3 --- 局部内部类的使用" />
     <MESSAGE value="练习3 --- 匿名内部类的使用" />
     <MESSAGE value="练习五 --- 访问外部类的成员" />
-    <option name="LAST_COMMIT_MESSAGE" value="练习五 --- 访问外部类的成员" />
+    <MESSAGE value="拼图游戏菜单的制作" />
+    <MESSAGE value="图片添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="图片添加" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
