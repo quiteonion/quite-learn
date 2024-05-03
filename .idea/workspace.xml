@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="图片添加">
-      <change afterPath="$PROJECT_DIR$/src/PinTuGame/PinTuImg/NaChuanALL_420x420/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PinTuGame/PinTuImg/WenFengALL_420x420/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PinTuGame/PinTuImg/YaoFengALL_420x420/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PinTuGame/PinTuImg/YiHaoALL_420x420/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PinTuGame/com/onion/ui/GameJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PinTuGame/com/onion/ui/GameJFrame.java" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="拼图 -- 图片的加入和随机化" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -258,15 +251,7 @@
       <workItem from="1714558832997" duration="688000" />
       <workItem from="1714630198901" duration="7280000" />
       <workItem from="1714662697864" duration="3508000" />
-      <workItem from="1714718707612" duration="5198000" />
-    </task>
-    <task id="LOCAL-00295" summary="重写显得有点呆">
-      <option name="closed" value="true" />
-      <created>1713181742957</created>
-      <option name="number" value="00295" />
-      <option name="presentableId" value="LOCAL-00295" />
-      <option name="project" value="LOCAL" />
-      <updated>1713181742957</updated>
+      <workItem from="1714718707612" duration="5547000" />
     </task>
     <task id="LOCAL-00296" summary="补充独有的行为">
       <option name="closed" value="true" />
@@ -652,7 +637,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714723290078</updated>
     </task>
-    <option name="localTasksCounter" value="344" />
+    <task id="LOCAL-00344" summary="拼图 -- 图片的加入和随机化">
+      <option name="closed" value="true" />
+      <created>1714726225341</created>
+      <option name="number" value="00344" />
+      <option name="presentableId" value="LOCAL-00344" />
+      <option name="project" value="LOCAL" />
+      <updated>1714726225341</updated>
+    </task>
+    <option name="localTasksCounter" value="345" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -704,7 +697,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="字符转二进制&#10;&#10;主要为  Integer.toBinaryString() 的运用" />
     <MESSAGE value="不被需要的" />
     <MESSAGE value="不被需要的 -- 删除错误了" />
     <MESSAGE value="往期回顾" />
@@ -729,7 +721,8 @@
     <MESSAGE value="练习五 --- 访问外部类的成员" />
     <MESSAGE value="拼图游戏菜单的制作" />
     <MESSAGE value="图片添加" />
-    <option name="LAST_COMMIT_MESSAGE" value="图片添加" />
+    <MESSAGE value="拼图 -- 图片的加入和随机化" />
+    <option name="LAST_COMMIT_MESSAGE" value="拼图 -- 图片的加入和随机化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

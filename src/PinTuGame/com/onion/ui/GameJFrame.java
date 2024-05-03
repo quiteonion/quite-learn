@@ -43,7 +43,7 @@ public class GameJFrame extends JFrame {
             for (int i = 0; i < 4; i++) {
 
                 //创立一个 ImageIcon 的对象
-                ImageIcon icon = new ImageIcon("D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\NaChuanALL_420x420\\" + newTemp[j][i] + ".png");
+                ImageIcon icon = new ImageIcon("D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\YaoFengALL_420x420\\" + newTemp[j][i] + ".png");
                 //创建 JLabel 的对象  ）管理容器（
                 // 吧 ImageIcon 加入 JLabel 中
                 JLabel jLabel = new JLabel(icon);
