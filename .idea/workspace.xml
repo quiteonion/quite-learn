@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="拼图 -- 更改名字">
-      <change afterPath="$PROJECT_DIR$/src/PinTuGame/PinTuImg/BeiJing.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="拼图 -- 基本逻辑和查看原图片">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PinTuGame/PinTuImg/WenFengALL_420x420/WenFengALL_420x420.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/PinTuGame/PinTuImg/WenFengALL_420x420/ALL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PinTuGame/PinTuImg/YaoFengALL_420x420/YaoFengALL_420x420.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/PinTuGame/PinTuImg/YaoFengALL_420x420/ALL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PinTuGame/PinTuImg/YiHaoALL_420x420/YiHaoALL_420x420.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/PinTuGame/PinTuImg/YiHaoALL_420x420/ALL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PinTuGame/PinTuImg/ZhiEnALL_420x420/NaChuanALL_420x420.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/PinTuGame/PinTuImg/ZhiEnALL_420x420/ALL.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PinTuGame/com/onion/ui/GameJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PinTuGame/com/onion/ui/GameJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -257,15 +260,7 @@
       <workItem from="1714662697864" duration="3508000" />
       <workItem from="1714718707612" duration="5779000" />
       <workItem from="1714739204647" duration="1190000" />
-      <workItem from="1714802164348" duration="4208000" />
-    </task>
-    <task id="LOCAL-00298" summary="使用重载的方法进行调用&#10;&#10;好处： 能够使用到重载的方式。。&#10;坏处： 在原本的代码中，进入饲养方法的形参中的，是 pet 而是猫还是狗由系统进行辨别，而新代码中却做不到">
-      <option name="closed" value="true" />
-      <created>1713182674835</created>
-      <option name="number" value="00298" />
-      <option name="presentableId" value="LOCAL-00298" />
-      <option name="project" value="LOCAL" />
-      <updated>1713182674835</updated>
+      <workItem from="1714802164348" duration="6721000" />
     </task>
     <task id="LOCAL-00299" summary="顶级优化！！！&#10;&#10;在本次优化中，融合了两大特点，原本的代码中辨别的部分由 Pet 执行，并且缺少了重写部分，非常不合理，但是在新代码中，辨别部分由 person 来辨别，更加的合理">
       <option name="closed" value="true" />
@@ -651,7 +646,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714726390410</updated>
     </task>
-    <option name="localTasksCounter" value="347" />
+    <task id="LOCAL-00347" summary="拼图 -- 基本逻辑和查看原图片">
+      <option name="closed" value="true" />
+      <created>1714806709825</created>
+      <option name="number" value="00347" />
+      <option name="presentableId" value="LOCAL-00347" />
+      <option name="project" value="LOCAL" />
+      <updated>1714806709825</updated>
+    </task>
+    <option name="localTasksCounter" value="348" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -703,7 +706,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="不被需要的 -- 删除错误了" />
     <MESSAGE value="往期回顾" />
     <MESSAGE value="怎么在网站里查找自己想要的东西" />
     <MESSAGE value="建立连接，连接邮箱" />
@@ -728,7 +730,8 @@
     <MESSAGE value="图片添加" />
     <MESSAGE value="拼图 -- 图片的加入和随机化" />
     <MESSAGE value="拼图 -- 更改名字" />
-    <option name="LAST_COMMIT_MESSAGE" value="拼图 -- 更改名字" />
+    <MESSAGE value="拼图 -- 基本逻辑和查看原图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="拼图 -- 基本逻辑和查看原图片" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

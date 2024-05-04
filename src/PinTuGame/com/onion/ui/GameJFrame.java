@@ -8,10 +8,14 @@ import java.awt.event.KeyListener;
 import java.util.Random;
 
 public class GameJFrame extends JFrame implements KeyListener {
+    Random r = new Random();
+    int inm = r.nextInt(4);
+    String[] TUPIAN = {"D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\WenFengALL_420x420\\","D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\YaoFengALL_420x420\\","D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\YiHaoALL_420x420\\","D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\ZhiEnALL_420x420\\"};
     int[][] newTemp = new int[4][4];
     //记录空白方块在二维数组的位置
-    int x = 0 ;
-     int y = 0 ;
+    int x = 0;
+    int y = 0;
+
     public GameJFrame() {
         initJFrame();
         initJMenuBar();
@@ -25,7 +29,7 @@ public class GameJFrame extends JFrame implements KeyListener {
 
     private void initImg() {
 
-    this.getContentPane().removeAll();
+        this.getContentPane().removeAll();
 /**
  * 太复杂切长，要用循环改进
  * */
@@ -54,7 +58,7 @@ public class GameJFrame extends JFrame implements KeyListener {
             for (int i = 0; i < 4; i++) {
 
                 //创立一个 ImageIcon 的对象
-                ImageIcon icon = new ImageIcon("D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\YaoFengALL_420x420\\" + newTemp[j][i] + ".png");
+                ImageIcon icon = new ImageIcon(TUPIAN[inm] + newTemp[j][i] + ".png");
                 //创建 JLabel 的对象  ）管理容器（
                 // 吧 ImageIcon 加入 JLabel 中
                 JLabel jLabel = new JLabel(icon);
@@ -70,7 +74,7 @@ public class GameJFrame extends JFrame implements KeyListener {
         //背景图片
         ImageIcon bg = new ImageIcon("D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\BeiJing.png");
         JLabel background = new JLabel(bg);
-        background.setBounds(40,40,508,560);
+        background.setBounds(40, 40, 508, 560);
         this.getContentPane().add(background);
 
         this.getContentPane().repaint();
@@ -141,10 +145,10 @@ public class GameJFrame extends JFrame implements KeyListener {
             }
         }*/
         for (int i = 0; i < temp.length; i++) {
-            if (temp[i] == 0){
+            if (temp[i] == 0) {
                 x = i / 4;
                 y = i % 4;
-            }else {
+            } else {
                 newTemp[i / 4][i % 4] = temp[i];
             }
         }
@@ -158,15 +162,15 @@ public class GameJFrame extends JFrame implements KeyListener {
     @Override
     public void keyPressed(KeyEvent e) {
         int code = e.getKeyCode();
-        if (code == 65){
+        if (code == 65) {
             this.getContentPane().removeAll();
-            JLabel ALL = new JLabel(new ImageIcon("D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\YaoFengALL_420x420\\YaoFengALL_420x420.jpg"));
-            ALL.setBounds(84,134,420,420);
+            JLabel ALL = new JLabel(new ImageIcon(TUPIAN[inm] +"ALL.jpg"));
+            ALL.setBounds(84, 134, 420, 420);
             this.getContentPane().add(ALL);
             //背景图片
             ImageIcon bg = new ImageIcon("D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\BeiJing.png");
             JLabel background = new JLabel(bg);
-            background.setBounds(40,40,508,560);
+            background.setBounds(40, 40, 508, 560);
             this.getContentPane().add(background);
 
             this.getContentPane().repaint();
@@ -177,44 +181,83 @@ public class GameJFrame extends JFrame implements KeyListener {
     @Override
     public void keyReleased(KeyEvent e) {
         int code = e.getKeyCode();
-        if (code == 37){
+        if (code == 37) {
             System.out.println("左");
-            if (y == 3){
+            if (y == 3) {
                 return;
             }
-            newTemp[x][y] = newTemp[x][y+1];
-            newTemp[x][y+1] = 0;
+            newTemp[x][y] = newTemp[x][y + 1];
+            newTemp[x][y + 1] = 0;
             y++;
             initImg();
-        }else if (code == 38){
+            if (YESORNO()) {
+                System.out.println("you win");
+            }
+        } else if (code == 38) {
             System.out.println("上");
-            if (x == 3){
+            if (x == 3) {
                 return;
             }
-            newTemp[x][y] = newTemp[x+1][y];
-            newTemp[x+1][y] = 0;
+            newTemp[x][y] = newTemp[x + 1][y];
+            newTemp[x + 1][y] = 0;
             x++;
             initImg();
+            if (YESORNO()) {
+                System.out.println("you win");
+            }
         } else if (code == 39) {
             System.out.println("右");
-            if (y == 0){
+            if (y == 0) {
                 return;
             }
-            newTemp[x][y] = newTemp[x][y-1];
-            newTemp[x][y-1] = 0;
+            newTemp[x][y] = newTemp[x][y - 1];
+            newTemp[x][y - 1] = 0;
             y--;
             initImg();
+            if (YESORNO()) {
+                System.out.println("you win");
+            }
         } else if (code == 40) {
             System.out.println("下");
-            if (x == 0){
+            if (x == 0) {
                 return;
             }
-            newTemp[x][y] = newTemp[x-1][y];
-            newTemp[x-1][y] = 0;
+            newTemp[x][y] = newTemp[x - 1][y];
+            newTemp[x - 1][y] = 0;
             x--;
             initImg();
+            if (YESORNO()) {
+                System.out.println("you win");
+            }
         } else if (code == 65) {
             initImg();
+        } else if (code == 87) {
+            newTemp = new int[][]{
+                    {1,2,3,4},
+                    {5,6,7,8},
+                    {9,10,11,12},
+                    {13,14,15,0},
+            };
+            initImg();
+            if (YESORNO()) {
+                System.out.println("you win");
+            }
         }
+    }
+    public boolean YESORNO(){
+       int[][] win = new int[][]{
+                {1,2,3,4},
+                {5,6,7,8},
+                {9,10,11,12},
+                {13,14,15,0},
+        };
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 4; j++) {
+                if (win[i][j] != newTemp[i][j]) {
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 }
