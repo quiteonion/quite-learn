@@ -1,20 +1,31 @@
 package PinTuGame.com.onion.ui;
 
 import javax.swing.*;
+import javax.swing.border.BevelBorder;
+
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.util.Random;
 
-public class GameJFrame extends JFrame {
+public class GameJFrame extends JFrame implements KeyListener {
+    int[][] newTemp = new int[4][4];
+    //记录空白方块在二维数组的位置
+    int x = 0 ;
+     int y = 0 ;
     public GameJFrame() {
         initJFrame();
         initJMenuBar();
+        dislocateTemp();
         //加载图片的方法
         initImg();
+
         //使界面显示
         this.setVisible(true);
     }
 
     private void initImg() {
 
+    this.getContentPane().removeAll();
 /**
  * 太复杂切长，要用循环改进
  * */
@@ -36,8 +47,8 @@ public class GameJFrame extends JFrame {
                 {"dizhi9.png","dizhi10.png","dizhi11.png","dizhi12.png"},
                 {"dizhi13.png","dizhi14.png","dizhi15.png","dizhiimg.png"}
         };*/
-        int[] temp = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
-        int[][] newTemp = dislocateTemp(temp);
+
+
 //        int number = 1;
         for (int j = 0; j < 4; j++) {
             for (int i = 0; i < 4; i++) {
@@ -48,15 +59,21 @@ public class GameJFrame extends JFrame {
                 // 吧 ImageIcon 加入 JLabel 中
                 JLabel jLabel = new JLabel(icon);
                 //指定图片位置
-                jLabel.setBounds(105 * i, 105 * j, 105, 105);
+                jLabel.setBounds(105 * i + 83, 105 * j + 134, 105, 105);
+                jLabel.setBorder(new BevelBorder(0));
                 this.getContentPane().add(jLabel);
                 //加入界面中
-                this.add(jLabel);
+//                this.add(jLabel);
 //                number++;
             }
         }
+        //背景图片
+        ImageIcon bg = new ImageIcon("D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\BeiJing.png");
+        JLabel background = new JLabel(bg);
+        background.setBounds(40,40,508,560);
+        this.getContentPane().add(background);
 
-
+        this.getContentPane().repaint();
     }
 
     private void initJMenuBar() {
@@ -102,18 +119,20 @@ public class GameJFrame extends JFrame {
 
         //取消默认的居中放置，取消了才能按照x，y放置
         this.setLayout(null);
+
+        //添加键盘事件2
+        this.addKeyListener(this);
     }
 
-    private int[][] dislocateTemp(int[] temp) {
+    private void dislocateTemp() {
         Random r = new Random();
-
+        int[] temp = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
         for (int i = 0; i < temp.length; i++) {
             int number = r.nextInt(temp.length);
             int mun = temp[i];
             temp[i] = temp[number];
             temp[number] = mun;
         }
-        int[][] arr = new int[4][4];
 /*        int o = 0;
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
@@ -122,9 +141,80 @@ public class GameJFrame extends JFrame {
             }
         }*/
         for (int i = 0; i < temp.length; i++) {
-            arr[i/4][i%4] =  temp[i];
+            if (temp[i] == 0){
+                x = i / 4;
+                y = i % 4;
+            }else {
+                newTemp[i / 4][i % 4] = temp[i];
+            }
         }
-        return arr;
     }
 
+    @Override
+    public void keyTyped(KeyEvent e) {
+
+    }
+
+    @Override
+    public void keyPressed(KeyEvent e) {
+        int code = e.getKeyCode();
+        if (code == 65){
+            this.getContentPane().removeAll();
+            JLabel ALL = new JLabel(new ImageIcon("D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\YaoFengALL_420x420\\YaoFengALL_420x420.jpg"));
+            ALL.setBounds(84,134,420,420);
+            this.getContentPane().add(ALL);
+            //背景图片
+            ImageIcon bg = new ImageIcon("D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\BeiJing.png");
+            JLabel background = new JLabel(bg);
+            background.setBounds(40,40,508,560);
+            this.getContentPane().add(background);
+
+            this.getContentPane().repaint();
+        }
+
+    }
+
+    @Override
+    public void keyReleased(KeyEvent e) {
+        int code = e.getKeyCode();
+        if (code == 37){
+            System.out.println("左");
+            if (y == 3){
+                return;
+            }
+            newTemp[x][y] = newTemp[x][y+1];
+            newTemp[x][y+1] = 0;
+            y++;
+            initImg();
+        }else if (code == 38){
+            System.out.println("上");
+            if (x == 3){
+                return;
+            }
+            newTemp[x][y] = newTemp[x+1][y];
+            newTemp[x+1][y] = 0;
+            x++;
+            initImg();
+        } else if (code == 39) {
+            System.out.println("右");
+            if (y == 0){
+                return;
+            }
+            newTemp[x][y] = newTemp[x][y-1];
+            newTemp[x][y-1] = 0;
+            y--;
+            initImg();
+        } else if (code == 40) {
+            System.out.println("下");
+            if (x == 0){
+                return;
+            }
+            newTemp[x][y] = newTemp[x-1][y];
+            newTemp[x-1][y] = 0;
+            x--;
+            initImg();
+        } else if (code == 65) {
+            initImg();
+        }
+    }
 }
