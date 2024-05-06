@@ -3,14 +3,23 @@ package PinTuGame.com.onion.ui;
 import javax.swing.*;
 import javax.swing.border.BevelBorder;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.Random;
 
-public class GameJFrame extends JFrame implements KeyListener {
+public class GameJFrame extends JFrame implements KeyListener, ActionListener {
+    int step = 0;
+    //创建 JMenuItem
+    JMenuItem rePlayItem = new JMenuItem("重新游戏");
+    JMenuItem reLoginItem = new JMenuItem("重新登陆");
+    JMenuItem closeItem = new JMenuItem("关闭游戏");
+
+    JMenuItem about = new JMenuItem("关于我");
     Random r = new Random();
     int inm = r.nextInt(4);
-    String[] TUPIAN = {"D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\WenFengALL_420x420\\","D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\YaoFengALL_420x420\\","D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\YiHaoALL_420x420\\","D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\ZhiEnALL_420x420\\"};
+    String[] TUPIAN = {"D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\WenFengALL_420x420\\", "D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\YaoFengALL_420x420\\", "D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\YiHaoALL_420x420\\", "D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\ZhiEnALL_420x420\\"};
     int[][] newTemp = new int[4][4];
     //记录空白方块在二维数组的位置
     int x = 0;
@@ -30,6 +39,11 @@ public class GameJFrame extends JFrame implements KeyListener {
     private void initImg() {
 
         this.getContentPane().removeAll();
+        if (YESORNO()) {
+            JLabel win = new JLabel(new ImageIcon("D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\win.png"));
+            win.setBounds(203, 283, 173, 73);
+            this.getContentPane().add(win);
+        }
 /**
  * 太复杂切长，要用循环改进
  * */
@@ -38,21 +52,10 @@ public class GameJFrame extends JFrame implements KeyListener {
 //        JLabel jLabel1 = new JLabel(icon1);
 //        jLabel1.setBounds(105,0,105,105);
 //        this.getContentPane().add(jLabel1);
-//
-//        ImageIcon icon2 = new ImageIcon("D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\NaChuanALL_420x420\\3.png");
-//        JLabel jLabel2 = new JLabel(icon2);
-//        jLabel2.setBounds(210,0,105,105);
-//        this.getContentPane().add(jLabel2);
 
-        /*        String dizhi ="D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\PinTuImg\\NaChuanALL_420x420\\";
-        String[][] arr ={
-                {dizhi+"1.png","dizhi2.png","dizhi3.png","dizhi4.png"},
-                {"dizhi5.png","dizhi6.png","dizhi7.png","dizhi8.png"},
-                {"dizhi9.png","dizhi10.png","dizhi11.png","dizhi12.png"},
-                {"dizhi13.png","dizhi14.png","dizhi15.png","dizhiimg.png"}
-        };*/
-
-
+        JLabel jlb = new JLabel("步数" + step);
+        jlb.setBounds(50,30,100,20);
+        this.getContentPane().add(jlb);
 //        int number = 1;
         for (int j = 0; j < 4; j++) {
             for (int i = 0; i < 4; i++) {
@@ -89,12 +92,14 @@ public class GameJFrame extends JFrame implements KeyListener {
         JMenu functionjMenu = new JMenu("功能");
         JMenu aboutjMenu = new JMenu("关于我们");
 
-        //创建 JMenuItem
-        JMenuItem rePlayItem = new JMenuItem("重新游戏");
-        JMenuItem reLoginItem = new JMenuItem("重新登陆");
-        JMenuItem closeItem = new JMenuItem("关闭游戏");
 
-        JMenuItem about = new JMenuItem("关于我");
+
+        //绑定相关事件
+        rePlayItem.addActionListener(this);
+        reLoginItem.addActionListener(this);
+        closeItem.addActionListener(this);
+
+        about.addActionListener(this);
 
         functionjMenu.add(rePlayItem);
         functionjMenu.add(reLoginItem);
@@ -148,9 +153,9 @@ public class GameJFrame extends JFrame implements KeyListener {
             if (temp[i] == 0) {
                 x = i / 4;
                 y = i % 4;
-            } else {
-                newTemp[i / 4][i % 4] = temp[i];
             }
+                newTemp[i / 4][i % 4] = temp[i];
+
         }
     }
 
@@ -161,10 +166,13 @@ public class GameJFrame extends JFrame implements KeyListener {
 
     @Override
     public void keyPressed(KeyEvent e) {
+        if (YESORNO()) {
+            return;
+        }
         int code = e.getKeyCode();
         if (code == 65) {
             this.getContentPane().removeAll();
-            JLabel ALL = new JLabel(new ImageIcon(TUPIAN[inm] +"ALL.jpg"));
+            JLabel ALL = new JLabel(new ImageIcon(TUPIAN[inm] + "ALL.jpg"));
             ALL.setBounds(84, 134, 420, 420);
             this.getContentPane().add(ALL);
             //背景图片
@@ -180,6 +188,9 @@ public class GameJFrame extends JFrame implements KeyListener {
 
     @Override
     public void keyReleased(KeyEvent e) {
+        if (YESORNO()) {
+            return;
+        }
         int code = e.getKeyCode();
         if (code == 37) {
             System.out.println("左");
@@ -189,10 +200,9 @@ public class GameJFrame extends JFrame implements KeyListener {
             newTemp[x][y] = newTemp[x][y + 1];
             newTemp[x][y + 1] = 0;
             y++;
+            step++;
             initImg();
-            if (YESORNO()) {
-                System.out.println("you win");
-            }
+
         } else if (code == 38) {
             System.out.println("上");
             if (x == 3) {
@@ -201,10 +211,9 @@ public class GameJFrame extends JFrame implements KeyListener {
             newTemp[x][y] = newTemp[x + 1][y];
             newTemp[x + 1][y] = 0;
             x++;
+            step++;
             initImg();
-            if (YESORNO()) {
-                System.out.println("you win");
-            }
+
         } else if (code == 39) {
             System.out.println("右");
             if (y == 0) {
@@ -213,10 +222,9 @@ public class GameJFrame extends JFrame implements KeyListener {
             newTemp[x][y] = newTemp[x][y - 1];
             newTemp[x][y - 1] = 0;
             y--;
+            step++;
             initImg();
-            if (YESORNO()) {
-                System.out.println("you win");
-            }
+
         } else if (code == 40) {
             System.out.println("下");
             if (x == 0) {
@@ -225,31 +233,29 @@ public class GameJFrame extends JFrame implements KeyListener {
             newTemp[x][y] = newTemp[x - 1][y];
             newTemp[x - 1][y] = 0;
             x--;
+            step++;
             initImg();
-            if (YESORNO()) {
-                System.out.println("you win");
-            }
+
         } else if (code == 65) {
             initImg();
         } else if (code == 87) {
             newTemp = new int[][]{
-                    {1,2,3,4},
-                    {5,6,7,8},
-                    {9,10,11,12},
-                    {13,14,15,0},
+                    {1, 2, 3, 4},
+                    {5, 6, 7, 8},
+                    {9, 10, 11, 12},
+                    {13, 14, 15, 0},
             };
             initImg();
-            if (YESORNO()) {
-                System.out.println("you win");
-            }
+
         }
     }
-    public boolean YESORNO(){
-       int[][] win = new int[][]{
-                {1,2,3,4},
-                {5,6,7,8},
-                {9,10,11,12},
-                {13,14,15,0},
+
+    public boolean YESORNO() {
+        int[][] win = new int[][]{
+                {1, 2, 3, 4},
+                {5, 6, 7, 8},
+                {9, 10, 11, 12},
+                {13, 14, 15, 0},
         };
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
@@ -259,5 +265,40 @@ public class GameJFrame extends JFrame implements KeyListener {
             }
         }
         return true;
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        Object obj = e.getSource();
+        if (obj == rePlayItem){
+            System.out.println("重新游戏");
+            this.getContentPane().removeAll();
+            step = 0;
+            dislocateTemp();
+            initImg();
+            this.getContentPane().repaint();
+        } else if (obj == reLoginItem) {
+            System.out.println("重新登录");
+            this.setVisible(false);
+            new LoginJFrame();
+        } else if (obj == closeItem) {
+            System.out.println("退出游戏");
+            System.exit(0);
+        } else if (obj == about) {
+            JDialog jDialog = new JDialog();
+            JLabel aboutme = new JLabel(new ImageIcon("D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\aboutME_398x400.jpg"));
+            aboutme.setBounds(0,0,398,400);
+            jDialog.getContentPane().add(aboutme);
+            jDialog.setSize(398,400);
+            jDialog.setAlwaysOnTop(true);
+            jDialog.setLocationRelativeTo(null);
+            jDialog.setModal(true);
+            jDialog.setVisible(true);
+//            this.getContentPane().removeAll();
+//            JLabel aboutme = new JLabel(new ImageIcon("D:\\idea\\idea 存储\\quite\\src\\PinTuGame\\aboutME_398x400.jpg"));
+//            aboutme.setBounds(98,100,398,400);
+//            this.getContentPane().add(aboutme);
+//            this.getContentPane().repaint();
+        }
     }
 }
