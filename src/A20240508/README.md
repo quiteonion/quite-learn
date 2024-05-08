@@ -22,6 +22,10 @@ abstract 类不能被 new
 
 被 final 修饰的方法不能被重写
 
+## 思考为什么 final 和 abstract 不能放在同一个方法中？
+
+原因 ： final 要求不能被重写 abstract 要求必须被重写 两者之间相互冲突
+
 
 
 

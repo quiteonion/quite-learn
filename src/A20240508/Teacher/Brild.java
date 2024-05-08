@@ -9,8 +9,8 @@ public class Brild extends Animal {
     public void newAbstractMethod() {
 
     }
-    public void WhatCanISay(String Saying){
-        System.out.println(Saying);
-    }
+//    public void WhatCanISay(String Saying){
+//        System.out.println(Saying);
+//    }
 
 }
