@@ -3,6 +3,7 @@ package A20240508.TestPack;
 import java.sql.Time;
 
 public class sum100 {
+
     public static void main(String[] args) {
         //如何知道运行了多少时间
         long begin = System.currentTimeMillis();
