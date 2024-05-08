@@ -10,4 +10,8 @@
 
 ### 所有的子类都需要重写这个 abstract 方法
 
+## 验证 abstract 类不能被 new
+
+![img_1.png](img_1.png)
+
 
