@@ -30,6 +30,8 @@ abstract 类不能被 new
 
 ## 使用 System.currentTimeMillis 方法
 
+# 如何写出一个代码 ， 可以计算任意代码的运行时间？
+
 
 
 
