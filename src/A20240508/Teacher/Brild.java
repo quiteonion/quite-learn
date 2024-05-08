@@ -5,4 +5,9 @@ public class Brild extends Animal {
         super(name);
     }
 
+    @Override
+    public void newAbstractMethod() {
+
+    }
+
 }

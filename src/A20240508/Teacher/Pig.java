@@ -5,4 +5,9 @@ public class Pig extends Animal {
         super(name);
     }
 
+    @Override
+    public void newAbstractMethod() {
+
+    }
+
 }
