@@ -5,6 +5,11 @@ public class Cat extends Animal {
         super(name);
     }
 
+    @Override
+    public void newAbstractMethod() {
+
+    }
+
     public void play(){
         System.out.println("小猫又跑又跳");
     }

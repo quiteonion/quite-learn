@@ -26,6 +26,10 @@ abstract 类不能被 new
 
 原因 ： final 要求不能被重写 abstract 要求必须被重写 两者之间相互冲突
 
+# 怎么用 Java 算时间
+
+## 使用 System.currentTimeMillis 方法
+
 
 
 

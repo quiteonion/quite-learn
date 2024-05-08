@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="更改">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Test - sum100">
+      <change beforePath="$PROJECT_DIR$/src/A20240508/TestPack/sum100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240508/TestPack/sum100.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,34 +48,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/PinTuGame&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/src/A20240508",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\A20240508" />
       <recent name="D:\idea\idea 存储\quite\src\PinTuGame" />
       <recent name="D:\idea\idea 存储\quite\src\PinTuGame\PinTuImg" />
       <recent name="D:\idea\idea 存储\quite\src\B20240502\Test5" />
       <recent name="D:\idea\idea 存储\quite\src\B20240502\Test3" />
-      <recent name="D:\idea\idea 存储\quite\src\B20240502\Test2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\PinTuGame" />
@@ -89,7 +89,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.APP">
+  <component name="RunManager">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -274,78 +274,7 @@
       <workItem from="1714995632560" duration="42000" />
       <workItem from="1715062275776" duration="1189000" />
       <workItem from="1715092300447" duration="753000" />
-    </task>
-    <task id="LOCAL-00301" summary="README">
-      <option name="closed" value="true" />
-      <created>1713187019194</created>
-      <option name="number" value="00301" />
-      <option name="presentableId" value="LOCAL-00301" />
-      <option name="project" value="LOCAL" />
-      <updated>1713187019194</updated>
-    </task>
-    <task id="LOCAL-00302" summary="静态代码块只会在第一个 new 出来的对象时被执行一次，随后就不会再被执行了">
-      <option name="closed" value="true" />
-      <created>1713188000890</created>
-      <option name="number" value="00302" />
-      <option name="presentableId" value="LOCAL-00302" />
-      <option name="project" value="LOCAL" />
-      <updated>1713188000890</updated>
-    </task>
-    <task id="LOCAL-00303" summary="静态代码块">
-      <option name="closed" value="true" />
-      <created>1713188296060</created>
-      <option name="number" value="00303" />
-      <option name="presentableId" value="LOCAL-00303" />
-      <option name="project" value="LOCAL" />
-      <updated>1713188296060</updated>
-    </task>
-    <task id="LOCAL-00304" summary="有关于 StringBuffer">
-      <option name="closed" value="true" />
-      <created>1713252820872</created>
-      <option name="number" value="00304" />
-      <option name="presentableId" value="LOCAL-00304" />
-      <option name="project" value="LOCAL" />
-      <updated>1713252820872</updated>
-    </task>
-    <task id="LOCAL-00305" summary="面向对象综合简单练">
-      <option name="closed" value="true" />
-      <created>1713277329748</created>
-      <option name="number" value="00305" />
-      <option name="presentableId" value="LOCAL-00305" />
-      <option name="project" value="LOCAL" />
-      <updated>1713277329748</updated>
-    </task>
-    <task id="LOCAL-00306" summary="面向对象综合简单练 &#10;&#10;电脑，键盘，鼠标">
-      <option name="closed" value="true" />
-      <created>1713278439864</created>
-      <option name="number" value="00306" />
-      <option name="presentableId" value="LOCAL-00306" />
-      <option name="project" value="LOCAL" />
-      <updated>1713278439864</updated>
-    </task>
-    <task id="LOCAL-00307" summary="面向对象综合简单练 &#10;&#10;开车">
-      <option name="closed" value="true" />
-      <created>1713279390981</created>
-      <option name="number" value="00307" />
-      <option name="presentableId" value="LOCAL-00307" />
-      <option name="project" value="LOCAL" />
-      <updated>1713279390981</updated>
-    </task>
-    <task id="LOCAL-00308" summary="复习，进步&#10;&#10;对于前面所学习的面向对象进行了一个总结，并且让 html 能在 idea 中运行">
-      <option name="closed" value="true" />
-      <created>1713600950331</created>
-      <option name="number" value="00308" />
-      <option name="presentableId" value="LOCAL-00308" />
-      <option name="project" value="LOCAL" />
-      <updated>1713600950331</updated>
-    </task>
-    <task id="LOCAL-00309" summary="模拟订单号生成">
-      <option name="closed" value="true" />
-      <created>1713881101710</created>
-      <option name="number" value="00309" />
-      <option name="presentableId" value="LOCAL-00309" />
-      <option name="project" value="LOCAL" />
-      <updated>1713881101710</updated>
+      <workItem from="1715165727002" duration="5448000" />
     </task>
     <task id="LOCAL-00310" summary="模拟密码自动生成">
       <option name="closed" value="true" />
@@ -667,7 +596,79 @@
       <option name="project" value="LOCAL" />
       <updated>1714995643721</updated>
     </task>
-    <option name="localTasksCounter" value="350" />
+    <task id="LOCAL-00350" summary="养动物的代码粘贴">
+      <option name="closed" value="true" />
+      <created>1715168970084</created>
+      <option name="number" value="00350" />
+      <option name="presentableId" value="LOCAL-00350" />
+      <option name="project" value="LOCAL" />
+      <updated>1715168970084</updated>
+    </task>
+    <task id="LOCAL-00351" summary="在 Aniaml 中添加一个抽象方法">
+      <option name="closed" value="true" />
+      <created>1715170277368</created>
+      <option name="number" value="00351" />
+      <option name="presentableId" value="LOCAL-00351" />
+      <option name="project" value="LOCAL" />
+      <updated>1715170277368</updated>
+    </task>
+    <task id="LOCAL-00352" summary="把类 修改为抽象类以适配抽象方法">
+      <option name="closed" value="true" />
+      <created>1715170352952</created>
+      <option name="number" value="00352" />
+      <option name="presentableId" value="LOCAL-00352" />
+      <option name="project" value="LOCAL" />
+      <updated>1715170352952</updated>
+    </task>
+    <task id="LOCAL-00353" summary="Aniaml 的新 抽象 方法 - 所有的子类都需要重写这个抽象方法">
+      <option name="closed" value="true" />
+      <created>1715170568330</created>
+      <option name="number" value="00353" />
+      <option name="presentableId" value="LOCAL-00353" />
+      <option name="project" value="LOCAL" />
+      <updated>1715170568330</updated>
+    </task>
+    <task id="LOCAL-00354" summary="Aniaml 的新 抽象 方法 - 验证 abstract 不能被 new">
+      <option name="closed" value="true" />
+      <created>1715170833649</created>
+      <option name="number" value="00354" />
+      <option name="presentableId" value="LOCAL-00354" />
+      <option name="project" value="LOCAL" />
+      <updated>1715170833649</updated>
+    </task>
+    <task id="LOCAL-00355" summary="Aniaml 的新 抽final 方法 - 验证 final 修饰的 method 不能被重写">
+      <option name="closed" value="true" />
+      <created>1715171125667</created>
+      <option name="number" value="00355" />
+      <option name="presentableId" value="LOCAL-00355" />
+      <option name="project" value="LOCAL" />
+      <updated>1715171125667</updated>
+    </task>
+    <task id="LOCAL-00356" summary="Aniaml 的新 抽final 方法 - 验证 final 修饰的 method 不能被重写">
+      <option name="closed" value="true" />
+      <created>1715171138216</created>
+      <option name="number" value="00356" />
+      <option name="presentableId" value="LOCAL-00356" />
+      <option name="project" value="LOCAL" />
+      <updated>1715171138216</updated>
+    </task>
+    <task id="LOCAL-00357" summary="为什么 final 和 abstract 不能共存">
+      <option name="closed" value="true" />
+      <created>1715171246011</created>
+      <option name="number" value="00357" />
+      <option name="presentableId" value="LOCAL-00357" />
+      <option name="project" value="LOCAL" />
+      <updated>1715171246011</updated>
+    </task>
+    <task id="LOCAL-00358" summary="Test - sum100">
+      <option name="closed" value="true" />
+      <created>1715172498083</created>
+      <option name="number" value="00358" />
+      <option name="presentableId" value="LOCAL-00358" />
+      <option name="project" value="LOCAL" />
+      <updated>1715172498083</updated>
+    </task>
+    <option name="localTasksCounter" value="359" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,14 +720,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="建立连接，连接邮箱" />
-    <MESSAGE value="关于接口" />
-    <MESSAGE value="." />
-    <MESSAGE value="中间状态，思索对策" />
-    <MESSAGE value="农夫狼羊草过河-模型的完成&#10;&#10;我使用了较为简单的做法，思路是：&#10;1、由于船只能由农夫开，所以只需要上去一个生物就够了&#10;2、判断两岸的生物的互相吃的状态&#10;3、胜利状态的判断" />
-    <MESSAGE value="有关于接口" />
-    <MESSAGE value="更改文件夹名称" />
-    <MESSAGE value="拼图游戏 -- 主界面的创建" />
     <MESSAGE value="成员内部类" />
     <MESSAGE value="静态内部类" />
     <MESSAGE value="局部内部类" />
@@ -744,7 +737,15 @@
     <MESSAGE value="拼图 -- 基本逻辑和查看原图片" />
     <MESSAGE value="拼图 -- 胜利和运转" />
     <MESSAGE value="更改" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改" />
+    <MESSAGE value="养动物的代码粘贴" />
+    <MESSAGE value="abstract and final - 在 Aniaml 中添加一个抽象方法" />
+    <MESSAGE value="abstract and final - 把类 修改为抽象类以适配抽象方法" />
+    <MESSAGE value="abstract and final - 所有的子类都需要重写这个抽象方法" />
+    <MESSAGE value="abstract and final - 验证 abstract 不能被 new" />
+    <MESSAGE value="abstract and final - Aniaml 的新 抽final 方法 - 验证 final 修饰的 method 不能被重写" />
+    <MESSAGE value="abstract and final - 为什么 final 和 abstract 不能共存" />
+    <MESSAGE value="Test - sum100" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test - sum100" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
