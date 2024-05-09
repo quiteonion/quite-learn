@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="compute the time - 如何写出一个类，能够计算其他代码的运行时间">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240508/TestPack/ComputeTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240508/TestPack/ComputeTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240508/TestPack/sum100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240508/TestPack/sum100.java" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="compute the time - 想要使用这个类可以让所有想要计算该时间的方法全部都继承这个类" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,27 +46,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/idea/idea 存储/quite/src/A20240508",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/A20240508&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\A20240508" />
@@ -91,7 +87,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A20240130">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -276,15 +272,7 @@
       <workItem from="1714995632560" duration="42000" />
       <workItem from="1715062275776" duration="1189000" />
       <workItem from="1715092300447" duration="753000" />
-      <workItem from="1715165727002" duration="8073000" />
-    </task>
-    <task id="LOCAL-00313" summary="字符转二进制&#10;&#10;主要为  Integer.toBinaryString() 的运用">
-      <option name="closed" value="true" />
-      <created>1713882381365</created>
-      <option name="number" value="00313" />
-      <option name="presentableId" value="LOCAL-00313" />
-      <option name="project" value="LOCAL" />
-      <updated>1713882381365</updated>
+      <workItem from="1715165727002" duration="8295000" />
     </task>
     <task id="LOCAL-00314" summary="不被需要的">
       <option name="closed" value="true" />
@@ -670,7 +658,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715173267590</updated>
     </task>
-    <option name="localTasksCounter" value="362" />
+    <task id="LOCAL-00362" summary="compute the time - 想要使用这个类可以让所有想要计算该时间的方法全部都继承这个类">
+      <option name="closed" value="true" />
+      <created>1715175520488</created>
+      <option name="number" value="00362" />
+      <option name="presentableId" value="LOCAL-00362" />
+      <option name="project" value="LOCAL" />
+      <updated>1715175520488</updated>
+    </task>
+    <option name="localTasksCounter" value="363" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -722,7 +718,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="局部内部类" />
     <MESSAGE value="匿名内部类" />
     <MESSAGE value="图片的整合&#10;&#10;一个包图片太多了，将他们整合成一个文件夹" />
     <MESSAGE value="练习1 --- 静态内部类的使用" />
@@ -747,7 +742,8 @@
     <MESSAGE value="Test - sum100" />
     <MESSAGE value="Test - System.currentTimeMillis - 获取当前时间距离 1970.1.1 的毫秒数" />
     <MESSAGE value="compute the time - 如何写出一个类，能够计算其他代码的运行时间" />
-    <option name="LAST_COMMIT_MESSAGE" value="compute the time - 如何写出一个类，能够计算其他代码的运行时间" />
+    <MESSAGE value="compute the time - 想要使用这个类可以让所有想要计算该时间的方法全部都继承这个类" />
+    <option name="LAST_COMMIT_MESSAGE" value="compute the time - 想要使用这个类可以让所有想要计算该时间的方法全部都继承这个类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
