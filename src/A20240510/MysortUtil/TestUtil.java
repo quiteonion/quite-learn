@@ -1,6 +1,7 @@
 package A20240510.MysortUtil;
 
-public class TestUtil {
+public interface TestUtil {
+    public void yourNumber(int number);
     public static void print(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + "   ");
