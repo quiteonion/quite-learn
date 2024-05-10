@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="compute the time - 想要使用这个类可以让所有想要计算该时间的方法全部都继承这个类" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="回忆">
+      <change afterPath="$PROJECT_DIR$/src/A20240510/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +57,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/A20240508&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/B20240509&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -69,11 +72,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\B20240509" />
       <recent name="D:\idea\idea 存储\quite\src\A20240508" />
       <recent name="D:\idea\idea 存储\quite\src\PinTuGame" />
       <recent name="D:\idea\idea 存储\quite\src\PinTuGame\PinTuImg" />
       <recent name="D:\idea\idea 存储\quite\src\B20240502\Test5" />
-      <recent name="D:\idea\idea 存储\quite\src\B20240502\Test3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\PinTuGame" />
@@ -87,7 +90,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A20240130">
+  <component name="RunManager">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -273,14 +276,9 @@
       <workItem from="1715062275776" duration="1189000" />
       <workItem from="1715092300447" duration="753000" />
       <workItem from="1715165727002" duration="8295000" />
-    </task>
-    <task id="LOCAL-00314" summary="不被需要的">
-      <option name="closed" value="true" />
-      <created>1713936917186</created>
-      <option name="number" value="00314" />
-      <option name="presentableId" value="LOCAL-00314" />
-      <option name="project" value="LOCAL" />
-      <updated>1713936917186</updated>
+      <workItem from="1715254265606" duration="571000" />
+      <workItem from="1715254907568" duration="10000" />
+      <workItem from="1715339182780" duration="663000" />
     </task>
     <task id="LOCAL-00315" summary="不被需要的 -- 删除错误了">
       <option name="closed" value="true" />
@@ -666,7 +664,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715175520488</updated>
     </task>
-    <option name="localTasksCounter" value="363" />
+    <task id="LOCAL-00363" summary="回忆">
+      <option name="closed" value="true" />
+      <created>1715254566442</created>
+      <option name="number" value="00363" />
+      <option name="presentableId" value="LOCAL-00363" />
+      <option name="project" value="LOCAL" />
+      <updated>1715254566442</updated>
+    </task>
+    <option name="localTasksCounter" value="364" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -718,7 +724,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="匿名内部类" />
     <MESSAGE value="图片的整合&#10;&#10;一个包图片太多了，将他们整合成一个文件夹" />
     <MESSAGE value="练习1 --- 静态内部类的使用" />
     <MESSAGE value="练习2 --- 非静态内部类的使用" />
@@ -743,7 +748,8 @@
     <MESSAGE value="Test - System.currentTimeMillis - 获取当前时间距离 1970.1.1 的毫秒数" />
     <MESSAGE value="compute the time - 如何写出一个类，能够计算其他代码的运行时间" />
     <MESSAGE value="compute the time - 想要使用这个类可以让所有想要计算该时间的方法全部都继承这个类" />
-    <option name="LAST_COMMIT_MESSAGE" value="compute the time - 想要使用这个类可以让所有想要计算该时间的方法全部都继承这个类" />
+    <MESSAGE value="回忆" />
+    <option name="LAST_COMMIT_MESSAGE" value="回忆" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
