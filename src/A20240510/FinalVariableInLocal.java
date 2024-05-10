@@ -11,6 +11,6 @@ class LocalVariable{
     public void localVariable(int j){
         final int i = 0;
         //Cannot assign a value to final variable 'i'
-        i = j;
+        //i = j;
     }
 }
