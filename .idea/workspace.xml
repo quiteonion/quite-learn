@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="final - variable --- local">
-      <change afterPath="$PROJECT_DIR$/src/A20240510/FinalVariableInParameters.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="final - variable --- 如何赋值">
+      <change afterPath="$PROJECT_DIR$/src/A20240510/MysortUtil/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240510/MysortUtil/TestUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240510/FinalVariableInLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240510/FinalVariableInLocal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240510/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240510/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,39 +279,7 @@
       <workItem from="1715165727002" duration="8295000" />
       <workItem from="1715254265606" duration="571000" />
       <workItem from="1715254907568" duration="10000" />
-      <workItem from="1715339182780" duration="4901000" />
-    </task>
-    <task id="LOCAL-00321" summary=".">
-      <option name="closed" value="true" />
-      <created>1714136339341</created>
-      <option name="number" value="00321" />
-      <option name="presentableId" value="LOCAL-00321" />
-      <option name="project" value="LOCAL" />
-      <updated>1714136339341</updated>
-    </task>
-    <task id="LOCAL-00322" summary=".">
-      <option name="closed" value="true" />
-      <created>1714136443769</created>
-      <option name="number" value="00322" />
-      <option name="presentableId" value="LOCAL-00322" />
-      <option name="project" value="LOCAL" />
-      <updated>1714136443769</updated>
-    </task>
-    <task id="LOCAL-00323" summary="中间状态，思索对策">
-      <option name="closed" value="true" />
-      <created>1714136485094</created>
-      <option name="number" value="00323" />
-      <option name="presentableId" value="LOCAL-00323" />
-      <option name="project" value="LOCAL" />
-      <updated>1714136485094</updated>
-    </task>
-    <task id="LOCAL-00324" summary="农夫狼羊草过河-模型的完成&#10;&#10;我使用了较为简单的做法，思路是：&#10;1、由于船只能由农夫开，所以只需要上去一个生物就够了&#10;2、判断两岸的生物的互相吃的状态&#10;3、胜利状态的判断">
-      <option name="closed" value="true" />
-      <created>1714294144315</created>
-      <option name="number" value="00324" />
-      <option name="presentableId" value="LOCAL-00324" />
-      <option name="project" value="LOCAL" />
-      <updated>1714294144315</updated>
+      <workItem from="1715339182780" duration="6905000" />
     </task>
     <task id="LOCAL-00325" summary="有关于接口">
       <option name="closed" value="true" />
@@ -674,7 +641,39 @@
       <option name="project" value="LOCAL" />
       <updated>1715344043417</updated>
     </task>
-    <option name="localTasksCounter" value="370" />
+    <task id="LOCAL-00370" summary="final - variable --- parameters">
+      <option name="closed" value="true" />
+      <created>1715345355766</created>
+      <option name="number" value="00370" />
+      <option name="presentableId" value="LOCAL-00370" />
+      <option name="project" value="LOCAL" />
+      <updated>1715345355766</updated>
+    </task>
+    <task id="LOCAL-00371" summary="final - variable --- 如何赋值">
+      <option name="closed" value="true" />
+      <created>1715345424016</created>
+      <option name="number" value="00371" />
+      <option name="presentableId" value="LOCAL-00371" />
+      <option name="project" value="LOCAL" />
+      <updated>1715345424016</updated>
+    </task>
+    <task id="LOCAL-00372" summary="final - variable --- 如何赋值">
+      <option name="closed" value="true" />
+      <created>1715345431816</created>
+      <option name="number" value="00372" />
+      <option name="presentableId" value="LOCAL-00372" />
+      <option name="project" value="LOCAL" />
+      <updated>1715345431816</updated>
+    </task>
+    <task id="LOCAL-00373" summary="final - variable --- 如何赋值">
+      <option name="closed" value="true" />
+      <created>1715345436203</created>
+      <option name="number" value="00373" />
+      <option name="presentableId" value="LOCAL-00373" />
+      <option name="project" value="LOCAL" />
+      <updated>1715345436203</updated>
+    </task>
+    <option name="localTasksCounter" value="374" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -715,6 +714,13 @@
                       </list>
                     </value>
                   </entry>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="冒泡" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
@@ -726,8 +732,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="练习3 --- 匿名内部类的使用" />
-    <MESSAGE value="练习五 --- 访问外部类的成员" />
     <MESSAGE value="拼图游戏菜单的制作" />
     <MESSAGE value="图片添加" />
     <MESSAGE value="拼图 -- 图片的加入和随机化" />
@@ -751,7 +755,9 @@
     <MESSAGE value="final - variable --- Instance" />
     <MESSAGE value="final - variable --- class" />
     <MESSAGE value="final - variable --- local" />
-    <option name="LAST_COMMIT_MESSAGE" value="final - variable --- local" />
+    <MESSAGE value="final - variable --- parameters" />
+    <MESSAGE value="final - variable --- 如何赋值" />
+    <option name="LAST_COMMIT_MESSAGE" value="final - variable --- 如何赋值" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
