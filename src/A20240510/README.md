@@ -19,3 +19,7 @@
 ## Class Variable
 
 无法进行更改（从代码层面上无法更改）
+
+## Local Variable
+
+无法进行更改（从代码层面上无法更改）

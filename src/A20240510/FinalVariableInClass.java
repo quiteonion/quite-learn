@@ -12,7 +12,7 @@ class ClassVariable{
 
         instanceVariable = j;
         //Cannot assign a value to final variable 'i'
-        i = j;
+        //i = j;
     }
 
 }
