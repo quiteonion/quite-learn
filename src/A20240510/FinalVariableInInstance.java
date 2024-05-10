@@ -10,10 +10,10 @@ class instance{
 
     //Identifier expected
     //Unexpected token
-    i = 9;
+    //i = 9;
 
     public void addI(int i){
         //Cannot assign a value to final variable 'i( In the variable you use the final modifier )'
-        this.i = i;
+    //    this.i = i;
     }
 }
