@@ -169,5 +169,18 @@ public class Invert {
 
 中建类的名称一般为： XXX Adapter
 
+## 局部类
+
+https://gitee.com/i-really-like-quietness/quite/tree/master/src/B20240430
+
+### 成员内部类
+
+### 静态内部类
+
+### 局部内部类
+
+### 匿名内部类
+
+
 
 
