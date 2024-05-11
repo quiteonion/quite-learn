@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="排列引用数据类型 - 增加 int 类型和 Student 类型">
-      <change afterPath="$PROJECT_DIR$/src/A20240510/Test/Test6z1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240510/MysortUtil/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240510/MysortUtil/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240510/MysortUtil/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240510/MysortUtil/TestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240509/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240509/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +90,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A20240130">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -282,6 +280,7 @@
       <workItem from="1715254907568" duration="10000" />
       <workItem from="1715339182780" duration="7387000" />
       <workItem from="1715353848978" duration="1372000" />
+      <workItem from="1715415456385" duration="1093000" />
     </task>
     <task id="LOCAL-00326" summary="更改文件夹名称">
       <option name="closed" value="true" />
