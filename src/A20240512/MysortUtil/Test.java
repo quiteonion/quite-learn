@@ -18,6 +18,9 @@ public class Test {
 }
  class ALL{
     int number;
+    public ALL(int number){
+        this.number = number;
+    }
 }
 class Student extends ALL {
     String name;
