@@ -1,6 +1,8 @@
 package A20240512.MakeNewBehavior.MysortUtilState;
 
 
+import A20240313.R;
+
 public class Test {
     public static void main(String[] args) {
         Student[] studentArr = {new Student("Q", 23), new Student("W", 34), new Student("E", 21), new Student("R", 16), new Student("T", 3)};
@@ -17,7 +19,6 @@ public class Test {
     }
 }
  abstract class ALL{
-    int number;
     public abstract boolean isLarger(ALL all);
 }
 class Student extends ALL {
@@ -28,6 +29,9 @@ class Student extends ALL {
         this.name = name;
         this.age = age;
     }
+    public int getAge(){
+        return age;
+    }
 
     @Override
     public String toString() {
@@ -37,6 +41,10 @@ class Student extends ALL {
 
     @Override
     public boolean isLarger(ALL all) {
+        Student student = (Student) all;
+        if (this.age>student.getAge()){
+            return true;
+        }
         return false;
     }
 }
@@ -49,6 +57,10 @@ class TV extends ALL  {
         this.price = price;
     }
 
+    public int getPrice() {
+        return price;
+    }
+
     @Override
     public String toString() {
         return name + "  " + price;
@@ -57,6 +69,10 @@ class TV extends ALL  {
 
     @Override
     public boolean isLarger(ALL all) {
+        TV tv = (TV) all;
+        if (this.price>tv.getPrice()){
+            return true;
+        }
         return false;
     }
 }
@@ -67,6 +83,11 @@ class Room extends ALL{
         this.name = name;
         this.area = area;
     }
+
+    public int getArea() {
+        return area;
+    }
+
     @Override
     public String toString() {
         return name + "  " + area;
@@ -75,6 +96,9 @@ class Room extends ALL{
 
     @Override
     public boolean isLarger(ALL all) {
-        return false;
-    }
+        Room room = (Room) all;
+        if (this.area>room.getArea()){
+            return true;
+        }
+        return false;    }
 }
