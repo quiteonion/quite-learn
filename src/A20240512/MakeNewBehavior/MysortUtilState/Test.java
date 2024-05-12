@@ -29,9 +29,6 @@ class Student extends ALL {
         this.name = name;
         this.age = age;
     }
-    public int getAge(){
-        return age;
-    }
 
     @Override
     public String toString() {
@@ -42,7 +39,7 @@ class Student extends ALL {
     @Override
     public boolean isLarger(ALL all) {
         Student student = (Student) all;
-        if (this.age>student.getAge()){
+        if (this.age>student.age){
             return true;
         }
         return false;
@@ -57,9 +54,7 @@ class TV extends ALL  {
         this.price = price;
     }
 
-    public int getPrice() {
-        return price;
-    }
+
 
     @Override
     public String toString() {
@@ -70,7 +65,7 @@ class TV extends ALL  {
     @Override
     public boolean isLarger(ALL all) {
         TV tv = (TV) all;
-        if (this.price>tv.getPrice()){
+        if (this.price>tv.price){
             return true;
         }
         return false;
@@ -84,9 +79,7 @@ class Room extends ALL{
         this.area = area;
     }
 
-    public int getArea() {
-        return area;
-    }
+
 
     @Override
     public String toString() {
@@ -97,7 +90,7 @@ class Room extends ALL{
     @Override
     public boolean isLarger(ALL all) {
         Room room = (Room) all;
-        if (this.area>room.getArea()){
+        if (this.area>room.area){
             return true;
         }
         return false;    }
