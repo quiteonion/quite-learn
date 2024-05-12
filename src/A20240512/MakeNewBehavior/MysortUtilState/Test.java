@@ -18,10 +18,10 @@ public class Test {
         TestUtil.print(roomArr);
     }
 }
- abstract class ALL{
-    public abstract boolean isLarger(ALL all);
+ abstract class MyComparable{
+    public abstract boolean isLarger(MyComparable myComparable);
 }
-class Student extends ALL {
+class Student extends MyComparable {
     String name;
     int age;
 
@@ -37,15 +37,15 @@ class Student extends ALL {
 
 
     @Override
-    public boolean isLarger(ALL all) {
-        Student student = (Student) all;
+    public boolean isLarger(MyComparable myComparable) {
+        Student student = (Student) myComparable;
         if (this.age>student.age){
             return true;
         }
         return false;
     }
 }
-class TV extends ALL  {
+class TV extends MyComparable  {
     String name;
     int price;
 
@@ -63,15 +63,15 @@ class TV extends ALL  {
 
 
     @Override
-    public boolean isLarger(ALL all) {
-        TV tv = (TV) all;
+    public boolean isLarger(MyComparable myComparable) {
+        TV tv = (TV) myComparable;
         if (this.price>tv.price){
             return true;
         }
         return false;
     }
 }
-class Room extends ALL{
+class Room extends MyComparable{
     String name;
     int area;
     public Room(String name,int area){
@@ -88,8 +88,8 @@ class Room extends ALL{
 
 
     @Override
-    public boolean isLarger(ALL all) {
-        Room room = (Room) all;
+    public boolean isLarger(MyComparable myComparable) {
+        Room room = (Room) myComparable;
         if (this.area>room.area){
             return true;
         }
