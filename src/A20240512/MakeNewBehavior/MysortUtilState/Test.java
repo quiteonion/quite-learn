@@ -1,4 +1,4 @@
-package A20240512.MysortUtil;
+package A20240512.MakeNewBehavior.MysortUtilState;
 
 
 public class Test {
@@ -16,18 +16,15 @@ public class Test {
         TestUtil.print(roomArr);
     }
 }
- class ALL{
+ abstract class ALL{
     int number;
-    public ALL(int number){
-        this.number = number;
-    }
+    public abstract boolean isLarger(ALL all);
 }
 class Student extends ALL {
     String name;
     int age;
 
     public Student(String name, int age) {
-        super(age);
         this.name = name;
         this.age = age;
     }
@@ -38,13 +35,16 @@ class Student extends ALL {
     }
 
 
+    @Override
+    public boolean isLarger(ALL all) {
+        return false;
+    }
 }
 class TV extends ALL  {
     String name;
     int price;
 
     public TV(String name, int price) {
-        super(price);
         this.name = name;
         this.price = price;
     }
@@ -55,12 +55,15 @@ class TV extends ALL  {
     }
 
 
+    @Override
+    public boolean isLarger(ALL all) {
+        return false;
+    }
 }
 class Room extends ALL{
     String name;
     int area;
     public Room(String name,int area){
-        super(area);
         this.name = name;
         this.area = area;
     }
@@ -70,4 +73,8 @@ class Room extends ALL{
     }
 
 
+    @Override
+    public boolean isLarger(ALL all) {
+        return false;
+    }
 }

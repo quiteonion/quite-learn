@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="身份证验证">
-      <change afterPath="$PROJECT_DIR$/src/A20240512/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240512/MysortUtil/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240512/MysortUtil/TestUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240512/README.md" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="排列引用数据类型 - 使用 state 来进行书写 -- 使用构造器必须被重写的方法...&#10;&#10;于是使用这种方法，使得能够提前报错，防止 number 的数值没有赋值的问题">
+      <change afterPath="$PROJECT_DIR$/src/A20240512/MakeNewBehavior/MysortUtilState/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240512/MakeNewBehavior/MysortUtilState/TestUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240511/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240511/Test5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240512/MysortUtil/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240512/MysortUtilState/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240512/MysortUtil/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240512/MysortUtilState/TestUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="eb1a7763d2821155c05d539afc31f3e3857dbb1d" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -61,7 +65,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/idea/idea 存储/quite/src/A20240512",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/src/A20240512/MakeNewBehavior",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,11 +80,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\A20240512\MakeNewBehavior" />
       <recent name="D:\idea\idea 存储\quite\src\A20240512" />
       <recent name="D:\idea\idea 存储\quite\src\B20240509" />
       <recent name="D:\idea\idea 存储\quite\src\A20240508" />
       <recent name="D:\idea\idea 存储\quite\src\PinTuGame" />
-      <recent name="D:\idea\idea 存储\quite\src\PinTuGame\PinTuImg" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\PinTuGame" />
@@ -138,6 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.APP" />
+        <item itemvalue="Application.A20240130" />
         <item itemvalue="Application.APP" />
         <item itemvalue="Application.A20240130" />
       </list>
@@ -286,31 +292,7 @@
       <workItem from="1715353848978" duration="1372000" />
       <workItem from="1715415456385" duration="3422000" />
       <workItem from="1715432302907" duration="4242000" />
-      <workItem from="1715494333020" duration="1847000" />
-    </task>
-    <task id="LOCAL-00333" summary="匿名内部类">
-      <option name="closed" value="true" />
-      <created>1714566601684</created>
-      <option name="number" value="00333" />
-      <option name="presentableId" value="LOCAL-00333" />
-      <option name="project" value="LOCAL" />
-      <updated>1714566601684</updated>
-    </task>
-    <task id="LOCAL-00334" summary="图片的整合&#10;&#10;一个包图片太多了，将他们整合成一个文件夹">
-      <option name="closed" value="true" />
-      <created>1714630652320</created>
-      <option name="number" value="00334" />
-      <option name="presentableId" value="LOCAL-00334" />
-      <option name="project" value="LOCAL" />
-      <updated>1714630652320</updated>
-    </task>
-    <task id="LOCAL-00335" summary="练习1 --- 静态内部类的使用">
-      <option name="closed" value="true" />
-      <created>1714631426453</created>
-      <option name="number" value="00335" />
-      <option name="presentableId" value="LOCAL-00335" />
-      <option name="project" value="LOCAL" />
-      <updated>1714631426453</updated>
+      <workItem from="1715494333020" duration="4206000" />
     </task>
     <task id="LOCAL-00336" summary="练习2 --- 非静态内部类的使用">
       <option name="closed" value="true" />
@@ -680,7 +662,31 @@
       <option name="project" value="LOCAL" />
       <updated>1715436535202</updated>
     </task>
-    <option name="localTasksCounter" value="382" />
+    <task id="LOCAL-00382" summary="排列引用数据类型 - 使用 state 来进行书写...&#10;&#10;在代码书写阶段，很容易忘记赋值在书写时把要用来比较的 number 的值，而且还不会使聪明的 idea 报错，那么有什么方法能够让 number 必须被赋值呢？">
+      <option name="closed" value="true" />
+      <created>1715497427410</created>
+      <option name="number" value="00382" />
+      <option name="presentableId" value="LOCAL-00382" />
+      <option name="project" value="LOCAL" />
+      <updated>1715497427410</updated>
+    </task>
+    <task id="LOCAL-00383" summary="排列引用数据类型 - 使用 state 来进行书写 -- 使用构造器必须被重写的方法...&#10;&#10;我想到了可以使用构造器赋值，由于 idea 只能帮忙书写空参构造 ， 那么只需要我加入参数，idea 就不会帮我们添加构造器，就需要自己构造出 super() 方法">
+      <option name="closed" value="true" />
+      <created>1715497571955</created>
+      <option name="number" value="00383" />
+      <option name="presentableId" value="LOCAL-00383" />
+      <option name="project" value="LOCAL" />
+      <updated>1715497571956</updated>
+    </task>
+    <task id="LOCAL-00384" summary="排列引用数据类型 - 使用 state 来进行书写 -- 使用构造器必须被重写的方法...&#10;&#10;于是使用这种方法，使得能够提前报错，防止 number 的数值没有赋值的问题">
+      <option name="closed" value="true" />
+      <created>1715497620664</created>
+      <option name="number" value="00384" />
+      <option name="presentableId" value="LOCAL-00384" />
+      <option name="project" value="LOCAL" />
+      <updated>1715497620664</updated>
+    </task>
+    <option name="localTasksCounter" value="385" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -732,9 +738,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="abstract and final - 在 Aniaml 中添加一个抽象方法" />
-    <MESSAGE value="abstract and final - 把类 修改为抽象类以适配抽象方法" />
-    <MESSAGE value="abstract and final - 所有的子类都需要重写这个抽象方法" />
     <MESSAGE value="abstract and final - 验证 abstract 不能被 new" />
     <MESSAGE value="abstract and final - Aniaml 的新 抽final 方法 - 验证 final 修饰的 method 不能被重写" />
     <MESSAGE value="abstract and final - 为什么 final 和 abstract 不能共存" />
@@ -757,7 +760,10 @@
     <MESSAGE value="错误就重新输入" />
     <MESSAGE value="计算有几个字母和数字" />
     <MESSAGE value="身份证验证" />
-    <option name="LAST_COMMIT_MESSAGE" value="身份证验证" />
+    <MESSAGE value="排列引用数据类型 - 使用 state 来进行书写...&#10;&#10;在代码书写阶段，很容易忘记赋值在书写时把要用来比较的 number 的值，而且还不会使聪明的 idea 报错，那么有什么方法能够让 number 必须被赋值呢？" />
+    <MESSAGE value="排列引用数据类型 - 使用 state 来进行书写 -- 使用构造器必须被重写的方法...&#10;&#10;我想到了可以使用构造器赋值，由于 idea 只能帮忙书写空参构造 ， 那么只需要我加入参数，idea 就不会帮我们添加构造器，就需要自己构造出 super() 方法" />
+    <MESSAGE value="排列引用数据类型 - 使用 state 来进行书写 -- 使用构造器必须被重写的方法...&#10;&#10;于是使用这种方法，使得能够提前报错，防止 number 的数值没有赋值的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="排列引用数据类型 - 使用 state 来进行书写 -- 使用构造器必须被重写的方法...&#10;&#10;于是使用这种方法，使得能够提前报错，防止 number 的数值没有赋值的问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

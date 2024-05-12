@@ -1,4 +1,4 @@
-package A20240512.MysortUtil;
+package A20240512.MakeNewBehavior.MysortUtilState;
 
 public class TestUtil {
     public static void print(int[] arr) {
