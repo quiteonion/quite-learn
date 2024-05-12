@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="排列引用数据类型 - 使用 behavior 进行书写，使用方法内比较 -- 微调...&#10;&#10;在强转类型后就不需要再使用 get 方法了，可以直接调用本类的 state">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240512/MakeNewBehavior/MysortUtilState/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240512/MakeNewBehavior/MysortUtilState/Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="排列引用数据类型 - 使用 behavior 进行书写 -- 更改为：返回值的类型为int" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -289,23 +286,7 @@
       <workItem from="1715353848978" duration="1372000" />
       <workItem from="1715415456385" duration="3422000" />
       <workItem from="1715432302907" duration="4242000" />
-      <workItem from="1715494333020" duration="5496000" />
-    </task>
-    <task id="LOCAL-00340" summary="练习五 --- 访问外部类的成员">
-      <option name="closed" value="true" />
-      <created>1714634858958</created>
-      <option name="number" value="00340" />
-      <option name="presentableId" value="LOCAL-00340" />
-      <option name="project" value="LOCAL" />
-      <updated>1714634858958</updated>
-    </task>
-    <task id="LOCAL-00341" summary="拼图游戏菜单的制作">
-      <option name="closed" value="true" />
-      <created>1714637802420</created>
-      <option name="number" value="00341" />
-      <option name="presentableId" value="LOCAL-00341" />
-      <option name="project" value="LOCAL" />
-      <updated>1714637802420</updated>
+      <workItem from="1715494333020" duration="5914000" />
     </task>
     <task id="LOCAL-00342" summary="图片添加">
       <option name="closed" value="true" />
@@ -683,7 +664,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715500761368</updated>
     </task>
-    <option name="localTasksCounter" value="389" />
+    <task id="LOCAL-00389" summary="排列引用数据类型 - 使用 behavior 进行书写 -- 更名为  MyComparable">
+      <option name="closed" value="true" />
+      <created>1715501531155</created>
+      <option name="number" value="00389" />
+      <option name="presentableId" value="LOCAL-00389" />
+      <option name="project" value="LOCAL" />
+      <updated>1715501531155</updated>
+    </task>
+    <task id="LOCAL-00390" summary="排列引用数据类型 - 使用 behavior 进行书写 -- 更改为：返回值的类型为int">
+      <option name="closed" value="true" />
+      <created>1715501764606</created>
+      <option name="number" value="00390" />
+      <option name="presentableId" value="LOCAL-00390" />
+      <option name="project" value="LOCAL" />
+      <updated>1715501764606</updated>
+    </task>
+    <option name="localTasksCounter" value="391" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -735,8 +732,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Test - System.currentTimeMillis - 获取当前时间距离 1970.1.1 的毫秒数" />
-    <MESSAGE value="compute the time - 如何写出一个类，能够计算其他代码的运行时间" />
     <MESSAGE value="compute the time - 想要使用这个类可以让所有想要计算该时间的方法全部都继承这个类" />
     <MESSAGE value="引出匿名类" />
     <MESSAGE value="回忆" />
@@ -760,7 +755,9 @@
     <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写，使用方法内比较 -- 设置 get 方法...&#10;&#10;由于在代码运行时，父类调用无法调用到子类的方法，所以就必须要将父类的方法强转为子类的对象" />
     <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写，使用方法内比较 -- 更改稳定代码" />
     <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写，使用方法内比较 -- 微调...&#10;&#10;在强转类型后就不需要再使用 get 方法了，可以直接调用本类的 state" />
-    <option name="LAST_COMMIT_MESSAGE" value="排列引用数据类型 - 使用 behavior 进行书写，使用方法内比较 -- 微调...&#10;&#10;在强转类型后就不需要再使用 get 方法了，可以直接调用本类的 state" />
+    <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写 -- 更名为  MyComparable" />
+    <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写 -- 更改为：返回值的类型为int" />
+    <option name="LAST_COMMIT_MESSAGE" value="排列引用数据类型 - 使用 behavior 进行书写 -- 更改为：返回值的类型为int" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
