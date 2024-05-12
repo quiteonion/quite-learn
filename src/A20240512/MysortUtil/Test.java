@@ -27,9 +27,9 @@ class Student extends ALL {
     int age;
 
     public Student(String name, int age) {
+        super(age);
         this.name = name;
         this.age = age;
-        this.number = this.age;
     }
 
     @Override
@@ -44,9 +44,9 @@ class TV extends ALL  {
     int price;
 
     public TV(String name, int price) {
+        super(price);
         this.name = name;
         this.price = price;
-        this.number = this.price;
     }
 
     @Override
@@ -60,9 +60,9 @@ class Room extends ALL{
     String name;
     int area;
     public Room(String name,int area){
+        super(area);
         this.name = name;
         this.area = area;
-        this.number = this.area;
     }
     @Override
     public String toString() {
