@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="排列引用数据类型 - 使用 behavior 进行书写 -- 更改为：返回值的类型为int" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="排列引用数据类型 - 使用 behavior 进行书写 -- 发现报错并修改">
+      <change afterPath="$PROJECT_DIR$/src/B20240514/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,27 +54,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/idea/idea 存储/quite/src/A20240512/MakeNewBehavior",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/A20240512/MakeNewBehavior&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\A20240512\MakeNewBehavior" />
@@ -92,7 +95,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A20240130">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -286,15 +289,10 @@
       <workItem from="1715353848978" duration="1372000" />
       <workItem from="1715415456385" duration="3422000" />
       <workItem from="1715432302907" duration="4242000" />
-      <workItem from="1715494333020" duration="5914000" />
-    </task>
-    <task id="LOCAL-00342" summary="图片添加">
-      <option name="closed" value="true" />
-      <created>1714722269372</created>
-      <option name="number" value="00342" />
-      <option name="presentableId" value="LOCAL-00342" />
-      <option name="project" value="LOCAL" />
-      <updated>1714722269372</updated>
+      <workItem from="1715494333020" duration="7355000" />
+      <workItem from="1715512354595" duration="599000" />
+      <workItem from="1715600617652" duration="300000" />
+      <workItem from="1715665826981" duration="1333000" />
     </task>
     <task id="LOCAL-00343" summary="图片添加">
       <option name="closed" value="true" />
@@ -680,7 +678,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715501764606</updated>
     </task>
-    <option name="localTasksCounter" value="391" />
+    <task id="LOCAL-00391" summary="排列引用数据类型 - 使用 behavior 进行书写 -- 发现报错并修改">
+      <option name="closed" value="true" />
+      <created>1715501852253</created>
+      <option name="number" value="00391" />
+      <option name="presentableId" value="LOCAL-00391" />
+      <option name="project" value="LOCAL" />
+      <updated>1715501852253</updated>
+    </task>
+    <option name="localTasksCounter" value="392" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -732,7 +738,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="compute the time - 想要使用这个类可以让所有想要计算该时间的方法全部都继承这个类" />
     <MESSAGE value="引出匿名类" />
     <MESSAGE value="回忆" />
     <MESSAGE value="final - variable --- Instance" />
@@ -757,7 +762,8 @@
     <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写，使用方法内比较 -- 微调...&#10;&#10;在强转类型后就不需要再使用 get 方法了，可以直接调用本类的 state" />
     <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写 -- 更名为  MyComparable" />
     <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写 -- 更改为：返回值的类型为int" />
-    <option name="LAST_COMMIT_MESSAGE" value="排列引用数据类型 - 使用 behavior 进行书写 -- 更改为：返回值的类型为int" />
+    <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写 -- 发现报错并修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="排列引用数据类型 - 使用 behavior 进行书写 -- 发现报错并修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
