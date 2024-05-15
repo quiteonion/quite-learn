@@ -18,7 +18,7 @@ public class Student extends MyComparable {
 
     @Override
     public int isLarger(MyComparable myComparable) {
-        if (myComparable instanceof A20240515.note.MysortUtilState.Student student) {
+        if (myComparable instanceof Student student) {
             return (int) (this.age - student.age);
         }
         return 0;
@@ -27,7 +27,7 @@ public class Student extends MyComparable {
 
     @Override
     public int isName(MyComparable myComparable) {
-        if (myComparable instanceof A20240515.note.MysortUtilState.Student student) {
+        if (myComparable instanceof Student student) {
             return (int) this.name.charAt(0) - (int) student.name.charAt(0);
         }
         return 0;

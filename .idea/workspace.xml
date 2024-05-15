@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="From A20240512 copy">
-      <change afterPath="$PROJECT_DIR$/src/A20240515/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/TestUtil.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment=" 将原本写在一个类中的代码拆分为多个类">
+      <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,23 +292,7 @@
       <workItem from="1715512354595" duration="599000" />
       <workItem from="1715600617652" duration="300000" />
       <workItem from="1715665826981" duration="9545000" />
-      <workItem from="1715771148170" duration="3165000" />
-    </task>
-    <task id="LOCAL-00347" summary="拼图 -- 基本逻辑和查看原图片">
-      <option name="closed" value="true" />
-      <created>1714806709825</created>
-      <option name="number" value="00347" />
-      <option name="presentableId" value="LOCAL-00347" />
-      <option name="project" value="LOCAL" />
-      <updated>1714806709825</updated>
-    </task>
-    <task id="LOCAL-00348" summary="拼图 -- 胜利和运转">
-      <option name="closed" value="true" />
-      <created>1714815268146</created>
-      <option name="number" value="00348" />
-      <option name="presentableId" value="LOCAL-00348" />
-      <option name="project" value="LOCAL" />
-      <updated>1714815268146</updated>
+      <workItem from="1715771148170" duration="3468000" />
     </task>
     <task id="LOCAL-00349" summary="更改">
       <option name="closed" value="true" />
@@ -689,7 +670,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715771724311</updated>
     </task>
-    <option name="localTasksCounter" value="396" />
+    <task id="LOCAL-00396" summary="使用了较为笨拙切不好修改的代码">
+      <option name="closed" value="true" />
+      <created>1715775394644</created>
+      <option name="number" value="00396" />
+      <option name="presentableId" value="LOCAL-00396" />
+      <option name="project" value="LOCAL" />
+      <updated>1715775394644</updated>
+    </task>
+    <task id="LOCAL-00397" summary=" 将原本写在一个类中的代码拆分为多个类">
+      <option name="closed" value="true" />
+      <created>1715775605455</created>
+      <option name="number" value="00397" />
+      <option name="presentableId" value="LOCAL-00397" />
+      <option name="project" value="LOCAL" />
+      <updated>1715775605455</updated>
+    </task>
+    <option name="localTasksCounter" value="398" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -741,8 +738,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="final - variable --- local" />
-    <MESSAGE value="final - variable --- parameters" />
     <MESSAGE value="final - variable --- 如何赋值" />
     <MESSAGE value="排列引用数据类型 - 增加 int 类型和 Student 类型" />
     <MESSAGE value="回忆 --- about interface" />
@@ -766,7 +761,9 @@
     <MESSAGE value="结论：不能直接使用JS调用浏览器内的搜索框" />
     <MESSAGE value="可以搜索，但是无法获取网址" />
     <MESSAGE value="From A20240512 copy" />
-    <option name="LAST_COMMIT_MESSAGE" value="From A20240512 copy" />
+    <MESSAGE value="使用了较为笨拙切不好修改的代码" />
+    <MESSAGE value=" 将原本写在一个类中的代码拆分为多个类" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 将原本写在一个类中的代码拆分为多个类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
