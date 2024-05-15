@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="可以搜索，但是无法获取网址">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="From A20240512 copy">
       <change afterPath="$PROJECT_DIR$/src/A20240515/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/TestUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,34 +56,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/A20240512/MakeNewBehavior&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/src/A20240515/note",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\A20240515\note" />
       <recent name="D:\idea\idea 存储\quite\src\A20240512\MakeNewBehavior" />
       <recent name="D:\idea\idea 存储\quite\src\A20240512" />
       <recent name="D:\idea\idea 存储\quite\src\B20240509" />
       <recent name="D:\idea\idea 存储\quite\src\A20240508" />
-      <recent name="D:\idea\idea 存储\quite\src\PinTuGame" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\PinTuGame" />
@@ -293,15 +295,7 @@
       <workItem from="1715512354595" duration="599000" />
       <workItem from="1715600617652" duration="300000" />
       <workItem from="1715665826981" duration="9545000" />
-      <workItem from="1715771148170" duration="494000" />
-    </task>
-    <task id="LOCAL-00346" summary="拼图 -- 更改名字">
-      <option name="closed" value="true" />
-      <created>1714726390410</created>
-      <option name="number" value="00346" />
-      <option name="presentableId" value="LOCAL-00346" />
-      <option name="project" value="LOCAL" />
-      <updated>1714726390410</updated>
+      <workItem from="1715771148170" duration="3165000" />
     </task>
     <task id="LOCAL-00347" summary="拼图 -- 基本逻辑和查看原图片">
       <option name="closed" value="true" />
@@ -687,7 +681,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715692885932</updated>
     </task>
-    <option name="localTasksCounter" value="395" />
+    <task id="LOCAL-00395" summary="From A20240512 copy">
+      <option name="closed" value="true" />
+      <created>1715771724310</created>
+      <option name="number" value="00395" />
+      <option name="presentableId" value="LOCAL-00395" />
+      <option name="project" value="LOCAL" />
+      <updated>1715771724311</updated>
+    </task>
+    <option name="localTasksCounter" value="396" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -739,7 +741,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="final - variable --- class" />
     <MESSAGE value="final - variable --- local" />
     <MESSAGE value="final - variable --- parameters" />
     <MESSAGE value="final - variable --- 如何赋值" />
@@ -764,7 +765,8 @@
     <MESSAGE value="JFrame -- about JFrame" />
     <MESSAGE value="结论：不能直接使用JS调用浏览器内的搜索框" />
     <MESSAGE value="可以搜索，但是无法获取网址" />
-    <option name="LAST_COMMIT_MESSAGE" value="可以搜索，但是无法获取网址" />
+    <MESSAGE value="From A20240512 copy" />
+    <option name="LAST_COMMIT_MESSAGE" value="From A20240512 copy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
