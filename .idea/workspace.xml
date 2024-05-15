@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="需要增加方法，却又不增加复杂度，就要在方法上进行抽象">
-      <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/AgeLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/AgeLetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/FirstLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/FirstLetter.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="排列可以细分...&#10;&#10;排列可以细分为比较和交换，如果我的方法只是进行了比较，那就具有很大的延展性">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/MyComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/MyComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/StudentAgeLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/StudentAgeLetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/StudentFirstLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/StudentFirstLetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,23 +296,7 @@
       <workItem from="1715512354595" duration="599000" />
       <workItem from="1715600617652" duration="300000" />
       <workItem from="1715665826981" duration="9545000" />
-      <workItem from="1715771148170" duration="4635000" />
-    </task>
-    <task id="LOCAL-00355" summary="Aniaml 的新 抽final 方法 - 验证 final 修饰的 method 不能被重写">
-      <option name="closed" value="true" />
-      <created>1715171125667</created>
-      <option name="number" value="00355" />
-      <option name="presentableId" value="LOCAL-00355" />
-      <option name="project" value="LOCAL" />
-      <updated>1715171125667</updated>
-    </task>
-    <task id="LOCAL-00356" summary="Aniaml 的新 抽final 方法 - 验证 final 修饰的 method 不能被重写">
-      <option name="closed" value="true" />
-      <created>1715171138216</created>
-      <option name="number" value="00356" />
-      <option name="presentableId" value="LOCAL-00356" />
-      <option name="project" value="LOCAL" />
-      <updated>1715171138216</updated>
+      <workItem from="1715771148170" duration="5417000" />
     </task>
     <task id="LOCAL-00357" summary="为什么 final 和 abstract 不能共存">
       <option name="closed" value="true" />
@@ -688,7 +674,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715776431721</updated>
     </task>
-    <option name="localTasksCounter" value="404" />
+    <task id="LOCAL-00404" summary="排列可以细分...&#10;&#10;排列可以细分为比较和交换，如果我的方法只是进行了比较，那就具有很大的延展性">
+      <option name="closed" value="true" />
+      <created>1715777101275</created>
+      <option name="number" value="00404" />
+      <option name="presentableId" value="LOCAL-00404" />
+      <option name="project" value="LOCAL" />
+      <updated>1715777101275</updated>
+    </task>
+    <task id="LOCAL-00405" summary="排列可以细分...&#10;&#10;排列可以细分为比较和交换，如果我的方法只是进行了比较，那就具有很大的延展性">
+      <option name="closed" value="true" />
+      <created>1715777108087</created>
+      <option name="number" value="00405" />
+      <option name="presentableId" value="LOCAL-00405" />
+      <option name="project" value="LOCAL" />
+      <updated>1715777108087</updated>
+    </task>
+    <option name="localTasksCounter" value="406" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -740,7 +742,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="回忆 --- 关于内部类" />
     <MESSAGE value="验证码" />
     <MESSAGE value="错误就重新输入" />
     <MESSAGE value="计算有几个字母和数字" />
@@ -765,7 +766,8 @@
     <MESSAGE value="更改姓名，使得更好的比较" />
     <MESSAGE value="个人觉得的最好的版本，不过...&#10;&#10;不过如果有新的，要比较的东西出现的话，就需要在 Student 代码上进行更改，有没有什么方法能够增加项目复杂度的情况下，不会提高项目代码的复杂度呢？" />
     <MESSAGE value="需要增加方法，却又不增加复杂度，就要在方法上进行抽象" />
-    <option name="LAST_COMMIT_MESSAGE" value="需要增加方法，却又不增加复杂度，就要在方法上进行抽象" />
+    <MESSAGE value="排列可以细分...&#10;&#10;排列可以细分为比较和交换，如果我的方法只是进行了比较，那就具有很大的延展性" />
+    <option name="LAST_COMMIT_MESSAGE" value="排列可以细分...&#10;&#10;排列可以细分为比较和交换，如果我的方法只是进行了比较，那就具有很大的延展性" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
