@@ -2,7 +2,7 @@ package A20240515.note.MysortUtilState;
 
 public class StudentAgeLetter implements MyComparator {
 
-    public int Sort(MyComparable m1 , MyComparable m2) {
+    public int Sort(Object m1 , Object m2) {
         Student s1 = (Student) m1;
         Student s2 = (Student) m2;
         if (s1.age>s2.age){

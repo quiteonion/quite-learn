@@ -1,7 +1,7 @@
 package A20240515.note.MysortUtilState;
 
 
-public class Student extends MyComparable {
+public class Student{
     String name;
     int age;
 
@@ -16,22 +16,6 @@ public class Student extends MyComparable {
     }
 
 
-    @Override
-    public int isLarger(MyComparable myComparable) {
-        if (myComparable instanceof Student student) {
-            return (int) (this.age - student.age);
-        }
-        return 0;
-    }
-
-
-    @Override
-    public int isName(MyComparable myComparable) {
-        if (myComparable instanceof Student student) {
-            return (int) this.name.charAt(0) - (int) student.name.charAt(0);
-        }
-        return 0;
-    }
 }
 
 
