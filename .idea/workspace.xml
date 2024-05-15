@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="结论：不能直接使用JS调用浏览器内的搜索框">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="可以搜索，但是无法获取网址">
+      <change afterPath="$PROJECT_DIR$/src/A20240515/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240514/Jsoup1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240514/Jsoup1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,15 +292,8 @@
       <workItem from="1715494333020" duration="7355000" />
       <workItem from="1715512354595" duration="599000" />
       <workItem from="1715600617652" duration="300000" />
-      <workItem from="1715665826981" duration="7633000" />
-    </task>
-    <task id="LOCAL-00345" summary="拼图 -- 更改名字">
-      <option name="closed" value="true" />
-      <created>1714726380605</created>
-      <option name="number" value="00345" />
-      <option name="presentableId" value="LOCAL-00345" />
-      <option name="project" value="LOCAL" />
-      <updated>1714726380605</updated>
+      <workItem from="1715665826981" duration="9545000" />
+      <workItem from="1715771148170" duration="494000" />
     </task>
     <task id="LOCAL-00346" summary="拼图 -- 更改名字">
       <option name="closed" value="true" />
@@ -686,7 +679,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715690948550</updated>
     </task>
-    <option name="localTasksCounter" value="394" />
+    <task id="LOCAL-00394" summary="可以搜索，但是无法获取网址">
+      <option name="closed" value="true" />
+      <created>1715692885932</created>
+      <option name="number" value="00394" />
+      <option name="presentableId" value="LOCAL-00394" />
+      <option name="project" value="LOCAL" />
+      <updated>1715692885932</updated>
+    </task>
+    <option name="localTasksCounter" value="395" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,7 +739,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="final - variable --- Instance" />
     <MESSAGE value="final - variable --- class" />
     <MESSAGE value="final - variable --- local" />
     <MESSAGE value="final - variable --- parameters" />
@@ -763,7 +763,8 @@
     <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写 -- 发现报错并修改" />
     <MESSAGE value="JFrame -- about JFrame" />
     <MESSAGE value="结论：不能直接使用JS调用浏览器内的搜索框" />
-    <option name="LAST_COMMIT_MESSAGE" value="结论：不能直接使用JS调用浏览器内的搜索框" />
+    <MESSAGE value="可以搜索，但是无法获取网址" />
+    <option name="LAST_COMMIT_MESSAGE" value="可以搜索，但是无法获取网址" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
