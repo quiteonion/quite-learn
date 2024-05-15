@@ -1,7 +1,7 @@
 package A20240515.note.MysortUtilState;
 
 
-public class Student{
+public class Student {
     String name;
     int age;
 

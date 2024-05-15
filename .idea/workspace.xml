@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="排列可以细分...&#10;&#10;排列可以细分为比较和交换，如果我的方法只是进行了比较，那就具有很大的延展性">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="把所有的 MyComparable 变为 Object">
+      <change afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Print.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/MyComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/MyComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/StudentAgeLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/StudentAgeLetter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/StudentFirstLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/StudentFirstLetter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Test.java" afterDir="false" />
@@ -26,8 +27,8 @@
       <list>
         <option value="HTTP Request" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -98,7 +99,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -140,8 +141,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A20240515.note.MysortUtilState.Test" />
+      <module name="quite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A20240515.note.MysortUtilState.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.APP" />
         <item itemvalue="Application.A20240130" />
         <item itemvalue="Application.APP" />
@@ -296,23 +311,7 @@
       <workItem from="1715512354595" duration="599000" />
       <workItem from="1715600617652" duration="300000" />
       <workItem from="1715665826981" duration="9545000" />
-      <workItem from="1715771148170" duration="5417000" />
-    </task>
-    <task id="LOCAL-00357" summary="为什么 final 和 abstract 不能共存">
-      <option name="closed" value="true" />
-      <created>1715171246011</created>
-      <option name="number" value="00357" />
-      <option name="presentableId" value="LOCAL-00357" />
-      <option name="project" value="LOCAL" />
-      <updated>1715171246011</updated>
-    </task>
-    <task id="LOCAL-00358" summary="Test - sum100">
-      <option name="closed" value="true" />
-      <created>1715172498083</created>
-      <option name="number" value="00358" />
-      <option name="presentableId" value="LOCAL-00358" />
-      <option name="project" value="LOCAL" />
-      <updated>1715172498083</updated>
+      <workItem from="1715771148170" duration="7073000" />
     </task>
     <task id="LOCAL-00359" summary="Test - System.currentTimeMillis - 获取当前时间距离 1970.1.1 的毫秒数">
       <option name="closed" value="true" />
@@ -690,7 +689,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715777108087</updated>
     </task>
-    <option name="localTasksCounter" value="406" />
+    <task id="LOCAL-00406" summary="可以进行比较...&#10;&#10;但是比较器不能自定义">
+      <option name="closed" value="true" />
+      <created>1715777683902</created>
+      <option name="number" value="00406" />
+      <option name="presentableId" value="LOCAL-00406" />
+      <option name="project" value="LOCAL" />
+      <updated>1715777683902</updated>
+    </task>
+    <task id="LOCAL-00407" summary="把所有的 MyComparable 变为 Object">
+      <option name="closed" value="true" />
+      <created>1715777856436</created>
+      <option name="number" value="00407" />
+      <option name="presentableId" value="LOCAL-00407" />
+      <option name="project" value="LOCAL" />
+      <updated>1715777856436</updated>
+    </task>
+    <option name="localTasksCounter" value="408" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -742,8 +757,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="验证码" />
-    <MESSAGE value="错误就重新输入" />
     <MESSAGE value="计算有几个字母和数字" />
     <MESSAGE value="身份证验证" />
     <MESSAGE value="排列引用数据类型 - 使用 state 来进行书写...&#10;&#10;在代码书写阶段，很容易忘记赋值在书写时把要用来比较的 number 的值，而且还不会使聪明的 idea 报错，那么有什么方法能够让 number 必须被赋值呢？" />
@@ -767,7 +780,9 @@
     <MESSAGE value="个人觉得的最好的版本，不过...&#10;&#10;不过如果有新的，要比较的东西出现的话，就需要在 Student 代码上进行更改，有没有什么方法能够增加项目复杂度的情况下，不会提高项目代码的复杂度呢？" />
     <MESSAGE value="需要增加方法，却又不增加复杂度，就要在方法上进行抽象" />
     <MESSAGE value="排列可以细分...&#10;&#10;排列可以细分为比较和交换，如果我的方法只是进行了比较，那就具有很大的延展性" />
-    <option name="LAST_COMMIT_MESSAGE" value="排列可以细分...&#10;&#10;排列可以细分为比较和交换，如果我的方法只是进行了比较，那就具有很大的延展性" />
+    <MESSAGE value="可以进行比较...&#10;&#10;但是比较器不能自定义" />
+    <MESSAGE value="把所有的 MyComparable 变为 Object" />
+    <option name="LAST_COMMIT_MESSAGE" value="把所有的 MyComparable 变为 Object" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -893,6 +908,11 @@
           <url>file://$PROJECT_DIR$/src/A20240417/River/Test.java</url>
           <line>46</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Test.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
