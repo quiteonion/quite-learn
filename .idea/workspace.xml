@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment=" 将原本写在一个类中的代码拆分为多个类">
-      <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Student.java" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="需要增加方法，却又不增加复杂度，就要在方法上进行抽象" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,8 +20,8 @@
       <list>
         <option value="HTTP Request" />
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -292,47 +290,7 @@
       <workItem from="1715512354595" duration="599000" />
       <workItem from="1715600617652" duration="300000" />
       <workItem from="1715665826981" duration="9545000" />
-      <workItem from="1715771148170" duration="3468000" />
-    </task>
-    <task id="LOCAL-00349" summary="更改">
-      <option name="closed" value="true" />
-      <created>1714995643720</created>
-      <option name="number" value="00349" />
-      <option name="presentableId" value="LOCAL-00349" />
-      <option name="project" value="LOCAL" />
-      <updated>1714995643721</updated>
-    </task>
-    <task id="LOCAL-00350" summary="养动物的代码粘贴">
-      <option name="closed" value="true" />
-      <created>1715168970084</created>
-      <option name="number" value="00350" />
-      <option name="presentableId" value="LOCAL-00350" />
-      <option name="project" value="LOCAL" />
-      <updated>1715168970084</updated>
-    </task>
-    <task id="LOCAL-00351" summary="在 Aniaml 中添加一个抽象方法">
-      <option name="closed" value="true" />
-      <created>1715170277368</created>
-      <option name="number" value="00351" />
-      <option name="presentableId" value="LOCAL-00351" />
-      <option name="project" value="LOCAL" />
-      <updated>1715170277368</updated>
-    </task>
-    <task id="LOCAL-00352" summary="把类 修改为抽象类以适配抽象方法">
-      <option name="closed" value="true" />
-      <created>1715170352952</created>
-      <option name="number" value="00352" />
-      <option name="presentableId" value="LOCAL-00352" />
-      <option name="project" value="LOCAL" />
-      <updated>1715170352952</updated>
-    </task>
-    <task id="LOCAL-00353" summary="Aniaml 的新 抽象 方法 - 所有的子类都需要重写这个抽象方法">
-      <option name="closed" value="true" />
-      <created>1715170568330</created>
-      <option name="number" value="00353" />
-      <option name="presentableId" value="LOCAL-00353" />
-      <option name="project" value="LOCAL" />
-      <updated>1715170568330</updated>
+      <workItem from="1715771148170" duration="4203000" />
     </task>
     <task id="LOCAL-00354" summary="Aniaml 的新 抽象 方法 - 验证 abstract 不能被 new">
       <option name="closed" value="true" />
@@ -686,7 +644,47 @@
       <option name="project" value="LOCAL" />
       <updated>1715775605455</updated>
     </task>
-    <option name="localTasksCounter" value="398" />
+    <task id="LOCAL-00398" summary="修改代码，令他可输出">
+      <option name="closed" value="true" />
+      <created>1715775790904</created>
+      <option name="number" value="00398" />
+      <option name="presentableId" value="LOCAL-00398" />
+      <option name="project" value="LOCAL" />
+      <updated>1715775790904</updated>
+    </task>
+    <task id="LOCAL-00399" summary="更改姓名，使得更好的比较">
+      <option name="closed" value="true" />
+      <created>1715775878952</created>
+      <option name="number" value="00399" />
+      <option name="presentableId" value="LOCAL-00399" />
+      <option name="project" value="LOCAL" />
+      <updated>1715775878952</updated>
+    </task>
+    <task id="LOCAL-00400" summary="个人觉得的最好的版本，不过...&#10;&#10;不过如果有新的，要比较的东西出现的话，就需要在 Student 代码上进行更改，有没有什么方法能够增加项目复杂度的情况下，不会提高项目代码的复杂度呢？">
+      <option name="closed" value="true" />
+      <created>1715776280028</created>
+      <option name="number" value="00400" />
+      <option name="presentableId" value="LOCAL-00400" />
+      <option name="project" value="LOCAL" />
+      <updated>1715776280029</updated>
+    </task>
+    <task id="LOCAL-00401" summary="需要增加方法，却又不增加复杂度，就要在方法上进行抽象">
+      <option name="closed" value="true" />
+      <created>1715776357729</created>
+      <option name="number" value="00401" />
+      <option name="presentableId" value="LOCAL-00401" />
+      <option name="project" value="LOCAL" />
+      <updated>1715776357729</updated>
+    </task>
+    <task id="LOCAL-00402" summary="需要增加方法，却又不增加复杂度，就要在方法上进行抽象">
+      <option name="closed" value="true" />
+      <created>1715776386774</created>
+      <option name="number" value="00402" />
+      <option name="presentableId" value="LOCAL-00402" />
+      <option name="project" value="LOCAL" />
+      <updated>1715776386774</updated>
+    </task>
+    <option name="localTasksCounter" value="403" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,10 +736,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="final - variable --- 如何赋值" />
-    <MESSAGE value="排列引用数据类型 - 增加 int 类型和 Student 类型" />
-    <MESSAGE value="回忆 --- about interface" />
-    <MESSAGE value="排列顺序" />
     <MESSAGE value="回忆 --- 关于内部类" />
     <MESSAGE value="验证码" />
     <MESSAGE value="错误就重新输入" />
@@ -763,7 +757,11 @@
     <MESSAGE value="From A20240512 copy" />
     <MESSAGE value="使用了较为笨拙切不好修改的代码" />
     <MESSAGE value=" 将原本写在一个类中的代码拆分为多个类" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 将原本写在一个类中的代码拆分为多个类" />
+    <MESSAGE value="修改代码，令他可输出" />
+    <MESSAGE value="更改姓名，使得更好的比较" />
+    <MESSAGE value="个人觉得的最好的版本，不过...&#10;&#10;不过如果有新的，要比较的东西出现的话，就需要在 Student 代码上进行更改，有没有什么方法能够增加项目复杂度的情况下，不会提高项目代码的复杂度呢？" />
+    <MESSAGE value="需要增加方法，却又不增加复杂度，就要在方法上进行抽象" />
+    <option name="LAST_COMMIT_MESSAGE" value="需要增加方法，却又不增加复杂度，就要在方法上进行抽象" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
