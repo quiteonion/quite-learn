@@ -38,6 +38,11 @@ public class Test63 {
             System.out.println("请输入你的手机号");
             long phone = sc.nextInt();
             u.setPhone(phone);
+            boolean flagPhone =  TestUtil.confirmPhone(phone);
+            if (flagPhone){
+                System.out.println("手机号格式错误，请重新输入");
+                break;
+            }
 
             HashSet.add(u);
             System.out.println("是否退出注册");
