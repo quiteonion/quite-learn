@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="把所有的 MyComparable 变为 Object">
-      <change afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Print.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="可以搜索，但是无法获取网址">
+      <change afterPath="$PROJECT_DIR$/src/B20240516/Test63/Test63.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240516/Test63/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240516/Test65.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/StudentAgeLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/StudentAgeLetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/StudentFirstLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/StudentFirstLetter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="eb1a7763d2821155c05d539afc31f3e3857dbb1d" />
+        <entry key="$PROJECT_DIR$" value="3922a0a0078c7ada9056eb15d55829ffaf92ad08" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,27 +57,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/idea/idea 存储/quite/src/A20240515/note",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/A20240515/note&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\A20240515\note" />
@@ -99,7 +98,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -312,6 +311,7 @@
       <workItem from="1715600617652" duration="300000" />
       <workItem from="1715665826981" duration="9545000" />
       <workItem from="1715771148170" duration="7073000" />
+      <workItem from="1715859230295" duration="940000" />
     </task>
     <task id="LOCAL-00359" summary="Test - System.currentTimeMillis - 获取当前时间距离 1970.1.1 的毫秒数">
       <option name="closed" value="true" />
@@ -908,11 +908,6 @@
           <url>file://$PROJECT_DIR$/src/A20240417/River/Test.java</url>
           <line>46</line>
           <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A20240515/note/MysortUtilState/Test.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
