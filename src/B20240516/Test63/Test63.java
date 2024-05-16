@@ -44,6 +44,15 @@ public class Test63 {
                 break;
             }
 
+            System.out.println("请输入你的邮箱");
+            String emil = sc.next();
+            u.setEmil(emil);
+            boolean flagEmil = TestUtil.confirmEmil(emil);
+            if (flagEmil){
+                System.out.println("邮箱格式错误，请重新输入");
+                break;
+            }
+
             HashSet.add(u);
             System.out.println("是否退出注册");
             int i = sc.nextInt();

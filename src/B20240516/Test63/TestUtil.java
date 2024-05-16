@@ -38,4 +38,14 @@ public class TestUtil {
         }
         return true;
     }
+
+    public static boolean confirmEmil(String emil){
+        for (int i = 0; i < emil.length(); i++) {
+            char m = emil.charAt(i);
+            if (m == '@'){
+                return false;
+            }
+        }
+        return true;
+    }
 }
