@@ -7,7 +7,7 @@ public class Test63 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<User> HashSet = new ArrayList<>();
-        while(true){
+        while (true) {
             User u = new User();
 
             System.out.println("请输入你的姓名");
@@ -21,6 +21,12 @@ public class Test63 {
             System.out.println("请确认密码");
             String rPassword = sc.next();
 
+            boolean flagPassword =  TestUtil.confirmPassword(password, rPassword);
+            if (!flagPassword){
+                System.out.println("两次密码有误");
+                break;
+            }
+
             System.out.println("请输入你的生日");
             String birthday = sc.next();
             u.setBirthday(birthday);
@@ -32,7 +38,7 @@ public class Test63 {
             HashSet.add(u);
             System.out.println("是否退出注册");
             int i = sc.nextInt();
-            if (i == 1){
+            if (i == 1) {
                 break;
             }
         }
