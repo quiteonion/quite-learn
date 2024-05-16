@@ -5,15 +5,9 @@ public class User {
     private String password;
     private String birthday;
     private long phone;
+    private String emil;
 
     public User() {
-    }
-
-    public User(String name, String password, String birthday, long phone) {
-        this.name = name;
-        this.password = password;
-        this.birthday = birthday;
-        this.phone = phone;
     }
 
     public String getName() {
@@ -46,6 +40,10 @@ public class User {
 
     public void setPhone(long phone) {
         this.phone = phone;
+    }
+
+    public void setEmil(String emil) {
+        this.emil = emil;
     }
 
     @Override

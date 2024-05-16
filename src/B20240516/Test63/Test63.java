@@ -20,7 +20,6 @@ public class Test63 {
 
             System.out.println("请确认密码");
             String rPassword = sc.next();
-
             boolean flagPassword =  TestUtil.confirmPassword(password, rPassword);
             if (!flagPassword){
                 System.out.println("两次密码有误");
@@ -30,6 +29,11 @@ public class Test63 {
             System.out.println("请输入你的生日");
             String birthday = sc.next();
             u.setBirthday(birthday);
+            boolean flagBirthday = TestUtil.confirmBirthday(birthday);
+            if (flagBirthday){
+                System.out.println("生日格式错误，请重新输入");
+                break;
+            }
 
             System.out.println("请输入你的手机号");
             long phone = sc.nextInt();
