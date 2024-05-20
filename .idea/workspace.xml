@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="模拟百度翻译">
-      <change afterPath="$PROJECT_DIR$/src/A20240519/OOP1/O1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240519/OOP1/O1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240519/OOP1/OO1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240519/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240518/HelloWord.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="无">
+      <change afterPath="$PROJECT_DIR$/src/B20240520/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240520/Test0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240520/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +97,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A20240130">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -316,14 +314,7 @@
       <workItem from="1715938055834" duration="1900000" />
       <workItem from="1716011281629" duration="3257000" />
       <workItem from="1716082354365" duration="4602000" />
-    </task>
-    <task id="LOCAL-00368" summary="final - variable --- class">
-      <option name="closed" value="true" />
-      <created>1715343829823</created>
-      <option name="number" value="00368" />
-      <option name="presentableId" value="LOCAL-00368" />
-      <option name="project" value="LOCAL" />
-      <updated>1715343829825</updated>
+      <workItem from="1716181707209" duration="1087000" />
     </task>
     <task id="LOCAL-00369" summary="final - variable --- local">
       <option name="closed" value="true" />
@@ -709,7 +700,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715863157801</updated>
     </task>
-    <option name="localTasksCounter" value="417" />
+    <task id="LOCAL-00417" summary="无">
+      <option name="closed" value="true" />
+      <created>1716181819291</created>
+      <option name="number" value="00417" />
+      <option name="presentableId" value="LOCAL-00417" />
+      <option name="project" value="LOCAL" />
+      <updated>1716181819291</updated>
+    </task>
+    <option name="localTasksCounter" value="418" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -761,7 +760,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写，使用方法内比较 -- 设置 get 方法...&#10;&#10;由于在代码运行时，父类调用无法调用到子类的方法，所以就必须要将父类的方法强转为子类的对象" />
     <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写，使用方法内比较 -- 更改稳定代码" />
     <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写，使用方法内比较 -- 微调...&#10;&#10;在强转类型后就不需要再使用 get 方法了，可以直接调用本类的 state" />
     <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写 -- 更名为  MyComparable" />
@@ -786,7 +784,8 @@
     <MESSAGE value="模拟用户登录 -- 手机号码格式的确认" />
     <MESSAGE value="模拟用户登录 -- 邮箱格式的确认" />
     <MESSAGE value="模拟百度翻译" />
-    <option name="LAST_COMMIT_MESSAGE" value="模拟百度翻译" />
+    <MESSAGE value="无" />
+    <option name="LAST_COMMIT_MESSAGE" value="无" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
