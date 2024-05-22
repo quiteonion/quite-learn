@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="上课的同学的练习">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="老师的练习">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024_5_16_12_53___.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024_5_16_12_53___.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240520/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240520/Test0.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240520/img.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="3922a0a0078c7ada9056eb15d55829ffaf92ad08" />
+        <entry key="$PROJECT_DIR$" value="c1725eb7dbe1c56d513561e21db64efdb294201f" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,27 +54,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/idea/idea 存储/quite/src/B20240520",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/B20240520&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\A20240515\note" />
@@ -157,8 +155,8 @@
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.APP" />
         <item itemvalue="Application.A20240130" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.APP" />
-        <item itemvalue="Application.A20240130" />
       </list>
     </recent_temporary>
   </component>
@@ -316,14 +314,7 @@
       <workItem from="1716082354365" duration="4602000" />
       <workItem from="1716181707209" duration="1743000" />
       <workItem from="1716202502241" duration="379000" />
-    </task>
-    <task id="LOCAL-00370" summary="final - variable --- parameters">
-      <option name="closed" value="true" />
-      <created>1715345355766</created>
-      <option name="number" value="00370" />
-      <option name="presentableId" value="LOCAL-00370" />
-      <option name="project" value="LOCAL" />
-      <updated>1715345355766</updated>
+      <workItem from="1716344858191" duration="950000" />
     </task>
     <task id="LOCAL-00371" summary="final - variable --- 如何赋值">
       <option name="closed" value="true" />
@@ -709,7 +700,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716183067393</updated>
     </task>
-    <option name="localTasksCounter" value="419" />
+    <task id="LOCAL-00419" summary="老师的练习">
+      <option name="closed" value="true" />
+      <created>1716275348643</created>
+      <option name="number" value="00419" />
+      <option name="presentableId" value="LOCAL-00419" />
+      <option name="project" value="LOCAL" />
+      <updated>1716275348643</updated>
+    </task>
+    <option name="localTasksCounter" value="420" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -761,7 +760,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写，使用方法内比较 -- 微调...&#10;&#10;在强转类型后就不需要再使用 get 方法了，可以直接调用本类的 state" />
     <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写 -- 更名为  MyComparable" />
     <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写 -- 更改为：返回值的类型为int" />
     <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写 -- 发现报错并修改" />
@@ -786,7 +784,8 @@
     <MESSAGE value="模拟百度翻译" />
     <MESSAGE value="无" />
     <MESSAGE value="上课的同学的练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="上课的同学的练习" />
+    <MESSAGE value="老师的练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="老师的练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
