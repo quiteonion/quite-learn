@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="英语学习 -- 登录界面 -- 设置宽高，并且让他显示出来">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="英语学习 -- 登录界面 -- 设置界面在出现时居中">
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LoginJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LoginJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -313,39 +313,7 @@
       <workItem from="1716082354365" duration="4602000" />
       <workItem from="1716181707209" duration="1743000" />
       <workItem from="1716202502241" duration="379000" />
-      <workItem from="1716344858191" duration="1636000" />
-    </task>
-    <task id="LOCAL-00377" summary="回忆 --- 关于内部类">
-      <option name="closed" value="true" />
-      <created>1715418827961</created>
-      <option name="number" value="00377" />
-      <option name="presentableId" value="LOCAL-00377" />
-      <option name="project" value="LOCAL" />
-      <updated>1715418827961</updated>
-    </task>
-    <task id="LOCAL-00378" summary="验证码">
-      <option name="closed" value="true" />
-      <created>1715434806696</created>
-      <option name="number" value="00378" />
-      <option name="presentableId" value="LOCAL-00378" />
-      <option name="project" value="LOCAL" />
-      <updated>1715434806696</updated>
-    </task>
-    <task id="LOCAL-00379" summary="错误就重新输入">
-      <option name="closed" value="true" />
-      <created>1715435709572</created>
-      <option name="number" value="00379" />
-      <option name="presentableId" value="LOCAL-00379" />
-      <option name="project" value="LOCAL" />
-      <updated>1715435709572</updated>
-    </task>
-    <task id="LOCAL-00380" summary="计算有几个字母和数字">
-      <option name="closed" value="true" />
-      <created>1715436004241</created>
-      <option name="number" value="00380" />
-      <option name="presentableId" value="LOCAL-00380" />
-      <option name="project" value="LOCAL" />
-      <updated>1715436004242</updated>
+      <workItem from="1716344858191" duration="1964000" />
     </task>
     <task id="LOCAL-00381" summary="身份证验证">
       <option name="closed" value="true" />
@@ -707,7 +675,39 @@
       <option name="project" value="LOCAL" />
       <updated>1716354200093</updated>
     </task>
-    <option name="localTasksCounter" value="426" />
+    <task id="LOCAL-00426" summary="英语学习 -- 登录界面 -- 设置界面标题">
+      <option name="closed" value="true" />
+      <created>1716354411062</created>
+      <option name="number" value="00426" />
+      <option name="presentableId" value="LOCAL-00426" />
+      <option name="project" value="LOCAL" />
+      <updated>1716354411062</updated>
+    </task>
+    <task id="LOCAL-00427" summary="英语学习 -- 登录界面 -- 设置界面始终置顶">
+      <option name="closed" value="true" />
+      <created>1716354474806</created>
+      <option name="number" value="00427" />
+      <option name="presentableId" value="LOCAL-00427" />
+      <option name="project" value="LOCAL" />
+      <updated>1716354474806</updated>
+    </task>
+    <task id="LOCAL-00428" summary="英语学习 -- 登录界面 -- 设置界面在出现时居中">
+      <option name="closed" value="true" />
+      <created>1716354615130</created>
+      <option name="number" value="00428" />
+      <option name="presentableId" value="LOCAL-00428" />
+      <option name="project" value="LOCAL" />
+      <updated>1716354615130</updated>
+    </task>
+    <task id="LOCAL-00429" summary="英语学习 -- 登录界面 -- 设置界面在出现时居中">
+      <option name="closed" value="true" />
+      <created>1716354632615</created>
+      <option name="number" value="00429" />
+      <option name="presentableId" value="LOCAL-00429" />
+      <option name="project" value="LOCAL" />
+      <updated>1716354632615</updated>
+    </task>
+    <option name="localTasksCounter" value="430" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -759,9 +759,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写 -- 发现报错并修改" />
-    <MESSAGE value="JFrame -- about JFrame" />
-    <MESSAGE value="结论：不能直接使用JS调用浏览器内的搜索框" />
     <MESSAGE value="可以搜索，但是无法获取网址" />
     <MESSAGE value="From A20240512 copy" />
     <MESSAGE value="使用了较为笨拙切不好修改的代码" />
@@ -784,7 +781,10 @@
     <MESSAGE value="无" />
     <MESSAGE value="英语学习 -- 创建所需要的业务逻辑" />
     <MESSAGE value="英语学习 -- 登录界面 -- 设置宽高，并且让他显示出来" />
-    <option name="LAST_COMMIT_MESSAGE" value="英语学习 -- 登录界面 -- 设置宽高，并且让他显示出来" />
+    <MESSAGE value="英语学习 -- 登录界面 -- 设置界面标题" />
+    <MESSAGE value="英语学习 -- 登录界面 -- 设置界面始终置顶" />
+    <MESSAGE value="英语学习 -- 登录界面 -- 设置界面在出现时居中" />
+    <option name="LAST_COMMIT_MESSAGE" value="英语学习 -- 登录界面 -- 设置界面在出现时居中" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
