@@ -12,6 +12,9 @@ public class Xxx {
     public Xxx(int name, int number) {
         this("实训室" + name, number + "台风扇");
     }
+    public Xxx(String name, int number) {
+        this(name, number + "台风扇");
+    }
 
     public void set(String name, String number) {
         this.name = name;
