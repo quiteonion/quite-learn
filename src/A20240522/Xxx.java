@@ -9,6 +9,10 @@ public class Xxx {
         this.number = number;
     }
 
+    public Xxx(int name, int number) {
+        this("实训室" + name, number + "台风扇");
+    }
+
     public void set(String name, String number) {
         this.name = name;
         this.number = number;
