@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="老师的练习">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024_5_16_12_53___.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024_5_16_12_53___.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="无">
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/APP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/LoginJFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/RegisterJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,15 +317,7 @@
       <workItem from="1716082354365" duration="4602000" />
       <workItem from="1716181707209" duration="1743000" />
       <workItem from="1716202502241" duration="379000" />
-      <workItem from="1716344858191" duration="950000" />
-    </task>
-    <task id="LOCAL-00371" summary="final - variable --- 如何赋值">
-      <option name="closed" value="true" />
-      <created>1715345424016</created>
-      <option name="number" value="00371" />
-      <option name="presentableId" value="LOCAL-00371" />
-      <option name="project" value="LOCAL" />
-      <updated>1715345424016</updated>
+      <workItem from="1716344858191" duration="1250000" />
     </task>
     <task id="LOCAL-00372" summary="final - variable --- 如何赋值">
       <option name="closed" value="true" />
@@ -708,7 +703,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716275348643</updated>
     </task>
-    <option name="localTasksCounter" value="420" />
+    <task id="LOCAL-00420" summary="无">
+      <option name="closed" value="true" />
+      <created>1716353701306</created>
+      <option name="number" value="00420" />
+      <option name="presentableId" value="LOCAL-00420" />
+      <option name="project" value="LOCAL" />
+      <updated>1716353701306</updated>
+    </task>
+    <option name="localTasksCounter" value="421" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -782,10 +785,10 @@
     <MESSAGE value="模拟用户登录 -- 手机号码格式的确认" />
     <MESSAGE value="模拟用户登录 -- 邮箱格式的确认" />
     <MESSAGE value="模拟百度翻译" />
-    <MESSAGE value="无" />
     <MESSAGE value="上课的同学的练习" />
     <MESSAGE value="老师的练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="老师的练习" />
+    <MESSAGE value="无" />
+    <option name="LAST_COMMIT_MESSAGE" value="无" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
