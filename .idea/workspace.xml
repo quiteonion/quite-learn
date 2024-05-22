@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="无">
-      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/APP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/LoginJFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/RegisterJFrame.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="英语学习 -- 登录界面 -- 设置宽高，并且让他显示出来">
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LoginJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LoginJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,47 +313,7 @@
       <workItem from="1716082354365" duration="4602000" />
       <workItem from="1716181707209" duration="1743000" />
       <workItem from="1716202502241" duration="379000" />
-      <workItem from="1716344858191" duration="1250000" />
-    </task>
-    <task id="LOCAL-00372" summary="final - variable --- 如何赋值">
-      <option name="closed" value="true" />
-      <created>1715345431816</created>
-      <option name="number" value="00372" />
-      <option name="presentableId" value="LOCAL-00372" />
-      <option name="project" value="LOCAL" />
-      <updated>1715345431816</updated>
-    </task>
-    <task id="LOCAL-00373" summary="final - variable --- 如何赋值">
-      <option name="closed" value="true" />
-      <created>1715345436203</created>
-      <option name="number" value="00373" />
-      <option name="presentableId" value="LOCAL-00373" />
-      <option name="project" value="LOCAL" />
-      <updated>1715345436203</updated>
-    </task>
-    <task id="LOCAL-00374" summary="排列引用数据类型 - 增加 int 类型和 Student 类型">
-      <option name="closed" value="true" />
-      <created>1715347838211</created>
-      <option name="number" value="00374" />
-      <option name="presentableId" value="LOCAL-00374" />
-      <option name="project" value="LOCAL" />
-      <updated>1715347838211</updated>
-    </task>
-    <task id="LOCAL-00375" summary="回忆 --- about interface">
-      <option name="closed" value="true" />
-      <created>1715416768861</created>
-      <option name="number" value="00375" />
-      <option name="presentableId" value="LOCAL-00375" />
-      <option name="project" value="LOCAL" />
-      <updated>1715416768861</updated>
-    </task>
-    <task id="LOCAL-00376" summary="排列顺序">
-      <option name="closed" value="true" />
-      <created>1715418116159</created>
-      <option name="number" value="00376" />
-      <option name="presentableId" value="LOCAL-00376" />
-      <option name="project" value="LOCAL" />
-      <updated>1715418116159</updated>
+      <workItem from="1716344858191" duration="1636000" />
     </task>
     <task id="LOCAL-00377" summary="回忆 --- 关于内部类">
       <option name="closed" value="true" />
@@ -711,7 +667,47 @@
       <option name="project" value="LOCAL" />
       <updated>1716353701306</updated>
     </task>
-    <option name="localTasksCounter" value="421" />
+    <task id="LOCAL-00421" summary="英语学习 -- 创建所需要的业务逻辑">
+      <option name="closed" value="true" />
+      <created>1716354018122</created>
+      <option name="number" value="00421" />
+      <option name="presentableId" value="LOCAL-00421" />
+      <option name="project" value="LOCAL" />
+      <updated>1716354018122</updated>
+    </task>
+    <task id="LOCAL-00422" summary="英语学习 -- 创建所需要的业务逻辑">
+      <option name="closed" value="true" />
+      <created>1716354024781</created>
+      <option name="number" value="00422" />
+      <option name="presentableId" value="LOCAL-00422" />
+      <option name="project" value="LOCAL" />
+      <updated>1716354024781</updated>
+    </task>
+    <task id="LOCAL-00423" summary="英语学习 -- 登录界面 -- 设置宽高，并且让他显示出来">
+      <option name="closed" value="true" />
+      <created>1716354151449</created>
+      <option name="number" value="00423" />
+      <option name="presentableId" value="LOCAL-00423" />
+      <option name="project" value="LOCAL" />
+      <updated>1716354151449</updated>
+    </task>
+    <task id="LOCAL-00424" summary="英语学习 -- 登录界面 -- 设置宽高，并且让他显示出来">
+      <option name="closed" value="true" />
+      <created>1716354174404</created>
+      <option name="number" value="00424" />
+      <option name="presentableId" value="LOCAL-00424" />
+      <option name="project" value="LOCAL" />
+      <updated>1716354174404</updated>
+    </task>
+    <task id="LOCAL-00425" summary="英语学习 -- 登录界面 -- 设置宽高，并且让他显示出来">
+      <option name="closed" value="true" />
+      <created>1716354200093</created>
+      <option name="number" value="00425" />
+      <option name="presentableId" value="LOCAL-00425" />
+      <option name="project" value="LOCAL" />
+      <updated>1716354200093</updated>
+    </task>
+    <option name="localTasksCounter" value="426" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -763,8 +759,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写 -- 更名为  MyComparable" />
-    <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写 -- 更改为：返回值的类型为int" />
     <MESSAGE value="排列引用数据类型 - 使用 behavior 进行书写 -- 发现报错并修改" />
     <MESSAGE value="JFrame -- about JFrame" />
     <MESSAGE value="结论：不能直接使用JS调用浏览器内的搜索框" />
@@ -788,7 +782,9 @@
     <MESSAGE value="上课的同学的练习" />
     <MESSAGE value="老师的练习" />
     <MESSAGE value="无" />
-    <option name="LAST_COMMIT_MESSAGE" value="无" />
+    <MESSAGE value="英语学习 -- 创建所需要的业务逻辑" />
+    <MESSAGE value="英语学习 -- 登录界面 -- 设置宽高，并且让他显示出来" />
+    <option name="LAST_COMMIT_MESSAGE" value="英语学习 -- 登录界面 -- 设置宽高，并且让他显示出来" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
