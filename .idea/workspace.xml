@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="引入泛型 消灭强制转换">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="自定义一个容器类 Xxx -- 满足可以使用 Xxx a = new Xxx(&quot;实训室8&quot; , &quot;4台风扇&quot;);">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/StudentFirstLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240515/note/MysortUtilState/StudentFirstLetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240522/Xxx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240522/Xxx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -316,23 +316,7 @@
       <workItem from="1716181707209" duration="1743000" />
       <workItem from="1716202502241" duration="379000" />
       <workItem from="1716344858191" duration="2961000" />
-      <workItem from="1716379599884" duration="980000" />
-    </task>
-    <task id="LOCAL-00384" summary="排列引用数据类型 - 使用 state 来进行书写 -- 使用构造器必须被重写的方法...&#10;&#10;于是使用这种方法，使得能够提前报错，防止 number 的数值没有赋值的问题">
-      <option name="closed" value="true" />
-      <created>1715497620664</created>
-      <option name="number" value="00384" />
-      <option name="presentableId" value="LOCAL-00384" />
-      <option name="project" value="LOCAL" />
-      <updated>1715497620664</updated>
-    </task>
-    <task id="LOCAL-00385" summary="排列引用数据类型 - 使用 behavior 进行书写，使用方法内比较">
-      <option name="closed" value="true" />
-      <created>1715500204758</created>
-      <option name="number" value="00385" />
-      <option name="presentableId" value="LOCAL-00385" />
-      <option name="project" value="LOCAL" />
-      <updated>1715500204758</updated>
+      <workItem from="1716379599884" duration="2049000" />
     </task>
     <task id="LOCAL-00386" summary="排列引用数据类型 - 使用 behavior 进行书写，使用方法内比较 -- 设置 get 方法...&#10;&#10;由于在代码运行时，父类调用无法调用到子类的方法，所以就必须要将父类的方法强转为子类的对象">
       <option name="closed" value="true" />
@@ -710,7 +694,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716379951853</updated>
     </task>
-    <option name="localTasksCounter" value="433" />
+    <task id="LOCAL-00433" summary="引入泛型 消灭强制转换">
+      <option name="closed" value="true" />
+      <created>1716381489077</created>
+      <option name="number" value="00433" />
+      <option name="presentableId" value="LOCAL-00433" />
+      <option name="project" value="LOCAL" />
+      <updated>1716381489077</updated>
+    </task>
+    <task id="LOCAL-00434" summary="自定义一个容器类 Xxx -- 满足可以使用 Xxx a = new Xxx(&quot;实训室8&quot; , &quot;4台风扇&quot;);">
+      <option name="closed" value="true" />
+      <created>1716381733495</created>
+      <option name="number" value="00434" />
+      <option name="presentableId" value="LOCAL-00434" />
+      <option name="project" value="LOCAL" />
+      <updated>1716381733495</updated>
+    </task>
+    <option name="localTasksCounter" value="435" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -762,7 +762,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value=" 将原本写在一个类中的代码拆分为多个类" />
     <MESSAGE value="修改代码，令他可输出" />
     <MESSAGE value="更改姓名，使得更好的比较" />
     <MESSAGE value="个人觉得的最好的版本，不过...&#10;&#10;不过如果有新的，要比较的东西出现的话，就需要在 Student 代码上进行更改，有没有什么方法能够增加项目复杂度的情况下，不会提高项目代码的复杂度呢？" />
@@ -787,7 +786,8 @@
     <MESSAGE value="英语学习 -- 登录界面 -- 设置关闭模式...&#10;&#10;默认值为1&#10;如果是 0 ： 不做任何事情，即使点了关闭也不会关闭&#10;如果是 1 ： 关闭界面并不会关闭虚拟机&#10;如果是 2 ： 关闭所有界面才会关闭虚拟机&#10;如果是 3 ： 关闭任意一个界面都可以关闭虚拟机" />
     <MESSAGE value="英语学习 -- 所有界面 -- 设置和登录界面一样的东西" />
     <MESSAGE value="引入泛型 消灭强制转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入泛型 消灭强制转换" />
+    <MESSAGE value="自定义一个容器类 Xxx -- 满足可以使用 Xxx a = new Xxx(&quot;实训室8&quot; , &quot;4台风扇&quot;);" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义一个容器类 Xxx -- 满足可以使用 Xxx a = new Xxx(&quot;实训室8&quot; , &quot;4台风扇&quot;);" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
