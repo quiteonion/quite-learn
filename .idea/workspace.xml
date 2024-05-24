@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="泛型 -- int &amp; Integer..&#10;&#10;在泛型中 ， 传递的值需要为 Object 类 ， 所以如果要使用的是 int 类型 就需要使用 他的包装类 Integer">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="英语学习 -- 所有界面 -- 设置和登录界面一样的东西">
+      <change afterPath="$PROJECT_DIR$/src/A20240524/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
     </list>
@@ -95,7 +96,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A20240130">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -318,7 +319,23 @@
       <workItem from="1716379599884" duration="3050000" />
       <workItem from="1716427245399" duration="935000" />
       <workItem from="1716463746565" duration="1208000" />
-      <workItem from="1716548891146" duration="1600000" />
+      <workItem from="1716548891146" duration="457000" />
+    </task>
+    <task id="LOCAL-00390" summary="排列引用数据类型 - 使用 behavior 进行书写 -- 更改为：返回值的类型为int">
+      <option name="closed" value="true" />
+      <created>1715501764606</created>
+      <option name="number" value="00390" />
+      <option name="presentableId" value="LOCAL-00390" />
+      <option name="project" value="LOCAL" />
+      <updated>1715501764606</updated>
+    </task>
+    <task id="LOCAL-00391" summary="排列引用数据类型 - 使用 behavior 进行书写 -- 发现报错并修改">
+      <option name="closed" value="true" />
+      <created>1715501852253</created>
+      <option name="number" value="00391" />
+      <option name="presentableId" value="LOCAL-00391" />
+      <option name="project" value="LOCAL" />
+      <updated>1715501852253</updated>
     </task>
     <task id="LOCAL-00392" summary="JFrame -- about JFrame">
       <option name="closed" value="true" />
@@ -696,23 +713,7 @@
       <option name="project" value="LOCAL" />
       <updated>1716427260179</updated>
     </task>
-    <task id="LOCAL-00439" summary="泛型 -- int &amp; Integer..&#10;&#10;在泛型中 ， 传递的值需要为 Object 类 ， 所以如果要使用的是 int 类型 就需要使用 他的包装类 Integer">
-      <option name="closed" value="true" />
-      <created>1716549752552</created>
-      <option name="number" value="00439" />
-      <option name="presentableId" value="LOCAL-00439" />
-      <option name="project" value="LOCAL" />
-      <updated>1716549752552</updated>
-    </task>
-    <task id="LOCAL-00440" summary="泛型 -- int &amp; Integer..&#10;&#10;在泛型中 ， 传递的值需要为 Object 类 ， 所以如果要使用的是 int 类型 就需要使用 他的包装类 Integer">
-      <option name="closed" value="true" />
-      <created>1716549774555</created>
-      <option name="number" value="00440" />
-      <option name="presentableId" value="LOCAL-00440" />
-      <option name="project" value="LOCAL" />
-      <updated>1716549774555</updated>
-    </task>
-    <option name="localTasksCounter" value="441" />
+    <option name="localTasksCounter" value="439" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -764,6 +765,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="需要增加方法，却又不增加复杂度，就要在方法上进行抽象" />
     <MESSAGE value="排列可以细分...&#10;&#10;排列可以细分为比较和交换，如果我的方法只是进行了比较，那就具有很大的延展性" />
     <MESSAGE value="可以进行比较...&#10;&#10;但是比较器不能自定义" />
     <MESSAGE value="把所有的 MyComparable 变为 Object" />
@@ -788,8 +790,7 @@
     <MESSAGE value="自定义一个容器类 Xxx -- 满足可以使用 Xxx b = new Xxx(); b.set &amp; b.get 方法" />
     <MESSAGE value="自定义一个容器类 Xxx -- 满足可以使用 Xxx b = new Xxx(8, 4);" />
     <MESSAGE value="自定义一个容器类 Xxx -- 满足可以使用 Xxx b = new Xxx(&quot;String&quot;, 4);" />
-    <MESSAGE value="泛型 -- int &amp; Integer..&#10;&#10;在泛型中 ， 传递的值需要为 Object 类 ， 所以如果要使用的是 int 类型 就需要使用 他的包装类 Integer" />
-    <option name="LAST_COMMIT_MESSAGE" value="泛型 -- int &amp; Integer..&#10;&#10;在泛型中 ， 传递的值需要为 Object 类 ， 所以如果要使用的是 int 类型 就需要使用 他的包装类 Integer" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义一个容器类 Xxx -- 满足可以使用 Xxx b = new Xxx(&quot;String&quot;, 4);" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
