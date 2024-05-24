@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="包装类 -- 所有的基础数据类型都有包装类">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="about Integer -- 整体总览">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
     </list>
@@ -319,14 +319,6 @@
       <workItem from="1716427245399" duration="935000" />
       <workItem from="1716463746565" duration="1208000" />
       <workItem from="1716548891146" duration="457000" />
-    </task>
-    <task id="LOCAL-00392" summary="JFrame -- about JFrame">
-      <option name="closed" value="true" />
-      <created>1715667910163</created>
-      <option name="number" value="00392" />
-      <option name="presentableId" value="LOCAL-00392" />
-      <option name="project" value="LOCAL" />
-      <updated>1715667910163</updated>
     </task>
     <task id="LOCAL-00393" summary="结论：不能直接使用JS调用浏览器内的搜索框">
       <option name="closed" value="true" />
@@ -712,7 +704,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716550792519</updated>
     </task>
-    <option name="localTasksCounter" value="441" />
+    <task id="LOCAL-00441" summary="about Integer -- 整体总览">
+      <option name="closed" value="true" />
+      <created>1716553004612</created>
+      <option name="number" value="00441" />
+      <option name="presentableId" value="LOCAL-00441" />
+      <option name="project" value="LOCAL" />
+      <updated>1716553004612</updated>
+    </task>
+    <option name="localTasksCounter" value="442" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -764,7 +764,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="把所有的 MyComparable 变为 Object" />
     <MESSAGE value="模拟用户登录 -- 初始功能制作（没有任何的二次确认和查重功能）" />
     <MESSAGE value="模拟用户登录 -- 输入密码的二次确认" />
     <MESSAGE value="模拟用户登录 -- 生日格式的确认" />
@@ -789,7 +788,8 @@
     <MESSAGE value="包装类 -- 所有的基础数据类型都有包装类" />
     <MESSAGE value="包装类 -- int &amp; Integer..&#10;&#10;在泛型中 ， 传递的值需要为 Object 类 ， 所以如果要使用的是 int 类型 就需要使用 他的包装类 Integer" />
     <MESSAGE value="包装类 -- int &amp; Integer..&#10;&#10;在泛型中 ， 传递的值需要为 Object 类 ， 所以如果要使用的是 int 类型 就需要使用 他的包装类 Integer" />
-    <option name="LAST_COMMIT_MESSAGE" value="包装类 -- 所有的基础数据类型都有包装类" />
+    <MESSAGE value="about Integer -- 整体总览" />
+    <option name="LAST_COMMIT_MESSAGE" value="about Integer -- 整体总览" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
