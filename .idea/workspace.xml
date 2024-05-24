@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="about Integer -- 整体总览">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="about Integer -- 存储...&#10;&#10;在类中 ， 会自动加载 -128 ~ 127 之间的数字 ， 如果没有，才会 新 new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
     </list>
@@ -319,22 +319,6 @@
       <workItem from="1716427245399" duration="935000" />
       <workItem from="1716463746565" duration="1208000" />
       <workItem from="1716548891146" duration="457000" />
-    </task>
-    <task id="LOCAL-00393" summary="结论：不能直接使用JS调用浏览器内的搜索框">
-      <option name="closed" value="true" />
-      <created>1715690948550</created>
-      <option name="number" value="00393" />
-      <option name="presentableId" value="LOCAL-00393" />
-      <option name="project" value="LOCAL" />
-      <updated>1715690948550</updated>
-    </task>
-    <task id="LOCAL-00394" summary="可以搜索，但是无法获取网址">
-      <option name="closed" value="true" />
-      <created>1715692885932</created>
-      <option name="number" value="00394" />
-      <option name="presentableId" value="LOCAL-00394" />
-      <option name="project" value="LOCAL" />
-      <updated>1715692885932</updated>
     </task>
     <task id="LOCAL-00395" summary="From A20240512 copy">
       <option name="closed" value="true" />
@@ -712,7 +696,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716553004612</updated>
     </task>
-    <option name="localTasksCounter" value="442" />
+    <task id="LOCAL-00442" summary="about Integer -- 存储...&#10;&#10;如果存储的数字 在 -128 ~ 127 （缓存）之间，则会在缓存中查找并调用&#10;反之，则会再次 new 一个新的出来">
+      <option name="closed" value="true" />
+      <created>1716553913216</created>
+      <option name="number" value="00442" />
+      <option name="presentableId" value="LOCAL-00442" />
+      <option name="project" value="LOCAL" />
+      <updated>1716553913216</updated>
+    </task>
+    <task id="LOCAL-00443" summary="about Integer -- 存储...&#10;&#10;在类中 ， 会自动加载 -128 ~ 127 之间的数字 ， 如果没有，才会 新 new">
+      <option name="closed" value="true" />
+      <created>1716554072496</created>
+      <option name="number" value="00443" />
+      <option name="presentableId" value="LOCAL-00443" />
+      <option name="project" value="LOCAL" />
+      <updated>1716554072496</updated>
+    </task>
+    <option name="localTasksCounter" value="444" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -764,8 +764,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="模拟用户登录 -- 初始功能制作（没有任何的二次确认和查重功能）" />
-    <MESSAGE value="模拟用户登录 -- 输入密码的二次确认" />
     <MESSAGE value="模拟用户登录 -- 生日格式的确认" />
     <MESSAGE value="模拟用户登录 -- 手机号码格式的确认" />
     <MESSAGE value="模拟用户登录 -- 邮箱格式的确认" />
@@ -789,7 +787,9 @@
     <MESSAGE value="包装类 -- int &amp; Integer..&#10;&#10;在泛型中 ， 传递的值需要为 Object 类 ， 所以如果要使用的是 int 类型 就需要使用 他的包装类 Integer" />
     <MESSAGE value="包装类 -- int &amp; Integer..&#10;&#10;在泛型中 ， 传递的值需要为 Object 类 ， 所以如果要使用的是 int 类型 就需要使用 他的包装类 Integer" />
     <MESSAGE value="about Integer -- 整体总览" />
-    <option name="LAST_COMMIT_MESSAGE" value="about Integer -- 整体总览" />
+    <MESSAGE value="about Integer -- 存储...&#10;&#10;如果存储的数字 在 -128 ~ 127 （缓存）之间，则会在缓存中查找并调用&#10;反之，则会再次 new 一个新的出来" />
+    <MESSAGE value="about Integer -- 存储...&#10;&#10;在类中 ， 会自动加载 -128 ~ 127 之间的数字 ， 如果没有，才会 新 new" />
+    <option name="LAST_COMMIT_MESSAGE" value="about Integer -- 存储...&#10;&#10;在类中 ， 会自动加载 -128 ~ 127 之间的数字 ， 如果没有，才会 新 new" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
