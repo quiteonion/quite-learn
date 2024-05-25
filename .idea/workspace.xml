@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="A20240317 -- 修改与补充">
-      <change beforePath="$PROJECT_DIR$/src/A20240321/Main.java" beforeDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="A20240322 -- 修改与补充">
+      <change beforePath="$PROJECT_DIR$/src/A20240324/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240324/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/Img/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240324/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/Img/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240324/img_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/Img/img_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240324/img_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/Img/img_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240324/img_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/Img/img_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240324/img_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/Img/img_5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -332,23 +338,7 @@
       <workItem from="1716427245399" duration="935000" />
       <workItem from="1716463746565" duration="1208000" />
       <workItem from="1716548891146" duration="457000" />
-      <workItem from="1716599301673" duration="13933000" />
-    </task>
-    <task id="LOCAL-00418" summary="上课的同学的练习">
-      <option name="closed" value="true" />
-      <created>1716183067393</created>
-      <option name="number" value="00418" />
-      <option name="presentableId" value="LOCAL-00418" />
-      <option name="project" value="LOCAL" />
-      <updated>1716183067393</updated>
-    </task>
-    <task id="LOCAL-00419" summary="老师的练习">
-      <option name="closed" value="true" />
-      <created>1716275348643</created>
-      <option name="number" value="00419" />
-      <option name="presentableId" value="LOCAL-00419" />
-      <option name="project" value="LOCAL" />
-      <updated>1716275348643</updated>
+      <workItem from="1716599301673" duration="14230000" />
     </task>
     <task id="LOCAL-00420" summary="无">
       <option name="closed" value="true" />
@@ -726,7 +716,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716615973150</updated>
     </task>
-    <option name="localTasksCounter" value="467" />
+    <task id="LOCAL-00467" summary="A20240321 -- 修改与补充">
+      <option name="closed" value="true" />
+      <created>1716616128452</created>
+      <option name="number" value="00467" />
+      <option name="presentableId" value="LOCAL-00467" />
+      <option name="project" value="LOCAL" />
+      <updated>1716616128452</updated>
+    </task>
+    <task id="LOCAL-00468" summary="A20240322 -- 修改与补充">
+      <option name="closed" value="true" />
+      <created>1716616285095</created>
+      <option name="number" value="00468" />
+      <option name="presentableId" value="LOCAL-00468" />
+      <option name="project" value="LOCAL" />
+      <updated>1716616285095</updated>
+    </task>
+    <option name="localTasksCounter" value="469" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -778,8 +784,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="包装类 -- int &amp; Integer..&#10;&#10;在泛型中 ， 传递的值需要为 Object 类 ， 所以如果要使用的是 int 类型 就需要使用 他的包装类 Integer" />
-    <MESSAGE value="包装类 -- int &amp; Integer..&#10;&#10;在泛型中 ， 传递的值需要为 Object 类 ， 所以如果要使用的是 int 类型 就需要使用 他的包装类 Integer" />
     <MESSAGE value="about Integer -- 整体总览" />
     <MESSAGE value="about Integer -- 存储...&#10;&#10;如果存储的数字 在 -128 ~ 127 （缓存）之间，则会在缓存中查找并调用&#10;反之，则会再次 new 一个新的出来" />
     <MESSAGE value="about Integer -- 存储...&#10;&#10;在类中 ， 会自动加载 -128 ~ 127 之间的数字 ， 如果没有，才会 新 new" />
@@ -803,7 +807,9 @@
     <MESSAGE value="A20240306 -- 修改与补充" />
     <MESSAGE value="A20240315 -- 修改与补充" />
     <MESSAGE value="A20240317 -- 修改与补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="A20240317 -- 修改与补充" />
+    <MESSAGE value="A20240321 -- 修改与补充" />
+    <MESSAGE value="A20240322 -- 修改与补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="A20240322 -- 修改与补充" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

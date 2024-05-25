@@ -1,6 +1,6 @@
 # 课前训练
 
-![img.png](img.png)
+![img.png](Img/img.png)
 
 ## 代码实现
 
@@ -20,15 +20,15 @@
 
 ## 多态的前提
 
-![img_1.png](img_1.png)
+![img_1.png](Img/img_1.png)
 
 ## 多态的适用性
 
-![img_2.png](img_2.png)
+![img_2.png](Img/img_2.png)
 
 ## 多态的利弊
 
-![img_3.png](img_3.png)
+![img_3.png](Img/img_3.png)
 
 ## 多态
 
@@ -36,13 +36,13 @@
 
 # abstract 抽象类
 
-![img_4.png](img_4.png)
+![img_4.png](Img/img_4.png)
 
 abstract 抽象类抽象方法
 
 # final
 
-![img_5.png](img_5.png)
+![img_5.png](Img/img_5.png)
 
 # instanceof
 
