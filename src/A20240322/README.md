@@ -6,29 +6,29 @@
 
 ## 如何使用
 
-![img.png](img.png)
+![img.png](Img/img.png)
 
 如图所示，集合有增删改查这几个基本使用方式
 
 # 集合练习 1
 
-![img_1.png](img_1.png)
+![img_1.png](Img/img_1.png)
 
 ### 注意
 
-![img_2.png](img_2.png)
+![img_2.png](Img/img_2.png)
 
 toArray() 方法是用于转化为数组
 
-![img_3.png](img_3.png)
+![img_3.png](Img/img_3.png)
 
 # 集合练习 2
 
 ## 基本数据类型对应的包装类
 
-![img_5.png](img_5.png)
+![img_5.png](Img/img_5.png)
 
-![img_4.png](img_4.png)
+![img_4.png](Img/img_4.png)
 
 由于 ArrayList 不能直接存储基本数据类型，所以我们将他变为包装类来使用
 
@@ -38,12 +38,12 @@ toArray() 方法是用于转化为数组
 
 # 上节课的回顾
 
-![img_6.png](img_6.png)
+![img_6.png](Img/img_6.png)
 
 
 # 方法的重写规则
 
-![img_7.png](img_7.png)
+![img_7.png](Img/img_7.png)
 
 ## 验证规则
 
@@ -51,7 +51,7 @@ toArray() 方法是用于转化为数组
 
 返回值是一个引用数据类型时，重写的方法可以使用他的子类
 
-![img_8.png](img_8.png)
+![img_8.png](Img/img_8.png)
 
 # super
 
