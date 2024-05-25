@@ -6,15 +6,15 @@ https://gitee.com/iae23a12/
 
 ## 方法一
 
-![img.png](img.png)
+![img.png](Img/img.png)
 
 ## 方法二
 
-![img_1.png](img_1.png)
+![img_1.png](Img/img_1.png)
 
 ### 修改位
 
-![img_2.png](img_2.png)
+![img_2.png](Img/img_2.png)
 
 # 上期回顾
 
@@ -32,10 +32,10 @@ OOP复习
 
 # 练习
 
-![img_3.png](img_3.png)
+![img_3.png](Img/img_3.png)
 
 # 邮箱连接
 
-![png01.png](png01.png)
+![png01.png](Img/png01.png)
 
-![png002.png](png002.png)
+![png002.png](Img/png002.png)
