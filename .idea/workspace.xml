@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="MyStringBuilder - 使用创建新数组取代老数组的方式能够保证一次 append 的正确调用">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="MyStringBuilder - 再加入一个新的 append 后发现仍旧只有一个 char">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240525/MyStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240525/MyStringBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A20240525/MyStringBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240525/MyStringBuilderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
     </list>
@@ -346,15 +348,7 @@
       <workItem from="1716427245399" duration="935000" />
       <workItem from="1716463746565" duration="1208000" />
       <workItem from="1716548891146" duration="457000" />
-      <workItem from="1716599301673" duration="18903000" />
-    </task>
-    <task id="LOCAL-00430" summary="英语学习 -- 登录界面 -- 设置关闭模式...&#10;&#10;默认值为1&#10;如果是 0 ： 不做任何事情，即使点了关闭也不会关闭&#10;如果是 1 ： 关闭界面并不会关闭虚拟机&#10;如果是 2 ： 关闭所有界面才会关闭虚拟机&#10;如果是 3 ： 关闭任意一个界面都可以关闭虚拟机">
-      <option name="closed" value="true" />
-      <created>1716355169887</created>
-      <option name="number" value="00430" />
-      <option name="presentableId" value="LOCAL-00430" />
-      <option name="project" value="LOCAL" />
-      <updated>1716355169887</updated>
+      <workItem from="1716599301673" duration="20045000" />
     </task>
     <task id="LOCAL-00431" summary="英语学习 -- 所有界面 -- 设置和登录界面一样的东西">
       <option name="closed" value="true" />
@@ -740,7 +734,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716621866185</updated>
     </task>
-    <option name="localTasksCounter" value="479" />
+    <task id="LOCAL-00479" summary="MyStringBuilder - 再加入一个新的 append 后发现仍旧只有一个 char">
+      <option name="closed" value="true" />
+      <created>1716621907302</created>
+      <option name="number" value="00479" />
+      <option name="presentableId" value="LOCAL-00479" />
+      <option name="project" value="LOCAL" />
+      <updated>1716621907302</updated>
+    </task>
+    <option name="localTasksCounter" value="480" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -792,7 +794,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="String 面试题 -- String 类型之间比较 -- .intern(); 方法...&#10;&#10;该方法可以使得在赋值时之间选择在常量池中去寻找，如果找到了一样内容的数值，就返回他的地址值，否则会将新值添加进常量池中" />
     <MESSAGE value="String 面试题 -- String 类型之间比较 -- final...&#10;&#10;加入 final 关键字的数据会直接放入常量池中，那么由它变量名所调用的值就不会在堆空间中创新" />
     <MESSAGE value="A20240126 -- 修改与补充" />
     <MESSAGE value="A20240129 -- 修改与补充" />
@@ -817,7 +818,8 @@
     <MESSAGE value="MyStringBuilder - 自己的想法" />
     <MESSAGE value="MyStringBuilder - 返回值类型设置为它本身，就可以本身无限调用" />
     <MESSAGE value="MyStringBuilder - 使用创建新数组取代老数组的方式能够保证一次 append 的正确调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyStringBuilder - 使用创建新数组取代老数组的方式能够保证一次 append 的正确调用" />
+    <MESSAGE value="MyStringBuilder - 再加入一个新的 append 后发现仍旧只有一个 char" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyStringBuilder - 再加入一个新的 append 后发现仍旧只有一个 char" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
