@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="MyStringBuilder - 再加入一个新的 append 后发现仍旧只有一个 char">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="String 的其他方法 -- .equalsIgnoreCase 忽略大小写比较两个字符串是否相同">
+      <change afterPath="$PROJECT_DIR$/src/A20240525/StringCommonMethod2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240525/MyStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240525/MyStringBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240525/MyStringBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240525/MyStringBuilderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -348,31 +347,7 @@
       <workItem from="1716427245399" duration="935000" />
       <workItem from="1716463746565" duration="1208000" />
       <workItem from="1716548891146" duration="457000" />
-      <workItem from="1716599301673" duration="20045000" />
-    </task>
-    <task id="LOCAL-00431" summary="英语学习 -- 所有界面 -- 设置和登录界面一样的东西">
-      <option name="closed" value="true" />
-      <created>1716355692692</created>
-      <option name="number" value="00431" />
-      <option name="presentableId" value="LOCAL-00431" />
-      <option name="project" value="LOCAL" />
-      <updated>1716355692692</updated>
-    </task>
-    <task id="LOCAL-00432" summary="引入泛型 消灭强制转换">
-      <option name="closed" value="true" />
-      <created>1716379951852</created>
-      <option name="number" value="00432" />
-      <option name="presentableId" value="LOCAL-00432" />
-      <option name="project" value="LOCAL" />
-      <updated>1716379951853</updated>
-    </task>
-    <task id="LOCAL-00433" summary="引入泛型 消灭强制转换">
-      <option name="closed" value="true" />
-      <created>1716381489077</created>
-      <option name="number" value="00433" />
-      <option name="presentableId" value="LOCAL-00433" />
-      <option name="project" value="LOCAL" />
-      <updated>1716381489077</updated>
+      <workItem from="1716599301673" duration="21362000" />
     </task>
     <task id="LOCAL-00434" summary="自定义一个容器类 Xxx -- 满足可以使用 Xxx a = new Xxx(&quot;实训室8&quot; , &quot;4台风扇&quot;);">
       <option name="closed" value="true" />
@@ -742,7 +717,31 @@
       <option name="project" value="LOCAL" />
       <updated>1716621907302</updated>
     </task>
-    <option name="localTasksCounter" value="480" />
+    <task id="LOCAL-00480" summary="String 的其他方法 -- toUpperCase 将小写转化为大写">
+      <option name="closed" value="true" />
+      <created>1716624419224</created>
+      <option name="number" value="00480" />
+      <option name="presentableId" value="LOCAL-00480" />
+      <option name="project" value="LOCAL" />
+      <updated>1716624419224</updated>
+    </task>
+    <task id="LOCAL-00481" summary="String 的其他方法 -- equals 比较两个字符串是否相同">
+      <option name="closed" value="true" />
+      <created>1716624492298</created>
+      <option name="number" value="00481" />
+      <option name="presentableId" value="LOCAL-00481" />
+      <option name="project" value="LOCAL" />
+      <updated>1716624492298</updated>
+    </task>
+    <task id="LOCAL-00482" summary="String 的其他方法 -- .equalsIgnoreCase 忽略大小写比较两个字符串是否相同">
+      <option name="closed" value="true" />
+      <created>1716624548620</created>
+      <option name="number" value="00482" />
+      <option name="presentableId" value="LOCAL-00482" />
+      <option name="project" value="LOCAL" />
+      <updated>1716624548620</updated>
+    </task>
+    <option name="localTasksCounter" value="483" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -794,9 +793,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="String 面试题 -- String 类型之间比较 -- final...&#10;&#10;加入 final 关键字的数据会直接放入常量池中，那么由它变量名所调用的值就不会在堆空间中创新" />
-    <MESSAGE value="A20240126 -- 修改与补充" />
-    <MESSAGE value="A20240129 -- 修改与补充" />
     <MESSAGE value="A20240130 -- 修改与补充...&#10;&#10;&lt;a href = &quot;https://visualgo.net/en&quot;&gt;可视化算法图像&lt;/a&gt;非常重要" />
     <MESSAGE value="A20240131 -- 修改与补充" />
     <MESSAGE value="A20240222 -- 修改与补充" />
@@ -819,7 +815,10 @@
     <MESSAGE value="MyStringBuilder - 返回值类型设置为它本身，就可以本身无限调用" />
     <MESSAGE value="MyStringBuilder - 使用创建新数组取代老数组的方式能够保证一次 append 的正确调用" />
     <MESSAGE value="MyStringBuilder - 再加入一个新的 append 后发现仍旧只有一个 char" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyStringBuilder - 再加入一个新的 append 后发现仍旧只有一个 char" />
+    <MESSAGE value="String 的其他方法 -- toUpperCase 将小写转化为大写" />
+    <MESSAGE value="String 的其他方法 -- equals 比较两个字符串是否相同" />
+    <MESSAGE value="String 的其他方法 -- .equalsIgnoreCase 忽略大小写比较两个字符串是否相同" />
+    <option name="LAST_COMMIT_MESSAGE" value="String 的其他方法 -- .equalsIgnoreCase 忽略大小写比较两个字符串是否相同" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
