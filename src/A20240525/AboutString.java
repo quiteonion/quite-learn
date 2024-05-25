@@ -32,6 +32,7 @@ public class AboutString {
 
         System.out.println("=== === ===");
 
-
+        String q8 = q6.intern();
+        System.out.println(q8 == q3);
     }
 }
