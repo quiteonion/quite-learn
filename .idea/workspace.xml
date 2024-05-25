@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="A20240223 -- 修改与补充">
-      <change beforePath="$PROJECT_DIR$/src/A20240303/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240303/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240303/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240303/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240303/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240303/Student.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="A20240306 -- 修改与补充">
+      <change afterPath="$PROJECT_DIR$/src/A20240308/Concat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240308/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240308/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240307/StringConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240308/StringConcat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -334,23 +335,7 @@
       <workItem from="1716427245399" duration="935000" />
       <workItem from="1716463746565" duration="1208000" />
       <workItem from="1716548891146" duration="457000" />
-      <workItem from="1716599301673" duration="11598000" />
-    </task>
-    <task id="LOCAL-00411" summary="模拟用户登录 -- 输入密码的二次确认">
-      <option name="closed" value="true" />
-      <created>1715860619874</created>
-      <option name="number" value="00411" />
-      <option name="presentableId" value="LOCAL-00411" />
-      <option name="project" value="LOCAL" />
-      <updated>1715860619874</updated>
-    </task>
-    <task id="LOCAL-00412" summary="模拟用户登录 -- 生日格式的确认">
-      <option name="closed" value="true" />
-      <created>1715861265048</created>
-      <option name="number" value="00412" />
-      <option name="presentableId" value="LOCAL-00412" />
-      <option name="project" value="LOCAL" />
-      <updated>1715861265048</updated>
+      <workItem from="1716599301673" duration="12679000" />
     </task>
     <task id="LOCAL-00413" summary="模拟用户登录 -- 生日格式的确认">
       <option name="closed" value="true" />
@@ -728,7 +713,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716613578554</updated>
     </task>
-    <option name="localTasksCounter" value="460" />
+    <task id="LOCAL-00460" summary="A20240303 -- 修改与补充">
+      <option name="closed" value="true" />
+      <created>1716613816704</created>
+      <option name="number" value="00460" />
+      <option name="presentableId" value="LOCAL-00460" />
+      <option name="project" value="LOCAL" />
+      <updated>1716613816704</updated>
+    </task>
+    <task id="LOCAL-00461" summary="A20240306 -- 修改与补充">
+      <option name="closed" value="true" />
+      <created>1716614181516</created>
+      <option name="number" value="00461" />
+      <option name="presentableId" value="LOCAL-00461" />
+      <option name="project" value="LOCAL" />
+      <updated>1716614181516</updated>
+    </task>
+    <option name="localTasksCounter" value="462" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -780,8 +781,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="自定义一个容器类 Xxx -- 满足可以使用 Xxx a = new Xxx(&quot;实训室8&quot; , &quot;4台风扇&quot;);" />
-    <MESSAGE value="自定义一个容器类 Xxx -- 满足可以使用 Xxx b = new Xxx(); b.set &amp; b.get 方法" />
     <MESSAGE value="自定义一个容器类 Xxx -- 满足可以使用 Xxx b = new Xxx(8, 4);" />
     <MESSAGE value="自定义一个容器类 Xxx -- 满足可以使用 Xxx b = new Xxx(&quot;String&quot;, 4);" />
     <MESSAGE value="包装类 -- 所有的基础数据类型都有包装类" />
@@ -805,7 +804,9 @@
     <MESSAGE value="A20240131 -- 修改与补充" />
     <MESSAGE value="A20240222 -- 修改与补充" />
     <MESSAGE value="A20240223 -- 修改与补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="A20240223 -- 修改与补充" />
+    <MESSAGE value="A20240303 -- 修改与补充" />
+    <MESSAGE value="A20240306 -- 修改与补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="A20240306 -- 修改与补充" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

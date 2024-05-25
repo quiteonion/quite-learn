@@ -1,4 +1,4 @@
-package B20240307;
+package A20240308;
 
 import java.util.Scanner;
 
