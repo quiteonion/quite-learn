@@ -15,7 +15,7 @@ public class AboutString {
 
         System.out.println("=== === ===");
 
-        String q1 = "123";
+        final String q1 = "123";
         String q2 = "456";
         String q3 = "123456";
         String q4 = "123" + "456";
