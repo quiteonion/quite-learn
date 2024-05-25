@@ -7,6 +7,8 @@ public class StringCommonMethod {
         System.out.println(codeUpperCase);
         System.out.println("=== === ===");
         System.out.println(code.equals(codeUpperCase));
+        System.out.println("=== === ===");
         System.out.println(code.equalsIgnoreCase(codeUpperCase));
     }
 }
+
