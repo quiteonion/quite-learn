@@ -1,6 +1,6 @@
 package A20240126;
 
-public class luojjihuoyu {
+public class Logical {
     public static void main(String[] args) {
         //逻辑或和逻辑与通常出现在选择中，作用就是选择
         /*
