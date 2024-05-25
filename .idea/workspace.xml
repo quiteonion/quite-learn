@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="数据类型 原文">
-      <change afterPath="$PROJECT_DIR$/src/A20240524/StringADD.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="String -- 添加方法之间的差异...&#10;&#10;String + 会比其他的慢很多&#10;StringBuffer 第二慢&#10;StringBuilder 最快">
+      <change afterPath="$PROJECT_DIR$/src/A20240525/AboutString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
     </list>
@@ -333,15 +333,7 @@
       <workItem from="1716427245399" duration="935000" />
       <workItem from="1716463746565" duration="1208000" />
       <workItem from="1716548891146" duration="457000" />
-      <workItem from="1716599301673" duration="1558000" />
-    </task>
-    <task id="LOCAL-00396" summary="使用了较为笨拙切不好修改的代码">
-      <option name="closed" value="true" />
-      <created>1715775394644</created>
-      <option name="number" value="00396" />
-      <option name="presentableId" value="LOCAL-00396" />
-      <option name="project" value="LOCAL" />
-      <updated>1715775394644</updated>
+      <workItem from="1716599301673" duration="5870000" />
     </task>
     <task id="LOCAL-00397" summary=" 将原本写在一个类中的代码拆分为多个类">
       <option name="closed" value="true" />
@@ -727,7 +719,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716554771008</updated>
     </task>
-    <option name="localTasksCounter" value="445" />
+    <task id="LOCAL-00445" summary="String -- 添加方法之间的差异...&#10;&#10;String + 会比其他的慢很多&#10;StringBuffer 第二慢&#10;StringBuilder 最快">
+      <option name="closed" value="true" />
+      <created>1716601024837</created>
+      <option name="number" value="00445" />
+      <option name="presentableId" value="LOCAL-00445" />
+      <option name="project" value="LOCAL" />
+      <updated>1716601024837</updated>
+    </task>
+    <option name="localTasksCounter" value="446" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -779,7 +779,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="模拟用户登录 -- 手机号码格式的确认" />
     <MESSAGE value="模拟用户登录 -- 邮箱格式的确认" />
     <MESSAGE value="模拟百度翻译" />
     <MESSAGE value="上课的同学的练习" />
@@ -804,7 +803,8 @@
     <MESSAGE value="about Integer -- 存储...&#10;&#10;如果存储的数字 在 -128 ~ 127 （缓存）之间，则会在缓存中查找并调用&#10;反之，则会再次 new 一个新的出来" />
     <MESSAGE value="about Integer -- 存储...&#10;&#10;在类中 ， 会自动加载 -128 ~ 127 之间的数字 ， 如果没有，才会 新 new" />
     <MESSAGE value="数据类型 原文" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据类型 原文" />
+    <MESSAGE value="String -- 添加方法之间的差异...&#10;&#10;String + 会比其他的慢很多&#10;StringBuffer 第二慢&#10;StringBuilder 最快" />
+    <option name="LAST_COMMIT_MESSAGE" value="String -- 添加方法之间的差异...&#10;&#10;String + 会比其他的慢很多&#10;StringBuffer 第二慢&#10;StringBuilder 最快" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
