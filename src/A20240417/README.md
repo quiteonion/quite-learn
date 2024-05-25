@@ -18,7 +18,7 @@ In OOP ,we create objects to solve complex problems.
 
 #### Modifier：public , protect , private , no-modifier
 
-![img_2.png](img_2.png)
+![img_2.png](Img/img_2.png)
 
 #### Class-name
 

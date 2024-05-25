@@ -42,6 +42,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "quiteonion"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7928a321-3ff0-436d-b453-70f383e542d0" />
+        <option name="url" value="https://github.com/quiteonion/quite-learn.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/B20240403/B20240408/b9499b1fd49b0d35d755b366b6d46ef0_b15fa4c98c0574d4dd9125adb1014c47_8.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/B20240403/B20240408/f6811a0cdacff522de78622c384d62f8_81a9eca1f9ba758cde9611dc4ebe8e8c_8.java" root0="FORCE_HIGHLIGHTING" />
@@ -90,11 +104,11 @@
       <recent name="D:\idea\idea 存储\quite\src\B20240509" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\A20240417\Img" />
+      <recent name="D:\idea\idea 存储\quite\src\A20240324\Img" />
+      <recent name="D:\idea\idea 存储\quite\src\A20240322\Img" />
       <recent name="D:\idea\idea 存储\quite\src\PinTuGame" />
       <recent name="D:\idea\idea 存储\quite\src\PinTuGame\PinTuImg" />
-      <recent name="D:\idea\idea 存储\quite\src\PINTU" />
-      <recent name="D:\idea\idea 存储\quite\src\B20240502\Test5" />
-      <recent name="D:\idea\idea 存储\quite\src\B20240502\Test4" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="A20240424" />
