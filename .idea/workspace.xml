@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="回顾 -- 数组中隐藏的电话号码">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="String 的其他方法">
       <change beforePath="$PROJECT_DIR$/src/B20240526/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240526/PhoneNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
     </list>
@@ -348,15 +348,7 @@
       <workItem from="1716548891146" duration="457000" />
       <workItem from="1716599301673" duration="21908000" />
       <workItem from="1716626611954" duration="5000" />
-      <workItem from="1716626736017" duration="696000" />
-    </task>
-    <task id="LOCAL-00436" summary="自定义一个容器类 Xxx -- 满足可以使用 Xxx b = new Xxx(8, 4);">
-      <option name="closed" value="true" />
-      <created>1716382746359</created>
-      <option name="number" value="00436" />
-      <option name="presentableId" value="LOCAL-00436" />
-      <option name="project" value="LOCAL" />
-      <updated>1716382746359</updated>
+      <workItem from="1716626736017" duration="1006000" />
     </task>
     <task id="LOCAL-00437" summary="自定义一个容器类 Xxx -- 满足可以使用 Xxx b = new Xxx(&quot;String&quot;, 4);">
       <option name="closed" value="true" />
@@ -742,7 +734,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716627290803</updated>
     </task>
-    <option name="localTasksCounter" value="485" />
+    <task id="LOCAL-00485" summary="String 的其他方法">
+      <option name="closed" value="true" />
+      <created>1716627681422</created>
+      <option name="number" value="00485" />
+      <option name="presentableId" value="LOCAL-00485" />
+      <option name="project" value="LOCAL" />
+      <updated>1716627681422</updated>
+    </task>
+    <option name="localTasksCounter" value="486" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -817,9 +817,9 @@
     <MESSAGE value="String 的其他方法 -- toUpperCase 将小写转化为大写" />
     <MESSAGE value="String 的其他方法 -- equals 比较两个字符串是否相同" />
     <MESSAGE value="String 的其他方法 -- .equalsIgnoreCase 忽略大小写比较两个字符串是否相同" />
-    <MESSAGE value="String 的其他方法" />
     <MESSAGE value="回顾 -- 数组中隐藏的电话号码" />
-    <option name="LAST_COMMIT_MESSAGE" value="回顾 -- 数组中隐藏的电话号码" />
+    <MESSAGE value="String 的其他方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="String 的其他方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

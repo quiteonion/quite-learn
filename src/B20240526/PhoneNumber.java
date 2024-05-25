@@ -8,5 +8,6 @@ public class PhoneNumber {
         for (int i = 0; i < arr2.length; i++) {
             System.out.print(arr1[arr2[i]]);
         }
+        System.out.println();
     }
 }
