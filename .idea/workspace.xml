@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="A20240322 -- 修改与补充">
-      <change beforePath="$PROJECT_DIR$/src/A20240324/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240324/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/Img/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240324/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/Img/img_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240324/img_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/Img/img_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240324/img_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/Img/img_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240324/img_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/Img/img_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240324/img_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240324/Img/img_5.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="A20240424 -- 修改与补充">
+      <change beforePath="$PROJECT_DIR$/src/A20240508/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240508/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240508/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240508/Img/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240508/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240508/Img/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240508/img_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240508/Img/img_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,11 +101,11 @@
       <recent name="D:\idea\idea 存储\quite\src\B20240509" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\A20240508\Img" />
+      <recent name="D:\idea\idea 存储\quite\src\A20240424\Img" />
       <recent name="D:\idea\idea 存储\quite\src\A20240417\Img" />
       <recent name="D:\idea\idea 存储\quite\src\A20240324\Img" />
       <recent name="D:\idea\idea 存储\quite\src\A20240322\Img" />
-      <recent name="D:\idea\idea 存储\quite\src\PinTuGame" />
-      <recent name="D:\idea\idea 存储\quite\src\PinTuGame\PinTuImg" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="A20240424" />
@@ -352,39 +349,7 @@
       <workItem from="1716427245399" duration="935000" />
       <workItem from="1716463746565" duration="1208000" />
       <workItem from="1716548891146" duration="457000" />
-      <workItem from="1716599301673" duration="14230000" />
-    </task>
-    <task id="LOCAL-00420" summary="无">
-      <option name="closed" value="true" />
-      <created>1716353701306</created>
-      <option name="number" value="00420" />
-      <option name="presentableId" value="LOCAL-00420" />
-      <option name="project" value="LOCAL" />
-      <updated>1716353701306</updated>
-    </task>
-    <task id="LOCAL-00421" summary="英语学习 -- 创建所需要的业务逻辑">
-      <option name="closed" value="true" />
-      <created>1716354018122</created>
-      <option name="number" value="00421" />
-      <option name="presentableId" value="LOCAL-00421" />
-      <option name="project" value="LOCAL" />
-      <updated>1716354018122</updated>
-    </task>
-    <task id="LOCAL-00422" summary="英语学习 -- 创建所需要的业务逻辑">
-      <option name="closed" value="true" />
-      <created>1716354024781</created>
-      <option name="number" value="00422" />
-      <option name="presentableId" value="LOCAL-00422" />
-      <option name="project" value="LOCAL" />
-      <updated>1716354024781</updated>
-    </task>
-    <task id="LOCAL-00423" summary="英语学习 -- 登录界面 -- 设置宽高，并且让他显示出来">
-      <option name="closed" value="true" />
-      <created>1716354151449</created>
-      <option name="number" value="00423" />
-      <option name="presentableId" value="LOCAL-00423" />
-      <option name="project" value="LOCAL" />
-      <updated>1716354151449</updated>
+      <workItem from="1716599301673" duration="14615000" />
     </task>
     <task id="LOCAL-00424" summary="英语学习 -- 登录界面 -- 设置宽高，并且让他显示出来">
       <option name="closed" value="true" />
@@ -746,7 +711,39 @@
       <option name="project" value="LOCAL" />
       <updated>1716616285095</updated>
     </task>
-    <option name="localTasksCounter" value="469" />
+    <task id="LOCAL-00469" summary="A20240324 -- 修改与补充">
+      <option name="closed" value="true" />
+      <created>1716616420385</created>
+      <option name="number" value="00469" />
+      <option name="presentableId" value="LOCAL-00469" />
+      <option name="project" value="LOCAL" />
+      <updated>1716616420385</updated>
+    </task>
+    <task id="LOCAL-00470" summary="A20240417 -- 修改与补充">
+      <option name="closed" value="true" />
+      <created>1716616679911</created>
+      <option name="number" value="00470" />
+      <option name="presentableId" value="LOCAL-00470" />
+      <option name="project" value="LOCAL" />
+      <updated>1716616679911</updated>
+    </task>
+    <task id="LOCAL-00471" summary="A20240420 -- 修改与补充">
+      <option name="closed" value="true" />
+      <created>1716616763304</created>
+      <option name="number" value="00471" />
+      <option name="presentableId" value="LOCAL-00471" />
+      <option name="project" value="LOCAL" />
+      <updated>1716616763304</updated>
+    </task>
+    <task id="LOCAL-00472" summary="A20240424 -- 修改与补充">
+      <option name="closed" value="true" />
+      <created>1716616768242</created>
+      <option name="number" value="00472" />
+      <option name="presentableId" value="LOCAL-00472" />
+      <option name="project" value="LOCAL" />
+      <updated>1716616768242</updated>
+    </task>
+    <option name="localTasksCounter" value="473" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -798,10 +795,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="about Integer -- 整体总览" />
-    <MESSAGE value="about Integer -- 存储...&#10;&#10;如果存储的数字 在 -128 ~ 127 （缓存）之间，则会在缓存中查找并调用&#10;反之，则会再次 new 一个新的出来" />
-    <MESSAGE value="about Integer -- 存储...&#10;&#10;在类中 ， 会自动加载 -128 ~ 127 之间的数字 ， 如果没有，才会 新 new" />
-    <MESSAGE value="数据类型 原文" />
     <MESSAGE value="String -- 添加方法之间的差异...&#10;&#10;String + 会比其他的慢很多&#10;StringBuffer 第二慢&#10;StringBuilder 最快" />
     <MESSAGE value="String 面试题 -- 两个 new 出的 String 类型之间比较 -- 输出 false ，因为比较的是地址值" />
     <MESSAGE value="String 面试题 -- 两个 new 出的 String 类型之间比较 -- 如果要在值上比较要使用 equals" />
@@ -823,7 +816,11 @@
     <MESSAGE value="A20240317 -- 修改与补充" />
     <MESSAGE value="A20240321 -- 修改与补充" />
     <MESSAGE value="A20240322 -- 修改与补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="A20240322 -- 修改与补充" />
+    <MESSAGE value="A20240324 -- 修改与补充" />
+    <MESSAGE value="A20240417 -- 修改与补充" />
+    <MESSAGE value="A20240420 -- 修改与补充" />
+    <MESSAGE value="A20240424 -- 修改与补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="A20240424 -- 修改与补充" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
