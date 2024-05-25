@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="String 的其他方法 -- .equalsIgnoreCase 忽略大小写比较两个字符串是否相同">
-      <change afterPath="$PROJECT_DIR$/src/A20240525/StringCommonMethod2.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="String 的其他方法">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
     </list>
@@ -37,12 +36,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "quiteonion"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;quiteonion&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -347,15 +346,9 @@
       <workItem from="1716427245399" duration="935000" />
       <workItem from="1716463746565" duration="1208000" />
       <workItem from="1716548891146" duration="457000" />
-      <workItem from="1716599301673" duration="21362000" />
-    </task>
-    <task id="LOCAL-00434" summary="自定义一个容器类 Xxx -- 满足可以使用 Xxx a = new Xxx(&quot;实训室8&quot; , &quot;4台风扇&quot;);">
-      <option name="closed" value="true" />
-      <created>1716381733495</created>
-      <option name="number" value="00434" />
-      <option name="presentableId" value="LOCAL-00434" />
-      <option name="project" value="LOCAL" />
-      <updated>1716381733495</updated>
+      <workItem from="1716599301673" duration="21908000" />
+      <workItem from="1716626611954" duration="5000" />
+      <workItem from="1716626736017" duration="323000" />
     </task>
     <task id="LOCAL-00435" summary="自定义一个容器类 Xxx -- 满足可以使用 Xxx b = new Xxx(); b.set &amp; b.get 方法">
       <option name="closed" value="true" />
@@ -741,7 +734,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716624548620</updated>
     </task>
-    <option name="localTasksCounter" value="483" />
+    <task id="LOCAL-00483" summary="String 的其他方法">
+      <option name="closed" value="true" />
+      <created>1716626079034</created>
+      <option name="number" value="00483" />
+      <option name="presentableId" value="LOCAL-00483" />
+      <option name="project" value="LOCAL" />
+      <updated>1716626079034</updated>
+    </task>
+    <option name="localTasksCounter" value="484" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -793,7 +794,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="A20240130 -- 修改与补充...&#10;&#10;&lt;a href = &quot;https://visualgo.net/en&quot;&gt;可视化算法图像&lt;/a&gt;非常重要" />
     <MESSAGE value="A20240131 -- 修改与补充" />
     <MESSAGE value="A20240222 -- 修改与补充" />
     <MESSAGE value="A20240223 -- 修改与补充" />
@@ -818,7 +818,8 @@
     <MESSAGE value="String 的其他方法 -- toUpperCase 将小写转化为大写" />
     <MESSAGE value="String 的其他方法 -- equals 比较两个字符串是否相同" />
     <MESSAGE value="String 的其他方法 -- .equalsIgnoreCase 忽略大小写比较两个字符串是否相同" />
-    <option name="LAST_COMMIT_MESSAGE" value="String 的其他方法 -- .equalsIgnoreCase 忽略大小写比较两个字符串是否相同" />
+    <MESSAGE value="String 的其他方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="String 的其他方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
