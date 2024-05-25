@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="String 面试题 -- String 类型之间比较 -- final...&#10;&#10;加入 final 关键字的数据会直接放入常量池中，那么由它变量名所调用的值就不会在堆空间中创新">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="A20240126 -- 修改与补充">
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -332,23 +331,7 @@
       <workItem from="1716427245399" duration="935000" />
       <workItem from="1716463746565" duration="1208000" />
       <workItem from="1716548891146" duration="457000" />
-      <workItem from="1716599301673" duration="10259000" />
-    </task>
-    <task id="LOCAL-00404" summary="排列可以细分...&#10;&#10;排列可以细分为比较和交换，如果我的方法只是进行了比较，那就具有很大的延展性">
-      <option name="closed" value="true" />
-      <created>1715777101275</created>
-      <option name="number" value="00404" />
-      <option name="presentableId" value="LOCAL-00404" />
-      <option name="project" value="LOCAL" />
-      <updated>1715777101275</updated>
-    </task>
-    <task id="LOCAL-00405" summary="排列可以细分...&#10;&#10;排列可以细分为比较和交换，如果我的方法只是进行了比较，那就具有很大的延展性">
-      <option name="closed" value="true" />
-      <created>1715777108087</created>
-      <option name="number" value="00405" />
-      <option name="presentableId" value="LOCAL-00405" />
-      <option name="project" value="LOCAL" />
-      <updated>1715777108087</updated>
+      <workItem from="1716599301673" duration="10662000" />
     </task>
     <task id="LOCAL-00406" summary="可以进行比较...&#10;&#10;但是比较器不能自定义">
       <option name="closed" value="true" />
@@ -726,7 +709,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716610079694</updated>
     </task>
-    <option name="localTasksCounter" value="453" />
+    <task id="LOCAL-00453" summary="A20240126 -- 修改与补充">
+      <option name="closed" value="true" />
+      <created>1716612770160</created>
+      <option name="number" value="00453" />
+      <option name="presentableId" value="LOCAL-00453" />
+      <option name="project" value="LOCAL" />
+      <updated>1716612770160</updated>
+    </task>
+    <task id="LOCAL-00454" summary="A20240126 -- 修改与补充">
+      <option name="closed" value="true" />
+      <created>1716612777322</created>
+      <option name="number" value="00454" />
+      <option name="presentableId" value="LOCAL-00454" />
+      <option name="project" value="LOCAL" />
+      <updated>1716612777322</updated>
+    </task>
+    <option name="localTasksCounter" value="455" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -778,7 +777,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="英语学习 -- 登录界面 -- 设置界面标题" />
     <MESSAGE value="英语学习 -- 登录界面 -- 设置界面始终置顶" />
     <MESSAGE value="英语学习 -- 登录界面 -- 设置界面在出现时居中" />
     <MESSAGE value="英语学习 -- 登录界面 -- 设置关闭模式...&#10;&#10;默认值为1&#10;如果是 0 ： 不做任何事情，即使点了关闭也不会关闭&#10;如果是 1 ： 关闭界面并不会关闭虚拟机&#10;如果是 2 ： 关闭所有界面才会关闭虚拟机&#10;如果是 3 ： 关闭任意一个界面都可以关闭虚拟机" />
@@ -803,7 +801,8 @@
     <MESSAGE value="String 面试题 -- String 类型之间比较 -- 由直接赋值的 String 会被放入常量池...&#10;&#10;如果被使用会在常量池中 ， 而调用的 变量则会 在堆空间中被调用 ， 所以两者之间会产生不同" />
     <MESSAGE value="String 面试题 -- String 类型之间比较 -- .intern(); 方法...&#10;&#10;该方法可以使得在赋值时之间选择在常量池中去寻找，如果找到了一样内容的数值，就返回他的地址值，否则会将新值添加进常量池中" />
     <MESSAGE value="String 面试题 -- String 类型之间比较 -- final...&#10;&#10;加入 final 关键字的数据会直接放入常量池中，那么由它变量名所调用的值就不会在堆空间中创新" />
-    <option name="LAST_COMMIT_MESSAGE" value="String 面试题 -- String 类型之间比较 -- final...&#10;&#10;加入 final 关键字的数据会直接放入常量池中，那么由它变量名所调用的值就不会在堆空间中创新" />
+    <MESSAGE value="A20240126 -- 修改与补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="A20240126 -- 修改与补充" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
