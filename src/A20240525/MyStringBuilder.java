@@ -4,12 +4,13 @@ public class MyStringBuilder {
     private char[] arr = new char[0];
     private int oldLength = arr.length;
 
-    public void append(char ch) {
+    public MyStringBuilder append(char ch) {
         int length = 1;
         int newLength = oldLength + length;
         if (oldLength > 0) {
             arr[newLength] = ch;
         }
+        return this;
     }
 
     public void print() {
