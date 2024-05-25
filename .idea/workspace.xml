@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="A20240129 -- 修改与补充">
-      <change beforePath="$PROJECT_DIR$/src/A20240130/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240130/Readme.md" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="A20240131 -- 修改与补充">
+      <change beforePath="$PROJECT_DIR$/src/A20240222/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240222/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -332,23 +332,7 @@
       <workItem from="1716427245399" duration="935000" />
       <workItem from="1716463746565" duration="1208000" />
       <workItem from="1716548891146" duration="457000" />
-      <workItem from="1716599301673" duration="10982000" />
-    </task>
-    <task id="LOCAL-00407" summary="把所有的 MyComparable 变为 Object">
-      <option name="closed" value="true" />
-      <created>1715777856436</created>
-      <option name="number" value="00407" />
-      <option name="presentableId" value="LOCAL-00407" />
-      <option name="project" value="LOCAL" />
-      <updated>1715777856436</updated>
-    </task>
-    <task id="LOCAL-00408" summary="模拟用户登录 -- 初始功能制作（没有任何的二次确认和查重功能）">
-      <option name="closed" value="true" />
-      <created>1715860257387</created>
-      <option name="number" value="00408" />
-      <option name="presentableId" value="LOCAL-00408" />
-      <option name="project" value="LOCAL" />
-      <updated>1715860257387</updated>
+      <workItem from="1716599301673" duration="11290000" />
     </task>
     <task id="LOCAL-00409" summary="模拟用户登录 -- 初始功能制作（没有任何的二次确认和查重功能）">
       <option name="closed" value="true" />
@@ -726,7 +710,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716613002448</updated>
     </task>
-    <option name="localTasksCounter" value="456" />
+    <task id="LOCAL-00456" summary="A20240130 -- 修改与补充...&#10;&#10;&lt;a href = &quot;https://visualgo.net/en&quot;&gt;可视化算法图像&lt;/a&gt;非常重要">
+      <option name="closed" value="true" />
+      <created>1716613207138</created>
+      <option name="number" value="00456" />
+      <option name="presentableId" value="LOCAL-00456" />
+      <option name="project" value="LOCAL" />
+      <updated>1716613207138</updated>
+    </task>
+    <task id="LOCAL-00457" summary="A20240131 -- 修改与补充">
+      <option name="closed" value="true" />
+      <created>1716613350302</created>
+      <option name="number" value="00457" />
+      <option name="presentableId" value="LOCAL-00457" />
+      <option name="project" value="LOCAL" />
+      <updated>1716613350302</updated>
+    </task>
+    <option name="localTasksCounter" value="458" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -778,8 +778,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="英语学习 -- 登录界面 -- 设置界面在出现时居中" />
-    <MESSAGE value="英语学习 -- 登录界面 -- 设置关闭模式...&#10;&#10;默认值为1&#10;如果是 0 ： 不做任何事情，即使点了关闭也不会关闭&#10;如果是 1 ： 关闭界面并不会关闭虚拟机&#10;如果是 2 ： 关闭所有界面才会关闭虚拟机&#10;如果是 3 ： 关闭任意一个界面都可以关闭虚拟机" />
     <MESSAGE value="英语学习 -- 所有界面 -- 设置和登录界面一样的东西" />
     <MESSAGE value="引入泛型 消灭强制转换" />
     <MESSAGE value="自定义一个容器类 Xxx -- 满足可以使用 Xxx a = new Xxx(&quot;实训室8&quot; , &quot;4台风扇&quot;);" />
@@ -803,7 +801,9 @@
     <MESSAGE value="String 面试题 -- String 类型之间比较 -- final...&#10;&#10;加入 final 关键字的数据会直接放入常量池中，那么由它变量名所调用的值就不会在堆空间中创新" />
     <MESSAGE value="A20240126 -- 修改与补充" />
     <MESSAGE value="A20240129 -- 修改与补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="A20240129 -- 修改与补充" />
+    <MESSAGE value="A20240130 -- 修改与补充...&#10;&#10;&lt;a href = &quot;https://visualgo.net/en&quot;&gt;可视化算法图像&lt;/a&gt;非常重要" />
+    <MESSAGE value="A20240131 -- 修改与补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="A20240131 -- 修改与补充" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
