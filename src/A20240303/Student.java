@@ -34,34 +34,18 @@ public class Student {
         return id;
     }
 
-    /**
-     * 设置
-     * @param name
-     */
     public void setName(String name) {
         this.name = name;
     }
 
-    /**
-     * 设置
-     * @param age
-     */
     public void setAge(int age) {
         this.age = age;
     }
 
-    /**
-     * 设置
-     * @param gender
-     */
     public void setGender(char gender) {
         this.gender = gender;
     }
 
-    /**
-     * 设置
-     * @param id
-     */
     public void setId(int id) {
         this.id = id;
     }

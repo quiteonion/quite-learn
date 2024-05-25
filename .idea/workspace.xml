@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="A20240131 -- 修改与补充">
-      <change beforePath="$PROJECT_DIR$/src/A20240222/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240222/Circle.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="A20240223 -- 修改与补充">
+      <change beforePath="$PROJECT_DIR$/src/A20240303/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240303/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240303/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240303/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240303/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240303/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -332,23 +334,7 @@
       <workItem from="1716427245399" duration="935000" />
       <workItem from="1716463746565" duration="1208000" />
       <workItem from="1716548891146" duration="457000" />
-      <workItem from="1716599301673" duration="11290000" />
-    </task>
-    <task id="LOCAL-00409" summary="模拟用户登录 -- 初始功能制作（没有任何的二次确认和查重功能）">
-      <option name="closed" value="true" />
-      <created>1715860290495</created>
-      <option name="number" value="00409" />
-      <option name="presentableId" value="LOCAL-00409" />
-      <option name="project" value="LOCAL" />
-      <updated>1715860290495</updated>
-    </task>
-    <task id="LOCAL-00410" summary="模拟用户登录 -- 输入密码的二次确认">
-      <option name="closed" value="true" />
-      <created>1715860560106</created>
-      <option name="number" value="00410" />
-      <option name="presentableId" value="LOCAL-00410" />
-      <option name="project" value="LOCAL" />
-      <updated>1715860560106</updated>
+      <workItem from="1716599301673" duration="11598000" />
     </task>
     <task id="LOCAL-00411" summary="模拟用户登录 -- 输入密码的二次确认">
       <option name="closed" value="true" />
@@ -726,7 +712,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716613350302</updated>
     </task>
-    <option name="localTasksCounter" value="458" />
+    <task id="LOCAL-00458" summary="A20240222 -- 修改与补充">
+      <option name="closed" value="true" />
+      <created>1716613446941</created>
+      <option name="number" value="00458" />
+      <option name="presentableId" value="LOCAL-00458" />
+      <option name="project" value="LOCAL" />
+      <updated>1716613446941</updated>
+    </task>
+    <task id="LOCAL-00459" summary="A20240223 -- 修改与补充">
+      <option name="closed" value="true" />
+      <created>1716613578554</created>
+      <option name="number" value="00459" />
+      <option name="presentableId" value="LOCAL-00459" />
+      <option name="project" value="LOCAL" />
+      <updated>1716613578554</updated>
+    </task>
+    <option name="localTasksCounter" value="460" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -778,8 +780,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="英语学习 -- 所有界面 -- 设置和登录界面一样的东西" />
-    <MESSAGE value="引入泛型 消灭强制转换" />
     <MESSAGE value="自定义一个容器类 Xxx -- 满足可以使用 Xxx a = new Xxx(&quot;实训室8&quot; , &quot;4台风扇&quot;);" />
     <MESSAGE value="自定义一个容器类 Xxx -- 满足可以使用 Xxx b = new Xxx(); b.set &amp; b.get 方法" />
     <MESSAGE value="自定义一个容器类 Xxx -- 满足可以使用 Xxx b = new Xxx(8, 4);" />
@@ -803,7 +803,9 @@
     <MESSAGE value="A20240129 -- 修改与补充" />
     <MESSAGE value="A20240130 -- 修改与补充...&#10;&#10;&lt;a href = &quot;https://visualgo.net/en&quot;&gt;可视化算法图像&lt;/a&gt;非常重要" />
     <MESSAGE value="A20240131 -- 修改与补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="A20240131 -- 修改与补充" />
+    <MESSAGE value="A20240222 -- 修改与补充" />
+    <MESSAGE value="A20240223 -- 修改与补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="A20240223 -- 修改与补充" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

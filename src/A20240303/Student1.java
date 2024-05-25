@@ -14,50 +14,26 @@ public class Student1 {
         this.score = score;
     }
 
-    /**
-     * 获取
-     * @return id
-     */
     public int getId() {
         return id;
     }
 
-    /**
-     * 设置
-     * @param id
-     */
     public void setId(int id) {
         this.id = id;
     }
 
-    /**
-     * 获取
-     * @return state
-     */
     public int getState() {
         return state;
     }
 
-    /**
-     * 设置
-     * @param state
-     */
     public void setState(int state) {
         this.state = state;
     }
 
-    /**
-     * 获取
-     * @return score
-     */
     public int getScore() {
         return score;
     }
 
-    /**
-     * 设置
-     * @param score
-     */
     public void setScore(int score) {
         this.score = score;
     }
