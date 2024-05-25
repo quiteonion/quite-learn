@@ -5,6 +5,7 @@ public class Main {
         int i = 2;
         int j = 3;
         j*=i++;
+        System.out.println(j);
         System.out.println(i);
     }
 }
