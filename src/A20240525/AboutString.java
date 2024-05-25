@@ -9,6 +9,10 @@ public class AboutString {
 
         System.out.println("=== === ===");
 
+        String s3 = "123";
+        String s4 = "123";
+        System.out.println(s3 == s4);
 
+        System.out.println("=== === ===");
     }
 }
