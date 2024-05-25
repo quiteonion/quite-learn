@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="A20240424 -- 修改与补充">
-      <change beforePath="$PROJECT_DIR$/src/A20240508/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240508/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240508/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240508/Img/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240508/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240508/Img/img_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240508/img_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240508/Img/img_2.png" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="A20240515 -- 修改与补充">
+      <change afterPath="$PROJECT_DIR$/src/A20240525/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240525/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240525/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240525/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240525/img_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -349,23 +351,7 @@
       <workItem from="1716427245399" duration="935000" />
       <workItem from="1716463746565" duration="1208000" />
       <workItem from="1716548891146" duration="457000" />
-      <workItem from="1716599301673" duration="14615000" />
-    </task>
-    <task id="LOCAL-00424" summary="英语学习 -- 登录界面 -- 设置宽高，并且让他显示出来">
-      <option name="closed" value="true" />
-      <created>1716354174404</created>
-      <option name="number" value="00424" />
-      <option name="presentableId" value="LOCAL-00424" />
-      <option name="project" value="LOCAL" />
-      <updated>1716354174404</updated>
-    </task>
-    <task id="LOCAL-00425" summary="英语学习 -- 登录界面 -- 设置宽高，并且让他显示出来">
-      <option name="closed" value="true" />
-      <created>1716354200093</created>
-      <option name="number" value="00425" />
-      <option name="presentableId" value="LOCAL-00425" />
-      <option name="project" value="LOCAL" />
-      <updated>1716354200093</updated>
+      <workItem from="1716599301673" duration="17179000" />
     </task>
     <task id="LOCAL-00426" summary="英语学习 -- 登录界面 -- 设置界面标题">
       <option name="closed" value="true" />
@@ -743,7 +729,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716616768242</updated>
     </task>
-    <option name="localTasksCounter" value="473" />
+    <task id="LOCAL-00473" summary="A20240508 -- 修改与补充">
+      <option name="closed" value="true" />
+      <created>1716616833622</created>
+      <option name="number" value="00473" />
+      <option name="presentableId" value="LOCAL-00473" />
+      <option name="project" value="LOCAL" />
+      <updated>1716616833622</updated>
+    </task>
+    <task id="LOCAL-00474" summary="A20240515 -- 修改与补充">
+      <option name="closed" value="true" />
+      <created>1716616972954</created>
+      <option name="number" value="00474" />
+      <option name="presentableId" value="LOCAL-00474" />
+      <option name="project" value="LOCAL" />
+      <updated>1716616972954</updated>
+    </task>
+    <option name="localTasksCounter" value="475" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -795,8 +797,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="String -- 添加方法之间的差异...&#10;&#10;String + 会比其他的慢很多&#10;StringBuffer 第二慢&#10;StringBuilder 最快" />
-    <MESSAGE value="String 面试题 -- 两个 new 出的 String 类型之间比较 -- 输出 false ，因为比较的是地址值" />
     <MESSAGE value="String 面试题 -- 两个 new 出的 String 类型之间比较 -- 如果要在值上比较要使用 equals" />
     <MESSAGE value="String 面试题 -- 两个 直接赋值 的 String 类型之间比较 -- true" />
     <MESSAGE value="String 面试题 -- 两个 直接赋值 的 String 类型之间比较 -- 字面量之间的赋值" />
@@ -820,7 +820,9 @@
     <MESSAGE value="A20240417 -- 修改与补充" />
     <MESSAGE value="A20240420 -- 修改与补充" />
     <MESSAGE value="A20240424 -- 修改与补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="A20240424 -- 修改与补充" />
+    <MESSAGE value="A20240508 -- 修改与补充" />
+    <MESSAGE value="A20240515 -- 修改与补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="A20240515 -- 修改与补充" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
