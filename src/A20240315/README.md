@@ -11,7 +11,7 @@ StringBuilder 是有容器长度的，初始化长度为 16 -- 即当创建一�
 
 ### 那为什么 StringBuilder 不会爆满呢？
 
-我们可以通过 capacitty 方法来获取 Stringbuilder 目前的容器长度
+我们可以通过 capacity 方法来获取 StringBuilder 目前的容器长度
 
 当 StringBuilder 在接受到大于 16 个字符的字符串时 ， 会主动增加容器的长度
 

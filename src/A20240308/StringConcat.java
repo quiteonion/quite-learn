@@ -27,7 +27,7 @@ public class StringConcat {
         for (int i = 1; i < concat.length - 1; i++) {
             m = m + concat[i] + concat[0];
         }
-        m = m + concat[concat.length];
+        m = m + concat[concat.length-1];
         return m;
     }
 }
