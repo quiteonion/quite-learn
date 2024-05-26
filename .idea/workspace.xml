@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="String 的其他方法">
-      <change beforePath="$PROJECT_DIR$/src/B20240526/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240526/PhoneNumber.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="回顾 -- 数组中隐藏的电话号码">
+      <change afterPath="$PROJECT_DIR$/src/B20240526/Dichotomy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,10 +180,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A20240130" />
         <item itemvalue="Application.StringADD" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.APP" />
-        <item itemvalue="Application.A20240130" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -348,23 +349,9 @@
       <workItem from="1716548891146" duration="457000" />
       <workItem from="1716599301673" duration="21908000" />
       <workItem from="1716626611954" duration="5000" />
-      <workItem from="1716626736017" duration="1006000" />
-    </task>
-    <task id="LOCAL-00437" summary="自定义一个容器类 Xxx -- 满足可以使用 Xxx b = new Xxx(&quot;String&quot;, 4);">
-      <option name="closed" value="true" />
-      <created>1716382855541</created>
-      <option name="number" value="00437" />
-      <option name="presentableId" value="LOCAL-00437" />
-      <option name="project" value="LOCAL" />
-      <updated>1716382855544</updated>
-    </task>
-    <task id="LOCAL-00438" summary="自定义一个容器类 Xxx -- 满足可以使用 Xxx b = new Xxx(&quot;String&quot;, 4);">
-      <option name="closed" value="true" />
-      <created>1716427260179</created>
-      <option name="number" value="00438" />
-      <option name="presentableId" value="LOCAL-00438" />
-      <option name="project" value="LOCAL" />
-      <updated>1716427260179</updated>
+      <workItem from="1716626736017" duration="1166000" />
+      <workItem from="1716640426632" duration="1116000" />
+      <workItem from="1716694689467" duration="4121000" />
     </task>
     <task id="LOCAL-00439" summary="包装类 -- 所有的基础数据类型都有包装类">
       <option name="closed" value="true" />
@@ -742,7 +729,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716627681422</updated>
     </task>
-    <option name="localTasksCounter" value="486" />
+    <task id="LOCAL-00486" summary="回顾 -- 数组中隐藏的电话号码">
+      <option name="closed" value="true" />
+      <created>1716627902986</created>
+      <option name="number" value="00486" />
+      <option name="presentableId" value="LOCAL-00486" />
+      <option name="project" value="LOCAL" />
+      <updated>1716627902986</updated>
+    </task>
+    <task id="LOCAL-00487" summary="回顾 -- 数组中隐藏的电话号码">
+      <option name="closed" value="true" />
+      <created>1716627906738</created>
+      <option name="number" value="00487" />
+      <option name="presentableId" value="LOCAL-00487" />
+      <option name="project" value="LOCAL" />
+      <updated>1716627906738</updated>
+    </task>
+    <option name="localTasksCounter" value="488" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -794,7 +797,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="A20240222 -- 修改与补充" />
     <MESSAGE value="A20240223 -- 修改与补充" />
     <MESSAGE value="A20240303 -- 修改与补充" />
     <MESSAGE value="A20240306 -- 修改与补充...&#10;&#10; 关于 数据类型... 名称 的回顾：&#10; 1、在形参中只能被放置在最后&#10; 2、使用方式与数组相同，只是在传入大量数据时会自动整合成为数组&#10; 3、传入的数据类型需要一致" />
@@ -817,9 +819,10 @@
     <MESSAGE value="String 的其他方法 -- toUpperCase 将小写转化为大写" />
     <MESSAGE value="String 的其他方法 -- equals 比较两个字符串是否相同" />
     <MESSAGE value="String 的其他方法 -- .equalsIgnoreCase 忽略大小写比较两个字符串是否相同" />
-    <MESSAGE value="回顾 -- 数组中隐藏的电话号码" />
     <MESSAGE value="String 的其他方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="String 的其他方法" />
+    <MESSAGE value="回顾 --" />
+    <MESSAGE value="回顾 -- 数组中隐藏的电话号码" />
+    <option name="LAST_COMMIT_MESSAGE" value="回顾 -- 数组中隐藏的电话号码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -940,6 +943,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/B20240526/Dichotomy.java</url>
+          <line>5</line>
+          <properties class="B20240526.Dichotomy" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/A20240417/River/Test.java</url>
