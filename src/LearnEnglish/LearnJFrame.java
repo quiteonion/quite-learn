@@ -4,6 +4,13 @@ import javax.swing.*;
 
 public class LearnJFrame extends JFrame {
     public LearnJFrame() {
+        setJFrame();
+        setJMenuBar();
+
+        //设置是否显示
+        this.setVisible(true);
+    }
+    public void setJFrame(){
         //设置宽高
         this.setSize(800, 800);
         //设置标题
@@ -15,6 +22,8 @@ public class LearnJFrame extends JFrame {
         //设置关闭模式
         this.setDefaultCloseOperation(3);
         //设置菜单界面
+    }
+    public void setJMenuBar(){
         // === 总菜单 ===
         JMenuBar jMenuBar = new JMenuBar();
 //      === === === === === === === === === === === === === ===
@@ -80,8 +89,5 @@ public class LearnJFrame extends JFrame {
         categoryJMenu.add(gg);
 
         this.setJMenuBar(jMenuBar);
-
-        //设置是否显示
-        this.setVisible(true);
     }
 }
