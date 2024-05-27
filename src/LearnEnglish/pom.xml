@@ -1,0 +1,20 @@
+<dependencies>
+    <!-- Jackson dependencies -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.13.0</version>
+    </dependency>
+    <!-- 如果你需要注解支持 -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-annotations</artifactId>
+        <version>2.13.0</version>
+    </dependency>
+    <!-- 如果你需要处理 JSON 文件的读写 -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.dataformat</groupId>
+        <artifactId>jackson-dataformat-yaml</artifactId>
+        <version>2.13.0</version> <!-- 注意：这是 YAML 的依赖，但你可以根据需要添加其他格式支持 -->
+    </dependency>
+</dependencies>
