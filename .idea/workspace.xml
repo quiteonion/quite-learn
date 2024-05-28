@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="英语学习 - 登录界面 - 将代码分开，设置为不同方法块">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jackson_annotations_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/1-初中-顺序.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/Words.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/pom.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="英语学习 - 导入文本库 - 0">
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/wordTry/1 初中-乱序.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/wordTry/1word.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/wordTry/JsonParserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/wordTry/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/wordTry/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/wordTry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/wordTry/sme.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/1-初中-顺序.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/Words.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +88,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/86177/Desktop/java包/jackson-core-2.11.0.jar",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/src/LearnEnglish/wordTry",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -97,18 +103,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\wordTry" />
       <recent name="D:\idea\idea 存储\quite\src\A20240524" />
       <recent name="D:\idea\idea 存储\quite\src\A20240515\note" />
       <recent name="D:\idea\idea 存储\quite\src\A20240512\MakeNewBehavior" />
       <recent name="D:\idea\idea 存储\quite\src\A20240512" />
-      <recent name="D:\idea\idea 存储\quite\src\B20240509" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\wordTry" />
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish" />
       <recent name="D:\idea\idea 存储\quite\src\A20240508\Img" />
       <recent name="D:\idea\idea 存储\quite\src\A20240424\Img" />
       <recent name="D:\idea\idea 存储\quite\src\A20240417\Img" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240324\Img" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="A20240424" />
@@ -372,15 +378,8 @@
       <workItem from="1716694689467" duration="8105000" />
       <workItem from="1716715024609" duration="1511000" />
       <workItem from="1716717155591" duration="3812000" />
-      <workItem from="1716808315333" duration="2871000" />
-    </task>
-    <task id="LOCAL-00445" summary="String -- 添加方法之间的差异...&#10;&#10;String + 会比其他的慢很多&#10;StringBuffer 第二慢&#10;StringBuilder 最快">
-      <option name="closed" value="true" />
-      <created>1716601024837</created>
-      <option name="number" value="00445" />
-      <option name="presentableId" value="LOCAL-00445" />
-      <option name="project" value="LOCAL" />
-      <updated>1716601024837</updated>
+      <workItem from="1716808315333" duration="3172000" />
+      <workItem from="1716880509985" duration="4356000" />
     </task>
     <task id="LOCAL-00446" summary="String -- 比较 两个 new 出的 String 类型之间比较，输出 false ，因为比较的是地址值">
       <option name="closed" value="true" />
@@ -766,7 +765,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716808677132</updated>
     </task>
-    <option name="localTasksCounter" value="494" />
+    <task id="LOCAL-00494" summary="英语学习 - 导入文本库 - 0">
+      <option name="closed" value="true" />
+      <created>1716811508699</created>
+      <option name="number" value="00494" />
+      <option name="presentableId" value="LOCAL-00494" />
+      <option name="project" value="LOCAL" />
+      <updated>1716811508699</updated>
+    </task>
+    <option name="localTasksCounter" value="495" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -818,7 +825,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="A20240321 -- 修改与补充" />
     <MESSAGE value="A20240322 -- 修改与补充" />
     <MESSAGE value="A20240324 -- 修改与补充" />
     <MESSAGE value="A20240417 -- 修改与补充" />
@@ -843,7 +849,8 @@
     <MESSAGE value="书写错误 -- 修改" />
     <MESSAGE value="英语学习 - 登录界面 - 设置菜单栏选项" />
     <MESSAGE value="英语学习 - 登录界面 - 将代码分开，设置为不同方法块" />
-    <option name="LAST_COMMIT_MESSAGE" value="英语学习 - 登录界面 - 将代码分开，设置为不同方法块" />
+    <MESSAGE value="英语学习 - 导入文本库 - 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="英语学习 - 导入文本库 - 0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
