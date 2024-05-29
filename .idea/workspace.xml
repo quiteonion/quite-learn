@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="英语学习 - 导入文本库 - 5 - 方法二...&#10;&#10;方法较为困难，目前状态还会存在报错">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="String -- 返回文件后缀名">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240529/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240529/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/wordTry/FF2/wodf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/wordTry/FF2/wodf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +111,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A20240130">
+  <component name="RunManager">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -370,14 +371,7 @@
       <workItem from="1716808315333" duration="3172000" />
       <workItem from="1716880509985" duration="5385000" />
       <workItem from="1716957657639" duration="81000" />
-    </task>
-    <task id="LOCAL-00450" summary="String 面试题 -- String 类型之间比较 -- 由直接赋值的 String 会被放入常量池...&#10;&#10;如果被使用会在常量池中 ， 而调用的 变量则会 在堆空间中被调用 ， 所以两者之间会产生不同">
-      <option name="closed" value="true" />
-      <created>1716609794551</created>
-      <option name="number" value="00450" />
-      <option name="presentableId" value="LOCAL-00450" />
-      <option name="project" value="LOCAL" />
-      <updated>1716609794551</updated>
+      <workItem from="1716980854375" duration="982000" />
     </task>
     <task id="LOCAL-00451" summary="String 面试题 -- String 类型之间比较 -- .intern(); 方法...&#10;&#10;该方法可以使得在赋值时之间选择在常量池中去寻找，如果找到了一样内容的数值，就返回他的地址值，否则会将新值添加进常量池中">
       <option name="closed" value="true" />
@@ -763,7 +757,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716886087625</updated>
     </task>
-    <option name="localTasksCounter" value="499" />
+    <task id="LOCAL-00499" summary="String -- 返回文件后缀名">
+      <option name="closed" value="true" />
+      <created>1716981210394</created>
+      <option name="number" value="00499" />
+      <option name="presentableId" value="LOCAL-00499" />
+      <option name="project" value="LOCAL" />
+      <updated>1716981210404</updated>
+    </task>
+    <option name="localTasksCounter" value="500" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -815,7 +817,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="A20240424 -- 修改与补充" />
     <MESSAGE value="A20240508 -- 修改与补充" />
     <MESSAGE value="A20240515 -- 修改与补充" />
     <MESSAGE value="阅读 StringBuffer 源码" />
@@ -840,7 +841,8 @@
     <MESSAGE value="英语学习 - 导入文本库 - 3 - 删除的部分" />
     <MESSAGE value="英语学习 - 导入文本库 - 4 - 方法一...&#10;&#10;方法简单，但是需要重新整理json文件" />
     <MESSAGE value="英语学习 - 导入文本库 - 5 - 方法二...&#10;&#10;方法较为困难，目前状态还会存在报错" />
-    <option name="LAST_COMMIT_MESSAGE" value="英语学习 - 导入文本库 - 5 - 方法二...&#10;&#10;方法较为困难，目前状态还会存在报错" />
+    <MESSAGE value="String -- 返回文件后缀名" />
+    <option name="LAST_COMMIT_MESSAGE" value="String -- 返回文件后缀名" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
