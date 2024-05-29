@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="String -- 返回文件后缀名">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240529/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240529/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/wordTry/FF2/wodf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/wordTry/FF2/wodf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -371,15 +369,7 @@
       <workItem from="1716808315333" duration="3172000" />
       <workItem from="1716880509985" duration="5385000" />
       <workItem from="1716957657639" duration="81000" />
-      <workItem from="1716980854375" duration="982000" />
-    </task>
-    <task id="LOCAL-00451" summary="String 面试题 -- String 类型之间比较 -- .intern(); 方法...&#10;&#10;该方法可以使得在赋值时之间选择在常量池中去寻找，如果找到了一样内容的数值，就返回他的地址值，否则会将新值添加进常量池中">
-      <option name="closed" value="true" />
-      <created>1716609934935</created>
-      <option name="number" value="00451" />
-      <option name="presentableId" value="LOCAL-00451" />
-      <option name="project" value="LOCAL" />
-      <updated>1716609934935</updated>
+      <workItem from="1716980854375" duration="1348000" />
     </task>
     <task id="LOCAL-00452" summary="String 面试题 -- String 类型之间比较 -- final...&#10;&#10;加入 final 关键字的数据会直接放入常量池中，那么由它变量名所调用的值就不会在堆空间中创新">
       <option name="closed" value="true" />
@@ -765,7 +755,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716981210404</updated>
     </task>
-    <option name="localTasksCounter" value="500" />
+    <task id="LOCAL-00500" summary="String -- 返回文件后缀名">
+      <option name="closed" value="true" />
+      <created>1716982188948</created>
+      <option name="number" value="00500" />
+      <option name="presentableId" value="LOCAL-00500" />
+      <option name="project" value="LOCAL" />
+      <updated>1716982188948</updated>
+    </task>
+    <option name="localTasksCounter" value="501" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
