@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="String -- 返回文件后缀名">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="File - about File">
+      <change beforePath="$PROJECT_DIR$/src/A20240529/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240529/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/wordTry/FF2/wodf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/wordTry/FF2/wodf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -369,31 +370,7 @@
       <workItem from="1716808315333" duration="3172000" />
       <workItem from="1716880509985" duration="5385000" />
       <workItem from="1716957657639" duration="81000" />
-      <workItem from="1716980854375" duration="1348000" />
-    </task>
-    <task id="LOCAL-00452" summary="String 面试题 -- String 类型之间比较 -- final...&#10;&#10;加入 final 关键字的数据会直接放入常量池中，那么由它变量名所调用的值就不会在堆空间中创新">
-      <option name="closed" value="true" />
-      <created>1716610079694</created>
-      <option name="number" value="00452" />
-      <option name="presentableId" value="LOCAL-00452" />
-      <option name="project" value="LOCAL" />
-      <updated>1716610079694</updated>
-    </task>
-    <task id="LOCAL-00453" summary="A20240126 -- 修改与补充">
-      <option name="closed" value="true" />
-      <created>1716612770160</created>
-      <option name="number" value="00453" />
-      <option name="presentableId" value="LOCAL-00453" />
-      <option name="project" value="LOCAL" />
-      <updated>1716612770160</updated>
-    </task>
-    <task id="LOCAL-00454" summary="A20240126 -- 修改与补充">
-      <option name="closed" value="true" />
-      <created>1716612777322</created>
-      <option name="number" value="00454" />
-      <option name="presentableId" value="LOCAL-00454" />
-      <option name="project" value="LOCAL" />
-      <updated>1716612777322</updated>
+      <workItem from="1716980854375" duration="1933000" />
     </task>
     <task id="LOCAL-00455" summary="A20240129 -- 修改与补充">
       <option name="closed" value="true" />
@@ -763,7 +740,31 @@
       <option name="project" value="LOCAL" />
       <updated>1716982188948</updated>
     </task>
-    <option name="localTasksCounter" value="501" />
+    <task id="LOCAL-00501" summary="String - lastIndexOf -- 返回文件后缀名 - 改进-String 方法中有调用最后一个索引的方法">
+      <option name="closed" value="true" />
+      <created>1716982513763</created>
+      <option name="number" value="00501" />
+      <option name="presentableId" value="LOCAL-00501" />
+      <option name="project" value="LOCAL" />
+      <updated>1716982513763</updated>
+    </task>
+    <task id="LOCAL-00502" summary="String - lastIndexOf -- 返回文件后缀名 - 改进-String 方法中有调用最后一个索引的方法">
+      <option name="closed" value="true" />
+      <created>1716982599388</created>
+      <option name="number" value="00502" />
+      <option name="presentableId" value="LOCAL-00502" />
+      <option name="project" value="LOCAL" />
+      <updated>1716982599388</updated>
+    </task>
+    <task id="LOCAL-00503" summary="File - about File">
+      <option name="closed" value="true" />
+      <created>1716982645671</created>
+      <option name="number" value="00503" />
+      <option name="presentableId" value="LOCAL-00503" />
+      <option name="project" value="LOCAL" />
+      <updated>1716982645671</updated>
+    </task>
+    <option name="localTasksCounter" value="504" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -815,9 +816,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="A20240508 -- 修改与补充" />
-    <MESSAGE value="A20240515 -- 修改与补充" />
-    <MESSAGE value="阅读 StringBuffer 源码" />
     <MESSAGE value="MyStringBuilder - 自己的想法" />
     <MESSAGE value="MyStringBuilder - 返回值类型设置为它本身，就可以本身无限调用" />
     <MESSAGE value="MyStringBuilder - 使用创建新数组取代老数组的方式能够保证一次 append 的正确调用" />
@@ -839,8 +837,11 @@
     <MESSAGE value="英语学习 - 导入文本库 - 3 - 删除的部分" />
     <MESSAGE value="英语学习 - 导入文本库 - 4 - 方法一...&#10;&#10;方法简单，但是需要重新整理json文件" />
     <MESSAGE value="英语学习 - 导入文本库 - 5 - 方法二...&#10;&#10;方法较为困难，目前状态还会存在报错" />
-    <MESSAGE value="String -- 返回文件后缀名" />
-    <option name="LAST_COMMIT_MESSAGE" value="String -- 返回文件后缀名" />
+    <MESSAGE value="String - indexOf -- 返回文件后缀名" />
+    <MESSAGE value="String - indexOf -- 返回文件后缀名" />
+    <MESSAGE value="String - lastIndexOf -- 返回文件后缀名 - 改进-String 方法中有调用最后一个索引的方法" />
+    <MESSAGE value="File - about File" />
+    <option name="LAST_COMMIT_MESSAGE" value="File - about File" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
