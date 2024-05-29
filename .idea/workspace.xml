@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="英语学习 - 导入文本库 - 1 - 成功可以使用，但是...&#10;&#10;如果一个单词有多个词组的话就会导致单词与词组之间会没有联系">
-      <change afterPath="$PROJECT_DIR$/lib/json-20210307.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/wordTry/1-初中-顺序.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/wordTry/wodf.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="英语学习 - 导入文本库 - 5 - 方法二...&#10;&#10;方法较为困难，目前状态还会存在报错">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/wordTry/FF2/wodf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/wordTry/FF2/wodf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,28 +68,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/idea/idea 存储/quite/lib/json-20210307.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/lib/json-20210307.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\wordTry" />
@@ -102,18 +99,18 @@
       <recent name="D:\idea\idea 存储\quite\src\A20240512" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\wordTry\FF2" />
+      <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\wordTry\FF1" />
       <recent name="D:\idea\idea 存储\quite\lib" />
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\wordTry" />
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240508\Img" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240424\Img" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="A20240424" />
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A20240130">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -371,31 +368,8 @@
       <workItem from="1716715024609" duration="1511000" />
       <workItem from="1716717155591" duration="3812000" />
       <workItem from="1716808315333" duration="3172000" />
-      <workItem from="1716880509985" duration="4994000" />
-    </task>
-    <task id="LOCAL-00447" summary="String -- 比较 两个 new 出的 String 类型之间比较，如果要在值上比较要使用 equals">
-      <option name="closed" value="true" />
-      <created>1716605826078</created>
-      <option name="number" value="00447" />
-      <option name="presentableId" value="LOCAL-00447" />
-      <option name="project" value="LOCAL" />
-      <updated>1716605826079</updated>
-    </task>
-    <task id="LOCAL-00448" summary="String -- 两个 直接赋值 的 String 类型之间比较 -- true">
-      <option name="closed" value="true" />
-      <created>1716605936482</created>
-      <option name="number" value="00448" />
-      <option name="presentableId" value="LOCAL-00448" />
-      <option name="project" value="LOCAL" />
-      <updated>1716605936482</updated>
-    </task>
-    <task id="LOCAL-00449" summary="String 面试题 -- 两个 直接赋值 的 String 类型之间比较 -- 字面量之间的赋值">
-      <option name="closed" value="true" />
-      <created>1716606948470</created>
-      <option name="number" value="00449" />
-      <option name="presentableId" value="LOCAL-00449" />
-      <option name="project" value="LOCAL" />
-      <updated>1716606948470</updated>
+      <workItem from="1716880509985" duration="5385000" />
+      <workItem from="1716957657639" duration="81000" />
     </task>
     <task id="LOCAL-00450" summary="String 面试题 -- String 类型之间比较 -- 由直接赋值的 String 会被放入常量池...&#10;&#10;如果被使用会在常量池中 ， 而调用的 变量则会 在堆空间中被调用 ， 所以两者之间会产生不同">
       <option name="closed" value="true" />
@@ -765,7 +739,31 @@
       <option name="project" value="LOCAL" />
       <updated>1716885382599</updated>
     </task>
-    <option name="localTasksCounter" value="496" />
+    <task id="LOCAL-00496" summary="英语学习 - 导入文本库 - 3 - 删除的部分">
+      <option name="closed" value="true" />
+      <created>1716886007849</created>
+      <option name="number" value="00496" />
+      <option name="presentableId" value="LOCAL-00496" />
+      <option name="project" value="LOCAL" />
+      <updated>1716886007849</updated>
+    </task>
+    <task id="LOCAL-00497" summary="英语学习 - 导入文本库 - 4 - 方法一...&#10;&#10;方法简单，但是需要重新整理json文件">
+      <option name="closed" value="true" />
+      <created>1716886051140</created>
+      <option name="number" value="00497" />
+      <option name="presentableId" value="LOCAL-00497" />
+      <option name="project" value="LOCAL" />
+      <updated>1716886051140</updated>
+    </task>
+    <task id="LOCAL-00498" summary="英语学习 - 导入文本库 - 5 - 方法二...&#10;&#10;方法较为困难，目前状态还会存在报错">
+      <option name="closed" value="true" />
+      <created>1716886087625</created>
+      <option name="number" value="00498" />
+      <option name="presentableId" value="LOCAL-00498" />
+      <option name="project" value="LOCAL" />
+      <updated>1716886087625</updated>
+    </task>
+    <option name="localTasksCounter" value="499" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -817,9 +815,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="A20240324 -- 修改与补充" />
-    <MESSAGE value="A20240417 -- 修改与补充" />
-    <MESSAGE value="A20240420 -- 修改与补充" />
     <MESSAGE value="A20240424 -- 修改与补充" />
     <MESSAGE value="A20240508 -- 修改与补充" />
     <MESSAGE value="A20240515 -- 修改与补充" />
@@ -842,7 +837,10 @@
     <MESSAGE value="英语学习 - 登录界面 - 将代码分开，设置为不同方法块" />
     <MESSAGE value="英语学习 - 导入文本库 - 0" />
     <MESSAGE value="英语学习 - 导入文本库 - 1 - 成功可以使用，但是...&#10;&#10;如果一个单词有多个词组的话就会导致单词与词组之间会没有联系" />
-    <option name="LAST_COMMIT_MESSAGE" value="英语学习 - 导入文本库 - 1 - 成功可以使用，但是...&#10;&#10;如果一个单词有多个词组的话就会导致单词与词组之间会没有联系" />
+    <MESSAGE value="英语学习 - 导入文本库 - 3 - 删除的部分" />
+    <MESSAGE value="英语学习 - 导入文本库 - 4 - 方法一...&#10;&#10;方法简单，但是需要重新整理json文件" />
+    <MESSAGE value="英语学习 - 导入文本库 - 5 - 方法二...&#10;&#10;方法较为困难，目前状态还会存在报错" />
+    <option name="LAST_COMMIT_MESSAGE" value="英语学习 - 导入文本库 - 5 - 方法二...&#10;&#10;方法较为困难，目前状态还会存在报错" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
