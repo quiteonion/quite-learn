@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="File - about File">
-      <change beforePath="$PROJECT_DIR$/src/A20240529/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240529/Test2.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="File - 查找 src 文件下有几个不同类别的文件">
+      <change afterPath="$PROJECT_DIR$/src/A20240529/Test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240529/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240529/Test3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/wordTry/FF2/wodf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/wordTry/FF2/wodf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -370,31 +372,7 @@
       <workItem from="1716808315333" duration="3172000" />
       <workItem from="1716880509985" duration="5385000" />
       <workItem from="1716957657639" duration="81000" />
-      <workItem from="1716980854375" duration="1933000" />
-    </task>
-    <task id="LOCAL-00455" summary="A20240129 -- 修改与补充">
-      <option name="closed" value="true" />
-      <created>1716613002448</created>
-      <option name="number" value="00455" />
-      <option name="presentableId" value="LOCAL-00455" />
-      <option name="project" value="LOCAL" />
-      <updated>1716613002448</updated>
-    </task>
-    <task id="LOCAL-00456" summary="A20240130 -- 修改与补充...&#10;&#10;&lt;a href = &quot;https://visualgo.net/en&quot;&gt;可视化算法图像&lt;/a&gt;非常重要">
-      <option name="closed" value="true" />
-      <created>1716613207138</created>
-      <option name="number" value="00456" />
-      <option name="presentableId" value="LOCAL-00456" />
-      <option name="project" value="LOCAL" />
-      <updated>1716613207138</updated>
-    </task>
-    <task id="LOCAL-00457" summary="A20240131 -- 修改与补充">
-      <option name="closed" value="true" />
-      <created>1716613350302</created>
-      <option name="number" value="00457" />
-      <option name="presentableId" value="LOCAL-00457" />
-      <option name="project" value="LOCAL" />
-      <updated>1716613350302</updated>
+      <workItem from="1716980854375" duration="8458000" />
     </task>
     <task id="LOCAL-00458" summary="A20240222 -- 修改与补充">
       <option name="closed" value="true" />
@@ -764,7 +742,31 @@
       <option name="project" value="LOCAL" />
       <updated>1716982645671</updated>
     </task>
-    <option name="localTasksCounter" value="504" />
+    <task id="LOCAL-00504" summary="File - about File">
+      <option name="closed" value="true" />
+      <created>1716982823343</created>
+      <option name="number" value="00504" />
+      <option name="presentableId" value="LOCAL-00504" />
+      <option name="project" value="LOCAL" />
+      <updated>1716982823343</updated>
+    </task>
+    <task id="LOCAL-00505" summary="File - about File">
+      <option name="closed" value="true" />
+      <created>1716982913084</created>
+      <option name="number" value="00505" />
+      <option name="presentableId" value="LOCAL-00505" />
+      <option name="project" value="LOCAL" />
+      <updated>1716982913084</updated>
+    </task>
+    <task id="LOCAL-00506" summary="File - 查找 src 文件下有几个不同类别的文件">
+      <option name="closed" value="true" />
+      <created>1716983362122</created>
+      <option name="number" value="00506" />
+      <option name="presentableId" value="LOCAL-00506" />
+      <option name="project" value="LOCAL" />
+      <updated>1716983362122</updated>
+    </task>
+    <option name="localTasksCounter" value="507" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -816,7 +818,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="MyStringBuilder - 自己的想法" />
     <MESSAGE value="MyStringBuilder - 返回值类型设置为它本身，就可以本身无限调用" />
     <MESSAGE value="MyStringBuilder - 使用创建新数组取代老数组的方式能够保证一次 append 的正确调用" />
     <MESSAGE value="MyStringBuilder - 再加入一个新的 append 后发现仍旧只有一个 char" />
@@ -841,7 +842,8 @@
     <MESSAGE value="String - indexOf -- 返回文件后缀名" />
     <MESSAGE value="String - lastIndexOf -- 返回文件后缀名 - 改进-String 方法中有调用最后一个索引的方法" />
     <MESSAGE value="File - about File" />
-    <option name="LAST_COMMIT_MESSAGE" value="File - about File" />
+    <MESSAGE value="File - 查找 src 文件下有几个不同类别的文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="File - 查找 src 文件下有几个不同类别的文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -962,6 +964,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/A20240529/Test4.java</url>
+          <line>10</line>
+          <properties class="A20240529.Test4" method="disFile">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/A20240417/River/Test.java</url>
