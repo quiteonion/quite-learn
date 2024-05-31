@@ -5,27 +5,21 @@ import java.io.File;
 public class Test4 {
     public static void main(String[] args) {
         File file = new File("src/A20240512");
-        disFile(file);
+        String n = "--";
+        disFile(file, n);
     }
 
-    private static void disFile(File file) {
+    private static void disFile(File file, String n) {
         File[] files = file.listFiles();
         for (int i = 0; i < files.length; i++) {
             if (files[i].isDirectory()) {
-                returnDirName(files[i]);
-                disFile(files[i]);
-            }else if (files[i].isFile()){
-                returnFileName(files[i]);
+                System.out.println(n + files[i].getName());
+                disFile(files[i], n + "--");
+            } else {
+                System.out.println(n + files[i].getName());
             }
         }
     }
 
-    private static void returnFileName(File file) {
-        System.out.println("----" + file.getName());
-    }
-
-    private static void returnDirName(File file) {
-        System.out.println("--" + file.getName());
-    }
 
 }
