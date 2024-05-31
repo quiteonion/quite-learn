@@ -1,4 +1,4 @@
-package LearnEnglish.wordTry.FF1;
+package LearnEnglish;
 
 
 import org.json.JSONArray;
@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class JsonParserExample {
     public static void main(String[] args) {
-        String jsonFile = "D:\\idea\\idea 存储\\quite\\src\\LearnEnglish\\wordTry\\sme.json"; // 假设这是你的JSON文件路径
+        String jsonFile = "src/LearnEnglish/wordTry/FF1/sme.json"; // 假设这是你的JSON文件路径
 
         try (BufferedReader reader = new BufferedReader(new FileReader(jsonFile))) {
             StringBuilder out = new StringBuilder();

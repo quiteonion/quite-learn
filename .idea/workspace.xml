@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="File - 查找 src 文件下有几个不同类别的文件">
-      <change afterPath="$PROJECT_DIR$/src/A20240529/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/TxtToJsonConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240529/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240529/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/wordTry/FF2/wodf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/wordTry/FF2/wodf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/wordTry/1 初中-乱序.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/wordTry/1word.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/wordTry/FF1/JsonParserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/JsonParserExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/wordTry/FF1/sme.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/sme.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/wordTry/FF2/1-初中-顺序.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/wordTry/FF2/wodf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/wordTry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +85,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/lib/json-20210307.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/LearnEnglish/TxtToJson&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -94,25 +100,25 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\TxtToJson" />
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\wordTry" />
       <recent name="D:\idea\idea 存储\quite\src\A20240524" />
       <recent name="D:\idea\idea 存储\quite\src\A20240515\note" />
       <recent name="D:\idea\idea 存储\quite\src\A20240512\MakeNewBehavior" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240512" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\LearnEnglish" />
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\wordTry\FF2" />
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\wordTry\FF1" />
       <recent name="D:\idea\idea 存储\quite\lib" />
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\wordTry" />
-      <recent name="D:\idea\idea 存储\quite\src\LearnEnglish" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="A20240424" />
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A20240130">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -159,7 +165,7 @@
       <module name="quite" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LearnEnglish.*" />
+          <option name="PATTERN" value="LearnEnglish.TxtToJson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -372,15 +378,12 @@
       <workItem from="1716808315333" duration="3172000" />
       <workItem from="1716880509985" duration="5385000" />
       <workItem from="1716957657639" duration="81000" />
-      <workItem from="1716980854375" duration="8458000" />
-    </task>
-    <task id="LOCAL-00458" summary="A20240222 -- 修改与补充">
-      <option name="closed" value="true" />
-      <created>1716613446941</created>
-      <option name="number" value="00458" />
-      <option name="presentableId" value="LOCAL-00458" />
-      <option name="project" value="LOCAL" />
-      <updated>1716613446941</updated>
+      <workItem from="1716980854375" duration="8563000" />
+      <workItem from="1716994597683" duration="349000" />
+      <workItem from="1717071592253" duration="1483000" />
+      <workItem from="1717075214638" duration="620000" />
+      <workItem from="1717079119234" duration="986000" />
+      <workItem from="1717139002079" duration="1639000" />
     </task>
     <task id="LOCAL-00459" summary="A20240223 -- 修改与补充">
       <option name="closed" value="true" />
@@ -766,7 +769,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716983362122</updated>
     </task>
-    <option name="localTasksCounter" value="507" />
+    <task id="LOCAL-00507" summary="File - 查找 src 文件下有几个不同类别的文件">
+      <option name="closed" value="true" />
+      <created>1716989602755</created>
+      <option name="number" value="00507" />
+      <option name="presentableId" value="LOCAL-00507" />
+      <option name="project" value="LOCAL" />
+      <updated>1716989602755</updated>
+    </task>
+    <option name="localTasksCounter" value="508" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
