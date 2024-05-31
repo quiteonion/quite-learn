@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="ArrayList - ArrayList 的添加长度为...&#10;&#10;请移步 README">
-      <change afterPath="$PROJECT_DIR$/src/A20240531/AboutCollection.java" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="iterator - 迭代调用" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -375,23 +373,7 @@
       <workItem from="1717079119234" duration="986000" />
       <workItem from="1717139002079" duration="1639000" />
       <workItem from="1717140671467" duration="633000" />
-      <workItem from="1717153429925" duration="4099000" />
-    </task>
-    <task id="LOCAL-00464" summary="A20240306 -- 修改与补充">
-      <option name="closed" value="true" />
-      <created>1716615043113</created>
-      <option name="number" value="00464" />
-      <option name="presentableId" value="LOCAL-00464" />
-      <option name="project" value="LOCAL" />
-      <updated>1716615043113</updated>
-    </task>
-    <task id="LOCAL-00465" summary="A20240315 -- 修改与补充">
-      <option name="closed" value="true" />
-      <created>1716615861349</created>
-      <option name="number" value="00465" />
-      <option name="presentableId" value="LOCAL-00465" />
-      <option name="project" value="LOCAL" />
-      <updated>1716615861349</updated>
+      <workItem from="1717153429925" duration="5096000" />
     </task>
     <task id="LOCAL-00466" summary="A20240317 -- 修改与补充">
       <option name="closed" value="true" />
@@ -769,7 +751,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717156801615</updated>
     </task>
-    <option name="localTasksCounter" value="513" />
+    <task id="LOCAL-00513" summary="ArrayList - ArrayList 的父类 AbstractCollection 重写了 toString 方法">
+      <option name="closed" value="true" />
+      <created>1717157830819</created>
+      <option name="number" value="00513" />
+      <option name="presentableId" value="LOCAL-00513" />
+      <option name="project" value="LOCAL" />
+      <updated>1717157830819</updated>
+    </task>
+    <task id="LOCAL-00514" summary="iterator - 迭代调用">
+      <option name="closed" value="true" />
+      <created>1717158919773</created>
+      <option name="number" value="00514" />
+      <option name="presentableId" value="LOCAL-00514" />
+      <option name="project" value="LOCAL" />
+      <updated>1717158919773</updated>
+    </task>
+    <option name="localTasksCounter" value="515" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -821,8 +819,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="String 的其他方法 -- .equalsIgnoreCase 忽略大小写比较两个字符串是否相同" />
-    <MESSAGE value="String 的其他方法" />
     <MESSAGE value="回顾 --" />
     <MESSAGE value="回顾 -- 数组中隐藏的电话号码" />
     <MESSAGE value="回顾 -- 二分法查找顺序数组中的元素" />
@@ -846,7 +842,9 @@
     <MESSAGE value="idea 配置 -- 文件夹缩进" />
     <MESSAGE value="ArrayList - ArrayList 的初始长度为 0 ...&#10;&#10;ArrayList 的初始长度： 0&#10;StringBuilder 的初始长度： 16" />
     <MESSAGE value="ArrayList - ArrayList 的添加长度为...&#10;&#10;请移步 README" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayList - ArrayList 的添加长度为...&#10;&#10;请移步 README" />
+    <MESSAGE value="ArrayList - ArrayList 的父类 AbstractCollection 重写了 toString 方法" />
+    <MESSAGE value="iterator - 迭代调用" />
+    <option name="LAST_COMMIT_MESSAGE" value="iterator - 迭代调用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
