@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="英语学习 - 导入文本库 - 修改json格式">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="ArrayList - ArrayList 的添加长度为...&#10;&#10;请移步 README">
+      <change afterPath="$PROJECT_DIR$/src/A20240531/AboutCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,38 +64,37 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/LearnEnglish/TxtToJson&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/src/A20240531",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\A20240531" />
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\TxtToJson" />
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\wordTry" />
       <recent name="D:\idea\idea 存储\quite\src\A20240524" />
       <recent name="D:\idea\idea 存储\quite\src\A20240515\note" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240512\MakeNewBehavior" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish" />
@@ -376,39 +375,7 @@
       <workItem from="1717079119234" duration="986000" />
       <workItem from="1717139002079" duration="1639000" />
       <workItem from="1717140671467" duration="633000" />
-      <workItem from="1717153429925" duration="686000" />
-    </task>
-    <task id="LOCAL-00460" summary="A20240303 -- 修改与补充">
-      <option name="closed" value="true" />
-      <created>1716613816704</created>
-      <option name="number" value="00460" />
-      <option name="presentableId" value="LOCAL-00460" />
-      <option name="project" value="LOCAL" />
-      <updated>1716613816704</updated>
-    </task>
-    <task id="LOCAL-00461" summary="A20240306 -- 修改与补充">
-      <option name="closed" value="true" />
-      <created>1716614181516</created>
-      <option name="number" value="00461" />
-      <option name="presentableId" value="LOCAL-00461" />
-      <option name="project" value="LOCAL" />
-      <updated>1716614181516</updated>
-    </task>
-    <task id="LOCAL-00462" summary="A20240306 -- 修改与补充...&#10;&#10; 关于 数据类型... 名称 的回顾：&#10; 1、在形参中只能被放置在最后&#10; 2、使用方式与数组相同，只是在传入大量数据时会自动整合成为数组&#10; 3、传入的数据类型需要一致">
-      <option name="closed" value="true" />
-      <created>1716614876449</created>
-      <option name="number" value="00462" />
-      <option name="presentableId" value="LOCAL-00462" />
-      <option name="project" value="LOCAL" />
-      <updated>1716614876449</updated>
-    </task>
-    <task id="LOCAL-00463" summary="A20240306 -- 修改与补充...&#10;&#10; 关于 数据类型... 名称 的回顾：&#10; 1、在形参中只能被放置在最后&#10; 2、使用方式与数组相同，只是在传入大量数据时会自动整合成为数组&#10; 3、传入的数据类型需要一致">
-      <option name="closed" value="true" />
-      <created>1716614907017</created>
-      <option name="number" value="00463" />
-      <option name="presentableId" value="LOCAL-00463" />
-      <option name="project" value="LOCAL" />
-      <updated>1716614907017</updated>
+      <workItem from="1717153429925" duration="4099000" />
     </task>
     <task id="LOCAL-00464" summary="A20240306 -- 修改与补充">
       <option name="closed" value="true" />
@@ -770,7 +737,39 @@
       <option name="project" value="LOCAL" />
       <updated>1717140698030</updated>
     </task>
-    <option name="localTasksCounter" value="509" />
+    <task id="LOCAL-00509" summary="File - 修改内容使其更加完美">
+      <option name="closed" value="true" />
+      <created>1717154962053</created>
+      <option name="number" value="00509" />
+      <option name="presentableId" value="LOCAL-00509" />
+      <option name="project" value="LOCAL" />
+      <updated>1717154962053</updated>
+    </task>
+    <task id="LOCAL-00510" summary="idea 配置 -- 文件夹缩进">
+      <option name="closed" value="true" />
+      <created>1717155052883</created>
+      <option name="number" value="00510" />
+      <option name="presentableId" value="LOCAL-00510" />
+      <option name="project" value="LOCAL" />
+      <updated>1717155052883</updated>
+    </task>
+    <task id="LOCAL-00511" summary="ArrayList - ArrayList 的初始长度为...&#10;&#10;ArrayList 的初始长度： 0&#10;StringBuilder 的初始长度： 16">
+      <option name="closed" value="true" />
+      <created>1717155975795</created>
+      <option name="number" value="00511" />
+      <option name="presentableId" value="LOCAL-00511" />
+      <option name="project" value="LOCAL" />
+      <updated>1717155975795</updated>
+    </task>
+    <task id="LOCAL-00512" summary="ArrayList - ArrayList 的添加长度为...&#10;&#10;请移步 README">
+      <option name="closed" value="true" />
+      <created>1717156801615</created>
+      <option name="number" value="00512" />
+      <option name="presentableId" value="LOCAL-00512" />
+      <option name="project" value="LOCAL" />
+      <updated>1717156801615</updated>
+    </task>
+    <option name="localTasksCounter" value="513" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -822,10 +821,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="MyStringBuilder - 使用创建新数组取代老数组的方式能够保证一次 append 的正确调用" />
-    <MESSAGE value="MyStringBuilder - 再加入一个新的 append 后发现仍旧只有一个 char" />
-    <MESSAGE value="String 的其他方法 -- toUpperCase 将小写转化为大写" />
-    <MESSAGE value="String 的其他方法 -- equals 比较两个字符串是否相同" />
     <MESSAGE value="String 的其他方法 -- .equalsIgnoreCase 忽略大小写比较两个字符串是否相同" />
     <MESSAGE value="String 的其他方法" />
     <MESSAGE value="回顾 --" />
@@ -847,7 +842,11 @@
     <MESSAGE value="File - about File" />
     <MESSAGE value="File - 查找 src 文件下有几个不同类别的文件" />
     <MESSAGE value="英语学习 - 导入文本库 - 修改json格式" />
-    <option name="LAST_COMMIT_MESSAGE" value="英语学习 - 导入文本库 - 修改json格式" />
+    <MESSAGE value="File - 修改内容使其更加完美" />
+    <MESSAGE value="idea 配置 -- 文件夹缩进" />
+    <MESSAGE value="ArrayList - ArrayList 的初始长度为 0 ...&#10;&#10;ArrayList 的初始长度： 0&#10;StringBuilder 的初始长度： 16" />
+    <MESSAGE value="ArrayList - ArrayList 的添加长度为...&#10;&#10;请移步 README" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayList - ArrayList 的添加长度为...&#10;&#10;请移步 README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -968,15 +967,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/A20240529/Test4.java</url>
-          <line>10</line>
-          <properties class="A20240529.Test4" method="disFile">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/A20240417/River/Test.java</url>
