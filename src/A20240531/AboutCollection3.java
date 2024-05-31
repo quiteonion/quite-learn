@@ -28,6 +28,11 @@ class Student{
         this.age = age;
     }
 
-
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Student student ){
+            return student.age == this.age && student.name.equals(this.name);
+        }
+        return false;
     }
-
+}
