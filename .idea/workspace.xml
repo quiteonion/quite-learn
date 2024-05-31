@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="ArrayList - remove 及其重载方法 和 valueOf 的引入">
-      <change afterPath="$PROJECT_DIR$/src/A20240531/AboutCollection3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="ArrayList - contains -- 通过阅读源码可以知道 ，contains 会调用自己的 equals 方法再对比">
+      <change beforePath="$PROJECT_DIR$/src/A20240531/AboutCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240531/AboutCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -376,31 +375,7 @@
       <workItem from="1717079119234" duration="986000" />
       <workItem from="1717139002079" duration="1639000" />
       <workItem from="1717140671467" duration="633000" />
-      <workItem from="1717153429925" duration="7274000" />
-    </task>
-    <task id="LOCAL-00469" summary="A20240324 -- 修改与补充">
-      <option name="closed" value="true" />
-      <created>1716616420385</created>
-      <option name="number" value="00469" />
-      <option name="presentableId" value="LOCAL-00469" />
-      <option name="project" value="LOCAL" />
-      <updated>1716616420385</updated>
-    </task>
-    <task id="LOCAL-00470" summary="A20240417 -- 修改与补充">
-      <option name="closed" value="true" />
-      <created>1716616679911</created>
-      <option name="number" value="00470" />
-      <option name="presentableId" value="LOCAL-00470" />
-      <option name="project" value="LOCAL" />
-      <updated>1716616679911</updated>
-    </task>
-    <task id="LOCAL-00471" summary="A20240420 -- 修改与补充">
-      <option name="closed" value="true" />
-      <created>1716616763304</created>
-      <option name="number" value="00471" />
-      <option name="presentableId" value="LOCAL-00471" />
-      <option name="project" value="LOCAL" />
-      <updated>1716616763304</updated>
+      <workItem from="1717153429925" duration="8149000" />
     </task>
     <task id="LOCAL-00472" summary="A20240424 -- 修改与补充">
       <option name="closed" value="true" />
@@ -770,7 +745,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717160172373</updated>
     </task>
-    <option name="localTasksCounter" value="518" />
+    <task id="LOCAL-00518" summary="ArrayList - contains -- 查找是否拥有要查找的值">
+      <option name="closed" value="true" />
+      <created>1717161261902</created>
+      <option name="number" value="00518" />
+      <option name="presentableId" value="LOCAL-00518" />
+      <option name="project" value="LOCAL" />
+      <updated>1717161261902</updated>
+    </task>
+    <task id="LOCAL-00519" summary="ArrayList - contains -- 如果自己书写的类型 就会导致无法判断怎么解决">
+      <option name="closed" value="true" />
+      <created>1717161330582</created>
+      <option name="number" value="00519" />
+      <option name="presentableId" value="LOCAL-00519" />
+      <option name="project" value="LOCAL" />
+      <updated>1717161330582</updated>
+    </task>
+    <task id="LOCAL-00520" summary="ArrayList - contains -- 通过阅读源码可以知道 ，contains 会调用自己的 equals 方法再对比">
+      <option name="closed" value="true" />
+      <created>1717161387534</created>
+      <option name="number" value="00520" />
+      <option name="presentableId" value="LOCAL-00520" />
+      <option name="project" value="LOCAL" />
+      <updated>1717161387534</updated>
+    </task>
+    <option name="localTasksCounter" value="521" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -822,9 +821,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="回顾 -- 冒泡排序法" />
-    <MESSAGE value="回顾 -- 文字格斗游戏" />
-    <MESSAGE value="书写错误 -- 修改" />
     <MESSAGE value="英语学习 - 登录界面 - 设置菜单栏选项" />
     <MESSAGE value="英语学习 - 登录界面 - 将代码分开，设置为不同方法块" />
     <MESSAGE value="英语学习 - 导入文本库 - 0" />
@@ -847,7 +843,10 @@
     <MESSAGE value="ArrayList - iterator - 迭代调用" />
     <MESSAGE value="ArrayList - for(;;){} 通过阅读源码了解到的 死循环" />
     <MESSAGE value="ArrayList - remove 及其重载方法 和 valueOf 的引入" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayList - remove 及其重载方法 和 valueOf 的引入" />
+    <MESSAGE value="ArrayList - contains -- 查找是否拥有要查找的值" />
+    <MESSAGE value="ArrayList - contains -- 如果自己书写的类型 就会导致无法判断怎么解决" />
+    <MESSAGE value="ArrayList - contains -- 通过阅读源码可以知道 ，contains 会调用自己的 equals 方法再对比" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayList - contains -- 通过阅读源码可以知道 ，contains 会调用自己的 equals 方法再对比" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -16,7 +16,11 @@ public class AboutCollection {
         System.out.println("=== === ===");
 
         if (arr instanceof ArrayList<String> arrayList){
+            //如果不添加泛型，加强for循环会错误
             Iterator<String> iterator = arrayList.iterator();
+            for (String s : arrayList){
+                System.out.println(s);
+            }
             while (iterator.hasNext()){
                 System.out.println(iterator.next());
             }
