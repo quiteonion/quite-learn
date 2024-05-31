@@ -20,6 +20,9 @@ public class AboutCollection {
             while (iterator.hasNext()){
                 System.out.println(iterator.next());
             }
+            for (; ; ){
+                System.out.println("=== === ===");
+            }
         }
     }
 }
