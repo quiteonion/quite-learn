@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="ArrayList">
-      <change afterPath="$PROJECT_DIR$/src/B20240601/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240601/StudentText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[更改]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[更改]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[更改]2/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[更改]3/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[更改]4/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase___.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase___1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase___2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase___3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase___4.xml" beforeDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="学生管理系统">
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/JuniorEnglish.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/JsonParserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/JsonParserExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/sme.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/sme.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +62,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -109,11 +106,11 @@
       <recent name="D:\idea\idea 存储\quite\src\A20240515\note" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\TxtToJson" />
+      <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\EnglishWords" />
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish" />
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\wordTry\FF2" />
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\wordTry\FF1" />
-      <recent name="D:\idea\idea 存储\quite\lib" />
-      <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\wordTry" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="A20240424" />
@@ -388,15 +385,10 @@
       <workItem from="1717139002079" duration="1639000" />
       <workItem from="1717140671467" duration="633000" />
       <workItem from="1717153429925" duration="8208000" />
-      <workItem from="1717216732832" duration="4659000" />
-    </task>
-    <task id="LOCAL-00473" summary="A20240508 -- 修改与补充">
-      <option name="closed" value="true" />
-      <created>1716616833622</created>
-      <option name="number" value="00473" />
-      <option name="presentableId" value="LOCAL-00473" />
-      <option name="project" value="LOCAL" />
-      <updated>1716616833622</updated>
+      <workItem from="1717216732832" duration="4810000" />
+      <workItem from="1717230513177" duration="1380000" />
+      <workItem from="1717233721946" duration="106000" />
+      <workItem from="1717233838992" duration="3048000" />
     </task>
     <task id="LOCAL-00474" summary="A20240515 -- 修改与补充">
       <option name="closed" value="true" />
@@ -782,7 +774,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717162035862</updated>
     </task>
-    <option name="localTasksCounter" value="522" />
+    <task id="LOCAL-00522" summary="学生管理系统">
+      <option name="closed" value="true" />
+      <created>1717222152578</created>
+      <option name="number" value="00522" />
+      <option name="presentableId" value="LOCAL-00522" />
+      <option name="project" value="LOCAL" />
+      <updated>1717222152578</updated>
+    </task>
+    <option name="localTasksCounter" value="523" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -834,7 +834,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="英语学习 - 登录界面 - 将代码分开，设置为不同方法块" />
     <MESSAGE value="英语学习 - 导入文本库 - 0" />
     <MESSAGE value="英语学习 - 导入文本库 - 1 - 成功可以使用，但是...&#10;&#10;如果一个单词有多个词组的话就会导致单词与词组之间会没有联系" />
     <MESSAGE value="英语学习 - 导入文本库 - 3 - 删除的部分" />
@@ -859,7 +858,8 @@
     <MESSAGE value="ArrayList - contains -- 如果自己书写的类型 就会导致无法判断怎么解决" />
     <MESSAGE value="ArrayList - contains -- 通过阅读源码可以知道 ，contains 会调用自己的 equals 方法再对比" />
     <MESSAGE value="ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayList" />
+    <MESSAGE value="学生管理系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="学生管理系统" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

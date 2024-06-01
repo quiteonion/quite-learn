@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class JsonParserExample {
     public static void main(String[] args) {
-        String jsonFile = "src/LearnEnglish/wordTry/FF1/sme.json"; // 假设这是你的JSON文件路径
+        String jsonFile = "src/LearnEnglish/EnglishWords/JuniorEnglish.json"; // 假设这是你的JSON文件路径
 
         try (BufferedReader reader = new BufferedReader(new FileReader(jsonFile))) {
             StringBuilder out = new StringBuilder();
