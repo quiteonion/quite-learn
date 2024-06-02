@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="ArrayList - about">
-      <change afterPath="$PROJECT_DIR$/src/A20240602/AboutSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240602/AboutArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240602/AboutArrayList.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Set - set 的关于&#10;&#10;set - set 实现了 Collection 接口，实际上也只重写了接口方法。&#10;与 Array 不同的是 &#10;Array：有加入新的方法， 顺序输出， 可以重复&#10;Set：没有加入新的方法， 无序输出， 不可以重复">
+      <change afterPath="$PROJECT_DIR$/src/A20240602/SetObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -384,15 +384,7 @@
       <workItem from="1717230513177" duration="1380000" />
       <workItem from="1717233721946" duration="106000" />
       <workItem from="1717233838992" duration="3151000" />
-      <workItem from="1717291630793" duration="5408000" />
-    </task>
-    <task id="LOCAL-00478" summary="MyStringBuilder - 使用创建新数组取代老数组的方式能够保证一次 append 的正确调用">
-      <option name="closed" value="true" />
-      <created>1716621866185</created>
-      <option name="number" value="00478" />
-      <option name="presentableId" value="LOCAL-00478" />
-      <option name="project" value="LOCAL" />
-      <updated>1716621866185</updated>
+      <workItem from="1717291630793" duration="9735000" />
     </task>
     <task id="LOCAL-00479" summary="MyStringBuilder - 再加入一个新的 append 后发现仍旧只有一个 char">
       <option name="closed" value="true" />
@@ -778,7 +770,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717297072666</updated>
     </task>
-    <option name="localTasksCounter" value="527" />
+    <task id="LOCAL-00527" summary="Set - set 的关于&#10;&#10;set - set 实现了 Collection 接口，实际上也只重写了接口方法。&#10;与 Array 不同的是 &#10;Array：有加入新的方法， 顺序输出， 可以重复&#10;Set：没有加入新的方法， 无序输出， 不可以重复">
+      <option name="closed" value="true" />
+      <created>1717299348673</created>
+      <option name="number" value="00527" />
+      <option name="presentableId" value="LOCAL-00527" />
+      <option name="project" value="LOCAL" />
+      <updated>1717299348673</updated>
+    </task>
+    <option name="localTasksCounter" value="528" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -830,8 +830,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="英语学习 - 导入文本库 - 4 - 方法一...&#10;&#10;方法简单，但是需要重新整理json文件" />
-    <MESSAGE value="英语学习 - 导入文本库 - 5 - 方法二...&#10;&#10;方法较为困难，目前状态还会存在报错" />
     <MESSAGE value="String - indexOf -- 返回文件后缀名" />
     <MESSAGE value="String - indexOf -- 返回文件后缀名" />
     <MESSAGE value="String - lastIndexOf -- 返回文件后缀名 - 改进-String 方法中有调用最后一个索引的方法" />
@@ -855,7 +853,9 @@
     <MESSAGE value="String.equalsIgnoreCase - 底层是 使用了 toLowerCase() 和 toUpperCase()" />
     <MESSAGE value="英语学习 - 菜单管理修改" />
     <MESSAGE value="ArrayList - about" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayList - about" />
+    <MESSAGE value="Set - set 的关于&#10;&#10;set - set 实现了 Collection 接口，实际上也只重写了接口方法。&#10;与 Array 不同的是 &#10;Array：有加入新的方法， 顺序输出， 可以重复&#10;Set：没有加入新的方法， 无序输出， 不可以重复" />
+    <MESSAGE value="Set - set 的关于...&#10;&#10;set - set 实现了 Collection 接口，实际上也只重写了接口方法。&#10;与 Array 不同的是&#10;Array：有加入新的方法， 顺序输出， 可以重复&#10;Set：没有加入新的方法， 无序输出， 不可以重复" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set - set 的关于&#10;&#10;set - set 实现了 Collection 接口，实际上也只重写了接口方法。&#10;与 Array 不同的是 &#10;Array：有加入新的方法， 顺序输出， 可以重复&#10;Set：没有加入新的方法， 无序输出， 不可以重复" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
