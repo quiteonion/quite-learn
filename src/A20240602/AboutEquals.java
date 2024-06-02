@@ -7,6 +7,7 @@ public class AboutEquals {
         a.equalsIgnoreCase(b);
         System.out.println(a.toLowerCase());
         a.toUpperCase();
+
     }
 
 }
