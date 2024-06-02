@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="学生管理系统">
-      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/JuniorEnglish.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m2.txt" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="英语学习 - 导入文本库 - 修改json格式">
+      <change afterPath="$PROJECT_DIR$/src/A20240602/AboutEquals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/JsonParserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/JsonParserExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/sme.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/sme.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -388,15 +383,8 @@
       <workItem from="1717216732832" duration="4810000" />
       <workItem from="1717230513177" duration="1380000" />
       <workItem from="1717233721946" duration="106000" />
-      <workItem from="1717233838992" duration="3048000" />
-    </task>
-    <task id="LOCAL-00474" summary="A20240515 -- 修改与补充">
-      <option name="closed" value="true" />
-      <created>1716616972954</created>
-      <option name="number" value="00474" />
-      <option name="presentableId" value="LOCAL-00474" />
-      <option name="project" value="LOCAL" />
-      <updated>1716616972954</updated>
+      <workItem from="1717233838992" duration="3151000" />
+      <workItem from="1717291630793" duration="1127000" />
     </task>
     <task id="LOCAL-00475" summary="阅读 StringBuffer 源码">
       <option name="closed" value="true" />
@@ -782,7 +770,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717222152578</updated>
     </task>
-    <option name="localTasksCounter" value="523" />
+    <task id="LOCAL-00523" summary="英语学习 - 导入文本库 - 修改json格式">
+      <option name="closed" value="true" />
+      <created>1717238050169</created>
+      <option name="number" value="00523" />
+      <option name="presentableId" value="LOCAL-00523" />
+      <option name="project" value="LOCAL" />
+      <updated>1717238050169</updated>
+    </task>
+    <option name="localTasksCounter" value="524" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -844,7 +840,6 @@
     <MESSAGE value="String - lastIndexOf -- 返回文件后缀名 - 改进-String 方法中有调用最后一个索引的方法" />
     <MESSAGE value="File - about File" />
     <MESSAGE value="File - 查找 src 文件下有几个不同类别的文件" />
-    <MESSAGE value="英语学习 - 导入文本库 - 修改json格式" />
     <MESSAGE value="File - 修改内容使其更加完美" />
     <MESSAGE value="idea 配置 -- 文件夹缩进" />
     <MESSAGE value="ArrayList - ArrayList 的初始长度为 0 ...&#10;&#10;ArrayList 的初始长度： 0&#10;StringBuilder 的初始长度： 16" />
@@ -859,7 +854,8 @@
     <MESSAGE value="ArrayList - contains -- 通过阅读源码可以知道 ，contains 会调用自己的 equals 方法再对比" />
     <MESSAGE value="ArrayList" />
     <MESSAGE value="学生管理系统" />
-    <option name="LAST_COMMIT_MESSAGE" value="学生管理系统" />
+    <MESSAGE value="英语学习 - 导入文本库 - 修改json格式" />
+    <option name="LAST_COMMIT_MESSAGE" value="英语学习 - 导入文本库 - 修改json格式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
