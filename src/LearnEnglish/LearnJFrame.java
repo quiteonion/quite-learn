@@ -42,21 +42,13 @@ public class LearnJFrame extends JFrame {
         JMenuItem dictionaryJMenuItem = new JMenuItem("字典查找");
         JMenuItem exitJMenuItem = new JMenuItem("离开");
 
-        JMenuItem a = new JMenuItem("初中 - 顺序");
-        JMenuItem b = new JMenuItem("高中 - 顺序");
-        JMenuItem c = new JMenuItem("CET4 - 顺序");
-        JMenuItem d = new JMenuItem("CET6 - 顺序");
-        JMenuItem e = new JMenuItem("考研 - 顺序");
-        JMenuItem f = new JMenuItem("托福 - 顺序");
-        JMenuItem g = new JMenuItem("SAT - 顺序");
-        JMenuItem space = new JMenuItem("=== ===");
-        JMenuItem aa = new JMenuItem("初中 - 乱序");
-        JMenuItem bb = new JMenuItem("高中 - 乱序");
-        JMenuItem cc = new JMenuItem("CET4 - 乱序");
-        JMenuItem dd = new JMenuItem("CET6 - 乱序");
-        JMenuItem ee = new JMenuItem("考研 - 乱序");
-        JMenuItem ff = new JMenuItem("托福 - 乱序");
-        JMenuItem gg = new JMenuItem("SAT - 乱序");
+        JMenuItem a = new JMenuItem("初中");
+        JMenuItem b = new JMenuItem("高中");
+        JMenuItem c = new JMenuItem("CET4");
+        JMenuItem d = new JMenuItem("CET6");
+        JMenuItem e = new JMenuItem("考研");
+        JMenuItem f = new JMenuItem("托福");
+        JMenuItem g = new JMenuItem("SAT");
 
         JMenuItem aboutUs = new JMenuItem("制作团队");
 
@@ -79,14 +71,6 @@ public class LearnJFrame extends JFrame {
         categoryJMenu.add(e);
         categoryJMenu.add(f);
         categoryJMenu.add(g);
-        categoryJMenu.add(space);
-        categoryJMenu.add(aa);
-        categoryJMenu.add(bb);
-        categoryJMenu.add(cc);
-        categoryJMenu.add(dd);
-        categoryJMenu.add(ee);
-        categoryJMenu.add(ff);
-        categoryJMenu.add(gg);
 
         this.setJMenuBar(jMenuBar);
     }

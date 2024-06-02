@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="英语学习 - 导入文本库 - 修改json格式">
-      <change afterPath="$PROJECT_DIR$/src/A20240602/AboutEquals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="String.equalsIgnoreCase - 底层是 使用了 toLowerCase() 和 toUpperCase()" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -384,15 +381,7 @@
       <workItem from="1717230513177" duration="1380000" />
       <workItem from="1717233721946" duration="106000" />
       <workItem from="1717233838992" duration="3151000" />
-      <workItem from="1717291630793" duration="1127000" />
-    </task>
-    <task id="LOCAL-00475" summary="阅读 StringBuffer 源码">
-      <option name="closed" value="true" />
-      <created>1716620130494</created>
-      <option name="number" value="00475" />
-      <option name="presentableId" value="LOCAL-00475" />
-      <option name="project" value="LOCAL" />
-      <updated>1716620130494</updated>
+      <workItem from="1717291630793" duration="1577000" />
     </task>
     <task id="LOCAL-00476" summary="MyStringBuilder - 自己的想法">
       <option name="closed" value="true" />
@@ -778,7 +767,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717238050169</updated>
     </task>
-    <option name="localTasksCounter" value="524" />
+    <task id="LOCAL-00524" summary="String.equalsIgnoreCase - 底层是 使用了 toLowerCase() 和 toUpperCase()">
+      <option name="closed" value="true" />
+      <created>1717293191170</created>
+      <option name="number" value="00524" />
+      <option name="presentableId" value="LOCAL-00524" />
+      <option name="project" value="LOCAL" />
+      <updated>1717293191170</updated>
+    </task>
+    <option name="localTasksCounter" value="525" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -830,7 +827,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="英语学习 - 导入文本库 - 0" />
     <MESSAGE value="英语学习 - 导入文本库 - 1 - 成功可以使用，但是...&#10;&#10;如果一个单词有多个词组的话就会导致单词与词组之间会没有联系" />
     <MESSAGE value="英语学习 - 导入文本库 - 3 - 删除的部分" />
     <MESSAGE value="英语学习 - 导入文本库 - 4 - 方法一...&#10;&#10;方法简单，但是需要重新整理json文件" />
@@ -855,7 +851,8 @@
     <MESSAGE value="ArrayList" />
     <MESSAGE value="学生管理系统" />
     <MESSAGE value="英语学习 - 导入文本库 - 修改json格式" />
-    <option name="LAST_COMMIT_MESSAGE" value="英语学习 - 导入文本库 - 修改json格式" />
+    <MESSAGE value="String.equalsIgnoreCase - 底层是 使用了 toLowerCase() 和 toUpperCase()" />
+    <option name="LAST_COMMIT_MESSAGE" value="String.equalsIgnoreCase - 底层是 使用了 toLowerCase() 和 toUpperCase()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
