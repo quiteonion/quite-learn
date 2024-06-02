@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="String.equalsIgnoreCase - 底层是 使用了 toLowerCase() 和 toUpperCase()" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="ArrayList - about">
+      <change afterPath="$PROJECT_DIR$/src/A20240602/AboutSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240602/AboutArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240602/AboutArrayList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -381,23 +384,7 @@
       <workItem from="1717230513177" duration="1380000" />
       <workItem from="1717233721946" duration="106000" />
       <workItem from="1717233838992" duration="3151000" />
-      <workItem from="1717291630793" duration="1577000" />
-    </task>
-    <task id="LOCAL-00476" summary="MyStringBuilder - 自己的想法">
-      <option name="closed" value="true" />
-      <created>1716621346507</created>
-      <option name="number" value="00476" />
-      <option name="presentableId" value="LOCAL-00476" />
-      <option name="project" value="LOCAL" />
-      <updated>1716621346507</updated>
-    </task>
-    <task id="LOCAL-00477" summary="MyStringBuilder - 返回值类型设置为它本身，就可以本身无限调用">
-      <option name="closed" value="true" />
-      <created>1716621546478</created>
-      <option name="number" value="00477" />
-      <option name="presentableId" value="LOCAL-00477" />
-      <option name="project" value="LOCAL" />
-      <updated>1716621546478</updated>
+      <workItem from="1717291630793" duration="5408000" />
     </task>
     <task id="LOCAL-00478" summary="MyStringBuilder - 使用创建新数组取代老数组的方式能够保证一次 append 的正确调用">
       <option name="closed" value="true" />
@@ -775,7 +762,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717293191170</updated>
     </task>
-    <option name="localTasksCounter" value="525" />
+    <task id="LOCAL-00525" summary="英语学习 - 菜单管理修改">
+      <option name="closed" value="true" />
+      <created>1717294480228</created>
+      <option name="number" value="00525" />
+      <option name="presentableId" value="LOCAL-00525" />
+      <option name="project" value="LOCAL" />
+      <updated>1717294480228</updated>
+    </task>
+    <task id="LOCAL-00526" summary="ArrayList - about">
+      <option name="closed" value="true" />
+      <created>1717297072666</created>
+      <option name="number" value="00526" />
+      <option name="presentableId" value="LOCAL-00526" />
+      <option name="project" value="LOCAL" />
+      <updated>1717297072666</updated>
+    </task>
+    <option name="localTasksCounter" value="527" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -827,8 +830,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="英语学习 - 导入文本库 - 1 - 成功可以使用，但是...&#10;&#10;如果一个单词有多个词组的话就会导致单词与词组之间会没有联系" />
-    <MESSAGE value="英语学习 - 导入文本库 - 3 - 删除的部分" />
     <MESSAGE value="英语学习 - 导入文本库 - 4 - 方法一...&#10;&#10;方法简单，但是需要重新整理json文件" />
     <MESSAGE value="英语学习 - 导入文本库 - 5 - 方法二...&#10;&#10;方法较为困难，目前状态还会存在报错" />
     <MESSAGE value="String - indexOf -- 返回文件后缀名" />
@@ -852,7 +853,9 @@
     <MESSAGE value="学生管理系统" />
     <MESSAGE value="英语学习 - 导入文本库 - 修改json格式" />
     <MESSAGE value="String.equalsIgnoreCase - 底层是 使用了 toLowerCase() 和 toUpperCase()" />
-    <option name="LAST_COMMIT_MESSAGE" value="String.equalsIgnoreCase - 底层是 使用了 toLowerCase() 和 toUpperCase()" />
+    <MESSAGE value="英语学习 - 菜单管理修改" />
+    <MESSAGE value="ArrayList - about" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayList - about" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
