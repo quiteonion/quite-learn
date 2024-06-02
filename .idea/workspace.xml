@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Set - set -- equals 重写 - 单单重写一个 equals 还不够，还需要重写 hashCode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240602/SetObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240602/SetObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +140,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
+      <module name="quite" />
+      <option name="PROGRAM_PARAMETERS" value="20 30" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A20240130.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PinTuGame.APP" />
+      <module name="quite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PinTuGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PinTuGame.APP" />
       <module name="quite" />
@@ -167,12 +193,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LearnEnglish.APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LearnEnglish.APP" />
+      <module name="quite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LearnEnglish.TxtToJson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringADD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240524.StringADD" />
       <module name="quite" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="A20240524.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringADD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A20240524.StringADD" />
+      <module name="quite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A20240524.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A20240515.note.MysortUtilState.Test" />
+      <module name="quite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A20240515.note.MysortUtilState.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -384,15 +449,8 @@
       <workItem from="1717230513177" duration="1380000" />
       <workItem from="1717233721946" duration="106000" />
       <workItem from="1717233838992" duration="3151000" />
-      <workItem from="1717291630793" duration="11226000" />
-    </task>
-    <task id="LOCAL-00480" summary="String 的其他方法 -- toUpperCase 将小写转化为大写">
-      <option name="closed" value="true" />
-      <created>1716624419224</created>
-      <option name="number" value="00480" />
-      <option name="presentableId" value="LOCAL-00480" />
-      <option name="project" value="LOCAL" />
-      <updated>1716624419224</updated>
+      <workItem from="1717291630793" duration="12109000" />
+      <workItem from="1717313601553" duration="1483000" />
     </task>
     <task id="LOCAL-00481" summary="String 的其他方法 -- equals 比较两个字符串是否相同">
       <option name="closed" value="true" />
@@ -778,7 +836,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717309039351</updated>
     </task>
-    <option name="localTasksCounter" value="529" />
+    <task id="LOCAL-00529" summary="Set - set -- equals 重写 - 单单重写一个 equals 还不够，还需要重写 hashCode">
+      <option name="closed" value="true" />
+      <created>1717311486766</created>
+      <option name="number" value="00529" />
+      <option name="presentableId" value="LOCAL-00529" />
+      <option name="project" value="LOCAL" />
+      <updated>1717311486766</updated>
+    </task>
+    <option name="localTasksCounter" value="530" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
