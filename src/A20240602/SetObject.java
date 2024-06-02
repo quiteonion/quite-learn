@@ -1,9 +1,6 @@
 package A20240602;
 
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class SetObject {
     public static void main(String[] args) {
@@ -38,6 +35,10 @@ class Student  {
         return false;
     }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age);
+    }
 
     @Override
     public String toString() {
