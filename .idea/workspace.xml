@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="properties">
-      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/qwe.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/PropertiesDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/json-20210307.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/jsoup-1.17.2.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LearnEnglish/JsonParserExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/TxtToJsonConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/JuniorEnglish.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/qw11e.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/sme.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -454,15 +461,8 @@
       <workItem from="1717233838992" duration="3151000" />
       <workItem from="1717291630793" duration="12109000" />
       <workItem from="1717313601553" duration="3662000" />
-      <workItem from="1717393974815" duration="1135000" />
-    </task>
-    <task id="LOCAL-00483" summary="String 的其他方法">
-      <option name="closed" value="true" />
-      <created>1716626079034</created>
-      <option name="number" value="00483" />
-      <option name="presentableId" value="LOCAL-00483" />
-      <option name="project" value="LOCAL" />
-      <updated>1716626079034</updated>
+      <workItem from="1717393974815" duration="3103000" />
+      <workItem from="1717399123958" duration="79000" />
     </task>
     <task id="LOCAL-00484" summary="回顾 -- 数组中隐藏的电话号码">
       <option name="closed" value="true" />
@@ -848,7 +848,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717397059200</updated>
     </task>
-    <option name="localTasksCounter" value="532" />
+    <task id="LOCAL-00532" summary="properties">
+      <option name="closed" value="true" />
+      <created>1717397234607</created>
+      <option name="number" value="00532" />
+      <option name="presentableId" value="LOCAL-00532" />
+      <option name="project" value="LOCAL" />
+      <updated>1717397234607</updated>
+    </task>
+    <option name="localTasksCounter" value="533" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
