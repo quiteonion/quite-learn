@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Set - set -- equals 重写 - 单单重写一个 equals 还不够，还需要重写 hashCode">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="properties">
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/qwe.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json-20210307.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsoup-1.17.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/JsonParserExample.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +81,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/A20240531&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/LearnEnglish/EnglishWords&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -93,11 +96,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\EnglishWords" />
       <recent name="D:\idea\idea 存储\quite\src\A20240531" />
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\TxtToJson" />
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\wordTry" />
       <recent name="D:\idea\idea 存储\quite\src\A20240524" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240515\note" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\TxtToJson" />
@@ -111,7 +114,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A20240130">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -450,23 +453,8 @@
       <workItem from="1717233721946" duration="106000" />
       <workItem from="1717233838992" duration="3151000" />
       <workItem from="1717291630793" duration="12109000" />
-      <workItem from="1717313601553" duration="1483000" />
-    </task>
-    <task id="LOCAL-00481" summary="String 的其他方法 -- equals 比较两个字符串是否相同">
-      <option name="closed" value="true" />
-      <created>1716624492298</created>
-      <option name="number" value="00481" />
-      <option name="presentableId" value="LOCAL-00481" />
-      <option name="project" value="LOCAL" />
-      <updated>1716624492298</updated>
-    </task>
-    <task id="LOCAL-00482" summary="String 的其他方法 -- .equalsIgnoreCase 忽略大小写比较两个字符串是否相同">
-      <option name="closed" value="true" />
-      <created>1716624548620</created>
-      <option name="number" value="00482" />
-      <option name="presentableId" value="LOCAL-00482" />
-      <option name="project" value="LOCAL" />
-      <updated>1716624548620</updated>
+      <workItem from="1717313601553" duration="3662000" />
+      <workItem from="1717393974815" duration="1135000" />
     </task>
     <task id="LOCAL-00483" summary="String 的其他方法">
       <option name="closed" value="true" />
@@ -844,7 +832,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717311486766</updated>
     </task>
-    <option name="localTasksCounter" value="530" />
+    <task id="LOCAL-00530" summary="Map - Hashtable -  properties - properties 是 Hashtable 的一个 子类，基础功能都有">
+      <option name="closed" value="true" />
+      <created>1717318629968</created>
+      <option name="number" value="00530" />
+      <option name="presentableId" value="LOCAL-00530" />
+      <option name="project" value="LOCAL" />
+      <updated>1717318629968</updated>
+    </task>
+    <task id="LOCAL-00531" summary="properties">
+      <option name="closed" value="true" />
+      <created>1717397059200</created>
+      <option name="number" value="00531" />
+      <option name="presentableId" value="LOCAL-00531" />
+      <option name="project" value="LOCAL" />
+      <updated>1717397059200</updated>
+    </task>
+    <option name="localTasksCounter" value="532" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -896,8 +900,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="String - indexOf -- 返回文件后缀名" />
-    <MESSAGE value="String - lastIndexOf -- 返回文件后缀名 - 改进-String 方法中有调用最后一个索引的方法" />
     <MESSAGE value="File - about File" />
     <MESSAGE value="File - 查找 src 文件下有几个不同类别的文件" />
     <MESSAGE value="File - 修改内容使其更加完美" />
@@ -921,7 +923,9 @@
     <MESSAGE value="Set - set 的关于&#10;&#10;set - set 实现了 Collection 接口，实际上也只重写了接口方法。&#10;与 Array 不同的是 &#10;Array：有加入新的方法， 顺序输出， 可以重复&#10;Set：没有加入新的方法， 无序输出， 不可以重复" />
     <MESSAGE value="Set - set 的关于...&#10;&#10;set - set 实现了 Collection 接口，实际上也只重写了接口方法。&#10;与 Array 不同的是&#10;Array：有加入新的方法， 顺序输出， 可以重复&#10;Set：没有加入新的方法， 无序输出， 不可以重复" />
     <MESSAGE value="Set - set -- equals 重写 - 单单重写一个 equals 还不够，还需要重写 hashCode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set - set -- equals 重写 - 单单重写一个 equals 还不够，还需要重写 hashCode" />
+    <MESSAGE value="Map - Hashtable -  properties - properties 是 Hashtable 的一个 子类，基础功能都有" />
+    <MESSAGE value="properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="properties" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
