@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Math - abs -- abs 的能力便是取得绝对值">
-      <change beforePath="$PROJECT_DIR$/src/B20240603/MathDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240603/MathDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Math - abs -- JDK 的 bug 解决 - 见注释" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -457,14 +455,6 @@
       <workItem from="1717416676022" duration="1971000" />
       <workItem from="1717418794992" duration="717000" />
     </task>
-    <task id="LOCAL-00488" summary="回顾 -- 二分法查找顺序数组中的元素">
-      <option name="closed" value="true" />
-      <created>1716710339929</created>
-      <option name="number" value="00488" />
-      <option name="presentableId" value="LOCAL-00488" />
-      <option name="project" value="LOCAL" />
-      <updated>1716710339929</updated>
-    </task>
     <task id="LOCAL-00489" summary="回顾 -- 冒泡排序法">
       <option name="closed" value="true" />
       <created>1716712176516</created>
@@ -849,7 +839,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717420378720</updated>
     </task>
-    <option name="localTasksCounter" value="537" />
+    <task id="LOCAL-00537" summary="Math - abs -- JDK 的 bug 解决 - 见注释">
+      <option name="closed" value="true" />
+      <created>1717420707372</created>
+      <option name="number" value="00537" />
+      <option name="presentableId" value="LOCAL-00537" />
+      <option name="project" value="LOCAL" />
+      <updated>1717420707372</updated>
+    </task>
+    <option name="localTasksCounter" value="538" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -901,7 +899,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="ArrayList - ArrayList 的添加长度为...&#10;&#10;请移步 README" />
     <MESSAGE value="ArrayList - ArrayList 的父类 AbstractCollection 重写了 toString 方法" />
     <MESSAGE value="iterator - 迭代调用" />
     <MESSAGE value="ArrayList - iterator - 迭代调用" />
@@ -926,7 +923,8 @@
     <MESSAGE value="Revert &quot;Revert &quot;Math - abs -- abs 的能力便是取得绝对值&quot;&quot;&#10;&#10;This reverts commit 3461efcf8145ddc7a5546b625d795057f65a59eb." />
     <MESSAGE value="Revert &quot;Revert &quot;Math - abs -- abs 的能力便是取得绝对值" />
     <MESSAGE value="Math - abs -- abs 的能力便是取得绝对值" />
-    <option name="LAST_COMMIT_MESSAGE" value="Math - abs -- abs 的能力便是取得绝对值" />
+    <MESSAGE value="Math - abs -- JDK 的 bug 解决 - 见注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="Math - abs -- JDK 的 bug 解决 - 见注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
