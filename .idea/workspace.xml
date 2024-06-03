@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Math - floor -- 向下取整大地版...&#10;&#10;与 ceil 相反，向下取整大地板只要小数点后面跟着东西，就直接向下取整">
-      <change afterPath="$PROJECT_DIR$/src/B20240603/MathRound.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Math - round -- 四舍五入">
+      <change afterPath="$PROJECT_DIR$/src/B20240603/MathMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -457,14 +457,6 @@
       <workItem from="1717416676022" duration="1971000" />
       <workItem from="1717418794992" duration="717000" />
     </task>
-    <task id="LOCAL-00491" summary="书写错误 -- 修改">
-      <option name="closed" value="true" />
-      <created>1716715502262</created>
-      <option name="number" value="00491" />
-      <option name="presentableId" value="LOCAL-00491" />
-      <option name="project" value="LOCAL" />
-      <updated>1716715502262</updated>
-    </task>
     <task id="LOCAL-00492" summary="英语学习 - 登录界面 - 设置菜单栏选项">
       <option name="closed" value="true" />
       <created>1716730132930</created>
@@ -849,7 +841,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717421243530</updated>
     </task>
-    <option name="localTasksCounter" value="540" />
+    <task id="LOCAL-00540" summary="Math - round -- 四舍五入">
+      <option name="closed" value="true" />
+      <created>1717421586377</created>
+      <option name="number" value="00540" />
+      <option name="presentableId" value="LOCAL-00540" />
+      <option name="project" value="LOCAL" />
+      <updated>1717421586377</updated>
+    </task>
+    <option name="localTasksCounter" value="541" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -901,7 +901,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="ArrayList - iterator - 迭代调用" />
     <MESSAGE value="ArrayList - for(;;){} 通过阅读源码了解到的 死循环" />
     <MESSAGE value="ArrayList - remove 及其重载方法 和 valueOf 的引入" />
     <MESSAGE value="ArrayList - contains -- 查找是否拥有要查找的值" />
@@ -926,7 +925,8 @@
     <MESSAGE value="Math - abs -- JDK 的 bug 解决 - 见注释" />
     <MESSAGE value="Math - ceil -- 向上取整天花板...&#10;&#10;无论小数点后面跟着多小，只要有小数，则直接向上取整" />
     <MESSAGE value="Math - floor -- 向下取整大地版...&#10;&#10;与 ceil 相反，向下取整大地板只要小数点后面跟着东西，就直接向下取整" />
-    <option name="LAST_COMMIT_MESSAGE" value="Math - floor -- 向下取整大地版...&#10;&#10;与 ceil 相反，向下取整大地板只要小数点后面跟着东西，就直接向下取整" />
+    <MESSAGE value="Math - round -- 四舍五入" />
+    <option name="LAST_COMMIT_MESSAGE" value="Math - round -- 四舍五入" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
