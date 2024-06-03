@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="properties">
-      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/PropertiesDemo.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="英语学习 - 使用 properties 代替 json">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/JuniorEnglishWords.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/SeniorEnglishWords.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/json-20210307.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jsoup-1.17.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/JsonParserExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/TxtToJsonConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/JuniorEnglish.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/m2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/qw11e.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/TxtToJson/sme.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/ALL/APP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/JuniorEnglish.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/JuniorEnglish.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/qw11e.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/ALL/LearnJFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/PropertiesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/PropertiesDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,28 +78,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/LearnEnglish/EnglishWords&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/src/LearnEnglish/EnglishWords",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\EnglishWords" />
@@ -121,7 +120,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A20240130">
+  <component name="RunManager">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -190,8 +189,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LearnEnglish.APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LearnEnglish.APP" />
+    <configuration name="LearnEnglish.ALL.APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LearnEnglish.ALL.APP" />
       <module name="quite" />
       <extension name="coverage">
         <pattern>
@@ -270,7 +269,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LearnEnglish.APP" />
+        <item itemvalue="Application.LearnEnglish.ALL.APP" />
         <item itemvalue="Application.APP" />
         <item itemvalue="Application.A20240130" />
         <item itemvalue="Application.StringADD" />
@@ -463,14 +462,8 @@
       <workItem from="1717313601553" duration="3662000" />
       <workItem from="1717393974815" duration="3103000" />
       <workItem from="1717399123958" duration="79000" />
-    </task>
-    <task id="LOCAL-00484" summary="回顾 -- 数组中隐藏的电话号码">
-      <option name="closed" value="true" />
-      <created>1716627290803</created>
-      <option name="number" value="00484" />
-      <option name="presentableId" value="LOCAL-00484" />
-      <option name="project" value="LOCAL" />
-      <updated>1716627290803</updated>
+      <workItem from="1717399227090" duration="33000" />
+      <workItem from="1717416676022" duration="1971000" />
     </task>
     <task id="LOCAL-00485" summary="String 的其他方法">
       <option name="closed" value="true" />
@@ -856,7 +849,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717397234607</updated>
     </task>
-    <option name="localTasksCounter" value="533" />
+    <task id="LOCAL-00533" summary="英语学习 - 使用 properties 代替 json">
+      <option name="closed" value="true" />
+      <created>1717399256092</created>
+      <option name="number" value="00533" />
+      <option name="presentableId" value="LOCAL-00533" />
+      <option name="project" value="LOCAL" />
+      <updated>1717399256092</updated>
+    </task>
+    <option name="localTasksCounter" value="534" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -908,7 +909,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="File - about File" />
     <MESSAGE value="File - 查找 src 文件下有几个不同类别的文件" />
     <MESSAGE value="File - 修改内容使其更加完美" />
     <MESSAGE value="idea 配置 -- 文件夹缩进" />
@@ -933,7 +933,8 @@
     <MESSAGE value="Set - set -- equals 重写 - 单单重写一个 equals 还不够，还需要重写 hashCode" />
     <MESSAGE value="Map - Hashtable -  properties - properties 是 Hashtable 的一个 子类，基础功能都有" />
     <MESSAGE value="properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="properties" />
+    <MESSAGE value="英语学习 - 使用 properties 代替 json" />
+    <option name="LAST_COMMIT_MESSAGE" value="英语学习 - 使用 properties 代替 json" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
