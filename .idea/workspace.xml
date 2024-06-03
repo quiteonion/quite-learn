@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Math - abs -- JDK 的 bug 解决 - 见注释" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Math - ceil -- 向上取整天花板...&#10;&#10;无论小数点后面跟着多小，只要有小数，则直接向上取整">
+      <change afterPath="$PROJECT_DIR$/src/B20240603/MathFloor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -455,14 +457,6 @@
       <workItem from="1717416676022" duration="1971000" />
       <workItem from="1717418794992" duration="717000" />
     </task>
-    <task id="LOCAL-00489" summary="回顾 -- 冒泡排序法">
-      <option name="closed" value="true" />
-      <created>1716712176516</created>
-      <option name="number" value="00489" />
-      <option name="presentableId" value="LOCAL-00489" />
-      <option name="project" value="LOCAL" />
-      <updated>1716712176517</updated>
-    </task>
     <task id="LOCAL-00490" summary="回顾 -- 文字格斗游戏">
       <option name="closed" value="true" />
       <created>1716714711767</created>
@@ -847,7 +841,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717420707372</updated>
     </task>
-    <option name="localTasksCounter" value="538" />
+    <task id="LOCAL-00538" summary="Math - ceil -- 向上取整天花板...">
+      <option name="closed" value="true" />
+      <created>1717420983842</created>
+      <option name="number" value="00538" />
+      <option name="presentableId" value="LOCAL-00538" />
+      <option name="project" value="LOCAL" />
+      <updated>1717420983842</updated>
+    </task>
+    <option name="localTasksCounter" value="539" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -899,7 +901,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="ArrayList - ArrayList 的父类 AbstractCollection 重写了 toString 方法" />
     <MESSAGE value="iterator - 迭代调用" />
     <MESSAGE value="ArrayList - iterator - 迭代调用" />
     <MESSAGE value="ArrayList - for(;;){} 通过阅读源码了解到的 死循环" />
@@ -924,7 +925,8 @@
     <MESSAGE value="Revert &quot;Revert &quot;Math - abs -- abs 的能力便是取得绝对值" />
     <MESSAGE value="Math - abs -- abs 的能力便是取得绝对值" />
     <MESSAGE value="Math - abs -- JDK 的 bug 解决 - 见注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="Math - abs -- JDK 的 bug 解决 - 见注释" />
+    <MESSAGE value="Math - ceil -- 向上取整天花板...&#10;&#10;无论小数点后面跟着多小，只要有小数，则直接向上取整" />
+    <option name="LAST_COMMIT_MESSAGE" value="Math - ceil -- 向上取整天花板...&#10;&#10;无论小数点后面跟着多小，只要有小数，则直接向上取整" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
