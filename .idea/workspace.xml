@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="英语学习 - 使用 properties 代替 json">
-      <change afterPath="$PROJECT_DIR$/src/B20240603/MathDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/JuniorEnglishWords.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/SeniorEnglishWords.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/ALL/APP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/JuniorEnglish.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/JuniorEnglish.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/EnglishWords/qw11e.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/LearnJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/ALL/LearnJFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnEnglish/PropertiesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnEnglish/PropertiesDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,28 +78,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/LearnEnglish/EnglishWords&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/src/LearnEnglish/EnglishWords",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\EnglishWords" />
@@ -456,7 +464,14 @@
       <workItem from="1717399123958" duration="79000" />
       <workItem from="1717399227090" duration="33000" />
       <workItem from="1717416676022" duration="1971000" />
-      <workItem from="1717418794992" duration="717000" />
+    </task>
+    <task id="LOCAL-00485" summary="String 的其他方法">
+      <option name="closed" value="true" />
+      <created>1716627681422</created>
+      <option name="number" value="00485" />
+      <option name="presentableId" value="LOCAL-00485" />
+      <option name="project" value="LOCAL" />
+      <updated>1716627681422</updated>
     </task>
     <task id="LOCAL-00486" summary="回顾 -- 数组中隐藏的电话号码">
       <option name="closed" value="true" />
@@ -842,15 +857,7 @@
       <option name="project" value="LOCAL" />
       <updated>1717399256092</updated>
     </task>
-    <task id="LOCAL-00534" summary="英语学习 - 使用 properties 代替 json">
-      <option name="closed" value="true" />
-      <created>1717418802751</created>
-      <option name="number" value="00534" />
-      <option name="presentableId" value="LOCAL-00534" />
-      <option name="project" value="LOCAL" />
-      <updated>1717418802751</updated>
-    </task>
-    <option name="localTasksCounter" value="535" />
+    <option name="localTasksCounter" value="534" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
