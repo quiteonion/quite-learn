@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="英语学习 - 使用 properties 代替 json">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Math - abs -- abs 的能力便是取得绝对值">
       <change beforePath="$PROJECT_DIR$/src/B20240603/MathDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240603/MathDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -457,22 +457,6 @@
       <workItem from="1717416676022" duration="1971000" />
       <workItem from="1717418794992" duration="717000" />
     </task>
-    <task id="LOCAL-00486" summary="回顾 -- 数组中隐藏的电话号码">
-      <option name="closed" value="true" />
-      <created>1716627902986</created>
-      <option name="number" value="00486" />
-      <option name="presentableId" value="LOCAL-00486" />
-      <option name="project" value="LOCAL" />
-      <updated>1716627902986</updated>
-    </task>
-    <task id="LOCAL-00487" summary="回顾 -- 数组中隐藏的电话号码">
-      <option name="closed" value="true" />
-      <created>1716627906738</created>
-      <option name="number" value="00487" />
-      <option name="presentableId" value="LOCAL-00487" />
-      <option name="project" value="LOCAL" />
-      <updated>1716627906738</updated>
-    </task>
     <task id="LOCAL-00488" summary="回顾 -- 二分法查找顺序数组中的元素">
       <option name="closed" value="true" />
       <created>1716710339929</created>
@@ -849,7 +833,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717418802751</updated>
     </task>
-    <option name="localTasksCounter" value="535" />
+    <task id="LOCAL-00535" summary="Revert &quot;Revert &quot;Math - abs -- abs 的能力便是取得绝对值">
+      <option name="closed" value="true" />
+      <created>1717420221828</created>
+      <option name="number" value="00535" />
+      <option name="presentableId" value="LOCAL-00535" />
+      <option name="project" value="LOCAL" />
+      <updated>1717420221828</updated>
+    </task>
+    <task id="LOCAL-00536" summary="Math - abs -- abs 的能力便是取得绝对值">
+      <option name="closed" value="true" />
+      <created>1717420378720</created>
+      <option name="number" value="00536" />
+      <option name="presentableId" value="LOCAL-00536" />
+      <option name="project" value="LOCAL" />
+      <updated>1717420378720</updated>
+    </task>
+    <option name="localTasksCounter" value="537" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -901,9 +901,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="File - 修改内容使其更加完美" />
-    <MESSAGE value="idea 配置 -- 文件夹缩进" />
-    <MESSAGE value="ArrayList - ArrayList 的初始长度为 0 ...&#10;&#10;ArrayList 的初始长度： 0&#10;StringBuilder 的初始长度： 16" />
     <MESSAGE value="ArrayList - ArrayList 的添加长度为...&#10;&#10;请移步 README" />
     <MESSAGE value="ArrayList - ArrayList 的父类 AbstractCollection 重写了 toString 方法" />
     <MESSAGE value="iterator - 迭代调用" />
@@ -925,6 +922,9 @@
     <MESSAGE value="Map - Hashtable -  properties - properties 是 Hashtable 的一个 子类，基础功能都有" />
     <MESSAGE value="properties" />
     <MESSAGE value="英语学习 - 使用 properties 代替 json" />
+    <MESSAGE value="Math - abs -- abs" />
+    <MESSAGE value="Revert &quot;Revert &quot;Math - abs -- abs 的能力便是取得绝对值&quot;&quot;&#10;&#10;This reverts commit 3461efcf8145ddc7a5546b625d795057f65a59eb." />
+    <MESSAGE value="Revert &quot;Revert &quot;Math - abs -- abs 的能力便是取得绝对值" />
     <MESSAGE value="Math - abs -- abs 的能力便是取得绝对值" />
     <option name="LAST_COMMIT_MESSAGE" value="Math - abs -- abs 的能力便是取得绝对值" />
   </component>
