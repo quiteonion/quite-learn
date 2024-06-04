@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Math - random -- 随机 0 ~ 1 之间的一个小数">
-      <change afterPath="$PROJECT_DIR$/src/B20240604/PrimeNumber.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16 &#10;4.1*4.1 != 16&#10;3.9*3.9 != 16&#10;两个因子不可能都比这个数的平方根大或者小">
+      <change afterPath="$PROJECT_DIR$/src/B20240604/SelfPower.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -456,23 +456,7 @@
       <workItem from="1717399227090" duration="33000" />
       <workItem from="1717416676022" duration="1971000" />
       <workItem from="1717418794992" duration="717000" />
-      <workItem from="1717484803618" duration="4143000" />
-    </task>
-    <task id="LOCAL-00498" summary="英语学习 - 导入文本库 - 5 - 方法二...&#10;&#10;方法较为困难，目前状态还会存在报错">
-      <option name="closed" value="true" />
-      <created>1716886087625</created>
-      <option name="number" value="00498" />
-      <option name="presentableId" value="LOCAL-00498" />
-      <option name="project" value="LOCAL" />
-      <updated>1716886087625</updated>
-    </task>
-    <task id="LOCAL-00499" summary="String -- 返回文件后缀名">
-      <option name="closed" value="true" />
-      <created>1716981210394</created>
-      <option name="number" value="00499" />
-      <option name="presentableId" value="LOCAL-00499" />
-      <option name="project" value="LOCAL" />
-      <updated>1716981210404</updated>
+      <workItem from="1717484803618" duration="5058000" />
     </task>
     <task id="LOCAL-00500" summary="String -- 返回文件后缀名">
       <option name="closed" value="true" />
@@ -850,7 +834,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717491708528</updated>
     </task>
-    <option name="localTasksCounter" value="547" />
+    <task id="LOCAL-00547" summary="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16 &#10;4.1*4.1 != 16&#10;3.9*3.9 != 16">
+      <option name="closed" value="true" />
+      <created>1717492747403</created>
+      <option name="number" value="00547" />
+      <option name="presentableId" value="LOCAL-00547" />
+      <option name="project" value="LOCAL" />
+      <updated>1717492747403</updated>
+    </task>
+    <task id="LOCAL-00548" summary="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16 &#10;4.1*4.1 != 16&#10;3.9*3.9 != 16&#10;两个因子不可能都比这个数的平方根大或者小">
+      <option name="closed" value="true" />
+      <created>1717492816974</created>
+      <option name="number" value="00548" />
+      <option name="presentableId" value="LOCAL-00548" />
+      <option name="project" value="LOCAL" />
+      <updated>1717492816974</updated>
+    </task>
+    <option name="localTasksCounter" value="549" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -902,9 +902,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="ArrayList" />
-    <MESSAGE value="学生管理系统" />
-    <MESSAGE value="英语学习 - 导入文本库 - 修改json格式" />
     <MESSAGE value="String.equalsIgnoreCase - 底层是 使用了 toLowerCase() 和 toUpperCase()" />
     <MESSAGE value="英语学习 - 菜单管理修改" />
     <MESSAGE value="ArrayList - about" />
@@ -927,7 +924,10 @@
     <MESSAGE value="Math - pow -- 获取 前者的后者次幂" />
     <MESSAGE value="Math - sqrt -- 给一个数字开 根号" />
     <MESSAGE value="Math - random -- 随机 0 ~ 1 之间的一个小数" />
-    <option name="LAST_COMMIT_MESSAGE" value="Math - random -- 随机 0 ~ 1 之间的一个小数" />
+    <MESSAGE value="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16 &#10;4.1*4.1 != 16&#10;3.9*3.9 != 16" />
+    <MESSAGE value="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16&#10;4.1*4.1 != 16&#10;3.9*3.9 != 16" />
+    <MESSAGE value="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16 &#10;4.1*4.1 != 16&#10;3.9*3.9 != 16&#10;两个因子不可能都比这个数的平方根大或者小" />
+    <option name="LAST_COMMIT_MESSAGE" value="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16 &#10;4.1*4.1 != 16&#10;3.9*3.9 != 16&#10;两个因子不可能都比这个数的平方根大或者小" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
