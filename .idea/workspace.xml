@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="正则表达式">
-      <change afterPath="$PROJECT_DIR$/src/A20240605/Test.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="异常 - java.lang.NumberFormatException -- 数据转化异常">
+      <change afterPath="$PROJECT_DIR$/src/A20240605/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240605/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240605/Text3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,28 +71,27 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/LearnEnglish/EnglishWords&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/src/LearnEnglish/EnglishWords",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\EnglishWords" />
@@ -459,23 +460,7 @@
       <workItem from="1717484803618" duration="5519000" />
       <workItem from="1717560862935" duration="382000" />
       <workItem from="1717562502387" duration="3036000" />
-      <workItem from="1717585733855" duration="3774000" />
-    </task>
-    <task id="LOCAL-00505" summary="File - about File">
-      <option name="closed" value="true" />
-      <created>1716982913084</created>
-      <option name="number" value="00505" />
-      <option name="presentableId" value="LOCAL-00505" />
-      <option name="project" value="LOCAL" />
-      <updated>1716982913084</updated>
-    </task>
-    <task id="LOCAL-00506" summary="File - 查找 src 文件下有几个不同类别的文件">
-      <option name="closed" value="true" />
-      <created>1716983362122</created>
-      <option name="number" value="00506" />
-      <option name="presentableId" value="LOCAL-00506" />
-      <option name="project" value="LOCAL" />
-      <updated>1716983362122</updated>
+      <workItem from="1717585733855" duration="4095000" />
     </task>
     <task id="LOCAL-00507" summary="File - 查找 src 文件下有几个不同类别的文件">
       <option name="closed" value="true" />
@@ -853,7 +838,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717586896827</updated>
     </task>
-    <option name="localTasksCounter" value="554" />
+    <task id="LOCAL-00554" summary="异常 - java.lang.ArrayIndexOutOfBoundsException -- 这个数组的索引不存在">
+      <option name="closed" value="true" />
+      <created>1717590918948</created>
+      <option name="number" value="00554" />
+      <option name="presentableId" value="LOCAL-00554" />
+      <option name="project" value="LOCAL" />
+      <updated>1717590918948</updated>
+    </task>
+    <task id="LOCAL-00555" summary="异常 - java.lang.NumberFormatException -- 数据转化异常">
+      <option name="closed" value="true" />
+      <created>1717591051006</created>
+      <option name="number" value="00555" />
+      <option name="presentableId" value="LOCAL-00555" />
+      <option name="project" value="LOCAL" />
+      <updated>1717591051006</updated>
+    </task>
+    <option name="localTasksCounter" value="556" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -905,8 +906,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Set - set -- equals 重写 - 单单重写一个 equals 还不够，还需要重写 hashCode" />
-    <MESSAGE value="Map - Hashtable -  properties - properties 是 Hashtable 的一个 子类，基础功能都有" />
     <MESSAGE value="properties" />
     <MESSAGE value="英语学习 - 使用 properties 代替 json" />
     <MESSAGE value="Math - abs -- abs" />
@@ -930,7 +929,9 @@
     <MESSAGE value="System - currentTimeMillis -- 计算当前时间与 1970 年 1 月 1 日 0 点 0 分 0 时 0 秒 的时间间隔" />
     <MESSAGE value="System - currentTimeMillis -- 使代码高效化，可扩展" />
     <MESSAGE value="正则表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="正则表达式" />
+    <MESSAGE value="异常 - java.lang.ArrayIndexOutOfBoundsException -- 这个数组的索引不存在" />
+    <MESSAGE value="异常 - java.lang.NumberFormatException -- 数据转化异常" />
+    <option name="LAST_COMMIT_MESSAGE" value="异常 - java.lang.NumberFormatException -- 数据转化异常" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
