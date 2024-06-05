@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16 &#10;4.1*4.1 != 16&#10;3.9*3.9 != 16&#10;两个因子不可能都比这个数的平方根大或者小">
-      <change afterPath="$PROJECT_DIR$/src/B20240604/SelfPower.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Math - Test -- 判断一个数是不是自幂数">
+      <change afterPath="$PROJECT_DIR$/src/B20240605/SystemExit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -456,15 +457,9 @@
       <workItem from="1717399227090" duration="33000" />
       <workItem from="1717416676022" duration="1971000" />
       <workItem from="1717418794992" duration="717000" />
-      <workItem from="1717484803618" duration="5058000" />
-    </task>
-    <task id="LOCAL-00500" summary="String -- 返回文件后缀名">
-      <option name="closed" value="true" />
-      <created>1716982188948</created>
-      <option name="number" value="00500" />
-      <option name="presentableId" value="LOCAL-00500" />
-      <option name="project" value="LOCAL" />
-      <updated>1716982188948</updated>
+      <workItem from="1717484803618" duration="5519000" />
+      <workItem from="1717560862935" duration="382000" />
+      <workItem from="1717562502387" duration="682000" />
     </task>
     <task id="LOCAL-00501" summary="String - lastIndexOf -- 返回文件后缀名 - 改进-String 方法中有调用最后一个索引的方法">
       <option name="closed" value="true" />
@@ -850,7 +845,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717492816974</updated>
     </task>
-    <option name="localTasksCounter" value="549" />
+    <task id="LOCAL-00549" summary="Math - Test -- 判断一个数是不是自幂数">
+      <option name="closed" value="true" />
+      <created>1717493837699</created>
+      <option name="number" value="00549" />
+      <option name="presentableId" value="LOCAL-00549" />
+      <option name="project" value="LOCAL" />
+      <updated>1717493837699</updated>
+    </task>
+    <option name="localTasksCounter" value="550" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -902,7 +905,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="String.equalsIgnoreCase - 底层是 使用了 toLowerCase() 和 toUpperCase()" />
     <MESSAGE value="英语学习 - 菜单管理修改" />
     <MESSAGE value="ArrayList - about" />
     <MESSAGE value="Set - set 的关于&#10;&#10;set - set 实现了 Collection 接口，实际上也只重写了接口方法。&#10;与 Array 不同的是 &#10;Array：有加入新的方法， 顺序输出， 可以重复&#10;Set：没有加入新的方法， 无序输出， 不可以重复" />
@@ -927,7 +929,8 @@
     <MESSAGE value="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16 &#10;4.1*4.1 != 16&#10;3.9*3.9 != 16" />
     <MESSAGE value="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16&#10;4.1*4.1 != 16&#10;3.9*3.9 != 16" />
     <MESSAGE value="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16 &#10;4.1*4.1 != 16&#10;3.9*3.9 != 16&#10;两个因子不可能都比这个数的平方根大或者小" />
-    <option name="LAST_COMMIT_MESSAGE" value="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16 &#10;4.1*4.1 != 16&#10;3.9*3.9 != 16&#10;两个因子不可能都比这个数的平方根大或者小" />
+    <MESSAGE value="Math - Test -- 判断一个数是不是自幂数" />
+    <option name="LAST_COMMIT_MESSAGE" value="Math - Test -- 判断一个数是不是自幂数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
