@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="异常 - java.lang.NumberFormatException -- 数据转化异常">
-      <change afterPath="$PROJECT_DIR$/src/A20240605/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240605/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A20240605/Text3.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="异常 - java.lang.NullPointerException -- 访问空指针">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[更改]5/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[更改]6/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase___5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase___6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240605/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240605/Test5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,27 +74,27 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/idea/idea 存储/quite/src/LearnEnglish/EnglishWords",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/LearnEnglish/EnglishWords&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\EnglishWords" />
@@ -112,7 +115,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A20240130">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -460,39 +463,9 @@
       <workItem from="1717484803618" duration="5519000" />
       <workItem from="1717560862935" duration="382000" />
       <workItem from="1717562502387" duration="3036000" />
-      <workItem from="1717585733855" duration="4095000" />
-    </task>
-    <task id="LOCAL-00507" summary="File - 查找 src 文件下有几个不同类别的文件">
-      <option name="closed" value="true" />
-      <created>1716989602755</created>
-      <option name="number" value="00507" />
-      <option name="presentableId" value="LOCAL-00507" />
-      <option name="project" value="LOCAL" />
-      <updated>1716989602755</updated>
-    </task>
-    <task id="LOCAL-00508" summary="英语学习 - 导入文本库 - 修改json格式">
-      <option name="closed" value="true" />
-      <created>1717140698030</created>
-      <option name="number" value="00508" />
-      <option name="presentableId" value="LOCAL-00508" />
-      <option name="project" value="LOCAL" />
-      <updated>1717140698030</updated>
-    </task>
-    <task id="LOCAL-00509" summary="File - 修改内容使其更加完美">
-      <option name="closed" value="true" />
-      <created>1717154962053</created>
-      <option name="number" value="00509" />
-      <option name="presentableId" value="LOCAL-00509" />
-      <option name="project" value="LOCAL" />
-      <updated>1717154962053</updated>
-    </task>
-    <task id="LOCAL-00510" summary="idea 配置 -- 文件夹缩进">
-      <option name="closed" value="true" />
-      <created>1717155052883</created>
-      <option name="number" value="00510" />
-      <option name="presentableId" value="LOCAL-00510" />
-      <option name="project" value="LOCAL" />
-      <updated>1717155052883</updated>
+      <workItem from="1717585733855" duration="5053000" />
+      <workItem from="1717677052606" duration="9000" />
+      <workItem from="1717914612226" duration="609000" />
     </task>
     <task id="LOCAL-00511" summary="ArrayList - ArrayList 的初始长度为...&#10;&#10;ArrayList 的初始长度： 0&#10;StringBuilder 的初始长度： 16">
       <option name="closed" value="true" />
@@ -854,7 +827,39 @@
       <option name="project" value="LOCAL" />
       <updated>1717591051006</updated>
     </task>
-    <option name="localTasksCounter" value="556" />
+    <task id="LOCAL-00556" summary="异常 - java.lang.StackOverflowError -- 栈爆满">
+      <option name="closed" value="true" />
+      <created>1717591214785</created>
+      <option name="number" value="00556" />
+      <option name="presentableId" value="LOCAL-00556" />
+      <option name="project" value="LOCAL" />
+      <updated>1717591214785</updated>
+    </task>
+    <task id="LOCAL-00557" summary="异常 - java.lang.OutOfMemoryError -- 堆爆满">
+      <option name="closed" value="true" />
+      <created>1717591338357</created>
+      <option name="number" value="00557" />
+      <option name="presentableId" value="LOCAL-00557" />
+      <option name="project" value="LOCAL" />
+      <updated>1717591338357</updated>
+    </task>
+    <task id="LOCAL-00558" summary="异常 - java.lang.ArithmeticException -- 计算错误">
+      <option name="closed" value="true" />
+      <created>1717591417932</created>
+      <option name="number" value="00558" />
+      <option name="presentableId" value="LOCAL-00558" />
+      <option name="project" value="LOCAL" />
+      <updated>1717591417932</updated>
+    </task>
+    <task id="LOCAL-00559" summary="异常 - java.lang.NullPointerException -- 访问空指针">
+      <option name="closed" value="true" />
+      <created>1717591531267</created>
+      <option name="number" value="00559" />
+      <option name="presentableId" value="LOCAL-00559" />
+      <option name="project" value="LOCAL" />
+      <updated>1717591531267</updated>
+    </task>
+    <option name="localTasksCounter" value="560" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -906,10 +911,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="properties" />
-    <MESSAGE value="英语学习 - 使用 properties 代替 json" />
-    <MESSAGE value="Math - abs -- abs" />
-    <MESSAGE value="Revert &quot;Revert &quot;Math - abs -- abs 的能力便是取得绝对值&quot;&quot;&#10;&#10;This reverts commit 3461efcf8145ddc7a5546b625d795057f65a59eb." />
     <MESSAGE value="Revert &quot;Revert &quot;Math - abs -- abs 的能力便是取得绝对值" />
     <MESSAGE value="Math - abs -- abs 的能力便是取得绝对值" />
     <MESSAGE value="Math - abs -- JDK 的 bug 解决 - 见注释" />
@@ -931,7 +932,11 @@
     <MESSAGE value="正则表达式" />
     <MESSAGE value="异常 - java.lang.ArrayIndexOutOfBoundsException -- 这个数组的索引不存在" />
     <MESSAGE value="异常 - java.lang.NumberFormatException -- 数据转化异常" />
-    <option name="LAST_COMMIT_MESSAGE" value="异常 - java.lang.NumberFormatException -- 数据转化异常" />
+    <MESSAGE value="异常 - java.lang.StackOverflowError -- 栈爆满" />
+    <MESSAGE value="异常 - java.lang.OutOfMemoryError -- 堆爆满" />
+    <MESSAGE value="异常 - java.lang.ArithmeticException -- 计算错误" />
+    <MESSAGE value="异常 - java.lang.NullPointerException -- 访问空指针" />
+    <option name="LAST_COMMIT_MESSAGE" value="异常 - java.lang.NullPointerException -- 访问空指针" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
