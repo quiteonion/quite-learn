@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Runtime - availableProcessors -- 查看自己的 CPU 线程数">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Runtime - freeMemory -- 虚拟机目前剩余的内存大小">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240611/RunTimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240611/RunTimeDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -461,31 +462,7 @@
       <workItem from="1717585733855" duration="5053000" />
       <workItem from="1717677052606" duration="9000" />
       <workItem from="1717914612226" duration="1848000" />
-      <workItem from="1718092422034" duration="3593000" />
-    </task>
-    <task id="LOCAL-00519" summary="ArrayList - contains -- 如果自己书写的类型 就会导致无法判断怎么解决">
-      <option name="closed" value="true" />
-      <created>1717161330582</created>
-      <option name="number" value="00519" />
-      <option name="presentableId" value="LOCAL-00519" />
-      <option name="project" value="LOCAL" />
-      <updated>1717161330582</updated>
-    </task>
-    <task id="LOCAL-00520" summary="ArrayList - contains -- 通过阅读源码可以知道 ，contains 会调用自己的 equals 方法再对比">
-      <option name="closed" value="true" />
-      <created>1717161387534</created>
-      <option name="number" value="00520" />
-      <option name="presentableId" value="LOCAL-00520" />
-      <option name="project" value="LOCAL" />
-      <updated>1717161387534</updated>
-    </task>
-    <task id="LOCAL-00521" summary="ArrayList">
-      <option name="closed" value="true" />
-      <created>1717162035862</created>
-      <option name="number" value="00521" />
-      <option name="presentableId" value="LOCAL-00521" />
-      <option name="project" value="LOCAL" />
-      <updated>1717162035862</updated>
+      <workItem from="1718092422034" duration="4458000" />
     </task>
     <task id="LOCAL-00522" summary="学生管理系统">
       <option name="closed" value="true" />
@@ -855,7 +832,31 @@
       <option name="project" value="LOCAL" />
       <updated>1718096262011</updated>
     </task>
-    <option name="localTasksCounter" value="568" />
+    <task id="LOCAL-00568" summary="Runtime - maxMemory -- 虚拟机能从系统获得的总内存的大小">
+      <option name="closed" value="true" />
+      <created>1718096501554</created>
+      <option name="number" value="00568" />
+      <option name="presentableId" value="LOCAL-00568" />
+      <option name="project" value="LOCAL" />
+      <updated>1718096501554</updated>
+    </task>
+    <task id="LOCAL-00569" summary="Runtime - totalMemory -- 虚拟机已经从系统获取的总内存的大小">
+      <option name="closed" value="true" />
+      <created>1718096582132</created>
+      <option name="number" value="00569" />
+      <option name="presentableId" value="LOCAL-00569" />
+      <option name="project" value="LOCAL" />
+      <updated>1718096582132</updated>
+    </task>
+    <task id="LOCAL-00570" summary="Runtime - freeMemory -- 虚拟机目前剩余的内存大小">
+      <option name="closed" value="true" />
+      <created>1718096682652</created>
+      <option name="number" value="00570" />
+      <option name="presentableId" value="LOCAL-00570" />
+      <option name="project" value="LOCAL" />
+      <updated>1718096682652</updated>
+    </task>
+    <option name="localTasksCounter" value="571" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -907,9 +908,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Math - max -- 判断最大值" />
-    <MESSAGE value="Math - min -- 判断最小值" />
-    <MESSAGE value="Math - pow -- 获取 前者的后者次幂" />
     <MESSAGE value="Math - sqrt -- 给一个数字开 根号" />
     <MESSAGE value="Math - random -- 随机 0 ~ 1 之间的一个小数" />
     <MESSAGE value="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16 &#10;4.1*4.1 != 16&#10;3.9*3.9 != 16" />
@@ -932,7 +930,10 @@
     <MESSAGE value="Runtime - about &quot;new&quot; -- Runtime 内部提供了一个静态方法...&#10;&#10;这个方法直接帮助我们 new 了一个 Runtime 的对象" />
     <MESSAGE value="Runtime - exit -- 相传 System 就是调用的他" />
     <MESSAGE value="Runtime - availableProcessors -- 查看自己的 CPU 线程数" />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime - availableProcessors -- 查看自己的 CPU 线程数" />
+    <MESSAGE value="Runtime - maxMemory -- 虚拟机能从系统获得的总内存的大小" />
+    <MESSAGE value="Runtime - totalMemory -- 虚拟机已经从系统获取的总内存的大小" />
+    <MESSAGE value="Runtime - freeMemory -- 虚拟机目前剩余的内存大小" />
+    <option name="LAST_COMMIT_MESSAGE" value="Runtime - freeMemory -- 虚拟机目前剩余的内存大小" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
