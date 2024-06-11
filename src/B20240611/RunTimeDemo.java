@@ -5,5 +5,6 @@ public class RunTimeDemo {
 //        Runtime runtime = new Runtime();
         Runtime runtime = Runtime.getRuntime();
 
+        runtime.exit(0);
     }
 }
