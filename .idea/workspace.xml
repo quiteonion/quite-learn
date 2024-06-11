@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Runtime - about &quot;new&quot; -- Runtime 内部提供了一个静态方法...&#10;&#10;这个方法直接帮助我们 new 了一个 Runtime 的对象">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Runtime - exit -- 相传 System 就是调用的他" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -461,15 +459,7 @@
       <workItem from="1717585733855" duration="5053000" />
       <workItem from="1717677052606" duration="9000" />
       <workItem from="1717914612226" duration="1848000" />
-      <workItem from="1718092422034" duration="2763000" />
-    </task>
-    <task id="LOCAL-00517" summary="ArrayList - remove 及其重载方法 和 valueOf 的引入">
-      <option name="closed" value="true" />
-      <created>1717160172373</created>
-      <option name="number" value="00517" />
-      <option name="presentableId" value="LOCAL-00517" />
-      <option name="project" value="LOCAL" />
-      <updated>1717160172373</updated>
+      <workItem from="1718092422034" duration="3266000" />
     </task>
     <task id="LOCAL-00518" summary="ArrayList - contains -- 查找是否拥有要查找的值">
       <option name="closed" value="true" />
@@ -855,7 +845,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718094705516</updated>
     </task>
-    <option name="localTasksCounter" value="566" />
+    <task id="LOCAL-00566" summary="Runtime - exit -- 相传 System 就是调用的他">
+      <option name="closed" value="true" />
+      <created>1718095790968</created>
+      <option name="number" value="00566" />
+      <option name="presentableId" value="LOCAL-00566" />
+      <option name="project" value="LOCAL" />
+      <updated>1718095790968</updated>
+    </task>
+    <option name="localTasksCounter" value="567" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -907,7 +905,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Math - floor -- 向下取整大地版...&#10;&#10;与 ceil 相反，向下取整大地板只要小数点后面跟着东西，就直接向下取整" />
     <MESSAGE value="Math - round -- 四舍五入" />
     <MESSAGE value="Math - max -- 判断最大值" />
     <MESSAGE value="Math - min -- 判断最小值" />
@@ -932,7 +929,8 @@
     <MESSAGE value="System - arraycopy -- 数组的扩展...&#10;&#10;System.arraycopy(老数组， 从哪里开始复制， 新数组， 从哪里开始粘贴， 复制个数)" />
     <MESSAGE value="Runtime - about &quot;new&quot; -- Runtime 不能直接被 new ...&#10;&#10;Runtime 的构造器被 private 所修饰，无法自行 new 一个对象出来" />
     <MESSAGE value="Runtime - about &quot;new&quot; -- Runtime 内部提供了一个静态方法...&#10;&#10;这个方法直接帮助我们 new 了一个 Runtime 的对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime - about &quot;new&quot; -- Runtime 内部提供了一个静态方法...&#10;&#10;这个方法直接帮助我们 new 了一个 Runtime 的对象" />
+    <MESSAGE value="Runtime - exit -- 相传 System 就是调用的他" />
+    <option name="LAST_COMMIT_MESSAGE" value="Runtime - exit -- 相传 System 就是调用的他" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
