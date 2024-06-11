@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Runtime - exit -- 相传 System 就是调用的他" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Runtime - availableProcessors -- 查看自己的 CPU 线程数">
+      <change beforePath="$PROJECT_DIR$/src/B20240611/RunTimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240611/RunTimeDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -459,15 +461,7 @@
       <workItem from="1717585733855" duration="5053000" />
       <workItem from="1717677052606" duration="9000" />
       <workItem from="1717914612226" duration="1848000" />
-      <workItem from="1718092422034" duration="3266000" />
-    </task>
-    <task id="LOCAL-00518" summary="ArrayList - contains -- 查找是否拥有要查找的值">
-      <option name="closed" value="true" />
-      <created>1717161261902</created>
-      <option name="number" value="00518" />
-      <option name="presentableId" value="LOCAL-00518" />
-      <option name="project" value="LOCAL" />
-      <updated>1717161261902</updated>
+      <workItem from="1718092422034" duration="3593000" />
     </task>
     <task id="LOCAL-00519" summary="ArrayList - contains -- 如果自己书写的类型 就会导致无法判断怎么解决">
       <option name="closed" value="true" />
@@ -853,7 +847,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718095790968</updated>
     </task>
-    <option name="localTasksCounter" value="567" />
+    <task id="LOCAL-00567" summary="Runtime - availableProcessors -- 查看自己的 CPU 线程数">
+      <option name="closed" value="true" />
+      <created>1718096262011</created>
+      <option name="number" value="00567" />
+      <option name="presentableId" value="LOCAL-00567" />
+      <option name="project" value="LOCAL" />
+      <updated>1718096262011</updated>
+    </task>
+    <option name="localTasksCounter" value="568" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -905,7 +907,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Math - round -- 四舍五入" />
     <MESSAGE value="Math - max -- 判断最大值" />
     <MESSAGE value="Math - min -- 判断最小值" />
     <MESSAGE value="Math - pow -- 获取 前者的后者次幂" />
@@ -930,7 +931,8 @@
     <MESSAGE value="Runtime - about &quot;new&quot; -- Runtime 不能直接被 new ...&#10;&#10;Runtime 的构造器被 private 所修饰，无法自行 new 一个对象出来" />
     <MESSAGE value="Runtime - about &quot;new&quot; -- Runtime 内部提供了一个静态方法...&#10;&#10;这个方法直接帮助我们 new 了一个 Runtime 的对象" />
     <MESSAGE value="Runtime - exit -- 相传 System 就是调用的他" />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime - exit -- 相传 System 就是调用的他" />
+    <MESSAGE value="Runtime - availableProcessors -- 查看自己的 CPU 线程数" />
+    <option name="LAST_COMMIT_MESSAGE" value="Runtime - availableProcessors -- 查看自己的 CPU 线程数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
