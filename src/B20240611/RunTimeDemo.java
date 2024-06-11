@@ -6,6 +6,8 @@ public class RunTimeDemo {
         Runtime runtime = Runtime.getRuntime();
         System.out.println("CPU 线程数： " + runtime.availableProcessors());
         System.out.println("JVM 能从系统中获取的总内存的大小： " + runtime.maxMemory() + " size = " + runtime.maxMemory() / 1024 + " KB = " + runtime.maxMemory() / 1024 / 1024 + " MB");
+        System.out.println("JVM 已经从系统中获取的总内存的大小： " + runtime.totalMemory() + " size = " + runtime.totalMemory() / 1024 + " KB = " + runtime.totalMemory() / 1024 / 1024 + " MB");
+
         runtime.exit(0);
     }
 }
