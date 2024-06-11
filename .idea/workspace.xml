@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="System - currentTimeMillis -- 使代码高效化，可扩展">
-      <change beforePath="$PROJECT_DIR$/src/B20240611/SystemArrayCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240611/SystemArrayCopy.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="System - arraycopy -- 数组的扩展...&#10;&#10;System.arraycopy(老数组， 从哪里开始复制， 新数组， 从哪里开始粘贴， 复制个数)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -461,15 +461,7 @@
       <workItem from="1717585733855" duration="5053000" />
       <workItem from="1717677052606" duration="9000" />
       <workItem from="1717914612226" duration="1848000" />
-      <workItem from="1718092422034" duration="1175000" />
-    </task>
-    <task id="LOCAL-00514" summary="iterator - 迭代调用">
-      <option name="closed" value="true" />
-      <created>1717158919773</created>
-      <option name="number" value="00514" />
-      <option name="presentableId" value="LOCAL-00514" />
-      <option name="project" value="LOCAL" />
-      <updated>1717158919773</updated>
+      <workItem from="1718092422034" duration="1835000" />
     </task>
     <task id="LOCAL-00515" summary="ArrayList - iterator - 迭代调用">
       <option name="closed" value="true" />
@@ -855,7 +847,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718093535428</updated>
     </task>
-    <option name="localTasksCounter" value="563" />
+    <task id="LOCAL-00563" summary="System - arraycopy -- 数组的扩展...&#10;&#10;System.arraycopy(老数组， 从哪里开始复制， 新数组， 从哪里开始粘贴， 复制个数)">
+      <option name="closed" value="true" />
+      <created>1718093940053</created>
+      <option name="number" value="00563" />
+      <option name="presentableId" value="LOCAL-00563" />
+      <option name="project" value="LOCAL" />
+      <updated>1718093940053</updated>
+    </task>
+    <option name="localTasksCounter" value="564" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -907,7 +907,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Math - abs -- abs 的能力便是取得绝对值" />
     <MESSAGE value="Math - abs -- JDK 的 bug 解决 - 见注释" />
     <MESSAGE value="Math - ceil -- 向上取整天花板...&#10;&#10;无论小数点后面跟着多小，只要有小数，则直接向上取整" />
     <MESSAGE value="Math - floor -- 向下取整大地版...&#10;&#10;与 ceil 相反，向下取整大地板只要小数点后面跟着东西，就直接向下取整" />
@@ -932,7 +931,8 @@
     <MESSAGE value="异常 - java.lang.NullPointerException -- 访问空指针" />
     <MESSAGE value="正则表达式练习网站" />
     <MESSAGE value="System - currentTimeMillis -- 使代码高效化，可扩展" />
-    <option name="LAST_COMMIT_MESSAGE" value="System - currentTimeMillis -- 使代码高效化，可扩展" />
+    <MESSAGE value="System - arraycopy -- 数组的扩展...&#10;&#10;System.arraycopy(老数组， 从哪里开始复制， 新数组， 从哪里开始粘贴， 复制个数)" />
+    <option name="LAST_COMMIT_MESSAGE" value="System - arraycopy -- 数组的扩展...&#10;&#10;System.arraycopy(老数组， 从哪里开始复制， 新数组， 从哪里开始粘贴， 复制个数)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
