@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="正则表达式练习网站">
-      <change afterPath="$PROJECT_DIR$/src/B20240611/SystemArrayCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="System - currentTimeMillis -- 使代码高效化，可扩展">
+      <change beforePath="$PROJECT_DIR$/src/B20240611/SystemArrayCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240611/SystemArrayCopy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -462,15 +461,7 @@
       <workItem from="1717585733855" duration="5053000" />
       <workItem from="1717677052606" duration="9000" />
       <workItem from="1717914612226" duration="1848000" />
-      <workItem from="1718092422034" duration="845000" />
-    </task>
-    <task id="LOCAL-00513" summary="ArrayList - ArrayList 的父类 AbstractCollection 重写了 toString 方法">
-      <option name="closed" value="true" />
-      <created>1717157830819</created>
-      <option name="number" value="00513" />
-      <option name="presentableId" value="LOCAL-00513" />
-      <option name="project" value="LOCAL" />
-      <updated>1717157830819</updated>
+      <workItem from="1718092422034" duration="1175000" />
     </task>
     <task id="LOCAL-00514" summary="iterator - 迭代调用">
       <option name="closed" value="true" />
@@ -856,7 +847,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717918441860</updated>
     </task>
-    <option name="localTasksCounter" value="562" />
+    <task id="LOCAL-00562" summary="System - currentTimeMillis -- 使代码高效化，可扩展">
+      <option name="closed" value="true" />
+      <created>1718093535428</created>
+      <option name="number" value="00562" />
+      <option name="presentableId" value="LOCAL-00562" />
+      <option name="project" value="LOCAL" />
+      <updated>1718093535428</updated>
+    </task>
+    <option name="localTasksCounter" value="563" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -924,7 +923,6 @@
     <MESSAGE value="Math - Test -- 判断一个数是不是自幂数" />
     <MESSAGE value="System - exit -- 停止虚拟机...&#10;&#10;如果是0 ： 正常停止&#10;如果不是0 ： 异常停止" />
     <MESSAGE value="System - currentTimeMillis -- 计算当前时间与 1970 年 1 月 1 日 0 点 0 分 0 时 0 秒 的时间间隔" />
-    <MESSAGE value="System - currentTimeMillis -- 使代码高效化，可扩展" />
     <MESSAGE value="正则表达式" />
     <MESSAGE value="异常 - java.lang.ArrayIndexOutOfBoundsException -- 这个数组的索引不存在" />
     <MESSAGE value="异常 - java.lang.NumberFormatException -- 数据转化异常" />
@@ -933,7 +931,8 @@
     <MESSAGE value="异常 - java.lang.ArithmeticException -- 计算错误" />
     <MESSAGE value="异常 - java.lang.NullPointerException -- 访问空指针" />
     <MESSAGE value="正则表达式练习网站" />
-    <option name="LAST_COMMIT_MESSAGE" value="正则表达式练习网站" />
+    <MESSAGE value="System - currentTimeMillis -- 使代码高效化，可扩展" />
+    <option name="LAST_COMMIT_MESSAGE" value="System - currentTimeMillis -- 使代码高效化，可扩展" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
