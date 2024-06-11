@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="异常 - java.lang.NullPointerException -- 访问空指针">
-      <change afterPath="$PROJECT_DIR$/src/B20240609/README.md" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="正则表达式练习网站">
+      <change afterPath="$PROJECT_DIR$/src/B20240611/SystemArrayCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +111,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A20240130">
+  <component name="RunManager">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -460,15 +461,8 @@
       <workItem from="1717562502387" duration="3036000" />
       <workItem from="1717585733855" duration="5053000" />
       <workItem from="1717677052606" duration="9000" />
-      <workItem from="1717914612226" duration="941000" />
-    </task>
-    <task id="LOCAL-00512" summary="ArrayList - ArrayList 的添加长度为...&#10;&#10;请移步 README">
-      <option name="closed" value="true" />
-      <created>1717156801615</created>
-      <option name="number" value="00512" />
-      <option name="presentableId" value="LOCAL-00512" />
-      <option name="project" value="LOCAL" />
-      <updated>1717156801615</updated>
+      <workItem from="1717914612226" duration="1848000" />
+      <workItem from="1718092422034" duration="845000" />
     </task>
     <task id="LOCAL-00513" summary="ArrayList - ArrayList 的父类 AbstractCollection 重写了 toString 方法">
       <option name="closed" value="true" />
@@ -854,7 +848,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717916769714</updated>
     </task>
-    <option name="localTasksCounter" value="561" />
+    <task id="LOCAL-00561" summary="正则表达式练习网站">
+      <option name="closed" value="true" />
+      <created>1717918441860</created>
+      <option name="number" value="00561" />
+      <option name="presentableId" value="LOCAL-00561" />
+      <option name="project" value="LOCAL" />
+      <updated>1717918441860</updated>
+    </task>
+    <option name="localTasksCounter" value="562" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -906,7 +908,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Revert &quot;Revert &quot;Math - abs -- abs 的能力便是取得绝对值" />
     <MESSAGE value="Math - abs -- abs 的能力便是取得绝对值" />
     <MESSAGE value="Math - abs -- JDK 的 bug 解决 - 见注释" />
     <MESSAGE value="Math - ceil -- 向上取整天花板...&#10;&#10;无论小数点后面跟着多小，只要有小数，则直接向上取整" />
@@ -931,7 +932,8 @@
     <MESSAGE value="异常 - java.lang.OutOfMemoryError -- 堆爆满" />
     <MESSAGE value="异常 - java.lang.ArithmeticException -- 计算错误" />
     <MESSAGE value="异常 - java.lang.NullPointerException -- 访问空指针" />
-    <option name="LAST_COMMIT_MESSAGE" value="异常 - java.lang.NullPointerException -- 访问空指针" />
+    <MESSAGE value="正则表达式练习网站" />
+    <option name="LAST_COMMIT_MESSAGE" value="正则表达式练习网站" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

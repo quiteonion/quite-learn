@@ -2,7 +2,8 @@ package B20240605;
 
 public class CurrentTimeMillisTest {
     public static void main(String[] args) {
-
+       TableNumber t = new TableNumber();
+        System.out.println(t.computeTime());
     }
 }
 abstract class ComputeTime{
