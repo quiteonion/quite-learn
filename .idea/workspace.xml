@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Runtime - freeMemory -- 虚拟机目前剩余的内存大小">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240611/RunTimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240611/RunTimeDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Runtime - exec -- 执行 CMD 指令 --- about shutdown...&#10;&#10;shutdown&#10;加上参数才能关机&#10;-s 默认在1分钟之后关机&#10;-s -t 指定关机时间（秒钟）&#10;-a 取消关机操作&#10;-r 关机并重启&#10;shutdown -s -t 120&#10;两分钟后关机" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -462,15 +459,7 @@
       <workItem from="1717585733855" duration="5053000" />
       <workItem from="1717677052606" duration="9000" />
       <workItem from="1717914612226" duration="1848000" />
-      <workItem from="1718092422034" duration="4458000" />
-    </task>
-    <task id="LOCAL-00522" summary="学生管理系统">
-      <option name="closed" value="true" />
-      <created>1717222152578</created>
-      <option name="number" value="00522" />
-      <option name="presentableId" value="LOCAL-00522" />
-      <option name="project" value="LOCAL" />
-      <updated>1717222152578</updated>
+      <workItem from="1718092422034" duration="5527000" />
     </task>
     <task id="LOCAL-00523" summary="英语学习 - 导入文本库 - 修改json格式">
       <option name="closed" value="true" />
@@ -856,7 +845,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718096682652</updated>
     </task>
-    <option name="localTasksCounter" value="571" />
+    <task id="LOCAL-00571" summary="Runtime - exec -- 执行 CMD 指令 --- about shutdown...&#10;&#10;shutdown&#10;加上参数才能关机&#10;-s 默认在1分钟之后关机&#10;-s -t 指定关机时间（秒钟）&#10;-a 取消关机操作&#10;-r 关机并重启&#10;shutdown -s -t 120&#10;两分钟后关机">
+      <option name="closed" value="true" />
+      <created>1718097496286</created>
+      <option name="number" value="00571" />
+      <option name="presentableId" value="LOCAL-00571" />
+      <option name="project" value="LOCAL" />
+      <updated>1718097496286</updated>
+    </task>
+    <option name="localTasksCounter" value="572" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -908,7 +905,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Math - sqrt -- 给一个数字开 根号" />
     <MESSAGE value="Math - random -- 随机 0 ~ 1 之间的一个小数" />
     <MESSAGE value="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16 &#10;4.1*4.1 != 16&#10;3.9*3.9 != 16" />
     <MESSAGE value="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16&#10;4.1*4.1 != 16&#10;3.9*3.9 != 16" />
@@ -933,7 +929,8 @@
     <MESSAGE value="Runtime - maxMemory -- 虚拟机能从系统获得的总内存的大小" />
     <MESSAGE value="Runtime - totalMemory -- 虚拟机已经从系统获取的总内存的大小" />
     <MESSAGE value="Runtime - freeMemory -- 虚拟机目前剩余的内存大小" />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime - freeMemory -- 虚拟机目前剩余的内存大小" />
+    <MESSAGE value="Runtime - exec -- 执行 CMD 指令 --- about shutdown...&#10;&#10;shutdown&#10;加上参数才能关机&#10;-s 默认在1分钟之后关机&#10;-s -t 指定关机时间（秒钟）&#10;-a 取消关机操作&#10;-r 关机并重启&#10;shutdown -s -t 120&#10;两分钟后关机" />
+    <option name="LAST_COMMIT_MESSAGE" value="Runtime - exec -- 执行 CMD 指令 --- about shutdown...&#10;&#10;shutdown&#10;加上参数才能关机&#10;-s 默认在1分钟之后关机&#10;-s -t 指定关机时间（秒钟）&#10;-a 取消关机操作&#10;-r 关机并重启&#10;shutdown -s -t 120&#10;两分钟后关机" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
