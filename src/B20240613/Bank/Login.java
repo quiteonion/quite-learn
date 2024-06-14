@@ -13,9 +13,19 @@ public class Login extends JFrame{
     }
 
     private void interior() {
+        touxiang();
         enrollSet();
         loginSet();
     }
+
+    private void touxiang() {
+        ImageIcon touxiang = new ImageIcon("src/B20240613/Img/TouXiang.png");
+        JLabel touxiangjLabel = new JLabel(touxiang);
+        touxiangjLabel.setBounds(330,20 , 400,400);
+        this.getContentPane().add(touxiangjLabel);
+
+    }
+
     public void loginSet(){
         JLabel  login = new JLabel("密码");
         login.setFont(new Font("宋体", Font.PLAIN, 35));

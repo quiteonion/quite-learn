@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 登录 -- 显示界面最好放在最后面">
-      <change afterPath="$PROJECT_DIR$/lib/jsoup-1.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240613/Img/TouXiang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240613/Img/登录框.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240613/Main.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 登录 -- 登录界面的创建">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A20240417/AboutJS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240417/AboutJS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -471,15 +463,7 @@
       <workItem from="1717914612226" duration="1848000" />
       <workItem from="1718092422034" duration="5527000" />
       <workItem from="1718281553871" duration="1697000" />
-      <workItem from="1718349340431" duration="10888000" />
-    </task>
-    <task id="LOCAL-00533" summary="英语学习 - 使用 properties 代替 json">
-      <option name="closed" value="true" />
-      <created>1717399256092</created>
-      <option name="number" value="00533" />
-      <option name="presentableId" value="LOCAL-00533" />
-      <option name="project" value="LOCAL" />
-      <updated>1717399256092</updated>
+      <workItem from="1718349340431" duration="11709000" />
     </task>
     <task id="LOCAL-00534" summary="英语学习 - 使用 properties 代替 json">
       <option name="closed" value="true" />
@@ -865,7 +849,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718352670387</updated>
     </task>
-    <option name="localTasksCounter" value="582" />
+    <task id="LOCAL-00582" summary="银行 - 登录 -- 登录界面的创建">
+      <option name="closed" value="true" />
+      <created>1718363515055</created>
+      <option name="number" value="00582" />
+      <option name="presentableId" value="LOCAL-00582" />
+      <option name="project" value="LOCAL" />
+      <updated>1718363515055</updated>
+    </task>
+    <option name="localTasksCounter" value="583" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -917,7 +909,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="异常 - java.lang.NumberFormatException -- 数据转化异常" />
     <MESSAGE value="异常 - java.lang.StackOverflowError -- 栈爆满" />
     <MESSAGE value="异常 - java.lang.OutOfMemoryError -- 堆爆满" />
     <MESSAGE value="异常 - java.lang.ArithmeticException -- 计算错误" />
@@ -942,7 +933,8 @@
     <MESSAGE value="银行 - 登录 -- 菜单的构建" />
     <MESSAGE value="银行 - 用户 -- 基本情况" />
     <MESSAGE value="银行 - 登录 -- 显示界面最好放在最后面" />
-    <option name="LAST_COMMIT_MESSAGE" value="银行 - 登录 -- 显示界面最好放在最后面" />
+    <MESSAGE value="银行 - 登录 -- 登录界面的创建" />
+    <option name="LAST_COMMIT_MESSAGE" value="银行 - 登录 -- 登录界面的创建" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
