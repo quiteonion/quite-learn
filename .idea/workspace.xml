@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 登录 -- 设置登录界面关闭模式">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 登录 -- 重组为一个方法的内容">
+      <change afterPath="$PROJECT_DIR$/src/B20240613/Bank/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -463,15 +465,7 @@
       <workItem from="1717914612226" duration="1848000" />
       <workItem from="1718092422034" duration="5527000" />
       <workItem from="1718281553871" duration="1697000" />
-      <workItem from="1718349340431" duration="1935000" />
-    </task>
-    <task id="LOCAL-00529" summary="Set - set -- equals 重写 - 单单重写一个 equals 还不够，还需要重写 hashCode">
-      <option name="closed" value="true" />
-      <created>1717311486766</created>
-      <option name="number" value="00529" />
-      <option name="presentableId" value="LOCAL-00529" />
-      <option name="project" value="LOCAL" />
-      <updated>1717311486766</updated>
+      <workItem from="1718349340431" duration="2935000" />
     </task>
     <task id="LOCAL-00530" summary="Map - Hashtable -  properties - properties 是 Hashtable 的一个 子类，基础功能都有">
       <option name="closed" value="true" />
@@ -857,7 +851,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718351328717</updated>
     </task>
-    <option name="localTasksCounter" value="578" />
+    <task id="LOCAL-00578" summary="银行 - 登录 -- 重组为一个方法的内容">
+      <option name="closed" value="true" />
+      <created>1718351483150</created>
+      <option name="number" value="00578" />
+      <option name="presentableId" value="LOCAL-00578" />
+      <option name="project" value="LOCAL" />
+      <updated>1718351483150</updated>
+    </task>
+    <option name="localTasksCounter" value="579" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -909,7 +911,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="System - exit -- 停止虚拟机...&#10;&#10;如果是0 ： 正常停止&#10;如果不是0 ： 异常停止" />
     <MESSAGE value="System - currentTimeMillis -- 计算当前时间与 1970 年 1 月 1 日 0 点 0 分 0 时 0 秒 的时间间隔" />
     <MESSAGE value="正则表达式" />
     <MESSAGE value="异常 - java.lang.ArrayIndexOutOfBoundsException -- 这个数组的索引不存在" />
@@ -934,7 +935,8 @@
     <MESSAGE value="银行 - 登录 -- 设置登录界面的标题" />
     <MESSAGE value="银行 - 登录 -- 设置登录界面居中" />
     <MESSAGE value="银行 - 登录 -- 设置登录界面关闭模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="银行 - 登录 -- 设置登录界面关闭模式" />
+    <MESSAGE value="银行 - 登录 -- 重组为一个方法的内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="银行 - 登录 -- 重组为一个方法的内容" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
