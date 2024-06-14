@@ -5,6 +5,8 @@ import javax.swing.*;
 public class Login extends JFrame{
     public Login(){
         ui();
+
+        this.setVisible(true);
     }
     private void ui(){
         this.setSize(1050,800);
@@ -16,7 +18,7 @@ public class Login extends JFrame{
         this.setDefaultCloseOperation(3);
         menu();
 
-        this.setVisible(true);
+
     }
     private void menu(){
         JMenuBar jMenuBar = new JMenuBar();
