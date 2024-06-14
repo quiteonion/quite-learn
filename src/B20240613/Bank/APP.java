@@ -8,4 +8,8 @@ public class APP {
      * 查找账号
      * 删除账号
      */
+    public static void main(String[] args) {
+        new Login();
+
+    }
 }
