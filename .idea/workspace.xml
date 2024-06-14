@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 思路构思">
-      <change afterPath="$PROJECT_DIR$/src/B20240613/Bank/Enroll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 登录 -- 登录界面的设计">
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -466,15 +463,7 @@
       <workItem from="1717914612226" duration="1848000" />
       <workItem from="1718092422034" duration="5527000" />
       <workItem from="1718281553871" duration="1697000" />
-      <workItem from="1718349340431" duration="959000" />
-    </task>
-    <task id="LOCAL-00524" summary="String.equalsIgnoreCase - 底层是 使用了 toLowerCase() 和 toUpperCase()">
-      <option name="closed" value="true" />
-      <created>1717293191170</created>
-      <option name="number" value="00524" />
-      <option name="presentableId" value="LOCAL-00524" />
-      <option name="project" value="LOCAL" />
-      <updated>1717293191170</updated>
+      <workItem from="1718349340431" duration="1319000" />
     </task>
     <task id="LOCAL-00525" summary="英语学习 - 菜单管理修改">
       <option name="closed" value="true" />
@@ -860,7 +849,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718294937016</updated>
     </task>
-    <option name="localTasksCounter" value="573" />
+    <task id="LOCAL-00573" summary="银行 - 登录 -- 登录界面的设计">
+      <option name="closed" value="true" />
+      <created>1718350527081</created>
+      <option name="number" value="00573" />
+      <option name="presentableId" value="LOCAL-00573" />
+      <option name="project" value="LOCAL" />
+      <updated>1718350527081</updated>
+    </task>
+    <option name="localTasksCounter" value="574" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -912,7 +909,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16 &#10;4.1*4.1 != 16&#10;3.9*3.9 != 16" />
     <MESSAGE value="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16&#10;4.1*4.1 != 16&#10;3.9*3.9 != 16" />
     <MESSAGE value="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16 &#10;4.1*4.1 != 16&#10;3.9*3.9 != 16&#10;两个因子不可能都比这个数的平方根大或者小" />
     <MESSAGE value="Math - Test -- 判断一个数是不是自幂数" />
@@ -937,7 +933,8 @@
     <MESSAGE value="Runtime - freeMemory -- 虚拟机目前剩余的内存大小" />
     <MESSAGE value="Runtime - exec -- 执行 CMD 指令 --- about shutdown...&#10;&#10;shutdown&#10;加上参数才能关机&#10;-s 默认在1分钟之后关机&#10;-s -t 指定关机时间（秒钟）&#10;-a 取消关机操作&#10;-r 关机并重启&#10;shutdown -s -t 120&#10;两分钟后关机" />
     <MESSAGE value="银行 - 思路构思" />
-    <option name="LAST_COMMIT_MESSAGE" value="银行 - 思路构思" />
+    <MESSAGE value="银行 - 登录 -- 登录界面的设计" />
+    <option name="LAST_COMMIT_MESSAGE" value="银行 - 登录 -- 登录界面的设计" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
