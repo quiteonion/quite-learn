@@ -10,6 +10,9 @@ public class Login {
         loginjFrame.setAlwaysOnTop(true);
         //界面居中
         loginjFrame.setLocationRelativeTo(null);
+        //设置界面关闭模式
+        loginjFrame.setDefaultCloseOperation(2);
+
 
         loginjFrame.setVisible(true);
     }
