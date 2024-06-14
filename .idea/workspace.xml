@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 登录 -- 设置登录界面的标题">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 登录 -- 设置登录界面关闭模式">
       <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -463,31 +463,7 @@
       <workItem from="1717914612226" duration="1848000" />
       <workItem from="1718092422034" duration="5527000" />
       <workItem from="1718281553871" duration="1697000" />
-      <workItem from="1718349340431" duration="1627000" />
-    </task>
-    <task id="LOCAL-00526" summary="ArrayList - about">
-      <option name="closed" value="true" />
-      <created>1717297072666</created>
-      <option name="number" value="00526" />
-      <option name="presentableId" value="LOCAL-00526" />
-      <option name="project" value="LOCAL" />
-      <updated>1717297072666</updated>
-    </task>
-    <task id="LOCAL-00527" summary="Set - set 的关于&#10;&#10;set - set 实现了 Collection 接口，实际上也只重写了接口方法。&#10;与 Array 不同的是 &#10;Array：有加入新的方法， 顺序输出， 可以重复&#10;Set：没有加入新的方法， 无序输出， 不可以重复">
-      <option name="closed" value="true" />
-      <created>1717299348673</created>
-      <option name="number" value="00527" />
-      <option name="presentableId" value="LOCAL-00527" />
-      <option name="project" value="LOCAL" />
-      <updated>1717299348673</updated>
-    </task>
-    <task id="LOCAL-00528" summary="Set - set -- equals 重写 - 单单重写一个 equals 还不够，还需要重写 hashCode">
-      <option name="closed" value="true" />
-      <created>1717309039351</created>
-      <option name="number" value="00528" />
-      <option name="presentableId" value="LOCAL-00528" />
-      <option name="project" value="LOCAL" />
-      <updated>1717309039351</updated>
+      <workItem from="1718349340431" duration="1935000" />
     </task>
     <task id="LOCAL-00529" summary="Set - set -- equals 重写 - 单单重写一个 equals 还不够，还需要重写 hashCode">
       <option name="closed" value="true" />
@@ -857,7 +833,31 @@
       <option name="project" value="LOCAL" />
       <updated>1718350805430</updated>
     </task>
-    <option name="localTasksCounter" value="575" />
+    <task id="LOCAL-00575" summary="银行 - 登录 -- 设置登录界面居中">
+      <option name="closed" value="true" />
+      <created>1718351114979</created>
+      <option name="number" value="00575" />
+      <option name="presentableId" value="LOCAL-00575" />
+      <option name="project" value="LOCAL" />
+      <updated>1718351114979</updated>
+    </task>
+    <task id="LOCAL-00576" summary="银行 - 登录 -- 设置登录界面关闭模式">
+      <option name="closed" value="true" />
+      <created>1718351254825</created>
+      <option name="number" value="00576" />
+      <option name="presentableId" value="LOCAL-00576" />
+      <option name="project" value="LOCAL" />
+      <updated>1718351254825</updated>
+    </task>
+    <task id="LOCAL-00577" summary="银行 - 登录 -- 设置登录界面关闭模式">
+      <option name="closed" value="true" />
+      <created>1718351328717</created>
+      <option name="number" value="00577" />
+      <option name="presentableId" value="LOCAL-00577" />
+      <option name="project" value="LOCAL" />
+      <updated>1718351328717</updated>
+    </task>
+    <option name="localTasksCounter" value="578" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -909,8 +909,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16 &#10;4.1*4.1 != 16&#10;3.9*3.9 != 16&#10;两个因子不可能都比这个数的平方根大或者小" />
-    <MESSAGE value="Math - Test -- 判断一个数是不是自幂数" />
     <MESSAGE value="System - exit -- 停止虚拟机...&#10;&#10;如果是0 ： 正常停止&#10;如果不是0 ： 异常停止" />
     <MESSAGE value="System - currentTimeMillis -- 计算当前时间与 1970 年 1 月 1 日 0 点 0 分 0 时 0 秒 的时间间隔" />
     <MESSAGE value="正则表达式" />
@@ -934,7 +932,9 @@
     <MESSAGE value="银行 - 思路构思" />
     <MESSAGE value="银行 - 登录 -- 登录界面的设计" />
     <MESSAGE value="银行 - 登录 -- 设置登录界面的标题" />
-    <option name="LAST_COMMIT_MESSAGE" value="银行 - 登录 -- 设置登录界面的标题" />
+    <MESSAGE value="银行 - 登录 -- 设置登录界面居中" />
+    <MESSAGE value="银行 - 登录 -- 设置登录界面关闭模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="银行 - 登录 -- 设置登录界面关闭模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
