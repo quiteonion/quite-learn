@@ -9,6 +9,7 @@ public class APP {
      * 删除账号
      */
     public static void main(String[] args) {
+
         new Login();
 
     }

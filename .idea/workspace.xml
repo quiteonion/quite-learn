@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 登录 -- 重组为一个方法的内容">
-      <change afterPath="$PROJECT_DIR$/src/B20240613/Bank/User.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 登录 -- 显示界面最好放在最后面">
+      <change afterPath="$PROJECT_DIR$/lib/jsoup-1.17.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240613/Img/TouXiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240613/Img/登录框.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240613/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A20240417/AboutJS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240417/AboutJS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,34 +77,34 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/LearnEnglish/EnglishWords&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/lib/jsoup-1.17.2.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\lib" />
+      <recent name="D:\idea\idea 存储\quite\src\B20240613\Img" />
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\EnglishWords" />
       <recent name="D:\idea\idea 存储\quite\src\A20240531" />
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\TxtToJson" />
-      <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\wordTry" />
-      <recent name="D:\idea\idea 存储\quite\src\A20240524" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\TxtToJson" />
@@ -465,31 +471,7 @@
       <workItem from="1717914612226" duration="1848000" />
       <workItem from="1718092422034" duration="5527000" />
       <workItem from="1718281553871" duration="1697000" />
-      <workItem from="1718349340431" duration="2935000" />
-    </task>
-    <task id="LOCAL-00530" summary="Map - Hashtable -  properties - properties 是 Hashtable 的一个 子类，基础功能都有">
-      <option name="closed" value="true" />
-      <created>1717318629968</created>
-      <option name="number" value="00530" />
-      <option name="presentableId" value="LOCAL-00530" />
-      <option name="project" value="LOCAL" />
-      <updated>1717318629968</updated>
-    </task>
-    <task id="LOCAL-00531" summary="properties">
-      <option name="closed" value="true" />
-      <created>1717397059200</created>
-      <option name="number" value="00531" />
-      <option name="presentableId" value="LOCAL-00531" />
-      <option name="project" value="LOCAL" />
-      <updated>1717397059200</updated>
-    </task>
-    <task id="LOCAL-00532" summary="properties">
-      <option name="closed" value="true" />
-      <created>1717397234607</created>
-      <option name="number" value="00532" />
-      <option name="presentableId" value="LOCAL-00532" />
-      <option name="project" value="LOCAL" />
-      <updated>1717397234607</updated>
+      <workItem from="1718349340431" duration="10888000" />
     </task>
     <task id="LOCAL-00533" summary="英语学习 - 使用 properties 代替 json">
       <option name="closed" value="true" />
@@ -859,7 +841,31 @@
       <option name="project" value="LOCAL" />
       <updated>1718351483150</updated>
     </task>
-    <option name="localTasksCounter" value="579" />
+    <task id="LOCAL-00579" summary="银行 - 登录 -- 菜单的构建">
+      <option name="closed" value="true" />
+      <created>1718352595652</created>
+      <option name="number" value="00579" />
+      <option name="presentableId" value="LOCAL-00579" />
+      <option name="project" value="LOCAL" />
+      <updated>1718352595652</updated>
+    </task>
+    <task id="LOCAL-00580" summary="银行 - 用户 -- 基本情况">
+      <option name="closed" value="true" />
+      <created>1718352611264</created>
+      <option name="number" value="00580" />
+      <option name="presentableId" value="LOCAL-00580" />
+      <option name="project" value="LOCAL" />
+      <updated>1718352611264</updated>
+    </task>
+    <task id="LOCAL-00581" summary="银行 - 登录 -- 显示界面最好放在最后面">
+      <option name="closed" value="true" />
+      <created>1718352670387</created>
+      <option name="number" value="00581" />
+      <option name="presentableId" value="LOCAL-00581" />
+      <option name="project" value="LOCAL" />
+      <updated>1718352670387</updated>
+    </task>
+    <option name="localTasksCounter" value="582" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -911,9 +917,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="System - currentTimeMillis -- 计算当前时间与 1970 年 1 月 1 日 0 点 0 分 0 时 0 秒 的时间间隔" />
-    <MESSAGE value="正则表达式" />
-    <MESSAGE value="异常 - java.lang.ArrayIndexOutOfBoundsException -- 这个数组的索引不存在" />
     <MESSAGE value="异常 - java.lang.NumberFormatException -- 数据转化异常" />
     <MESSAGE value="异常 - java.lang.StackOverflowError -- 栈爆满" />
     <MESSAGE value="异常 - java.lang.OutOfMemoryError -- 堆爆满" />
@@ -936,7 +939,10 @@
     <MESSAGE value="银行 - 登录 -- 设置登录界面居中" />
     <MESSAGE value="银行 - 登录 -- 设置登录界面关闭模式" />
     <MESSAGE value="银行 - 登录 -- 重组为一个方法的内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="银行 - 登录 -- 重组为一个方法的内容" />
+    <MESSAGE value="银行 - 登录 -- 菜单的构建" />
+    <MESSAGE value="银行 - 用户 -- 基本情况" />
+    <MESSAGE value="银行 - 登录 -- 显示界面最好放在最后面" />
+    <option name="LAST_COMMIT_MESSAGE" value="银行 - 登录 -- 显示界面最好放在最后面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

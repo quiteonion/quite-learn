@@ -1,13 +1,44 @@
 package B20240613.Bank;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class Login extends JFrame{
     public Login(){
         ui();
+        menu();
+        interior();
 
         this.setVisible(true);
     }
+
+    private void interior() {
+        enrollSet();
+        loginSet();
+    }
+    public void loginSet(){
+        JLabel  login = new JLabel("密码");
+        login.setFont(new Font("宋体", Font.PLAIN, 35));
+        login.setBounds(300,555,90,40);
+
+        JTextField loginjTextField = new JTextField();
+        loginjTextField.setFont(new Font("Arial",Font.PLAIN , 30));
+        loginjTextField.setBounds(375,550,350,50);
+        this.getContentPane().add(login);
+        this.getContentPane().add(loginjTextField);
+    }
+    public void enrollSet(){
+        JLabel enroll = new JLabel("账号");
+        enroll.setFont(new Font("宋体", Font.PLAIN, 35));
+        enroll.setBounds(300 ,455,90,40);
+
+        JTextField enrolljTextField = new JTextField();
+        enrolljTextField.setFont(new Font("Arial",Font.PLAIN , 30));
+        enrolljTextField.setBounds(375,450,350,50);
+        this.getContentPane().add(enroll);
+        this.getContentPane().add(enrolljTextField);
+    }
+
     private void ui(){
         this.setSize(1050,800);
         this.setTitle("银行 - 登录界面");
@@ -16,9 +47,8 @@ public class Login extends JFrame{
         this.setLocationRelativeTo(null);
         //设置界面关闭模式
         this.setDefaultCloseOperation(3);
-        menu();
-
-
+        //取消默认放置
+        this.setLayout(null);
     }
     private void menu(){
         JMenuBar jMenuBar = new JMenuBar();
