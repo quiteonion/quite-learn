@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 登录 -- 登录界面的头像">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 登录 -- 登录界面的按钮的设置">
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Enroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Enroll.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +111,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.B20240613.Bank.APP">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -173,6 +173,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="PinTuGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B20240613.Bank.APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="B20240613.Bank.APP" />
+      <module name="quite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="B20240613.Bank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,19 +206,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LearnEnglish.APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LearnEnglish.APP" />
-      <module name="quite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LearnEnglish.TxtToJson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringADD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240524.StringADD" />
       <module name="quite" />
@@ -225,19 +225,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="A20240524.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A20240515.note.MysortUtilState.Test" />
-      <module name="quite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A20240515.note.MysortUtilState.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.B20240613.Bank.APP" />
         <item itemvalue="Application.LearnEnglish.ALL.APP" />
         <item itemvalue="Application.APP" />
         <item itemvalue="Application.A20240130" />
         <item itemvalue="Application.StringADD" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -465,15 +452,7 @@
       <workItem from="1718092422034" duration="5527000" />
       <workItem from="1718281553871" duration="1697000" />
       <workItem from="1718349340431" duration="12063000" />
-      <workItem from="1718432568848" duration="1302000" />
-    </task>
-    <task id="LOCAL-00535" summary="Revert &quot;Revert &quot;Math - abs -- abs 的能力便是取得绝对值">
-      <option name="closed" value="true" />
-      <created>1717420221828</created>
-      <option name="number" value="00535" />
-      <option name="presentableId" value="LOCAL-00535" />
-      <option name="project" value="LOCAL" />
-      <updated>1717420221828</updated>
+      <workItem from="1718432568848" duration="1610000" />
     </task>
     <task id="LOCAL-00536" summary="Math - abs -- abs 的能力便是取得绝对值">
       <option name="closed" value="true" />
@@ -859,7 +838,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718364736664</updated>
     </task>
-    <option name="localTasksCounter" value="584" />
+    <task id="LOCAL-00584" summary="银行 - 登录 -- 登录界面的按钮的设置">
+      <option name="closed" value="true" />
+      <created>1718434041262</created>
+      <option name="number" value="00584" />
+      <option name="presentableId" value="LOCAL-00584" />
+      <option name="project" value="LOCAL" />
+      <updated>1718434041262</updated>
+    </task>
+    <option name="localTasksCounter" value="585" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -911,7 +898,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="异常 - java.lang.OutOfMemoryError -- 堆爆满" />
     <MESSAGE value="异常 - java.lang.ArithmeticException -- 计算错误" />
     <MESSAGE value="异常 - java.lang.NullPointerException -- 访问空指针" />
     <MESSAGE value="正则表达式练习网站" />
@@ -936,7 +922,8 @@
     <MESSAGE value="银行 - 登录 -- 显示界面最好放在最后面" />
     <MESSAGE value="银行 - 登录 -- 登录界面的创建" />
     <MESSAGE value="银行 - 登录 -- 登录界面的头像" />
-    <option name="LAST_COMMIT_MESSAGE" value="银行 - 登录 -- 登录界面的头像" />
+    <MESSAGE value="银行 - 登录 -- 登录界面的按钮的设置" />
+    <option name="LAST_COMMIT_MESSAGE" value="银行 - 登录 -- 登录界面的按钮的设置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
