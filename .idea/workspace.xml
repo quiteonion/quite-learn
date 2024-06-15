@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 注册 -- 注册界面的窗体设置">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 注册 -- 注册界面的窗体">
+      <change afterPath="$PROJECT_DIR$/src/B20240613/Bank/MainInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Enroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Enroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -452,15 +454,7 @@
       <workItem from="1718092422034" duration="5527000" />
       <workItem from="1718281553871" duration="1697000" />
       <workItem from="1718349340431" duration="12063000" />
-      <workItem from="1718432568848" duration="4352000" />
-    </task>
-    <task id="LOCAL-00537" summary="Math - abs -- JDK 的 bug 解决 - 见注释">
-      <option name="closed" value="true" />
-      <created>1717420707372</created>
-      <option name="number" value="00537" />
-      <option name="presentableId" value="LOCAL-00537" />
-      <option name="project" value="LOCAL" />
-      <updated>1717420707372</updated>
+      <workItem from="1718432568848" duration="5562000" />
     </task>
     <task id="LOCAL-00538" summary="Math - ceil -- 向上取整天花板...">
       <option name="closed" value="true" />
@@ -846,7 +840,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718434486776</updated>
     </task>
-    <option name="localTasksCounter" value="586" />
+    <task id="LOCAL-00586" summary="银行 - 注册 -- 注册界面的窗体">
+      <option name="closed" value="true" />
+      <created>1718441066185</created>
+      <option name="number" value="00586" />
+      <option name="presentableId" value="LOCAL-00586" />
+      <option name="project" value="LOCAL" />
+      <updated>1718441066185</updated>
+    </task>
+    <option name="localTasksCounter" value="587" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -898,7 +900,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="异常 - java.lang.NullPointerException -- 访问空指针" />
     <MESSAGE value="正则表达式练习网站" />
     <MESSAGE value="System - currentTimeMillis -- 使代码高效化，可扩展" />
     <MESSAGE value="System - arraycopy -- 数组的扩展...&#10;&#10;System.arraycopy(老数组， 从哪里开始复制， 新数组， 从哪里开始粘贴， 复制个数)" />
@@ -923,7 +924,8 @@
     <MESSAGE value="银行 - 登录 -- 登录界面的头像" />
     <MESSAGE value="银行 - 登录 -- 登录界面的按钮的设置" />
     <MESSAGE value="银行 - 注册 -- 注册界面的窗体设置" />
-    <option name="LAST_COMMIT_MESSAGE" value="银行 - 注册 -- 注册界面的窗体设置" />
+    <MESSAGE value="银行 - 注册 -- 注册界面的窗体" />
+    <option name="LAST_COMMIT_MESSAGE" value="银行 - 注册 -- 注册界面的窗体" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
