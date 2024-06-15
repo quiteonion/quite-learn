@@ -16,6 +16,25 @@ public class Login extends JFrame{
         touxiang();
         enrollSet();
         loginSet();
+        loginButton();
+        enrollButton();
+    }
+
+    private void enrollButton() {
+        JLabel enrolljLabel = new JLabel("没有账号？去注册");
+        enrolljLabel.setForeground(Color.red);
+        enrolljLabel.setBounds(900,680,200,50);
+        enrolljLabel.setFont(new Font("宋体" , Font.PLAIN,13));
+        this.getContentPane().add(enrolljLabel);
+    }
+
+    private void loginButton() {
+        JButton loginjButton = new JButton("登录");
+        loginjButton.setFont(new Font("宋体", Font.PLAIN, 30));
+        JPanel loginjPanel = new JPanel();
+        loginjPanel.add(loginjButton);
+        loginjPanel.setBounds(470,630,105,60);
+        this.getContentPane().add(loginjPanel);
     }
 
     private void touxiang() {

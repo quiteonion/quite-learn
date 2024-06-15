@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 登录 -- 登录界面的创建">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 登录 -- 登录界面的头像">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,27 +70,27 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/idea/idea 存储/quite/lib/jsoup-1.17.2.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/lib/jsoup-1.17.2.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\lib" />
@@ -463,15 +464,8 @@
       <workItem from="1717914612226" duration="1848000" />
       <workItem from="1718092422034" duration="5527000" />
       <workItem from="1718281553871" duration="1697000" />
-      <workItem from="1718349340431" duration="11709000" />
-    </task>
-    <task id="LOCAL-00534" summary="英语学习 - 使用 properties 代替 json">
-      <option name="closed" value="true" />
-      <created>1717418802751</created>
-      <option name="number" value="00534" />
-      <option name="presentableId" value="LOCAL-00534" />
-      <option name="project" value="LOCAL" />
-      <updated>1717418802751</updated>
+      <workItem from="1718349340431" duration="12063000" />
+      <workItem from="1718432568848" duration="1302000" />
     </task>
     <task id="LOCAL-00535" summary="Revert &quot;Revert &quot;Math - abs -- abs 的能力便是取得绝对值">
       <option name="closed" value="true" />
@@ -857,7 +851,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718363515055</updated>
     </task>
-    <option name="localTasksCounter" value="583" />
+    <task id="LOCAL-00583" summary="银行 - 登录 -- 登录界面的头像">
+      <option name="closed" value="true" />
+      <created>1718364736664</created>
+      <option name="number" value="00583" />
+      <option name="presentableId" value="LOCAL-00583" />
+      <option name="project" value="LOCAL" />
+      <updated>1718364736664</updated>
+    </task>
+    <option name="localTasksCounter" value="584" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -909,7 +911,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="异常 - java.lang.StackOverflowError -- 栈爆满" />
     <MESSAGE value="异常 - java.lang.OutOfMemoryError -- 堆爆满" />
     <MESSAGE value="异常 - java.lang.ArithmeticException -- 计算错误" />
     <MESSAGE value="异常 - java.lang.NullPointerException -- 访问空指针" />
@@ -934,7 +935,8 @@
     <MESSAGE value="银行 - 用户 -- 基本情况" />
     <MESSAGE value="银行 - 登录 -- 显示界面最好放在最后面" />
     <MESSAGE value="银行 - 登录 -- 登录界面的创建" />
-    <option name="LAST_COMMIT_MESSAGE" value="银行 - 登录 -- 登录界面的创建" />
+    <MESSAGE value="银行 - 登录 -- 登录界面的头像" />
+    <option name="LAST_COMMIT_MESSAGE" value="银行 - 登录 -- 登录界面的头像" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
