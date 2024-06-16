@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 注册 -- 注册界面的窗体">
-      <change afterPath="$PROJECT_DIR$/src/B20240613/Bank/MainInterface.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 主页面 -- 主页面设计">
+      <change afterPath="$PROJECT_DIR$/src/B20240616/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +112,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.B20240613.Bank.APP">
+  <component name="RunManager">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -454,15 +453,8 @@
       <workItem from="1718092422034" duration="5527000" />
       <workItem from="1718281553871" duration="1697000" />
       <workItem from="1718349340431" duration="12063000" />
-      <workItem from="1718432568848" duration="5562000" />
-    </task>
-    <task id="LOCAL-00538" summary="Math - ceil -- 向上取整天花板...">
-      <option name="closed" value="true" />
-      <created>1717420983842</created>
-      <option name="number" value="00538" />
-      <option name="presentableId" value="LOCAL-00538" />
-      <option name="project" value="LOCAL" />
-      <updated>1717420983842</updated>
+      <workItem from="1718432568848" duration="6098000" />
+      <workItem from="1718507787802" duration="1063000" />
     </task>
     <task id="LOCAL-00539" summary="Math - floor -- 向下取整大地版...&#10;&#10;与 ceil 相反，向下取整大地板只要小数点后面跟着东西，就直接向下取整">
       <option name="closed" value="true" />
@@ -848,7 +840,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718441066185</updated>
     </task>
-    <option name="localTasksCounter" value="587" />
+    <task id="LOCAL-00587" summary="银行 - 主页面 -- 主页面设计">
+      <option name="closed" value="true" />
+      <created>1718443353393</created>
+      <option name="number" value="00587" />
+      <option name="presentableId" value="LOCAL-00587" />
+      <option name="project" value="LOCAL" />
+      <updated>1718443353393</updated>
+    </task>
+    <option name="localTasksCounter" value="588" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -900,7 +900,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="正则表达式练习网站" />
     <MESSAGE value="System - currentTimeMillis -- 使代码高效化，可扩展" />
     <MESSAGE value="System - arraycopy -- 数组的扩展...&#10;&#10;System.arraycopy(老数组， 从哪里开始复制， 新数组， 从哪里开始粘贴， 复制个数)" />
     <MESSAGE value="Runtime - about &quot;new&quot; -- Runtime 不能直接被 new ...&#10;&#10;Runtime 的构造器被 private 所修饰，无法自行 new 一个对象出来" />
@@ -925,7 +924,8 @@
     <MESSAGE value="银行 - 登录 -- 登录界面的按钮的设置" />
     <MESSAGE value="银行 - 注册 -- 注册界面的窗体设置" />
     <MESSAGE value="银行 - 注册 -- 注册界面的窗体" />
-    <option name="LAST_COMMIT_MESSAGE" value="银行 - 注册 -- 注册界面的窗体" />
+    <MESSAGE value="银行 - 主页面 -- 主页面设计" />
+    <option name="LAST_COMMIT_MESSAGE" value="银行 - 主页面 -- 主页面设计" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
