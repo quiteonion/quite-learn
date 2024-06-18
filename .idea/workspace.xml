@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 主页面 -- 主页面设计">
-      <change afterPath="$PROJECT_DIR$/src/B20240616/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240613/Bank/Bad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240613/Bank/Good.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Enroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Enroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/MainInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/MainInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +29,8 @@
       <list>
         <option value="HTTP Request" />
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -112,7 +117,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.B20240613.Bank.APP">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -249,8 +254,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.B20240613.Bank.APP" />
-        <item itemvalue="Application.LearnEnglish.ALL.APP" />
         <item itemvalue="Application.APP" />
+        <item itemvalue="Application.LearnEnglish.ALL.APP" />
         <item itemvalue="Application.A20240130" />
         <item itemvalue="Application.StringADD" />
       </list>
@@ -454,15 +459,8 @@
       <workItem from="1718281553871" duration="1697000" />
       <workItem from="1718349340431" duration="12063000" />
       <workItem from="1718432568848" duration="6098000" />
-      <workItem from="1718507787802" duration="1063000" />
-    </task>
-    <task id="LOCAL-00539" summary="Math - floor -- 向下取整大地版...&#10;&#10;与 ceil 相反，向下取整大地板只要小数点后面跟着东西，就直接向下取整">
-      <option name="closed" value="true" />
-      <created>1717421243530</created>
-      <option name="number" value="00539" />
-      <option name="presentableId" value="LOCAL-00539" />
-      <option name="project" value="LOCAL" />
-      <updated>1717421243530</updated>
+      <workItem from="1718507787802" duration="2090000" />
+      <workItem from="1718684723796" duration="7840000" />
     </task>
     <task id="LOCAL-00540" summary="Math - round -- 四舍五入">
       <option name="closed" value="true" />
@@ -848,7 +846,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718443353393</updated>
     </task>
-    <option name="localTasksCounter" value="588" />
+    <task id="LOCAL-00588" summary="对错判断题答案">
+      <option name="closed" value="true" />
+      <created>1718509118783</created>
+      <option name="number" value="00588" />
+      <option name="presentableId" value="LOCAL-00588" />
+      <option name="project" value="LOCAL" />
+      <updated>1718509118784</updated>
+    </task>
+    <option name="localTasksCounter" value="589" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -900,7 +906,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="System - currentTimeMillis -- 使代码高效化，可扩展" />
     <MESSAGE value="System - arraycopy -- 数组的扩展...&#10;&#10;System.arraycopy(老数组， 从哪里开始复制， 新数组， 从哪里开始粘贴， 复制个数)" />
     <MESSAGE value="Runtime - about &quot;new&quot; -- Runtime 不能直接被 new ...&#10;&#10;Runtime 的构造器被 private 所修饰，无法自行 new 一个对象出来" />
     <MESSAGE value="Runtime - about &quot;new&quot; -- Runtime 内部提供了一个静态方法...&#10;&#10;这个方法直接帮助我们 new 了一个 Runtime 的对象" />
@@ -925,7 +930,8 @@
     <MESSAGE value="银行 - 注册 -- 注册界面的窗体设置" />
     <MESSAGE value="银行 - 注册 -- 注册界面的窗体" />
     <MESSAGE value="银行 - 主页面 -- 主页面设计" />
-    <option name="LAST_COMMIT_MESSAGE" value="银行 - 主页面 -- 主页面设计" />
+    <MESSAGE value="对错判断题答案" />
+    <option name="LAST_COMMIT_MESSAGE" value="对错判断题答案" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

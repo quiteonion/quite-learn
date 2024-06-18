@@ -3,6 +3,7 @@ package B20240613.Bank;
 import A20240515.note.MysortUtilState.Print;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class MainInterface extends JFrame {
     public MainInterface(){
@@ -13,11 +14,26 @@ public class MainInterface extends JFrame {
     }
 
     private void interior() {
-        indicateName();
+        information();
     }
 
-    private void indicateName() {
+    private void information() {
+        nameJLabel();
+        ageJLabel();
+    }
 
+    private void ageJLabel() {
+        JLabel nameJLabel = new JLabel("年龄:");
+        nameJLabel.setFont(new Font("宋体" , Font.PLAIN,20));
+        nameJLabel.setBounds(130,10,60,20);
+        this.getContentPane().add(nameJLabel);
+    }
+
+    private void nameJLabel() {
+        JLabel nameJLabel = new JLabel("姓名:");
+        nameJLabel.setFont(new Font("宋体" , Font.PLAIN,20));
+        nameJLabel.setBounds(10,10,60,20);
+        this.getContentPane().add(nameJLabel);
     }
 
     private void ui() {
