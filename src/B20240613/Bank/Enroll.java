@@ -5,10 +5,44 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.*;
 import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.Properties;
 
 public class Enroll extends JFrame {
+    static String fileName = "src/B20240613/Bank/user.properties";
     static ArrayList<User> Users = new ArrayList<>();
+
+    static {
+        Properties properties = new Properties();
+        try (FileInputStream fis = new FileInputStream(fileName)) {
+            properties.load(fis); // 从文件中加载属性
+        } catch (IOException e) {
+            e.printStackTrace();
+            // 处理异常，可能需要退出程序或提供备选方案
+        }
+
+        // 遍历Properties的键集合
+        for (String account : properties.stringPropertyNames()) { // 使用stringPropertyNames()获取所有字符串键
+            String userInfo = properties.getProperty(account); // 获取与账号关联的用户信息
+            if (userInfo != null && !userInfo.isEmpty()) {
+                String[] fields = userInfo.split("\\t"); // 使用制表符分割字段
+                if (fields.length == 3) {
+                    String name = fields[0];
+                    String ageStr = fields[1];
+                    String password = fields[2];
+                    int age = Integer.parseInt(ageStr); // 假设年龄是整数
+                    long id = Long.parseLong(account); // 假设账号是用户的ID，并且是长整型
+                    User user = new User(name,age,id,password);
+                    Users.add(user);
+                }
+            }
+        }
+    }
+
+
+
     private JTextField namejTextField;
     private JTextField agejTextField;
     private JTextField accountjTextField;
@@ -65,7 +99,6 @@ public class Enroll extends JFrame {
 
     private void enrollButton() {
 
-
         JButton enrollButton = new JButton("注册");
         enrollButton.setFont(new Font("宋体", Font.PLAIN, 20));
         JPanel enrollJPanel = new JPanel();
@@ -80,6 +113,31 @@ public class Enroll extends JFrame {
                 String account = accountjTextField.getText();
                 String password = passwordjTextField.getText();
                 String Rpassword = RpasswordjTextField.getText();
+
+
+                Properties properties = new Properties();
+
+                //ArrayList 读取的人物元素加入
+                properties.put(account, name + "\t" + age + "\t" + password);
+                String fileName = "src/B20240613/Bank/user.properties";
+
+                try (OutputStream output = new FileOutputStream(fileName)) {
+                    // 使用store方法将Properties对象写入到文件中
+                    // 第二个参数表示注释，通常用于描述这个properties文件的作用
+                    properties.store(output, "新注册用户");
+                    // 输出到控制台以确认写入成功
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                }
+
+                File file = new File(fileName);
+                try {
+                    properties.load(new FileInputStream(file));
+                } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
+
+
                 boolean flag = judgment(name, age, account, password, Rpassword);
                 if (flag) {
                     setVisible(false);
@@ -90,9 +148,14 @@ public class Enroll extends JFrame {
                 new Bad("注册");
             }
         });
+
     }
 
     private boolean judgment(String... arr) {
+        for (int i = 0; i < arr.length; i++) {
+            if ("".equals(arr[i]))
+                return false;
+        }
         for (int i = 0; i < arr[0].length(); i++) {
             if (arr[0].charAt(i) > '0' && arr[0].charAt(i) < '9') {
                 return false;
@@ -111,8 +174,7 @@ public class Enroll extends JFrame {
         if (!(arr[3].equals(arr[4]))) {
             return false;
         }
-        String password = arr[3];
-        User user = new User(arr[0], Integer.valueOf(arr[1]), Integer.valueOf(arr[2]), arr[3]);
+        User user = new User(arr[0], Integer.valueOf(arr[1]), Long.valueOf(arr[2]), arr[3]);
         Users.add(user);
         return true;
     }

@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行 - 主页面 -- 主页面设计">
-      <change afterPath="$PROJECT_DIR$/src/B20240613/Bank/Bad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240613/Bank/Good.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行">
+      <change afterPath="$PROJECT_DIR$/src/B20240613/Bank/user.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Bad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Bad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Enroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Enroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Good.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/MainInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/MainInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +29,8 @@
       <list>
         <option value="HTTP Request" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -460,15 +460,10 @@
       <workItem from="1718349340431" duration="12063000" />
       <workItem from="1718432568848" duration="6098000" />
       <workItem from="1718507787802" duration="2090000" />
-      <workItem from="1718684723796" duration="7840000" />
-    </task>
-    <task id="LOCAL-00540" summary="Math - round -- 四舍五入">
-      <option name="closed" value="true" />
-      <created>1717421586377</created>
-      <option name="number" value="00540" />
-      <option name="presentableId" value="LOCAL-00540" />
-      <option name="project" value="LOCAL" />
-      <updated>1717421586377</updated>
+      <workItem from="1718684723796" duration="7980000" />
+      <workItem from="1718720901054" duration="88000" />
+      <workItem from="1718786988380" duration="521000" />
+      <workItem from="1718854094907" duration="7093000" />
     </task>
     <task id="LOCAL-00541" summary="Math - max -- 判断最大值">
       <option name="closed" value="true" />
@@ -854,7 +849,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718509118784</updated>
     </task>
-    <option name="localTasksCounter" value="589" />
+    <task id="LOCAL-00589" summary="银行">
+      <option name="closed" value="true" />
+      <created>1718720829005</created>
+      <option name="number" value="00589" />
+      <option name="presentableId" value="LOCAL-00589" />
+      <option name="project" value="LOCAL" />
+      <updated>1718720829005</updated>
+    </task>
+    <option name="localTasksCounter" value="590" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -906,7 +909,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="System - arraycopy -- 数组的扩展...&#10;&#10;System.arraycopy(老数组， 从哪里开始复制， 新数组， 从哪里开始粘贴， 复制个数)" />
     <MESSAGE value="Runtime - about &quot;new&quot; -- Runtime 不能直接被 new ...&#10;&#10;Runtime 的构造器被 private 所修饰，无法自行 new 一个对象出来" />
     <MESSAGE value="Runtime - about &quot;new&quot; -- Runtime 内部提供了一个静态方法...&#10;&#10;这个方法直接帮助我们 new 了一个 Runtime 的对象" />
     <MESSAGE value="Runtime - exit -- 相传 System 就是调用的他" />
@@ -931,7 +933,8 @@
     <MESSAGE value="银行 - 注册 -- 注册界面的窗体" />
     <MESSAGE value="银行 - 主页面 -- 主页面设计" />
     <MESSAGE value="对错判断题答案" />
-    <option name="LAST_COMMIT_MESSAGE" value="对错判断题答案" />
+    <MESSAGE value="银行" />
+    <option name="LAST_COMMIT_MESSAGE" value="银行" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

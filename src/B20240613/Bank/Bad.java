@@ -43,13 +43,23 @@ public class Bad extends JFrame {
         jPanel.setBounds(90 ,100,200,80);
         this.getContentPane().add(jPanel);
 
-        jButton.addActionListener(new AbstractAction() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                setVisible(false);
-                new Enroll();
-            }
-        });
+        if (s.equals(login)) {
+            jButton.addActionListener(new AbstractAction() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    setVisible(false);
+                    new Login();
+                }
+            });
+        } else if (s.equals(enroll)) {
+            jButton.addActionListener(new AbstractAction() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    setVisible(false);
+                    new Enroll();
+                }
+            });
+        }
     }
 
     private void ui() {

@@ -4,8 +4,11 @@ import A20240515.note.MysortUtilState.Print;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.ArrayList;
 
 public class MainInterface extends JFrame {
+    static ArrayList<User> Users = Login.Users;
+
     public MainInterface(){
         ui();
         menu();
