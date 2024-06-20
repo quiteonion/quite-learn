@@ -105,6 +105,8 @@ public class Enroll extends JFrame {
         enrollJPanel.add(enrollButton);
         enrollJPanel.setBounds(150, 300, 80, 40);
         this.getContentPane().add(enrollJPanel);
+        // ... 省略了其他代码 ...
+
         enrollButton.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -114,40 +116,39 @@ public class Enroll extends JFrame {
                 String password = passwordjTextField.getText();
                 String Rpassword = RpasswordjTextField.getText();
 
-
-                Properties properties = new Properties();
-
-                //ArrayList 读取的人物元素加入
-                properties.put(account, name + "\t" + age + "\t" + password);
-                String fileName = "src/B20240613/Bank/user.properties";
-
-                try (OutputStream output = new FileOutputStream(fileName)) {
-                    // 使用store方法将Properties对象写入到文件中
-                    // 第二个参数表示注释，通常用于描述这个properties文件的作用
-                    properties.store(output, "新注册用户");
-                    // 输出到控制台以确认写入成功
-                } catch (IOException ex) {
-                    ex.printStackTrace();
-                }
-
-                File file = new File(fileName);
-                try {
-                    properties.load(new FileInputStream(file));
-                } catch (IOException ex) {
-                    throw new RuntimeException(ex);
-                }
-
-
+                // 假设judgment方法用于验证输入的有效性
                 boolean flag = judgment(name, age, account, password, Rpassword);
-                if (flag) {
-                    setVisible(false);
-                    new Good("注册");
+                if (!flag) {
+                    // 如果验证失败，直接返回或显示错误消息
+                    // ... 省略了错误处理代码 ...
                     return;
                 }
-                setVisible(false);
-                new Bad("注册");
+
+                // 准备要写入文件的新用户信息
+                String userInfo = name + "\t" + age + "\t" + password;
+
+                // 指定文件路径
+                String fileName = "src/B20240613/Bank/user.properties";
+
+                try (FileWriter writer = new FileWriter(fileName, true)) { // 使用true参数表示追加模式
+                    // 将新用户信息写入文件，注意这里不使用Properties对象
+                    writer.write(account + "=" + userInfo + System.lineSeparator());
+                    writer.flush(); // 确保写入操作完成
+
+                    // 如果需要，可以在这里重新加载Properties对象，但通常这不会在注册时发生
+                    // ... 省略了重新加载Properties对象的代码 ...
+
+                    // 关闭当前窗口并显示成功消息
+                    setVisible(false);
+                    new Good("注册"); // 假设Good是一个显示成功消息的窗口或对话框
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                    // 处理文件写入错误
+                }
             }
         });
+
+// ... 省略了其他代码 ...
 
     }
 
