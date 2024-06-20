@@ -36,13 +36,12 @@ public class Enroll extends JFrame {
                     int age = Integer.parseInt(ageStr); // 假设年龄是整数
                     long id = Long.parseLong(account); // 假设账号是用户的ID，并且是长整型
                     long money = Long.parseLong(moneyNumber);
-                    User user = new User(name,age,id,password , money);
+                    User user = new User(name, age, id, password, money);
                     Users.add(user);
                 }
             }
         }
     }
-
 
 
     private JTextField namejTextField;
@@ -118,16 +117,17 @@ public class Enroll extends JFrame {
                 String password = passwordjTextField.getText();
                 String Rpassword = RpasswordjTextField.getText();
 
+
                 // 假设judgment方法用于验证输入的有效性
-                boolean flag = judgment(name, age, account, password);
+                boolean flag = judgment(name, age, account, password, Rpassword);
                 if (!flag) {
                     // 如果验证失败，直接返回或显示错误消息
                     // ... 省略了错误处理代码 ...
                     return;
                 }
-
+                String ZERO  ="0";
                 // 准备要写入文件的新用户信息
-                String userInfo = name + "\t" + age + "\t" + password;
+                String userInfo = name + "\t" + age + "\t" + password + "\t" + ZERO;
 
                 // 指定文件路径
                 String fileName = "src/B20240613/Bank/user.properties";
@@ -177,7 +177,7 @@ public class Enroll extends JFrame {
         if (!(arr[3].equals(arr[4]))) {
             return false;
         }
-        User user = new User(arr[0], Integer.valueOf(arr[1]), Long.valueOf(arr[2]), arr[3],0);
+        User user = new User(arr[0], Integer.valueOf(arr[1]), Long.valueOf(arr[2]), arr[3], 0);
         Users.add(user);
         return true;
     }

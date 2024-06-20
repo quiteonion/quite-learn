@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Enroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Enroll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/MainInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/MainInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/user.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -464,23 +460,7 @@
       <workItem from="1718786988380" duration="521000" />
       <workItem from="1718854094907" duration="8926000" />
       <workItem from="1718888009631" duration="1985000" />
-      <workItem from="1718895645679" duration="2572000" />
-    </task>
-    <task id="LOCAL-00544" summary="Math - pow -- 获取 前者的后者次幂">
-      <option name="closed" value="true" />
-      <created>1717490626853</created>
-      <option name="number" value="00544" />
-      <option name="presentableId" value="LOCAL-00544" />
-      <option name="project" value="LOCAL" />
-      <updated>1717490626853</updated>
-    </task>
-    <task id="LOCAL-00545" summary="Math - sqrt -- 给一个数字开 根号">
-      <option name="closed" value="true" />
-      <created>1717491274796</created>
-      <option name="number" value="00545" />
-      <option name="presentableId" value="LOCAL-00545" />
-      <option name="project" value="LOCAL" />
-      <updated>1717491274796</updated>
+      <workItem from="1718895645679" duration="4484000" />
     </task>
     <task id="LOCAL-00546" summary="Math - random -- 随机 0 ~ 1 之间的一个小数">
       <option name="closed" value="true" />
@@ -858,7 +838,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718890011316</updated>
     </task>
-    <option name="localTasksCounter" value="593" />
+    <task id="LOCAL-00593" summary="银行">
+      <option name="closed" value="true" />
+      <created>1718899344817</created>
+      <option name="number" value="00593" />
+      <option name="presentableId" value="LOCAL-00593" />
+      <option name="project" value="LOCAL" />
+      <updated>1718899344817</updated>
+    </task>
+    <task id="LOCAL-00594" summary="银行">
+      <option name="closed" value="true" />
+      <created>1718899358764</created>
+      <option name="number" value="00594" />
+      <option name="presentableId" value="LOCAL-00594" />
+      <option name="project" value="LOCAL" />
+      <updated>1718899358764</updated>
+    </task>
+    <option name="localTasksCounter" value="595" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1063,9 +1059,9 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/B20240613/Bank/Login.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="39" />
+          <url>file://$PROJECT_DIR$/src/B20240613/Bank/Enroll.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
