@@ -95,7 +95,7 @@ public class Login extends JFrame {
                     if (Users.get(i).getAccount() == Integer.valueOf(enrolljTextField.getText())) {
                         if (Users.get(i).getPassword().equals(loginjTextField.getText())) {
                             setVisible(false);
-                            new MainInterface();
+                            new MainInterface(Users.get(i).getAccount());
                             return;
                         }
                     }

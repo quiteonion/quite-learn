@@ -12,7 +12,7 @@ import java.util.Properties;
 
 public class Enroll extends JFrame {
     static String fileName = "src/B20240613/Bank/user.properties";
-    static ArrayList<User> Users = new ArrayList<>();
+    static ArrayList<User> Users = Login.Users;
 
     static {
         Properties properties = new Properties();
