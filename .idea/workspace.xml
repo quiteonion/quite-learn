@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Enroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Enroll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/MainInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/MainInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/user.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -461,15 +463,8 @@
       <workItem from="1718720901054" duration="88000" />
       <workItem from="1718786988380" duration="521000" />
       <workItem from="1718854094907" duration="8926000" />
-      <workItem from="1718888009631" duration="1754000" />
-    </task>
-    <task id="LOCAL-00543" summary="Math - pow -- 获取 前者的后者次幂">
-      <option name="closed" value="true" />
-      <created>1717485346190</created>
-      <option name="number" value="00543" />
-      <option name="presentableId" value="LOCAL-00543" />
-      <option name="project" value="LOCAL" />
-      <updated>1717485346190</updated>
+      <workItem from="1718888009631" duration="1985000" />
+      <workItem from="1718895645679" duration="2572000" />
     </task>
     <task id="LOCAL-00544" summary="Math - pow -- 获取 前者的后者次幂">
       <option name="closed" value="true" />
@@ -855,7 +850,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718877123005</updated>
     </task>
-    <option name="localTasksCounter" value="592" />
+    <task id="LOCAL-00592" summary="银行">
+      <option name="closed" value="true" />
+      <created>1718890011316</created>
+      <option name="number" value="00592" />
+      <option name="presentableId" value="LOCAL-00592" />
+      <option name="project" value="LOCAL" />
+      <updated>1718890011316</updated>
+    </task>
+    <option name="localTasksCounter" value="593" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1058,6 +1061,11 @@
           <url>file://$PROJECT_DIR$/src/A20240417/River/Test.java</url>
           <line>46</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B20240613/Bank/Login.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />

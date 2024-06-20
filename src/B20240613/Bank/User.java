@@ -8,11 +8,12 @@ public class User {
     private String password;
     private long moneyNumber;
 
-    public User(String name, int age, long account, String password) {
+    public User(String name, int age, long account, String password, long moneyNumber) {
         this.name = name;
         this.age = age;
         this.account = account;
         this.password = password;
+        this.moneyNumber = moneyNumber;
     }
 
     public String getName() {

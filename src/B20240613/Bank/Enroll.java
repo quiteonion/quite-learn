@@ -32,9 +32,11 @@ public class Enroll extends JFrame {
                     String name = fields[0];
                     String ageStr = fields[1];
                     String password = fields[2];
+                    String moneyNumber = fields[3];
                     int age = Integer.parseInt(ageStr); // 假设年龄是整数
                     long id = Long.parseLong(account); // 假设账号是用户的ID，并且是长整型
-                    User user = new User(name,age,id,password);
+                    long money = Long.parseLong(moneyNumber);
+                    User user = new User(name,age,id,password , money);
                     Users.add(user);
                 }
             }
@@ -117,7 +119,7 @@ public class Enroll extends JFrame {
                 String Rpassword = RpasswordjTextField.getText();
 
                 // 假设judgment方法用于验证输入的有效性
-                boolean flag = judgment(name, age, account, password, Rpassword);
+                boolean flag = judgment(name, age, account, password);
                 if (!flag) {
                     // 如果验证失败，直接返回或显示错误消息
                     // ... 省略了错误处理代码 ...
@@ -175,7 +177,7 @@ public class Enroll extends JFrame {
         if (!(arr[3].equals(arr[4]))) {
             return false;
         }
-        User user = new User(arr[0], Integer.valueOf(arr[1]), Long.valueOf(arr[2]), arr[3]);
+        User user = new User(arr[0], Integer.valueOf(arr[1]), Long.valueOf(arr[2]), arr[3],0);
         Users.add(user);
         return true;
     }

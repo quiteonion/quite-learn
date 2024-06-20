@@ -30,13 +30,15 @@ public class Login extends JFrame {
             String userInfo = properties.getProperty(account); // 获取与账号关联的用户信息
             if (userInfo != null && !userInfo.isEmpty()) {
                 String[] fields = userInfo.split("\\t"); // 使用制表符分割字段
-                if (fields.length == 3) {
+                if (fields.length == 4) {
                     String name = fields[0];
                     String ageStr = fields[1];
                     String password = fields[2];
+                    String moneyNumber = fields[3];
                     int age = Integer.parseInt(ageStr); // 假设年龄是整数
                     long id = Long.parseLong(account); // 假设账号是用户的ID，并且是长整型
-                    User user = new User(name,age,id,password);
+                    long money = Long.parseLong(moneyNumber);
+                    User user = new User(name,age,id,password , money);
                     Users.add(user);
                 }
             }
