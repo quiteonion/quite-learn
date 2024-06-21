@@ -91,8 +91,8 @@ public class Enroll extends JFrame {
                 // 检查是否是左键点击
                 if (e.getButton() == MouseEvent.BUTTON1) {
                     // 在这里处理点击事件
-                    setVisible(false);
                     new Login();
+                    dispose();
                 }
             }
         });
@@ -141,8 +141,8 @@ public class Enroll extends JFrame {
                     // ... 省略了重新加载Properties对象的代码 ...
 
                     // 关闭当前窗口并显示成功消息
-                    setVisible(false);
                     new Good("注册"); // 假设Good是一个显示成功消息的窗口或对话框
+                    dispose();
                 } catch (IOException ex) {
                     ex.printStackTrace();
                     // 处理文件写入错误
@@ -253,7 +253,7 @@ public class Enroll extends JFrame {
         this.setAlwaysOnTop(true);
         this.setTitle("银行 - 注册界面");
         this.setLocationRelativeTo(this);
-        this.setDefaultCloseOperation(3);
+        this.setDefaultCloseOperation(2);
         this.setLayout(null);
     }
 }

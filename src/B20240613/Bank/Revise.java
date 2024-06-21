@@ -77,8 +77,8 @@ public class Revise extends JFrame {
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-                    setVisible(false);
                     new Login();
+                    dispose();
                 }
             });
         }
@@ -88,7 +88,7 @@ public class Revise extends JFrame {
         this.setTitle("银行 - 修改信息");
         this.setAlwaysOnTop(true);
         this.setLocationRelativeTo(null);
-        this.setDefaultCloseOperation(3);
+        this.setDefaultCloseOperation(2);
         this.setLayout(null);
     }
 }

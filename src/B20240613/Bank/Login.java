@@ -74,8 +74,8 @@ public class Login extends JFrame {
                 // 检查是否是左键点击
                 if (e.getButton() == MouseEvent.BUTTON1) {
                     // 在这里处理点击事件
-                    setVisible(false);
                     new Enroll();
+                    dispose();
                 }
             }
         });
@@ -96,14 +96,14 @@ public class Login extends JFrame {
                 for (int i = 0; i < Users.size(); i++) {
                     if (Users.get(i).getAccount() == Integer.valueOf(enrolljTextField.getText())) {
                         if (Users.get(i).getPassword().equals(loginjTextField.getText())) {
-                            setVisible(false);
                             new MainInterface(Users.get(i).getAccount());
+                            dispose();
                             return;
                         }
                     }
                 }
-                setVisible(false);
                 new Bad("登录");
+                dispose();
             }
         });
     }
@@ -147,7 +147,7 @@ public class Login extends JFrame {
         //界面居中
         this.setLocationRelativeTo(null);
         //设置界面关闭模式
-        this.setDefaultCloseOperation(3);
+        this.setDefaultCloseOperation(2);
         //取消默认放置
         this.setLayout(null);
     }

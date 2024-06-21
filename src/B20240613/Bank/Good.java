@@ -47,16 +47,16 @@ public class Good extends JFrame {
             jButton.addActionListener(new AbstractAction() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    setVisible(false);
                     new Login();
+                    dispose();
                 }
             });
         } else if (s.equals(enroll)) {
             jButton.addActionListener(new AbstractAction() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    setVisible(false);
                     new Enroll();
+                    dispose();
                 }
             });
         }
@@ -67,7 +67,7 @@ public class Good extends JFrame {
         this.setTitle("警告");
         this.setAlwaysOnTop(true);
         this.setLocationRelativeTo(null);
-        this.setDefaultCloseOperation(3);
+        this.setDefaultCloseOperation(2);
         this.setLayout(null);
     }
 }

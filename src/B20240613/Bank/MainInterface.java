@@ -53,51 +53,123 @@ public class MainInterface extends JFrame {
         ageJLabel();
         accountJLabel();
         moneyJLabel();
-        borrowMoney();
+        Money();
     }
 
-    private void borrowMoney() {
-        JButton borrowMoneyButton = new JButton("借钱");
-        borrowMoneyButton.setFont(new Font("宋体", Font.BOLD, 35));
-        borrowMoneyButton.setForeground(Color.YELLOW);
-        borrowMoneyButton.setBackground(Color.RED);
-        JPanel borrowMoneyJPanel = new JPanel();
-        borrowMoneyJPanel.add(borrowMoneyButton);
-        borrowMoneyJPanel.setBounds(200, 400, 400, 200);
-        this.getContentPane().add(borrowMoneyJPanel);
+    static long newMoney;
+    static final String into = "存钱";
+    static final String up = "取钱";
 
-        borrowMoneyButton.addActionListener(new AbstractAction() {
+    private void Money() {
+
+//        两个按钮
+        JButton intoMoneyButton = new JButton(into);
+        intoMoneyButton.setFont(new Font("宋体", Font.BOLD, 35));
+        intoMoneyButton.setForeground(Color.YELLOW);
+        intoMoneyButton.setBackground(Color.RED);
+        JPanel intoMoneyJPanel = new JPanel();
+        intoMoneyJPanel.add(intoMoneyButton);
+        intoMoneyJPanel.setBounds(150, 400, 200, 200);
+        this.getContentPane().add(intoMoneyJPanel);
+
+        JButton upMoneyButton = new JButton(up);
+        upMoneyButton.setFont(new Font("宋体", Font.BOLD, 35));
+        upMoneyButton.setForeground(Color.YELLOW);
+        upMoneyButton.setBackground(Color.RED);
+        JPanel upMoneyJPanel = new JPanel();
+        upMoneyJPanel.add(upMoneyButton);
+        upMoneyJPanel.setBounds(450, 400, 200, 200);
+        this.getContentPane().add(upMoneyJPanel);
+
+        upMoneyButton.addActionListener(new AbstractAction() {
             @Override
-            public void actionPerformed(ActionEvent ec) {
-                MONEY = MONEY + 1000;
-                String fileName = "src/B20240613/Bank/user.properties";
-                String keyToUpdate = String.valueOf(ACCOUNT); // 要更新的键
-                String newValue = NAMEQ + "\t" + AGE + "\t" + PASSWORD + "\t" + MONEY; // 新的值
-
-                Properties properties = new Properties();
-                try (FileInputStream fis = new FileInputStream(fileName)) {
-                    // 加载旧文件的内容
-                    properties.load(fis);
-
-                    // 检查键是否存在并更新其值
-                    if (properties.containsKey(keyToUpdate)) {
-                        properties.setProperty(keyToUpdate, newValue);
-                        System.out.println("Key '" + keyToUpdate + "' found and updated to '" + newValue + "'.");
-                    } else {
-                        System.out.println("Key '" + keyToUpdate + "' not found in the properties file.");
-                    }
-
-                    // 将修改后的内容写回文件
-                    try (FileOutputStream fos = new FileOutputStream(fileName)) {
-                        properties.store(fos, "Updated properties file");
-                    }
-
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+            public void actionPerformed(ActionEvent e) {
+                new minMoney(upMoneyButton);
+                dispose();
             }
         });
+        intoMoneyButton.addActionListener(new AbstractAction() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new minMoney(intoMoneyButton);
+                dispose();
+            }
+        });
+
     }
+
+    class minMoney extends JFrame {
+        static String ss;
+        public minMoney(JButton jButton) {
+            ss = jButton.getText();
+            ui();
+
+            JTextField jTextField = new JTextField();
+            jTextField.setFont(new Font("宋体", Font.PLAIN, 25));
+            jTextField.setBounds(20, 20, 200, 40);
+            this.getContentPane().add(jTextField);
+
+            JButton jButton1 = new JButton(ss);
+            jButton1.setFont(new Font("宋体", Font.PLAIN, 20));
+            JPanel jPanel = new JPanel();
+            jPanel.add(jButton1);
+            jPanel.setBounds(80,50,200,50);
+            this.getContentPane().add(jPanel);
+
+            jButton1.addActionListener(new AbstractAction() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    String newMoneyString = jTextField.getText();
+                    newMoney = Long.valueOf(newMoneyString);
+                    setmoney(jButton);
+                    new MainInterface(ACCOUNT);
+                    dispose();
+                }
+            });
+
+            this.setVisible(true);
+        }
+        public void ui(){
+            this.setSize(400, 200);
+            this.setDefaultCloseOperation(2);
+            this.setLocationRelativeTo(null);
+            this.setTitle(ss);
+            this.setLocationRelativeTo(null);
+            this.setAlwaysOnTop(true);
+            this.setLayout(null);
+        }
+    }
+
+    //    点击事件
+    public void setmoney(JButton button) {
+        if (button.getText().equals(into)) {
+            MONEY += newMoney;
+        } else if (button.getText().equals(up)) {
+            MONEY -= newMoney;
+        }
+        String fileName = "src/B20240613/Bank/user.properties";
+        String keyToUpdate = String.valueOf(ACCOUNT); // 要更新的键
+        String newValue = NAMEQ + "\t" + AGE + "\t" + PASSWORD + "\t" + MONEY; // 新的值
+
+        Properties properties = new Properties();
+        try (FileInputStream fis = new FileInputStream(fileName)) {
+            // 加载旧文件的内容
+            properties.load(fis);
+            // 检查键是否存在并更新其值
+            if (properties.containsKey(keyToUpdate)) {
+                properties.setProperty(keyToUpdate, newValue);
+            }
+            // 将修改后的内容写回文件
+            try (FileOutputStream fos = new FileOutputStream(fileName)) {
+                properties.store(fos, "Updated properties file");
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
 
     private void moneyJLabel() {
         JLabel moneyNumberJLabel = new JLabel(MONEY + "");
@@ -133,7 +205,7 @@ public class MainInterface extends JFrame {
         this.setTitle("银行 - 主界面");
         this.setAlwaysOnTop(true);
         this.setLocationRelativeTo(this);
-        this.setDefaultCloseOperation(3);
+        this.setDefaultCloseOperation(2);
         this.setLayout(null);
     }
 
@@ -157,7 +229,6 @@ public class MainInterface extends JFrame {
          * 贷款申请：允许用户提交贷款申请，并填写必要的信息，如贷款金额、贷款期限等。
          * 贷款审批：对贷款申请进行审批，并通知用户审批结果。
          * 贷款还款：允许用户进行贷款还款操作。
-         *
          */
         JMenuItem reviseNamejMenuItem = new JMenuItem("  修改姓名  ");
         JMenuItem revisePasswordjMenuItem = new JMenuItem("  修改密码  ");
@@ -166,16 +237,16 @@ public class MainInterface extends JFrame {
         revisePasswordjMenuItem.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                setVisible(false);
                 new Revise("密码");
+                dispose();
             }
         });
 
         reviseNamejMenuItem.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                setVisible(false);
                 new Revise("名称");
+                dispose();
             }
         });
 
@@ -183,24 +254,24 @@ public class MainInterface extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 remove();
-                setVisible(false);
                 new Login();
+                dispose();
             }
         });
 
         enrolljMenuItem.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                setVisible(false);
                 new Enroll();
+                dispose();
             }
         });
 
         loginjMenuItem.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                setVisible(false);
                 new Login();
+                dispose();
             }
         });
 
