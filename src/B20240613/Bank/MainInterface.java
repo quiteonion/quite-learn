@@ -14,7 +14,7 @@ import java.util.Properties;
 public class MainInterface extends JFrame {
 
     static long ACCOUNT;
-    static String NAME;
+    static String NAMEQ;
     static int AGE;
     static long MONEY;
     static String PASSWORD;
@@ -24,7 +24,7 @@ public class MainInterface extends JFrame {
     private void findUser() {
         for (User user : Users) { // 使用增强的for循环来简化代码
             if (user.getAccount() == ACCOUNT) {
-                NAME = user.getName();
+                NAMEQ = user.getName();
                 AGE = user.getAge();
                 MONEY = user.getMoneyNumber();
                 PASSWORD = user.getPassword();
@@ -73,7 +73,7 @@ public class MainInterface extends JFrame {
                 MONEY = MONEY + 1000;
                 String fileName = "src/B20240613/Bank/user.properties";
                 String keyToUpdate = String.valueOf(ACCOUNT); // 要更新的键
-                String newValue = NAME + "\t" + AGE + "\t" + PASSWORD + "\t" + MONEY; // 新的值
+                String newValue = NAMEQ + "\t" + AGE + "\t" + PASSWORD + "\t" + MONEY; // 新的值
 
                 Properties properties = new Properties();
                 try (FileInputStream fis = new FileInputStream(fileName)) {
@@ -123,7 +123,7 @@ public class MainInterface extends JFrame {
     }
 
     private void nameJLabel() {
-        JLabel nameJLabel = new JLabel("姓名:" + NAME);
+        JLabel nameJLabel = new JLabel("姓名:" + NAMEQ);
         nameJLabel.setFont(new Font("宋体", Font.PLAIN, 30));
         nameJLabel.setBounds(10, 20, 200, 40);
         this.getContentPane().add(nameJLabel);
