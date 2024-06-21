@@ -106,14 +106,14 @@ public class MainInterface extends JFrame {
 
             JTextField jTextField = new JTextField();
             jTextField.setFont(new Font("宋体", Font.PLAIN, 25));
-            jTextField.setBounds(20, 20, 200, 40);
+            jTextField.setBounds(50, 40, 300, 40);
             this.getContentPane().add(jTextField);
 
             JButton jButton1 = new JButton(ss);
             jButton1.setFont(new Font("宋体", Font.PLAIN, 20));
             JPanel jPanel = new JPanel();
             jPanel.add(jButton1);
-            jPanel.setBounds(80,50,200,50);
+            jPanel.setBounds(85,100,200,50);
             this.getContentPane().add(jPanel);
 
             jButton1.addActionListener(new AbstractAction() {

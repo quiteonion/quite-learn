@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Bad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Bad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Enroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Enroll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Good.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/MainInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/MainInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Revise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Revise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/user.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -467,15 +460,8 @@
       <workItem from="1718888009631" duration="1985000" />
       <workItem from="1718895645679" duration="4800000" />
       <workItem from="1718941569420" duration="3142000" />
-      <workItem from="1718951748567" duration="12896000" />
-    </task>
-    <task id="LOCAL-00552" summary="System - currentTimeMillis -- 使代码高效化，可扩展">
-      <option name="closed" value="true" />
-      <created>1717586845568</created>
-      <option name="number" value="00552" />
-      <option name="presentableId" value="LOCAL-00552" />
-      <option name="project" value="LOCAL" />
-      <updated>1717586845568</updated>
+      <workItem from="1718951748567" duration="12932000" />
+      <workItem from="1718975818586" duration="363000" />
     </task>
     <task id="LOCAL-00553" summary="正则表达式">
       <option name="closed" value="true" />
@@ -861,7 +847,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718968556412</updated>
     </task>
-    <option name="localTasksCounter" value="601" />
+    <task id="LOCAL-00601" summary="银行">
+      <option name="closed" value="true" />
+      <created>1718972969442</created>
+      <option name="number" value="00601" />
+      <option name="presentableId" value="LOCAL-00601" />
+      <option name="project" value="LOCAL" />
+      <updated>1718972969442</updated>
+    </task>
+    <option name="localTasksCounter" value="602" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
