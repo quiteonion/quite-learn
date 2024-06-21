@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="银行">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Enroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Enroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/APP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/MainInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/MainInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240613/Bank/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240613/Bank/user.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -460,15 +462,8 @@
       <workItem from="1718786988380" duration="521000" />
       <workItem from="1718854094907" duration="8926000" />
       <workItem from="1718888009631" duration="1985000" />
-      <workItem from="1718895645679" duration="4484000" />
-    </task>
-    <task id="LOCAL-00546" summary="Math - random -- 随机 0 ~ 1 之间的一个小数">
-      <option name="closed" value="true" />
-      <created>1717491708528</created>
-      <option name="number" value="00546" />
-      <option name="presentableId" value="LOCAL-00546" />
-      <option name="project" value="LOCAL" />
-      <updated>1717491708528</updated>
+      <workItem from="1718895645679" duration="4800000" />
+      <workItem from="1718941569420" duration="2721000" />
     </task>
     <task id="LOCAL-00547" summary="Math - Test -- 判断一个数是不是质数...&#10;&#10;在循环中可以使用平方根，因为 =》 4*4=16 &#10;4.1*4.1 != 16&#10;3.9*3.9 != 16">
       <option name="closed" value="true" />
@@ -854,7 +849,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718899358764</updated>
     </task>
-    <option name="localTasksCounter" value="595" />
+    <task id="LOCAL-00595" summary="银行">
+      <option name="closed" value="true" />
+      <created>1718901450409</created>
+      <option name="number" value="00595" />
+      <option name="presentableId" value="LOCAL-00595" />
+      <option name="project" value="LOCAL" />
+      <updated>1718901450409</updated>
+    </task>
+    <option name="localTasksCounter" value="596" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1057,11 +1060,6 @@
           <url>file://$PROJECT_DIR$/src/A20240417/River/Test.java</url>
           <line>46</line>
           <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/B20240613/Bank/Enroll.java</url>
-          <line>134</line>
-          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />

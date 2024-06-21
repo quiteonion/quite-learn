@@ -6,6 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Properties;
@@ -16,7 +17,9 @@ public class MainInterface extends JFrame {
     static String NAME;
     static int AGE;
     static long MONEY;
+    static String PASSWORD;
     static ArrayList<User> Users = Login.Users;
+
 
     private void findUser() {
         for (User user : Users) { // 使用增强的for循环来简化代码
@@ -24,6 +27,7 @@ public class MainInterface extends JFrame {
                 NAME = user.getName();
                 AGE = user.getAge();
                 MONEY = user.getMoneyNumber();
+                PASSWORD = user.getPassword();
                 break; // 找到后退出循环
             }
         }
@@ -55,20 +59,52 @@ public class MainInterface extends JFrame {
 
     private void borrowMoney() {
         JButton borrowMoneyButton = new JButton("借钱");
-        borrowMoneyButton.setFont(new Font("宋体",Font.BOLD,35));
+        borrowMoneyButton.setFont(new Font("宋体", Font.BOLD, 35));
         borrowMoneyButton.setForeground(Color.YELLOW);
         borrowMoneyButton.setBackground(Color.RED);
         JPanel borrowMoneyJPanel = new JPanel();
         borrowMoneyJPanel.add(borrowMoneyButton);
-        borrowMoneyJPanel.setBounds(200,400,400,200);
+        borrowMoneyJPanel.setBounds(200, 400, 400, 200);
         this.getContentPane().add(borrowMoneyJPanel);
+
+        borrowMoneyButton.addActionListener(new AbstractAction() {
+            @Override
+            public void actionPerformed(ActionEvent ec) {
+                MONEY = MONEY + 1000;
+                String fileName = "src/B20240613/Bank/user.properties";
+                String keyToUpdate = String.valueOf(ACCOUNT); // 要更新的键
+                String newValue = NAME + "\t" + AGE + "\t" + PASSWORD + "\t" + MONEY; // 新的值
+
+                Properties properties = new Properties();
+                try (FileInputStream fis = new FileInputStream(fileName)) {
+                    // 加载旧文件的内容
+                    properties.load(fis);
+
+                    // 检查键是否存在并更新其值
+                    if (properties.containsKey(keyToUpdate)) {
+                        properties.setProperty(keyToUpdate, newValue);
+                        System.out.println("Key '" + keyToUpdate + "' found and updated to '" + newValue + "'.");
+                    } else {
+                        System.out.println("Key '" + keyToUpdate + "' not found in the properties file.");
+                    }
+
+                    // 将修改后的内容写回文件
+                    try (FileOutputStream fos = new FileOutputStream(fileName)) {
+                        properties.store(fos, "Updated properties file");
+                    }
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
     }
 
     private void moneyJLabel() {
-        JLabel moneyNumberJLabel = new JLabel(MONEY+"");
-        moneyNumberJLabel.setFont(new Font("宋体",Font.BOLD,100));
+        JLabel moneyNumberJLabel = new JLabel(MONEY + "");
+        moneyNumberJLabel.setFont(new Font("宋体", Font.BOLD, 100));
         moneyNumberJLabel.setForeground(Color.RED);
-        moneyNumberJLabel.setBounds(250,150,400,200);
+        moneyNumberJLabel.setBounds(250, 150, 400, 200);
         this.getContentPane().add(moneyNumberJLabel);
     }
 
@@ -113,8 +149,17 @@ public class MainInterface extends JFrame {
         JMenuItem enrolljMenuItem = new JMenuItem("  注册  ");
         JMenuItem exitjMenuItem = new JMenuItem("  退出  ");
 
-        JMenuItem findjMenuItem = new JMenuItem("  查找  ");
-        JMenuItem deletejMenuItem = new JMenuItem("  删除  ");
+        JMenuItem disjMenuItem = new JMenuItem("  修改  ");
+        JMenuItem deletejMenuItem = new JMenuItem("  注销  ");
+
+        deletejMenuItem.addActionListener(new AbstractAction() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                remove();
+                setVisible(false);
+                new Login();
+            }
+        });
 
         enrolljMenuItem.addActionListener(new AbstractAction() {
             @Override
@@ -144,14 +189,35 @@ public class MainInterface extends JFrame {
         menujMenu.add(enrolljMenuItem);
         menujMenu.add(exitjMenuItem);
 
-        functionjMenu.add(findjMenuItem);
+        functionjMenu.add(disjMenuItem);
         functionjMenu.add(deletejMenuItem);
-
 
 
         jMenuBar.add(menujMenu);
         jMenuBar.add(functionjMenu);
         this.setJMenuBar(jMenuBar);
 
+    }
+
+    private void remove() {
+        String fileName = "src/B20240613/Bank/user.properties";
+        String keyToRemove = String.valueOf(ACCOUNT); // 要删除的键
+
+        Properties properties = new Properties();
+        try (FileInputStream fis = new FileInputStream(fileName)) {
+            // 加载旧文件的内容
+            properties.load(fis);
+
+            // 移除指定的键
+            properties.remove(keyToRemove);
+
+            // 将修改后的内容写回文件
+            try (FileOutputStream fos = new FileOutputStream(fileName)) {
+                properties.store(fos, "Updated properties file");
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
