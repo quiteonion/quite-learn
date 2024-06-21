@@ -149,7 +149,6 @@ public class MainInterface extends JFrame {
         JMenuItem enrolljMenuItem = new JMenuItem("  注册  ");
         JMenuItem exitjMenuItem = new JMenuItem("  退出  ");
 
-        JMenuItem disjMenuItem = new JMenuItem("  修改  ");
         JMenuItem deletejMenuItem = new JMenuItem("  注销  ");
 
         deletejMenuItem.addActionListener(new AbstractAction() {
@@ -189,7 +188,6 @@ public class MainInterface extends JFrame {
         menujMenu.add(enrolljMenuItem);
         menujMenu.add(exitjMenuItem);
 
-        functionjMenu.add(disjMenuItem);
         functionjMenu.add(deletejMenuItem);
 
 
