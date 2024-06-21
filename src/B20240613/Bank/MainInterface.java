@@ -12,7 +12,6 @@ import java.util.ArrayList;
 import java.util.Properties;
 
 public class MainInterface extends JFrame {
-
     static long ACCOUNT;
     static String NAMEQ;
     static int AGE;
@@ -154,9 +153,6 @@ public class MainInterface extends JFrame {
         //转账
 
         /**
-         * 利息功能
-         * 可修改用户信息
-         *
          * 贷款管理（如果系统支持贷款业务）：
          * 贷款申请：允许用户提交贷款申请，并填写必要的信息，如贷款金额、贷款期限等。
          * 贷款审批：对贷款申请进行审批，并通知用户审批结果。
