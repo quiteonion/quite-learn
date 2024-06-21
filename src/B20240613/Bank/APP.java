@@ -11,5 +11,6 @@ public class APP {
     public static void main(String[] args) {
 //        new Login();
         new MainInterface(213);
+//        new Revise("名称");
     }
 }

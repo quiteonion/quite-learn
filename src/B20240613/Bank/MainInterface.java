@@ -149,7 +149,39 @@ public class MainInterface extends JFrame {
         JMenuItem enrolljMenuItem = new JMenuItem("  注册  ");
         JMenuItem exitjMenuItem = new JMenuItem("  退出  ");
 
+
+        //JMenuItem deletejMenuItem = new JMenuItem("  注销  ");
+        //转账
+
+        /**
+         * 利息功能
+         * 可修改用户信息
+         *
+         * 贷款管理（如果系统支持贷款业务）：
+         * 贷款申请：允许用户提交贷款申请，并填写必要的信息，如贷款金额、贷款期限等。
+         * 贷款审批：对贷款申请进行审批，并通知用户审批结果。
+         * 贷款还款：允许用户进行贷款还款操作。
+         *
+         */
+        JMenuItem reviseNamejMenuItem = new JMenuItem("  修改姓名  ");
+        JMenuItem revisePasswordjMenuItem = new JMenuItem("  修改密码  ");
         JMenuItem deletejMenuItem = new JMenuItem("  注销  ");
+
+        revisePasswordjMenuItem.addActionListener(new AbstractAction() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                setVisible(false);
+                new Revise("密码");
+            }
+        });
+
+        reviseNamejMenuItem.addActionListener(new AbstractAction() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                setVisible(false);
+                new Revise("名称");
+            }
+        });
 
         deletejMenuItem.addActionListener(new AbstractAction() {
             @Override
@@ -188,6 +220,8 @@ public class MainInterface extends JFrame {
         menujMenu.add(enrolljMenuItem);
         menujMenu.add(exitjMenuItem);
 
+        functionjMenu.add(reviseNamejMenuItem);
+        functionjMenu.add(revisePasswordjMenuItem);
         functionjMenu.add(deletejMenuItem);
 
 
