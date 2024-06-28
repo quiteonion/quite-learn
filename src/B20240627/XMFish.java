@@ -13,6 +13,7 @@ public class XMFish implements Parser {
         Document doc = Jsoup.parse(html);
         Elements el = doc.getElementsByClass("");
         htmlList.add(el.html());
+
         //解析
         return htmlList;
     }
