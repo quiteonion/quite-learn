@@ -10,7 +10,21 @@ public class APP {
         setProperties();
         getHtml();
 
+        Parser parser = getParser(properties.getProperty("parser"));
+    }
 
+    private static Parser getParser(String parser) {
+        Parser pa = null;
+        switch (parser){
+            case "xmfish":
+                pa =  new XMFish();
+                break;/*
+            case "BaiDu":
+                pa = new BaiDu();
+                break;*/
+
+        }
+        return pa;
     }
 
     private static void getHtml() {
