@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="国贸阶段性测试 - 1 -- 解析网页的代码，并且将需要的存入 List 中">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240627/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/APP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240627/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240627/XMFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/XMFish.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +25,8 @@
       <list>
         <option value="HTTP Request" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,7 +113,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A20240130">
+  <component name="RunManager" selected="Application.B20240627.APP">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -192,6 +195,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="B20240627.APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="B20240627.APP" />
+      <module name="quite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="B20240627.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LearnEnglish.ALL.APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LearnEnglish.ALL.APP" />
       <module name="quite" />
@@ -218,39 +234,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringADD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A20240524.StringADD" />
-      <module name="quite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A20240524.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A20240515.note.MysortUtilState.Test" />
-      <module name="quite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A20240515.note.MysortUtilState.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.B20240627.APP" />
         <item itemvalue="Application.B20240613.Bank.APP" />
         <item itemvalue="Application.APP" />
         <item itemvalue="Application.LearnEnglish.ALL.APP" />
         <item itemvalue="Application.A20240130" />
-        <item itemvalue="Application.StringADD" />
       </list>
     </recent_temporary>
   </component>
@@ -468,15 +458,8 @@
       <workItem from="1719299257538" duration="1263000" />
       <workItem from="1719475138546" duration="5313000" />
       <workItem from="1719546609673" duration="2655000" />
-      <workItem from="1719585029748" duration="1710000" />
-    </task>
-    <task id="LOCAL-00557" summary="异常 - java.lang.OutOfMemoryError -- 堆爆满">
-      <option name="closed" value="true" />
-      <created>1717591338357</created>
-      <option name="number" value="00557" />
-      <option name="presentableId" value="LOCAL-00557" />
-      <option name="project" value="LOCAL" />
-      <updated>1717591338357</updated>
+      <workItem from="1719585029748" duration="4256000" />
+      <workItem from="1719641781897" duration="3060000" />
     </task>
     <task id="LOCAL-00558" summary="异常 - java.lang.ArithmeticException -- 计算错误">
       <option name="closed" value="true" />
@@ -862,7 +845,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719586820322</updated>
     </task>
-    <option name="localTasksCounter" value="606" />
+    <task id="LOCAL-00606" summary="...">
+      <option name="closed" value="true" />
+      <created>1719591615566</created>
+      <option name="number" value="00606" />
+      <option name="presentableId" value="LOCAL-00606" />
+      <option name="project" value="LOCAL" />
+      <updated>1719591615566</updated>
+    </task>
+    <option name="localTasksCounter" value="607" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -914,7 +905,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Runtime - exit -- 相传 System 就是调用的他" />
     <MESSAGE value="Runtime - availableProcessors -- 查看自己的 CPU 线程数" />
     <MESSAGE value="Runtime - maxMemory -- 虚拟机能从系统获得的总内存的大小" />
     <MESSAGE value="Runtime - totalMemory -- 虚拟机已经从系统获取的总内存的大小" />
@@ -939,7 +929,8 @@
     <MESSAGE value="银行" />
     <MESSAGE value="国贸阶段性测试 - 0 -- 获取 downloader 以及获得页面 html 的代码的书写" />
     <MESSAGE value="国贸阶段性测试 - 1 -- 解析网页的代码，并且将需要的存入 List 中" />
-    <option name="LAST_COMMIT_MESSAGE" value="国贸阶段性测试 - 1 -- 解析网页的代码，并且将需要的存入 List 中" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

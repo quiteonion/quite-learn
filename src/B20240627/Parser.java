@@ -5,5 +5,5 @@ import java.util.List;
 
 public interface Parser {
     List<String> htmlList = new ArrayList<>();
-    List<String> getParser(String html);
+    List<String> parser(String html);
 }

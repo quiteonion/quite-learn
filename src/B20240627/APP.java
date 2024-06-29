@@ -1,6 +1,7 @@
 package B20240627;
 
 import java.io.File;
+import java.util.List;
 import java.util.Properties;
 
 public class APP {
@@ -11,6 +12,8 @@ public class APP {
         getHtml();
 
         Parser parser = getParser(properties.getProperty("parser"));
+        List<String> parsed = parser.parser(HTML);
+        System.out.println(parsed);
     }
 
     private static Parser getParser(String parser) {
@@ -46,6 +49,6 @@ public class APP {
         properties.setProperty("parser","xmfish");
         properties.setProperty("repository","console");
         properties.setProperty("notificator","email");
-        properties.setProperty("url","https://www.baidu.com");
+        properties.setProperty("url","http://bbs.xmfish.com/thread-htm-fid-55-page-1.html");
     }
 }
