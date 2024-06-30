@@ -4,12 +4,21 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 
+
+
 public class LocalDateDemo {
     public static void main(String[] args) {
 //        now();
 //        of();
-        getXxx();
+//        getXxx();
+        with();
+    }
 
+    private static void with() {
+        LocalDateTime localDateTime = LocalDateTime.now();
+        System.out.println("修改前的时间 "+localDateTime.getHour());
+        LocalDateTime localDateTime1 = localDateTime.withHour(5);
+        System.out.println("修改后的时间 "+localDateTime1.getHour());
     }
 
     public static void getXxx() {
