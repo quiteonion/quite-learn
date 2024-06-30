@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="显示时间 - LocalDateTime -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30T17:41:43.802878100">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 of() --- 设置时间">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240630/LocalDateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240630/LocalDateDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -458,15 +459,7 @@
       <workItem from="1719585029748" duration="4256000" />
       <workItem from="1719641781897" duration="4880000" />
       <workItem from="1719679357824" duration="7000" />
-      <workItem from="1719733607167" duration="1912000" />
-    </task>
-    <task id="LOCAL-00563" summary="System - arraycopy -- 数组的扩展...&#10;&#10;System.arraycopy(老数组， 从哪里开始复制， 新数组， 从哪里开始粘贴， 复制个数)">
-      <option name="closed" value="true" />
-      <created>1718093940053</created>
-      <option name="number" value="00563" />
-      <option name="presentableId" value="LOCAL-00563" />
-      <option name="project" value="LOCAL" />
-      <updated>1718093940053</updated>
+      <workItem from="1719733607167" duration="3370000" />
     </task>
     <task id="LOCAL-00564" summary="Runtime - about &quot;new&quot; -- runtime 的构造器被 private 所修饰，无法自行 new 一个对象出来">
       <option name="closed" value="true" />
@@ -852,7 +845,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719740522251</updated>
     </task>
-    <option name="localTasksCounter" value="612" />
+    <task id="LOCAL-00612" summary="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 of() --- 设置时间">
+      <option name="closed" value="true" />
+      <created>1719740954793</created>
+      <option name="number" value="00612" />
+      <option name="presentableId" value="LOCAL-00612" />
+      <option name="project" value="LOCAL" />
+      <updated>1719740954793</updated>
+    </task>
+    <option name="localTasksCounter" value="613" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -904,7 +905,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="银行 - 思路构思" />
     <MESSAGE value="银行 - 登录 -- 登录界面的设计" />
     <MESSAGE value="银行 - 登录 -- 设置登录界面的标题" />
     <MESSAGE value="银行 - 登录 -- 设置登录界面居中" />
@@ -929,7 +929,8 @@
     <MESSAGE value="显示时间 - LocalDate -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30" />
     <MESSAGE value="显示时间 - LocalTime -- 静态方法 now() 显示当前时间 --- 格式为：17:40:27.892841" />
     <MESSAGE value="显示时间 - LocalDateTime -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30T17:41:43.802878100" />
-    <option name="LAST_COMMIT_MESSAGE" value="显示时间 - LocalDateTime -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30T17:41:43.802878100" />
+    <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 of() --- 设置时间" />
+    <option name="LAST_COMMIT_MESSAGE" value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 of() --- 设置时间" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
