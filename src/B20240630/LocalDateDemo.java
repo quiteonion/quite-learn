@@ -13,7 +13,17 @@ public class LocalDateDemo {
 //        of();
 //        getXxx();
 //        with();
-        plus();
+//        plus();
+        minus();
+
+
+    }
+
+    private static void minus() {
+        LocalDateTime localDateTime = LocalDateTime.now();
+        System.out.println("增加前的时间 "+localDateTime);
+        LocalDateTime localDateTime1 = localDateTime.minusDays(5);
+        System.out.println("增加后的时间 "+localDateTime1);
     }
 
     private static void plus() {
