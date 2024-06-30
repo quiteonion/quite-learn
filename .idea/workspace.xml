@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="国贸阶段性测试 - 1 -- 解析网页的代码...&#10;&#10;网页代码中几个重要的 class 名">
-      <change afterPath="$PROJECT_DIR$/src/B20240627/confile.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240627/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/APP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240627/XMFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/XMFish.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="国贸阶段性测试 - 1 -- 将地址对应放入 properties 文件下">
+      <change afterPath="$PROJECT_DIR$/src/B20240630/LocalDateDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +110,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.B20240627.APP">
+  <component name="RunManager">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -461,15 +458,7 @@
       <workItem from="1719585029748" duration="4256000" />
       <workItem from="1719641781897" duration="4880000" />
       <workItem from="1719679357824" duration="7000" />
-      <workItem from="1719733607167" duration="1212000" />
-    </task>
-    <task id="LOCAL-00559" summary="异常 - java.lang.NullPointerException -- 访问空指针">
-      <option name="closed" value="true" />
-      <created>1717591531267</created>
-      <option name="number" value="00559" />
-      <option name="presentableId" value="LOCAL-00559" />
-      <option name="project" value="LOCAL" />
-      <updated>1717591531267</updated>
+      <workItem from="1719733607167" duration="1556000" />
     </task>
     <task id="LOCAL-00560" summary="异常 - java.lang.NullPointerException -- 访问空指针">
       <option name="closed" value="true" />
@@ -855,7 +844,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719649697780</updated>
     </task>
-    <option name="localTasksCounter" value="608" />
+    <task id="LOCAL-00608" summary="国贸阶段性测试 - 1 -- 将地址对应放入 properties 文件下">
+      <option name="closed" value="true" />
+      <created>1719739963700</created>
+      <option name="number" value="00608" />
+      <option name="presentableId" value="LOCAL-00608" />
+      <option name="project" value="LOCAL" />
+      <updated>1719739963700</updated>
+    </task>
+    <option name="localTasksCounter" value="609" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -907,7 +904,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Runtime - maxMemory -- 虚拟机能从系统获得的总内存的大小" />
     <MESSAGE value="Runtime - totalMemory -- 虚拟机已经从系统获取的总内存的大小" />
     <MESSAGE value="Runtime - freeMemory -- 虚拟机目前剩余的内存大小" />
     <MESSAGE value="Runtime - exec -- 执行 CMD 指令 --- about shutdown...&#10;&#10;shutdown&#10;加上参数才能关机&#10;-s 默认在1分钟之后关机&#10;-s -t 指定关机时间（秒钟）&#10;-a 取消关机操作&#10;-r 关机并重启&#10;shutdown -s -t 120&#10;两分钟后关机" />
@@ -932,7 +928,8 @@
     <MESSAGE value="国贸阶段性测试 - 1 -- 解析网页的代码，并且将需要的存入 List 中" />
     <MESSAGE value="..." />
     <MESSAGE value="国贸阶段性测试 - 1 -- 解析网页的代码...&#10;&#10;网页代码中几个重要的 class 名" />
-    <option name="LAST_COMMIT_MESSAGE" value="国贸阶段性测试 - 1 -- 解析网页的代码...&#10;&#10;网页代码中几个重要的 class 名" />
+    <MESSAGE value="国贸阶段性测试 - 1 -- 将地址对应放入 properties 文件下" />
+    <option name="LAST_COMMIT_MESSAGE" value="国贸阶段性测试 - 1 -- 将地址对应放入 properties 文件下" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
