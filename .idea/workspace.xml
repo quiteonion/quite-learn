@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="...">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="国贸阶段性测试 - 1 -- 解析网页的代码...&#10;&#10;网页代码中几个重要的 class 名">
+      <change afterPath="$PROJECT_DIR$/src/B20240627/confile.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240627/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/APP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240627/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/Parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240627/XMFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/XMFish.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -459,15 +459,9 @@
       <workItem from="1719475138546" duration="5313000" />
       <workItem from="1719546609673" duration="2655000" />
       <workItem from="1719585029748" duration="4256000" />
-      <workItem from="1719641781897" duration="3060000" />
-    </task>
-    <task id="LOCAL-00558" summary="异常 - java.lang.ArithmeticException -- 计算错误">
-      <option name="closed" value="true" />
-      <created>1717591417932</created>
-      <option name="number" value="00558" />
-      <option name="presentableId" value="LOCAL-00558" />
-      <option name="project" value="LOCAL" />
-      <updated>1717591417932</updated>
+      <workItem from="1719641781897" duration="4880000" />
+      <workItem from="1719679357824" duration="7000" />
+      <workItem from="1719733607167" duration="1212000" />
     </task>
     <task id="LOCAL-00559" summary="异常 - java.lang.NullPointerException -- 访问空指针">
       <option name="closed" value="true" />
@@ -853,7 +847,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719591615566</updated>
     </task>
-    <option name="localTasksCounter" value="607" />
+    <task id="LOCAL-00607" summary="国贸阶段性测试 - 1 -- 解析网页的代码...&#10;&#10;网页代码中几个重要的 class 名">
+      <option name="closed" value="true" />
+      <created>1719649697780</created>
+      <option name="number" value="00607" />
+      <option name="presentableId" value="LOCAL-00607" />
+      <option name="project" value="LOCAL" />
+      <updated>1719649697780</updated>
+    </task>
+    <option name="localTasksCounter" value="608" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -905,7 +907,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Runtime - availableProcessors -- 查看自己的 CPU 线程数" />
     <MESSAGE value="Runtime - maxMemory -- 虚拟机能从系统获得的总内存的大小" />
     <MESSAGE value="Runtime - totalMemory -- 虚拟机已经从系统获取的总内存的大小" />
     <MESSAGE value="Runtime - freeMemory -- 虚拟机目前剩余的内存大小" />
@@ -930,7 +931,8 @@
     <MESSAGE value="国贸阶段性测试 - 0 -- 获取 downloader 以及获得页面 html 的代码的书写" />
     <MESSAGE value="国贸阶段性测试 - 1 -- 解析网页的代码，并且将需要的存入 List 中" />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="国贸阶段性测试 - 1 -- 解析网页的代码...&#10;&#10;网页代码中几个重要的 class 名" />
+    <option name="LAST_COMMIT_MESSAGE" value="国贸阶段性测试 - 1 -- 解析网页的代码...&#10;&#10;网页代码中几个重要的 class 名" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

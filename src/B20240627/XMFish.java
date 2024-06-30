@@ -20,7 +20,7 @@ public class XMFish implements Parser {
         //author 下含有 a 标题 和 p 标题的 为卖家信息和挂售时间 以及最后回复人和回复时间
         //num ： 回复数
 
-        doc.getElementsByClass("tr3").select()
+        doc.getElementsByClass("tr3");
         //解析
         return htmlList;
     }
