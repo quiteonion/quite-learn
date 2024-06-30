@@ -6,12 +6,21 @@ import java.time.LocalTime;
 
 
 
+
 public class LocalDateDemo {
     public static void main(String[] args) {
 //        now();
 //        of();
 //        getXxx();
-        with();
+//        with();
+        plus();
+    }
+
+    private static void plus() {
+        LocalDateTime localDateTime = LocalDateTime.now();
+        System.out.println("增加前的时间 "+localDateTime);
+        LocalDateTime localDateTime1 = localDateTime.plusDays(5);
+        System.out.println("增加后的时间 "+localDateTime1);
     }
 
     private static void with() {
