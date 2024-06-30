@@ -1,6 +1,7 @@
 package B20240630;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 
 public class LocalDateDemo {
@@ -12,6 +13,7 @@ public class LocalDateDemo {
         LocalTime localTime = LocalTime.now();
         System.out.println(localTime);
 
-
+        LocalDateTime localDateTime = LocalDateTime.now();
+        System.out.println(localDateTime);
     }
 }
