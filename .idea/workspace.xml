@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="国贸阶段性测试 - 1 -- 将地址对应放入 properties 文件下">
-      <change afterPath="$PROJECT_DIR$/src/B20240630/LocalDateDemo.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="显示时间 - LocalDateTime -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30T17:41:43.802878100">
+      <change beforePath="$PROJECT_DIR$/src/B20240630/LocalDateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240630/LocalDateDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -458,31 +458,7 @@
       <workItem from="1719585029748" duration="4256000" />
       <workItem from="1719641781897" duration="4880000" />
       <workItem from="1719679357824" duration="7000" />
-      <workItem from="1719733607167" duration="1556000" />
-    </task>
-    <task id="LOCAL-00560" summary="异常 - java.lang.NullPointerException -- 访问空指针">
-      <option name="closed" value="true" />
-      <created>1717916769713</created>
-      <option name="number" value="00560" />
-      <option name="presentableId" value="LOCAL-00560" />
-      <option name="project" value="LOCAL" />
-      <updated>1717916769714</updated>
-    </task>
-    <task id="LOCAL-00561" summary="正则表达式练习网站">
-      <option name="closed" value="true" />
-      <created>1717918441860</created>
-      <option name="number" value="00561" />
-      <option name="presentableId" value="LOCAL-00561" />
-      <option name="project" value="LOCAL" />
-      <updated>1717918441860</updated>
-    </task>
-    <task id="LOCAL-00562" summary="System - currentTimeMillis -- 使代码高效化，可扩展">
-      <option name="closed" value="true" />
-      <created>1718093535428</created>
-      <option name="number" value="00562" />
-      <option name="presentableId" value="LOCAL-00562" />
-      <option name="project" value="LOCAL" />
-      <updated>1718093535428</updated>
+      <workItem from="1719733607167" duration="1912000" />
     </task>
     <task id="LOCAL-00563" summary="System - arraycopy -- 数组的扩展...&#10;&#10;System.arraycopy(老数组， 从哪里开始复制， 新数组， 从哪里开始粘贴， 复制个数)">
       <option name="closed" value="true" />
@@ -852,7 +828,31 @@
       <option name="project" value="LOCAL" />
       <updated>1719739963700</updated>
     </task>
-    <option name="localTasksCounter" value="609" />
+    <task id="LOCAL-00609" summary="显示时间 - LocalDate -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30">
+      <option name="closed" value="true" />
+      <created>1719740343358</created>
+      <option name="number" value="00609" />
+      <option name="presentableId" value="LOCAL-00609" />
+      <option name="project" value="LOCAL" />
+      <updated>1719740343358</updated>
+    </task>
+    <task id="LOCAL-00610" summary="显示时间 - LocalTime -- 静态方法 now() 显示当前时间 --- 格式为：17:40:27.892841">
+      <option name="closed" value="true" />
+      <created>1719740451843</created>
+      <option name="number" value="00610" />
+      <option name="presentableId" value="LOCAL-00610" />
+      <option name="project" value="LOCAL" />
+      <updated>1719740451843</updated>
+    </task>
+    <task id="LOCAL-00611" summary="显示时间 - LocalDateTime -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30T17:41:43.802878100">
+      <option name="closed" value="true" />
+      <created>1719740522251</created>
+      <option name="number" value="00611" />
+      <option name="presentableId" value="LOCAL-00611" />
+      <option name="project" value="LOCAL" />
+      <updated>1719740522251</updated>
+    </task>
+    <option name="localTasksCounter" value="612" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -904,9 +904,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Runtime - totalMemory -- 虚拟机已经从系统获取的总内存的大小" />
-    <MESSAGE value="Runtime - freeMemory -- 虚拟机目前剩余的内存大小" />
-    <MESSAGE value="Runtime - exec -- 执行 CMD 指令 --- about shutdown...&#10;&#10;shutdown&#10;加上参数才能关机&#10;-s 默认在1分钟之后关机&#10;-s -t 指定关机时间（秒钟）&#10;-a 取消关机操作&#10;-r 关机并重启&#10;shutdown -s -t 120&#10;两分钟后关机" />
     <MESSAGE value="银行 - 思路构思" />
     <MESSAGE value="银行 - 登录 -- 登录界面的设计" />
     <MESSAGE value="银行 - 登录 -- 设置登录界面的标题" />
@@ -929,7 +926,10 @@
     <MESSAGE value="..." />
     <MESSAGE value="国贸阶段性测试 - 1 -- 解析网页的代码...&#10;&#10;网页代码中几个重要的 class 名" />
     <MESSAGE value="国贸阶段性测试 - 1 -- 将地址对应放入 properties 文件下" />
-    <option name="LAST_COMMIT_MESSAGE" value="国贸阶段性测试 - 1 -- 将地址对应放入 properties 文件下" />
+    <MESSAGE value="显示时间 - LocalDate -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30" />
+    <MESSAGE value="显示时间 - LocalTime -- 静态方法 now() 显示当前时间 --- 格式为：17:40:27.892841" />
+    <MESSAGE value="显示时间 - LocalDateTime -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30T17:41:43.802878100" />
+    <option name="LAST_COMMIT_MESSAGE" value="显示时间 - LocalDateTime -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30T17:41:43.802878100" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
