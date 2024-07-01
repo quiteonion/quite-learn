@@ -32,6 +32,13 @@ public class LocalDateDemo {
         //当你想要知道你获取到的两个时间之间有什么关系时，可以这样子做 ↓
         Duration between = Duration.between(localDateTime1,localDateTime2);
         System.out.println(between.toHours());
+        //如果你想要知道一个时间与另一个时间之间的关系（在它之前或在它之后）
+        System.out.println(localDateTime1.isAfter(localDateTime2));//localDateTime1 是否在 localDateTime2 之后
+        System.out.println(localDateTime1.isBefore(localDateTime2));//localDateTime1 是否在 localDateTime2 之前
+        System.out.println(localDateTime1.isEqual(localDateTime2));//localDateTime1 是否与 localDateTime2 相同
+        System.out.println(localDateTime1.getNano());//获取这个之间的纳秒
+        System.out.println(localDateTime1.compareTo(localDateTime2));//比较两个时间之间的大小关系： localDateTime1 比 localDateTime2 小
+
     }
 
     private static void minus() {
