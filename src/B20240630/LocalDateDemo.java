@@ -39,6 +39,8 @@ public class LocalDateDemo {
         System.out.println(localDateTime1.getNano());//获取这个之间的纳秒
         System.out.println(localDateTime1.compareTo(localDateTime2));//比较两个时间之间的大小关系： localDateTime1 比 localDateTime2 小
 
+        System.out.println(localDateTime1.toString());//打印出来的便是标准格式
+        System.out.println(formatter.format(localDateTime1));
     }
 
     private static void minus() {
