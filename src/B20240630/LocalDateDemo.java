@@ -21,6 +21,13 @@ public class LocalDateDemo {
     private static void format() {
         //如果你在网页进行爬虫时，想要获取当前的时间，你会发现，某些网页的时间并不符合 Java 所提供的 yyyy-MM-ddTHH:mm 时间排列方式，这个时候我们就可以自己设置他的时间格式，使得爬虫可以顺利的进行
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+        String updateAtStr1 = "2024-06-07 09:05";
+        String updateAtStr2 = "2024-12-07 21:05";
+        //当你设置好格式后，使用你爬取到的时间对其进行设置，让他能够存储进入你的 LocalDateTime 格式之中
+        LocalDateTime localDateTime1 = LocalDateTime.parse(updateAtStr1 , formatter);
+        LocalDateTime localDateTime2 = LocalDateTime.parse(updateAtStr2 , formatter);
+        System.out.println(localDateTime1);
+        System.out.println(localDateTime2);
     }
 
     private static void minus() {
