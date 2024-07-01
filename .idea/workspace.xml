@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 plusXxx() --- 增加对应部分的时间,修改后返回一个新时间" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 minusXxx() --- 减去对应部分的时间,修改后返回一个新时间">
+      <change afterPath="$PROJECT_DIR$/src/B20240701/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240630/LocalDateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240630/LocalDateDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -456,15 +460,8 @@
       <workItem from="1719585029748" duration="4256000" />
       <workItem from="1719641781897" duration="4880000" />
       <workItem from="1719679357824" duration="7000" />
-      <workItem from="1719733607167" duration="4038000" />
-    </task>
-    <task id="LOCAL-00567" summary="Runtime - availableProcessors -- 查看自己的 CPU 线程数">
-      <option name="closed" value="true" />
-      <created>1718096262011</created>
-      <option name="number" value="00567" />
-      <option name="presentableId" value="LOCAL-00567" />
-      <option name="project" value="LOCAL" />
-      <updated>1718096262011</updated>
+      <workItem from="1719733607167" duration="5699000" />
+      <workItem from="1719830184271" duration="1229000" />
     </task>
     <task id="LOCAL-00568" summary="Runtime - maxMemory -- 虚拟机能从系统获得的总内存的大小">
       <option name="closed" value="true" />
@@ -850,7 +847,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719742685050</updated>
     </task>
-    <option name="localTasksCounter" value="616" />
+    <task id="LOCAL-00616" summary="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 minusXxx() --- 减去对应部分的时间,修改后返回一个新时间">
+      <option name="closed" value="true" />
+      <created>1719742803908</created>
+      <option name="number" value="00616" />
+      <option name="presentableId" value="LOCAL-00616" />
+      <option name="project" value="LOCAL" />
+      <updated>1719742803908</updated>
+    </task>
+    <option name="localTasksCounter" value="617" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -902,7 +907,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="银行 - 登录 -- 设置登录界面关闭模式" />
     <MESSAGE value="银行 - 登录 -- 重组为一个方法的内容" />
     <MESSAGE value="银行 - 登录 -- 菜单的构建" />
     <MESSAGE value="银行 - 用户 -- 基本情况" />
@@ -927,7 +931,8 @@
     <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 getXxx() --- 单一获得对应内容(getYear 就是获取年)" />
     <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 withXxx() --- 修改对应部分的时间,修改后返回一个新时间" />
     <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 plusXxx() --- 增加对应部分的时间,修改后返回一个新时间" />
-    <option name="LAST_COMMIT_MESSAGE" value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 plusXxx() --- 增加对应部分的时间,修改后返回一个新时间" />
+    <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 minusXxx() --- 减去对应部分的时间,修改后返回一个新时间" />
+    <option name="LAST_COMMIT_MESSAGE" value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 minusXxx() --- 减去对应部分的时间,修改后返回一个新时间" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
