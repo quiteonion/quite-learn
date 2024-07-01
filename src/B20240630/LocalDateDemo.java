@@ -1,5 +1,6 @@
 package B20240630;
 
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -28,6 +29,9 @@ public class LocalDateDemo {
         LocalDateTime localDateTime2 = LocalDateTime.parse(updateAtStr2 , formatter);
         System.out.println(localDateTime1);
         System.out.println(localDateTime2);
+        //当你想要知道你获取到的两个时间之间有什么关系时，可以这样子做 ↓
+        Duration between = Duration.between(localDateTime1,localDateTime2);
+        System.out.println(between.toHours());
     }
 
     private static void minus() {
