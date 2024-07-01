@@ -3,8 +3,7 @@ package B20240630;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
-
-
+import java.time.format.DateTimeFormatter;
 
 
 public class LocalDateDemo {
@@ -15,8 +14,13 @@ public class LocalDateDemo {
 //        with();
 //        plus();
 //        minus();
+        format();
 
+    }
 
+    private static void format() {
+        //如果你在网页进行爬虫时，想要获取当前的时间，你会发现，某些网页的时间并不符合 Java 所提供的 yyyy-MM-ddTHH:mm 时间排列方式，这个时候我们就可以自己设置他的时间格式，使得爬虫可以顺利的进行
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
     }
 
     private static void minus() {
