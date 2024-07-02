@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="设置时间">
-      <change afterPath="$PROJECT_DIR$/src/B20240627/URLContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240627/XMFishAbout.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="国贸阶段性测试 - 将所有需要使用的网址进行整合，更好打印网页内容">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240627/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240627/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/APP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240627/XMFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/XMFish.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +112,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A20240130">
+  <component name="RunManager" selected="Application.B20240627.APP">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -465,15 +463,7 @@
       <workItem from="1719733607167" duration="5699000" />
       <workItem from="1719830184271" duration="2970000" />
       <workItem from="1719852355619" duration="81000" />
-      <workItem from="1719900668131" duration="1867000" />
-    </task>
-    <task id="LOCAL-00574" summary="银行 - 登录 -- 设置登录界面的标题">
-      <option name="closed" value="true" />
-      <created>1718350805430</created>
-      <option name="number" value="00574" />
-      <option name="presentableId" value="LOCAL-00574" />
-      <option name="project" value="LOCAL" />
-      <updated>1718350805430</updated>
+      <workItem from="1719900668131" duration="5340000" />
     </task>
     <task id="LOCAL-00575" summary="银行 - 登录 -- 设置登录界面居中">
       <option name="closed" value="true" />
@@ -859,7 +849,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719843079099</updated>
     </task>
-    <option name="localTasksCounter" value="623" />
+    <task id="LOCAL-00623" summary="国贸阶段性测试 - 将所有需要使用的网址进行整合，更好打印网页内容">
+      <option name="closed" value="true" />
+      <created>1719907616230</created>
+      <option name="number" value="00623" />
+      <option name="presentableId" value="LOCAL-00623" />
+      <option name="project" value="LOCAL" />
+      <updated>1719907616230</updated>
+    </task>
+    <option name="localTasksCounter" value="624" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -911,7 +909,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="银行 - 登录 -- 登录界面的头像" />
     <MESSAGE value="银行 - 登录 -- 登录界面的按钮的设置" />
     <MESSAGE value="银行 - 注册 -- 注册界面的窗体设置" />
     <MESSAGE value="银行 - 注册 -- 注册界面的窗体" />
@@ -936,7 +933,8 @@
     <MESSAGE value="设置时间 - Duration -- 静态方法 between()...&#10;&#10;当你想要知道你获取到的两个时间之间有什么关系时，可以这样子做 ↓" />
     <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法...&#10;&#10;精确的内容请观看代码" />
     <MESSAGE value="设置时间" />
-    <option name="LAST_COMMIT_MESSAGE" value="设置时间" />
+    <MESSAGE value="国贸阶段性测试 - 将所有需要使用的网址进行整合，更好打印网页内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="国贸阶段性测试 - 将所有需要使用的网址进行整合，更好打印网页内容" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

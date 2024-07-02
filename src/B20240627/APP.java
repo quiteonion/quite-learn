@@ -14,7 +14,7 @@ public class APP {
         setProperties();
         getHtml();
         Parser parser = getParser(properties.getProperty("parser"));
-        List<String> parsed = parser.parser(HTML);
+        List<URLContent> parsed = parser.parser(HTML);
         System.out.println(parsed);
     }
 
