@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="设置时间 - Duration -- 静态方法 between()...&#10;&#10;当你想要知道你获取到的两个时间之间有什么关系时，可以这样子做 ↓">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="设置时间">
+      <change afterPath="$PROJECT_DIR$/src/B20240627/URLContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240627/XMFishAbout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240630/LocalDateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240630/LocalDateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240627/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240627/XMFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/XMFish.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +114,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A20240130">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -460,23 +463,9 @@
       <workItem from="1719641781897" duration="4880000" />
       <workItem from="1719679357824" duration="7000" />
       <workItem from="1719733607167" duration="5699000" />
-      <workItem from="1719830184271" duration="2613000" />
-    </task>
-    <task id="LOCAL-00572" summary="银行 - 思路构思">
-      <option name="closed" value="true" />
-      <created>1718294937016</created>
-      <option name="number" value="00572" />
-      <option name="presentableId" value="LOCAL-00572" />
-      <option name="project" value="LOCAL" />
-      <updated>1718294937016</updated>
-    </task>
-    <task id="LOCAL-00573" summary="银行 - 登录 -- 登录界面的设计">
-      <option name="closed" value="true" />
-      <created>1718350527081</created>
-      <option name="number" value="00573" />
-      <option name="presentableId" value="LOCAL-00573" />
-      <option name="project" value="LOCAL" />
-      <updated>1718350527081</updated>
+      <workItem from="1719830184271" duration="2970000" />
+      <workItem from="1719852355619" duration="81000" />
+      <workItem from="1719900668131" duration="1867000" />
     </task>
     <task id="LOCAL-00574" summary="银行 - 登录 -- 设置登录界面的标题">
       <option name="closed" value="true" />
@@ -854,7 +843,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719842319383</updated>
     </task>
-    <option name="localTasksCounter" value="621" />
+    <task id="LOCAL-00621" summary="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法...&#10;&#10;精确的内容请观看代码">
+      <option name="closed" value="true" />
+      <created>1719842860523</created>
+      <option name="number" value="00621" />
+      <option name="presentableId" value="LOCAL-00621" />
+      <option name="project" value="LOCAL" />
+      <updated>1719842860523</updated>
+    </task>
+    <task id="LOCAL-00622" summary="设置时间">
+      <option name="closed" value="true" />
+      <created>1719843079099</created>
+      <option name="number" value="00622" />
+      <option name="presentableId" value="LOCAL-00622" />
+      <option name="project" value="LOCAL" />
+      <updated>1719843079099</updated>
+    </task>
+    <option name="localTasksCounter" value="623" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -906,7 +911,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="银行 - 登录 -- 登录界面的创建" />
     <MESSAGE value="银行 - 登录 -- 登录界面的头像" />
     <MESSAGE value="银行 - 登录 -- 登录界面的按钮的设置" />
     <MESSAGE value="银行 - 注册 -- 注册界面的窗体设置" />
@@ -927,11 +931,12 @@
     <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 withXxx() --- 修改对应部分的时间,修改后返回一个新时间" />
     <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 plusXxx() --- 增加对应部分的时间,修改后返回一个新时间" />
     <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 minusXxx() --- 减去对应部分的时间,修改后返回一个新时间" />
-    <MESSAGE value="设置时间" />
     <MESSAGE value="设置时间 - DateTimeFormatter -- ofPattern()...&#10;&#10;如果你在网页进行爬虫时，想要获取当前的时间，你会发现，某些网页的时间并不符合 Java 所提供的 yyyy-MM-ddTHH:mm 时间排列方式，这个时候我们就可以自己设置他的时间格式，使得爬虫可以顺利的进行" />
     <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 parse()...&#10;&#10;当你设置好格式后，使用你爬取到的时间对其进行设置，让他能够存储进入你的 LocalDateTime 格式之中" />
     <MESSAGE value="设置时间 - Duration -- 静态方法 between()...&#10;&#10;当你想要知道你获取到的两个时间之间有什么关系时，可以这样子做 ↓" />
-    <option name="LAST_COMMIT_MESSAGE" value="设置时间 - Duration -- 静态方法 between()...&#10;&#10;当你想要知道你获取到的两个时间之间有什么关系时，可以这样子做 ↓" />
+    <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法...&#10;&#10;精确的内容请观看代码" />
+    <MESSAGE value="设置时间" />
+    <option name="LAST_COMMIT_MESSAGE" value="设置时间" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

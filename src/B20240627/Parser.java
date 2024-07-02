@@ -4,6 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public interface Parser {
-    List<String> htmlList = new ArrayList<>();
-    List<String> parser(String html);
+    ArrayList<URLContent> htmlList = new ArrayList<>();
+    List<URLContent> parser(String html);
 }
