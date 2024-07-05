@@ -50,6 +50,5 @@ public class APP {
     private static void setProperties() throws IOException {
         File file = new File("src/B20240627/confile.properties");
         properties.load(new FileInputStream(file));
-
     }
 }

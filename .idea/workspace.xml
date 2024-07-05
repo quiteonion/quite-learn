@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="国贸阶段性测试 - 将所有需要使用的网址进行整合，更好打印网页内容">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="国贸阶段性测试 - 爬虫代码，进行网页内容的爬取">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240627/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/APP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240627/XMFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/XMFish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240627/XMFishAbout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/XMFishAbout.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -463,15 +463,8 @@
       <workItem from="1719733607167" duration="5699000" />
       <workItem from="1719830184271" duration="2970000" />
       <workItem from="1719852355619" duration="81000" />
-      <workItem from="1719900668131" duration="5340000" />
-    </task>
-    <task id="LOCAL-00575" summary="银行 - 登录 -- 设置登录界面居中">
-      <option name="closed" value="true" />
-      <created>1718351114979</created>
-      <option name="number" value="00575" />
-      <option name="presentableId" value="LOCAL-00575" />
-      <option name="project" value="LOCAL" />
-      <updated>1718351114979</updated>
+      <workItem from="1719900668131" duration="5847000" />
+      <workItem from="1720159344855" duration="1665000" />
     </task>
     <task id="LOCAL-00576" summary="银行 - 登录 -- 设置登录界面关闭模式">
       <option name="closed" value="true" />
@@ -857,7 +850,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719907616230</updated>
     </task>
-    <option name="localTasksCounter" value="624" />
+    <task id="LOCAL-00624" summary="国贸阶段性测试 - 爬虫代码，进行网页内容的爬取">
+      <option name="closed" value="true" />
+      <created>1719910936931</created>
+      <option name="number" value="00624" />
+      <option name="presentableId" value="LOCAL-00624" />
+      <option name="project" value="LOCAL" />
+      <updated>1719910936931</updated>
+    </task>
+    <option name="localTasksCounter" value="625" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -909,7 +910,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="银行 - 登录 -- 登录界面的按钮的设置" />
     <MESSAGE value="银行 - 注册 -- 注册界面的窗体设置" />
     <MESSAGE value="银行 - 注册 -- 注册界面的窗体" />
     <MESSAGE value="银行 - 主页面 -- 主页面设计" />
@@ -934,7 +934,8 @@
     <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法...&#10;&#10;精确的内容请观看代码" />
     <MESSAGE value="设置时间" />
     <MESSAGE value="国贸阶段性测试 - 将所有需要使用的网址进行整合，更好打印网页内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="国贸阶段性测试 - 将所有需要使用的网址进行整合，更好打印网页内容" />
+    <MESSAGE value="国贸阶段性测试 - 爬虫代码，进行网页内容的爬取" />
+    <option name="LAST_COMMIT_MESSAGE" value="国贸阶段性测试 - 爬虫代码，进行网页内容的爬取" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

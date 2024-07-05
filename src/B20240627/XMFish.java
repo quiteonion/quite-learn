@@ -9,45 +9,48 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class XMFish implements Parser {
-    static String quality;
-    static String content;
-    static String from;
-    static String seller;
-    static String time;
+    static ArrayList<URLContent> commodity = new ArrayList<>();
 
-    static ArrayList<URLContent> url = new ArrayList<>();
     @Override
     public List<URLContent> parser(String html) {
         parse(html);
-        XMFishAbout xmFishAbout = new XMFishAbout(quality, content, from, seller, time);
-        url.add(xmFishAbout);
-        return url;
+        return commodity;
     }
 
     private void parse(String html) {
-        //解析
-        Document doc = Jsoup.parse(html);
-        //性质：闲置转让或无偿赠与
-        Elements quality = doc.getElementsByClass("view").select("a");
-        //内容：关于该商品的内容
-        Elements subjectT = doc.getElementsByClass("subject_t");
+        Document document = Jsoup.parse(html);
+        Elements es = document.select("tbody[id=threadlist]").select("tr[class=tr3]");
 
-        for (int i = 0; i < subjectT.size(); i++) {
-            System.out.println(subjectT.get(i));
+
+        // 循环遍历
+        for (Element e : es) {
+            // 过滤公告、置顶
+            Element noticeAndTop = e.select("td.icon a i").first();
+            if (noticeAndTop.hasAttr("alt") && "置顶帖标志".equals(noticeAndTop.attr("alt"))) {
+                continue;
+            }
+
+            // 解析数据
+            Element titleElement = e.select("td.subject a.subject_t").first();
+            Elements quality = e.getElementsByClass("view").select("a");
+            String tr = quality.text();
+            String title = titleElement.text();
+            String url = titleElement.attr("href");
+            url = "http://bbs.xmfish.com/" + url;
+            String createdAt = e.select("td.author").first().select("p").text();
+
+
+
+            XMFishAbout xmFishAbout = new XMFishAbout(tr,title,url,createdAt);
+            commodity.add(xmFishAbout);
+
+            System.out.println("性质: " + tr);
+            System.out.println("标题：" + title);
+            System.out.println("链接：" + url);
+            System.out.println("发布时间：" + createdAt);
         }
-        //tr3
-        //s4 : 商品状态 上一层 subject
-        //subject_t ： 商品简介
-        //s6 ： 客户端来自
-        //author 下含有 a 标题 和 p 标题的 为卖家信息和挂售时间 以及最后回复人和回复时间
+    }
+    public XMFishAbout getAbout(String message){
 
-        /**
-         *
-         * 内容：关于该商品的内容
-         * 来自：关于卖家使用哪一个客户端进行发起的交易
-         * 卖家：卖家的名称
-         * 时间：关于该商品被挂上交易平台的时间
-         *
-         */
     }
 }
