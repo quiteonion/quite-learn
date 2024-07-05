@@ -1,5 +1,7 @@
-package B20240627;
+package B20240627.XMFishJsoup;
 
+
+import B20240627.URLContent;
 
 public class XMFishAbout extends URLContent {
 

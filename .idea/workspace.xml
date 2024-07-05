@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="国贸阶段性测试 - 解析文件">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="国贸阶段性测试 - 查找到后发送邮件">
       <change beforePath="$PROJECT_DIR$/src/B20240627/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/APP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240627/XMFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/XMFish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240627/XMFishAbout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/XMFishAbout.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -465,23 +462,7 @@
       <workItem from="1719830184271" duration="2970000" />
       <workItem from="1719852355619" duration="81000" />
       <workItem from="1719900668131" duration="5847000" />
-      <workItem from="1720159344855" duration="4840000" />
-    </task>
-    <task id="LOCAL-00577" summary="银行 - 登录 -- 设置登录界面关闭模式">
-      <option name="closed" value="true" />
-      <created>1718351328717</created>
-      <option name="number" value="00577" />
-      <option name="presentableId" value="LOCAL-00577" />
-      <option name="project" value="LOCAL" />
-      <updated>1718351328717</updated>
-    </task>
-    <task id="LOCAL-00578" summary="银行 - 登录 -- 重组为一个方法的内容">
-      <option name="closed" value="true" />
-      <created>1718351483150</created>
-      <option name="number" value="00578" />
-      <option name="presentableId" value="LOCAL-00578" />
-      <option name="project" value="LOCAL" />
-      <updated>1718351483150</updated>
+      <workItem from="1720159344855" duration="5807000" />
     </task>
     <task id="LOCAL-00579" summary="银行 - 登录 -- 菜单的构建">
       <option name="closed" value="true" />
@@ -859,7 +840,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720163270435</updated>
     </task>
-    <option name="localTasksCounter" value="626" />
+    <task id="LOCAL-00626" summary="国贸阶段性测试 - 查找所需要的信息">
+      <option name="closed" value="true" />
+      <created>1720165072249</created>
+      <option name="number" value="00626" />
+      <option name="presentableId" value="LOCAL-00626" />
+      <option name="project" value="LOCAL" />
+      <updated>1720165072249</updated>
+    </task>
+    <task id="LOCAL-00627" summary="国贸阶段性测试 - 查找到后发送邮件">
+      <option name="closed" value="true" />
+      <created>1720165641600</created>
+      <option name="number" value="00627" />
+      <option name="presentableId" value="LOCAL-00627" />
+      <option name="project" value="LOCAL" />
+      <updated>1720165641600</updated>
+    </task>
+    <option name="localTasksCounter" value="628" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -911,8 +908,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="银行 - 注册 -- 注册界面的窗体" />
-    <MESSAGE value="银行 - 主页面 -- 主页面设计" />
     <MESSAGE value="对错判断题答案" />
     <MESSAGE value="银行" />
     <MESSAGE value="国贸阶段性测试 - 0 -- 获取 downloader 以及获得页面 html 的代码的书写" />
@@ -936,7 +931,9 @@
     <MESSAGE value="国贸阶段性测试 - 将所有需要使用的网址进行整合，更好打印网页内容" />
     <MESSAGE value="国贸阶段性测试 - 爬虫代码，进行网页内容的爬取" />
     <MESSAGE value="国贸阶段性测试 - 解析文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="国贸阶段性测试 - 解析文件" />
+    <MESSAGE value="国贸阶段性测试 - 查找所需要的信息" />
+    <MESSAGE value="国贸阶段性测试 - 查找到后发送邮件" />
+    <option name="LAST_COMMIT_MESSAGE" value="国贸阶段性测试 - 查找到后发送邮件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
