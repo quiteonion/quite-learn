@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="国贸阶段性测试 - 查找到后发送邮件">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240627/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/APP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240627/Downloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/Downloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240627/XMFishIO/IoDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/XMFish/XMFishIO/IoDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240627/XMFishJsoup/JsoupDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/XMFish/XMFishJsoup/JsoupDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240627/XMFishJsoup/XMFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/XMFish/XMFish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240627/XMFishJsoup/XMFishAbout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/XMFish/XMFishAbout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240627/confile.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240627/confile.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +204,7 @@
       <module name="quite" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="B20240627.*" />
+          <option name="PATTERN" value="B20240627.XMFish.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -462,47 +469,7 @@
       <workItem from="1719830184271" duration="2970000" />
       <workItem from="1719852355619" duration="81000" />
       <workItem from="1719900668131" duration="5847000" />
-      <workItem from="1720159344855" duration="5807000" />
-    </task>
-    <task id="LOCAL-00579" summary="银行 - 登录 -- 菜单的构建">
-      <option name="closed" value="true" />
-      <created>1718352595652</created>
-      <option name="number" value="00579" />
-      <option name="presentableId" value="LOCAL-00579" />
-      <option name="project" value="LOCAL" />
-      <updated>1718352595652</updated>
-    </task>
-    <task id="LOCAL-00580" summary="银行 - 用户 -- 基本情况">
-      <option name="closed" value="true" />
-      <created>1718352611264</created>
-      <option name="number" value="00580" />
-      <option name="presentableId" value="LOCAL-00580" />
-      <option name="project" value="LOCAL" />
-      <updated>1718352611264</updated>
-    </task>
-    <task id="LOCAL-00581" summary="银行 - 登录 -- 显示界面最好放在最后面">
-      <option name="closed" value="true" />
-      <created>1718352670387</created>
-      <option name="number" value="00581" />
-      <option name="presentableId" value="LOCAL-00581" />
-      <option name="project" value="LOCAL" />
-      <updated>1718352670387</updated>
-    </task>
-    <task id="LOCAL-00582" summary="银行 - 登录 -- 登录界面的创建">
-      <option name="closed" value="true" />
-      <created>1718363515055</created>
-      <option name="number" value="00582" />
-      <option name="presentableId" value="LOCAL-00582" />
-      <option name="project" value="LOCAL" />
-      <updated>1718363515055</updated>
-    </task>
-    <task id="LOCAL-00583" summary="银行 - 登录 -- 登录界面的头像">
-      <option name="closed" value="true" />
-      <created>1718364736664</created>
-      <option name="number" value="00583" />
-      <option name="presentableId" value="LOCAL-00583" />
-      <option name="project" value="LOCAL" />
-      <updated>1718364736664</updated>
+      <workItem from="1720159344855" duration="12502000" />
     </task>
     <task id="LOCAL-00584" summary="银行 - 登录 -- 登录界面的按钮的设置">
       <option name="closed" value="true" />
@@ -856,7 +823,47 @@
       <option name="project" value="LOCAL" />
       <updated>1720165641600</updated>
     </task>
-    <option name="localTasksCounter" value="628" />
+    <task id="LOCAL-00628" summary="国贸阶段性测试 - 查找到后发送邮件">
+      <option name="closed" value="true" />
+      <created>1720166074832</created>
+      <option name="number" value="00628" />
+      <option name="presentableId" value="LOCAL-00628" />
+      <option name="project" value="LOCAL" />
+      <updated>1720166074832</updated>
+    </task>
+    <task id="LOCAL-00629" summary="国贸阶段性测试 - 查找到后发送邮件">
+      <option name="closed" value="true" />
+      <created>1720166179662</created>
+      <option name="number" value="00629" />
+      <option name="presentableId" value="LOCAL-00629" />
+      <option name="project" value="LOCAL" />
+      <updated>1720166179662</updated>
+    </task>
+    <task id="LOCAL-00630" summary="国贸阶段性测试 - 查找到后发送邮件">
+      <option name="closed" value="true" />
+      <created>1720166466933</created>
+      <option name="number" value="00630" />
+      <option name="presentableId" value="LOCAL-00630" />
+      <option name="project" value="LOCAL" />
+      <updated>1720166466933</updated>
+    </task>
+    <task id="LOCAL-00631" summary="国贸阶段性测试 - 查找到后发送邮件">
+      <option name="closed" value="true" />
+      <created>1720166515442</created>
+      <option name="number" value="00631" />
+      <option name="presentableId" value="LOCAL-00631" />
+      <option name="project" value="LOCAL" />
+      <updated>1720166515442</updated>
+    </task>
+    <task id="LOCAL-00632" summary="国贸阶段性测试 - 查找到后发送邮件">
+      <option name="closed" value="true" />
+      <created>1720166754708</created>
+      <option name="number" value="00632" />
+      <option name="presentableId" value="LOCAL-00632" />
+      <option name="project" value="LOCAL" />
+      <updated>1720166754708</updated>
+    </task>
+    <option name="localTasksCounter" value="633" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -908,7 +915,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="对错判断题答案" />
     <MESSAGE value="银行" />
     <MESSAGE value="国贸阶段性测试 - 0 -- 获取 downloader 以及获得页面 html 的代码的书写" />
     <MESSAGE value="国贸阶段性测试 - 1 -- 解析网页的代码，并且将需要的存入 List 中" />
@@ -932,6 +938,7 @@
     <MESSAGE value="国贸阶段性测试 - 爬虫代码，进行网页内容的爬取" />
     <MESSAGE value="国贸阶段性测试 - 解析文件" />
     <MESSAGE value="国贸阶段性测试 - 查找所需要的信息" />
+    <MESSAGE value="国贸阶段性测试 - 使用 IO 流查找" />
     <MESSAGE value="国贸阶段性测试 - 查找到后发送邮件" />
     <option name="LAST_COMMIT_MESSAGE" value="国贸阶段性测试 - 查找到后发送邮件" />
   </component>

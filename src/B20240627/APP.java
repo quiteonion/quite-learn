@@ -1,14 +1,15 @@
 package B20240627;
 
 import B20240627.Email.AllEmail;
-import B20240627.XMFishIO.IoDownloader;
-import B20240627.XMFishJsoup.JsoupDownloader;
-import B20240627.XMFishJsoup.XMFish;
-import B20240627.XMFishJsoup.XMFishAbout;
+import B20240627.XMFish.XMFishIO.IoDownloader;
+import B20240627.XMFish.XMFishJsoup.JsoupDownloader;
+import B20240627.XMFish.XMFish;
+import B20240627.XMFish.XMFishAbout;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.MalformedURLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
@@ -79,7 +80,7 @@ public class APP {
         return pa;
     }
 
-    private static void getHtml() {
+    private static void getHtml() throws IOException {
         Downloader downloader = getDowloader(properties.getProperty("downloader"));
         HTML = downloader.downloader(properties.getProperty("url"));
     }

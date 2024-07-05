@@ -1,4 +1,4 @@
-package B20240627.XMFishJsoup;
+package B20240627.XMFish.XMFishJsoup;
 
 import B20240627.Downloader;
 import org.jsoup.Jsoup;

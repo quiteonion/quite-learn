@@ -1,4 +1,4 @@
-package B20240627.XMFishJsoup;
+package B20240627.XMFish;
 
 
 import B20240627.URLContent;

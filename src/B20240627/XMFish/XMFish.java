@@ -1,7 +1,8 @@
-package B20240627.XMFishJsoup;
+package B20240627.XMFish;
 
 import B20240627.Parser;
 import B20240627.URLContent;
+import B20240627.XMFish.XMFishAbout;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
