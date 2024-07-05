@@ -15,4 +15,15 @@ public class XMFishAbout extends URLContent {
         this.time = time;
     }
 
+    public String getContent() {
+        return content;
+    }
+
+    @Override
+    public String toString() {
+        return "性质  " + quality + '\n' +
+                "标题  " + content + '\n' +
+                "链接  " + url + '\n' +
+                "发布时间  " + time + '\n';
+    }
 }

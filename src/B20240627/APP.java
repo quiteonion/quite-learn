@@ -5,17 +5,33 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.List;
 import java.util.Properties;
+import java.util.Scanner;
 
 public class APP {
     static Properties properties = new Properties();
     static String HTML;
-
+    static List<URLContent> parsed;
     public static void main(String[] args) throws IOException {
         setProperties();
         getHtml();
         Parser parser = getParser(properties.getProperty("parser"));
-        List<URLContent> parsed = parser.parser(HTML);
-        System.out.println(parsed);
+        parsed = parser.parser(HTML);
+
+
+        System.out.println("请输入搜索的关键词：");
+        String keyword = new Scanner(System.in).next();
+        getAbout(keyword);
+    }
+
+    private static void getAbout(String keyword) {
+        for (int i = 0; i < parsed.size(); i++) {
+            URLContent par = parsed.get(i);
+            if (par instanceof XMFishAbout xmFishAbout){
+                if (xmFishAbout.getContent().indexOf(keyword)>0) {
+                    System.out.println(xmFishAbout.toString());
+                }
+            }
+        }
     }
 
     private static Parser getParser(String parser) {

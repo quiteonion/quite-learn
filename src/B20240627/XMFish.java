@@ -43,14 +43,6 @@ public class XMFish implements Parser {
 
             XMFishAbout xmFishAbout = new XMFishAbout(tr,title,url,createdAt);
             commodity.add(xmFishAbout);
-
-            System.out.println("性质: " + tr);
-            System.out.println("标题：" + title);
-            System.out.println("链接：" + url);
-            System.out.println("发布时间：" + createdAt);
         }
-    }
-    public XMFishAbout getAbout(String message){
-
     }
 }
