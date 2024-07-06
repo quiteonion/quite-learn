@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="国贸阶段性测试 - 关于IO">
-      <change afterPath="$PROJECT_DIR$/src/B20240706/Main.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="equals">
+      <change afterPath="$PROJECT_DIR$/src/B20240706/CloneDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -464,15 +464,7 @@
       <workItem from="1719852355619" duration="81000" />
       <workItem from="1719900668131" duration="5847000" />
       <workItem from="1720159344855" duration="12546000" />
-      <workItem from="1720249021287" duration="2764000" />
-    </task>
-    <task id="LOCAL-00585" summary="银行 - 注册 -- 注册界面的窗体设置">
-      <option name="closed" value="true" />
-      <created>1718434486776</created>
-      <option name="number" value="00585" />
-      <option name="presentableId" value="LOCAL-00585" />
-      <option name="project" value="LOCAL" />
-      <updated>1718434486776</updated>
+      <workItem from="1720249021287" duration="3674000" />
     </task>
     <task id="LOCAL-00586" summary="银行 - 注册 -- 注册界面的窗体">
       <option name="closed" value="true" />
@@ -858,7 +850,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720192593110</updated>
     </task>
-    <option name="localTasksCounter" value="634" />
+    <task id="LOCAL-00634" summary="equals">
+      <option name="closed" value="true" />
+      <created>1720271522025</created>
+      <option name="number" value="00634" />
+      <option name="presentableId" value="LOCAL-00634" />
+      <option name="project" value="LOCAL" />
+      <updated>1720271522025</updated>
+    </task>
+    <option name="localTasksCounter" value="635" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -910,7 +910,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="国贸阶段性测试 - 0 -- 获取 downloader 以及获得页面 html 的代码的书写" />
     <MESSAGE value="国贸阶段性测试 - 1 -- 解析网页的代码，并且将需要的存入 List 中" />
     <MESSAGE value="..." />
     <MESSAGE value="国贸阶段性测试 - 1 -- 解析网页的代码...&#10;&#10;网页代码中几个重要的 class 名" />
@@ -935,7 +934,8 @@
     <MESSAGE value="国贸阶段性测试 - 使用 IO 流查找" />
     <MESSAGE value="国贸阶段性测试 - 查找到后发送邮件" />
     <MESSAGE value="国贸阶段性测试 - 关于IO" />
-    <option name="LAST_COMMIT_MESSAGE" value="国贸阶段性测试 - 关于IO" />
+    <MESSAGE value="equals" />
+    <option name="LAST_COMMIT_MESSAGE" value="equals" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
