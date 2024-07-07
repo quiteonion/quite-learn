@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="equals">
-      <change afterPath="$PROJECT_DIR$/src/B20240706/CloneDemo.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Clone - 在类中克隆 如果想要使用就必须要 Implements Cloneable 并且重写Object 中的 clone类">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +110,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A20240130">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -464,15 +463,8 @@
       <workItem from="1719852355619" duration="81000" />
       <workItem from="1719900668131" duration="5847000" />
       <workItem from="1720159344855" duration="12546000" />
-      <workItem from="1720249021287" duration="3674000" />
-    </task>
-    <task id="LOCAL-00586" summary="银行 - 注册 -- 注册界面的窗体">
-      <option name="closed" value="true" />
-      <created>1718441066185</created>
-      <option name="number" value="00586" />
-      <option name="presentableId" value="LOCAL-00586" />
-      <option name="project" value="LOCAL" />
-      <updated>1718441066185</updated>
+      <workItem from="1720249021287" duration="4323000" />
+      <workItem from="1720359379401" duration="935000" />
     </task>
     <task id="LOCAL-00587" summary="银行 - 主页面 -- 主页面设计">
       <option name="closed" value="true" />
@@ -858,7 +850,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720271522025</updated>
     </task>
-    <option name="localTasksCounter" value="635" />
+    <task id="LOCAL-00635" summary="Clone - 在类中克隆 如果想要使用就必须要 Implements Cloneable 并且重写Object 中的 clone类">
+      <option name="closed" value="true" />
+      <created>1720271925513</created>
+      <option name="number" value="00635" />
+      <option name="presentableId" value="LOCAL-00635" />
+      <option name="project" value="LOCAL" />
+      <updated>1720271925513</updated>
+    </task>
+    <option name="localTasksCounter" value="636" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -910,7 +910,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="国贸阶段性测试 - 1 -- 解析网页的代码，并且将需要的存入 List 中" />
     <MESSAGE value="..." />
     <MESSAGE value="国贸阶段性测试 - 1 -- 解析网页的代码...&#10;&#10;网页代码中几个重要的 class 名" />
     <MESSAGE value="国贸阶段性测试 - 1 -- 将地址对应放入 properties 文件下" />
@@ -935,7 +934,8 @@
     <MESSAGE value="国贸阶段性测试 - 查找到后发送邮件" />
     <MESSAGE value="国贸阶段性测试 - 关于IO" />
     <MESSAGE value="equals" />
-    <option name="LAST_COMMIT_MESSAGE" value="equals" />
+    <MESSAGE value="Clone - 在类中克隆 如果想要使用就必须要 Implements Cloneable 并且重写Object 中的 clone类" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clone - 在类中克隆 如果想要使用就必须要 Implements Cloneable 并且重写Object 中的 clone类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
