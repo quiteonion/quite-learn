@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="勿忘国耻，振兴中华">
-      <change afterPath="$PROJECT_DIR$/src/B20240707/BigDecimalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240707/BigIntegerDemo.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="BigInteger - about">
+      <change afterPath="$PROJECT_DIR$/src/B20240707/BigIntegerDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -466,15 +465,7 @@
       <workItem from="1719900668131" duration="5847000" />
       <workItem from="1720159344855" duration="12546000" />
       <workItem from="1720249021287" duration="4323000" />
-      <workItem from="1720359379401" duration="2173000" />
-    </task>
-    <task id="LOCAL-00588" summary="对错判断题答案">
-      <option name="closed" value="true" />
-      <created>1718509118783</created>
-      <option name="number" value="00588" />
-      <option name="presentableId" value="LOCAL-00588" />
-      <option name="project" value="LOCAL" />
-      <updated>1718509118784</updated>
+      <workItem from="1720359379401" duration="3185000" />
     </task>
     <task id="LOCAL-00589" summary="银行">
       <option name="closed" value="true" />
@@ -860,7 +851,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720360609511</updated>
     </task>
-    <option name="localTasksCounter" value="637" />
+    <task id="LOCAL-00637" summary="BigInteger - about">
+      <option name="closed" value="true" />
+      <created>1720361794218</created>
+      <option name="number" value="00637" />
+      <option name="presentableId" value="LOCAL-00637" />
+      <option name="project" value="LOCAL" />
+      <updated>1720361794218</updated>
+    </task>
+    <option name="localTasksCounter" value="638" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -912,7 +911,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="国贸阶段性测试 - 1 -- 解析网页的代码...&#10;&#10;网页代码中几个重要的 class 名" />
     <MESSAGE value="国贸阶段性测试 - 1 -- 将地址对应放入 properties 文件下" />
     <MESSAGE value="显示时间 - LocalDate -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30" />
     <MESSAGE value="显示时间 - LocalTime -- 静态方法 now() 显示当前时间 --- 格式为：17:40:27.892841" />
@@ -937,7 +935,8 @@
     <MESSAGE value="equals" />
     <MESSAGE value="Clone - 在类中克隆 如果想要使用就必须要 Implements Cloneable 并且重写Object 中的 clone类" />
     <MESSAGE value="勿忘国耻，振兴中华" />
-    <option name="LAST_COMMIT_MESSAGE" value="勿忘国耻，振兴中华" />
+    <MESSAGE value="BigInteger - about" />
+    <option name="LAST_COMMIT_MESSAGE" value="BigInteger - about" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
