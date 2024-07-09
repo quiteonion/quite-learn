@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="BigDecimal - about">
-      <change afterPath="$PROJECT_DIR$/src/B20240709/RegexDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="正则表达式 - https://regexlearn.com/zh-cn/learn">
+      <change beforePath="$PROJECT_DIR$/src/B20240709/RegexTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240709/RegexTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A20240130">
+  <component name="RunManager">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -468,23 +467,7 @@
       <workItem from="1720359379401" duration="5352000" />
       <workItem from="1720405776920" duration="596000" />
       <workItem from="1720414589266" duration="1787000" />
-      <workItem from="1720506613386" duration="2072000" />
-    </task>
-    <task id="LOCAL-00593" summary="银行">
-      <option name="closed" value="true" />
-      <created>1718899344817</created>
-      <option name="number" value="00593" />
-      <option name="presentableId" value="LOCAL-00593" />
-      <option name="project" value="LOCAL" />
-      <updated>1718899344817</updated>
-    </task>
-    <task id="LOCAL-00594" summary="银行">
-      <option name="closed" value="true" />
-      <created>1718899358764</created>
-      <option name="number" value="00594" />
-      <option name="presentableId" value="LOCAL-00594" />
-      <option name="project" value="LOCAL" />
-      <updated>1718899358764</updated>
+      <workItem from="1720506613386" duration="4752000" />
     </task>
     <task id="LOCAL-00595" summary="银行">
       <option name="closed" value="true" />
@@ -862,7 +845,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720507846921</updated>
     </task>
-    <option name="localTasksCounter" value="642" />
+    <task id="LOCAL-00642" summary="正则表达式 - https://regexlearn.com/zh-cn/learn">
+      <option name="closed" value="true" />
+      <created>1720509652640</created>
+      <option name="number" value="00642" />
+      <option name="presentableId" value="LOCAL-00642" />
+      <option name="project" value="LOCAL" />
+      <updated>1720509652640</updated>
+    </task>
+    <task id="LOCAL-00643" summary="正则表达式 - https://regexlearn.com/zh-cn/learn">
+      <option name="closed" value="true" />
+      <created>1720520298350</created>
+      <option name="number" value="00643" />
+      <option name="presentableId" value="LOCAL-00643" />
+      <option name="project" value="LOCAL" />
+      <updated>1720520298350</updated>
+    </task>
+    <option name="localTasksCounter" value="644" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -914,7 +913,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="显示时间 - LocalTime -- 静态方法 now() 显示当前时间 --- 格式为：17:40:27.892841" />
     <MESSAGE value="显示时间 - LocalDateTime -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30T17:41:43.802878100" />
     <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 of() --- 设置时间" />
     <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 getXxx() --- 单一获得对应内容(getYear 就是获取年)" />
@@ -939,7 +937,8 @@
     <MESSAGE value="BigInteger - about" />
     <MESSAGE value="Clone - 重写 clone 方法的类必须实现 cloneable 接口" />
     <MESSAGE value="BigDecimal - about" />
-    <option name="LAST_COMMIT_MESSAGE" value="BigDecimal - about" />
+    <MESSAGE value="正则表达式 - https://regexlearn.com/zh-cn/learn" />
+    <option name="LAST_COMMIT_MESSAGE" value="正则表达式 - https://regexlearn.com/zh-cn/learn" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
