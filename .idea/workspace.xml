@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="BigInteger - about" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="BigDecimal - about">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +110,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A20240130">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -462,15 +464,10 @@
       <workItem from="1719900668131" duration="5847000" />
       <workItem from="1720159344855" duration="12546000" />
       <workItem from="1720249021287" duration="4323000" />
-      <workItem from="1720359379401" duration="4044000" />
-    </task>
-    <task id="LOCAL-00590" summary="银行">
-      <option name="closed" value="true" />
-      <created>1718876852669</created>
-      <option name="number" value="00590" />
-      <option name="presentableId" value="LOCAL-00590" />
-      <option name="project" value="LOCAL" />
-      <updated>1718876852669</updated>
+      <workItem from="1720359379401" duration="5352000" />
+      <workItem from="1720405776920" duration="596000" />
+      <workItem from="1720414589266" duration="1787000" />
+      <workItem from="1720506613386" duration="472000" />
     </task>
     <task id="LOCAL-00591" summary="银行">
       <option name="closed" value="true" />
@@ -856,7 +853,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720362895681</updated>
     </task>
-    <option name="localTasksCounter" value="639" />
+    <task id="LOCAL-00639" summary="BigDecimal - about">
+      <option name="closed" value="true" />
+      <created>1720364324006</created>
+      <option name="number" value="00639" />
+      <option name="presentableId" value="LOCAL-00639" />
+      <option name="project" value="LOCAL" />
+      <updated>1720364324006</updated>
+    </task>
+    <option name="localTasksCounter" value="640" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -908,7 +913,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="国贸阶段性测试 - 1 -- 将地址对应放入 properties 文件下" />
     <MESSAGE value="显示时间 - LocalDate -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30" />
     <MESSAGE value="显示时间 - LocalTime -- 静态方法 now() 显示当前时间 --- 格式为：17:40:27.892841" />
     <MESSAGE value="显示时间 - LocalDateTime -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30T17:41:43.802878100" />
@@ -933,7 +937,8 @@
     <MESSAGE value="Clone - 在类中克隆 如果想要使用就必须要 Implements Cloneable 并且重写Object 中的 clone类" />
     <MESSAGE value="勿忘国耻，振兴中华" />
     <MESSAGE value="BigInteger - about" />
-    <option name="LAST_COMMIT_MESSAGE" value="BigInteger - about" />
+    <MESSAGE value="BigDecimal - about" />
+    <option name="LAST_COMMIT_MESSAGE" value="BigDecimal - about" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
