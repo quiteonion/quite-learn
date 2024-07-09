@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="正则表达式 - https://regexlearn.com/zh-cn/learn">
-      <change beforePath="$PROJECT_DIR$/src/B20240709/RegexTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240709/RegexTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240709/PatternAndMatches.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -467,15 +467,7 @@
       <workItem from="1720359379401" duration="5352000" />
       <workItem from="1720405776920" duration="596000" />
       <workItem from="1720414589266" duration="1787000" />
-      <workItem from="1720506613386" duration="4752000" />
-    </task>
-    <task id="LOCAL-00595" summary="银行">
-      <option name="closed" value="true" />
-      <created>1718901450409</created>
-      <option name="number" value="00595" />
-      <option name="presentableId" value="LOCAL-00595" />
-      <option name="project" value="LOCAL" />
-      <updated>1718901450409</updated>
+      <workItem from="1720506613386" duration="5092000" />
     </task>
     <task id="LOCAL-00596" summary="银行">
       <option name="closed" value="true" />
@@ -861,7 +853,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720520298350</updated>
     </task>
-    <option name="localTasksCounter" value="644" />
+    <task id="LOCAL-00644" summary="正则表达式 - https://regexlearn.com/zh-cn/learn">
+      <option name="closed" value="true" />
+      <created>1720521305080</created>
+      <option name="number" value="00644" />
+      <option name="presentableId" value="LOCAL-00644" />
+      <option name="project" value="LOCAL" />
+      <updated>1720521305080</updated>
+    </task>
+    <option name="localTasksCounter" value="645" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
