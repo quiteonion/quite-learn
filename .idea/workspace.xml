@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="BigDecimal - about">
+      <change afterPath="$PROJECT_DIR$/src/B20240709/RegexDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -467,23 +468,7 @@
       <workItem from="1720359379401" duration="5352000" />
       <workItem from="1720405776920" duration="596000" />
       <workItem from="1720414589266" duration="1787000" />
-      <workItem from="1720506613386" duration="472000" />
-    </task>
-    <task id="LOCAL-00591" summary="银行">
-      <option name="closed" value="true" />
-      <created>1718877123005</created>
-      <option name="number" value="00591" />
-      <option name="presentableId" value="LOCAL-00591" />
-      <option name="project" value="LOCAL" />
-      <updated>1718877123005</updated>
-    </task>
-    <task id="LOCAL-00592" summary="银行">
-      <option name="closed" value="true" />
-      <created>1718890011316</created>
-      <option name="number" value="00592" />
-      <option name="presentableId" value="LOCAL-00592" />
-      <option name="project" value="LOCAL" />
-      <updated>1718890011316</updated>
+      <workItem from="1720506613386" duration="2072000" />
     </task>
     <task id="LOCAL-00593" summary="银行">
       <option name="closed" value="true" />
@@ -861,7 +846,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720364324006</updated>
     </task>
-    <option name="localTasksCounter" value="640" />
+    <task id="LOCAL-00640" summary="Clone - 重写 clone 方法的类必须实现 cloneable 接口">
+      <option name="closed" value="true" />
+      <created>1720507213551</created>
+      <option name="number" value="00640" />
+      <option name="presentableId" value="LOCAL-00640" />
+      <option name="project" value="LOCAL" />
+      <updated>1720507213551</updated>
+    </task>
+    <task id="LOCAL-00641" summary="BigDecimal - about">
+      <option name="closed" value="true" />
+      <created>1720507846921</created>
+      <option name="number" value="00641" />
+      <option name="presentableId" value="LOCAL-00641" />
+      <option name="project" value="LOCAL" />
+      <updated>1720507846921</updated>
+    </task>
+    <option name="localTasksCounter" value="642" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -913,7 +914,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="显示时间 - LocalDate -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30" />
     <MESSAGE value="显示时间 - LocalTime -- 静态方法 now() 显示当前时间 --- 格式为：17:40:27.892841" />
     <MESSAGE value="显示时间 - LocalDateTime -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30T17:41:43.802878100" />
     <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 of() --- 设置时间" />
@@ -937,6 +937,7 @@
     <MESSAGE value="Clone - 在类中克隆 如果想要使用就必须要 Implements Cloneable 并且重写Object 中的 clone类" />
     <MESSAGE value="勿忘国耻，振兴中华" />
     <MESSAGE value="BigInteger - about" />
+    <MESSAGE value="Clone - 重写 clone 方法的类必须实现 cloneable 接口" />
     <MESSAGE value="BigDecimal - about" />
     <option name="LAST_COMMIT_MESSAGE" value="BigDecimal - about" />
   </component>
