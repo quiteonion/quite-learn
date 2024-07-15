@@ -12,5 +12,8 @@ public class DateDemo {
 
         date1.setTime(1000);
         System.out.println(date1);
+
+        System.out.println(date1.getTime());
+        System.out.println(date.getTime());
     }
 }
