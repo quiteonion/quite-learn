@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="爬虫 - 局内爬虫 -- split...&#10;&#10;split(String regex) 在满足规则的字符进行切割，留下剩余的字符。 返回字符数组">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Date - Date about">
+      <change beforePath="$PROJECT_DIR$/src/B20240715/DateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240715/DateDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -470,15 +470,7 @@
       <workItem from="1720506613386" duration="7588000" />
       <workItem from="1720685428917" duration="603000" />
       <workItem from="1720700584277" duration="595000" />
-      <workItem from="1721022390529" duration="3138000" />
-    </task>
-    <task id="LOCAL-00605" summary="国贸阶段性测试 - 1 -- 解析网页的代码，并且将需要的存入 List 中">
-      <option name="closed" value="true" />
-      <created>1719586820321</created>
-      <option name="number" value="00605" />
-      <option name="presentableId" value="LOCAL-00605" />
-      <option name="project" value="LOCAL" />
-      <updated>1719586820322</updated>
+      <workItem from="1721022390529" duration="3445000" />
     </task>
     <task id="LOCAL-00606" summary="...">
       <option name="closed" value="true" />
@@ -864,7 +856,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721024585421</updated>
     </task>
-    <option name="localTasksCounter" value="654" />
+    <task id="LOCAL-00654" summary="Date - Date about">
+      <option name="closed" value="true" />
+      <created>1721027100030</created>
+      <option name="number" value="00654" />
+      <option name="presentableId" value="LOCAL-00654" />
+      <option name="project" value="LOCAL" />
+      <updated>1721027100030</updated>
+    </task>
+    <option name="localTasksCounter" value="655" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -916,7 +916,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="设置时间 - Duration -- 静态方法 between()...&#10;&#10;当你想要知道你获取到的两个时间之间有什么关系时，可以这样子做 ↓" />
     <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法...&#10;&#10;精确的内容请观看代码" />
     <MESSAGE value="设置时间" />
     <MESSAGE value="国贸阶段性测试 - 将所有需要使用的网址进行整合，更好打印网页内容" />
@@ -941,7 +940,8 @@
     <MESSAGE value="爬虫 - 局内爬虫 -- 贪婪爬取与非贪婪爬取" />
     <MESSAGE value="爬虫 - 局内爬虫 -- replaceAll...&#10;&#10;replaceAll(String regex, String str) 将替换满足规则的所有字符替换成 str" />
     <MESSAGE value="爬虫 - 局内爬虫 -- split...&#10;&#10;split(String regex) 在满足规则的字符进行切割，留下剩余的字符。 返回字符数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="爬虫 - 局内爬虫 -- split...&#10;&#10;split(String regex) 在满足规则的字符进行切割，留下剩余的字符。 返回字符数组" />
+    <MESSAGE value="Date - Date about" />
+    <option name="LAST_COMMIT_MESSAGE" value="Date - Date about" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
