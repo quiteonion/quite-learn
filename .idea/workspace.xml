@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="爬虫 - 局内爬虫 -- Matcher...&#10;&#10;Matcher 中有两个方法&#10;find() ：从字符串第一个索引开始查找是否有与正则表达式匹配的，如果有匹配的记录为[左索引, 右索引+1]&#10;group() ：把当前匹配的获取出来 底层调用 subString 方法">
-      <change afterPath="$PROJECT_DIR$/src/B20240709/PatternAndMatcherTest.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="爬虫 - 局内爬虫 -- 练习">
+      <change afterPath="$PROJECT_DIR$/src/B20240715/RegexTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -468,15 +468,10 @@
       <workItem from="1720359379401" duration="5352000" />
       <workItem from="1720405776920" duration="596000" />
       <workItem from="1720414589266" duration="1787000" />
-      <workItem from="1720506613386" duration="6788000" />
-    </task>
-    <task id="LOCAL-00601" summary="银行">
-      <option name="closed" value="true" />
-      <created>1718972969442</created>
-      <option name="number" value="00601" />
-      <option name="presentableId" value="LOCAL-00601" />
-      <option name="project" value="LOCAL" />
-      <updated>1718972969442</updated>
+      <workItem from="1720506613386" duration="7588000" />
+      <workItem from="1720685428917" duration="603000" />
+      <workItem from="1720700584277" duration="595000" />
+      <workItem from="1721022390529" duration="715000" />
     </task>
     <task id="LOCAL-00602" summary="银行">
       <option name="closed" value="true" />
@@ -862,7 +857,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720522174684</updated>
     </task>
-    <option name="localTasksCounter" value="650" />
+    <task id="LOCAL-00650" summary="爬虫 - 局内爬虫 -- 练习">
+      <option name="closed" value="true" />
+      <created>1720523249109</created>
+      <option name="number" value="00650" />
+      <option name="presentableId" value="LOCAL-00650" />
+      <option name="project" value="LOCAL" />
+      <updated>1720523249109</updated>
+    </task>
+    <option name="localTasksCounter" value="651" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -914,7 +917,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 plusXxx() --- 增加对应部分的时间,修改后返回一个新时间" />
     <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 minusXxx() --- 减去对应部分的时间,修改后返回一个新时间" />
     <MESSAGE value="设置时间 - DateTimeFormatter -- ofPattern()...&#10;&#10;如果你在网页进行爬虫时，想要获取当前的时间，你会发现，某些网页的时间并不符合 Java 所提供的 yyyy-MM-ddTHH:mm 时间排列方式，这个时候我们就可以自己设置他的时间格式，使得爬虫可以顺利的进行" />
     <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 parse()...&#10;&#10;当你设置好格式后，使用你爬取到的时间对其进行设置，让他能够存储进入你的 LocalDateTime 格式之中" />
@@ -939,7 +941,8 @@
     <MESSAGE value="爬虫 - 局内爬虫 -- Pattern...&#10;&#10;Pattern 表示正则表达式" />
     <MESSAGE value="爬虫 - 局内爬虫 -- Matcher...&#10;&#10;Matcher 表示匹配器" />
     <MESSAGE value="爬虫 - 局内爬虫 -- Matcher...&#10;&#10;Matcher 中有两个方法&#10;find() ：从字符串第一个索引开始查找是否有与正则表达式匹配的，如果有匹配的记录为[左索引, 右索引+1]&#10;group() ：把当前匹配的获取出来 底层调用 subString 方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="爬虫 - 局内爬虫 -- Matcher...&#10;&#10;Matcher 中有两个方法&#10;find() ：从字符串第一个索引开始查找是否有与正则表达式匹配的，如果有匹配的记录为[左索引, 右索引+1]&#10;group() ：把当前匹配的获取出来 底层调用 subString 方法" />
+    <MESSAGE value="爬虫 - 局内爬虫 -- 练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="爬虫 - 局内爬虫 -- 练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
