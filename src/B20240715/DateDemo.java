@@ -9,5 +9,8 @@ public class DateDemo {
         System.out.println(date);
         Date date1 = new Date(0L);
         System.out.println(date1);
+
+        date1.setTime(1000);
+        System.out.println(date1);
     }
 }
