@@ -7,5 +7,7 @@ public class DateDemo {
         //关于时间
         Date date = new Date();
         System.out.println(date);
+        Date date1 = new Date(0L);
+        System.out.println(date1);
     }
 }
