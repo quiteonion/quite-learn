@@ -7,6 +7,9 @@ public class RegexTest1 {
         String s = "糖醋鱼asdfghjkl123安静asdfghjkl123小林";
         String and = s.replaceAll("[\\w&&[^_]]+", "and");
         System.out.println(and);
-
+        String[] split = s.split("[\\w&&[^_]]+");
+        for (int i = 0; i < split.length; i++) {
+            System.out.println(split[i]);
+        }
     }
 }

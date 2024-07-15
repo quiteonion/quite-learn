@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="爬虫 - 局内爬虫 -- 贪婪爬取与非贪婪爬取">
-      <change afterPath="$PROJECT_DIR$/src/B20240715/RegexTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="爬虫 - 局内爬虫 -- replaceAll...&#10;&#10;replaceAll(String regex, String str) 将替换满足规则的所有字符替换成 str">
+      <change beforePath="$PROJECT_DIR$/src/B20240715/RegexTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240715/RegexTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -471,15 +470,7 @@
       <workItem from="1720506613386" duration="7588000" />
       <workItem from="1720685428917" duration="603000" />
       <workItem from="1720700584277" duration="595000" />
-      <workItem from="1721022390529" duration="1827000" />
-    </task>
-    <task id="LOCAL-00603" summary="银行">
-      <option name="closed" value="true" />
-      <created>1719299264279</created>
-      <option name="number" value="00603" />
-      <option name="presentableId" value="LOCAL-00603" />
-      <option name="project" value="LOCAL" />
-      <updated>1719299264279</updated>
+      <workItem from="1721022390529" duration="2170000" />
     </task>
     <task id="LOCAL-00604" summary="国贸阶段性测试 - 0 -- 获取 downloader 以及获得页面 html 的代码的书写">
       <option name="closed" value="true" />
@@ -865,7 +856,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721023138367</updated>
     </task>
-    <option name="localTasksCounter" value="652" />
+    <task id="LOCAL-00652" summary="爬虫 - 局内爬虫 -- replaceAll(String regex, String str) 将替换满足规则的所有字符替换成 str">
+      <option name="closed" value="true" />
+      <created>1721024506067</created>
+      <option name="number" value="00652" />
+      <option name="presentableId" value="LOCAL-00652" />
+      <option name="project" value="LOCAL" />
+      <updated>1721024506067</updated>
+    </task>
+    <option name="localTasksCounter" value="653" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -917,7 +916,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="设置时间 - DateTimeFormatter -- ofPattern()...&#10;&#10;如果你在网页进行爬虫时，想要获取当前的时间，你会发现，某些网页的时间并不符合 Java 所提供的 yyyy-MM-ddTHH:mm 时间排列方式，这个时候我们就可以自己设置他的时间格式，使得爬虫可以顺利的进行" />
     <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 parse()...&#10;&#10;当你设置好格式后，使用你爬取到的时间对其进行设置，让他能够存储进入你的 LocalDateTime 格式之中" />
     <MESSAGE value="设置时间 - Duration -- 静态方法 between()...&#10;&#10;当你想要知道你获取到的两个时间之间有什么关系时，可以这样子做 ↓" />
     <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法...&#10;&#10;精确的内容请观看代码" />
@@ -942,7 +940,8 @@
     <MESSAGE value="爬虫 - 局内爬虫 -- Matcher...&#10;&#10;Matcher 中有两个方法&#10;find() ：从字符串第一个索引开始查找是否有与正则表达式匹配的，如果有匹配的记录为[左索引, 右索引+1]&#10;group() ：把当前匹配的获取出来 底层调用 subString 方法" />
     <MESSAGE value="爬虫 - 局内爬虫 -- 练习" />
     <MESSAGE value="爬虫 - 局内爬虫 -- 贪婪爬取与非贪婪爬取" />
-    <option name="LAST_COMMIT_MESSAGE" value="爬虫 - 局内爬虫 -- 贪婪爬取与非贪婪爬取" />
+    <MESSAGE value="爬虫 - 局内爬虫 -- replaceAll...&#10;&#10;replaceAll(String regex, String str) 将替换满足规则的所有字符替换成 str" />
+    <option name="LAST_COMMIT_MESSAGE" value="爬虫 - 局内爬虫 -- replaceAll...&#10;&#10;replaceAll(String regex, String str) 将替换满足规则的所有字符替换成 str" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
