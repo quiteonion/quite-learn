@@ -9,6 +9,11 @@ public class CalendarDemo {
 
         Date d = new Date(0L);
         c.setTime(d);
+
+        int year = c.get(1);
+        int month = c.get(2)+1;
+        int day = c.get(5);
+        System.out.println(year + ", " + month + ", " + day);
         System.out.println(c);
     }
 }
