@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="SimpleDateFormat - format...&#10;&#10;按照格式化获取时间">
-      <change beforePath="$PROJECT_DIR$/src/B20240716/SimpleDateFormatDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240716/SimpleDateFormatDemo.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="SimpleDateFormat - Test0 -- 格式转换">
+      <change afterPath="$PROJECT_DIR$/src/B20240716/SimpleDateFormatTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -471,23 +472,7 @@
       <workItem from="1720685428917" duration="603000" />
       <workItem from="1720700584277" duration="595000" />
       <workItem from="1721022390529" duration="4226000" />
-      <workItem from="1721114427794" duration="1070000" />
-    </task>
-    <task id="LOCAL-00612" summary="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 of() --- 设置时间">
-      <option name="closed" value="true" />
-      <created>1719740954793</created>
-      <option name="number" value="00612" />
-      <option name="presentableId" value="LOCAL-00612" />
-      <option name="project" value="LOCAL" />
-      <updated>1719740954793</updated>
-    </task>
-    <task id="LOCAL-00613" summary="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 getXxx() --- 单一获得对应内容(getYear 就是获取年)">
-      <option name="closed" value="true" />
-      <created>1719742126097</created>
-      <option name="number" value="00613" />
-      <option name="presentableId" value="LOCAL-00613" />
-      <option name="project" value="LOCAL" />
-      <updated>1719742126097</updated>
+      <workItem from="1721114427794" duration="1803000" />
     </task>
     <task id="LOCAL-00614" summary="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 withXxx() --- 修改对应部分的时间,修改后返回一个新时间">
       <option name="closed" value="true" />
@@ -865,7 +850,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721115380651</updated>
     </task>
-    <option name="localTasksCounter" value="661" />
+    <task id="LOCAL-00661" summary="SimpleDateFormat - parse...&#10;&#10;按照格式化解析时间">
+      <option name="closed" value="true" />
+      <created>1721115523000</created>
+      <option name="number" value="00661" />
+      <option name="presentableId" value="LOCAL-00661" />
+      <option name="project" value="LOCAL" />
+      <updated>1721115523000</updated>
+    </task>
+    <task id="LOCAL-00662" summary="SimpleDateFormat - Test0 -- 格式转换">
+      <option name="closed" value="true" />
+      <created>1721115860968</created>
+      <option name="number" value="00662" />
+      <option name="presentableId" value="LOCAL-00662" />
+      <option name="project" value="LOCAL" />
+      <updated>1721115860968</updated>
+    </task>
+    <option name="localTasksCounter" value="663" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -917,8 +918,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="国贸阶段性测试 - 使用 IO 流查找" />
-    <MESSAGE value="国贸阶段性测试 - 查找到后发送邮件" />
     <MESSAGE value="国贸阶段性测试 - 关于IO" />
     <MESSAGE value="equals" />
     <MESSAGE value="Clone - 在类中克隆 如果想要使用就必须要 Implements Cloneable 并且重写Object 中的 clone类" />
@@ -942,7 +941,9 @@
     <MESSAGE value="Date - Date about -- getTime...&#10;&#10;获取当前时间与计算机时间原点的时间差（单位为毫秒）" />
     <MESSAGE value="SimpleDateFormat - about...&#10;&#10;格式化：把时间模式改变为某种格式&#10;解析： 把字符转为某种格式的时间" />
     <MESSAGE value="SimpleDateFormat - format...&#10;&#10;按照格式化获取时间" />
-    <option name="LAST_COMMIT_MESSAGE" value="SimpleDateFormat - format...&#10;&#10;按照格式化获取时间" />
+    <MESSAGE value="SimpleDateFormat - parse...&#10;&#10;按照格式化解析时间" />
+    <MESSAGE value="SimpleDateFormat - Test0 -- 格式转换" />
+    <option name="LAST_COMMIT_MESSAGE" value="SimpleDateFormat - Test0 -- 格式转换" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
