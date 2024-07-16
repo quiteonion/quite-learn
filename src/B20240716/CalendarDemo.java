@@ -10,9 +10,10 @@ public class CalendarDemo {
         Date d = new Date(0L);
         c.setTime(d);
 
-        int year = c.get(1);
-        int month = c.get(2)+1;
-        int day = c.get(5);
+        int year = c.get(Calendar.YEAR);
+        int month = c.get(Calendar.MONTH)+1;
+        int day = c.get(Calendar.DAY_OF_MONTH);
+
         System.out.println(year + ", " + month + ", " + day);
         System.out.println(c);
     }
