@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Date - Date about">
-      <change beforePath="$PROJECT_DIR$/src/B20240715/DateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240715/DateDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Date - Date about -- getTime...&#10;&#10;获取当前时间与计算机时间原点的时间差（单位为毫秒）" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +108,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A20240130">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -470,39 +468,7 @@
       <workItem from="1720506613386" duration="7588000" />
       <workItem from="1720685428917" duration="603000" />
       <workItem from="1720700584277" duration="595000" />
-      <workItem from="1721022390529" duration="3445000" />
-    </task>
-    <task id="LOCAL-00606" summary="...">
-      <option name="closed" value="true" />
-      <created>1719591615566</created>
-      <option name="number" value="00606" />
-      <option name="presentableId" value="LOCAL-00606" />
-      <option name="project" value="LOCAL" />
-      <updated>1719591615566</updated>
-    </task>
-    <task id="LOCAL-00607" summary="国贸阶段性测试 - 1 -- 解析网页的代码...&#10;&#10;网页代码中几个重要的 class 名">
-      <option name="closed" value="true" />
-      <created>1719649697780</created>
-      <option name="number" value="00607" />
-      <option name="presentableId" value="LOCAL-00607" />
-      <option name="project" value="LOCAL" />
-      <updated>1719649697780</updated>
-    </task>
-    <task id="LOCAL-00608" summary="国贸阶段性测试 - 1 -- 将地址对应放入 properties 文件下">
-      <option name="closed" value="true" />
-      <created>1719739963700</created>
-      <option name="number" value="00608" />
-      <option name="presentableId" value="LOCAL-00608" />
-      <option name="project" value="LOCAL" />
-      <updated>1719739963700</updated>
-    </task>
-    <task id="LOCAL-00609" summary="显示时间 - LocalDate -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30">
-      <option name="closed" value="true" />
-      <created>1719740343358</created>
-      <option name="number" value="00609" />
-      <option name="presentableId" value="LOCAL-00609" />
-      <option name="project" value="LOCAL" />
-      <updated>1719740343358</updated>
+      <workItem from="1721022390529" duration="4226000" />
     </task>
     <task id="LOCAL-00610" summary="显示时间 - LocalTime -- 静态方法 now() 显示当前时间 --- 格式为：17:40:27.892841">
       <option name="closed" value="true" />
@@ -864,7 +830,39 @@
       <option name="project" value="LOCAL" />
       <updated>1721027100030</updated>
     </task>
-    <option name="localTasksCounter" value="655" />
+    <task id="LOCAL-00655" summary="Date - Date about -- 空参...&#10;&#10;传入当前时间">
+      <option name="closed" value="true" />
+      <created>1721027196975</created>
+      <option name="number" value="00655" />
+      <option name="presentableId" value="LOCAL-00655" />
+      <option name="project" value="LOCAL" />
+      <updated>1721027196976</updated>
+    </task>
+    <task id="LOCAL-00656" summary="Date - Date about -- 有参...&#10;&#10;传入传参时间">
+      <option name="closed" value="true" />
+      <created>1721027225576</created>
+      <option name="number" value="00656" />
+      <option name="presentableId" value="LOCAL-00656" />
+      <option name="project" value="LOCAL" />
+      <updated>1721027225576</updated>
+    </task>
+    <task id="LOCAL-00657" summary="Date - Date about -- setTime...&#10;&#10;在原有时间基础上进行增加时间（单位为毫秒）">
+      <option name="closed" value="true" />
+      <created>1721027275503</created>
+      <option name="number" value="00657" />
+      <option name="presentableId" value="LOCAL-00657" />
+      <option name="project" value="LOCAL" />
+      <updated>1721027275503</updated>
+    </task>
+    <task id="LOCAL-00658" summary="Date - Date about -- getTime...&#10;&#10;获取当前时间与计算机时间原点的时间差（单位为毫秒）">
+      <option name="closed" value="true" />
+      <created>1721027345298</created>
+      <option name="number" value="00658" />
+      <option name="presentableId" value="LOCAL-00658" />
+      <option name="project" value="LOCAL" />
+      <updated>1721027345298</updated>
+    </task>
+    <option name="localTasksCounter" value="659" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -916,10 +914,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法...&#10;&#10;精确的内容请观看代码" />
-    <MESSAGE value="设置时间" />
-    <MESSAGE value="国贸阶段性测试 - 将所有需要使用的网址进行整合，更好打印网页内容" />
-    <MESSAGE value="国贸阶段性测试 - 爬虫代码，进行网页内容的爬取" />
     <MESSAGE value="国贸阶段性测试 - 解析文件" />
     <MESSAGE value="国贸阶段性测试 - 查找所需要的信息" />
     <MESSAGE value="国贸阶段性测试 - 使用 IO 流查找" />
@@ -941,7 +935,11 @@
     <MESSAGE value="爬虫 - 局内爬虫 -- replaceAll...&#10;&#10;replaceAll(String regex, String str) 将替换满足规则的所有字符替换成 str" />
     <MESSAGE value="爬虫 - 局内爬虫 -- split...&#10;&#10;split(String regex) 在满足规则的字符进行切割，留下剩余的字符。 返回字符数组" />
     <MESSAGE value="Date - Date about" />
-    <option name="LAST_COMMIT_MESSAGE" value="Date - Date about" />
+    <MESSAGE value="Date - Date about -- 空参...&#10;&#10;传入当前时间" />
+    <MESSAGE value="Date - Date about -- 有参...&#10;&#10;传入传参时间" />
+    <MESSAGE value="Date - Date about -- setTime...&#10;&#10;在原有时间基础上进行增加时间（单位为毫秒）" />
+    <MESSAGE value="Date - Date about -- getTime...&#10;&#10;获取当前时间与计算机时间原点的时间差（单位为毫秒）" />
+    <option name="LAST_COMMIT_MESSAGE" value="Date - Date about -- getTime...&#10;&#10;获取当前时间与计算机时间原点的时间差（单位为毫秒）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
