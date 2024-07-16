@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="SimpleDateFormat - Test0 -- 格式转换">
-      <change afterPath="$PROJECT_DIR$/src/B20240716/SimpleDateFormatTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="SimpleDateFormat - Test0 -- 转化为 Date 格式判断毫秒值" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -472,15 +469,7 @@
       <workItem from="1720685428917" duration="603000" />
       <workItem from="1720700584277" duration="595000" />
       <workItem from="1721022390529" duration="4226000" />
-      <workItem from="1721114427794" duration="1803000" />
-    </task>
-    <task id="LOCAL-00614" summary="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 withXxx() --- 修改对应部分的时间,修改后返回一个新时间">
-      <option name="closed" value="true" />
-      <created>1719742477925</created>
-      <option name="number" value="00614" />
-      <option name="presentableId" value="LOCAL-00614" />
-      <option name="project" value="LOCAL" />
-      <updated>1719742477925</updated>
+      <workItem from="1721114427794" duration="2229000" />
     </task>
     <task id="LOCAL-00615" summary="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 plusXxx() --- 增加对应部分的时间,修改后返回一个新时间">
       <option name="closed" value="true" />
@@ -866,7 +855,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721115860968</updated>
     </task>
-    <option name="localTasksCounter" value="663" />
+    <task id="LOCAL-00663" summary="SimpleDateFormat - Test0 -- 转化为 Date 格式判断毫秒值">
+      <option name="closed" value="true" />
+      <created>1721116449069</created>
+      <option name="number" value="00663" />
+      <option name="presentableId" value="LOCAL-00663" />
+      <option name="project" value="LOCAL" />
+      <updated>1721116449069</updated>
+    </task>
+    <option name="localTasksCounter" value="664" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -918,7 +915,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="国贸阶段性测试 - 关于IO" />
     <MESSAGE value="equals" />
     <MESSAGE value="Clone - 在类中克隆 如果想要使用就必须要 Implements Cloneable 并且重写Object 中的 clone类" />
     <MESSAGE value="勿忘国耻，振兴中华" />
@@ -943,7 +939,8 @@
     <MESSAGE value="SimpleDateFormat - format...&#10;&#10;按照格式化获取时间" />
     <MESSAGE value="SimpleDateFormat - parse...&#10;&#10;按照格式化解析时间" />
     <MESSAGE value="SimpleDateFormat - Test0 -- 格式转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="SimpleDateFormat - Test0 -- 格式转换" />
+    <MESSAGE value="SimpleDateFormat - Test0 -- 转化为 Date 格式判断毫秒值" />
+    <option name="LAST_COMMIT_MESSAGE" value="SimpleDateFormat - Test0 -- 转化为 Date 格式判断毫秒值" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
