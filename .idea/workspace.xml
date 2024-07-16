@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Date - Date about -- getTime...&#10;&#10;获取当前时间与计算机时间原点的时间差（单位为毫秒）" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="SimpleDateFormat - about...&#10;&#10;格式化：把时间模式改变为某种格式&#10;解析： 把字符转为某种格式的时间">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240716/SimpleDateFormatDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240716/SimpleDateFormatDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +111,7 @@
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A20240130">
+  <component name="RunManager">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -469,14 +472,7 @@
       <workItem from="1720685428917" duration="603000" />
       <workItem from="1720700584277" duration="595000" />
       <workItem from="1721022390529" duration="4226000" />
-    </task>
-    <task id="LOCAL-00610" summary="显示时间 - LocalTime -- 静态方法 now() 显示当前时间 --- 格式为：17:40:27.892841">
-      <option name="closed" value="true" />
-      <created>1719740451843</created>
-      <option name="number" value="00610" />
-      <option name="presentableId" value="LOCAL-00610" />
-      <option name="project" value="LOCAL" />
-      <updated>1719740451843</updated>
+      <workItem from="1721114427794" duration="766000" />
     </task>
     <task id="LOCAL-00611" summary="显示时间 - LocalDateTime -- 静态方法 now() 显示当前时间 --- 格式为：2024-06-30T17:41:43.802878100">
       <option name="closed" value="true" />
@@ -862,7 +858,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721027345298</updated>
     </task>
-    <option name="localTasksCounter" value="659" />
+    <task id="LOCAL-00659" summary="SimpleDateFormat - about...&#10;&#10;格式化：把时间模式改变为某种格式&#10;解析： 把字符转为某种格式的时间">
+      <option name="closed" value="true" />
+      <created>1721114646830</created>
+      <option name="number" value="00659" />
+      <option name="presentableId" value="LOCAL-00659" />
+      <option name="project" value="LOCAL" />
+      <updated>1721114646830</updated>
+    </task>
+    <option name="localTasksCounter" value="660" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -914,7 +918,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="国贸阶段性测试 - 解析文件" />
     <MESSAGE value="国贸阶段性测试 - 查找所需要的信息" />
     <MESSAGE value="国贸阶段性测试 - 使用 IO 流查找" />
     <MESSAGE value="国贸阶段性测试 - 查找到后发送邮件" />
@@ -939,7 +942,8 @@
     <MESSAGE value="Date - Date about -- 有参...&#10;&#10;传入传参时间" />
     <MESSAGE value="Date - Date about -- setTime...&#10;&#10;在原有时间基础上进行增加时间（单位为毫秒）" />
     <MESSAGE value="Date - Date about -- getTime...&#10;&#10;获取当前时间与计算机时间原点的时间差（单位为毫秒）" />
-    <option name="LAST_COMMIT_MESSAGE" value="Date - Date about -- getTime...&#10;&#10;获取当前时间与计算机时间原点的时间差（单位为毫秒）" />
+    <MESSAGE value="SimpleDateFormat - about...&#10;&#10;格式化：把时间模式改变为某种格式&#10;解析： 把字符转为某种格式的时间" />
+    <option name="LAST_COMMIT_MESSAGE" value="SimpleDateFormat - about...&#10;&#10;格式化：把时间模式改变为某种格式&#10;解析： 把字符转为某种格式的时间" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
