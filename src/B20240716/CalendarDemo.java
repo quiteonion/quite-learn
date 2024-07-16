@@ -14,7 +14,12 @@ public class CalendarDemo {
         int month = c.get(Calendar.MONTH)+1;
         int day = c.get(Calendar.DAY_OF_MONTH);
 
+        c.set(Calendar.YEAR, 2000);
+
         System.out.println(year + ", " + month + ", " + day);
         System.out.println(c);
+        System.out.println("=== === ===");
+        int year1 = c.get(Calendar.YEAR);
+        System.out.println(year1);
     }
 }
