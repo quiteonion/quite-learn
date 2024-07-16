@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Calendar “日历” - get -- Java 中把索引用常量来表示，更加的好使用" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Calendar “日历” - set -- 修改“日历”中的某个信息（年月日）">
+      <change beforePath="$PROJECT_DIR$/src/B20240716/CalendarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240716/CalendarDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -470,15 +472,7 @@
       <workItem from="1720685428917" duration="603000" />
       <workItem from="1720700584277" duration="595000" />
       <workItem from="1721022390529" duration="4226000" />
-      <workItem from="1721114427794" duration="3765000" />
-    </task>
-    <task id="LOCAL-00619" summary="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法 parse()...&#10;&#10;当你设置好格式后，使用你爬取到的时间对其进行设置，让他能够存储进入你的 LocalDateTime 格式之中">
-      <option name="closed" value="true" />
-      <created>1719842190090</created>
-      <option name="number" value="00619" />
-      <option name="presentableId" value="LOCAL-00619" />
-      <option name="project" value="LOCAL" />
-      <updated>1719842190090</updated>
+      <workItem from="1721114427794" duration="4170000" />
     </task>
     <task id="LOCAL-00620" summary="设置时间 - Duration -- 静态方法 between()...&#10;&#10;当你想要知道你获取到的两个时间之间有什么关系时，可以这样子做 ↓">
       <option name="closed" value="true" />
@@ -864,7 +858,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721117615024</updated>
     </task>
-    <option name="localTasksCounter" value="668" />
+    <task id="LOCAL-00668" summary="Calendar “日历” - set -- 修改“日历”中的某个信息（年月日）">
+      <option name="closed" value="true" />
+      <created>1721123070006</created>
+      <option name="number" value="00668" />
+      <option name="presentableId" value="LOCAL-00668" />
+      <option name="project" value="LOCAL" />
+      <updated>1721123070006</updated>
+    </task>
+    <option name="localTasksCounter" value="669" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -916,7 +918,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Clone - 重写 clone 方法的类必须实现 cloneable 接口" />
     <MESSAGE value="BigDecimal - about" />
     <MESSAGE value="正则表达式 - https://regexlearn.com/zh-cn/learn" />
     <MESSAGE value="爬虫 - 局内爬虫 -- Pattern &amp; Matcher" />
@@ -941,7 +942,8 @@
     <MESSAGE value="Calendar “日历” - 细节 -- 在月份中是 0-11 所以显示的月份加一才是正确的" />
     <MESSAGE value="Calendar “日历” - get -- get 中形参传入的是索引，不同的索引会返回不同的值" />
     <MESSAGE value="Calendar “日历” - get -- Java 中把索引用常量来表示，更加的好使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calendar “日历” - get -- Java 中把索引用常量来表示，更加的好使用" />
+    <MESSAGE value="Calendar “日历” - set -- 修改“日历”中的某个信息（年月日）" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calendar “日历” - set -- 修改“日历”中的某个信息（年月日）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
