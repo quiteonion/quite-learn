@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Calendar “日历” - add -- 增加或减少”日历“中的某一个信息（正数增加负数减少）">
-      <change afterPath="$PROJECT_DIR$/src/B20240718/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="练习1 - 键盘录入数据到集合中，知道集合中所有元素的和超过200">
+      <change afterPath="$PROJECT_DIR$/src/B20240718/Test2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -475,15 +474,7 @@
       <workItem from="1721022390529" duration="4226000" />
       <workItem from="1721114427794" duration="4313000" />
       <workItem from="1721123346901" duration="9000" />
-      <workItem from="1721196693026" duration="1600000" />
-    </task>
-    <task id="LOCAL-00621" summary="设置时间 - LocalDate/LocalTime/LocalDateTime -- 静态方法...&#10;&#10;精确的内容请观看代码">
-      <option name="closed" value="true" />
-      <created>1719842860523</created>
-      <option name="number" value="00621" />
-      <option name="presentableId" value="LOCAL-00621" />
-      <option name="project" value="LOCAL" />
-      <updated>1719842860523</updated>
+      <workItem from="1721196693026" duration="2469000" />
     </task>
     <task id="LOCAL-00622" summary="设置时间">
       <option name="closed" value="true" />
@@ -869,7 +860,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721123319803</updated>
     </task>
-    <option name="localTasksCounter" value="670" />
+    <task id="LOCAL-00670" summary="练习1 - 键盘录入数据到集合中，知道集合中所有元素的和超过200">
+      <option name="closed" value="true" />
+      <created>1721203866287</created>
+      <option name="number" value="00670" />
+      <option name="presentableId" value="LOCAL-00670" />
+      <option name="project" value="LOCAL" />
+      <updated>1721203866287</updated>
+    </task>
+    <option name="localTasksCounter" value="671" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -921,7 +920,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="正则表达式 - https://regexlearn.com/zh-cn/learn" />
     <MESSAGE value="爬虫 - 局内爬虫 -- Pattern &amp; Matcher" />
     <MESSAGE value="爬虫 - 局内爬虫 -- Pattern...&#10;&#10;Pattern 表示正则表达式" />
     <MESSAGE value="爬虫 - 局内爬虫 -- Matcher...&#10;&#10;Matcher 表示匹配器" />
@@ -946,7 +944,8 @@
     <MESSAGE value="Calendar “日历” - get -- Java 中把索引用常量来表示，更加的好使用" />
     <MESSAGE value="Calendar “日历” - set -- 修改“日历”中的某个信息（年月日）" />
     <MESSAGE value="Calendar “日历” - add -- 增加或减少”日历“中的某一个信息（正数增加负数减少）" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calendar “日历” - add -- 增加或减少”日历“中的某一个信息（正数增加负数减少）" />
+    <MESSAGE value="练习1 - 键盘录入数据到集合中，知道集合中所有元素的和超过200" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习1 - 键盘录入数据到集合中，知道集合中所有元素的和超过200" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
