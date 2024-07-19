@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="练习2 - 模拟 Integer.valueOf()">
-      <change beforePath="$PROJECT_DIR$/src/B20240718/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240718/Test2.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="练习2 - 模拟 Integer.valueOf() -- 优化">
+      <change afterPath="$PROJECT_DIR$/src/B20240718/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -474,15 +475,9 @@
       <workItem from="1721022390529" duration="4226000" />
       <workItem from="1721114427794" duration="4313000" />
       <workItem from="1721123346901" duration="9000" />
-      <workItem from="1721196693026" duration="2980000" />
-    </task>
-    <task id="LOCAL-00624" summary="国贸阶段性测试 - 爬虫代码，进行网页内容的爬取">
-      <option name="closed" value="true" />
-      <created>1719910936931</created>
-      <option name="number" value="00624" />
-      <option name="presentableId" value="LOCAL-00624" />
-      <option name="project" value="LOCAL" />
-      <updated>1719910936931</updated>
+      <workItem from="1721196693026" duration="4657000" />
+      <workItem from="1721225978455" duration="58000" />
+      <workItem from="1721377477025" duration="525000" />
     </task>
     <task id="LOCAL-00625" summary="国贸阶段性测试 - 解析文件">
       <option name="closed" value="true" />
@@ -868,7 +863,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721204988967</updated>
     </task>
-    <option name="localTasksCounter" value="673" />
+    <task id="LOCAL-00673" summary="练习2 - 模拟 Integer.valueOf() -- 优化">
+      <option name="closed" value="true" />
+      <created>1721205153317</created>
+      <option name="number" value="00673" />
+      <option name="presentableId" value="LOCAL-00673" />
+      <option name="project" value="LOCAL" />
+      <updated>1721205153317</updated>
+    </task>
+    <option name="localTasksCounter" value="674" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -920,7 +923,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="爬虫 - 局内爬虫 -- Pattern...&#10;&#10;Pattern 表示正则表达式" />
     <MESSAGE value="爬虫 - 局内爬虫 -- Matcher...&#10;&#10;Matcher 表示匹配器" />
     <MESSAGE value="爬虫 - 局内爬虫 -- Matcher...&#10;&#10;Matcher 中有两个方法&#10;find() ：从字符串第一个索引开始查找是否有与正则表达式匹配的，如果有匹配的记录为[左索引, 右索引+1]&#10;group() ：把当前匹配的获取出来 底层调用 subString 方法" />
     <MESSAGE value="爬虫 - 局内爬虫 -- 练习" />
@@ -945,7 +947,8 @@
     <MESSAGE value="Calendar “日历” - add -- 增加或减少”日历“中的某一个信息（正数增加负数减少）" />
     <MESSAGE value="练习1 - 键盘录入数据到集合中，知道集合中所有元素的和超过200" />
     <MESSAGE value="练习2 - 模拟 Integer.valueOf()" />
-    <option name="LAST_COMMIT_MESSAGE" value="练习2 - 模拟 Integer.valueOf()" />
+    <MESSAGE value="练习2 - 模拟 Integer.valueOf() -- 优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习2 - 模拟 Integer.valueOf() -- 优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
