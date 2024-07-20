@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="练习三 - 将十进制转为二进制">
-      <change afterPath="$PROJECT_DIR$/src/B20240719/Test4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="练习四 - 距离今天是第几天 -- JDK7">
+      <change beforePath="$PROJECT_DIR$/src/B20240719/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240719/Test4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -478,14 +477,7 @@
       <workItem from="1721196693026" duration="4657000" />
       <workItem from="1721225978455" duration="58000" />
       <workItem from="1721377477025" duration="993000" />
-    </task>
-    <task id="LOCAL-00626" summary="国贸阶段性测试 - 查找所需要的信息">
-      <option name="closed" value="true" />
-      <created>1720165072249</created>
-      <option name="number" value="00626" />
-      <option name="presentableId" value="LOCAL-00626" />
-      <option name="project" value="LOCAL" />
-      <updated>1720165072249</updated>
+      <workItem from="1721459537581" duration="914000" />
     </task>
     <task id="LOCAL-00627" summary="国贸阶段性测试 - 查找到后发送邮件">
       <option name="closed" value="true" />
@@ -871,7 +863,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721378043504</updated>
     </task>
-    <option name="localTasksCounter" value="675" />
+    <task id="LOCAL-00675" summary="练习四 - 距离今天是第几天 -- JDK7">
+      <option name="closed" value="true" />
+      <created>1721463478113</created>
+      <option name="number" value="00675" />
+      <option name="presentableId" value="LOCAL-00675" />
+      <option name="project" value="LOCAL" />
+      <updated>1721463478114</updated>
+    </task>
+    <option name="localTasksCounter" value="676" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -923,7 +923,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="爬虫 - 局内爬虫 -- Matcher...&#10;&#10;Matcher 中有两个方法&#10;find() ：从字符串第一个索引开始查找是否有与正则表达式匹配的，如果有匹配的记录为[左索引, 右索引+1]&#10;group() ：把当前匹配的获取出来 底层调用 subString 方法" />
     <MESSAGE value="爬虫 - 局内爬虫 -- 练习" />
     <MESSAGE value="爬虫 - 局内爬虫 -- 贪婪爬取与非贪婪爬取" />
     <MESSAGE value="爬虫 - 局内爬虫 -- replaceAll...&#10;&#10;replaceAll(String regex, String str) 将替换满足规则的所有字符替换成 str" />
@@ -948,7 +947,8 @@
     <MESSAGE value="练习2 - 模拟 Integer.valueOf()" />
     <MESSAGE value="练习2 - 模拟 Integer.valueOf() -- 优化" />
     <MESSAGE value="练习三 - 将十进制转为二进制" />
-    <option name="LAST_COMMIT_MESSAGE" value="练习三 - 将十进制转为二进制" />
+    <MESSAGE value="练习四 - 距离今天是第几天 -- JDK7" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习四 - 距离今天是第几天 -- JDK7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

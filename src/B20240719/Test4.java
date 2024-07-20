@@ -3,6 +3,7 @@ package B20240719;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
 public class Test4 {
@@ -18,6 +19,11 @@ public class Test4 {
         long l1 = l / 1000 / 60 / 60 / 24;
         System.out.println(l1);
 
+
+        LocalDate ld = LocalDate.of(2004,9,9);
+        LocalDate ld1 = LocalDate.now();
+        long between = ChronoUnit.DAYS.between(ld, ld1);
+        System.out.println(between);
 
     }
 }
