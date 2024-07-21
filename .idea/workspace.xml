@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="算法 - 二分查找...&#10;&#10;只能在顺序范围查找">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="算法 - 选择排序">
+      <change afterPath="$PROJECT_DIR$/src/B20240721/Insert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -478,23 +479,7 @@
       <workItem from="1721225978455" duration="58000" />
       <workItem from="1721377477025" duration="993000" />
       <workItem from="1721459537581" duration="5450000" />
-      <workItem from="1721545285386" duration="1363000" />
-    </task>
-    <task id="LOCAL-00632" summary="国贸阶段性测试 - 查找到后发送邮件">
-      <option name="closed" value="true" />
-      <created>1720166754708</created>
-      <option name="number" value="00632" />
-      <option name="presentableId" value="LOCAL-00632" />
-      <option name="project" value="LOCAL" />
-      <updated>1720166754708</updated>
-    </task>
-    <task id="LOCAL-00633" summary="国贸阶段性测试 - 关于IO">
-      <option name="closed" value="true" />
-      <created>1720192593110</created>
-      <option name="number" value="00633" />
-      <option name="presentableId" value="LOCAL-00633" />
-      <option name="project" value="LOCAL" />
-      <updated>1720192593110</updated>
+      <workItem from="1721545285386" duration="2438000" />
     </task>
     <task id="LOCAL-00634" summary="equals">
       <option name="closed" value="true" />
@@ -872,7 +857,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721465835232</updated>
     </task>
-    <option name="localTasksCounter" value="681" />
+    <task id="LOCAL-00681" summary="算法 - 选择排序">
+      <option name="closed" value="true" />
+      <created>1721547089820</created>
+      <option name="number" value="00681" />
+      <option name="presentableId" value="LOCAL-00681" />
+      <option name="project" value="LOCAL" />
+      <updated>1721547089820</updated>
+    </task>
+    <task id="LOCAL-00682" summary="算法 - 选择排序">
+      <option name="closed" value="true" />
+      <created>1721547187697</created>
+      <option name="number" value="00682" />
+      <option name="presentableId" value="LOCAL-00682" />
+      <option name="project" value="LOCAL" />
+      <updated>1721547187697</updated>
+    </task>
+    <option name="localTasksCounter" value="683" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -924,7 +925,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Date - Date about -- 空参...&#10;&#10;传入当前时间" />
     <MESSAGE value="Date - Date about -- 有参...&#10;&#10;传入传参时间" />
     <MESSAGE value="Date - Date about -- setTime...&#10;&#10;在原有时间基础上进行增加时间（单位为毫秒）" />
     <MESSAGE value="Date - Date about -- getTime...&#10;&#10;获取当前时间与计算机时间原点的时间差（单位为毫秒）" />
@@ -949,7 +949,8 @@
     <MESSAGE value="算法 - 顺序查找/基本查找" />
     <MESSAGE value="算法 - 顺序查找/基本查找 -- 练习：返回所有查找的元素索引" />
     <MESSAGE value="算法 - 二分查找...&#10;&#10;只能在顺序范围查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法 - 二分查找...&#10;&#10;只能在顺序范围查找" />
+    <MESSAGE value="算法 - 选择排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法 - 选择排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1070,6 +1071,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/B20240721/Insert.java</url>
+          <line>3</line>
+          <properties class="B20240721.Insert" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/A20240417/River/Test.java</url>
