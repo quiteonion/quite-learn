@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="算法 - 选择排序">
-      <change afterPath="$PROJECT_DIR$/src/B20240721/Insert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="算法 - 插入排序...&#10;&#10;通过将数组分为有序与无序，再使用无序部分的数在有序部分的数中比较，并插入到合适的位置。">
+      <change afterPath="$PROJECT_DIR$/src/B20240721/Recursive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -479,15 +478,7 @@
       <workItem from="1721225978455" duration="58000" />
       <workItem from="1721377477025" duration="993000" />
       <workItem from="1721459537581" duration="5450000" />
-      <workItem from="1721545285386" duration="2438000" />
-    </task>
-    <task id="LOCAL-00634" summary="equals">
-      <option name="closed" value="true" />
-      <created>1720271522025</created>
-      <option name="number" value="00634" />
-      <option name="presentableId" value="LOCAL-00634" />
-      <option name="project" value="LOCAL" />
-      <updated>1720271522025</updated>
+      <workItem from="1721545285386" duration="3327000" />
     </task>
     <task id="LOCAL-00635" summary="Clone - 在类中克隆 如果想要使用就必须要 Implements Cloneable 并且重写Object 中的 clone类">
       <option name="closed" value="true" />
@@ -873,7 +864,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721547187697</updated>
     </task>
-    <option name="localTasksCounter" value="683" />
+    <task id="LOCAL-00683" summary="算法 - 插入排序">
+      <option name="closed" value="true" />
+      <created>1721547974641</created>
+      <option name="number" value="00683" />
+      <option name="presentableId" value="LOCAL-00683" />
+      <option name="project" value="LOCAL" />
+      <updated>1721547974641</updated>
+    </task>
+    <option name="localTasksCounter" value="684" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -925,7 +924,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Date - Date about -- 有参...&#10;&#10;传入传参时间" />
     <MESSAGE value="Date - Date about -- setTime...&#10;&#10;在原有时间基础上进行增加时间（单位为毫秒）" />
     <MESSAGE value="Date - Date about -- getTime...&#10;&#10;获取当前时间与计算机时间原点的时间差（单位为毫秒）" />
     <MESSAGE value="SimpleDateFormat - about...&#10;&#10;格式化：把时间模式改变为某种格式&#10;解析： 把字符转为某种格式的时间" />
@@ -950,7 +948,8 @@
     <MESSAGE value="算法 - 顺序查找/基本查找 -- 练习：返回所有查找的元素索引" />
     <MESSAGE value="算法 - 二分查找...&#10;&#10;只能在顺序范围查找" />
     <MESSAGE value="算法 - 选择排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法 - 选择排序" />
+    <MESSAGE value="算法 - 插入排序...&#10;&#10;通过将数组分为有序与无序，再使用无序部分的数在有序部分的数中比较，并插入到合适的位置。" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法 - 插入排序...&#10;&#10;通过将数组分为有序与无序，再使用无序部分的数在有序部分的数中比较，并插入到合适的位置。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1071,15 +1070,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/B20240721/Insert.java</url>
-          <line>3</line>
-          <properties class="B20240721.Insert" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/A20240417/River/Test.java</url>
