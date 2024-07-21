@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="算法 - 递归算法">
-      <change afterPath="$PROJECT_DIR$/src/B20240721/Quick.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="算法 - 快速排序">
+      <change afterPath="$PROJECT_DIR$/src/B20240721/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240721/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240721/Insert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -479,15 +480,7 @@
       <workItem from="1721225978455" duration="58000" />
       <workItem from="1721377477025" duration="993000" />
       <workItem from="1721459537581" duration="5450000" />
-      <workItem from="1721545285386" duration="5599000" />
-    </task>
-    <task id="LOCAL-00636" summary="勿忘国耻，振兴中华">
-      <option name="closed" value="true" />
-      <created>1720360609510</created>
-      <option name="number" value="00636" />
-      <option name="presentableId" value="LOCAL-00636" />
-      <option name="project" value="LOCAL" />
-      <updated>1720360609511</updated>
+      <workItem from="1721545285386" duration="10832000" />
     </task>
     <task id="LOCAL-00637" summary="BigInteger - about">
       <option name="closed" value="true" />
@@ -873,7 +866,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721550200752</updated>
     </task>
-    <option name="localTasksCounter" value="685" />
+    <task id="LOCAL-00685" summary="算法 - 快速排序">
+      <option name="closed" value="true" />
+      <created>1721553101060</created>
+      <option name="number" value="00685" />
+      <option name="presentableId" value="LOCAL-00685" />
+      <option name="project" value="LOCAL" />
+      <updated>1721553101060</updated>
+    </task>
+    <option name="localTasksCounter" value="686" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -925,7 +926,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Date - Date about -- getTime...&#10;&#10;获取当前时间与计算机时间原点的时间差（单位为毫秒）" />
     <MESSAGE value="SimpleDateFormat - about...&#10;&#10;格式化：把时间模式改变为某种格式&#10;解析： 把字符转为某种格式的时间" />
     <MESSAGE value="SimpleDateFormat - format...&#10;&#10;按照格式化获取时间" />
     <MESSAGE value="SimpleDateFormat - parse...&#10;&#10;按照格式化解析时间" />
@@ -950,7 +950,8 @@
     <MESSAGE value="算法 - 选择排序" />
     <MESSAGE value="算法 - 插入排序...&#10;&#10;通过将数组分为有序与无序，再使用无序部分的数在有序部分的数中比较，并插入到合适的位置。" />
     <MESSAGE value="算法 - 递归算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法 - 递归算法" />
+    <MESSAGE value="算法 - 快速排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法 - 快速排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1076,6 +1077,11 @@
           <url>file://$PROJECT_DIR$/src/A20240417/River/Test.java</url>
           <line>46</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B20240721/Test1.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
