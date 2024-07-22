@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="算法 - 练习 -- 插入排序">
-      <change afterPath="$PROJECT_DIR$/src/B20240722/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240722/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -481,15 +481,7 @@
       <workItem from="1721459537581" duration="5450000" />
       <workItem from="1721545285386" duration="10919000" />
       <workItem from="1721567054941" duration="7000" />
-      <workItem from="1721631954136" duration="2226000" />
-    </task>
-    <task id="LOCAL-00638" summary="BigInteger - about">
-      <option name="closed" value="true" />
-      <created>1720362895681</created>
-      <option name="number" value="00638" />
-      <option name="presentableId" value="LOCAL-00638" />
-      <option name="project" value="LOCAL" />
-      <updated>1720362895681</updated>
+      <workItem from="1721631954136" duration="4348000" />
     </task>
     <task id="LOCAL-00639" summary="BigDecimal - about">
       <option name="closed" value="true" />
@@ -875,7 +867,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721567035562</updated>
     </task>
-    <option name="localTasksCounter" value="687" />
+    <task id="LOCAL-00687" summary="算法 - 练习 -- 插入排序">
+      <option name="closed" value="true" />
+      <created>1721634578301</created>
+      <option name="number" value="00687" />
+      <option name="presentableId" value="LOCAL-00687" />
+      <option name="project" value="LOCAL" />
+      <updated>1721634578301</updated>
+    </task>
+    <option name="localTasksCounter" value="688" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1080,9 +1080,9 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/B20240722/Test.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="39" />
+          <url>file://$PROJECT_DIR$/src/B20240722/Test1.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
