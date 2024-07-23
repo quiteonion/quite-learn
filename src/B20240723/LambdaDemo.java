@@ -16,6 +16,9 @@ public class LambdaDemo {
                     return o1 - o2;
                 }
         );//省略格式
-        Arrays.sort(arr, (o1, o2) -> o1 - o2);
+        Arrays.sort(arr, (o1, o2) -> o2 - o1);
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
     }
 }

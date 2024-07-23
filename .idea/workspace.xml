@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Lambda -  函数式编程，将复杂的匿名类简化">
-      <change beforePath="$PROJECT_DIR$/src/B20240723/LambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240723/LambdaDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Lambda -  lambda 表达式还可以省略：如果方法体内部只有一行，那么大括号，return 和分号可以不写" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -482,23 +480,7 @@
       <workItem from="1721567054941" duration="7000" />
       <workItem from="1721631954136" duration="5872000" />
       <workItem from="1721657045276" duration="433000" />
-      <workItem from="1721714087076" duration="1336000" />
-    </task>
-    <task id="LOCAL-00642" summary="正则表达式 - https://regexlearn.com/zh-cn/learn">
-      <option name="closed" value="true" />
-      <created>1720509652640</created>
-      <option name="number" value="00642" />
-      <option name="presentableId" value="LOCAL-00642" />
-      <option name="project" value="LOCAL" />
-      <updated>1720509652640</updated>
-    </task>
-    <task id="LOCAL-00643" summary="正则表达式 - https://regexlearn.com/zh-cn/learn">
-      <option name="closed" value="true" />
-      <created>1720520298350</created>
-      <option name="number" value="00643" />
-      <option name="presentableId" value="LOCAL-00643" />
-      <option name="project" value="LOCAL" />
-      <updated>1720520298350</updated>
+      <workItem from="1721714087076" duration="2094000" />
     </task>
     <task id="LOCAL-00644" summary="正则表达式 - https://regexlearn.com/zh-cn/learn">
       <option name="closed" value="true" />
@@ -876,7 +858,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721714942089</updated>
     </task>
-    <option name="localTasksCounter" value="691" />
+    <task id="LOCAL-00691" summary="Lambda -  lambda 表达式还可以省略：形参的数据类型可以不书写">
+      <option name="closed" value="true" />
+      <created>1721720108655</created>
+      <option name="number" value="00691" />
+      <option name="presentableId" value="LOCAL-00691" />
+      <option name="project" value="LOCAL" />
+      <updated>1721720108655</updated>
+    </task>
+    <task id="LOCAL-00692" summary="Lambda -  lambda 表达式还可以省略：如果方法体内部只有一行，那么大括号，return 和分号可以不写">
+      <option name="closed" value="true" />
+      <created>1721720169041</created>
+      <option name="number" value="00692" />
+      <option name="presentableId" value="LOCAL-00692" />
+      <option name="project" value="LOCAL" />
+      <updated>1721720169041</updated>
+    </task>
+    <option name="localTasksCounter" value="693" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -928,8 +926,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="SimpleDateFormat - Test0 -- 格式转换" />
-    <MESSAGE value="SimpleDateFormat - Test0 -- 转化为 Date 格式判断毫秒值" />
     <MESSAGE value="Calendar “日历” - about -- 抽象类，只能使用 getInstance 创建类，默认使用当前时间" />
     <MESSAGE value="Calendar “日历” - 细节 -- 在月份中是 0-11 所以显示的月份加一才是正确的" />
     <MESSAGE value="Calendar “日历” - get -- get 中形参传入的是索引，不同的索引会返回不同的值" />
@@ -953,7 +949,9 @@
     <MESSAGE value="算法 - 练习 -- 插入排序" />
     <MESSAGE value="算法 - 练习 -- 快速排序" />
     <MESSAGE value="Lambda -  函数式编程，将复杂的匿名类简化" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambda -  函数式编程，将复杂的匿名类简化" />
+    <MESSAGE value="Lambda -  lambda 表达式还可以省略：形参的数据类型可以不书写" />
+    <MESSAGE value="Lambda -  lambda 表达式还可以省略：如果方法体内部只有一行，那么大括号，return 和分号可以不写" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambda -  lambda 表达式还可以省略：如果方法体内部只有一行，那么大括号，return 和分号可以不写" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
