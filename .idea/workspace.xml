@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="算法 - 练习 -- 快速排序">
-      <change afterPath="$PROJECT_DIR$/src/B20240723/LambdaDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Lambda -  函数式编程，将复杂的匿名类简化">
+      <change beforePath="$PROJECT_DIR$/src/B20240723/LambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240723/LambdaDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -483,23 +482,7 @@
       <workItem from="1721567054941" duration="7000" />
       <workItem from="1721631954136" duration="5872000" />
       <workItem from="1721657045276" duration="433000" />
-      <workItem from="1721714087076" duration="708000" />
-    </task>
-    <task id="LOCAL-00640" summary="Clone - 重写 clone 方法的类必须实现 cloneable 接口">
-      <option name="closed" value="true" />
-      <created>1720507213551</created>
-      <option name="number" value="00640" />
-      <option name="presentableId" value="LOCAL-00640" />
-      <option name="project" value="LOCAL" />
-      <updated>1720507213551</updated>
-    </task>
-    <task id="LOCAL-00641" summary="BigDecimal - about">
-      <option name="closed" value="true" />
-      <created>1720507846921</created>
-      <option name="number" value="00641" />
-      <option name="presentableId" value="LOCAL-00641" />
-      <option name="project" value="LOCAL" />
-      <updated>1720507846921</updated>
+      <workItem from="1721714087076" duration="1336000" />
     </task>
     <task id="LOCAL-00642" summary="正则表达式 - https://regexlearn.com/zh-cn/learn">
       <option name="closed" value="true" />
@@ -877,7 +860,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721637367373</updated>
     </task>
-    <option name="localTasksCounter" value="689" />
+    <task id="LOCAL-00689" summary="Lambda -  函数式编程，将复杂的匿名类简化">
+      <option name="closed" value="true" />
+      <created>1721714914540</created>
+      <option name="number" value="00689" />
+      <option name="presentableId" value="LOCAL-00689" />
+      <option name="project" value="LOCAL" />
+      <updated>1721714914540</updated>
+    </task>
+    <task id="LOCAL-00690" summary="Lambda -  函数式编程，将复杂的匿名类简化">
+      <option name="closed" value="true" />
+      <created>1721714942089</created>
+      <option name="number" value="00690" />
+      <option name="presentableId" value="LOCAL-00690" />
+      <option name="project" value="LOCAL" />
+      <updated>1721714942089</updated>
+    </task>
+    <option name="localTasksCounter" value="691" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -929,7 +928,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="SimpleDateFormat - parse...&#10;&#10;按照格式化解析时间" />
     <MESSAGE value="SimpleDateFormat - Test0 -- 格式转换" />
     <MESSAGE value="SimpleDateFormat - Test0 -- 转化为 Date 格式判断毫秒值" />
     <MESSAGE value="Calendar “日历” - about -- 抽象类，只能使用 getInstance 创建类，默认使用当前时间" />
@@ -954,7 +952,8 @@
     <MESSAGE value="算法 - 快速排序" />
     <MESSAGE value="算法 - 练习 -- 插入排序" />
     <MESSAGE value="算法 - 练习 -- 快速排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法 - 练习 -- 快速排序" />
+    <MESSAGE value="Lambda -  函数式编程，将复杂的匿名类简化" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambda -  函数式编程，将复杂的匿名类简化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
