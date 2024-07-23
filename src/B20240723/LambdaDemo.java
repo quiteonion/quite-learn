@@ -15,6 +15,7 @@ public class LambdaDemo {
         Arrays.sort(arr, (o1, o2) -> {
                     return o1 - o2;
                 }
-        );
+        );//省略格式
+        Arrays.sort(arr, (o1, o2) -> o1 - o2);
     }
 }
