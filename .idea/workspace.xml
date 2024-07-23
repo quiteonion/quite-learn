@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="算法 - 练习 -- 插入排序">
-      <change afterPath="$PROJECT_DIR$/src/B20240722/Test1.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="算法 - 练习 -- 快速排序">
+      <change afterPath="$PROJECT_DIR$/src/B20240723/LambdaDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -481,15 +481,9 @@
       <workItem from="1721459537581" duration="5450000" />
       <workItem from="1721545285386" duration="10919000" />
       <workItem from="1721567054941" duration="7000" />
-      <workItem from="1721631954136" duration="4348000" />
-    </task>
-    <task id="LOCAL-00639" summary="BigDecimal - about">
-      <option name="closed" value="true" />
-      <created>1720364324006</created>
-      <option name="number" value="00639" />
-      <option name="presentableId" value="LOCAL-00639" />
-      <option name="project" value="LOCAL" />
-      <updated>1720364324006</updated>
+      <workItem from="1721631954136" duration="5872000" />
+      <workItem from="1721657045276" duration="433000" />
+      <workItem from="1721714087076" duration="708000" />
     </task>
     <task id="LOCAL-00640" summary="Clone - 重写 clone 方法的类必须实现 cloneable 接口">
       <option name="closed" value="true" />
@@ -875,7 +869,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721634578301</updated>
     </task>
-    <option name="localTasksCounter" value="688" />
+    <task id="LOCAL-00688" summary="算法 - 练习 -- 快速排序">
+      <option name="closed" value="true" />
+      <created>1721637367373</created>
+      <option name="number" value="00688" />
+      <option name="presentableId" value="LOCAL-00688" />
+      <option name="project" value="LOCAL" />
+      <updated>1721637367373</updated>
+    </task>
+    <option name="localTasksCounter" value="689" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -927,7 +929,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="SimpleDateFormat - format...&#10;&#10;按照格式化获取时间" />
     <MESSAGE value="SimpleDateFormat - parse...&#10;&#10;按照格式化解析时间" />
     <MESSAGE value="SimpleDateFormat - Test0 -- 格式转换" />
     <MESSAGE value="SimpleDateFormat - Test0 -- 转化为 Date 格式判断毫秒值" />
@@ -952,7 +953,8 @@
     <MESSAGE value="算法 - 递归算法" />
     <MESSAGE value="算法 - 快速排序" />
     <MESSAGE value="算法 - 练习 -- 插入排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法 - 练习 -- 插入排序" />
+    <MESSAGE value="算法 - 练习 -- 快速排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法 - 练习 -- 快速排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1078,11 +1080,6 @@
           <url>file://$PROJECT_DIR$/src/A20240417/River/Test.java</url>
           <line>46</line>
           <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/B20240722/Test1.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
