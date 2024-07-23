@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Lambda -  lambda 表达式还可以省略：如果方法体内部只有一行，那么大括号，return 和分号可以不写" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Lambda -  lambda 省略核心：可推导，可省略">
+      <change afterPath="$PROJECT_DIR$/src/B20240723/LambdaTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -480,15 +482,7 @@
       <workItem from="1721567054941" duration="7000" />
       <workItem from="1721631954136" duration="5872000" />
       <workItem from="1721657045276" duration="433000" />
-      <workItem from="1721714087076" duration="2094000" />
-    </task>
-    <task id="LOCAL-00644" summary="正则表达式 - https://regexlearn.com/zh-cn/learn">
-      <option name="closed" value="true" />
-      <created>1720521305080</created>
-      <option name="number" value="00644" />
-      <option name="presentableId" value="LOCAL-00644" />
-      <option name="project" value="LOCAL" />
-      <updated>1720521305080</updated>
+      <workItem from="1721714087076" duration="2416000" />
     </task>
     <task id="LOCAL-00645" summary="爬虫 - 局内爬虫 -- Pattern &amp; Matcher">
       <option name="closed" value="true" />
@@ -874,7 +868,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721720169041</updated>
     </task>
-    <option name="localTasksCounter" value="693" />
+    <task id="LOCAL-00693" summary="Lambda -  lambda 省略核心：可推导，可省略">
+      <option name="closed" value="true" />
+      <created>1721720252838</created>
+      <option name="number" value="00693" />
+      <option name="presentableId" value="LOCAL-00693" />
+      <option name="project" value="LOCAL" />
+      <updated>1721720252838</updated>
+    </task>
+    <option name="localTasksCounter" value="694" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -926,7 +928,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Calendar “日历” - about -- 抽象类，只能使用 getInstance 创建类，默认使用当前时间" />
     <MESSAGE value="Calendar “日历” - 细节 -- 在月份中是 0-11 所以显示的月份加一才是正确的" />
     <MESSAGE value="Calendar “日历” - get -- get 中形参传入的是索引，不同的索引会返回不同的值" />
     <MESSAGE value="Calendar “日历” - get -- Java 中把索引用常量来表示，更加的好使用" />
@@ -951,7 +952,8 @@
     <MESSAGE value="Lambda -  函数式编程，将复杂的匿名类简化" />
     <MESSAGE value="Lambda -  lambda 表达式还可以省略：形参的数据类型可以不书写" />
     <MESSAGE value="Lambda -  lambda 表达式还可以省略：如果方法体内部只有一行，那么大括号，return 和分号可以不写" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambda -  lambda 表达式还可以省略：如果方法体内部只有一行，那么大括号，return 和分号可以不写" />
+    <MESSAGE value="Lambda -  lambda 省略核心：可推导，可省略" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambda -  lambda 省略核心：可推导，可省略" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
