@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Lambda -  lambda 小练习 -- 用字符数组的长度排列字符">
-      <change afterPath="$PROJECT_DIR$/src/B20240723/LambdaTest1.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Lambda -  lambda 小练习 -- 按要求排列">
+      <change afterPath="$PROJECT_DIR$/src/B20240724/Fibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -483,15 +483,8 @@
       <workItem from="1721567054941" duration="7000" />
       <workItem from="1721631954136" duration="5872000" />
       <workItem from="1721657045276" duration="433000" />
-      <workItem from="1721714087076" duration="3621000" />
-    </task>
-    <task id="LOCAL-00646" summary="爬虫 - 局内爬虫 -- Pattern...&#10;&#10;Pattern 表示正则表达式">
-      <option name="closed" value="true" />
-      <created>1720521528972</created>
-      <option name="number" value="00646" />
-      <option name="presentableId" value="LOCAL-00646" />
-      <option name="project" value="LOCAL" />
-      <updated>1720521528972</updated>
+      <workItem from="1721714087076" duration="5261000" />
+      <workItem from="1721796972774" duration="1716000" />
     </task>
     <task id="LOCAL-00647" summary="爬虫 - 局内爬虫 -- Matcher...&#10;&#10;Matcher 表示匹配器">
       <option name="closed" value="true" />
@@ -877,7 +870,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721720613869</updated>
     </task>
-    <option name="localTasksCounter" value="695" />
+    <task id="LOCAL-00695" summary="Lambda -  lambda 小练习 -- 按要求排列">
+      <option name="closed" value="true" />
+      <created>1721722032889</created>
+      <option name="number" value="00695" />
+      <option name="presentableId" value="LOCAL-00695" />
+      <option name="project" value="LOCAL" />
+      <updated>1721722032889</updated>
+    </task>
+    <option name="localTasksCounter" value="696" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -929,7 +930,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Calendar “日历” - get -- get 中形参传入的是索引，不同的索引会返回不同的值" />
     <MESSAGE value="Calendar “日历” - get -- Java 中把索引用常量来表示，更加的好使用" />
     <MESSAGE value="Calendar “日历” - set -- 修改“日历”中的某个信息（年月日）" />
     <MESSAGE value="Calendar “日历” - add -- 增加或减少”日历“中的某一个信息（正数增加负数减少）" />
@@ -954,7 +954,8 @@
     <MESSAGE value="Lambda -  lambda 表达式还可以省略：如果方法体内部只有一行，那么大括号，return 和分号可以不写" />
     <MESSAGE value="Lambda -  lambda 省略核心：可推导，可省略" />
     <MESSAGE value="Lambda -  lambda 小练习 -- 用字符数组的长度排列字符" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambda -  lambda 小练习 -- 用字符数组的长度排列字符" />
+    <MESSAGE value="Lambda -  lambda 小练习 -- 按要求排列" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambda -  lambda 小练习 -- 按要求排列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
