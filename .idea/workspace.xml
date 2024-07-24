@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Lambda -  lambda 小练习 -- 按要求排列">
-      <change afterPath="$PROJECT_DIR$/src/B20240724/Fibonacci.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Lambda -  lambda 小练习 -- 斐波那契数列">
+      <change afterPath="$PROJECT_DIR$/src/B20240724/Monkeys.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -484,15 +484,7 @@
       <workItem from="1721631954136" duration="5872000" />
       <workItem from="1721657045276" duration="433000" />
       <workItem from="1721714087076" duration="5261000" />
-      <workItem from="1721796972774" duration="1716000" />
-    </task>
-    <task id="LOCAL-00647" summary="爬虫 - 局内爬虫 -- Matcher...&#10;&#10;Matcher 表示匹配器">
-      <option name="closed" value="true" />
-      <created>1720521559572</created>
-      <option name="number" value="00647" />
-      <option name="presentableId" value="LOCAL-00647" />
-      <option name="project" value="LOCAL" />
-      <updated>1720521559572</updated>
+      <workItem from="1721796972774" duration="3516000" />
     </task>
     <task id="LOCAL-00648" summary="爬虫 - 局内爬虫 -- Matcher...&#10;&#10;Matcher 中有两个方法&#10;find() ：从字符串第一个索引开始查找是否有与正则表达式匹配的，如果有匹配的记录为[左索引, 右索引+1]&#10;group() ：把当前匹配的获取出来 底层调用 subString 方法">
       <option name="closed" value="true" />
@@ -878,7 +870,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721722032889</updated>
     </task>
-    <option name="localTasksCounter" value="696" />
+    <task id="LOCAL-00696" summary="Lambda -  lambda 小练习 -- 斐波那契数列">
+      <option name="closed" value="true" />
+      <created>1721811025729</created>
+      <option name="number" value="00696" />
+      <option name="presentableId" value="LOCAL-00696" />
+      <option name="project" value="LOCAL" />
+      <updated>1721811025729</updated>
+    </task>
+    <option name="localTasksCounter" value="697" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -930,7 +930,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Calendar “日历” - get -- Java 中把索引用常量来表示，更加的好使用" />
     <MESSAGE value="Calendar “日历” - set -- 修改“日历”中的某个信息（年月日）" />
     <MESSAGE value="Calendar “日历” - add -- 增加或减少”日历“中的某一个信息（正数增加负数减少）" />
     <MESSAGE value="练习1 - 键盘录入数据到集合中，知道集合中所有元素的和超过200" />
@@ -955,7 +954,8 @@
     <MESSAGE value="Lambda -  lambda 省略核心：可推导，可省略" />
     <MESSAGE value="Lambda -  lambda 小练习 -- 用字符数组的长度排列字符" />
     <MESSAGE value="Lambda -  lambda 小练习 -- 按要求排列" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambda -  lambda 小练习 -- 按要求排列" />
+    <MESSAGE value="Lambda -  lambda 小练习 -- 斐波那契数列" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambda -  lambda 小练习 -- 斐波那契数列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1076,6 +1076,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/B20240724/Monkeys.java</url>
+          <line>16</line>
+          <properties class="B20240724.Monkeys" method="m">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/A20240417/River/Test.java</url>
