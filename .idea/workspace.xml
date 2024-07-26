@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Lambda -  lambda 小练习 -- 猴子吃桃子">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="集合进阶 - 迭代器" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +21,7 @@
         <option value="HTTP Request" />
         <option value="HTML File" />
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -484,38 +483,9 @@
       <workItem from="1721657045276" duration="433000" />
       <workItem from="1721714087076" duration="5261000" />
       <workItem from="1721796972774" duration="5668000" />
-    </task>
-    <task id="LOCAL-00649" summary="爬虫 - 局内爬虫 -- Matcher...&#10;&#10;Matcher 中有两个方法&#10;find() ：从字符串第一个索引开始查找是否有与正则表达式匹配的，如果有匹配的记录为[左索引, 右索引+1]&#10;group() ：把当前匹配的获取出来 底层调用 subString 方法">
-      <option name="closed" value="true" />
-      <created>1720522174684</created>
-      <option name="number" value="00649" />
-      <option name="presentableId" value="LOCAL-00649" />
-      <option name="project" value="LOCAL" />
-      <updated>1720522174684</updated>
-    </task>
-    <task id="LOCAL-00650" summary="爬虫 - 局内爬虫 -- 练习">
-      <option name="closed" value="true" />
-      <created>1720523249109</created>
-      <option name="number" value="00650" />
-      <option name="presentableId" value="LOCAL-00650" />
-      <option name="project" value="LOCAL" />
-      <updated>1720523249109</updated>
-    </task>
-    <task id="LOCAL-00651" summary="爬虫 - 局内爬虫 -- 贪婪爬取与非贪婪爬取">
-      <option name="closed" value="true" />
-      <created>1721023138367</created>
-      <option name="number" value="00651" />
-      <option name="presentableId" value="LOCAL-00651" />
-      <option name="project" value="LOCAL" />
-      <updated>1721023138367</updated>
-    </task>
-    <task id="LOCAL-00652" summary="爬虫 - 局内爬虫 -- replaceAll(String regex, String str) 将替换满足规则的所有字符替换成 str">
-      <option name="closed" value="true" />
-      <created>1721024506067</created>
-      <option name="number" value="00652" />
-      <option name="presentableId" value="LOCAL-00652" />
-      <option name="project" value="LOCAL" />
-      <updated>1721024506067</updated>
+      <workItem from="1721883935815" duration="2659000" />
+      <workItem from="1721911472326" duration="596000" />
+      <workItem from="1721970908960" duration="1893000" />
     </task>
     <task id="LOCAL-00653" summary="爬虫 - 局内爬虫 -- split...&#10;&#10;split(String regex) 在满足规则的字符进行切割，留下剩余的字符。 返回字符数组">
       <option name="closed" value="true" />
@@ -877,7 +847,39 @@
       <option name="project" value="LOCAL" />
       <updated>1721812958470</updated>
     </task>
-    <option name="localTasksCounter" value="698" />
+    <task id="LOCAL-00698" summary="Lambda -  lambda 小练习 -- 爬楼梯">
+      <option name="closed" value="true" />
+      <created>1721884094549</created>
+      <option name="number" value="00698" />
+      <option name="presentableId" value="LOCAL-00698" />
+      <option name="project" value="LOCAL" />
+      <updated>1721884094549</updated>
+    </task>
+    <task id="LOCAL-00699" summary="集合进阶 - 集合体系结构：单列集合">
+      <option name="closed" value="true" />
+      <created>1721911279856</created>
+      <option name="number" value="00699" />
+      <option name="presentableId" value="LOCAL-00699" />
+      <option name="project" value="LOCAL" />
+      <updated>1721911279856</updated>
+    </task>
+    <task id="LOCAL-00700" summary="集合进阶 - 迭代器">
+      <option name="closed" value="true" />
+      <created>1721976907089</created>
+      <option name="number" value="00700" />
+      <option name="presentableId" value="LOCAL-00700" />
+      <option name="project" value="LOCAL" />
+      <updated>1721976907089</updated>
+    </task>
+    <task id="LOCAL-00701" summary="集合进阶 - 迭代器">
+      <option name="closed" value="true" />
+      <created>1721977385737</created>
+      <option name="number" value="00701" />
+      <option name="presentableId" value="LOCAL-00701" />
+      <option name="project" value="LOCAL" />
+      <updated>1721977385737</updated>
+    </task>
+    <option name="localTasksCounter" value="702" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -929,9 +931,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Calendar “日历” - add -- 增加或减少”日历“中的某一个信息（正数增加负数减少）" />
-    <MESSAGE value="练习1 - 键盘录入数据到集合中，知道集合中所有元素的和超过200" />
-    <MESSAGE value="练习2 - 模拟 Integer.valueOf()" />
     <MESSAGE value="练习2 - 模拟 Integer.valueOf() -- 优化" />
     <MESSAGE value="练习三 - 将十进制转为二进制" />
     <MESSAGE value="练习四 - 距离今天是第几天 -- JDK7" />
@@ -954,7 +953,10 @@
     <MESSAGE value="Lambda -  lambda 小练习 -- 按要求排列" />
     <MESSAGE value="Lambda -  lambda 小练习 -- 斐波那契数列" />
     <MESSAGE value="Lambda -  lambda 小练习 -- 猴子吃桃子" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambda -  lambda 小练习 -- 猴子吃桃子" />
+    <MESSAGE value="Lambda -  lambda 小练习 -- 爬楼梯" />
+    <MESSAGE value="集合进阶 - 集合体系结构：单列集合" />
+    <MESSAGE value="集合进阶 - 迭代器" />
+    <option name="LAST_COMMIT_MESSAGE" value="集合进阶 - 迭代器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
