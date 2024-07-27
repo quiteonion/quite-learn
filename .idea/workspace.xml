@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="集合进阶 - 迭代器">
-      <change afterPath="$PROJECT_DIR$/src/B20240726/Test0.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="集合进阶 - 关于遍历方式">
+      <change afterPath="$PROJECT_DIR$/src/B20240727/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240727/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -488,23 +489,9 @@
       <workItem from="1721796972774" duration="5668000" />
       <workItem from="1721883935815" duration="2659000" />
       <workItem from="1721911472326" duration="596000" />
-      <workItem from="1721970908960" duration="2909000" />
-    </task>
-    <task id="LOCAL-00654" summary="Date - Date about">
-      <option name="closed" value="true" />
-      <created>1721027100030</created>
-      <option name="number" value="00654" />
-      <option name="presentableId" value="LOCAL-00654" />
-      <option name="project" value="LOCAL" />
-      <updated>1721027100030</updated>
-    </task>
-    <task id="LOCAL-00655" summary="Date - Date about -- 空参...&#10;&#10;传入当前时间">
-      <option name="closed" value="true" />
-      <created>1721027196975</created>
-      <option name="number" value="00655" />
-      <option name="presentableId" value="LOCAL-00655" />
-      <option name="project" value="LOCAL" />
-      <updated>1721027196976</updated>
+      <workItem from="1721970908960" duration="3803000" />
+      <workItem from="1722002237087" duration="52000" />
+      <workItem from="1722056831137" duration="1359000" />
     </task>
     <task id="LOCAL-00656" summary="Date - Date about -- 有参...&#10;&#10;传入传参时间">
       <option name="closed" value="true" />
@@ -882,7 +869,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721977490826</updated>
     </task>
-    <option name="localTasksCounter" value="703" />
+    <task id="LOCAL-00703" summary="集合进阶 - 关于遍历的">
+      <option name="closed" value="true" />
+      <created>1721978920912</created>
+      <option name="number" value="00703" />
+      <option name="presentableId" value="LOCAL-00703" />
+      <option name="project" value="LOCAL" />
+      <updated>1721978920912</updated>
+    </task>
+    <task id="LOCAL-00704" summary="集合进阶 - 关于遍历方式">
+      <option name="closed" value="true" />
+      <created>1721979118487</created>
+      <option name="number" value="00704" />
+      <option name="presentableId" value="LOCAL-00704" />
+      <option name="project" value="LOCAL" />
+      <updated>1721979118487</updated>
+    </task>
+    <option name="localTasksCounter" value="705" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -934,8 +937,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="练习2 - 模拟 Integer.valueOf() -- 优化" />
-    <MESSAGE value="练习三 - 将十进制转为二进制" />
     <MESSAGE value="练习四 - 距离今天是第几天 -- JDK7" />
     <MESSAGE value="练习四 - 距离今天是第几天 -- JDK8" />
     <MESSAGE value="练习五 - 判断这一年是闰年还是平年" />
@@ -959,7 +960,9 @@
     <MESSAGE value="Lambda -  lambda 小练习 -- 爬楼梯" />
     <MESSAGE value="集合进阶 - 集合体系结构：单列集合" />
     <MESSAGE value="集合进阶 - 迭代器" />
-    <option name="LAST_COMMIT_MESSAGE" value="集合进阶 - 迭代器" />
+    <MESSAGE value="集合进阶 - 关于遍历的" />
+    <MESSAGE value="集合进阶 - 关于遍历方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="集合进阶 - 关于遍历方式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
