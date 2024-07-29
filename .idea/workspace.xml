@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="编程思想延续 - 黑盒子思想 -- 输出的模块">
-      <change afterPath="$PROJECT_DIR$/src/B20240729/DEMO/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240729/DEMO/file.properties" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Properties...&#10;&#10;properties.load()&#10;properties.setProperty();&#10;properties.getProperty();">
+      <change afterPath="$PROJECT_DIR$/src/B20240729/cloneDemo/CloneMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240729/cloneDemo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -492,23 +492,7 @@
       <workItem from="1721970908960" duration="3803000" />
       <workItem from="1722002237087" duration="52000" />
       <workItem from="1722056831137" duration="3953000" />
-      <workItem from="1722214610428" duration="11607000" />
-    </task>
-    <task id="LOCAL-00662" summary="SimpleDateFormat - Test0 -- 格式转换">
-      <option name="closed" value="true" />
-      <created>1721115860968</created>
-      <option name="number" value="00662" />
-      <option name="presentableId" value="LOCAL-00662" />
-      <option name="project" value="LOCAL" />
-      <updated>1721115860968</updated>
-    </task>
-    <task id="LOCAL-00663" summary="SimpleDateFormat - Test0 -- 转化为 Date 格式判断毫秒值">
-      <option name="closed" value="true" />
-      <created>1721116449069</created>
-      <option name="number" value="00663" />
-      <option name="presentableId" value="LOCAL-00663" />
-      <option name="project" value="LOCAL" />
-      <updated>1721116449069</updated>
+      <workItem from="1722214610428" duration="12477000" />
     </task>
     <task id="LOCAL-00664" summary="Calendar - about -- 抽象类，只能使用 getInstance 创建类，默认使用当前时间">
       <option name="closed" value="true" />
@@ -886,7 +870,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722235085894</updated>
     </task>
-    <option name="localTasksCounter" value="711" />
+    <task id="LOCAL-00711" summary="Properties...&#10;&#10;properties.load()&#10;properties.setProperty();&#10;properties.getProperty();">
+      <option name="closed" value="true" />
+      <created>1722238873838</created>
+      <option name="number" value="00711" />
+      <option name="presentableId" value="LOCAL-00711" />
+      <option name="project" value="LOCAL" />
+      <updated>1722238873838</updated>
+    </task>
+    <task id="LOCAL-00712" summary="Properties...&#10;&#10;properties.load()&#10;properties.setProperty();&#10;properties.getProperty();">
+      <option name="closed" value="true" />
+      <created>1722238880440</created>
+      <option name="number" value="00712" />
+      <option name="presentableId" value="LOCAL-00712" />
+      <option name="project" value="LOCAL" />
+      <updated>1722238880440</updated>
+    </task>
+    <option name="localTasksCounter" value="713" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -938,7 +938,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="算法 - 选择排序" />
     <MESSAGE value="算法 - 插入排序...&#10;&#10;通过将数组分为有序与无序，再使用无序部分的数在有序部分的数中比较，并插入到合适的位置。" />
     <MESSAGE value="算法 - 递归算法" />
     <MESSAGE value="算法 - 快速排序" />
@@ -963,7 +962,8 @@
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 解析模块的大致" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 存储的模块" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 输出的模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="编程思想延续 - 黑盒子思想 -- 输出的模块" />
+    <MESSAGE value="Properties...&#10;&#10;properties.load()&#10;properties.setProperty();&#10;properties.getProperty();" />
+    <option name="LAST_COMMIT_MESSAGE" value="Properties...&#10;&#10;properties.load()&#10;properties.setProperty();&#10;properties.getProperty();" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
