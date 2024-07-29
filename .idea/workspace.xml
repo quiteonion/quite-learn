@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="编程思想延续 - 黑盒子思想 -- 解析模块的大致">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="编程思想延续 - 黑盒子思想 -- 输出的模块">
+      <change afterPath="$PROJECT_DIR$/src/B20240729/DEMO/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240729/DEMO/file.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240729/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240729/APP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -491,23 +492,7 @@
       <workItem from="1721970908960" duration="3803000" />
       <workItem from="1722002237087" duration="52000" />
       <workItem from="1722056831137" duration="3953000" />
-      <workItem from="1722214610428" duration="8456000" />
-    </task>
-    <task id="LOCAL-00660" summary="SimpleDateFormat - format...&#10;&#10;按照格式化获取时间">
-      <option name="closed" value="true" />
-      <created>1721115380651</created>
-      <option name="number" value="00660" />
-      <option name="presentableId" value="LOCAL-00660" />
-      <option name="project" value="LOCAL" />
-      <updated>1721115380651</updated>
-    </task>
-    <task id="LOCAL-00661" summary="SimpleDateFormat - parse...&#10;&#10;按照格式化解析时间">
-      <option name="closed" value="true" />
-      <created>1721115523000</created>
-      <option name="number" value="00661" />
-      <option name="presentableId" value="LOCAL-00661" />
-      <option name="project" value="LOCAL" />
-      <updated>1721115523000</updated>
+      <workItem from="1722214610428" duration="11607000" />
     </task>
     <task id="LOCAL-00662" summary="SimpleDateFormat - Test0 -- 格式转换">
       <option name="closed" value="true" />
@@ -885,7 +870,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722224259478</updated>
     </task>
-    <option name="localTasksCounter" value="709" />
+    <task id="LOCAL-00709" summary="编程思想延续 - 黑盒子思想 -- 存储的模块">
+      <option name="closed" value="true" />
+      <created>1722234955958</created>
+      <option name="number" value="00709" />
+      <option name="presentableId" value="LOCAL-00709" />
+      <option name="project" value="LOCAL" />
+      <updated>1722234955958</updated>
+    </task>
+    <task id="LOCAL-00710" summary="编程思想延续 - 黑盒子思想 -- 输出的模块">
+      <option name="closed" value="true" />
+      <created>1722235085894</created>
+      <option name="number" value="00710" />
+      <option name="presentableId" value="LOCAL-00710" />
+      <option name="project" value="LOCAL" />
+      <updated>1722235085894</updated>
+    </task>
+    <option name="localTasksCounter" value="711" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -937,8 +938,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="算法 - 顺序查找/基本查找 -- 练习：返回所有查找的元素索引" />
-    <MESSAGE value="算法 - 二分查找...&#10;&#10;只能在顺序范围查找" />
     <MESSAGE value="算法 - 选择排序" />
     <MESSAGE value="算法 - 插入排序...&#10;&#10;通过将数组分为有序与无序，再使用无序部分的数在有序部分的数中比较，并插入到合适的位置。" />
     <MESSAGE value="算法 - 递归算法" />
@@ -962,7 +961,9 @@
     <MESSAGE value="Java中能够在数组的某个索引添加元素并且将后续的元素往后移的方法 - add" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 下载模块的大致" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 解析模块的大致" />
-    <option name="LAST_COMMIT_MESSAGE" value="编程思想延续 - 黑盒子思想 -- 解析模块的大致" />
+    <MESSAGE value="编程思想延续 - 黑盒子思想 -- 存储的模块" />
+    <MESSAGE value="编程思想延续 - 黑盒子思想 -- 输出的模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="编程思想延续 - 黑盒子思想 -- 输出的模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
