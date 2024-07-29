@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Properties...&#10;&#10;properties.load()&#10;properties.setProperty();&#10;properties.getProperty();">
-      <change afterPath="$PROJECT_DIR$/src/B20240729/cloneDemo/CloneMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240729/cloneDemo/User.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Clone...&#10;&#10;需要重写 Cloneable 接口">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240729/cloneDemo/CloneMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240729/cloneDemo/CloneMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240729/cloneDemo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240729/cloneDemo/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -492,15 +492,7 @@
       <workItem from="1721970908960" duration="3803000" />
       <workItem from="1722002237087" duration="52000" />
       <workItem from="1722056831137" duration="3953000" />
-      <workItem from="1722214610428" duration="12477000" />
-    </task>
-    <task id="LOCAL-00664" summary="Calendar - about -- 抽象类，只能使用 getInstance 创建类，默认使用当前时间">
-      <option name="closed" value="true" />
-      <created>1721117002659</created>
-      <option name="number" value="00664" />
-      <option name="presentableId" value="LOCAL-00664" />
-      <option name="project" value="LOCAL" />
-      <updated>1721117002659</updated>
+      <workItem from="1722214610428" duration="13241000" />
     </task>
     <task id="LOCAL-00665" summary="Calendar - 细节 -- 在月份中是 0-11 所以显示的月份加一才是正确的">
       <option name="closed" value="true" />
@@ -886,7 +878,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722238880440</updated>
     </task>
-    <option name="localTasksCounter" value="713" />
+    <task id="LOCAL-00713" summary="Clone...&#10;&#10;需要重写 Cloneable 接口">
+      <option name="closed" value="true" />
+      <created>1722239664914</created>
+      <option name="number" value="00713" />
+      <option name="presentableId" value="LOCAL-00713" />
+      <option name="project" value="LOCAL" />
+      <updated>1722239664914</updated>
+    </task>
+    <option name="localTasksCounter" value="714" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -938,7 +938,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="算法 - 插入排序...&#10;&#10;通过将数组分为有序与无序，再使用无序部分的数在有序部分的数中比较，并插入到合适的位置。" />
     <MESSAGE value="算法 - 递归算法" />
     <MESSAGE value="算法 - 快速排序" />
     <MESSAGE value="算法 - 练习 -- 插入排序" />
@@ -963,7 +962,8 @@
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 存储的模块" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 输出的模块" />
     <MESSAGE value="Properties...&#10;&#10;properties.load()&#10;properties.setProperty();&#10;properties.getProperty();" />
-    <option name="LAST_COMMIT_MESSAGE" value="Properties...&#10;&#10;properties.load()&#10;properties.setProperty();&#10;properties.getProperty();" />
+    <MESSAGE value="Clone...&#10;&#10;需要重写 Cloneable 接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clone...&#10;&#10;需要重写 Cloneable 接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

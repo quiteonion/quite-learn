@@ -14,7 +14,10 @@ public class User implements Cloneable {
 
     @Override
     protected User clone() throws CloneNotSupportedException {
-        return (User)super.clone();
+        int[] clone = this.arr.clone();
+        User clone1 = (User) super.clone();
+        clone1.arr = clone;
+        return clone1;
     }
 
     @Override

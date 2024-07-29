@@ -6,7 +6,9 @@ public class CloneMain {
         User user1 = new User("tom", 18, arr);
         User user2 = user1.clone();
         System.out.println(user1);
-        System.out.println("=== === ====");
+        user1.arr[0] = 10;
+        System.out.println("=== === ===");
+        System.out.println(user1);
         System.out.println(user2);
     }
 }
