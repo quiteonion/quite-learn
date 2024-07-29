@@ -7,7 +7,8 @@ public class APP {
         Downloader downloader = new XMFishDownloader();
         String html = downloader.downloader(url);
         //解析
-
+        Parser parser = new XMFishParser();
+        parser.parser(html);
         //存入
 
         //输出
