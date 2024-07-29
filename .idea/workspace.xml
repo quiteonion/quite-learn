@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Java中能够在数组的某个索引添加元素并且将后续的元素往后移的方法 - add">
-      <change afterPath="$PROJECT_DIR$/src/B20240729/APP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240729/Downloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240729/XMFishDownloader.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="编程思想延续 - 黑盒子思想 -- 解析模块的大致">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240729/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240729/APP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -493,23 +491,7 @@
       <workItem from="1721970908960" duration="3803000" />
       <workItem from="1722002237087" duration="52000" />
       <workItem from="1722056831137" duration="3953000" />
-      <workItem from="1722214610428" duration="5764000" />
-    </task>
-    <task id="LOCAL-00658" summary="Date - Date about -- getTime...&#10;&#10;获取当前时间与计算机时间原点的时间差（单位为毫秒）">
-      <option name="closed" value="true" />
-      <created>1721027345298</created>
-      <option name="number" value="00658" />
-      <option name="presentableId" value="LOCAL-00658" />
-      <option name="project" value="LOCAL" />
-      <updated>1721027345298</updated>
-    </task>
-    <task id="LOCAL-00659" summary="SimpleDateFormat - about...&#10;&#10;格式化：把时间模式改变为某种格式&#10;解析： 把字符转为某种格式的时间">
-      <option name="closed" value="true" />
-      <created>1721114646830</created>
-      <option name="number" value="00659" />
-      <option name="presentableId" value="LOCAL-00659" />
-      <option name="project" value="LOCAL" />
-      <updated>1721114646830</updated>
+      <workItem from="1722214610428" duration="8456000" />
     </task>
     <task id="LOCAL-00660" summary="SimpleDateFormat - format...&#10;&#10;按照格式化获取时间">
       <option name="closed" value="true" />
@@ -887,7 +869,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722058872732</updated>
     </task>
-    <option name="localTasksCounter" value="707" />
+    <task id="LOCAL-00707" summary="编程思想延续 - 黑盒子思想 -- 下载模块的大致">
+      <option name="closed" value="true" />
+      <created>1722224123375</created>
+      <option name="number" value="00707" />
+      <option name="presentableId" value="LOCAL-00707" />
+      <option name="project" value="LOCAL" />
+      <updated>1722224123375</updated>
+    </task>
+    <task id="LOCAL-00708" summary="编程思想延续 - 黑盒子思想 -- 解析模块的大致">
+      <option name="closed" value="true" />
+      <created>1722224259478</created>
+      <option name="number" value="00708" />
+      <option name="presentableId" value="LOCAL-00708" />
+      <option name="project" value="LOCAL" />
+      <updated>1722224259478</updated>
+    </task>
+    <option name="localTasksCounter" value="709" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -939,8 +937,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="练习五 - 判断这一年是闰年还是平年" />
-    <MESSAGE value="算法 - 顺序查找/基本查找" />
     <MESSAGE value="算法 - 顺序查找/基本查找 -- 练习：返回所有查找的元素索引" />
     <MESSAGE value="算法 - 二分查找...&#10;&#10;只能在顺序范围查找" />
     <MESSAGE value="算法 - 选择排序" />
@@ -964,7 +960,9 @@
     <MESSAGE value="集合进阶 - 关于遍历方式" />
     <MESSAGE value="数据结构" />
     <MESSAGE value="Java中能够在数组的某个索引添加元素并且将后续的元素往后移的方法 - add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java中能够在数组的某个索引添加元素并且将后续的元素往后移的方法 - add" />
+    <MESSAGE value="编程思想延续 - 黑盒子思想 -- 下载模块的大致" />
+    <MESSAGE value="编程思想延续 - 黑盒子思想 -- 解析模块的大致" />
+    <option name="LAST_COMMIT_MESSAGE" value="编程思想延续 - 黑盒子思想 -- 解析模块的大致" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
