@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="集合进阶 - 关于遍历方式">
-      <change afterPath="$PROJECT_DIR$/src/B20240727/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240727/README.md" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Java中能够在数组的某个索引添加元素并且将后续的元素往后移的方法 - add">
+      <change afterPath="$PROJECT_DIR$/src/B20240729/APP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240729/Downloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B20240729/XMFishDownloader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -491,23 +492,8 @@
       <workItem from="1721911472326" duration="596000" />
       <workItem from="1721970908960" duration="3803000" />
       <workItem from="1722002237087" duration="52000" />
-      <workItem from="1722056831137" duration="1359000" />
-    </task>
-    <task id="LOCAL-00656" summary="Date - Date about -- 有参...&#10;&#10;传入传参时间">
-      <option name="closed" value="true" />
-      <created>1721027225576</created>
-      <option name="number" value="00656" />
-      <option name="presentableId" value="LOCAL-00656" />
-      <option name="project" value="LOCAL" />
-      <updated>1721027225576</updated>
-    </task>
-    <task id="LOCAL-00657" summary="Date - Date about -- setTime...&#10;&#10;在原有时间基础上进行增加时间（单位为毫秒）">
-      <option name="closed" value="true" />
-      <created>1721027275503</created>
-      <option name="number" value="00657" />
-      <option name="presentableId" value="LOCAL-00657" />
-      <option name="project" value="LOCAL" />
-      <updated>1721027275503</updated>
+      <workItem from="1722056831137" duration="3953000" />
+      <workItem from="1722214610428" duration="5764000" />
     </task>
     <task id="LOCAL-00658" summary="Date - Date about -- getTime...&#10;&#10;获取当前时间与计算机时间原点的时间差（单位为毫秒）">
       <option name="closed" value="true" />
@@ -885,7 +871,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721979118487</updated>
     </task>
-    <option name="localTasksCounter" value="705" />
+    <task id="LOCAL-00705" summary="数据结构">
+      <option name="closed" value="true" />
+      <created>1722058839315</created>
+      <option name="number" value="00705" />
+      <option name="presentableId" value="LOCAL-00705" />
+      <option name="project" value="LOCAL" />
+      <updated>1722058839315</updated>
+    </task>
+    <task id="LOCAL-00706" summary="Java中能够在数组的某个索引添加元素并且将后续的元素往后移的方法 - add">
+      <option name="closed" value="true" />
+      <created>1722058872732</created>
+      <option name="number" value="00706" />
+      <option name="presentableId" value="LOCAL-00706" />
+      <option name="project" value="LOCAL" />
+      <updated>1722058872732</updated>
+    </task>
+    <option name="localTasksCounter" value="707" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -937,8 +939,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="练习四 - 距离今天是第几天 -- JDK7" />
-    <MESSAGE value="练习四 - 距离今天是第几天 -- JDK8" />
     <MESSAGE value="练习五 - 判断这一年是闰年还是平年" />
     <MESSAGE value="算法 - 顺序查找/基本查找" />
     <MESSAGE value="算法 - 顺序查找/基本查找 -- 练习：返回所有查找的元素索引" />
@@ -962,7 +962,9 @@
     <MESSAGE value="集合进阶 - 迭代器" />
     <MESSAGE value="集合进阶 - 关于遍历的" />
     <MESSAGE value="集合进阶 - 关于遍历方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="集合进阶 - 关于遍历方式" />
+    <MESSAGE value="数据结构" />
+    <MESSAGE value="Java中能够在数组的某个索引添加元素并且将后续的元素往后移的方法 - add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java中能够在数组的某个索引添加元素并且将后续的元素往后移的方法 - add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
