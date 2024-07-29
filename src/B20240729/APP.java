@@ -15,5 +15,7 @@ public class APP {
         Ropository ropository = new XMFishRopository();
         List<String> ls = ropository.getHtml(list);
         //输出
+        Tificator tificator = new XMFishTificator();
+        tificator.up(ls);
     }
 }
