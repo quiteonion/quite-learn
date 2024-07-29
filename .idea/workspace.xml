@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Clone...&#10;&#10;需要重写 Cloneable 接口">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Clone...&#10;&#10;需要重写 Cloneable 接口&#10;在克隆中，如果本体包含地址值，那么克隆只会克隆地址，需要在重写的方法中将属性值重新克隆">
+      <change afterPath="$PROJECT_DIR$/src/B20240729/InsertSortingDemo/InsertSortingMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240729/cloneDemo/CloneMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240729/cloneDemo/CloneMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240729/cloneDemo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240729/cloneDemo/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -492,23 +491,7 @@
       <workItem from="1721970908960" duration="3803000" />
       <workItem from="1722002237087" duration="52000" />
       <workItem from="1722056831137" duration="3953000" />
-      <workItem from="1722214610428" duration="13241000" />
-    </task>
-    <task id="LOCAL-00665" summary="Calendar - 细节 -- 在月份中是 0-11 所以显示的月份加一才是正确的">
-      <option name="closed" value="true" />
-      <created>1721117188203</created>
-      <option name="number" value="00665" />
-      <option name="presentableId" value="LOCAL-00665" />
-      <option name="project" value="LOCAL" />
-      <updated>1721117188203</updated>
-    </task>
-    <task id="LOCAL-00666" summary="Calendar - get -- get 中形参传入的是索引，不同的索引会返回不同的值">
-      <option name="closed" value="true" />
-      <created>1721117450053</created>
-      <option name="number" value="00666" />
-      <option name="presentableId" value="LOCAL-00666" />
-      <option name="project" value="LOCAL" />
-      <updated>1721117450053</updated>
+      <workItem from="1722214610428" duration="14832000" />
     </task>
     <task id="LOCAL-00667" summary="Calendar “日历” - get -- Java 中把索引用常量来表示，更加的好使用">
       <option name="closed" value="true" />
@@ -886,7 +869,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722239664914</updated>
     </task>
-    <option name="localTasksCounter" value="714" />
+    <task id="LOCAL-00714" summary="Clone...&#10;&#10;需要重写 Cloneable 接口&#10;在克隆中，如果本体包含地址值，那么克隆只会克隆地址，需要在重写的方法中将属性值重新克隆">
+      <option name="closed" value="true" />
+      <created>1722240342917</created>
+      <option name="number" value="00714" />
+      <option name="presentableId" value="LOCAL-00714" />
+      <option name="project" value="LOCAL" />
+      <updated>1722240342917</updated>
+    </task>
+    <task id="LOCAL-00715" summary="Clone...&#10;&#10;需要重写 Cloneable 接口&#10;在克隆中，如果本体包含地址值，那么克隆只会克隆地址，需要在重写的方法中将属性值重新克隆">
+      <option name="closed" value="true" />
+      <created>1722240347916</created>
+      <option name="number" value="00715" />
+      <option name="presentableId" value="LOCAL-00715" />
+      <option name="project" value="LOCAL" />
+      <updated>1722240347916</updated>
+    </task>
+    <option name="localTasksCounter" value="716" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -938,7 +937,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="算法 - 递归算法" />
     <MESSAGE value="算法 - 快速排序" />
     <MESSAGE value="算法 - 练习 -- 插入排序" />
     <MESSAGE value="算法 - 练习 -- 快速排序" />
@@ -963,7 +961,8 @@
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 输出的模块" />
     <MESSAGE value="Properties...&#10;&#10;properties.load()&#10;properties.setProperty();&#10;properties.getProperty();" />
     <MESSAGE value="Clone...&#10;&#10;需要重写 Cloneable 接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clone...&#10;&#10;需要重写 Cloneable 接口" />
+    <MESSAGE value="Clone...&#10;&#10;需要重写 Cloneable 接口&#10;在克隆中，如果本体包含地址值，那么克隆只会克隆地址，需要在重写的方法中将属性值重新克隆" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clone...&#10;&#10;需要重写 Cloneable 接口&#10;在克隆中，如果本体包含地址值，那么克隆只会克隆地址，需要在重写的方法中将属性值重新克隆" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
