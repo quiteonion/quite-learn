@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="枚举 - 使用 Class 类写出枚举的格式">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="枚举 - 枚举的本质 -- 本质就是预先 new 出的可供直接使用的类" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -524,14 +522,6 @@
       <workItem from="1722301477785" duration="1299000" />
       <workItem from="1722303072345" duration="2311000" />
     </task>
-    <task id="LOCAL-00690" summary="Lambda -  函数式编程，将复杂的匿名类简化">
-      <option name="closed" value="true" />
-      <created>1721714942089</created>
-      <option name="number" value="00690" />
-      <option name="presentableId" value="LOCAL-00690" />
-      <option name="project" value="LOCAL" />
-      <updated>1721714942089</updated>
-    </task>
     <task id="LOCAL-00691" summary="Lambda -  lambda 表达式还可以省略：形参的数据类型可以不书写">
       <option name="closed" value="true" />
       <created>1721720108655</created>
@@ -916,7 +906,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722324290560</updated>
     </task>
-    <option name="localTasksCounter" value="739" />
+    <task id="LOCAL-00739" summary="枚举 - 枚举的本质 -- 本质就是预先 new 出的可供直接使用的类">
+      <option name="closed" value="true" />
+      <created>1722325506608</created>
+      <option name="number" value="00739" />
+      <option name="presentableId" value="LOCAL-00739" />
+      <option name="project" value="LOCAL" />
+      <updated>1722325506608</updated>
+    </task>
+    <option name="localTasksCounter" value="740" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -957,7 +955,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="单一实" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -966,7 +976,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Java中能够在数组的某个索引添加元素并且将后续的元素往后移的方法 - add" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 下载模块的大致" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 解析模块的大致" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 存储的模块" />
@@ -991,7 +1000,8 @@
     <MESSAGE value="文件夹更改名称" />
     <MESSAGE value="创建文件夹分类" />
     <MESSAGE value="枚举 - 使用 Class 类写出枚举的格式" />
-    <option name="LAST_COMMIT_MESSAGE" value="枚举 - 使用 Class 类写出枚举的格式" />
+    <MESSAGE value="枚举 - 枚举的本质 -- 本质就是预先 new 出的可供直接使用的类" />
+    <option name="LAST_COMMIT_MESSAGE" value="枚举 - 枚举的本质 -- 本质就是预先 new 出的可供直接使用的类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

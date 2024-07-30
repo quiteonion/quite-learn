@@ -1,4 +1,4 @@
-package B20240730.Enum_demo.day_class;
+package B20240730.enum_demo.day_class;
 
 public class DayTest {
     public static void main(String[] args) {
