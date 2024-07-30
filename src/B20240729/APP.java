@@ -13,11 +13,11 @@ public class APP {
         //解析
         System.out.println("准备解析..." + url);
         Parser parser = new XMFishParser();
-        List<String> list = parser.parser(html);
+        List<URLContent> list = parser.parser(html);
         System.out.println("解析完成..." + url);
         //存储
         Ropository ropository = new XMFishRopository();
-        List<String> ls = ropository.getHtml(list);
+        List<URLContent> ls = ropository.getHtml(list);
         //输出
         Tificator tificator = new XMFishTificator();
         tificator.up(ls);

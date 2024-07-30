@@ -10,7 +10,7 @@ import java.util.List;
 
 public class XMFishParser extends Parser {
     @Override
-    public List<String> parser(String html) {
+    public List<URLContent> parser(String html) {
         /**
          * 解析部分
          */
