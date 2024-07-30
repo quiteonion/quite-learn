@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="编程思想延续 - 增加一个 properties 使得更加稳定">
-      <change afterPath="$PROJECT_DIR$/src/B20240730/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="排序 - 快速排序">
+      <change afterPath="$PROJECT_DIR$/src/B20240730/Day.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,7 @@
         <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -523,14 +523,6 @@
       <workItem from="1722301477785" duration="1299000" />
       <workItem from="1722303072345" duration="2311000" />
     </task>
-    <task id="LOCAL-00678" summary="算法 - 顺序查找/基本查找">
-      <option name="closed" value="true" />
-      <created>1721465191757</created>
-      <option name="number" value="00678" />
-      <option name="presentableId" value="LOCAL-00678" />
-      <option name="project" value="LOCAL" />
-      <updated>1721465191757</updated>
-    </task>
     <task id="LOCAL-00679" summary="算法 - 顺序查找/基本查找 -- 练习：返回所有查找的元素索引">
       <option name="closed" value="true" />
       <created>1721465361346</created>
@@ -915,7 +907,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722308234980</updated>
     </task>
-    <option name="localTasksCounter" value="727" />
+    <task id="LOCAL-00727" summary="排序 - 快速排序">
+      <option name="closed" value="true" />
+      <created>1722320423000</created>
+      <option name="number" value="00727" />
+      <option name="presentableId" value="LOCAL-00727" />
+      <option name="project" value="LOCAL" />
+      <updated>1722320423000</updated>
+    </task>
+    <option name="localTasksCounter" value="728" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -956,19 +956,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="text">
-                    <value>
-                      <list>
-                        <option value="快速" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -977,7 +965,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Lambda -  lambda 小练习 -- 猴子吃桃子" />
     <MESSAGE value="Lambda -  lambda 小练习 -- 爬楼梯" />
     <MESSAGE value="集合进阶 - 集合体系结构：单列集合" />
     <MESSAGE value="集合进阶 - 迭代器" />
@@ -1002,7 +989,8 @@
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 存储模块 - 补充黑盒子" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 输出模块 - 补充黑盒子" />
     <MESSAGE value="编程思想延续 - 增加一个 properties 使得更加稳定" />
-    <option name="LAST_COMMIT_MESSAGE" value="编程思想延续 - 增加一个 properties 使得更加稳定" />
+    <MESSAGE value="排序 - 快速排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="排序 - 快速排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1128,11 +1116,6 @@
           <url>file://$PROJECT_DIR$/src/A20240417/River/Test.java</url>
           <line>46</line>
           <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/B20240730/QuickSort.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
