@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="=== === ===">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="编程思想延续 - 黑盒子思想 -- 下载模块 - 补充黑盒子">
+      <change afterPath="$PROJECT_DIR$/src/B20240729/confile.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,35 +97,35 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/lib/jsoup-1.17.2.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/idea/idea 存储/quite/src/B20240729",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\idea 存储\quite\src\B20240729" />
       <recent name="D:\idea\idea 存储\quite\lib" />
       <recent name="D:\idea\idea 存储\quite\src\B20240613\Img" />
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\EnglishWords" />
       <recent name="D:\idea\idea 存储\quite\src\A20240531" />
-      <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\TxtToJson" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\TxtToJson" />
@@ -135,11 +135,12 @@
       <recent name="D:\idea\idea 存储\quite\src\LearnEnglish\wordTry\FF1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="B20240729" />
       <recent name="A20240424" />
       <recent name="Day006" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A20240130">
+  <component name="RunManager">
     <configuration name="A20240130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A20240130.A20240130" />
       <module name="quite" />
@@ -519,23 +520,7 @@
       <workItem from="1722056831137" duration="3953000" />
       <workItem from="1722214610428" duration="15080000" />
       <workItem from="1722301477785" duration="1299000" />
-      <workItem from="1722303072345" duration="1854000" />
-    </task>
-    <task id="LOCAL-00670" summary="练习1 - 键盘录入数据到集合中，知道集合中所有元素的和超过200">
-      <option name="closed" value="true" />
-      <created>1721203866287</created>
-      <option name="number" value="00670" />
-      <option name="presentableId" value="LOCAL-00670" />
-      <option name="project" value="LOCAL" />
-      <updated>1721203866287</updated>
-    </task>
-    <task id="LOCAL-00671" summary="练习2 - 模拟 Integer.valueOf()">
-      <option name="closed" value="true" />
-      <created>1721204980763</created>
-      <option name="number" value="00671" />
-      <option name="presentableId" value="LOCAL-00671" />
-      <option name="project" value="LOCAL" />
-      <updated>1721204980763</updated>
+      <workItem from="1722303072345" duration="2311000" />
     </task>
     <task id="LOCAL-00672" summary="练习2 - 模拟 Integer.valueOf()">
       <option name="closed" value="true" />
@@ -913,7 +898,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722303203200</updated>
     </task>
-    <option name="localTasksCounter" value="719" />
+    <task id="LOCAL-00719" summary="编程思想延续 - 黑盒子思想 -- 补充黑盒子">
+      <option name="closed" value="true" />
+      <created>1722305381364</created>
+      <option name="number" value="00719" />
+      <option name="presentableId" value="LOCAL-00719" />
+      <option name="project" value="LOCAL" />
+      <updated>1722305381364</updated>
+    </task>
+    <task id="LOCAL-00720" summary="编程思想延续 - 黑盒子思想 -- 下载模块 - 补充黑盒子">
+      <option name="closed" value="true" />
+      <created>1722305403109</created>
+      <option name="number" value="00720" />
+      <option name="presentableId" value="LOCAL-00720" />
+      <option name="project" value="LOCAL" />
+      <updated>1722305403109</updated>
+    </task>
+    <option name="localTasksCounter" value="721" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -963,8 +964,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="算法 - 练习 -- 快速排序" />
-    <MESSAGE value="Lambda -  函数式编程，将复杂的匿名类简化" />
     <MESSAGE value="Lambda -  lambda 表达式还可以省略：形参的数据类型可以不书写" />
     <MESSAGE value="Lambda -  lambda 表达式还可以省略：如果方法体内部只有一行，那么大括号，return 和分号可以不写" />
     <MESSAGE value="Lambda -  lambda 省略核心：可推导，可省略" />
@@ -988,7 +987,9 @@
     <MESSAGE value="Clone...&#10;&#10;需要重写 Cloneable 接口&#10;在克隆中，如果本体包含地址值，那么克隆只会克隆地址，需要在重写的方法中将属性值重新克隆" />
     <MESSAGE value="排序 - 插入排序" />
     <MESSAGE value="=== === ===" />
-    <option name="LAST_COMMIT_MESSAGE" value="=== === ===" />
+    <MESSAGE value="编程思想延续 - 黑盒子思想 -- 补充黑盒子" />
+    <MESSAGE value="编程思想延续 - 黑盒子思想 -- 下载模块 - 补充黑盒子" />
+    <option name="LAST_COMMIT_MESSAGE" value="编程思想延续 - 黑盒子思想 -- 下载模块 - 补充黑盒子" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

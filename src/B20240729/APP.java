@@ -11,8 +11,10 @@ public class APP {
         String html = downloader.downloader(url);
         System.out.println("下载完成..." + url);
         //解析
+        System.out.println("准备解析..." + url);
         Parser parser = new XMFishParser();
         List<String> list = parser.parser(html);
+        System.out.println("解析完成..." + url);
         //存储
         Ropository ropository = new XMFishRopository();
         List<String> ls = ropository.getHtml(list);
