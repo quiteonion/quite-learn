@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="单一实例 - 使用新的方式实现单例 -- enum">
-      <change afterPath="$PROJECT_DIR$/src/B20240730/enum_only_one/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240730/enum_only_one/State.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240730/enum_only_one/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240730/enum_only_one/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -528,14 +525,6 @@
       <workItem from="1722301477785" duration="1299000" />
       <workItem from="1722303072345" duration="2311000" />
     </task>
-    <task id="LOCAL-00693" summary="Lambda -  lambda 省略核心：可推导，可省略">
-      <option name="closed" value="true" />
-      <created>1721720252838</created>
-      <option name="number" value="00693" />
-      <option name="presentableId" value="LOCAL-00693" />
-      <option name="project" value="LOCAL" />
-      <updated>1721720252838</updated>
-    </task>
     <task id="LOCAL-00694" summary="Lambda -  lambda 小练习 -- 用字符数组的长度排列字符">
       <option name="closed" value="true" />
       <created>1721720613869</created>
@@ -920,7 +909,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722326112064</updated>
     </task>
-    <option name="localTasksCounter" value="742" />
+    <task id="LOCAL-00742" summary="单一实例 - 使用新的方式实现单例 -- enum">
+      <option name="closed" value="true" />
+      <created>1722326806255</created>
+      <option name="number" value="00742" />
+      <option name="presentableId" value="LOCAL-00742" />
+      <option name="project" value="LOCAL" />
+      <updated>1722326806255</updated>
+    </task>
+    <option name="localTasksCounter" value="743" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

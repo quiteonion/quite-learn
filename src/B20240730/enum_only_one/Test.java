@@ -5,5 +5,11 @@ public class Test {
         Student student = Student.STUDENT;
         Student student1 = Student.STUDENT;
         System.out.println(student1 == student);
+        Student boy = Student.BOY;
+        student.name = "123";
+        System.out.println(boy.name);
+        System.out.println(student.name);
+        System.out.println(student);
+        System.out.println(boy);
     }
 }
