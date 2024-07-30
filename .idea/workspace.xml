@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="枚举 - 枚举的本质 -- 本质就是预先 new 出的可供直接使用的类" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="单一实例 - 使用新的方式实现单例 -- enum">
+      <change afterPath="$PROJECT_DIR$/src/B20240730/enum_only_one/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240730/enum_only_one/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240730/enum_only_one/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240730/enum_only_one/Student.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +28,7 @@
         <option value="package-info" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -522,22 +528,6 @@
       <workItem from="1722301477785" duration="1299000" />
       <workItem from="1722303072345" duration="2311000" />
     </task>
-    <task id="LOCAL-00691" summary="Lambda -  lambda 表达式还可以省略：形参的数据类型可以不书写">
-      <option name="closed" value="true" />
-      <created>1721720108655</created>
-      <option name="number" value="00691" />
-      <option name="presentableId" value="LOCAL-00691" />
-      <option name="project" value="LOCAL" />
-      <updated>1721720108655</updated>
-    </task>
-    <task id="LOCAL-00692" summary="Lambda -  lambda 表达式还可以省略：如果方法体内部只有一行，那么大括号，return 和分号可以不写">
-      <option name="closed" value="true" />
-      <created>1721720169041</created>
-      <option name="number" value="00692" />
-      <option name="presentableId" value="LOCAL-00692" />
-      <option name="project" value="LOCAL" />
-      <updated>1721720169041</updated>
-    </task>
     <task id="LOCAL-00693" summary="Lambda -  lambda 省略核心：可推导，可省略">
       <option name="closed" value="true" />
       <created>1721720252838</created>
@@ -914,7 +904,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722325506608</updated>
     </task>
-    <option name="localTasksCounter" value="740" />
+    <task id="LOCAL-00740" summary="文件夹更改名称">
+      <option name="closed" value="true" />
+      <created>1722325966936</created>
+      <option name="number" value="00740" />
+      <option name="presentableId" value="LOCAL-00740" />
+      <option name="project" value="LOCAL" />
+      <updated>1722325966936</updated>
+    </task>
+    <task id="LOCAL-00741" summary="单一实例 - 使用新的方式实现单例 -- enum">
+      <option name="closed" value="true" />
+      <created>1722326112064</created>
+      <option name="number" value="00741" />
+      <option name="presentableId" value="LOCAL-00741" />
+      <option name="project" value="LOCAL" />
+      <updated>1722326112064</updated>
+    </task>
+    <option name="localTasksCounter" value="742" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -955,19 +961,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="text">
-                    <value>
-                      <list>
-                        <option value="单一实" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -976,7 +970,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="编程思想延续 - 黑盒子思想 -- 下载模块的大致" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 解析模块的大致" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 存储的模块" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 输出的模块" />
@@ -997,11 +990,12 @@
     <MESSAGE value="枚举 - 枚举可以使用“点”来调用" />
     <MESSAGE value="枚举 - 枚举也需要赋值给数据，而枚举的数据类型就是枚举类本身" />
     <MESSAGE value="枚举 - 枚举隐匿地继承了 Enum 类" />
-    <MESSAGE value="文件夹更改名称" />
     <MESSAGE value="创建文件夹分类" />
     <MESSAGE value="枚举 - 使用 Class 类写出枚举的格式" />
     <MESSAGE value="枚举 - 枚举的本质 -- 本质就是预先 new 出的可供直接使用的类" />
-    <option name="LAST_COMMIT_MESSAGE" value="枚举 - 枚举的本质 -- 本质就是预先 new 出的可供直接使用的类" />
+    <MESSAGE value="文件夹更改名称" />
+    <MESSAGE value="单一实例 - 使用新的方式实现单例 -- enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="单一实例 - 使用新的方式实现单例 -- enum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
