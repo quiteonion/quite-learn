@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="枚举 - 使用 Class 类写出枚举的格式">
-      <change beforePath="$PROJECT_DIR$/src/B20240730/Enum_demo/day_class/DayClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240730/Enum_demo/day_class/DayClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B20240730/Enum_demo/day_class/DayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240730/Enum_demo/day_class/DayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -525,14 +524,6 @@
       <workItem from="1722301477785" duration="1299000" />
       <workItem from="1722303072345" duration="2311000" />
     </task>
-    <task id="LOCAL-00689" summary="Lambda -  函数式编程，将复杂的匿名类简化">
-      <option name="closed" value="true" />
-      <created>1721714914540</created>
-      <option name="number" value="00689" />
-      <option name="presentableId" value="LOCAL-00689" />
-      <option name="project" value="LOCAL" />
-      <updated>1721714914540</updated>
-    </task>
     <task id="LOCAL-00690" summary="Lambda -  函数式编程，将复杂的匿名类简化">
       <option name="closed" value="true" />
       <created>1721714942089</created>
@@ -917,7 +908,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722323605125</updated>
     </task>
-    <option name="localTasksCounter" value="738" />
+    <task id="LOCAL-00738" summary="枚举 - 使用 Class 类写出枚举的格式">
+      <option name="closed" value="true" />
+      <created>1722324290560</created>
+      <option name="number" value="00738" />
+      <option name="presentableId" value="LOCAL-00738" />
+      <option name="project" value="LOCAL" />
+      <updated>1722324290560</updated>
+    </task>
+    <option name="localTasksCounter" value="739" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
