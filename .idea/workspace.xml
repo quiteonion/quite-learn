@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="排序 - 快速排序">
-      <change afterPath="$PROJECT_DIR$/src/B20240730/Day.java" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="创建文件夹分类" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -523,22 +521,6 @@
       <workItem from="1722301477785" duration="1299000" />
       <workItem from="1722303072345" duration="2311000" />
     </task>
-    <task id="LOCAL-00679" summary="算法 - 顺序查找/基本查找 -- 练习：返回所有查找的元素索引">
-      <option name="closed" value="true" />
-      <created>1721465361346</created>
-      <option name="number" value="00679" />
-      <option name="presentableId" value="LOCAL-00679" />
-      <option name="project" value="LOCAL" />
-      <updated>1721465361346</updated>
-    </task>
-    <task id="LOCAL-00680" summary="算法 - 二分查找...&#10;&#10;只能在顺序范围查找">
-      <option name="closed" value="true" />
-      <created>1721465835231</created>
-      <option name="number" value="00680" />
-      <option name="presentableId" value="LOCAL-00680" />
-      <option name="project" value="LOCAL" />
-      <updated>1721465835232</updated>
-    </task>
     <task id="LOCAL-00681" summary="算法 - 选择排序">
       <option name="closed" value="true" />
       <created>1721547089820</created>
@@ -915,7 +897,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722320423000</updated>
     </task>
-    <option name="localTasksCounter" value="728" />
+    <task id="LOCAL-00728" summary="枚举 - 使用 Enum 来定义枚举">
+      <option name="closed" value="true" />
+      <created>1722320636273</created>
+      <option name="number" value="00728" />
+      <option name="presentableId" value="LOCAL-00728" />
+      <option name="project" value="LOCAL" />
+      <updated>1722320636273</updated>
+    </task>
+    <task id="LOCAL-00729" summary="创建文件夹分类">
+      <option name="closed" value="true" />
+      <created>1722320712238</created>
+      <option name="number" value="00729" />
+      <option name="presentableId" value="LOCAL-00729" />
+      <option name="project" value="LOCAL" />
+      <updated>1722320712238</updated>
+    </task>
+    <option name="localTasksCounter" value="730" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -965,8 +963,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Lambda -  lambda 小练习 -- 爬楼梯" />
-    <MESSAGE value="集合进阶 - 集合体系结构：单列集合" />
     <MESSAGE value="集合进阶 - 迭代器" />
     <MESSAGE value="集合进阶 - 关于遍历的" />
     <MESSAGE value="集合进阶 - 关于遍历方式" />
@@ -990,7 +986,9 @@
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 输出模块 - 补充黑盒子" />
     <MESSAGE value="编程思想延续 - 增加一个 properties 使得更加稳定" />
     <MESSAGE value="排序 - 快速排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="排序 - 快速排序" />
+    <MESSAGE value="枚举 - 使用 Enum 来定义枚举" />
+    <MESSAGE value="创建文件夹分类" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建文件夹分类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
