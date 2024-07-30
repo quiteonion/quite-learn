@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="文件夹更改名称" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="枚举 - 使用 Class 类写出枚举的格式">
+      <change beforePath="$PROJECT_DIR$/src/B20240730/Enum_demo/day_class/DayClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240730/Enum_demo/day_class/DayClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240730/Enum_demo/day_class/DayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240730/Enum_demo/day_class/DayTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -522,22 +525,6 @@
       <workItem from="1722301477785" duration="1299000" />
       <workItem from="1722303072345" duration="2311000" />
     </task>
-    <task id="LOCAL-00687" summary="算法 - 练习 -- 插入排序">
-      <option name="closed" value="true" />
-      <created>1721634578301</created>
-      <option name="number" value="00687" />
-      <option name="presentableId" value="LOCAL-00687" />
-      <option name="project" value="LOCAL" />
-      <updated>1721634578301</updated>
-    </task>
-    <task id="LOCAL-00688" summary="算法 - 练习 -- 快速排序">
-      <option name="closed" value="true" />
-      <created>1721637367373</created>
-      <option name="number" value="00688" />
-      <option name="presentableId" value="LOCAL-00688" />
-      <option name="project" value="LOCAL" />
-      <updated>1721637367373</updated>
-    </task>
     <task id="LOCAL-00689" summary="Lambda -  函数式编程，将复杂的匿名类简化">
       <option name="closed" value="true" />
       <created>1721714914540</created>
@@ -914,7 +901,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722323040994</updated>
     </task>
-    <option name="localTasksCounter" value="736" />
+    <task id="LOCAL-00736" summary="创建文件夹分类">
+      <option name="closed" value="true" />
+      <created>1722323164328</created>
+      <option name="number" value="00736" />
+      <option name="presentableId" value="LOCAL-00736" />
+      <option name="project" value="LOCAL" />
+      <updated>1722323164328</updated>
+    </task>
+    <task id="LOCAL-00737" summary="枚举 - 使用 Class 类写出枚举的格式">
+      <option name="closed" value="true" />
+      <created>1722323605125</created>
+      <option name="number" value="00737" />
+      <option name="presentableId" value="LOCAL-00737" />
+      <option name="project" value="LOCAL" />
+      <updated>1722323605125</updated>
+    </task>
+    <option name="localTasksCounter" value="738" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -964,7 +967,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="数据结构" />
     <MESSAGE value="Java中能够在数组的某个索引添加元素并且将后续的元素往后移的方法 - add" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 下载模块的大致" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 解析模块的大致" />
@@ -984,12 +986,13 @@
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 输出模块 - 补充黑盒子" />
     <MESSAGE value="编程思想延续 - 增加一个 properties 使得更加稳定" />
     <MESSAGE value="排序 - 快速排序" />
-    <MESSAGE value="创建文件夹分类" />
     <MESSAGE value="枚举 - 枚举可以使用“点”来调用" />
     <MESSAGE value="枚举 - 枚举也需要赋值给数据，而枚举的数据类型就是枚举类本身" />
     <MESSAGE value="枚举 - 枚举隐匿地继承了 Enum 类" />
     <MESSAGE value="文件夹更改名称" />
-    <option name="LAST_COMMIT_MESSAGE" value="文件夹更改名称" />
+    <MESSAGE value="创建文件夹分类" />
+    <MESSAGE value="枚举 - 使用 Class 类写出枚举的格式" />
+    <option name="LAST_COMMIT_MESSAGE" value="枚举 - 使用 Class 类写出枚举的格式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
