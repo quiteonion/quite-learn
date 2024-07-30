@@ -1,5 +1,9 @@
 package B20240729;
 
+import org.jsoup.Jsoup;
+
+import java.io.IOException;
+
 public class XMFishDownloader extends Downloader{
 
     @Override
@@ -8,6 +12,11 @@ public class XMFishDownloader extends Downloader{
         /**
          * 对网站的源码下载下来
          */
+        try {
+            html = Jsoup.connect(url).get().html();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         return html;
     }
 }
