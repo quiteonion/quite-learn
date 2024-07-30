@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="编程思想延续 - 黑盒子思想 -- 下载模块 - 补充黑盒子">
-      <change afterPath="$PROJECT_DIR$/src/B20240729/confile.properties" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="编程思想延续 - 增加一个 List 属性用来存储各个 XMFishAbout">
+      <change beforePath="$PROJECT_DIR$/src/B20240729/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240729/APP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +22,9 @@
       <list>
         <option value="HTTP Request" />
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="package-info" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -97,28 +97,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowRun.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/idea/idea 存储/quite/src/B20240729",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/idea 存储/quite/src/B20240729&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea\idea 存储\quite\src\B20240729" />
@@ -522,30 +522,6 @@
       <workItem from="1722301477785" duration="1299000" />
       <workItem from="1722303072345" duration="2311000" />
     </task>
-    <task id="LOCAL-00672" summary="练习2 - 模拟 Integer.valueOf()">
-      <option name="closed" value="true" />
-      <created>1721204988967</created>
-      <option name="number" value="00672" />
-      <option name="presentableId" value="LOCAL-00672" />
-      <option name="project" value="LOCAL" />
-      <updated>1721204988967</updated>
-    </task>
-    <task id="LOCAL-00673" summary="练习2 - 模拟 Integer.valueOf() -- 优化">
-      <option name="closed" value="true" />
-      <created>1721205153317</created>
-      <option name="number" value="00673" />
-      <option name="presentableId" value="LOCAL-00673" />
-      <option name="project" value="LOCAL" />
-      <updated>1721205153317</updated>
-    </task>
-    <task id="LOCAL-00674" summary="练习三 - 将十进制转为二进制">
-      <option name="closed" value="true" />
-      <created>1721378043504</created>
-      <option name="number" value="00674" />
-      <option name="presentableId" value="LOCAL-00674" />
-      <option name="project" value="LOCAL" />
-      <updated>1721378043504</updated>
-    </task>
     <task id="LOCAL-00675" summary="练习四 - 距离今天是第几天 -- JDK7">
       <option name="closed" value="true" />
       <created>1721463478113</created>
@@ -914,7 +890,31 @@
       <option name="project" value="LOCAL" />
       <updated>1722305403109</updated>
     </task>
-    <option name="localTasksCounter" value="721" />
+    <task id="LOCAL-00721" summary="编程思想延续 - 黑盒子思想 -- 解析模块 - 补充黑盒子">
+      <option name="closed" value="true" />
+      <created>1722305856186</created>
+      <option name="number" value="00721" />
+      <option name="presentableId" value="LOCAL-00721" />
+      <option name="project" value="LOCAL" />
+      <updated>1722305856186</updated>
+    </task>
+    <task id="LOCAL-00722" summary="编程思想延续 - 修改 List 类型，使其贴合需求">
+      <option name="closed" value="true" />
+      <created>1722306144282</created>
+      <option name="number" value="00722" />
+      <option name="presentableId" value="LOCAL-00722" />
+      <option name="project" value="LOCAL" />
+      <updated>1722306144282</updated>
+    </task>
+    <task id="LOCAL-00723" summary="编程思想延续 - 增加一个 List 属性用来存储各个 XMFishAbout">
+      <option name="closed" value="true" />
+      <created>1722306513952</created>
+      <option name="number" value="00723" />
+      <option name="presentableId" value="LOCAL-00723" />
+      <option name="project" value="LOCAL" />
+      <updated>1722306513952</updated>
+    </task>
+    <option name="localTasksCounter" value="724" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -964,9 +964,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Lambda -  lambda 表达式还可以省略：形参的数据类型可以不书写" />
-    <MESSAGE value="Lambda -  lambda 表达式还可以省略：如果方法体内部只有一行，那么大括号，return 和分号可以不写" />
-    <MESSAGE value="Lambda -  lambda 省略核心：可推导，可省略" />
     <MESSAGE value="Lambda -  lambda 小练习 -- 用字符数组的长度排列字符" />
     <MESSAGE value="Lambda -  lambda 小练习 -- 按要求排列" />
     <MESSAGE value="Lambda -  lambda 小练习 -- 斐波那契数列" />
@@ -989,7 +986,10 @@
     <MESSAGE value="=== === ===" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 补充黑盒子" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 下载模块 - 补充黑盒子" />
-    <option name="LAST_COMMIT_MESSAGE" value="编程思想延续 - 黑盒子思想 -- 下载模块 - 补充黑盒子" />
+    <MESSAGE value="编程思想延续 - 黑盒子思想 -- 解析模块 - 补充黑盒子" />
+    <MESSAGE value="编程思想延续 - 修改 List 类型，使其贴合需求" />
+    <MESSAGE value="编程思想延续 - 增加一个 List 属性用来存储各个 XMFishAbout" />
+    <option name="LAST_COMMIT_MESSAGE" value="编程思想延续 - 增加一个 List 属性用来存储各个 XMFishAbout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

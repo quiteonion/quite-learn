@@ -16,8 +16,10 @@ public class APP {
         List<URLContent> list = parser.parser(html);
         System.out.println("解析完成..." + url);
         //存储
+        System.out.println("准备存入..." + url);
         Ropository ropository = new XMFishRopository();
         List<URLContent> ls = ropository.getHtml(list);
+        System.out.println("存入完成..." + url);        
         //输出
         Tificator tificator = new XMFishTificator();
         tificator.up(ls);

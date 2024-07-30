@@ -1,6 +1,5 @@
 package B20240729;
 
-import B20240627.XMFish.XMFishAbout;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -39,7 +38,7 @@ public class XMFishParser extends Parser {
 
 
             XMFishAbout xmFishAbout = new XMFishAbout(tr, title, url, createdAt);
-            arr.add((URLContent) xmFishAbout);
+            arr.add(xmFishAbout);
         }
         return arr;
     }
