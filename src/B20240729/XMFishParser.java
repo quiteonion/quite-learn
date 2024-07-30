@@ -6,9 +6,11 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class XMFishParser extends Parser {
+    static List<URLContent> arr = new ArrayList<>();
     @Override
     public List<URLContent> parser(String html) {
         /**
@@ -37,8 +39,8 @@ public class XMFishParser extends Parser {
 
 
             XMFishAbout xmFishAbout = new XMFishAbout(tr, title, url, createdAt);
-
+            arr.add((URLContent) xmFishAbout);
         }
-        return null;
+        return arr;
     }
 }
