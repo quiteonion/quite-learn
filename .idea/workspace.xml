@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="枚举 - 枚举可以使用“点”来调用">
-      <change beforePath="$PROJECT_DIR$/src/B20240730/EnumDemo/Day.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240730/EnumDemo/Day.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="枚举 - 枚举也需要赋值给数据，而枚举的数据类型就是枚举类本身">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +79,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/jdk/java/lib/src.zip!/java.base/java/lang/Enum.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/B20240403/B20240408/b9499b1fd49b0d35d755b366b6d46ef0_b15fa4c98c0574d4dd9125adb1014c47_8.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/B20240403/B20240408/f6811a0cdacff522de78622c384d62f8_81a9eca1f9ba758cde9611dc4ebe8e8c_8.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -523,14 +524,6 @@
       <workItem from="1722301477785" duration="1299000" />
       <workItem from="1722303072345" duration="2311000" />
     </task>
-    <task id="LOCAL-00684" summary="算法 - 递归算法">
-      <option name="closed" value="true" />
-      <created>1721550200752</created>
-      <option name="number" value="00684" />
-      <option name="presentableId" value="LOCAL-00684" />
-      <option name="project" value="LOCAL" />
-      <updated>1721550200752</updated>
-    </task>
     <task id="LOCAL-00685" summary="算法 - 快速排序">
       <option name="closed" value="true" />
       <created>1721553101060</created>
@@ -915,7 +908,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722321069806</updated>
     </task>
-    <option name="localTasksCounter" value="733" />
+    <task id="LOCAL-00733" summary="枚举 - 枚举也需要赋值给数据，而枚举的数据类型就是枚举类本身">
+      <option name="closed" value="true" />
+      <created>1722321246745</created>
+      <option name="number" value="00733" />
+      <option name="presentableId" value="LOCAL-00733" />
+      <option name="project" value="LOCAL" />
+      <updated>1722321246745</updated>
+    </task>
+    <option name="localTasksCounter" value="734" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -965,7 +966,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="集合进阶 - 迭代器" />
     <MESSAGE value="集合进阶 - 关于遍历的" />
     <MESSAGE value="集合进阶 - 关于遍历方式" />
     <MESSAGE value="数据结构" />
@@ -990,7 +990,8 @@
     <MESSAGE value="排序 - 快速排序" />
     <MESSAGE value="创建文件夹分类" />
     <MESSAGE value="枚举 - 枚举可以使用“点”来调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="枚举 - 枚举可以使用“点”来调用" />
+    <MESSAGE value="枚举 - 枚举也需要赋值给数据，而枚举的数据类型就是枚举类本身" />
+    <option name="LAST_COMMIT_MESSAGE" value="枚举 - 枚举也需要赋值给数据，而枚举的数据类型就是枚举类本身" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
