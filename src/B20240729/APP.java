@@ -1,10 +1,14 @@
 package B20240729;
 
+import java.io.FileReader;
 import java.util.List;
+import java.util.Properties;
 
 public class APP {
-    public static void main(String[] args) {
-        String url = "http://bbs.xmfish.com/thread-htm-fid-55-page-1.html";
+    public static void main(String[] args) throws Exception {
+        Properties properties = new Properties();
+        properties.load(new FileReader("src/B20240729/confile.properties"));
+        String url = properties.getProperty("url");
         //下载
         System.out.println("准备下载..." + url);
         Downloader downloader = new XMFishDownloader();

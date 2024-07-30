@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="编程思想延续 - 增加一个 List 属性用来存储各个 XMFishAbout">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="编程思想延续 - 黑盒子思想 -- 输出模块 - 补充黑盒子">
+      <change afterPath="$PROJECT_DIR$/src/B20240729/confile.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/B20240729/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240729/APP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240729/XMFishParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240729/XMFishParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -522,22 +525,6 @@
       <workItem from="1722301477785" duration="1299000" />
       <workItem from="1722303072345" duration="2311000" />
     </task>
-    <task id="LOCAL-00675" summary="练习四 - 距离今天是第几天 -- JDK7">
-      <option name="closed" value="true" />
-      <created>1721463478113</created>
-      <option name="number" value="00675" />
-      <option name="presentableId" value="LOCAL-00675" />
-      <option name="project" value="LOCAL" />
-      <updated>1721463478114</updated>
-    </task>
-    <task id="LOCAL-00676" summary="练习四 - 距离今天是第几天 -- JDK8">
-      <option name="closed" value="true" />
-      <created>1721463824134</created>
-      <option name="number" value="00676" />
-      <option name="presentableId" value="LOCAL-00676" />
-      <option name="project" value="LOCAL" />
-      <updated>1721463824134</updated>
-    </task>
     <task id="LOCAL-00677" summary="练习五 - 判断这一年是闰年还是平年">
       <option name="closed" value="true" />
       <created>1721464602658</created>
@@ -914,7 +901,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722306513952</updated>
     </task>
-    <option name="localTasksCounter" value="724" />
+    <task id="LOCAL-00724" summary="编程思想延续 - 黑盒子思想 -- 存储模块 - 补充黑盒子">
+      <option name="closed" value="true" />
+      <created>1722306764412</created>
+      <option name="number" value="00724" />
+      <option name="presentableId" value="LOCAL-00724" />
+      <option name="project" value="LOCAL" />
+      <updated>1722306764412</updated>
+    </task>
+    <task id="LOCAL-00725" summary="编程思想延续 - 黑盒子思想 -- 输出模块 - 补充黑盒子">
+      <option name="closed" value="true" />
+      <created>1722306855487</created>
+      <option name="number" value="00725" />
+      <option name="presentableId" value="LOCAL-00725" />
+      <option name="project" value="LOCAL" />
+      <updated>1722306855487</updated>
+    </task>
+    <option name="localTasksCounter" value="726" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -964,8 +967,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Lambda -  lambda 小练习 -- 用字符数组的长度排列字符" />
-    <MESSAGE value="Lambda -  lambda 小练习 -- 按要求排列" />
     <MESSAGE value="Lambda -  lambda 小练习 -- 斐波那契数列" />
     <MESSAGE value="Lambda -  lambda 小练习 -- 猴子吃桃子" />
     <MESSAGE value="Lambda -  lambda 小练习 -- 爬楼梯" />
@@ -989,7 +990,9 @@
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 解析模块 - 补充黑盒子" />
     <MESSAGE value="编程思想延续 - 修改 List 类型，使其贴合需求" />
     <MESSAGE value="编程思想延续 - 增加一个 List 属性用来存储各个 XMFishAbout" />
-    <option name="LAST_COMMIT_MESSAGE" value="编程思想延续 - 增加一个 List 属性用来存储各个 XMFishAbout" />
+    <MESSAGE value="编程思想延续 - 黑盒子思想 -- 存储模块 - 补充黑盒子" />
+    <MESSAGE value="编程思想延续 - 黑盒子思想 -- 输出模块 - 补充黑盒子" />
+    <option name="LAST_COMMIT_MESSAGE" value="编程思想延续 - 黑盒子思想 -- 输出模块 - 补充黑盒子" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

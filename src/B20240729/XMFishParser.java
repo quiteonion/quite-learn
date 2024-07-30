@@ -26,7 +26,7 @@ public class XMFishParser extends Parser {
             if (noticeAndTop.hasAttr("alt") && "置顶帖标志".equals(noticeAndTop.attr("alt"))) {
                 continue;
             }
-
+//https://gitee.com/i-really-like-quietness/quite.git
             // 解析数据
             Element titleElement = e.select("td.subject a.subject_t").first();
             Elements quality = e.getElementsByClass("view").select("a");
