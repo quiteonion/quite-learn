@@ -1,4 +1,4 @@
-package B20240730;
+package B20240730.EnumDemo;
 
 public enum Day {
     MONDAY,

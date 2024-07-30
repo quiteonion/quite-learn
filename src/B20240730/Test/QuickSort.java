@@ -1,4 +1,4 @@
-package B20240730;
+package B20240730.Test;
 
 import java.util.IllegalFormatCodePointException;
 
