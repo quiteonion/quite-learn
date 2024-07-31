@@ -22,7 +22,7 @@ public class QuickSort {
         int end = j;
         int temp = i;
         //=== === === === ===
-        while (end > begin) {
+        while (end != begin) {
             while (arr[end] >= arr[temp] && end > begin) {
                 end--;
             }

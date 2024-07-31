@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="单一实例 - 枚举每个都不同">
-      <change afterPath="$PROJECT_DIR$/src/B20240731/QuickSort.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="排序 - 快速排序 -- bug 的修复">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B20240731/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240731/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -525,23 +525,7 @@
       <workItem from="1722214610428" duration="15080000" />
       <workItem from="1722301477785" duration="1299000" />
       <workItem from="1722303072345" duration="2311000" />
-      <workItem from="1722402617402" duration="4556000" />
-    </task>
-    <task id="LOCAL-00695" summary="Lambda -  lambda 小练习 -- 按要求排列">
-      <option name="closed" value="true" />
-      <created>1721722032889</created>
-      <option name="number" value="00695" />
-      <option name="presentableId" value="LOCAL-00695" />
-      <option name="project" value="LOCAL" />
-      <updated>1721722032889</updated>
-    </task>
-    <task id="LOCAL-00696" summary="Lambda -  lambda 小练习 -- 斐波那契数列">
-      <option name="closed" value="true" />
-      <created>1721811025729</created>
-      <option name="number" value="00696" />
-      <option name="presentableId" value="LOCAL-00696" />
-      <option name="project" value="LOCAL" />
-      <updated>1721811025729</updated>
+      <workItem from="1722402617402" duration="5459000" />
     </task>
     <task id="LOCAL-00697" summary="Lambda -  lambda 小练习 -- 猴子吃桃子">
       <option name="closed" value="true" />
@@ -919,7 +903,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722329769792</updated>
     </task>
-    <option name="localTasksCounter" value="744" />
+    <task id="LOCAL-00744" summary="排序 - 快速排序练习 -- 代码的完善">
+      <option name="closed" value="true" />
+      <created>1722413852331</created>
+      <option name="number" value="00744" />
+      <option name="presentableId" value="LOCAL-00744" />
+      <option name="project" value="LOCAL" />
+      <updated>1722413852331</updated>
+    </task>
+    <task id="LOCAL-00745" summary="排序 - 快速排序 -- bug 的修复">
+      <option name="closed" value="true" />
+      <created>1722413863001</created>
+      <option name="number" value="00745" />
+      <option name="presentableId" value="LOCAL-00745" />
+      <option name="project" value="LOCAL" />
+      <updated>1722413863001</updated>
+    </task>
+    <option name="localTasksCounter" value="746" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -969,8 +969,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="编程思想延续 - 黑盒子思想 -- 存储的模块" />
-    <MESSAGE value="编程思想延续 - 黑盒子思想 -- 输出的模块" />
     <MESSAGE value="Properties...&#10;&#10;properties.load()&#10;properties.setProperty();&#10;properties.getProperty();" />
     <MESSAGE value="Clone...&#10;&#10;需要重写 Cloneable 接口" />
     <MESSAGE value="Clone...&#10;&#10;需要重写 Cloneable 接口&#10;在克隆中，如果本体包含地址值，那么克隆只会克隆地址，需要在重写的方法中将属性值重新克隆" />
@@ -994,7 +992,9 @@
     <MESSAGE value="文件夹更改名称" />
     <MESSAGE value="单一实例 - 使用新的方式实现单例 -- enum" />
     <MESSAGE value="单一实例 - 枚举每个都不同" />
-    <option name="LAST_COMMIT_MESSAGE" value="单一实例 - 枚举每个都不同" />
+    <MESSAGE value="排序 - 快速排序练习 -- 代码的完善" />
+    <MESSAGE value="排序 - 快速排序 -- bug 的修复" />
+    <option name="LAST_COMMIT_MESSAGE" value="排序 - 快速排序 -- bug 的修复" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1120,11 +1120,6 @@
           <url>file://$PROJECT_DIR$/src/A20240417/River/Test.java</url>
           <line>46</line>
           <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/B20240731/QuickSort.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
