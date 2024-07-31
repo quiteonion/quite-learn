@@ -4,7 +4,8 @@ import java.util.IllegalFormatCodePointException;
 
 public class QuickSort {
     public static void main(String[] args) {
-        int[] arr = {2, 8, 6, 0, 5, 7, 1, 4, 3, 9};
+        int[] arr = {5, 3, 1, 6, 8, 6, 2, 6, 9, 32, 7, 4, 2, 6, 8, 3};
+
 //                   2, 1, 6, 0, 5, 7, 8, 4, 3, 9
 //                   2, 1, 0, 6, 5, 7, 8, 4, 3, 9
 
@@ -25,10 +26,10 @@ public class QuickSort {
         int end = b;
         int temp = a;
         while (end > begin) {
-            while (arr[end] > arr[temp]) {
+            while (arr[end] >= arr[temp] && end > begin) {
                 end--;
             }
-            while (arr[begin] < arr[temp]) {
+            while (arr[begin] <= arr[temp] && end > begin) {
                 begin++;
             }
             int p = arr[begin];
@@ -41,7 +42,7 @@ public class QuickSort {
         arr[end] = p;
 
 
-        m(arr, a, end-1);
-        m(arr, end+1, b);
+        m(arr, a, end - 1);
+        m(arr, end + 1, b);
     }
 }
