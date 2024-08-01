@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="枚举 - 可以在枚举的每一个属性内实现接口">
-      <change afterPath="$PROJECT_DIR$/src/B20240801/thread_demo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B20240801/thread_demo/StudentTest.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="单例 - 以往使用的单例模型在多线程中是线程不安全的">
+      <change afterPath="$PROJECT_DIR$/src/B20240801/no_thread/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -526,39 +526,7 @@
       <workItem from="1722301477785" duration="1299000" />
       <workItem from="1722303072345" duration="2311000" />
       <workItem from="1722402617402" duration="7696000" />
-      <workItem from="1722473448114" duration="5601000" />
-    </task>
-    <task id="LOCAL-00700" summary="集合进阶 - 迭代器">
-      <option name="closed" value="true" />
-      <created>1721976907089</created>
-      <option name="number" value="00700" />
-      <option name="presentableId" value="LOCAL-00700" />
-      <option name="project" value="LOCAL" />
-      <updated>1721976907089</updated>
-    </task>
-    <task id="LOCAL-00701" summary="集合进阶 - 迭代器">
-      <option name="closed" value="true" />
-      <created>1721977385737</created>
-      <option name="number" value="00701" />
-      <option name="presentableId" value="LOCAL-00701" />
-      <option name="project" value="LOCAL" />
-      <updated>1721977385737</updated>
-    </task>
-    <task id="LOCAL-00702" summary="集合进阶 - 迭代器">
-      <option name="closed" value="true" />
-      <created>1721977490826</created>
-      <option name="number" value="00702" />
-      <option name="presentableId" value="LOCAL-00702" />
-      <option name="project" value="LOCAL" />
-      <updated>1721977490826</updated>
-    </task>
-    <task id="LOCAL-00703" summary="集合进阶 - 关于遍历的">
-      <option name="closed" value="true" />
-      <created>1721978920912</created>
-      <option name="number" value="00703" />
-      <option name="presentableId" value="LOCAL-00703" />
-      <option name="project" value="LOCAL" />
-      <updated>1721978920912</updated>
+      <workItem from="1722473448114" duration="7256000" />
     </task>
     <task id="LOCAL-00704" summary="集合进阶 - 关于遍历方式">
       <option name="closed" value="true" />
@@ -920,7 +888,39 @@
       <option name="project" value="LOCAL" />
       <updated>1722493410981</updated>
     </task>
-    <option name="localTasksCounter" value="749" />
+    <task id="LOCAL-00749" summary="单例 - 以往使用的单例模型在多线程中是线程不安全的">
+      <option name="closed" value="true" />
+      <created>1722496792014</created>
+      <option name="number" value="00749" />
+      <option name="presentableId" value="LOCAL-00749" />
+      <option name="project" value="LOCAL" />
+      <updated>1722496792014</updated>
+    </task>
+    <task id="LOCAL-00750" summary="单例 - 以往使用的单例模型在多线程中是线程不安全的">
+      <option name="closed" value="true" />
+      <created>1722496948678</created>
+      <option name="number" value="00750" />
+      <option name="presentableId" value="LOCAL-00750" />
+      <option name="project" value="LOCAL" />
+      <updated>1722496948678</updated>
+    </task>
+    <task id="LOCAL-00751" summary="单例 - 以往使用的单例模型在多线程中是线程不安全的">
+      <option name="closed" value="true" />
+      <created>1722497008104</created>
+      <option name="number" value="00751" />
+      <option name="presentableId" value="LOCAL-00751" />
+      <option name="project" value="LOCAL" />
+      <updated>1722497008104</updated>
+    </task>
+    <task id="LOCAL-00752" summary="单例 - 以往使用的单例模型在多线程中是线程不安全的">
+      <option name="closed" value="true" />
+      <created>1722497013574</created>
+      <option name="number" value="00752" />
+      <option name="presentableId" value="LOCAL-00752" />
+      <option name="project" value="LOCAL" />
+      <updated>1722497013574</updated>
+    </task>
+    <option name="localTasksCounter" value="753" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -970,7 +970,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Clone...&#10;&#10;需要重写 Cloneable 接口&#10;在克隆中，如果本体包含地址值，那么克隆只会克隆地址，需要在重写的方法中将属性值重新克隆" />
     <MESSAGE value="排序 - 插入排序" />
     <MESSAGE value="=== === ===" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 补充黑盒子" />
@@ -995,7 +994,8 @@
     <MESSAGE value="排序 - 快速排序 -- bug 的修复" />
     <MESSAGE value="枚举 - 枚举可以实现接口" />
     <MESSAGE value="枚举 - 可以在枚举的每一个属性内实现接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="枚举 - 可以在枚举的每一个属性内实现接口" />
+    <MESSAGE value="单例 - 以往使用的单例模型在多线程中是线程不安全的" />
+    <option name="LAST_COMMIT_MESSAGE" value="单例 - 以往使用的单例模型在多线程中是线程不安全的" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
