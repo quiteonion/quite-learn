@@ -6,7 +6,7 @@ public class Student {
     private Student() {
         System.out.println("=== === ===");
     }
-    public static Student getInstance(){
+    public synchronized static Student getInstance(){
         if (student == null) {
             student = new Student();
         }

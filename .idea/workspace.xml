@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="单例 - 以往使用的单例模型在多线程中是线程不安全的">
-      <change afterPath="$PROJECT_DIR$/src/B20240801/no_thread/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="之前写的代码都是单条执行路径">
+      <change beforePath="$PROJECT_DIR$/src/B20240801/thread_demo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240801/thread_demo/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -526,15 +525,7 @@
       <workItem from="1722301477785" duration="1299000" />
       <workItem from="1722303072345" duration="2311000" />
       <workItem from="1722402617402" duration="7696000" />
-      <workItem from="1722473448114" duration="7256000" />
-    </task>
-    <task id="LOCAL-00704" summary="集合进阶 - 关于遍历方式">
-      <option name="closed" value="true" />
-      <created>1721979118487</created>
-      <option name="number" value="00704" />
-      <option name="presentableId" value="LOCAL-00704" />
-      <option name="project" value="LOCAL" />
-      <updated>1721979118487</updated>
+      <workItem from="1722473448114" duration="9385000" />
     </task>
     <task id="LOCAL-00705" summary="数据结构">
       <option name="closed" value="true" />
@@ -920,7 +911,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722497013574</updated>
     </task>
-    <option name="localTasksCounter" value="753" />
+    <task id="LOCAL-00753" summary="之前写的代码都是单条执行路径">
+      <option name="closed" value="true" />
+      <created>1722500037593</created>
+      <option name="number" value="00753" />
+      <option name="presentableId" value="LOCAL-00753" />
+      <option name="project" value="LOCAL" />
+      <updated>1722500037593</updated>
+    </task>
+    <option name="localTasksCounter" value="754" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -970,7 +969,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="排序 - 插入排序" />
     <MESSAGE value="=== === ===" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 补充黑盒子" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 下载模块 - 补充黑盒子" />
@@ -995,7 +993,8 @@
     <MESSAGE value="枚举 - 枚举可以实现接口" />
     <MESSAGE value="枚举 - 可以在枚举的每一个属性内实现接口" />
     <MESSAGE value="单例 - 以往使用的单例模型在多线程中是线程不安全的" />
-    <option name="LAST_COMMIT_MESSAGE" value="单例 - 以往使用的单例模型在多线程中是线程不安全的" />
+    <MESSAGE value="之前写的代码都是单条执行路径" />
+    <option name="LAST_COMMIT_MESSAGE" value="之前写的代码都是单条执行路径" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
