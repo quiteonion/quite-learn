@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Thread - Java 的线程也是用对象构造的...&#10;&#10;可以通过 Thread.currentThread().getName(); 来获取当前线程的名称，也可以使用对应的 setName(); 方法来修改线程名称">
-      <change afterPath="$PROJECT_DIR$/src/B20240802/ThreadTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Thread - 继承并使用 Thread 类，使用它的 run() 方法和 start() 方法" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -527,15 +524,7 @@
       <workItem from="1722303072345" duration="2311000" />
       <workItem from="1722402617402" duration="7696000" />
       <workItem from="1722473448114" duration="9447000" />
-      <workItem from="1722559755875" duration="3392000" />
-    </task>
-    <task id="LOCAL-00708" summary="编程思想延续 - 黑盒子思想 -- 解析模块的大致">
-      <option name="closed" value="true" />
-      <created>1722224259478</created>
-      <option name="number" value="00708" />
-      <option name="presentableId" value="LOCAL-00708" />
-      <option name="project" value="LOCAL" />
-      <updated>1722224259478</updated>
+      <workItem from="1722559755875" duration="3968000" />
     </task>
     <task id="LOCAL-00709" summary="编程思想延续 - 黑盒子思想 -- 存储的模块">
       <option name="closed" value="true" />
@@ -921,7 +910,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722563885237</updated>
     </task>
-    <option name="localTasksCounter" value="757" />
+    <task id="LOCAL-00757" summary="Thread - 继承并使用 Thread 类，使用它的 run() 方法和 start() 方法">
+      <option name="closed" value="true" />
+      <created>1722565082277</created>
+      <option name="number" value="00757" />
+      <option name="presentableId" value="LOCAL-00757" />
+      <option name="project" value="LOCAL" />
+      <updated>1722565082277</updated>
+    </task>
+    <option name="localTasksCounter" value="758" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -971,7 +968,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="编程思想延续 - 黑盒子思想 -- 解析模块 - 补充黑盒子" />
     <MESSAGE value="编程思想延续 - 修改 List 类型，使其贴合需求" />
     <MESSAGE value="编程思想延续 - 增加一个 List 属性用来存储各个 XMFishAbout" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 存储模块 - 补充黑盒子" />
@@ -996,7 +992,8 @@
     <MESSAGE value="引入 synchronized - 解决线程不安全" />
     <MESSAGE value="有关线程和进程的资料" />
     <MESSAGE value="Thread - Java 的线程也是用对象构造的...&#10;&#10;可以通过 Thread.currentThread().getName(); 来获取当前线程的名称，也可以使用对应的 setName(); 方法来修改线程名称" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread - Java 的线程也是用对象构造的...&#10;&#10;可以通过 Thread.currentThread().getName(); 来获取当前线程的名称，也可以使用对应的 setName(); 方法来修改线程名称" />
+    <MESSAGE value="Thread - 继承并使用 Thread 类，使用它的 run() 方法和 start() 方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread - 继承并使用 Thread 类，使用它的 run() 方法和 start() 方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
