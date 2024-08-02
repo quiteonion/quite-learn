@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="之前写的代码都是单条执行路径">
-      <change beforePath="$PROJECT_DIR$/src/B20240801/thread_demo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B20240801/thread_demo/Student.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="引入 synchronized - 解决线程不安全">
+      <change afterPath="$PROJECT_DIR$/src/B20240802/note/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -525,15 +526,8 @@
       <workItem from="1722301477785" duration="1299000" />
       <workItem from="1722303072345" duration="2311000" />
       <workItem from="1722402617402" duration="7696000" />
-      <workItem from="1722473448114" duration="9385000" />
-    </task>
-    <task id="LOCAL-00705" summary="数据结构">
-      <option name="closed" value="true" />
-      <created>1722058839315</created>
-      <option name="number" value="00705" />
-      <option name="presentableId" value="LOCAL-00705" />
-      <option name="project" value="LOCAL" />
-      <updated>1722058839315</updated>
+      <workItem from="1722473448114" duration="9447000" />
+      <workItem from="1722559755875" duration="1514000" />
     </task>
     <task id="LOCAL-00706" summary="Java中能够在数组的某个索引添加元素并且将后续的元素往后移的方法 - add">
       <option name="closed" value="true" />
@@ -919,7 +913,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722500037593</updated>
     </task>
-    <option name="localTasksCounter" value="754" />
+    <task id="LOCAL-00754" summary="引入 synchronized - 解决线程不安全">
+      <option name="closed" value="true" />
+      <created>1722502843705</created>
+      <option name="number" value="00754" />
+      <option name="presentableId" value="LOCAL-00754" />
+      <option name="project" value="LOCAL" />
+      <updated>1722502843705</updated>
+    </task>
+    <option name="localTasksCounter" value="755" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -969,7 +971,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="=== === ===" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 补充黑盒子" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 下载模块 - 补充黑盒子" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 解析模块 - 补充黑盒子" />
@@ -994,7 +995,8 @@
     <MESSAGE value="枚举 - 可以在枚举的每一个属性内实现接口" />
     <MESSAGE value="单例 - 以往使用的单例模型在多线程中是线程不安全的" />
     <MESSAGE value="之前写的代码都是单条执行路径" />
-    <option name="LAST_COMMIT_MESSAGE" value="之前写的代码都是单条执行路径" />
+    <MESSAGE value="引入 synchronized - 解决线程不安全" />
+    <option name="LAST_COMMIT_MESSAGE" value="引入 synchronized - 解决线程不安全" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
