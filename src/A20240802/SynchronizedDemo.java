@@ -1,6 +1,8 @@
 package A20240802;
 
 public class SynchronizedDemo {
+    static Object lock1 = new Object();
+     Object lock2 = new Object();
     public static void main(String[] args) {
         m1();
          new Thread(new Runnable() {
@@ -13,13 +15,13 @@ public class SynchronizedDemo {
     }
     public static synchronized void m1(){
         System.out.println("Synchronized.m1");
-        synchronized(SynchronizedDemo.class){
+        synchronized(lock1){
             System.out.println("1241515");
         }
     }
     public void m2(){
         System.out.println("Synchronized.m2");
-        synchronized(this){
+        synchronized(lock2){
             System.out.println("1241515");
         }
         System.out.println(" == == == ");

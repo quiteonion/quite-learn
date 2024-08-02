@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Thread - synchronized(this) -- 可以将锁往里面锁，锁的力度越精确越好" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="文件夹更改名称">
+      <change beforePath="$PROJECT_DIR$/src/A20240802/SynchronizedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240802/SynchronizedDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -524,15 +526,7 @@
       <workItem from="1722303072345" duration="2311000" />
       <workItem from="1722402617402" duration="7696000" />
       <workItem from="1722473448114" duration="9447000" />
-      <workItem from="1722559755875" duration="11758000" />
-    </task>
-    <task id="LOCAL-00731" summary="枚举 - 使用 Enum 来定义枚举">
-      <option name="closed" value="true" />
-      <created>1722321021855</created>
-      <option name="number" value="00731" />
-      <option name="presentableId" value="LOCAL-00731" />
-      <option name="project" value="LOCAL" />
-      <updated>1722321021855</updated>
+      <workItem from="1722559755875" duration="12100000" />
     </task>
     <task id="LOCAL-00732" summary="枚举 - 使用 Enum 来定义枚举">
       <option name="closed" value="true" />
@@ -918,7 +912,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722584456178</updated>
     </task>
-    <option name="localTasksCounter" value="780" />
+    <task id="LOCAL-00780" summary="文件夹更改名称">
+      <option name="closed" value="true" />
+      <created>1722584645270</created>
+      <option name="number" value="00780" />
+      <option name="presentableId" value="LOCAL-00780" />
+      <option name="project" value="LOCAL" />
+      <updated>1722584645270</updated>
+    </task>
+    <option name="localTasksCounter" value="781" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -981,7 +983,6 @@
     <MESSAGE value="Thread - 使用实现接口 Runnable 的方式创建并重写 run 方法" />
     <MESSAGE value="Thread - 使用匿名类 Runnable 的方式创建并重写 run 方法" />
     <MESSAGE value="Thread - 将匿名内部类改为 Lambda" />
-    <MESSAGE value="文件夹更改名称" />
     <MESSAGE value="Thread - sleep -- 让程序在这里睡眠，睡眠时间就是形参输入的时间（毫秒值）" />
     <MESSAGE value="Thread - yield -- 将目前处理的线程暂停，让别人先行" />
     <MESSAGE value="Thread - setPriority -- 设置优先级，应该先设置优先级后再 start" />
@@ -993,7 +994,8 @@
     <MESSAGE value="Thread - join -- 让当前执行线程等待另一个线程完成其执行（在这里是 main 线程等待 thread 完成执行）" />
     <MESSAGE value="Thread - synchronized -- 直接写在方法声明中，相当于一个锁" />
     <MESSAGE value="Thread - synchronized(this) -- 可以将锁往里面锁，锁的力度越精确越好" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread - synchronized(this) -- 可以将锁往里面锁，锁的力度越精确越好" />
+    <MESSAGE value="文件夹更改名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="文件夹更改名称" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
