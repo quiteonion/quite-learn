@@ -1,4 +1,4 @@
-package A20240802;
+package A20240802.synchronized_demo;
 
 public class SynchronizedDemo {
     static Object lock1 = new Object();
