@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Thread - 将匿名内部类改为 Lambda">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="文件夹更改名称">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -526,15 +526,7 @@
       <workItem from="1722303072345" duration="2311000" />
       <workItem from="1722402617402" duration="7696000" />
       <workItem from="1722473448114" duration="9447000" />
-      <workItem from="1722559755875" duration="6555000" />
-    </task>
-    <task id="LOCAL-00717" summary="排序 - 插入排序">
-      <option name="closed" value="true" />
-      <created>1722244723004</created>
-      <option name="number" value="00717" />
-      <option name="presentableId" value="LOCAL-00717" />
-      <option name="project" value="LOCAL" />
-      <updated>1722244723004</updated>
+      <workItem from="1722559755875" duration="7857000" />
     </task>
     <task id="LOCAL-00718" summary="=== === ===">
       <option name="closed" value="true" />
@@ -920,7 +912,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722568798264</updated>
     </task>
-    <option name="localTasksCounter" value="766" />
+    <task id="LOCAL-00766" summary="文件夹更改名称">
+      <option name="closed" value="true" />
+      <created>1722578997634</created>
+      <option name="number" value="00766" />
+      <option name="presentableId" value="LOCAL-00766" />
+      <option name="project" value="LOCAL" />
+      <updated>1722578997634</updated>
+    </task>
+    <option name="localTasksCounter" value="767" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -977,7 +977,6 @@
     <MESSAGE value="创建文件夹分类" />
     <MESSAGE value="枚举 - 使用 Class 类写出枚举的格式" />
     <MESSAGE value="枚举 - 枚举的本质 -- 本质就是预先 new 出的可供直接使用的类" />
-    <MESSAGE value="文件夹更改名称" />
     <MESSAGE value="单一实例 - 使用新的方式实现单例 -- enum" />
     <MESSAGE value="单一实例 - 枚举每个都不同" />
     <MESSAGE value="排序 - 快速排序练习 -- 代码的完善" />
@@ -995,7 +994,8 @@
     <MESSAGE value="Thread - 使用实现接口 Runnable 的方式创建并重写 run 方法" />
     <MESSAGE value="Thread - 使用匿名类 Runnable 的方式创建并重写 run 方法" />
     <MESSAGE value="Thread - 将匿名内部类改为 Lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread - 将匿名内部类改为 Lambda" />
+    <MESSAGE value="文件夹更改名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="文件夹更改名称" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
