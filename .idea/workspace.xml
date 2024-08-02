@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Thread - 有参构造...&#10;&#10;形参一： 要增加的线程&#10;形参二： 该线程的名称">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Thread - 将匿名内部类改为 Lambda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -526,55 +526,7 @@
       <workItem from="1722303072345" duration="2311000" />
       <workItem from="1722402617402" duration="7696000" />
       <workItem from="1722473448114" duration="9447000" />
-      <workItem from="1722559755875" duration="4973000" />
-    </task>
-    <task id="LOCAL-00711" summary="Properties...&#10;&#10;properties.load()&#10;properties.setProperty();&#10;properties.getProperty();">
-      <option name="closed" value="true" />
-      <created>1722238873838</created>
-      <option name="number" value="00711" />
-      <option name="presentableId" value="LOCAL-00711" />
-      <option name="project" value="LOCAL" />
-      <updated>1722238873838</updated>
-    </task>
-    <task id="LOCAL-00712" summary="Properties...&#10;&#10;properties.load()&#10;properties.setProperty();&#10;properties.getProperty();">
-      <option name="closed" value="true" />
-      <created>1722238880440</created>
-      <option name="number" value="00712" />
-      <option name="presentableId" value="LOCAL-00712" />
-      <option name="project" value="LOCAL" />
-      <updated>1722238880440</updated>
-    </task>
-    <task id="LOCAL-00713" summary="Clone...&#10;&#10;需要重写 Cloneable 接口">
-      <option name="closed" value="true" />
-      <created>1722239664914</created>
-      <option name="number" value="00713" />
-      <option name="presentableId" value="LOCAL-00713" />
-      <option name="project" value="LOCAL" />
-      <updated>1722239664914</updated>
-    </task>
-    <task id="LOCAL-00714" summary="Clone...&#10;&#10;需要重写 Cloneable 接口&#10;在克隆中，如果本体包含地址值，那么克隆只会克隆地址，需要在重写的方法中将属性值重新克隆">
-      <option name="closed" value="true" />
-      <created>1722240342917</created>
-      <option name="number" value="00714" />
-      <option name="presentableId" value="LOCAL-00714" />
-      <option name="project" value="LOCAL" />
-      <updated>1722240342917</updated>
-    </task>
-    <task id="LOCAL-00715" summary="Clone...&#10;&#10;需要重写 Cloneable 接口&#10;在克隆中，如果本体包含地址值，那么克隆只会克隆地址，需要在重写的方法中将属性值重新克隆">
-      <option name="closed" value="true" />
-      <created>1722240347916</created>
-      <option name="number" value="00715" />
-      <option name="presentableId" value="LOCAL-00715" />
-      <option name="project" value="LOCAL" />
-      <updated>1722240347916</updated>
-    </task>
-    <task id="LOCAL-00716" summary="排序 - 插入排序">
-      <option name="closed" value="true" />
-      <created>1722244550244</created>
-      <option name="number" value="00716" />
-      <option name="presentableId" value="LOCAL-00716" />
-      <option name="project" value="LOCAL" />
-      <updated>1722244550244</updated>
+      <workItem from="1722559755875" duration="6555000" />
     </task>
     <task id="LOCAL-00717" summary="排序 - 插入排序">
       <option name="closed" value="true" />
@@ -920,7 +872,55 @@
       <option name="project" value="LOCAL" />
       <updated>1722565842783</updated>
     </task>
-    <option name="localTasksCounter" value="760" />
+    <task id="LOCAL-00760" summary="Thread - 使用继承的方式创建并重写 run 方法">
+      <option name="closed" value="true" />
+      <created>1722568558947</created>
+      <option name="number" value="00760" />
+      <option name="presentableId" value="LOCAL-00760" />
+      <option name="project" value="LOCAL" />
+      <updated>1722568558947</updated>
+    </task>
+    <task id="LOCAL-00761" summary="Thread - 使用继承的方式创建并重写 run 方法">
+      <option name="closed" value="true" />
+      <created>1722568586073</created>
+      <option name="number" value="00761" />
+      <option name="presentableId" value="LOCAL-00761" />
+      <option name="project" value="LOCAL" />
+      <updated>1722568586073</updated>
+    </task>
+    <task id="LOCAL-00762" summary="Thread - 使用实现接口 Runnable 的方式创建并重写 run 方法">
+      <option name="closed" value="true" />
+      <created>1722568619794</created>
+      <option name="number" value="00762" />
+      <option name="presentableId" value="LOCAL-00762" />
+      <option name="project" value="LOCAL" />
+      <updated>1722568619794</updated>
+    </task>
+    <task id="LOCAL-00763" summary="Thread - 使用实现接口 Runnable 的方式创建并重写 run 方法">
+      <option name="closed" value="true" />
+      <created>1722568703246</created>
+      <option name="number" value="00763" />
+      <option name="presentableId" value="LOCAL-00763" />
+      <option name="project" value="LOCAL" />
+      <updated>1722568703246</updated>
+    </task>
+    <task id="LOCAL-00764" summary="Thread - 使用匿名类 Runnable 的方式创建并重写 run 方法">
+      <option name="closed" value="true" />
+      <created>1722568750662</created>
+      <option name="number" value="00764" />
+      <option name="presentableId" value="LOCAL-00764" />
+      <option name="project" value="LOCAL" />
+      <updated>1722568750662</updated>
+    </task>
+    <task id="LOCAL-00765" summary="Thread - 将匿名内部类改为 Lambda">
+      <option name="closed" value="true" />
+      <created>1722568798264</created>
+      <option name="number" value="00765" />
+      <option name="presentableId" value="LOCAL-00765" />
+      <option name="project" value="LOCAL" />
+      <updated>1722568798264</updated>
+    </task>
+    <option name="localTasksCounter" value="766" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -970,10 +970,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="编程思想延续 - 增加一个 List 属性用来存储各个 XMFishAbout" />
-    <MESSAGE value="编程思想延续 - 黑盒子思想 -- 存储模块 - 补充黑盒子" />
-    <MESSAGE value="编程思想延续 - 黑盒子思想 -- 输出模块 - 补充黑盒子" />
-    <MESSAGE value="编程思想延续 - 增加一个 properties 使得更加稳定" />
     <MESSAGE value="排序 - 快速排序" />
     <MESSAGE value="枚举 - 枚举可以使用“点”来调用" />
     <MESSAGE value="枚举 - 枚举也需要赋值给数据，而枚举的数据类型就是枚举类本身" />
@@ -995,7 +991,11 @@
     <MESSAGE value="Thread - Java 的线程也是用对象构造的...&#10;&#10;可以通过 Thread.currentThread().getName(); 来获取当前线程的名称，也可以使用对应的 setName(); 方法来修改线程名称" />
     <MESSAGE value="Thread - 继承并使用 Thread 类，使用它的 run() 方法和 start() 方法" />
     <MESSAGE value="Thread - 有参构造...&#10;&#10;形参一： 要增加的线程&#10;形参二： 该线程的名称" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread - 有参构造...&#10;&#10;形参一： 要增加的线程&#10;形参二： 该线程的名称" />
+    <MESSAGE value="Thread - 使用继承 Thread 的方式创建并重写 run 方法" />
+    <MESSAGE value="Thread - 使用实现接口 Runnable 的方式创建并重写 run 方法" />
+    <MESSAGE value="Thread - 使用匿名类 Runnable 的方式创建并重写 run 方法" />
+    <MESSAGE value="Thread - 将匿名内部类改为 Lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread - 将匿名内部类改为 Lambda" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
