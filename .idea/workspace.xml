@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="文件夹更改名称">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Thread - sleep -- 让程序在这里睡眠，睡眠时间就是形参输入的时间（毫秒值）">
+      <change afterPath="$PROJECT_DIR$/src/A20240802/thread_mothed/ThreadYield.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -526,15 +527,7 @@
       <workItem from="1722303072345" duration="2311000" />
       <workItem from="1722402617402" duration="7696000" />
       <workItem from="1722473448114" duration="9447000" />
-      <workItem from="1722559755875" duration="7857000" />
-    </task>
-    <task id="LOCAL-00718" summary="=== === ===">
-      <option name="closed" value="true" />
-      <created>1722303203200</created>
-      <option name="number" value="00718" />
-      <option name="presentableId" value="LOCAL-00718" />
-      <option name="project" value="LOCAL" />
-      <updated>1722303203200</updated>
+      <workItem from="1722559755875" duration="9040000" />
     </task>
     <task id="LOCAL-00719" summary="编程思想延续 - 黑盒子思想 -- 补充黑盒子">
       <option name="closed" value="true" />
@@ -920,7 +913,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722578997634</updated>
     </task>
-    <option name="localTasksCounter" value="767" />
+    <task id="LOCAL-00767" summary="Thread - sleep -- 让程序在这里睡眠，睡眠时间就是形参输入的时间（毫秒值）">
+      <option name="closed" value="true" />
+      <created>1722580235348</created>
+      <option name="number" value="00767" />
+      <option name="presentableId" value="LOCAL-00767" />
+      <option name="project" value="LOCAL" />
+      <updated>1722580235348</updated>
+    </task>
+    <option name="localTasksCounter" value="768" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -970,7 +971,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="排序 - 快速排序" />
     <MESSAGE value="枚举 - 枚举可以使用“点”来调用" />
     <MESSAGE value="枚举 - 枚举也需要赋值给数据，而枚举的数据类型就是枚举类本身" />
     <MESSAGE value="枚举 - 枚举隐匿地继承了 Enum 类" />
@@ -995,7 +995,8 @@
     <MESSAGE value="Thread - 使用匿名类 Runnable 的方式创建并重写 run 方法" />
     <MESSAGE value="Thread - 将匿名内部类改为 Lambda" />
     <MESSAGE value="文件夹更改名称" />
-    <option name="LAST_COMMIT_MESSAGE" value="文件夹更改名称" />
+    <MESSAGE value="Thread - sleep -- 让程序在这里睡眠，睡眠时间就是形参输入的时间（毫秒值）" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread - sleep -- 让程序在这里睡眠，睡眠时间就是形参输入的时间（毫秒值）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
