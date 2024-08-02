@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Thread - setPriority -- 设置优先级，但是 Java 并不能完全控制">
-      <change afterPath="$PROJECT_DIR$/src/A20240802/thread_mothed/ThreadIsAlive.java" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Thread - 各个方法的说明">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -526,31 +526,7 @@
       <workItem from="1722303072345" duration="2311000" />
       <workItem from="1722402617402" duration="7696000" />
       <workItem from="1722473448114" duration="9447000" />
-      <workItem from="1722559755875" duration="9660000" />
-    </task>
-    <task id="LOCAL-00723" summary="编程思想延续 - 增加一个 List 属性用来存储各个 XMFishAbout">
-      <option name="closed" value="true" />
-      <created>1722306513952</created>
-      <option name="number" value="00723" />
-      <option name="presentableId" value="LOCAL-00723" />
-      <option name="project" value="LOCAL" />
-      <updated>1722306513952</updated>
-    </task>
-    <task id="LOCAL-00724" summary="编程思想延续 - 黑盒子思想 -- 存储模块 - 补充黑盒子">
-      <option name="closed" value="true" />
-      <created>1722306764412</created>
-      <option name="number" value="00724" />
-      <option name="presentableId" value="LOCAL-00724" />
-      <option name="project" value="LOCAL" />
-      <updated>1722306764412</updated>
-    </task>
-    <task id="LOCAL-00725" summary="编程思想延续 - 黑盒子思想 -- 输出模块 - 补充黑盒子">
-      <option name="closed" value="true" />
-      <created>1722306855487</created>
-      <option name="number" value="00725" />
-      <option name="presentableId" value="LOCAL-00725" />
-      <option name="project" value="LOCAL" />
-      <updated>1722306855487</updated>
+      <workItem from="1722559755875" duration="10458000" />
     </task>
     <task id="LOCAL-00726" summary="编程思想延续 - 增加一个 properties 使得更加稳定">
       <option name="closed" value="true" />
@@ -920,7 +896,31 @@
       <option name="project" value="LOCAL" />
       <updated>1722582090229</updated>
     </task>
-    <option name="localTasksCounter" value="772" />
+    <task id="LOCAL-00772" summary="Thread - isAlive -- 判断当前的线程是否在运行">
+      <option name="closed" value="true" />
+      <created>1722582410318</created>
+      <option name="number" value="00772" />
+      <option name="presentableId" value="LOCAL-00772" />
+      <option name="project" value="LOCAL" />
+      <updated>1722582410318</updated>
+    </task>
+    <task id="LOCAL-00773" summary="Thread - 各个方法的说明">
+      <option name="closed" value="true" />
+      <created>1722582612718</created>
+      <option name="number" value="00773" />
+      <option name="presentableId" value="LOCAL-00773" />
+      <option name="project" value="LOCAL" />
+      <updated>1722582612718</updated>
+    </task>
+    <task id="LOCAL-00774" summary="Thread - 各个方法的说明">
+      <option name="closed" value="true" />
+      <created>1722582627438</created>
+      <option name="number" value="00774" />
+      <option name="presentableId" value="LOCAL-00774" />
+      <option name="project" value="LOCAL" />
+      <updated>1722582627438</updated>
+    </task>
+    <option name="localTasksCounter" value="775" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -970,8 +970,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="枚举 - 使用 Class 类写出枚举的格式" />
-    <MESSAGE value="枚举 - 枚举的本质 -- 本质就是预先 new 出的可供直接使用的类" />
     <MESSAGE value="单一实例 - 使用新的方式实现单例 -- enum" />
     <MESSAGE value="单一实例 - 枚举每个都不同" />
     <MESSAGE value="排序 - 快速排序练习 -- 代码的完善" />
@@ -995,7 +993,9 @@
     <MESSAGE value="Thread - setPriority -- 设置优先级，应该先设置优先级后再 start" />
     <MESSAGE value="Thread - setPriority -- 设置优先级" />
     <MESSAGE value="Thread - setPriority -- 设置优先级，但是 Java 并不能完全控制" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread - setPriority -- 设置优先级，但是 Java 并不能完全控制" />
+    <MESSAGE value="Thread - isAlive -- 判断当前的线程是否在运行" />
+    <MESSAGE value="Thread - 各个方法的说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread - 各个方法的说明" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
