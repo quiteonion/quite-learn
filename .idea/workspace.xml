@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="引入 synchronized - 解决线程不安全">
-      <change afterPath="$PROJECT_DIR$/src/B20240802/note/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="有关线程和进程的资料">
+      <change afterPath="$PROJECT_DIR$/src/B20240802/ThreadDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +22,10 @@
       <list>
         <option value="HTTP Request" />
         <option value="HTML File" />
-        <option value="package-info" />
         <option value="Interface" />
         <option value="Enum" />
         <option value="Record" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -527,15 +526,7 @@
       <workItem from="1722303072345" duration="2311000" />
       <workItem from="1722402617402" duration="7696000" />
       <workItem from="1722473448114" duration="9447000" />
-      <workItem from="1722559755875" duration="1514000" />
-    </task>
-    <task id="LOCAL-00706" summary="Java中能够在数组的某个索引添加元素并且将后续的元素往后移的方法 - add">
-      <option name="closed" value="true" />
-      <created>1722058872732</created>
-      <option name="number" value="00706" />
-      <option name="presentableId" value="LOCAL-00706" />
-      <option name="project" value="LOCAL" />
-      <updated>1722058872732</updated>
+      <workItem from="1722559755875" duration="2112000" />
     </task>
     <task id="LOCAL-00707" summary="编程思想延续 - 黑盒子思想 -- 下载模块的大致">
       <option name="closed" value="true" />
@@ -921,7 +912,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722502843705</updated>
     </task>
-    <option name="localTasksCounter" value="755" />
+    <task id="LOCAL-00755" summary="有关线程和进程的资料">
+      <option name="closed" value="true" />
+      <created>1722563578375</created>
+      <option name="number" value="00755" />
+      <option name="presentableId" value="LOCAL-00755" />
+      <option name="project" value="LOCAL" />
+      <updated>1722563578375</updated>
+    </task>
+    <option name="localTasksCounter" value="756" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -971,7 +970,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="编程思想延续 - 黑盒子思想 -- 补充黑盒子" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 下载模块 - 补充黑盒子" />
     <MESSAGE value="编程思想延续 - 黑盒子思想 -- 解析模块 - 补充黑盒子" />
     <MESSAGE value="编程思想延续 - 修改 List 类型，使其贴合需求" />
@@ -996,7 +994,8 @@
     <MESSAGE value="单例 - 以往使用的单例模型在多线程中是线程不安全的" />
     <MESSAGE value="之前写的代码都是单条执行路径" />
     <MESSAGE value="引入 synchronized - 解决线程不安全" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入 synchronized - 解决线程不安全" />
+    <MESSAGE value="有关线程和进程的资料" />
+    <option name="LAST_COMMIT_MESSAGE" value="有关线程和进程的资料" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
