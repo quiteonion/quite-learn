@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Thread - sleep -- 让程序在这里睡眠，睡眠时间就是形参输入的时间（毫秒值）">
-      <change afterPath="$PROJECT_DIR$/src/A20240802/thread_mothed/ThreadYield.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Thread - setPriority -- 设置优先级" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -527,23 +524,7 @@
       <workItem from="1722303072345" duration="2311000" />
       <workItem from="1722402617402" duration="7696000" />
       <workItem from="1722473448114" duration="9447000" />
-      <workItem from="1722559755875" duration="9040000" />
-    </task>
-    <task id="LOCAL-00719" summary="编程思想延续 - 黑盒子思想 -- 补充黑盒子">
-      <option name="closed" value="true" />
-      <created>1722305381364</created>
-      <option name="number" value="00719" />
-      <option name="presentableId" value="LOCAL-00719" />
-      <option name="project" value="LOCAL" />
-      <updated>1722305381364</updated>
-    </task>
-    <task id="LOCAL-00720" summary="编程思想延续 - 黑盒子思想 -- 下载模块 - 补充黑盒子">
-      <option name="closed" value="true" />
-      <created>1722305403109</created>
-      <option name="number" value="00720" />
-      <option name="presentableId" value="LOCAL-00720" />
-      <option name="project" value="LOCAL" />
-      <updated>1722305403109</updated>
+      <workItem from="1722559755875" duration="9347000" />
     </task>
     <task id="LOCAL-00721" summary="编程思想延续 - 黑盒子思想 -- 解析模块 - 补充黑盒子">
       <option name="closed" value="true" />
@@ -921,7 +902,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722580235348</updated>
     </task>
-    <option name="localTasksCounter" value="768" />
+    <task id="LOCAL-00768" summary="Thread - yield -- 将目前处理的线程暂停，让别人先行">
+      <option name="closed" value="true" />
+      <created>1722581841406</created>
+      <option name="number" value="00768" />
+      <option name="presentableId" value="LOCAL-00768" />
+      <option name="project" value="LOCAL" />
+      <updated>1722581841406</updated>
+    </task>
+    <task id="LOCAL-00769" summary="Thread - setPriority -- 设置优先级">
+      <option name="closed" value="true" />
+      <created>1722582021597</created>
+      <option name="number" value="00769" />
+      <option name="presentableId" value="LOCAL-00769" />
+      <option name="project" value="LOCAL" />
+      <updated>1722582021597</updated>
+    </task>
+    <option name="localTasksCounter" value="770" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -971,8 +968,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="枚举 - 枚举可以使用“点”来调用" />
-    <MESSAGE value="枚举 - 枚举也需要赋值给数据，而枚举的数据类型就是枚举类本身" />
     <MESSAGE value="枚举 - 枚举隐匿地继承了 Enum 类" />
     <MESSAGE value="创建文件夹分类" />
     <MESSAGE value="枚举 - 使用 Class 类写出枚举的格式" />
@@ -996,7 +991,9 @@
     <MESSAGE value="Thread - 将匿名内部类改为 Lambda" />
     <MESSAGE value="文件夹更改名称" />
     <MESSAGE value="Thread - sleep -- 让程序在这里睡眠，睡眠时间就是形参输入的时间（毫秒值）" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread - sleep -- 让程序在这里睡眠，睡眠时间就是形参输入的时间（毫秒值）" />
+    <MESSAGE value="Thread - yield -- 将目前处理的线程暂停，让别人先行" />
+    <MESSAGE value="Thread - setPriority -- 设置优先级" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread - setPriority -- 设置优先级" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
