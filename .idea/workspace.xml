@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Thread - setPriority -- 设置优先级" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Thread - setPriority -- 设置优先级，但是 Java 并不能完全控制">
+      <change afterPath="$PROJECT_DIR$/src/A20240802/thread_mothed/ThreadIsAlive.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -524,23 +526,7 @@
       <workItem from="1722303072345" duration="2311000" />
       <workItem from="1722402617402" duration="7696000" />
       <workItem from="1722473448114" duration="9447000" />
-      <workItem from="1722559755875" duration="9347000" />
-    </task>
-    <task id="LOCAL-00721" summary="编程思想延续 - 黑盒子思想 -- 解析模块 - 补充黑盒子">
-      <option name="closed" value="true" />
-      <created>1722305856186</created>
-      <option name="number" value="00721" />
-      <option name="presentableId" value="LOCAL-00721" />
-      <option name="project" value="LOCAL" />
-      <updated>1722305856186</updated>
-    </task>
-    <task id="LOCAL-00722" summary="编程思想延续 - 修改 List 类型，使其贴合需求">
-      <option name="closed" value="true" />
-      <created>1722306144282</created>
-      <option name="number" value="00722" />
-      <option name="presentableId" value="LOCAL-00722" />
-      <option name="project" value="LOCAL" />
-      <updated>1722306144282</updated>
+      <workItem from="1722559755875" duration="9660000" />
     </task>
     <task id="LOCAL-00723" summary="编程思想延续 - 增加一个 List 属性用来存储各个 XMFishAbout">
       <option name="closed" value="true" />
@@ -918,7 +904,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722582021597</updated>
     </task>
-    <option name="localTasksCounter" value="770" />
+    <task id="LOCAL-00770" summary="Thread - setPriority -- 设置优先级">
+      <option name="closed" value="true" />
+      <created>1722582047607</created>
+      <option name="number" value="00770" />
+      <option name="presentableId" value="LOCAL-00770" />
+      <option name="project" value="LOCAL" />
+      <updated>1722582047607</updated>
+    </task>
+    <task id="LOCAL-00771" summary="Thread - setPriority -- 设置优先级，但是 Java 并不能完全控制">
+      <option name="closed" value="true" />
+      <created>1722582090229</created>
+      <option name="number" value="00771" />
+      <option name="presentableId" value="LOCAL-00771" />
+      <option name="project" value="LOCAL" />
+      <updated>1722582090229</updated>
+    </task>
+    <option name="localTasksCounter" value="772" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -968,8 +970,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="枚举 - 枚举隐匿地继承了 Enum 类" />
-    <MESSAGE value="创建文件夹分类" />
     <MESSAGE value="枚举 - 使用 Class 类写出枚举的格式" />
     <MESSAGE value="枚举 - 枚举的本质 -- 本质就是预先 new 出的可供直接使用的类" />
     <MESSAGE value="单一实例 - 使用新的方式实现单例 -- enum" />
@@ -992,8 +992,10 @@
     <MESSAGE value="文件夹更改名称" />
     <MESSAGE value="Thread - sleep -- 让程序在这里睡眠，睡眠时间就是形参输入的时间（毫秒值）" />
     <MESSAGE value="Thread - yield -- 将目前处理的线程暂停，让别人先行" />
+    <MESSAGE value="Thread - setPriority -- 设置优先级，应该先设置优先级后再 start" />
     <MESSAGE value="Thread - setPriority -- 设置优先级" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread - setPriority -- 设置优先级" />
+    <MESSAGE value="Thread - setPriority -- 设置优先级，但是 Java 并不能完全控制" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread - setPriority -- 设置优先级，但是 Java 并不能完全控制" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
