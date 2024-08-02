@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="。">
-      <change afterPath="$PROJECT_DIR$/src/A20240802/thread_mothed/ThreadJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Thread - join -- 让当前执行线程等待另一个线程完成其执行（在这里是 main 线程等待 thread 完成执行）">
+      <change afterPath="$PROJECT_DIR$/src/A20240802/Synchronized.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -527,15 +526,7 @@
       <workItem from="1722303072345" duration="2311000" />
       <workItem from="1722402617402" duration="7696000" />
       <workItem from="1722473448114" duration="9447000" />
-      <workItem from="1722559755875" duration="11102000" />
-    </task>
-    <task id="LOCAL-00727" summary="排序 - 快速排序">
-      <option name="closed" value="true" />
-      <created>1722320423000</created>
-      <option name="number" value="00727" />
-      <option name="presentableId" value="LOCAL-00727" />
-      <option name="project" value="LOCAL" />
-      <updated>1722320423000</updated>
+      <workItem from="1722559755875" duration="11453000" />
     </task>
     <task id="LOCAL-00728" summary="枚举 - 使用 Enum 来定义枚举">
       <option name="closed" value="true" />
@@ -921,7 +912,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722583284331</updated>
     </task>
-    <option name="localTasksCounter" value="776" />
+    <task id="LOCAL-00776" summary="Thread - join -- 让当前执行线程等待另一个线程完成其执行（在这里是 main 线程等待 thread 完成执行）">
+      <option name="closed" value="true" />
+      <created>1722583896718</created>
+      <option name="number" value="00776" />
+      <option name="presentableId" value="LOCAL-00776" />
+      <option name="project" value="LOCAL" />
+      <updated>1722583896718</updated>
+    </task>
+    <option name="localTasksCounter" value="777" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -971,7 +970,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="单一实例 - 枚举每个都不同" />
     <MESSAGE value="排序 - 快速排序练习 -- 代码的完善" />
     <MESSAGE value="排序 - 快速排序 -- bug 的修复" />
     <MESSAGE value="枚举 - 枚举可以实现接口" />
@@ -996,7 +994,8 @@
     <MESSAGE value="Thread - isAlive -- 判断当前的线程是否在运行" />
     <MESSAGE value="Thread - 各个方法的说明" />
     <MESSAGE value="。" />
-    <option name="LAST_COMMIT_MESSAGE" value="。" />
+    <MESSAGE value="Thread - join -- 让当前执行线程等待另一个线程完成其执行（在这里是 main 线程等待 thread 完成执行）" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread - join -- 让当前执行线程等待另一个线程完成其执行（在这里是 main 线程等待 thread 完成执行）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
