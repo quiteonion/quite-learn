@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="文件夹更改名称">
-      <change beforePath="$PROJECT_DIR$/src/A20240802/SynchronizedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A20240802/SynchronizedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A20240802/synchronized_demo/SynchronizedTest0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -526,23 +527,7 @@
       <workItem from="1722303072345" duration="2311000" />
       <workItem from="1722402617402" duration="7696000" />
       <workItem from="1722473448114" duration="9447000" />
-      <workItem from="1722559755875" duration="12100000" />
-    </task>
-    <task id="LOCAL-00732" summary="枚举 - 使用 Enum 来定义枚举">
-      <option name="closed" value="true" />
-      <created>1722321069806</created>
-      <option name="number" value="00732" />
-      <option name="presentableId" value="LOCAL-00732" />
-      <option name="project" value="LOCAL" />
-      <updated>1722321069806</updated>
-    </task>
-    <task id="LOCAL-00733" summary="枚举 - 枚举也需要赋值给数据，而枚举的数据类型就是枚举类本身">
-      <option name="closed" value="true" />
-      <created>1722321246745</created>
-      <option name="number" value="00733" />
-      <option name="presentableId" value="LOCAL-00733" />
-      <option name="project" value="LOCAL" />
-      <updated>1722321246745</updated>
+      <workItem from="1722559755875" duration="13707000" />
     </task>
     <task id="LOCAL-00734" summary="枚举 - 枚举隐匿地继承了 Enum 类">
       <option name="closed" value="true" />
@@ -920,7 +905,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722584645270</updated>
     </task>
-    <option name="localTasksCounter" value="781" />
+    <task id="LOCAL-00781" summary="Thread - synchronized(lock) -- 可以替换形参内部，它是什么不重要，重要的是要有这个东西">
+      <option name="closed" value="true" />
+      <created>1722584964411</created>
+      <option name="number" value="00781" />
+      <option name="presentableId" value="LOCAL-00781" />
+      <option name="project" value="LOCAL" />
+      <updated>1722584964411</updated>
+    </task>
+    <task id="LOCAL-00782" summary="文件夹更改名称">
+      <option name="closed" value="true" />
+      <created>1722585097502</created>
+      <option name="number" value="00782" />
+      <option name="presentableId" value="LOCAL-00782" />
+      <option name="project" value="LOCAL" />
+      <updated>1722585097502</updated>
+    </task>
+    <option name="localTasksCounter" value="783" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -970,7 +971,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="枚举 - 枚举可以实现接口" />
     <MESSAGE value="枚举 - 可以在枚举的每一个属性内实现接口" />
     <MESSAGE value="单例 - 以往使用的单例模型在多线程中是线程不安全的" />
     <MESSAGE value="之前写的代码都是单条执行路径" />
@@ -994,6 +994,7 @@
     <MESSAGE value="Thread - join -- 让当前执行线程等待另一个线程完成其执行（在这里是 main 线程等待 thread 完成执行）" />
     <MESSAGE value="Thread - synchronized -- 直接写在方法声明中，相当于一个锁" />
     <MESSAGE value="Thread - synchronized(this) -- 可以将锁往里面锁，锁的力度越精确越好" />
+    <MESSAGE value="Thread - synchronized(lock) -- 可以替换形参内部，它是什么不重要，重要的是要有这个东西" />
     <MESSAGE value="文件夹更改名称" />
     <option name="LAST_COMMIT_MESSAGE" value="文件夹更改名称" />
   </component>
