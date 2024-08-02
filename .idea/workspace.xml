@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="Thread - 各个方法的说明">
+    <list default="true" id="453b9aad-9692-4dbd-a346-d8d4d2802cc9" name="更改" comment="。">
+      <change afterPath="$PROJECT_DIR$/src/A20240802/thread_mothed/ThreadJoin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -526,15 +527,7 @@
       <workItem from="1722303072345" duration="2311000" />
       <workItem from="1722402617402" duration="7696000" />
       <workItem from="1722473448114" duration="9447000" />
-      <workItem from="1722559755875" duration="10458000" />
-    </task>
-    <task id="LOCAL-00726" summary="编程思想延续 - 增加一个 properties 使得更加稳定">
-      <option name="closed" value="true" />
-      <created>1722308234980</created>
-      <option name="number" value="00726" />
-      <option name="presentableId" value="LOCAL-00726" />
-      <option name="project" value="LOCAL" />
-      <updated>1722308234980</updated>
+      <workItem from="1722559755875" duration="11102000" />
     </task>
     <task id="LOCAL-00727" summary="排序 - 快速排序">
       <option name="closed" value="true" />
@@ -920,7 +913,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722582627438</updated>
     </task>
-    <option name="localTasksCounter" value="775" />
+    <task id="LOCAL-00775" summary="。">
+      <option name="closed" value="true" />
+      <created>1722583284331</created>
+      <option name="number" value="00775" />
+      <option name="presentableId" value="LOCAL-00775" />
+      <option name="project" value="LOCAL" />
+      <updated>1722583284331</updated>
+    </task>
+    <option name="localTasksCounter" value="776" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -970,7 +971,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="单一实例 - 使用新的方式实现单例 -- enum" />
     <MESSAGE value="单一实例 - 枚举每个都不同" />
     <MESSAGE value="排序 - 快速排序练习 -- 代码的完善" />
     <MESSAGE value="排序 - 快速排序 -- bug 的修复" />
@@ -995,7 +995,8 @@
     <MESSAGE value="Thread - setPriority -- 设置优先级，但是 Java 并不能完全控制" />
     <MESSAGE value="Thread - isAlive -- 判断当前的线程是否在运行" />
     <MESSAGE value="Thread - 各个方法的说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread - 各个方法的说明" />
+    <MESSAGE value="。" />
+    <option name="LAST_COMMIT_MESSAGE" value="。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
