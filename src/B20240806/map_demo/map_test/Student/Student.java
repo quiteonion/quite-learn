@@ -48,4 +48,13 @@ public class Student {
     public int hashCode() {
         return Objects.hash(getName(), getAge(), getOrigin());
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", origin='" + origin + '\'' +
+                '}';
+    }
 }

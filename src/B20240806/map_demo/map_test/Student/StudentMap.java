@@ -1,6 +1,8 @@
 package B20240806.map_demo.map_test.Student;
 
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class StudentMap {
     public static void main(String[] args) {
@@ -10,5 +12,11 @@ public class StudentMap {
         map.put(new Student("小刚", 18, "辽宁"), "辽宁");
         map.put(new Student("小红", 28, "福建"), "福建");
 
+        Set<Map.Entry<Student, String>> entries = map.entrySet();
+        for (Map.Entry<Student, String> entry : entries) {
+            Student key = entry.getKey();
+            String value = entry.getValue();
+            System.out.println(key + " = " + value);
+        }
     }
 }
