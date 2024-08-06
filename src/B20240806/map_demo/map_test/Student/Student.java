@@ -1,5 +1,7 @@
 package B20240806.map_demo.map_test.Student;
 
+import java.util.Objects;
+
 public class Student {
     private String name;
     private int age;
@@ -35,4 +37,15 @@ public class Student {
         this.origin = origin;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Student student)) return false;
+        return getAge() == student.getAge() && Objects.equals(getName(), student.getName()) && Objects.equals(getOrigin(), student.getOrigin());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getName(), getAge(), getOrigin());
+    }
 }
