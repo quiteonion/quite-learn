@@ -25,8 +25,8 @@ public class Student {
      * @param s
      */
 
-   /* public static Student getS() {
-       Student s = new Student();
+   /* public static student getS() {
+       student s = new student();
         return s;
     }
 */

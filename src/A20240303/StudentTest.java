@@ -12,7 +12,7 @@ public class StudentTest {
         s.setAge(19);
         s.setGender('女');
 
-        /*Student s1 = new Student("小红",17);
+        /*student s1 = new student("小红",17);
         s1.setGender('女');
         s1.setId(03);*/
 

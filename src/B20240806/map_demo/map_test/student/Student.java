@@ -1,4 +1,4 @@
-package B20240806.map_demo.map_test.Student;
+package B20240806.map_demo.map_test.student;
 
 import java.util.Objects;
 
@@ -51,7 +51,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "student{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", origin='" + origin + '\'' +

@@ -1,4 +1,4 @@
-package B20240806.map_demo.map_test.Student;
+package B20240806.map_demo.map_test.student;
 
 import java.util.HashMap;
 import java.util.Map;

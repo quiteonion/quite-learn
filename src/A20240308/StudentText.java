@@ -9,9 +9,9 @@ public class StudentText {
         /**
          * 以下是错误的代码展示
          */
-       /* Student s = Student.getS();
+       /* student s = student.getS();
         System.out.println("s  "   + s);
-        Student s1 =Student.getS();
+        student s1 =student.getS();
         System.out.println("s1  "   + s1);*/
 
     }

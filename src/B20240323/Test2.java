@@ -7,7 +7,7 @@ public class Test2 {
         Person1 p = new Person1();
         Animo a = new Animo();
 
-//        Student ss = (Student) p;
+//        student ss = (student) p;
 //        Cat cc = (Cat) a;
 
         /**
@@ -15,7 +15,7 @@ public class Test2 {
          * 以下的部分错误，原因是因为 ， Student类 并不是 a(Animo) 的子类
          */
         //Cat sss = (Cat) p;
-        //Student ccc = (Student) a;
+        //student ccc = (student) a;
 
 
        /* if (a instanceof Cat){
