@@ -16,12 +16,7 @@ public class MapTest2 {
         m.put("ccc","ccc");
         m.put("ddd","ddd");
 
-        m.forEach(new BiConsumer<String, String>() {
-            @Override
-            public void accept(String s, String s2) {
-                System.out.println(s);
-                System.out.println(s2);
-            }
-        });
+        m.forEach(( s,  s2)-> {System.out.println(s);System.out.println(s2);}
+        );
     }
 }
