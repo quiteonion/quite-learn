@@ -2,9 +2,8 @@ package B20240806.map_demo.traversal_method;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.function.BiConsumer;
 
-public class MapTest2 {
+public class Map_forEach {
     public static void main(String[] args) {
         /**
          * map 的遍历方式

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class MapTest0 {
+public class Map_keySet {
     public static void main(String[] args) {
         /**
          * map 的遍历方式
