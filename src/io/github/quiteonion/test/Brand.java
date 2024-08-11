@@ -4,7 +4,8 @@ import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-public class Brand extends Container{
+public class Brand extends Container {
+    EliminateBox eliminateBox = new EliminateBox();
     private String name;//拍的名称
     private boolean isGray;//是否置灰
     private Image image;//牌的地址
@@ -30,7 +31,10 @@ public class Brand extends Container{
             public void mouseClicked(MouseEvent e) {
                 System.out.println("鼠标点击了");
                 Brand brand = (Brand) e.getSource();
-                brand.getParent().remove(brand);
+//                brand.getParent().remove(brand);
+                eliminateBox.addSlot(brand);
+
+
             }
         });
     }
@@ -42,10 +46,10 @@ public class Brand extends Container{
 
     @Override
     public void paint(Graphics g) {
-        if (this.isGray == true){
-            g.drawImage(this.grayImage, this.x,this.y,null);
-        }else {
-            g.drawImage(this.image, this.x,this.y,null);
+        if (this.isGray == true) {
+            g.drawImage(this.grayImage, this.x, this.y, null);
+        } else {
+            g.drawImage(this.image, this.x, this.y, null);
 
         }
     }

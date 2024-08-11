@@ -55,4 +55,12 @@ public class Layer {
     public void setCells(Cell[][] cells) {
         this.cells = cells;
     }
+//    public void showCells(){
+//        for (int row = 0; row < cells.length; row++) {
+//            for (int col = 0; col < cells[row].length; col++) {
+//                System.out.print(cells[row][col].getBrand().getName()+"-");
+//            }
+//            System.out.println();
+//        }
+//    }
 }

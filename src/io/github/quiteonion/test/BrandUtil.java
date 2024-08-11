@@ -1,5 +1,8 @@
 package io.github.quiteonion.test;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Random;
 
 public class BrandUtil {
@@ -11,5 +14,24 @@ public class BrandUtil {
     public static String getBrand() {
         int i = r.nextInt(brandNames.length);
         return brandNames[i];
+    }
+
+    public static Brand[] buildBrands(Integer capacity) {
+        List<Brand> brandList = new ArrayList<>();
+        Brand[] brands = new Brand[capacity];
+        for (int i = 0; i < brands.length; i++) {
+            String name = getBrand();
+            Brand brand1 = new Brand(name);
+            Brand brand2 = new Brand(name);
+            Brand brand3 = new Brand(name);
+            brandList.add(brand1);
+            brandList.add(brand2);
+            brandList.add(brand3);
+        }
+        Collections.shuffle(brandList);
+        for (int i = 0; i < brands.length; i++) {
+            brands[i] = brandList.get(i);
+        }
+        return brands;
     }
 }
