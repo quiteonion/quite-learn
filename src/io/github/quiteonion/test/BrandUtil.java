@@ -8,7 +8,7 @@ import java.util.Random;
 public class BrandUtil {
     public static Random r = new Random();
     public static String[] brandNames = {
-            "假面骑士", "地狱火", "带土", "羊", "鸡哥","一豪十分开心","什么东东","巧V嚣张跋扈","模糊巧","精神力MAX","老师豪","连麦宇将军"
+            "假面骑士", "地狱火", "带土", "羊", "鸡哥","一豪十分开心","什么东东","巧V嚣张跋扈","模糊巧","精神力MAX","老师豪","连麦宇将军","他们都说我豪帅_50x50","嘻嘻_50x50","实在是太好吃了_50x50","我嘞个骚纲_50x50","绿衣服男孩_50x50"
     };
 
     public static String getBrand() {
