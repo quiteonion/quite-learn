@@ -42,9 +42,39 @@ public class BrandUtil {
         }
         return brands;
     }
-    public static boolean sort(Brand[] brands){
+
+    public static boolean sort(Brand[] brands) {
         Arrays.sort(brands);
         return true;
+    }
+
+    public static List<Brand[]> deal(Brand[] brands) {
+        List<Brand[]> list = new ArrayList<>();
+        //三张地主牌
+        Brand[] b0 = new Brand[3];
+        //角色牌
+        Brand[] b1 = new Brand[17];
+        Brand[] b2 = new Brand[17];
+        Brand[] b3 = new Brand[17];
+        int l = 0, j = 0, k = 0;
+        for (int i = 0; i < brands.length; i++) {
+            if (i < 3) {
+                b0[i] = brands[i];
+                continue;
+            }
+            if (i % 3 == 0) {
+                b1[l++] = brands[i];
+            } else if (i % 3 == 1) {
+                b2[j++] = brands[i];
+            } else {
+                b3[k++] = brands[i];
+            }
+        }
+        list.add(b0);
+        list.add(b1);
+        list.add(b2);
+        list.add(b3);
+        return list;
     }
 
 }
