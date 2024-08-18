@@ -2,11 +2,12 @@ package dou_di_zhu;
 
 import dou_di_zhu.util.BrandUtil;
 
-public class Brand {
+public class Brand implements Comparable<Brand> {
     private String design;
     private String number;
+    private int integer;
 
-    public Brand(){
+    public Brand() {
     }
 
     public Brand(String design, String number) {
@@ -30,11 +31,24 @@ public class Brand {
         this.number = number;
     }
 
+    public int getInteger() {
+        return integer;
+    }
+
+    public void setInteger(int integer) {
+        this.integer = integer;
+    }
+
     @Override
     public String toString() {
         return "Brand{" +
                 "design='" + design + '\'' +
                 ", number='" + number + '\'' +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Brand o) {
+        return this.integer - o.integer;
     }
 }
