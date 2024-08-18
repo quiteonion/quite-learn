@@ -12,7 +12,7 @@ public class BrandTest {
         System.out.println(Arrays.toString(brands));
         Brand[] shuffle = BrandUtil.shuffle();
         System.out.println(Arrays.toString(shuffle));
-        Arrays.sort(shuffle);
+        BrandUtil.sort(shuffle);
         System.out.println(Arrays.toString(shuffle));
     }
 }
