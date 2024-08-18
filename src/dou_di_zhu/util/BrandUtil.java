@@ -2,6 +2,7 @@ package dou_di_zhu.util;
 
 import dou_di_zhu.Brand;
 
+import java.lang.reflect.Array;
 import java.util.*;
 
 /**
@@ -40,6 +41,10 @@ public class BrandUtil {
             brands[i] = brandList.get(i);
         }
         return brands;
+    }
+    public static boolean sort(Brand[] brands){
+        Arrays.sort(brands);
+        return true;
     }
 
 }
