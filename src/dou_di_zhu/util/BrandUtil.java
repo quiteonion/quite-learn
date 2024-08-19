@@ -10,7 +10,7 @@ import java.util.*;
  */
 public class BrandUtil {
     private static String[] colors = {"♠", "♥", "♦", "♣"};
-    private static String[] numbers = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
+    private static String[] numbers = {"3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A", "2"};
     public static Brand[] brands = new Brand[54];
 
     public static Brand[] createBrands() {
