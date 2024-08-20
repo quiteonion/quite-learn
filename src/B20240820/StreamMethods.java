@@ -16,7 +16,6 @@ public class StreamMethods {
         Stream<String> lin = stream.filter(s -> s.startsWith("林"));
         lin.forEach(s -> System.out.println(s));
 
-
         System.out.println("==== === ====");
 
         /**
@@ -27,6 +26,14 @@ public class StreamMethods {
         Stream<String> limit = stream1.limit(2);
         limit.forEach(s -> System.out.println(s));
 
+        System.out.println("==== === ====");
 
+        /**
+         * skip
+         * 跳过前面几个元素
+         */
+        Stream<String> stream2 = Arrays.stream(string);
+        Stream<String> skip = stream2.skip(3);
+        skip.forEach(s -> System.out.println(s));
     }
 }
