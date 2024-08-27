@@ -2,6 +2,7 @@ package B20240820;
 
 import java.io.Serializable;
 import java.util.Arrays;
+import java.util.function.Function;
 import java.util.stream.Stream;
 
 public class StreamMethods {
@@ -64,5 +65,23 @@ public class StreamMethods {
         String[] strings = {"q","w","e","r"};
         Stream<? extends Serializable> concat1 = Stream.concat(Arrays.stream(integers), Arrays.stream(strings));
         concat1.forEach(serializable -> System.out.println(serializable));
+
+        System.out.println("==== === ====");
+
+        /**
+         * map
+         * 将流中的类型进行转换
+         */
+        String[] user = {"张吉惟-45", "林国瑞-123", "林玟书-12", "林雅南-16", "江奕云-17", "刘柏宏-28", "阮建安-65", "林子帆-35"};
+        Stream<String> stream4 = Arrays.stream(user);
+        Stream<Integer> integerStream = stream4.map(new Function<String, Integer>() {
+            @Override
+            public Integer apply(String s) {
+                String[] split = s.split("-");
+                return Integer.valueOf(split[1]);
+            }
+        });
+        integerStream.forEach(s-> System.out.println(s));
+
     }
 }
