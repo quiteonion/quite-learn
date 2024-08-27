@@ -1,5 +1,6 @@
 package B20240820;
 
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
@@ -56,5 +57,12 @@ public class StreamMethods {
 
         Stream<String> concat = Stream.concat(Arrays.stream(string).limit(3), Arrays.stream(string).skip(3));
         concat.forEach(s -> System.out.println(s));
+
+        System.out.println("---- --- ----");
+
+        Integer[] integers = {1,2,3,4,5,6};
+        String[] strings = {"q","w","e","r"};
+        Stream<? extends Serializable> concat1 = Stream.concat(Arrays.stream(integers), Arrays.stream(strings));
+        concat1.forEach(serializable -> System.out.println(serializable));
     }
 }
