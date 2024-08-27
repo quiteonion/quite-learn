@@ -49,6 +49,12 @@ public class StreamMethods {
 
         System.out.println("==== === ====");
 
+        /**
+         * concat
+         * 合并两个流
+         */
 
+        Stream<String> concat = Stream.concat(Arrays.stream(string).limit(3), Arrays.stream(string).skip(3));
+        concat.forEach(s -> System.out.println(s));
     }
 }
