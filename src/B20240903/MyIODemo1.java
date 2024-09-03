@@ -16,8 +16,11 @@ public class MyIODemo1 {
          * 在两个构造方法的形参中同时拥有第二个参数，这个参数的作用是 是否在上一次的基础上继续向下书写
          */
         int l;
-        while ((l = fis1.read()) != -1){
-            fos1.write(l);
+        byte[] bytes = new byte[1024 * 1024 * 5];
+        while ((l = fis1.read(bytes)) != -1) {
+            fos1.write(bytes, 0, l);
         }
+        fos1.close();
+        fis1.close();
     }
 }
